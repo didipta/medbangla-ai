@@ -3,7 +3,7 @@
 - Generic Name: levofloxacin
 - Therapeutic Class: 4-Quinolone preparations
 - Source URL: https://medex.com.bd/generics/680/levofloxacin-hemihydrate
-- Retrieved At (UTC): 2026-10-10T15:02:59+00:00
+- Retrieved At (UTC): 2026-10-10T15:48:05+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

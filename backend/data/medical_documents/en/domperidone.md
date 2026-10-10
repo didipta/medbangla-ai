@@ -4,7 +4,7 @@
 - Therapeutic Class: Motility Stimulants, Motility stimulants/Dopamine antagonist, Prokinetic drugs
 - Available Dosage Forms: Tablets & Oral Suspension, Suppository
 - Source URL: https://medex.com.bd/generics/380/domperidone-maleate
-- Retrieved At (UTC): 2026-10-10T15:01:48+00:00
+- Retrieved At (UTC): 2026-10-10T15:47:02+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

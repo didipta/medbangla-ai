@@ -4,7 +4,7 @@
 - Therapeutic Class: Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)
 - Available Dosage Forms: Ref-01, Ref-02
 - Source URL: https://medex.com.bd/generics/593/ibuprofen-oral
-- Retrieved At (UTC): 2026-10-10T15:00:00+00:00
+- Retrieved At (UTC): 2026-10-10T15:45:50+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

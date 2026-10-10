@@ -3,7 +3,7 @@
 - Generic Name: amlodipine
 - Therapeutic Class: Calcium-channel blockers
 - Source URL: https://medex.com.bd/generics/62/amlodipine-besilate
-- Retrieved At (UTC): 2026-10-10T15:03:24+00:00
+- Retrieved At (UTC): 2026-10-10T15:48:30+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

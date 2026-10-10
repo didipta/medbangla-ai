@@ -4,7 +4,7 @@
 - Therapeutic Class: Not Specified
 - Available Dosage Forms: Oral, Injection
 - Source URL: https://medex.com.bd/generics/433/esomeprazole
-- Retrieved At (UTC): 2026-10-10T15:01:08+00:00
+- Retrieved At (UTC): 2026-10-10T15:46:29+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

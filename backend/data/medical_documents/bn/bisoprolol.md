@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Anti adrenergic agent (Beta blockers), Beta-adrenoceptor blocking drugs, Beta-blockers
 - সহজলভ্য ডোজ ফর্ম: Ref-01, Ref-02
 - উৎস লিংক: https://medex.com.bd/generics/135/bisoprolol-fumarate/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:03:36+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T15:48:41+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

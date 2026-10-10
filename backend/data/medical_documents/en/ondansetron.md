@@ -4,7 +4,7 @@
 - Therapeutic Class: Anti-emetic drugs
 - Available Dosage Forms: Tablets & Oral Solution, Injection, Suppositories, Oral soluble film
 - Source URL: https://medex.com.bd/generics/827/ondansetron
-- Retrieved At (UTC): 2026-10-10T15:01:54+00:00
+- Retrieved At (UTC): 2026-10-10T15:47:07+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

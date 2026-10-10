@@ -4,7 +4,7 @@
 - Therapeutic Class: 4-Quinolone preparations, Anti-diarrhoeal antimicrobial drugs
 - Available Dosage Forms: Tablet & Oral Suspension, Injection
 - Source URL: https://medex.com.bd/generics/263/ciprofloxacin
-- Retrieved At (UTC): 2026-10-10T15:02:22+00:00
+- Retrieved At (UTC): 2026-10-10T15:47:33+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

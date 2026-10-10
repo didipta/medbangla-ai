@@ -129,3 +129,10 @@ scratch/
 *.sqlite
 *.sqlite3
 *.db
+
+# Project Planning & Roadmap Documents
+PROJECT_PLAN.md
+STEP_BY_STEP_IMPLEMENTATION.md
+*PLAN*.md
+*plan*.md
+

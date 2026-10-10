@@ -4,7 +4,7 @@
 - Therapeutic Class: Amoebicides, Anti-diarrhoeal antiprotozoal
 - Available Dosage Forms: Vaginal Gel, Tablet, Intravenous Infusion
 - Source URL: https://medex.com.bd/generics/751/metronidazole
-- Retrieved At (UTC): 2026-10-10T15:03:07+00:00
+- Retrieved At (UTC): 2026-10-10T15:48:12+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

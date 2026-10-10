@@ -3,7 +3,7 @@
 - Generic Name: cefixime
 - Therapeutic Class: Third generation cephalosporins
 - Source URL: https://medex.com.bd/generics/217/cefixime-trihydrate
-- Retrieved At (UTC): 2026-10-10T15:02:34+00:00
+- Retrieved At (UTC): 2026-10-10T15:47:43+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

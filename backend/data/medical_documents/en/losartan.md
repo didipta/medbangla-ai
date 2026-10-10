@@ -3,7 +3,7 @@
 - Generic Name: losartan
 - Therapeutic Class: Angiotensin-ll receptor blocker
 - Source URL: https://medex.com.bd/generics/699/losartan-potassium
-- Retrieved At (UTC): 2026-10-10T15:03:18+00:00
+- Retrieved At (UTC): 2026-10-10T15:48:22+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

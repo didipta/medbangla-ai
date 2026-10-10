@@ -3,7 +3,7 @@
 - Generic Name: clopidogrel
 - Therapeutic Class: Anti-platelet drugs
 - Source URL: https://medex.com.bd/generics/286/clopidogrel-bisulphate
-- Retrieved At (UTC): 2026-10-10T15:04:05+00:00
+- Retrieved At (UTC): 2026-10-10T15:49:12+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

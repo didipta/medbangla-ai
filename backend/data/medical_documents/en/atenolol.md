@@ -4,7 +4,7 @@
 - Therapeutic Class: Beta-adrenoceptor blocking drugs, Beta-blockers
 - Available Dosage Forms: AstraZeneca, Sanofi
 - Source URL: https://medex.com.bd/generics/88/atenolol
-- Retrieved At (UTC): 2026-10-10T15:03:42+00:00
+- Retrieved At (UTC): 2026-10-10T15:48:47+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

@@ -45,11 +45,11 @@ else:
 DOCS_DIR = BACKEND_DIR / "data" / "medical_documents"
 EN_DOCS_DIR = DOCS_DIR / "en"
 BN_DOCS_DIR = DOCS_DIR / "bn"
-BILINGUAL_DOCS_DIR = DOCS_DIR / "bilingual"
 JSON_DOCS_DIR = DOCS_DIR / "json"
 
-for d in [DOCS_DIR, EN_DOCS_DIR, BN_DOCS_DIR, BILINGUAL_DOCS_DIR, JSON_DOCS_DIR]:
+for d in [DOCS_DIR, EN_DOCS_DIR, BN_DOCS_DIR, JSON_DOCS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
+
 
 MEDEX_BASE_URL = "https://medex.com.bd"
 MEDEX_GENERICS_INDEX = "https://medex.com.bd/generics"
@@ -995,15 +995,12 @@ def scrape_generic_bilingual(
     # 5. Write Files (UTF-8 encoding)
     en_file = EN_DOCS_DIR / f"{slug}.md"
     bn_file = BN_DOCS_DIR / f"{slug}.md"
-    bilingual_file = BILINGUAL_DOCS_DIR / f"{slug}.md"
-    root_file = DOCS_DIR / f"{slug}.md"  # For backwards compatibility
     json_file = JSON_DOCS_DIR / f"{slug}.json"
 
     en_file.write_text(md_en, encoding="utf-8")
     bn_file.write_text(md_bn, encoding="utf-8")
-    bilingual_file.write_text(md_bilingual, encoding="utf-8")
-    root_file.write_text(md_bilingual, encoding="utf-8")
     json_file.write_text(json.dumps(json_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
 
     logger.info(
         "Successfully saved drug docs for '%s' (EN: %d sec, BN: %d sec, Brands: %d)",

@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Anti-emetic drugs
 - সহজলভ্য ডোজ ফর্ম: Tablets & Oral Solution, Injection, Suppositories, Oral soluble film
 - উৎস লিংক: https://medex.com.bd/generics/827/ondansetron/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:01:54+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T15:47:07+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 
