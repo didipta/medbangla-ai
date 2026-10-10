@@ -1,0 +1,877 @@
+{
+  "slug": "ambroxol",
+  "name_en": "Ambroxol Hydrochloride",
+  "name_bn": "এমব্রোক্সল হাইড্রোক্লোরাইড",
+  "therapeutic_class": "Cough expectorants & mucolytics",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Acorex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/532/acorex-15-mg-syrup"
+    },
+    {
+      "name": "Adebrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/30540/adebrox-15-mg-syrup"
+    },
+    {
+      "name": "Ambeet",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/535/ambeet-15-mg-syrup"
+    },
+    {
+      "name": "Ambeet",
+      "strength": "75 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/536/ambeet-75-mg-sr-capsule"
+    },
+    {
+      "name": "Ambix",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/537/ambix-15-mg-syrup"
+    },
+    {
+      "name": "Ambocus",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33874/ambocus-15-mg-syrup"
+    },
+    {
+      "name": "Ambocus",
+      "strength": "6 mg/ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33875/ambocus-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambokof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/538/ambokof-15-mg-syrup"
+    },
+    {
+      "name": "Ambokof",
+      "strength": "6 mg/ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25522/ambokof-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambolin",
+      "strength": "6 mg/ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/539/ambolin-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambolin",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4026/ambolin-15-mg-syrup"
+    },
+    {
+      "name": "Ambolos",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/540/ambolos-15-mg-syrup"
+    },
+    {
+      "name": "Ambolyt",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml botttle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/541/ambolyt-15-mg-syrup"
+    },
+    {
+      "name": "Ambolyt",
+      "strength": "6 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/542/ambolyt-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambolyt SR",
+      "strength": "75 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/38220/ambolyt-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Amboral",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 30.11",
+      "url": "https://medex.com.bd/brands/543/amboral-15-mg-syrup"
+    },
+    {
+      "name": "Amboral",
+      "strength": "6 mg/ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/544/amboral-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambosil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/545/ambosil-15-mg-syrup"
+    },
+    {
+      "name": "Ambosil",
+      "strength": "6 mg/ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/546/ambosil-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Amboten",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/547/amboten-15-mg-syrup"
+    },
+    {
+      "name": "Amboten",
+      "strength": "6 mg/ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/548/amboten-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Amboxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/549/amboxol-15-mg-syrup"
+    },
+    {
+      "name": "Amboxol",
+      "strength": "6 mg/ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/25516/amboxol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambozin",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/550/ambozin-15-mg-syrup"
+    },
+    {
+      "name": "Ambozin SR",
+      "strength": "75 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/551/ambozin-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Ambrocod",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25498/ambrocod-15-mg-syrup"
+    },
+    {
+      "name": "Ambrodex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/30541/ambrodex-15-mg-syrup"
+    },
+    {
+      "name": "Ambrogen",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/35866/ambrogen-15-mg-syrup"
+    },
+    {
+      "name": "Ambrokof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/35317/ambrokof-15-mg-syrup"
+    },
+    {
+      "name": "Ambromax",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/30542/ambromax-15-mg-syrup"
+    },
+    {
+      "name": "Ambronaaf",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/28784/ambronaaf-15-mg-syrup"
+    },
+    {
+      "name": "Ambronil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/553/ambronil-15-mg-syrup"
+    },
+    {
+      "name": "Ambronil",
+      "strength": "6 mg/ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/554/ambronil-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambrop",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25504/ambrop-15-mg-syrup"
+    },
+    {
+      "name": "Ambrosia",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/31447/ambrosia-15-mg-syrup"
+    },
+    {
+      "name": "Ambrosol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/556/ambrosol-15-mg-syrup"
+    },
+    {
+      "name": "Ambrosol",
+      "strength": "75 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/30543/ambrosol-75-mg-sr-capsule"
+    },
+    {
+      "name": "Ambrotil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/557/ambrotil-15-mg-syrup"
+    },
+    {
+      "name": "Ambroton",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.13",
+      "url": "https://medex.com.bd/brands/558/ambroton-15-mg-syrup"
+    },
+    {
+      "name": "Ambrotus",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/28673/ambrotus-15-mg-syrup"
+    },
+    {
+      "name": "Ambrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/559/ambrox-15-mg-syrup"
+    },
+    {
+      "name": "Ambrox",
+      "strength": "6 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "15 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/560/ambrox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Ambrox SR",
+      "strength": "75 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/561/ambrox-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Ambroxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4028/ambroxol-15-mg-syrup"
+    },
+    {
+      "name": "Ambroxol SR",
+      "strength": "75 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/4027/ambroxol-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Ambryl",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4029/ambryl-15-mg-syrup"
+    },
+    {
+      "name": "Ambryl",
+      "strength": "6 mg/ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "15 ml bottle : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/4030/ambryl-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Amcold",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38610/amcold-15-mg-syrup"
+    },
+    {
+      "name": "Amorox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25536/amorox-15-mg-syrup"
+    },
+    {
+      "name": "Amsiv",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4031/amsiv-15-mg-syrup"
+    },
+    {
+      "name": "Aroxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4032/aroxol-15-mg-syrup"
+    },
+    {
+      "name": "Aroxol",
+      "strength": "6 mg/ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/4033/aroxol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Axsol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25521/axsol-15-mg-syrup"
+    },
+    {
+      "name": "Bilco",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4034/bilco-15-mg-syrup"
+    },
+    {
+      "name": "Boxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4036/boxol-15-mg-syrup"
+    },
+    {
+      "name": "Boxol",
+      "strength": "6 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 33.00",
+      "url": "https://medex.com.bd/brands/4037/boxol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Boxol SR",
+      "strength": "75 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.01",
+      "url": "https://medex.com.bd/brands/25525/boxol-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Broculyt",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4038/broculyt-15-mg-syrup"
+    },
+    {
+      "name": "Bronchosil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 38.00",
+      "url": "https://medex.com.bd/brands/4039/bronchosil-15-mg-syrup"
+    },
+    {
+      "name": "Bronsol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/37679/bronsol-15-mg-syrup"
+    },
+    {
+      "name": "Brox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4040/brox-15-mg-syrup"
+    },
+    {
+      "name": "Brox",
+      "strength": "6 mg/ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25520/brox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Broxidil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4041/broxidil-15-mg-syrup"
+    },
+    {
+      "name": "Broxolin",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 40.12",
+      "url": "https://medex.com.bd/brands/4042/broxolin-15-mg-syrup"
+    },
+    {
+      "name": "Broxolit",
+      "strength": "6 mg/ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28510/broxolit-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Broxolit",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28511/broxolit-15-mg-syrup"
+    },
+    {
+      "name": "Cofexin",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25512/cofexin-15-mg-syrup"
+    },
+    {
+      "name": "Dilyt",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 40.13",
+      "url": "https://medex.com.bd/brands/4045/dilyt-15-mg-syrup"
+    },
+    {
+      "name": "Emulyt",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/27852/emulyt-15-mg-syrup"
+    },
+    {
+      "name": "Femex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/4046/femex-15-mg-syrup"
+    },
+    {
+      "name": "Flintex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/30545/flintex-15-mg-syrup"
+    },
+    {
+      "name": "Hybrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4047/hybrox-15-mg-syrup"
+    },
+    {
+      "name": "Hybrox",
+      "strength": "6 mg/ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.09",
+      "url": "https://medex.com.bd/brands/4048/hybrox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Hybrox",
+      "strength": "75 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/30546/hybrox-75-mg-sr-capsule"
+    },
+    {
+      "name": "Kashba",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "Price not available",
+      "url": "https://medex.com.bd/brands/25496/kashba-15-mg-syrup"
+    },
+    {
+      "name": "Kashba",
+      "strength": "6 mg/ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/25497/kashba-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Kickof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25513/kickof-15-mg-syrup"
+    },
+    {
+      "name": "Kofmelt",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/37416/kofmelt-15-mg-syrup"
+    },
+    {
+      "name": "Kufflin",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4049/kufflin-15-mg-syrup"
+    },
+    {
+      "name": "Leucofil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25517/leucofil-15-mg-syrup"
+    },
+    {
+      "name": "Lytex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4051/lytex-15-mg-syrup"
+    },
+    {
+      "name": "Lytex",
+      "strength": "6 mg/ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/4052/lytex-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Lytex SR",
+      "strength": "75 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/4050/lytex-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "M Boss",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4053/m-boss-15-mg-syrup"
+    },
+    {
+      "name": "Mbroxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25505/mbroxol-15-mg-syrup"
+    },
+    {
+      "name": "Mubrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.20",
+      "url": "https://medex.com.bd/brands/4054/mubrox-15-mg-syrup"
+    },
+    {
+      "name": "Mubrox",
+      "strength": "6 mg/ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/4055/mubrox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Mucobrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 43.00",
+      "url": "https://medex.com.bd/brands/4056/mucobrox-15-mg-syrup"
+    },
+    {
+      "name": "Mucobrox",
+      "strength": "6 mg/ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/4057/mucobrox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Mucoclean",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/32542/mucoclean-15-mg-syrup"
+    },
+    {
+      "name": "Mucosol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4058/mucosol-15-mg-syrup"
+    },
+    {
+      "name": "Mucosol",
+      "strength": "6 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/4059/mucosol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Mucovan",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/4060/mucovan-15-mg-syrup"
+    },
+    {
+      "name": "Muex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25526/muex-15-mg-syrup"
+    },
+    {
+      "name": "Mutex",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25501/mutex-15-mg-syrup"
+    },
+    {
+      "name": "Myrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4061/myrox-15-mg-syrup"
+    },
+    {
+      "name": "Myrox",
+      "strength": "6 mg/ml",
+      "manufacturer": "ACI Limited",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/4062/myrox-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Myrox SR",
+      "strength": "75 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 5.04",
+      "url": "https://medex.com.bd/brands/32311/myrox-sr-75-mg-sr-capsule"
+    },
+    {
+      "name": "Neobrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4063/neobrox-15-mg-syrup"
+    },
+    {
+      "name": "Nexol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4064/nexol-15-mg-syrup"
+    },
+    {
+      "name": "Nexol",
+      "strength": "6 mg/ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/4065/nexol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Onecof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25524/onecof-15-mg-syrup"
+    },
+    {
+      "name": "Recof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4067/recof-15-mg-syrup"
+    },
+    {
+      "name": "Recof",
+      "strength": "6 mg/ml",
+      "manufacturer": "Renata PLC",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25530/recof-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Remap",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4068/remap-15-mg-syrup"
+    },
+    {
+      "name": "Resol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.12",
+      "url": "https://medex.com.bd/brands/4069/resol-15-mg-syrup"
+    },
+    {
+      "name": "Rixol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4070/rixol-15-mg-syrup"
+    },
+    {
+      "name": "Roxal",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4071/roxal-15-mg-syrup"
+    },
+    {
+      "name": "Roxal",
+      "strength": "6 mg/ml",
+      "manufacturer": "Edruc Limited",
+      "price": "15 ml bottle : ৳ 20.45",
+      "url": "https://medex.com.bd/brands/4072/roxal-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Roxnil",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/38757/roxnil-15-mg-syrup"
+    },
+    {
+      "name": "Safoxol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25502/safoxol-15-mg-syrup"
+    },
+    {
+      "name": "Safoxol",
+      "strength": "75 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/25503/safoxol-75-mg-sr-capsule"
+    },
+    {
+      "name": "Seebrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4073/seebrox-15-mg-syrup"
+    },
+    {
+      "name": "Tembrox",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/27340/tembrox-15-mg-syrup"
+    },
+    {
+      "name": "Viscosol",
+      "strength": "6 mg/ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/35755/viscosol-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Viscosol",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36632/viscosol-15-mg-syrup"
+    },
+    {
+      "name": "WinkOF",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25507/winkof-15-mg-syrup"
+    },
+    {
+      "name": "X-Cold",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/4074/x-cold-15-mg-syrup"
+    },
+    {
+      "name": "X-Cold",
+      "strength": "6 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/4075/x-cold-6-mg-pediatric-drop"
+    },
+    {
+      "name": "Xerokof",
+      "strength": "15 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/4076/xerokof-15-mg-syrup"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ambroxol Hydrochloride is indicated in-\n\n- Productive cough\n- Acute and chronic inflammatory disorders of upper and lower respiratory tracts associated with viscid mucus including acute and chronic bronchitis\n- Inflammatory disease of rhinopharyngeal tract (laryngitis, pharyngitis, sinusitis and rhinitis) associated with viscid mucus\n- Asthmatic bronchitis bronchial asthma with thick expectoration\n- Bronchiectasis\n- Chronic pneumonia etc.",
+    "mode_of_action": "Ambroxol is the active metabolite of bromhexine and it has been proven that this metabolite possesses a greater bronchosecretolytic effect than bromhexine. It improves sputum rheology by hydrating mechanism leading to liquefaction of mucus in the lumen of respiratory tract, thus facilitating expectoration of mucus and reducing dyspnea. It stimulates production of phospholipids of surfactant by alveolar cells, thus contributing to the lowering of superficial tension in the alveoli. It also reduces bronchial hyperactivity. Ambroxol has anti inflammatory properties owing to the inhibitory effect on the production of cellular cytokines and arachidonic acid metabolites. In patients with COPD it traditionally improves airway patency.",
+    "dosage": "Average daily dose (preferably after meal):\n\nPediatric Drops: \n\n- **0-6 months**: 0.5 ml 2 times a day\n- **6-12 months**: 1 ml 2 times a day\n- **1-2 years**: 1.25 ml 2 times a day\n\r\nSyrup: \n\n- **2-5 years**: 2.5 ml (1/2 teaspoonful) 2-3 times a day\n- **5-10 years**: 5 ml (1 teaspoonful) 2-3 times a day\n- **10 years and adults**: 10 ml (2 teaspoonful) 3 times a day.\n\r\nSustained release capsule: Adult and children over 12 years old: 1 capsule once daily.",
+    "interaction": "Ambroxol should not be taken simultaneously with antitussives (e.g.Codeine) because phlegm, which has been liquefied by Ambroxol might not be expectorated.",
+    "contraindications": "Contraindicated in known hypersensitivity to Ambroxol or Bromhexine.",
+    "side_effects": "Gastrointestinal side effects like epigastric pain, stomach overfill feeling may occur occasionally. Rarely allergic responses such as eruption, urticaria or angioneurotic edema have been reported.",
+    "pregnancy_cat": "Teratogenic and fetal toxicity studies have shown no harmful effect of Ambroxol. However, it is advised not to use it in pregnancy, especially during the1st trimester. Safety during lactation has not been established yet.",
+    "precautions": "Ambroxol should be given cautiously to patients with gastric and duodenal ulceration or convulsive disorders. Patients with hepatic and renal insufficiency should take it with caution.",
+    "drug_classes": "Cough expectorants & mucolytics",
+    "storage_conditions": "Protect from direct light exposure, Store in a dry place at a temperature not exceeding 30°C, Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "ইহা নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- শ্লেষ্মাযুক্ত কাশি\n- শ্লেষ্মাযুক্ত শ্বাসতন্ত্রের একিউট ও ক্রনিক প্রদাহ যেমন একিউট ও ক্রনিক ব্রঙ্কাইটিস\n- শ্লেষ্মাযুক্ত রাইনোফেরিঞ্জিয়াল ট্রাক্ট এর প্রদাহ (ল্যারিজাইটিস, ফ্যারিন্জাইটিস, সাইনুসাইটিস এবং রাইনাইটিস)\n- শ্লেষ্মাযুক্ত এ্যাজমাটিক ব্রঙ্কাইটিস, ব্রঙ্কিয়াল এ্যাজমা\n- ব্ৰঙ্কিয়েকটেসিস\n- ক্রনিক নিউমোনিয়া",
+    "mode_of_action": "এমব্রোক্সল, ব্রোমহেক্সিনের সক্রিয় মেটাবোলাইট এবং ব্রোমহেক্সিনের চেয়ে এর কার্যকারিতা বেশী। হাইড্রেশন প্রক্রিয়ার মাধ্যমে শ্লেষ্মাকে শ্বাসনালীর মধ্যে তরল করে এবং শ্বাসকষ্ট কমায়। এমব্রোক্সল এলভিওলার কোষের সারফেকটেন্ট এর গুরুত্বপূর্ণ উপাদান ফসফোলিপিড তৈরী ত্বরান্বিত করে, ফলে এলভিওলাই এর ভিতরের চাপ কমে। এটা ব্রঙ্কিয়াল হাইপার এক্টিভিটি কমায়। এমব্রোক্সল সাইটোকাইন এবং এরাকিডনিক এসিড মেটাবোলাইট তৈরীতে বাধা দিয়ে প্রদাহরোধী ভূমিকা রাখে। COPD রোগীদের শ্বাসনালীর প্রশস্ততা বজায় রাখতে সাহায্য করে।",
+    "dosage": "দৈনিক সেবন মাত্রা (খাবার পর গ্রহণ করা উত্তম):\n\nপেডিয়াট্রিক ড্রপস:\n\n- **০-৬ মাস**: ০.৫ মিলি ২ বার\n- **৬-১২ মাস**: দিনে ১ মিলি ২ বার\n- **১-২ বছর**: দিনে ১.২৫ মিলি ২ বার\n\r\nসিরাপ:\n\n- **২-৫ বছর**: ২.৫ মিলি (১/২ চা চামচ) দিনে ২-৩ বার\n- **৫-১০ বছর**: ৫ মিলি (১ চা চামচ) দিনে ২-৩ বার\n- **১০ বছর এবং প্রাপ্তবয়স্করা**: ১০ মিলি (২ চা চামচ) দিনে ৩ বার।\n\r\nসাস্টেইন্ড রিলিজ ক্যাপসুল: প্রাপ্ত বয়স্ক এবং ১২ বছরের বেশি বয়সী শিশু: ১ ক্যাপসুল প্রতিদিন একবার।",
+    "interaction": "এন্টিটুসিভ (যেমন কোডেইন) এর সাথে গ্রহণ করা উচিত নয়, সেক্ষেত্রে শ্লেষ্মা যা এমব্রোক্সল দ্বারা তরল হয়েছে তা বের হয়ে যেতে পারে না।",
+    "contraindications": "এমব্রোক্সল বা ব্রোমহেক্সিন এর প্রতি অতিসংবেদনশীলতা থাকলে।",
+    "side_effects": "কিছু কিছু ক্ষেত্রে পরিপাকতন্ত্রে বিভিন্ন পার্শ্ব প্রতিক্রিয়া যেমন পাকস্থলীর প্রদাহ ও ভার ভার ভাব দেখা দিতে পারে। কদাচিৎ এলার্জি, যেমন- চুলকানি, এনজিওনিউরোটিক ইডেমা হতে পারে ।",
+    "pregnancy_cat": "গর্ভাবস্থায় এমব্রোক্সল ব্যবহারে গর্ভস্থ শিশুর কোন রকম ক্ষতির তথ্য পাওয়া যায়নি। তবুও গর্ভকালীন সময়ে, বিশেষ করে প্রথম ৩ মাস এমব্রোক্সল ব্যবহার করা উচিত নয়। স্তন্যদানকালে এমব্রোক্সল ব্যবহারের নিরাপত্তা এখনও প্রতিষ্ঠিত নয়।",
+    "precautions": "গ্যাস্ট্রিক ও ডিওডেনাল আলসারের রোগীদের এবং খিচুনীর রোগীদের সাবধানতার সাথে এমব্রোক্সল দেয়া উচিত। যাদের যকৃত ও বৃক্কের কার্যক্ষমতার অপর্যাপ্ততা রয়েছে তাদের ক্ষেত্রে সাবধানতা অবলম্বন করা উচিত।",
+    "drug_classes": "Cough expectorants & mucolytics",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০°সে. তাপমাত্রার নিচে সংরক্ষণ করুন। সকল ওষুধ শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/53/ambroxol-hydrochloride",
+  "source_url_bn": "https://medex.com.bd/generics/53/ambroxol-hydrochloride/bn",
+  "scraped_at": "2026-10-10T18:30:30+00:00"
+}

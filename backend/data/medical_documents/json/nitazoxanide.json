@@ -1,0 +1,541 @@
+{
+  "slug": "nitazoxanide",
+  "name_en": "Nitazoxanide",
+  "name_bn": "নিটাজক্সানাইড",
+  "therapeutic_class": "Anti-diarrhoeal antiprotozoal",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adnix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/2287/adnix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Adnix",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2286/adnix-500-mg-tablet"
+    },
+    {
+      "name": "Adonid",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2325/adonid-500-mg-tablet"
+    },
+    {
+      "name": "Adonid DS",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/22883/adonid-ds-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Albizox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "60 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33310/albizox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Albizox",
+      "strength": "500 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/33311/albizox-500-mg-tablet"
+    },
+    {
+      "name": "Alinix",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2288/alinix-500-mg-tablet"
+    },
+    {
+      "name": "Alinix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2289/alinix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Atinid",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.05",
+      "url": "https://medex.com.bd/brands/2292/atinid-500-mg-tablet"
+    },
+    {
+      "name": "Atinid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "30 ml bottle : ৳ 35.12",
+      "url": "https://medex.com.bd/brands/2293/atinid-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dianide",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.24",
+      "url": "https://medex.com.bd/brands/2295/dianide-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dianide",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/2294/dianide-500-mg-tablet"
+    },
+    {
+      "name": "Diar",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "30 ml bottle : ৳ 35.24",
+      "url": "https://medex.com.bd/brands/2297/diar-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Diar",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/2296/diar-500-mg-tablet"
+    },
+    {
+      "name": "Diazox",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27152/diazox-500-mg-tablet"
+    },
+    {
+      "name": "Diazox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/27153/diazox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Niazid",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2300/niazid-500-mg-tablet"
+    },
+    {
+      "name": "Niazid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2301/niazid-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nicud",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2302/nicud-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nidozox",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.11",
+      "url": "https://medex.com.bd/brands/2305/nidozox-500-mg-tablet"
+    },
+    {
+      "name": "Nidozox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "30 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/2306/nidozox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitacure",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/22869/nitacure-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitacure",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22868/nitacure-500-mg-tablet"
+    },
+    {
+      "name": "Nitalet",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2307/nitalet-500-mg-tablet"
+    },
+    {
+      "name": "Nitamed",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/22876/nitamed-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitamed",
+      "strength": "500 mg",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22877/nitamed-500-mg-tablet"
+    },
+    {
+      "name": "Nitanid",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 10.05",
+      "url": "https://medex.com.bd/brands/2308/nitanid-500-mg-tablet"
+    },
+    {
+      "name": "Nitanid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "60 ml bottle : ৳ 50.20",
+      "url": "https://medex.com.bd/brands/2309/nitanid-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitasol",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2310/nitasol-500-mg-tablet"
+    },
+    {
+      "name": "Nitasol",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "30 ml bottle : ৳ 36.00",
+      "url": "https://medex.com.bd/brands/2311/nitasol-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitax",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22870/nitax-500-mg-tablet"
+    },
+    {
+      "name": "Nitaxen",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22874/nitaxen-500-mg-tablet"
+    },
+    {
+      "name": "Nitaxen",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/22875/nitaxen-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitaxide",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2314/nitaxide-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitazet",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/2316/nitazet-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitazet",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2315/nitazet-500-mg-tablet"
+    },
+    {
+      "name": "Nitazox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/2318/nitazox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitazox",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2317/nitazox-500-mg-tablet"
+    },
+    {
+      "name": "Nitide",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/2320/nitide-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitide",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2319/nitide-500-mg-tablet"
+    },
+    {
+      "name": "Nitoxin",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "30 ml bottle : ৳ 36.00",
+      "url": "https://medex.com.bd/brands/2322/nitoxin-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nitoxin",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2321/nitoxin-500-mg-tablet"
+    },
+    {
+      "name": "Nixamid",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29080/nixamid-500-mg-tablet"
+    },
+    {
+      "name": "Nixar",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/2324/nixar-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nixar",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2323/nixar-500-mg-tablet"
+    },
+    {
+      "name": "Niz",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22872/niz-500-mg-tablet"
+    },
+    {
+      "name": "Niz",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/22871/niz-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nizonid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2327/nizonid-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nizonid",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2326/nizonid-500-mg-tablet"
+    },
+    {
+      "name": "Nizox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2329/nizox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nizox",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2328/nizox-500-mg-tablet"
+    },
+    {
+      "name": "NTZ",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/38063/ntz-500-mg-tablet"
+    },
+    {
+      "name": "NTZ",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2330/ntz-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Parazox",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35597/parazox-500-mg-tablet"
+    },
+    {
+      "name": "Proxa-A",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 38.00",
+      "url": "https://medex.com.bd/brands/22864/proxa-a-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Proxa-A",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2331/proxa-a-500-mg-tablet"
+    },
+    {
+      "name": "Tazox",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2334/tazox-500-mg-tablet"
+    },
+    {
+      "name": "Tazox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/2335/tazox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Toza",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2336/toza-500-mg-tablet"
+    },
+    {
+      "name": "Toza",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2337/toza-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xanide",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2338/xanide-500-mg-tablet"
+    },
+    {
+      "name": "Xanide",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2339/xanide-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xanita",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.04",
+      "url": "https://medex.com.bd/brands/2340/xanita-500-mg-tablet"
+    },
+    {
+      "name": "Xanita",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "30 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/2341/xanita-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zoana",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/2342/zoana-500-mg-tablet"
+    },
+    {
+      "name": "Zoana",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "32 ml bottle : ৳ 35.24",
+      "url": "https://medex.com.bd/brands/2343/zoana-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zox",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/2344/zox-500-mg-tablet"
+    },
+    {
+      "name": "Zox",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "30 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/2345/zox-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zoxan",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/2346/zoxan-500-mg-tablet"
+    },
+    {
+      "name": "Zoxan",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/2347/zoxan-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zoxanid",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2348/zoxanid-500-mg-tablet"
+    },
+    {
+      "name": "Zoxanid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 35.24",
+      "url": "https://medex.com.bd/brands/2349/zoxanid-100-mg-powder-for-suspension"
+    }
+  ],
+  "sections_en": {
+    "indications": "Nitazoxanide is indicated for the treatment of diarrhea caused by Cryptosporidium parvum, Giardia lamblia and Entamoeba histolytica.",
+    "mode_of_action": "Nitazoxanide is a synthetic antiprotozoal agent for oral administration. The antiprotozoal activity of Nitazoxanide is believed to be interference with the Pyruvate Ferredoxin Oxido Reductase (PFOR) enzyme-dependant electron transfer reaction. This reaction is essential for anaerobic energy metabolism of the protozoa. Nitazoxanide and its metabolites, tizoxanid are active in vitro in inhibiting the growth of sporozoites and oocyst of Cryptosporidium parvum and trophozoites of Giardia lamblia.",
+    "dosage": "**Age 1-3 years**: 1 tea-spoonfull or 5 ml suspension every 12 hours for 3 days. \n**Age 4-11 years**: 2 tea-spoonfulls or 10 ml suspension every 12 hours for 3 days.\n**Age 12 years or above**: 5 tea-spoonfulls (25 ml) suspension or 1 tablet every 12 hours for 3 days. \n\nIt is recommended to be administered with food.",
+    "interaction": "It is highly bound to plasma protein. Therefore, caution should be exercised when administering Nitazoxanide concurrently with other highly plasma protein-bound drugs with narrow therapeutic index.",
+    "contraindications": "It is contraindicated in patients with known hypersensitivity to Nitazoxanide or any components of the preparation.",
+    "side_effects": "The most frequent side effects, reported by Nitazoxanide are abdominal pain, vomiting and headache. These side effects are typically mild and transient in nature. Very rare side effects include- nausea, anorexia, flatulence, increased appetite, enlarged salivary glands, increased creatinine & SGPT level, pruritus, rhinitis, sweating, dizziness, discolored urine etc.",
+    "pregnancy_cat": "US FDA pregnancy category of Nitazoxanide is B. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Nitazoxanide have been shown to be excreted in human milk. So, caution should be exercised when Nitazoxanide is administered during lactation.",
+    "precautions": "Nitazoxanide must be administered with caution to patients with hepatic & biliary disease and to patients with renal disease.",
+    "drug_classes": "Anti-diarrhoeal antiprotozoal",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "নিটাজক্সানাইড ক্রিপ্টোস্পোরিডিয়াম পারভাম, জিয়ার্ডিয়া ল্যাম্বলিয়া এবং এন্টামিবা হিস্টোলাইটিকা দ্বারা সৃষ্ট ডায়রিয়ার চিকিৎসায় নির্দেশিত।",
+    "mode_of_action": "নিটাজক্সানাইডের মুখে সেবনযোগ্য একটি সংশ্লেষিত এন্টিপ্রোটোজোয়াল জাতীয় ঔষধ। প্রোটোজোয়ার পাইরুভেট ফেরেডক্সিন অক্সিডো রিডাকটেজ (PFOR) এনজাইমের উপর নির্ভরশীল ইলেকট্রন ট্রান্সফার বিক্রিয়াকে বাধাগ্রস্ত করার মাধ্যমে নিটাজক্সানাইড তার এন্টিপ্রোটোজোয়াল কার্যকারিতা দেয় বলে ধারণা করা হয়। এই বিক্রিয়াটি প্রোটোজোয়ার অবায়বীয় প্রক্রিয়ায় শক্তি উৎপাদন ব্যবস্থার জন্য প্রয়োজনীয়। নিটাজক্সানাইড এবং এর বিপাকীয় উপাদান, টিজক্সানাইড ক্রিপ্টোস্পোরিডিয়াম পারভাম- এর স্পোরোজোয়াইট ও উসাইট এবং জিয়ার্ডিয়া ল্যাম্বলিয়া-এর ট্রোপোজোয়াইটের বৃদ্ধি বন্ধ করার মাধ্যমে কাজ করে (In Vitro).",
+    "dosage": "১-৩ বছরঃ ১ চা-চামচ বা ৫ মিঃলিঃ করে প্রতি ১২ ঘণ্টা পর পর ৩ দিন।\n৪-১১ বছরঃ ২ চা-চামচ বা ১০ মিঃলিঃ করে প্রতি ১২ ঘণ্টা পর পর ৩ দিন।\n১২ বছর বা তার ঊর্ধ্বেঃ ৫ চা-চামচ (২৫ মিঃলিঃ) সাস্পেনশন বা ১ টি করে ট্যাবলেট প্রতি ১২ ঘণ্টা পর পর ৩ দিন। \n\nএটি খাবারের সাথে গ্রহণ হিসেবে অনুমোদিত।",
+    "interaction": "এটি প্লাজমা প্রোটিণের সাথে খুব বেশী পরিমাণে যুক্ত হয়। সুতরাং, অন্যান্য যেসকল ঔষধ, যাদের থেরাপিউটিক ইনডেক্স কম এবং খুব বেশী পরিমাণে প্লাজমা প্রোটিণের সাথে যুক্ত হয় তাদের সাথে যুগপৎভাবে ব্যবহারের ব্যাপারে সতর্কতা অবলম্বন করা উচিত।",
+    "contraindications": "নিটাজক্সানাইড বা এর উপাদানের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে এটি প্রতিনির্দেশিত।",
+    "side_effects": "নিটাজক্সানাইড ব্যবহারে সচরাচর দেখা যায় এমন সব পার্শ্ব প্রতিক্রিয়াগুলো হচ্ছে-পেট ব্যথা, বমি ও মাথা ব্যথা। এই পার্শ্ব প্রতিক্রিয়াগুলো সাধারণত মৃদুমাত্রার ও ক্ষণস্থায়ী। কদাচিৎ দেখা যায় এমন পার্শ্ব প্রতিক্রিয়াগুলো হচ্ছে-বমিবমি ভাব, ক্ষুধামন্দা, পেট ফাঁপা, লালাগ্রন্থির আকার বৃদ্ধি, ক্রিয়েটিনিন ও এসজিপিটি-এর পরিমাণ বৃদ্ধি, চুলকানি, সর্দি, ঝিমুনি, মূত্রের রং পরিবর্তন ইত্যাদি।",
+    "pregnancy_cat": "US FDA প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী নিটাজক্সানাইড 'B' শ্রেণীভূক্ত ঔষধ । অর্থাৎ, গর্ভাবস্থায় ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই । যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহের কার্যকারিতা সন্বন্ধে পূর্ব ধারণা দেয় না, সেহেতু এই ঔষধটি গর্ভাবস্থায় সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। নিটাজক্সানাইড স্তন্যদুগ্ধে নিঃসরিত হয়। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে নিটাজক্সানাইড ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "যকৃত বা পিত্তাশয়ের সমস্যা আছে এমন সব রোগী এবং যে সকল রোগীর বৃক্কীয় সমস্যা আছে তাদের ক্ষেত্রে নিটাজক্সানাইড সতর্কতার সাথে দেয়া উচিত।",
+    "drug_classes": "Anti-diarrhoeal antiprotozoal",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/812/nitazoxanide",
+  "source_url_bn": "https://medex.com.bd/generics/812/nitazoxanide/bn",
+  "scraped_at": "2026-10-10T18:28:57+00:00"
+}

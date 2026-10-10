@@ -3,7 +3,7 @@
 - Generic Name: aceclofenac
 - Therapeutic Class: Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)
 - Source URL: https://medex.com.bd/generics/3/aceclofenac
-- Retrieved At (UTC): 2026-10-10T15:45:46+00:00
+- Retrieved At (UTC): 2026-10-10T18:14:01+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

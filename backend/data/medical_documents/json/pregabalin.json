@@ -1,0 +1,1778 @@
+{
+  "slug": "pregabalin",
+  "name_en": "Pregabalin",
+  "name_bn": "প্রিগাবালিন",
+  "therapeutic_class": "Adjunct anti-epileptic drugs, Primary anti-epileptic drugs",
+  "dosage_forms": [
+    "Extended release tablets",
+    "Capsule & Syrup"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Algaba",
+      "strength": "50 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/32333/algaba-50-mg-capsule"
+    },
+    {
+      "name": "Algaba",
+      "strength": "75 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/32334/algaba-75-mg-capsule"
+    },
+    {
+      "name": "Algaba",
+      "strength": "150 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/32335/algaba-150-mg-capsule"
+    },
+    {
+      "name": "Asibalin",
+      "strength": "25 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38035/asibalin-25-mg-capsule"
+    },
+    {
+      "name": "Asibalin",
+      "strength": "50 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/38036/asibalin-50-mg-capsule"
+    },
+    {
+      "name": "Asibalin",
+      "strength": "75 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/38037/asibalin-75-mg-capsule"
+    },
+    {
+      "name": "Broklin",
+      "strength": "50 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/28941/broklin-50-mg-capsule"
+    },
+    {
+      "name": "Broklin",
+      "strength": "75 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/28942/broklin-75-mg-capsule"
+    },
+    {
+      "name": "Broklin CR",
+      "strength": "82.5 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34101/broklin-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Broklin CR",
+      "strength": "165 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34102/broklin-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Egaba",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27234/egaba-50-mg-capsule"
+    },
+    {
+      "name": "Egaba",
+      "strength": "75 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/27235/egaba-75-mg-capsule"
+    },
+    {
+      "name": "Egaba",
+      "strength": "100 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27236/egaba-100-mg-capsule"
+    },
+    {
+      "name": "Egaba",
+      "strength": "25 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36679/egaba-25-mg-capsule"
+    },
+    {
+      "name": "Gaba-Aid",
+      "strength": "50 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5050/gaba-aid-50-mg-capsule"
+    },
+    {
+      "name": "Gaba-Aid",
+      "strength": "75 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 19.06",
+      "url": "https://medex.com.bd/brands/5051/gaba-aid-75-mg-capsule"
+    },
+    {
+      "name": "Gaba-Aid",
+      "strength": "25 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26962/gaba-aid-25-mg-capsule"
+    },
+    {
+      "name": "GABA-P",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/4974/gaba-p-50-mg-capsule"
+    },
+    {
+      "name": "GABA-P",
+      "strength": "75 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/4975/gaba-p-75-mg-capsule"
+    },
+    {
+      "name": "GABA-P",
+      "strength": "25 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23850/gaba-p-25-mg-capsule"
+    },
+    {
+      "name": "Gaba-P CR",
+      "strength": "330 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/33017/gaba-p-cr-330-mg-cr-tablet"
+    },
+    {
+      "name": "Gaba-P CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/33141/gaba-p-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Gaba-P CR",
+      "strength": "165 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33142/gaba-p-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Gabaglen",
+      "strength": "50 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/34552/gabaglen-50-mg-capsule"
+    },
+    {
+      "name": "Gabalon",
+      "strength": "50 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27264/gabalon-50-mg-capsule"
+    },
+    {
+      "name": "Gabamet",
+      "strength": "25 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27783/gabamet-25-mg-capsule"
+    },
+    {
+      "name": "Gabamet",
+      "strength": "50 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27784/gabamet-50-mg-capsule"
+    },
+    {
+      "name": "Gabamet",
+      "strength": "75 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/27785/gabamet-75-mg-capsule"
+    },
+    {
+      "name": "Gabapre",
+      "strength": "25 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/38194/gabapre-25-mg-capsule"
+    },
+    {
+      "name": "Gabapre",
+      "strength": "50 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38195/gabapre-50-mg-capsule"
+    },
+    {
+      "name": "Gabarol",
+      "strength": "25 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4976/gabarol-25-mg-capsule"
+    },
+    {
+      "name": "Gabarol",
+      "strength": "50 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/4978/gabarol-50-mg-capsule"
+    },
+    {
+      "name": "Gabarol",
+      "strength": "75 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/4979/gabarol-75-mg-capsule"
+    },
+    {
+      "name": "Gabarol",
+      "strength": "100 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/4980/gabarol-100-mg-capsule"
+    },
+    {
+      "name": "Gabarol",
+      "strength": "150 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/4981/gabarol-150-mg-capsule"
+    },
+    {
+      "name": "Gabarol CR",
+      "strength": "82.5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32801/gabarol-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Gabarol CR",
+      "strength": "165 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32802/gabarol-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Gabarol CR",
+      "strength": "330 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/35031/gabarol-cr-330-mg-cr-tablet"
+    },
+    {
+      "name": "Gabatec",
+      "strength": "25 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31060/gabatec-25-mg-capsule"
+    },
+    {
+      "name": "Gabatec",
+      "strength": "50 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/31061/gabatec-50-mg-capsule"
+    },
+    {
+      "name": "Gabatec",
+      "strength": "75 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/31062/gabatec-75-mg-capsule"
+    },
+    {
+      "name": "Gabatec",
+      "strength": "100 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/31063/gabatec-100-mg-capsule"
+    },
+    {
+      "name": "Gabatec",
+      "strength": "150 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/31064/gabatec-150-mg-capsule"
+    },
+    {
+      "name": "Legaba",
+      "strength": "50 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/27173/legaba-50-mg-capsule"
+    },
+    {
+      "name": "Legaba",
+      "strength": "25 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34046/legaba-25-mg-capsule"
+    },
+    {
+      "name": "Lirica",
+      "strength": "75 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/4982/lirica-75-mg-capsule"
+    },
+    {
+      "name": "Lirica",
+      "strength": "50 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/23811/lirica-50-mg-capsule"
+    },
+    {
+      "name": "Lirica",
+      "strength": "25 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/28898/lirica-25-mg-capsule"
+    },
+    {
+      "name": "Lyca",
+      "strength": "50 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37255/lyca-50-mg-capsule"
+    },
+    {
+      "name": "Lyca",
+      "strength": "75 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/37256/lyca-75-mg-capsule"
+    },
+    {
+      "name": "Lyca CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/36469/lyca-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Lyca CR",
+      "strength": "165 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/36470/lyca-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Lyric",
+      "strength": "25 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4983/lyric-25-mg-capsule"
+    },
+    {
+      "name": "Lyric",
+      "strength": "50 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/4984/lyric-50-mg-capsule"
+    },
+    {
+      "name": "Lyric",
+      "strength": "75 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/4985/lyric-75-mg-capsule"
+    },
+    {
+      "name": "Lyric",
+      "strength": "150 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/29217/lyric-150-mg-capsule"
+    },
+    {
+      "name": "Lyric CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/37602/lyric-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Lyric CR",
+      "strength": "165 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/37603/lyric-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Lyric CR",
+      "strength": "330 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/37604/lyric-cr-330-mg-cr-tablet"
+    },
+    {
+      "name": "Lyrinex",
+      "strength": "50 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/17232/lyrinex-50-mg-capsule"
+    },
+    {
+      "name": "Lyrinex",
+      "strength": "75 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/17233/lyrinex-75-mg-capsule"
+    },
+    {
+      "name": "Lyrinex CR",
+      "strength": "82.5 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/32704/lyrinex-cr-825-mg-xr-tablet"
+    },
+    {
+      "name": "Lyrinex CR",
+      "strength": "165 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32705/lyrinex-cr-165-mg-xr-tablet"
+    },
+    {
+      "name": "Lyroxen",
+      "strength": "25 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30893/lyroxen-25-mg-capsule"
+    },
+    {
+      "name": "Lyroxen",
+      "strength": "50 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.50",
+      "url": "https://medex.com.bd/brands/30894/lyroxen-50-mg-capsule"
+    },
+    {
+      "name": "Lyroxen CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34393/lyroxen-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Lyroxen CR",
+      "strength": "165 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34394/lyroxen-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Myrica",
+      "strength": "50 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.50",
+      "url": "https://medex.com.bd/brands/4987/myrica-50-mg-capsule"
+    },
+    {
+      "name": "Myrica",
+      "strength": "75 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/4988/myrica-75-mg-capsule"
+    },
+    {
+      "name": "Myrica",
+      "strength": "100 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/4989/myrica-100-mg-capsule"
+    },
+    {
+      "name": "Myrica",
+      "strength": "25 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30097/myrica-25-mg-capsule"
+    },
+    {
+      "name": "Myrica ER",
+      "strength": "82.5 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/38599/myrica-er-825-mg-xr-tablet"
+    },
+    {
+      "name": "Myrica ER",
+      "strength": "330 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/38600/myrica-er-330-mg-xr-tablet"
+    },
+    {
+      "name": "Myrica ER",
+      "strength": "165 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/38784/myrica-er-165-mg-xr-tablet"
+    },
+    {
+      "name": "Nepco",
+      "strength": "25 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23843/nepco-25-mg-capsule"
+    },
+    {
+      "name": "Nepco",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/23844/nepco-50-mg-capsule"
+    },
+    {
+      "name": "Nepco",
+      "strength": "75 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/23845/nepco-75-mg-capsule"
+    },
+    {
+      "name": "Nepco",
+      "strength": "100 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/23846/nepco-100-mg-capsule"
+    },
+    {
+      "name": "Nepco",
+      "strength": "150 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/28566/nepco-150-mg-capsule"
+    },
+    {
+      "name": "Nepco CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/36827/nepco-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Nepco CR",
+      "strength": "165 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36828/nepco-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Nerfid",
+      "strength": "75 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/4991/nerfid-75-mg-capsule"
+    },
+    {
+      "name": "Nerfid",
+      "strength": "50 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23865/nerfid-50-mg-capsule"
+    },
+    {
+      "name": "Nerfid",
+      "strength": "25 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34279/nerfid-25-mg-capsule"
+    },
+    {
+      "name": "Nerfid",
+      "strength": "150 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/34280/nerfid-150-mg-capsule"
+    },
+    {
+      "name": "Nervaid",
+      "strength": "50 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/28113/nervaid-50-mg-capsule"
+    },
+    {
+      "name": "Nervaid",
+      "strength": "75 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/28114/nervaid-75-mg-capsule"
+    },
+    {
+      "name": "Nervalin",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/4992/nervalin-50-mg-capsule"
+    },
+    {
+      "name": "Nervalin",
+      "strength": "75 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/4993/nervalin-75-mg-capsule"
+    },
+    {
+      "name": "Nervalin",
+      "strength": "25 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/23809/nervalin-25-mg-capsule"
+    },
+    {
+      "name": "Nervalin",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/32476/nervalin-100-mg-oral-solution"
+    },
+    {
+      "name": "Nervalin CR",
+      "strength": "330 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/32017/nervalin-cr-330-mg-xr-tablet"
+    },
+    {
+      "name": "Nervalin CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32597/nervalin-cr-825-mg-xr-tablet"
+    },
+    {
+      "name": "Nervalin CR",
+      "strength": "165 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32598/nervalin-cr-165-mg-xr-tablet"
+    },
+    {
+      "name": "Nervica",
+      "strength": "25 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36656/nervica-25-mg-capsule"
+    },
+    {
+      "name": "Nervica",
+      "strength": "50 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/36657/nervica-50-mg-capsule"
+    },
+    {
+      "name": "Nervica",
+      "strength": "75 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/36658/nervica-75-mg-capsule"
+    },
+    {
+      "name": "Neugaba",
+      "strength": "50 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/4994/neugaba-50-mg-capsule"
+    },
+    {
+      "name": "Neugaba",
+      "strength": "75 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/4995/neugaba-75-mg-capsule"
+    },
+    {
+      "name": "Neugaba",
+      "strength": "150 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/4996/neugaba-150-mg-capsule"
+    },
+    {
+      "name": "Neugaba",
+      "strength": "25 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23860/neugaba-25-mg-capsule"
+    },
+    {
+      "name": "Neugalin",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.60",
+      "url": "https://medex.com.bd/brands/4997/neugalin-50-mg-capsule"
+    },
+    {
+      "name": "Neugalin",
+      "strength": "75 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 18.45",
+      "url": "https://medex.com.bd/brands/4998/neugalin-75-mg-capsule"
+    },
+    {
+      "name": "Neugalin",
+      "strength": "25 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23802/neugalin-25-mg-capsule"
+    },
+    {
+      "name": "Neugalin",
+      "strength": "150 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/33016/neugalin-150-mg-capsule"
+    },
+    {
+      "name": "Neugalin XR",
+      "strength": "82.5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32521/neugalin-xr-825-mg-xr-tablet"
+    },
+    {
+      "name": "Neugalin XR",
+      "strength": "165 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32522/neugalin-xr-165-mg-xr-tablet"
+    },
+    {
+      "name": "Neurega",
+      "strength": "25 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/5001/neurega-25-mg-capsule"
+    },
+    {
+      "name": "Neurega",
+      "strength": "50 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/5002/neurega-50-mg-capsule"
+    },
+    {
+      "name": "Neurega",
+      "strength": "75 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5003/neurega-75-mg-capsule"
+    },
+    {
+      "name": "Neurega",
+      "strength": "100 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5004/neurega-100-mg-capsule"
+    },
+    {
+      "name": "Neurica",
+      "strength": "75 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/5052/neurica-75-mg-capsule"
+    },
+    {
+      "name": "Neurica",
+      "strength": "50 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23822/neurica-50-mg-capsule"
+    },
+    {
+      "name": "Neurolax",
+      "strength": "50 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34468/neurolax-50-mg-capsule"
+    },
+    {
+      "name": "Neurolax",
+      "strength": "75 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/34469/neurolax-75-mg-capsule"
+    },
+    {
+      "name": "Neurolin",
+      "strength": "50 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5005/neurolin-50-mg-capsule"
+    },
+    {
+      "name": "Neurolin",
+      "strength": "75 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5006/neurolin-75-mg-capsule"
+    },
+    {
+      "name": "Neurolin",
+      "strength": "25 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/23859/neurolin-25-mg-capsule"
+    },
+    {
+      "name": "Neurolin CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/33014/neurolin-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Neurolin CR",
+      "strength": "165 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/35427/neurolin-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Neurovan",
+      "strength": "50 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5008/neurovan-50-mg-capsule"
+    },
+    {
+      "name": "Neurovan",
+      "strength": "75 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5009/neurovan-75-mg-capsule"
+    },
+    {
+      "name": "Neurovan",
+      "strength": "25 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/23805/neurovan-25-mg-capsule"
+    },
+    {
+      "name": "Neurovan",
+      "strength": "150 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/33009/neurovan-150-mg-capsule"
+    },
+    {
+      "name": "Nurela",
+      "strength": "50 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23823/nurela-50-mg-capsule"
+    },
+    {
+      "name": "Pegalin",
+      "strength": "25 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/5011/pegalin-25-mg-capsule"
+    },
+    {
+      "name": "Pegalin",
+      "strength": "50 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5012/pegalin-50-mg-capsule"
+    },
+    {
+      "name": "Pegalin",
+      "strength": "75 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5013/pegalin-75-mg-capsule"
+    },
+    {
+      "name": "Pegalin",
+      "strength": "100 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.08",
+      "url": "https://medex.com.bd/brands/5014/pegalin-100-mg-capsule"
+    },
+    {
+      "name": "Pegalin",
+      "strength": "150 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/5015/pegalin-150-mg-capsule"
+    },
+    {
+      "name": "Pegalin ER",
+      "strength": "82.5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32650/pegalin-er-825-mg-xr-tablet"
+    },
+    {
+      "name": "Pegalin ER",
+      "strength": "165 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32651/pegalin-er-165-mg-xr-tablet"
+    },
+    {
+      "name": "Pegalin ER",
+      "strength": "330 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/32652/pegalin-er-330-mg-xr-tablet"
+    },
+    {
+      "name": "Pegamax",
+      "strength": "50 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/5054/pegamax-50-mg-capsule"
+    },
+    {
+      "name": "Pegamax",
+      "strength": "75 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/5055/pegamax-75-mg-capsule"
+    },
+    {
+      "name": "Pegaron",
+      "strength": "50 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5016/pegaron-50-mg-capsule"
+    },
+    {
+      "name": "Pegaron",
+      "strength": "75 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5017/pegaron-75-mg-capsule"
+    },
+    {
+      "name": "Pegaron",
+      "strength": "25 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33340/pegaron-25-mg-capsule"
+    },
+    {
+      "name": "PG",
+      "strength": "50 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5018/pg-50-mg-capsule"
+    },
+    {
+      "name": "PG",
+      "strength": "75 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5019/pg-75-mg-capsule"
+    },
+    {
+      "name": "PG",
+      "strength": "25 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23819/pg-25-mg-capsule"
+    },
+    {
+      "name": "PG CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34653/pg-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "PG CR",
+      "strength": "165 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34654/pg-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Preba",
+      "strength": "50 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/37004/preba-50-mg-capsule"
+    },
+    {
+      "name": "Preba",
+      "strength": "75 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/37005/preba-75-mg-capsule"
+    },
+    {
+      "name": "Prebalin",
+      "strength": "50 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5021/prebalin-50-mg-capsule"
+    },
+    {
+      "name": "Prebalin",
+      "strength": "75 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5022/prebalin-75-mg-capsule"
+    },
+    {
+      "name": "Prebalin",
+      "strength": "25 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23820/prebalin-25-mg-capsule"
+    },
+    {
+      "name": "Prebalin",
+      "strength": "150 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.20",
+      "url": "https://medex.com.bd/brands/32077/prebalin-150-mg-capsule"
+    },
+    {
+      "name": "Prebalin CR",
+      "strength": "82.5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35702/prebalin-cr-825-mg-xr-tablet"
+    },
+    {
+      "name": "Prebalin CR",
+      "strength": "165 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/35703/prebalin-cr-165-mg-xr-tablet"
+    },
+    {
+      "name": "Prebinit",
+      "strength": "25 mg",
+      "manufacturer": "Genvio Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32870/prebinit-25-mg-capsule"
+    },
+    {
+      "name": "Prebinit",
+      "strength": "50 mg",
+      "manufacturer": "Genvio Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32871/prebinit-50-mg-capsule"
+    },
+    {
+      "name": "Prebinit",
+      "strength": "75 mg",
+      "manufacturer": "Genvio Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/32872/prebinit-75-mg-capsule"
+    },
+    {
+      "name": "Prebinit",
+      "strength": "150 mg",
+      "manufacturer": "Genvio Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/32873/prebinit-150-mg-capsule"
+    },
+    {
+      "name": "Pregaba",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5024/pregaba-50-mg-capsule"
+    },
+    {
+      "name": "Pregaba",
+      "strength": "75 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5025/pregaba-75-mg-capsule"
+    },
+    {
+      "name": "Pregaba",
+      "strength": "150 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/5026/pregaba-150-mg-capsule"
+    },
+    {
+      "name": "Pregaba",
+      "strength": "25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/23842/pregaba-25-mg-capsule"
+    },
+    {
+      "name": "Pregaba",
+      "strength": "100 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/31203/pregaba-100-mg-capsule"
+    },
+    {
+      "name": "Pregaba ER",
+      "strength": "82.5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34217/pregaba-er-825-mg-xr-tablet"
+    },
+    {
+      "name": "Pregaba ER",
+      "strength": "165 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34218/pregaba-er-165-mg-xr-tablet"
+    },
+    {
+      "name": "Pregaba ER",
+      "strength": "330 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/34219/pregaba-er-330-mg-xr-tablet"
+    },
+    {
+      "name": "Pregaben",
+      "strength": "50 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.75",
+      "url": "https://medex.com.bd/brands/5027/pregaben-50-mg-capsule"
+    },
+    {
+      "name": "Pregaben",
+      "strength": "75 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5028/pregaben-75-mg-capsule"
+    },
+    {
+      "name": "Pregaben",
+      "strength": "150 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/5029/pregaben-150-mg-capsule"
+    },
+    {
+      "name": "Pregaben",
+      "strength": "25 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/23824/pregaben-25-mg-capsule"
+    },
+    {
+      "name": "Pregaben",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/33845/pregaben-100-mg-oral-solution"
+    },
+    {
+      "name": "Pregaben CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34348/pregaben-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Pregaben CR",
+      "strength": "165 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34349/pregaben-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Pregaben CR",
+      "strength": "330 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/38380/pregaben-cr-330-mg-cr-tablet"
+    },
+    {
+      "name": "Pregabid",
+      "strength": "25 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.60",
+      "url": "https://medex.com.bd/brands/5056/pregabid-25-mg-capsule"
+    },
+    {
+      "name": "Pregabid",
+      "strength": "50 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 16.80",
+      "url": "https://medex.com.bd/brands/5057/pregabid-50-mg-capsule"
+    },
+    {
+      "name": "Pregabid",
+      "strength": "75 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 21.60",
+      "url": "https://medex.com.bd/brands/5058/pregabid-75-mg-capsule"
+    },
+    {
+      "name": "Pregabid CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/37307/pregabid-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Pregacap",
+      "strength": "50 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/23814/pregacap-50-mg-capsule"
+    },
+    {
+      "name": "Pregacap",
+      "strength": "75 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/23815/pregacap-75-mg-capsule"
+    },
+    {
+      "name": "Pregadel",
+      "strength": "50 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/5030/pregadel-50-mg-capsule"
+    },
+    {
+      "name": "Pregadel",
+      "strength": "75 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5031/pregadel-75-mg-capsule"
+    },
+    {
+      "name": "Pregafast",
+      "strength": "50 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/34781/pregafast-50-mg-capsule"
+    },
+    {
+      "name": "Pregafast",
+      "strength": "75 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/34782/pregafast-75-mg-capsule"
+    },
+    {
+      "name": "Pregalex",
+      "strength": "75 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.04",
+      "url": "https://medex.com.bd/brands/5032/pregalex-75-mg-capsule"
+    },
+    {
+      "name": "Pregalex",
+      "strength": "50 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.03",
+      "url": "https://medex.com.bd/brands/23853/pregalex-50-mg-capsule"
+    },
+    {
+      "name": "Pregalex",
+      "strength": "150 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/33013/pregalex-150-mg-capsule"
+    },
+    {
+      "name": "Pregan",
+      "strength": "50 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/5034/pregan-50-mg-capsule"
+    },
+    {
+      "name": "Pregan",
+      "strength": "75 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5035/pregan-75-mg-capsule"
+    },
+    {
+      "name": "Pregan",
+      "strength": "25 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33751/pregan-25-mg-capsule"
+    },
+    {
+      "name": "Pregan ER",
+      "strength": "82.5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32684/pregan-er-825-mg-xr-tablet"
+    },
+    {
+      "name": "Pregan ER",
+      "strength": "165 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32685/pregan-er-165-mg-xr-tablet"
+    },
+    {
+      "name": "Preganaaf",
+      "strength": "50 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/36491/preganaaf-50-mg-capsule"
+    },
+    {
+      "name": "Preganaaf",
+      "strength": "75 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/36492/preganaaf-75-mg-capsule"
+    },
+    {
+      "name": "Pregaran",
+      "strength": "25 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27820/pregaran-25-mg-capsule"
+    },
+    {
+      "name": "Pregaran",
+      "strength": "50 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27821/pregaran-50-mg-capsule"
+    },
+    {
+      "name": "Pregaran",
+      "strength": "75 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/27822/pregaran-75-mg-capsule"
+    },
+    {
+      "name": "Pregavax",
+      "strength": "50 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/23812/pregavax-50-mg-capsule"
+    },
+    {
+      "name": "Pregavax",
+      "strength": "75 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/23813/pregavax-75-mg-capsule"
+    },
+    {
+      "name": "Pregaver",
+      "strength": "25 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29580/pregaver-25-mg-capsule"
+    },
+    {
+      "name": "Pregaver",
+      "strength": "50 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/29581/pregaver-50-mg-capsule"
+    },
+    {
+      "name": "Pregaver",
+      "strength": "75 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/29582/pregaver-75-mg-capsule"
+    },
+    {
+      "name": "Prelica",
+      "strength": "50 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5036/prelica-50-mg-capsule"
+    },
+    {
+      "name": "Prelica",
+      "strength": "75 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/5037/prelica-75-mg-capsule"
+    },
+    {
+      "name": "Prelica",
+      "strength": "25 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/23849/prelica-25-mg-capsule"
+    },
+    {
+      "name": "Prelica",
+      "strength": "150 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/35522/prelica-150-mg-capsule"
+    },
+    {
+      "name": "Prelica CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35523/prelica-cr-825-mg-cr-tablet"
+    },
+    {
+      "name": "Prelica CR",
+      "strength": "165 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/35524/prelica-cr-165-mg-cr-tablet"
+    },
+    {
+      "name": "Prelin",
+      "strength": "50 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/5039/prelin-50-mg-capsule"
+    },
+    {
+      "name": "Prelin",
+      "strength": "75 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5040/prelin-75-mg-capsule"
+    },
+    {
+      "name": "Prelin",
+      "strength": "150 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/5041/prelin-150-mg-capsule"
+    },
+    {
+      "name": "Prelin",
+      "strength": "25 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/23817/prelin-25-mg-capsule"
+    },
+    {
+      "name": "Prelin",
+      "strength": "100 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 22.10",
+      "url": "https://medex.com.bd/brands/33018/prelin-100-mg-capsule"
+    },
+    {
+      "name": "Prenep",
+      "strength": "50 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/33765/prenep-50-mg-capsule"
+    },
+    {
+      "name": "Prenep",
+      "strength": "75 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/33766/prenep-75-mg-capsule"
+    },
+    {
+      "name": "Preneu",
+      "strength": "50 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33619/preneu-50-mg-tablet"
+    },
+    {
+      "name": "Preneu",
+      "strength": "75 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/33620/preneu-75-mg-tablet"
+    },
+    {
+      "name": "Pretor",
+      "strength": "75 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 16.05",
+      "url": "https://medex.com.bd/brands/5061/pretor-75-mg-capsule"
+    },
+    {
+      "name": "Pretor",
+      "strength": "50 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/28345/pretor-50-mg-capsule"
+    },
+    {
+      "name": "Pretor",
+      "strength": "150 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 30.09",
+      "url": "https://medex.com.bd/brands/33015/pretor-150-mg-capsule"
+    },
+    {
+      "name": "Priga",
+      "strength": "75 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/5042/priga-75-mg-capsule"
+    },
+    {
+      "name": "Pyrica",
+      "strength": "75 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5043/pyrica-75-mg-capsule"
+    },
+    {
+      "name": "Pyrica",
+      "strength": "50 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/23848/pyrica-50-mg-capsule"
+    },
+    {
+      "name": "Pyrica",
+      "strength": "25 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32968/pyrica-25-mg-capsule"
+    },
+    {
+      "name": "Rebalin",
+      "strength": "25 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31502/rebalin-25-mg-capsule"
+    },
+    {
+      "name": "Rebalin",
+      "strength": "50 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/31503/rebalin-50-mg-capsule"
+    },
+    {
+      "name": "Rebalin",
+      "strength": "75 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/31504/rebalin-75-mg-capsule"
+    },
+    {
+      "name": "Regab",
+      "strength": "25 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/5044/regab-25-mg-capsule"
+    },
+    {
+      "name": "Regab",
+      "strength": "50 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5045/regab-50-mg-capsule"
+    },
+    {
+      "name": "Regab",
+      "strength": "75 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5046/regab-75-mg-capsule"
+    },
+    {
+      "name": "Regab",
+      "strength": "100 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/32111/regab-100-mg-capsule"
+    },
+    {
+      "name": "Regab",
+      "strength": "150 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32112/regab-150-mg-capsule"
+    },
+    {
+      "name": "SB-Gabalin",
+      "strength": "25 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/23861/sb-gabalin-25-mg-capsule"
+    },
+    {
+      "name": "SB-Gabalin",
+      "strength": "50 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23862/sb-gabalin-50-mg-capsule"
+    },
+    {
+      "name": "SB-Gabalin",
+      "strength": "75 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/23863/sb-gabalin-75-mg-capsule"
+    },
+    {
+      "name": "Vaxar",
+      "strength": "25 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/23838/vaxar-25-mg-capsule"
+    },
+    {
+      "name": "Vaxar",
+      "strength": "50 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23839/vaxar-50-mg-capsule"
+    },
+    {
+      "name": "Vaxar",
+      "strength": "75 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/23840/vaxar-75-mg-capsule"
+    },
+    {
+      "name": "Venpa",
+      "strength": "25 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34877/venpa-25-mg-capsule"
+    },
+    {
+      "name": "Venpa",
+      "strength": "50 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/34878/venpa-50-mg-capsule"
+    },
+    {
+      "name": "Venpa",
+      "strength": "75 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/34879/venpa-75-mg-capsule"
+    },
+    {
+      "name": "Volant",
+      "strength": "25 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38584/volant-25-mg-capsule"
+    },
+    {
+      "name": "Volant",
+      "strength": "50 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/38585/volant-50-mg-capsule"
+    },
+    {
+      "name": "Volant",
+      "strength": "75 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/38586/volant-75-mg-capsule"
+    },
+    {
+      "name": "Xablin",
+      "strength": "75 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 17.15",
+      "url": "https://medex.com.bd/brands/5047/xablin-75-mg-capsule"
+    },
+    {
+      "name": "Xablin",
+      "strength": "50 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/23835/xablin-50-mg-capsule"
+    },
+    {
+      "name": "Xil",
+      "strength": "50 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5048/xil-50-mg-capsule"
+    },
+    {
+      "name": "Xil",
+      "strength": "75 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/5049/xil-75-mg-capsule"
+    },
+    {
+      "name": "Xil",
+      "strength": "25 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29150/xil-25-mg-capsule"
+    },
+    {
+      "name": "Xil-CR",
+      "strength": "82.5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35139/xil-cr-825-mg-cr-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Film-coated tablet is indicated for: \n\n- Neuropathic pain associated with diabetic peripheral neuropathy\n- Postherpetic neuralgia\n- Adjunctive therapy for the treatment of partial-onset seizures in patients 1 month of age and older\n- Fibromyalgia\n- Neuropathic pain associated with spinal cord injury\n\r\nControlled release tablet is indicated for:\n\n- Neuropathic pain associated with diabetic peripheral neuropathy\n- Postherpetic neuralgia",
+    "mode_of_action": "Pregabalin is a structural derivative of the inhibitory neurotransmitter gamma-aminobutyric acid (GABA). It does not bind directly to GABAA, GABAB or benzodiazepine receptors. Pregabalin binds with high affinity to the alpha2-delta site (an auxiliary subunit of voltage-gated calcium channels) in central nervous system tissues. Although the mechanism of action of Pregabalin has not been fully elucidated, results in animal studies suggest that binding to the alpha2-delta subunit may be involved in Pregabalin's anti-nociceptive and antiseizure effects.",
+    "dosage": "**Neuropathic pain associated with diabetic peripheral neuropathy in adults (DPN**): The maximum recommended dose of Pregabalin is 100 mg three times a day (300 mg/day) in patients with creatinine clearance of at least 60 ml/min. Dosing should begin at 50 mg three times a day (150 mg/day). The dose may be increased to 300 mg/day within 1 week based on efficacy and tolerability. Begin dosing of Pregabalin CR capsule at 165 mg once daily and increase to 330 mg once daily within 1 week based on individual patient response and tolerability. The maximum recommended dose of Pregabalin CR capsule is 330 mg once daily.\n\n**Postherpetic neuralgia in adults (PHN)**: The recommended dose of Pregabalin is 75 to 150 mg two times a day or 50 to 100 mg three times a day (150 to 300 mg/day) in patients with creatinine clearance of at least 60 ml/min. Dosing should begin at 75 mg two times a day or 50 mg three times a day (150 mg/day). The dose may be increased to 300 mg/day within 1 week based on efficacy and tolerability. Patients who do not experience sufficient pain relief following 2 to 4 weeks of treatment with 300 mg/day and who are able to tolerate Pregabalin, may be treated with up to 300 mg two times a day or 200 mg three times a day (600 mg/day).\n\nBegin dosing of Pregabalin CR capsule at 165 mg once daily and increase to 330 mg once daily within 1 week based on individual patient response and tolerability. Patients who do not experience sufficient pain relief following 2 to 4 weeks of treatment with 330 mg once daily and who are able to tolerate Pregabalin CR capsule, may be treated with up to 660 mg once daily. In view of the dose-dependent adverse reactions and the higher rate of treatment discontinuation due to adverse reactions, dosing above 330 mg/day should be reserved only for those patients who have on-going pain and are tolerating 330 mg daily. The maximum recommended dose of Pregabalin CR capsule is 660 mg once daily.\n\n**Management of fibromyalgia in adults**: The recommended dose of Pregabalin is 300 to 450 mg/day. Dosing should begin at 75 mg two times a day (150 mg/day). The dose may be increased to 150 mg two times a day (300 mg/day) within 1 week based on efficacy and tolerability. Patients who do not experience sufficient benefit with 300 mg/day may be further increased to 225 mg two times a day (450 mg/day).\n\n**Neuropathic pain associated with spinal cord injury in adults**: The recommended dose range of Pregabalin is 150 to 600 mg/day. The recommended starting dose is 75 mg two times a day (150 mg/day). The dose may be increased to 150 mg two times a day (300 mg/day) within 1 week based on efficacy and tolerability. Patients who do not experience sufficient pain relief after 2 to 3 weeks of treatment with 150 mg two times a day and who tolerate Pregabalin may be treated with up to 300 mg two times a day. \n\n**Conversion from Pregabalin capsules to Pregabalin CR capsule tablet**: When switching from Pregabalin capsules to Pregabalin CR capsule tablet on the day of the switch, instruct patients to take their morning dose of Pregabalin capsule as prescribed and initiate Pregabalin CR capsule therapy after an evening meal.\n\nPregabalin tablet total daily dose (dosed 2 or 3 times daily): Pregabalin CR capsule capsule dose (dosed once a day)\n\n- 75 mg/daily: 82.5 mg/day\n- 150 mg/daily: 165 mg/day\n- 225 mg/daily: 247.5 mg/day\n- 300 mg/daily: 330 mg/day\n- 450 mg/daily: 495 mg/day\n- 600 mg/daily: 660 mg/day",
+    "administration": "**Route of administration**: Pregabalin is taken in oral route. It can be taken with or without food. Pregabalin CR tablet should be administered after an evening meal. It should be swallowed whole and should not be split, crushed or chewed. If patients miss taking their dose of Pregabalin CR after an evening meal, then they should take their usual dose of Pregabalin CR prior to bedtime following a snack. If they miss taking the dose of Pregabalin CR prior to bedtime, then they should take their usual dose of Pregabalin CR following a morning meal. If they miss taking the dose of Pregabalin CR following the morning meal, then they should take their usual dose of Pregabalin CR at the usual time that evening following an evening meal. When discontinuing both Pregabalin and Pregabalin CR, it should be gradually tapered over a minimum of 1 week.",
+    "interaction": "**Drug interaction with medication**: Pregabalin is unlikely to be involved in significant pharmacokinetic drug interactions.\n**Drug interaction with food and others**: Not applicable.",
+    "contraindications": "Pregabalin is contraindicated in patients with known hypersensitivity to Pregabalin or any of its components.",
+    "side_effects": "Most common side effects in adults are dizziness, somnolence, dry mouth, edema, blurred vision, weight gain and thinking abnormal (primarily difficulty with concentration/attention). Most common side effects in pediatric patients for the treatment of partial onset seizures are increased weight and increased appetite.",
+    "pregnancy_cat": "There are no adequate and well-controlled studies with pregabalin in pregnant women. Pregnant women should be advised of the potential risk to a fetus. Small amounts of pregabalin have been detected in the milk of lactating women. Because of the potential risk of tumorigenicity, breastfeeding is not recommended during treatment with pregabalin.",
+    "precautions": "Angioedema (e.g., swelling of the throat, head and neck) can occur and may be associated with life threatening respiratory compromise requiring emergency treatment. Pregabalin should be discontinued immediately in these cases. Pregabalin should also be discontinued immediately if hypersensitivity reactions (e.g., hives, dyspnea and wheezing) occur. Antiepileptic drugs, including pregabalin, increase the risk of suicidal thoughts or behavior. Respiratory depression may occur with pregabalin when used with concomitant CNS depressants or in the setting of underlying respiratory impairment. Patients need to be monitored and dosage adjusted as appropriate. Pregabalin may cause dizziness and somnolence and impair patients ability to drive or operate machinery. Increased seizure frequency or other adverse reactions may occur if pregabalin is rapidly discontinued. Pregabalin should be withdrawn gradually over a minimum of 1 week. Pregabalin may cause peripheral edema. Caution should be exercised when coadministering pregabalin and thiazolidinedione antidiabetic agents.",
+    "pediatric_uses": "**Use in children and adolescents**: Safety and effectiveness in pediatric patients have not been established for the management of neuropathic pain associated with diabetic peripheral neuropathy, postherpetic neuralgia, neuropathic pain associated with spinal cord injury and fibromyalgia. In case of adjunctive therapy for partial onset seizures, safety and effectiveness in pediatric patients below the age of 1 month have not been established. The safety and effectiveness of pregabalin extended-release tablet in pediatric patients have not been established.",
+    "overdose_effects": "In case of overdose with pregabalin, sign and symptoms are reduced consciousness, depression/anxiety, confusional state, agitation and restlessness. Seizures and heart block have also been reported. There is no specific antidote. If indicated, elimination of unabsorbed drug may be attempted by emesis or gastric lavage; usual precautions should be observed to maintain the airway. General supportive care of the patient is indicated including monitoring of vital signs and observation of the clinical status of the patient.",
+    "drug_classes": "Adjunct anti-epileptic drugs, Primary anti-epileptic drugs",
+    "storage_conditions": "Keep in a cool & dry place (below 30°C), protected from light & moisture. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 8 H 17 NO 2 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Pregabalin?\n\nPregabalin is an anticonvulsant and is considered to be the first-line of treatment for neurotic pain, shingles, seizures and fibromyalgia.\n\n#### How long do I need to use Pregabalin before I see improvement in my condition?\n\nPregabalin is to be taken till the time you see an improvement in your health conditions.\n\n#### At what frequency do I need to use Pregabalin?\n\nPregabalin should be taken in the dosage as prescribed by the doctor.\n\n#### Should I use Pregabalin empty stomach, before food or after food?\n\nPregabalin should be taken after food in a prescribed dosage.\n\n#### What are the instructions for the storage and disposal of Pregabalin?\n\nPregabalin should be kept in a cool dry place and in its original packaging. Make sure this medication remains unreachable to children and pets.\n\n#### Does Pregabalin work in the same way for each disease?\n\nNo, Pregabalin works in different ways for different diseases.\n\n#### How long do I need to take Pregabalin?\n\nThe duration of Pregabalin depends on the condition for which you are consuming this medicine. It is advised to consult the doctor before consuming this drug.\n\n#### Is it necessary to continue taking Pregabalin even if I feel fine?\n\nYes, you should not stop taking Pregabalin even if you feel fine. Consult your doctor before stopping this drug.\n\n#### Can I take Diazepam and Pregabalin together?\n\nYes, Pregabalin and Diazepam can be used together.\n\n#### Can the use of Pregabalin cause weight gain?\n\nYes, Pregabalin may cause weight gain because it increases your hunger. Consult a dietician if you have any further concerns to keep your weight stable.\n\n#### Quick Tips\n\n- Pregabalin should be taken as per the dose and duration prescribed by your doctor.\n- Pregabalin may cause sleepiness. Do not drive or do anything requiring concentration until you know how it affects you.\n- Pregabalin may cause blurring or loss of vision. Inform your doctor immediately if you notice any vision changes.\n- Inform your doctor if you develop any unusual changes in mood or behavior, new or worsening depression, or suicidal thoughts or behavior.\n- Do not stop taking Pregabalin suddenly without talking to your doctor as it may worsen your underlying condition."
+  },
+  "sections_bn": {
+    "indications": "প্রিগাবালিন ফিল্ম কোটেড ট্যাবলেট নিম্নোক্ত সকল ক্ষেত্রে নির্দেশিতঃ\n\n- ডায়াবেটিক পেরিফেরাল নিউরোপ্যাথির (ডিপিএন) সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যাথা\n- পোস্টহার্পেটিক নিউরালজিনা (পিএইচএন)\n- এক মাস ও এর বেশি বয়সীদের ক্ষেত্রে পার্সিয়াল অনসেট সিজারের সহায়ক চিকিৎসা\n- ফাইব্রোমাথেলজিয়া\n- স্পাইনাল কর্ডের আঘাতের সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যথা\n\r\nপ্রিগাবালিন কন্ট্রল রিলিজ ট্যাবলেট নিম্নলিখিত ক্ষেত্রে নির্দেশিতঃ\n\n- ডায়াবেটিক পেরিফেরাল নিউরোপ্যাথির (ডিপিএন) সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যথা\n- পোস্টহার্পেটিক নিউরালজিয়া (পিএইচ)",
+    "mode_of_action": "প্রিগাবালিন এক ধরনের ইনহিবিটরি নিউরোট্রান্সমিটার যা গামা-অ্যামিনোবিউটাইরিক এসিডের (GABA) একটি গাঠনিক ডেরিভেটিভ। এটি সরাসরি GABAA, GABAB, অথবা বেনজোডায়াজেপিন রিসেপ্টরের সাথে যুক্ত হয় না। প্রিগাবালিন কেন্দ্রীয় স্নায়ুতন্ত্রের টিস্যুসমূহের Alpha2-delta সাইটের (ভোল্টেজ-গেটেড ক্যালসিয়াম চ্যানেলের একটি অতিরিক্ত সাবইউনিট) সাথে উচ্চ সংযুক্তি সহকারে যুক্ত হন। প্রিগাবালিনের সঠিক কার্যপদ্ধতি জানা না গেলেও Alpha2-delta সাবইউনিটের সাথে সংযুক্তিই প্রিগাবালিনের ব্যথা নিরোধক এবং খিচুনি বিরোধী প্রভাবের জন্য দায়ী বলে প্রাণীদের উপর পরীক্ষায় জানা গেছে।",
+    "dosage": "**প্রাপ্ত বয়স্কদের ক্ষেত্রে ডায়াবেটিক পেরিফেরাল নিউরোপ্যাথির সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যথা (ডিপিএন)**: যে সকল রোগীর ক্রিয়েটিনিন ক্লিয়ারেন্স ৬০ মিলি/মিনিট বা এর চেয়ে বেশি, তাদের জন্য প্রিগাবালিন এর সর্বোচ্চ নির্দেশিত মাত্রা ১০০ মিগ্রা করে দিনে ৩ বার (মোট দৈনিক মাত্রা ৩০০ মিগ্রা। ওষুধটি শুরু করার সময় ৫০ মিগ্রা করে দিনে ৩ বার (মোট দৈনিক মাত্র ১৫০ মিগ্রা) দিতে হবে। ওষুধের কার্যকারিতা এবং ওষুধের প্রতি রোগীর সহনশীলতার উপর ভিত্তি করে এক সপ্তাহের মধ্যে মোট দৈনিক মাত্রা ৩০০ মিগ্রা পর্যন্ত বৃদ্ধি করা যেতে পারে। প্রিগাবালিন সিআর শুরুতে ১৬৫ মিগ্রা করে দিনে একবার সেবন করতে হবে এবং রোগীর প্রতিক্রিয়া এবং সহনশীলতার উপর ভিত্তি করে ১ সপ্তাহের মধ্যে প্রতিদিন একবার ৩০০ মিগ্রা পর্যন্ত মাত্রা বৃদ্ধি করা যেতে পারে। এ ক্ষেত্রে প্রিগাবালিন সিআর এর সর্বোচ্চ মাত্রা হলো ৩০০ মিগ্রা করে দিনে একবার।\n\n**প্রাপ্ত বয়স্কদের ক্ষেত্রে পোস্টহার্পেটিক নিউরালজিয়ার চিকিৎসায় (পিএইচএন)**: যে সকল রোগীর ক্রিয়েটিনিন ক্লিয়ারেন্স ৬০ মিলি/মিনিট বা এর চেয়ে বেশি, তাদের জন্য প্রিগাবালিন এর নির্দেশিত মাত্রা ৭৫ মিগ্রা থেকে ১৫০ মিগ্রা করে দিনে ২ বার অথবা ৫০ মিগ্রা থেকে ১০০ মিগ্রা করে দিনে ৩ বার (মোট দৈনিক মাত্রা ১৫০ মিগ্রা থেকে ৩০০ মিগ্রা)। ঔষধটি শুরু করার সময় ৭৫ মিগ্রা করে দিনে ২ বার অথবা ৫০ মিগ্রা করে দিনে ৩ বার (মোট দৈনিক মাত্রা ১৫০ মিগ্রা) দিতে হবে। ওষুধের কার্যকারিতা এবং ওষুধের প্রতি রোগীর সহনশীলতার উপর ভিত্তি করে এক সপ্তাহের মধ্যে মোট দৈনিক মাত্রা ৩০০ মিগ্রা পর্যন্ত বৃদ্ধি করা যেতে পারে। মোট দৈনিক মাত্রা ৩০০ মিগ্রা দ্বারা চিকিৎসার ২ থেকে ৪ সপ্তাহ পরেও যথেষ্ট ব্যাথা নিরসন না হলে, যে সকল রোগী প্রিগাবালিন এর অতিরিক্ত মাত্রার প্রতি সহনশীল তাদের ক্ষেত্রে ৩০০ মিগ্রা করে দিনে ২ বার অথবা ২০০ মিগ্রা করে দিনে ৩ বার (মোট দৈনিক মাত্রা ৬০০ মিগ্রা) দেওয়া যেতে পারে। \n\nপ্রিগাবালিন সিআর শুরুতে ১৬৫ মিগ্রা করে দিনে একবার সেবন করতে হবে এবং রোগীর প্রতিক্রিয়া এবং সহনশীলতার উপর ভিত্তি করে ১ সপ্তাহের মধ্যে প্রতিদিন একবার ৩৩০ মিগ্রা পর্যন্ত মাত্রা বৃদ্ধি করা যেতে পারে। প্রতিদিন একবার করে ৩৩০ মিগ্রা মাত্রায় ২ থেকে ৪ সপ্তাহের চিকিৎসার পরও যে সকল রোগীদের পর্যাপ্ত ব্যাথা উপশম হয় না, তাদের ক্ষেত্রে প্রতিদিন একবার করে ৬৬০ মিগ্রা পর্যন্ত প্রিগাবালিন সিআর এর সহনশীল মাত্রার দেয়া যেতে পারে। মাত্রা নির্ভর প্রতিনির্দেশনা এবং বিরুপ প্রতিক্রিয়ার কারণে চিকিৎসা বন্ধের উচ্চ হারের পরিপ্রেক্ষিতে, ৩৩০ মিগ্রা/প্রতিদিন উপরের মাত্রা শুধুমাত্র সেই রোগীদের জন্য সংরক্ষিত করা উচিত যাদের চলমান ব্যথা রয়েছে এবং প্রতিদিন ৩৩০ মিগ্রা মাত্রা যাদের ক্ষেত্রে সহনশীল ছিল। এ ক্ষেত্রে প্রিগাবালিন সিআর এর সর্বোচ্চ মাত্রা হলো ৬৬০ মিগ্রা করে দিনে একবার।\n\n**প্রাপ্ত বয়স্কদের ক্ষেত্রে ফাইব্রোমায়ালজিয়া চিকিৎসায়**: প্রিগাবালিন এর নির্দেশিত মোট দৈনিক মাত্রা ৩০০ মিগ্রা থেকে ৪৫০ মিগ্রা। ঔষধটি শুরু করার সময় ৭৫ মিগ্রা করে দিনে দুইবার (মোট দৈনিক মাত্রা ১৫০ মিগ্রা) করে  দিতে হবে। ওষুধের কার্যকারিতা এবং ওষুধের প্রতি রোগীর সহনশীলতার উপর ভিত্তি করে এক সপ্তাহের মধ্যে মাত্রা বৃদ্ধি করে ১৫০ করে দিনে ২ বার (মোট দৈনিক মাত্রা ৩০০ মিগ্রা) দেখা থেকে পাবে। মোট দৈনিক মাত্রা ৩০০ মিগ্রা করে দেয়ার পরেও যথেষ্ট উপকারিতা পাওয়া না খেলে ২২৫ মিগ্রা করে দিনে ২ বার (মোট দৈনিক মাত্রা ৪৫০ মিগ্রা) দেয়া যেতে পারে।\n\n**স্পাইনাল কর্ডের আঘাতের সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যাথার চিকিৎসায়**: প্রিগাবালিন এর নির্দেশিত মোট দৈনিক মাত্রা ১৫০ মিগ্রা থেকে ৬০০ মিগ্রা। ওষুধটি শুরু করার সময় ৭৫ মিগ্রা করে দিনে ২ বার (মোট দৈনিক মাত্রা ১৫০ মিগ্রা) দিতে হবে। ওষুধের কার্যকারিতা এবং ওষুধের প্রতি রোগীর সহনশীলতার উপর ভিত্তি করে এক সপ্তাহের মধ্যে মাত্রা বৃদ্ধি করে ১৫০ করে দিনে ২ বার (মোট দৈনিক মাত্র ৩০০ মিগ্রা) দেয়া যেতে পারে। ১৫০ মিগ্রা করে দিনে ২ বার মাত্রার চিকিৎসার ২ থেকে ৩ সপ্তাহ পরেও যথেষ্ট ব্যাথা নিরসন না হলে, যে সকল রোগী প্রিগাবালিন এর অতিরিক্ত মাত্রার প্রতি সহনশীল তাদের ক্ষেত্রে ৩০০ মিগ্রা করে দিনে ২ বার দেওয়া যেতে পারে।\n\n**প্রিগাবালিন থেকে প্রিগাবালিন সিআর এ পরিবর্তন করার সময়**: রোগীদের নির্দেশনা অনুযায়ী তাদের সকালের প্রিগাবালিন ডোজ নিতে হবে এবং রাতের খাবারের পরে প্রিগাবালিন সিআর সেবন শুরু করতে হবে।\n\nপ্রিগাবালিন এর মোট দৈনিক মাত্রা (প্রতিদিন ২ বা ৩ বার): প্রিগাবালিন সিআর এর মাত্রা (দিনে একবার):\n\n- ৭৫ মিগ্রা/প্রতিদিন: ৮২.৫ মিগ্রা/প্রতিদিন\n- ১৫০ মিগ্রা/প্রতিদিন: ১৬৫ মিগ্রা/প্রতিদিন\n- ২২৫ মিগ্রা/প্রতিদিন: ২৪৭.৫ মিগ্রা/প্রতিদিন\n- ৩০০ মিগ্রা/প্রতিদিন: ৩৩০ মিগ্রা/প্রতিদিন\n- ৪৫০ মিগ্রা/প্রতিদিন: ৪৯৫ মিগ্রা/প্রতিদিন\n- ৬০০ মিগ্রা/প্রতিদিন: ৬৬০ মিগ্রা/প্রতিদিন",
+    "administration": "প্রিগাবালিন মুখে গ্রহণ করা হয়ে থাকে। এটি খাবারের আগে বা পরে গ্রহণ করা যেতে পারে। প্রিগাবালিন সিআর মুখে গ্রহণ করা হয়ে থাকে। প্রিগাবালিন সিআর ট্যাবলেটি রাতের খাবারের পরে সেবন করতে হয়। এটি সম্পূর্ণ সেবন করতে হবে এবং ভাঙা, চূর্ণ বা চিবিয়ে সেবন করা যাবে না। যদি রোগীরা রাতের খাবারের পরে প্রিগাবালিন সিআর সেবন করতে ভুলে যায়, তাহলে তাদের অবশ্যই ঘুমানোর আগে হালকা খাবার খেয়ে প্রিগাবালিন সিআর সেবন করতে হবে। যদি তারা ঘুমানোর আগে প্রিগাবালিন সিআর সেবন করতে ভুলে যায়, তাহলে তাদের সকালের খাবারের পর স্বাভাবিক মাত্রা প্রিগাবালিন সিআর সেবন করতে হবে। যদি তারা সকালের খাবারের পরে প্রিগাবালিন সিআর সেবন করতে ভুলে যায়, তাহলে তাদের রাতের খাবারের পরে স্বাভাবিক সময় প্রিগাবালিন সিআর সেবন করতে হবে। প্রিগাবালিন ও প্রিগাবালিন সিআর উভয়ই দ্বারা চিকিৎসা বন্ধ করার সময় কমপক্ষে এক সপ্তাহ ধরে ওষুধের মাত্রা ক্রমান্বয়ে কমিয়ে তারপর বন্ধ করতে হবে।",
+    "interaction": "অন্য ওষুধের সাথেঃ প্রিগাবালিনের সাথে অন্য কোনো ওষুধের গুরুত্বপূর্ণ প্রতিক্রিয়া জানা যায়নি। \n\nখাবার ও অন্য কিছুর সাথেঃ প্রযোজ্য নয়।",
+    "contraindications": "যাদের প্রিগাবালিন বা এই ওষুধের অন্যান্য উপাদানের প্রতি অতিসংবেদনশীলতা রয়েছে তাদের ক্ষেত্রে ইহা প্রতিনির্দেশিত।",
+    "side_effects": "প্রাপ্ত বয়ষ্কদের ক্ষেত্রে সাধারণ পার্শ্ব প্রতিক্রিয়াগুলো হলো মাথা ঘোরা, নিদ্রালুতা, শুষ্ক মুখগহবর, হাত পা ফুলে যাওয়া, ঝাপসা দৃষ্টি, ওজন বৃদ্ধি এবং অস্বাভাবিক চিন্তাভাবনা (প্রাথমিকভাবে মনোযোগে বিঘ্ন সৃষ্টি হওয়া)। শিশুদের ক্ষেত্রে পার্সিয়াল অনসেট সিজারের চিকিৎসার সাধারণ পার্শ্ব প্রতিক্রিয়াগুলো হলো ওজন বৃদ্ধি এবং ক্ষুধা বৃদ্ধি।",
+    "pregnancy_cat": "গর্ভাবস্থায় প্রিগাবালিন ব্যবহারের কোন পর্যন্ত এ সুনিয়ন্ত্রিত তথ্য নেই। ভ্রূণের সম্ভাব্য ঝুঁকির ব্যাপারে গর্ভবর্তী মহিলাদের সতর্ক করতে হবে। মাতৃদুগ্ধে সামান্য পরিমাণে প্রিগাবালিনের উপস্থিতি পাওয়া গেছে। টিউমার সৃষ্টির ঝুঁকি থাকায় প্রিগাবালিন দ্বারা চিকিৎসা চলাকালীন সময় অন্যদান নির্দেশিক নয়।",
+    "precautions": "এনজিওইডিমা (গলা, মাথা এবং ঘাড় ফুলে যাওয়া) এবং এর ফলে শ্বাস-প্রশ্বাসের জীবনঘাতী সমস্যা দেখা দিতে পারে ফলে জরুরী চিকিৎসার প্রয়োজন হতে পারে। এ সকল ক্ষেত্রে সাথে সাথে প্রিগাবালিন দ্বারা চিকিৎসা বন্ধ করে দিতে হবে। এছাড়া অতিসংবেদনশীলতা (যেমন-র‍্যাশ, শাসকষ্ট এবং শ্বাস-প্রশ্বাসে শব্দ) দেখা দিলেও সাথে সাথে প্রিগাবালিন দ্বারা চিকিৎসা বন্ধ করে দিতে হবে। প্রিগাবালিনসহ অন্যান্য খিচুনিরোধী ওষুধসমূহ আত্মহত্যামূলক চিন্তা এবং আচরণের ঝুঁকি বৃদ্ধি করে। সিএনএস ডিগ্রেসেন্টের সাথে প্রিগাবালিন এর একত্রে ব্যবহারে অথবা আগে থেকে বিদ্যমান শ্বাস প্রশ্বাসের সমস্যা থাকলে রেসপিরেটরি ডিপ্রেশন হতে পারে। এজন্য রোগীদেরকে পর্যবেক্ষণ করতে হবে এবং প্রয়োজন আনুযায়ী মাত্রা সমন্বয় করতে হবে। প্রিগাবালিন মাথা ঘোরা এবং নিদ্রালুতা সৃষ্টি করতে পারে যা রোগীর গাড়ি চালনা বা যন্ত্রাদি পরিচালনায় সমস্যা সৃষ্টি করতে পারে। হঠাৎ করে প্রিগাবালিন দ্বারা চিকিৎসা বন্ধ করে দিলে খিচুনির মাত্রা বেড়ে যেতে পারে বা অন্যান্য বিরূপ প্রতিক্রিয়া দেখা দিতে পারে। প্রিগাবালিন দ্বারা চিকিৎসা বন্ধের সময় কমপক্ষে এক সপ্তাহ ধরে ওষুধের মাত্রা ক্রমান্বয়ে কমিয়ে তারপর বন্ধ করতে হবে। প্রিগাবালিনের ব্যবহারে হাত পা ফুলে যেতে পারে। প্রিগাবালিনের সাথে অ্যান্টিডায়াবেটিক ওষুধ থায়াজোলিডিনেডিওন একত্রে ব্যবহারের সময় সতর্কতা অবলম্বন করতে হবে।",
+    "pediatric_uses": "**শিশু ও কিশোরদের ক্ষেত্রে ব্যবহার**: ডায়াবেটিক পেরিফেরাল নিউরোপ্যাথির সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যথা, পোস্টহার্পেটিক নিউরালজিয়া, স্পাইনাল কর্ডের আঘাতের সাথে সংশ্লিষ্ট নিউরোপ্যাথিক ব্যথা এবং ফাইব্রোমায়ালজিয়ার চিকিৎসায় শিশুদের ক্ষেত্রে প্রিগাবালিনের নিরাপদ ব্যবহার ও কার্যকারিতা প্রতিষ্ঠিত হয়নি। পার্সিয়ান অনসেট সিজারের সহায়ক চিকিৎসায় ১ মাস এর কম বয়সী শিশুদের ক্ষেত্রে প্রিগাবালিনের নিরাপদ ব্যবহার ও কার্যকারিতা প্রতিষ্ঠিত হয়নি। শিশু ও কিশোরদের ক্ষেত্রে প্রিগাবালিন এক্সটেন্ডেড রিলিজ ট্যাবলেট এর নিরাপদ ব্যবহার এবং কার্যকারিতা প্ররতিষ্ঠিত হয়নি।",
+    "overdose_effects": "প্রিগাবালিন দ্বারা মাত্রাধিক্যের ক্ষেত্রে লক্ষণগুলো হলো সচেতনতার মাত্রা হ্রাস, বিষণ্ণতা/দুশ্চিন্তা, বিভ্রান্তি, উত্তেজনা এবং অস্থিরতা। খিচুনি এবং হার্ট ব্লক পরিলক্ষিত হয়েছে। কোন নির্দিষ্ট প্রতিষেধক নাই। নির্দেশিত হলে শোষিত না হওয়া ওষুধ বমি করানোর মাধ্যমে বা গ্যাস্ট্রিক ল্যাভেজের মাধ্যমে বের করে দেয়া যেতে পারে, স্বাভাবিক শ্বাস-প্রশ্বাস রক্ষায় সতর্কতা অবলম্বন করতে হবে। গুরুত্বপূর্ণ লক্ষণসমূহ এবং রোগীর ক্লিনিক্যাল অবস্থা পর্যবেক্ষণের পাশাপাশি সহায়ক চিকিৎসা প্রদান করতে হবে।",
+    "drug_classes": "Adjunct anti-epileptic drugs, Primary anti-epileptic drugs",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ঠান্ডা ও শুষ্ক স্থানে (৩০° সেঃ তাপমাত্রার নীচে) রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 8 H 17 NO 2 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/919/pregabalin",
+  "source_url_bn": "https://medex.com.bd/generics/919/pregabalin/bn",
+  "scraped_at": "2026-10-10T18:30:44+00:00"
+}

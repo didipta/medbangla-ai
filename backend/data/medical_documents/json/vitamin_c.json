@@ -1,0 +1,414 @@
+{
+  "slug": "vitamin_c",
+  "name_en": "Vitamin C [Ascorbic acid]",
+  "name_bn": "ভিটামিন সি [অ্যাসকরবিক এসিড]",
+  "therapeutic_class": "Vitamin-C Preparations",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Alvit C",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/36374/alvit-c-100-mg-syrup"
+    },
+    {
+      "name": "Ascobex",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.89",
+      "url": "https://medex.com.bd/brands/13903/ascobex-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ascorin",
+      "strength": "250 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/13905/ascorin-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ascoson",
+      "strength": "250 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13906/ascoson-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ascoson",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 33.44",
+      "url": "https://medex.com.bd/brands/13907/ascoson-100-mg-syrup"
+    },
+    {
+      "name": "Ascoson",
+      "strength": "500 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "5 ml ampoule : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/13908/ascoson-500-mg-injection"
+    },
+    {
+      "name": "Ascovit",
+      "strength": "250 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/13909/ascovit-250-mg-chewable-tablet"
+    },
+    {
+      "name": "C-Bon",
+      "strength": "250 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/28023/c-bon-250-mg-chewable-tablet"
+    },
+    {
+      "name": "C-Lemon",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.14",
+      "url": "https://medex.com.bd/brands/28749/c-lemon-250-mg-chewable-tablet"
+    },
+    {
+      "name": "C-Rich",
+      "strength": "250 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/32642/c-rich-250-mg-chewable-tablet"
+    },
+    {
+      "name": "C-Vitera",
+      "strength": "250 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/13922/c-vitera-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Cecon",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13912/cecon-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Cecon",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "500 mg sachet : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32416/cecon-500-mg-oral-powder"
+    },
+    {
+      "name": "CEE",
+      "strength": "1000 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35332/cee-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Ceegram",
+      "strength": "1000 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/13943/ceegram-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Ceemet",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/13913/ceemet-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ceeta",
+      "strength": "250 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.82",
+      "url": "https://medex.com.bd/brands/13944/ceeta-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ceevit",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13914/ceevit-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Ceevit",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/33188/ceevit-100-mg-syrup"
+    },
+    {
+      "name": "Ceevit DS",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/26177/ceevit-ds-500-mg-chewable-tablet"
+    },
+    {
+      "name": "Ceevit Forte",
+      "strength": "1000 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.40",
+      "url": "https://medex.com.bd/brands/13915/ceevit-forte-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Cevalin",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13916/cevalin-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Cevion",
+      "strength": "1000 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.08",
+      "url": "https://medex.com.bd/brands/13917/cevion-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Chewce",
+      "strength": "250 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13919/chewce-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Citrux-C",
+      "strength": "250 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/31098/citrux-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Civitin",
+      "strength": "250 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/37649/civitin-250-mg-chewable-tablet"
+    },
+    {
+      "name": "DC-Vit C",
+      "strength": "250 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/34766/dc-vit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Eurovit-C",
+      "strength": "250 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/29007/eurovit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Evit-C",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/25360/evit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "G-Vitamin C",
+      "strength": "250 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/13925/g-vitamin-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Hi-C",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 33.32",
+      "url": "https://medex.com.bd/brands/13926/hi-c-100-mg-syrup"
+    },
+    {
+      "name": "Juci",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "500 mg sachet : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26760/juci-500-mg-oral-powder"
+    },
+    {
+      "name": "Juci Diet",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "500 mg sachet : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34286/juci-diet-500-mg-oral-powder"
+    },
+    {
+      "name": "Kvit-C",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13927/kvit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Lemovit-C",
+      "strength": "500 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "5 ml ampoule : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/25387/lemovit-c-500-mg-injection"
+    },
+    {
+      "name": "Lemovit-C",
+      "strength": "250 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.31",
+      "url": "https://medex.com.bd/brands/31072/lemovit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Mega-C",
+      "strength": "250 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 1.31",
+      "url": "https://medex.com.bd/brands/13930/mega-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Mega-C",
+      "strength": "500 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "5 ml ampoule : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/13931/mega-c-500-mg-injection"
+    },
+    {
+      "name": "Nutrivit-C",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 33.45",
+      "url": "https://medex.com.bd/brands/13934/nutrivit-c-100-mg-syrup"
+    },
+    {
+      "name": "Nutrivit-C",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13932/nutrivit-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Nutrivit-C",
+      "strength": "1000 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/32347/nutrivit-c-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Radivit-C",
+      "strength": "1000 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/30007/radivit-c-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Sunkist",
+      "strength": "250 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 1.80",
+      "url": "https://medex.com.bd/brands/32921/sunkist-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Suvic",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/13936/suvic-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Vasco",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13937/vasco-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Vasco",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 33.35",
+      "url": "https://medex.com.bd/brands/13938/vasco-100-mg-syrup"
+    },
+    {
+      "name": "Vasco",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/27080/vasco-500-mg-chewable-tablet"
+    },
+    {
+      "name": "VC-250",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13939/vc-250-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Veesina",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/13940/veesina-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Vita-C",
+      "strength": "250 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/13941/vita-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Vital-C",
+      "strength": "250 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/30114/vital-c-250-mg-chewable-tablet"
+    },
+    {
+      "name": "Vital-C",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/34461/vital-c-500-mg-chewable-tablet"
+    },
+    {
+      "name": "Vital-C",
+      "strength": "1000 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/35754/vital-c-1000-mg-eff-tablet"
+    },
+    {
+      "name": "Zenvit-C",
+      "strength": "250 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/35894/zenvit-c-250-mg-chewable-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ascorbic Acid (Vitamin C) is indicated in-\n\n- Prevents & treats scurvy\n- Helps in healing wounds & broken bones\n- Helps to form collagen in connective tissues\n- Aids in iron absorption & helps to treat anemia\n- Contributes in production of hemoglobin & red blood cell in bone marrow\nAscorbic Acid (Vitamin C) is indicated in-\n\n- Prevents & treats scurvy\n- Helps in healing wounds & broken bones\n- Helps to form collagen in connective tissues\n- Aids in iron absorption & helps to treat anemia\n- Contributes in production of hemoglobin & red blood cell in bone marrow\n- Aids in preventing many types of viral and bacterial infections and potentiates the immune system\n- Aids in the treatment & prevention of the common cold\n- Promotes healthy capillaries, gums & teeth",
+    "mode_of_action": "This is a preparation of Ascorbic Acid (Vitamin C). Ascorbic Acid is an essential nutrient, which means it cannot be produced by the body and therefore must be obtained from diet or supplements. Ascorbic Acid has many important functions. It is required for tissue growth & repair, Adrenal gland function, enhanced immunity & healthy gums. As an antioxidant, it gives protection against harmful pollution, infection & reduces cellular damage. As a coenzyme, it is a necessary factor for wound healing, drug metabolism & metabolism of cholesterol & folic acid. As an essential nutrient, vitamin C supports healthy hair & skin, strengthens the immune system and maintain overall good health.",
+    "dosage": "**Oral tablet administration**:\r\n\n- For the prevention of scurvy: 1 tablet daily\n- For the treatment of scurvy: 1-2 tablets daily; but dose may be increased depending on the severity of the condition.\n- For the reduction of risk of stroke in the elderly: 1-2 tablets daily.\n- In other cases: 1 tablet daily or as directed by the physician.\n- Maximum safe dose is 2000 mg daily in divided doses.\n\n**Oral sachet administration**: 1 sachet daily or as directed by registered physician. Maximum Dose: 2000 mg/day (4 sachets/day). \n\n**Parenteral administration**:\n\n- Vitamin C is usually administered orally. When oral administration is not feasible or when malabsorption is suspected, the drug may be administered IM, IV, or subcutaneously. When given parenterally, utilization of the vitamin reportedly is best after IM administration and that is the preferred parenteral route.\n- For intravenous injection, dilution into a large volume parenteral such as Normal Saline, Water for Injection, or Glucose is recommended to minimize the adverse reactions associated with intravenous injection.\n- The average protective dose of vitamin C for adults is 70 to 150 mg daily. In the presence of scurvy, doses of 300 mg to 1 g daily are recommended. However, as much as 6 g has been administered parenterally to normal adults without evidence of toxicity.\n- To enhance wound healing, doses of 300 to 500 mg daily for a week or ten days both preoperatively and postoperatively are generally considered adequate, although considerably larger amounts have been recommended. In the treatment of burns, doses are governed by the extent of tissue injury. For severe burns, daily doses of 1 to 2 g are recommended. In other conditions in which the need for vitamin C is increased, three to five times the daily optimum allowances appear to be adequate.\n- Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever the solution and container permit.",
+    "interaction": "**Potentially hazardous interactions**: Ascorbic acid is incompatible in solution with aminophylline, bleomycin, erythromycin, lactobionate, nafcillin, nitrofurantoin sodium, conjugated oestrogen, sodium bicarbonate, sulphafurazole diethanolamine, chloramphenicol sodium succinate, chlorthiazide sodium and hydrocortisone sodium succinate.\n\n**Useful interactions**: Ascorbic acid increases the apparent half-life of paracetamol and enhances iron absorption from the gastrointestinal tract.",
+    "side_effects": "Vitamin C has little toxicity and only mega-doses of vitamin C may cause diarrhoea, abdominal bloating, iron over-absorption that is harmful in patients with thalassaemia, sideroblastic anemia, and haemochromatosis; hyperoxaluria, hyperuricosuria, and hemolysis in patients with glucose-6 phosphate dehydrogenase deficiency. A pregnant woman taking more than 5 gm/day may suffer fetal abortion.",
+    "pregnancy_cat": "The drug is safe in normal doses in pregnant women, but a daily intake of 5 gm or more is reported to have caused abortion. The drug may be taken safely during lactation.",
+    "precautions": "Ingestion of megadose (more than 1000 mg daily) of vitamin C during pregnancy has resulted in scurvy in neonates. Vitamin C in mega-doses has been contraindicated for patients with hyperoxaluria. Vitamin C itself is a reactive substance in the redox system and can give rise to false positive reactions in certain analytical tests for glucose, uric acid, creatine and occult blood.",
+    "drug_classes": "Vitamin-C Preparations",
+    "storage_conditions": "Should be stored in a dry place below 30˚C."
+  },
+  "sections_bn": {
+    "indications": "ভিটামিন সি (অ্যাসকরবিক এসিড) নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- স্কার্ভি রোগের প্রতিকার ও প্রতিরোধ করে\n- ক্ষত সারাতে এবং ভাঙ্গা হাড় সারাতে সাহায্য করে\n- এটি সংযোজক কলার কোলাজেন গঠনে সাহায্য করে\n- এটি আয়রন এর শোষণ বাড়ায় এবং রক্তশূণ্যতা রোধে সাহায্য করে\n- এটি অস্তিমজ্ঞাতে লোহিত কণিকা ও হিমোগ্লোবিন উৎপাদনে সাহায্য করে।\n- যে কোনো ধরনের ভাইরাস বা ব্যাকটেরিয়ার সংক্রমণ থেকে রক্ষা করে এবং শরীরের রোগ প্রতিরোধ ক্ষমতা বাড়ায়\n- ঠান্ডা জনিত রোগের প্রতিকার ও প্রতিরোধে সাহায্য করে\n- সুস্থসবল শিরা উপশিরা, মাড়ি ও দাঁত গঠনে সাহায্য করে",
+    "mode_of_action": "এর মূল উপাদান ভিটামিন সি (অ্যাসকরবিক এসিড)। এটি শরীরের জন্য অত্যন্ত প্রয়োজনীয়। ভিটামিন সি মানবদেহে উৎপন্ন হয় না বলে এটি অবশ্যই খাবার অথবা সাপ্লিমেন্ট হিসেবে গ্রহণ করতে হয়। ইহা দেহের টিস্যু বৃদ্ধি ও পুনর্গঠনে সাহায্য করে, অ্যাড্রেনাল গ্ল্যান্ড এর কার্যকারিতা বাড়ায়, শরীরের রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি করে এবং সুস্থ মাড়ি গঠনে সাহায্য করে। এটি অ্যান্টিঅক্সিডেন্ট হিসেবে ইনফেকশন (সংক্রমণ) এবং কোষ ক্ষয় প্রতিরোধ করে। কো-এনজাইম হিসেবে ভিটামিন সি ক্ষত সারায়, ঔষধ এবং কোলেস্টেরলের বিপাকে ভূমিকা রাখে। অত্যাবশ্যকীয় নিউট্রিয়েন্ট হিসেবে ভিটামিন সি চুল ও ত্বক সুস্থ-সবল রাখে, রোগ প্রতিরোধ ক্ষমতা বাড়ায় এবং সামগ্রিক সুস্বাস্থ্য নিশ্চিত করে।",
+    "dosage": "**স্কার্ভি রোগ প্রতিরোধের জন্য**: প্রতিদিন ১ টি ট্যাবলেট\n**স্কার্ভি রোগ চিকিৎসার জন্য**: প্রতিদিন ১-২ টি ট্যাবলেট; তবে অবস্থার তীব্রতার উপর নির্ভর করে ডোজ বাড়ানো যেতে পারে।\n**প্রবীণদের স্ট্রোকের ঝুঁকি হ্রাস করার জন্য**: প্রতিদিন ১-২ টি ট্যাবলেট।\n**অন্যান্য ক্ষেত্রে**: প্রতিদিন ১ টি ট্যাবলেট বা চিকিত্সক দ্বারা নির্দেশিত।\n**সর্বাধিক নিরাপদ দৈনিক ডোজ**: ২০০০ মিলিগ্রাম।\n\n১টি স্যাসে দিনে ১ বার করে গ্রহণ করতে হবে অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেবন করতে হবে। সর্বোচ্চ সেবনমাত্রা: দিনে ২০০০ মি. গ্রা. (৪টি স্যাসে)।",
+    "interaction": "**অন্য ওষুধের সাথে প্রতিক্রিয়া:** এমাইনোফাইলিন, নিওমাইসিন, ইরিথ্রোমাইসিন, কোরামফেনিকল, কোরথায়াজাইড সোডিয়াম, হাইড্রোকর্টিসোন সোডিয়াম ওষুধের সাথে ভিটামিন সি এর কিছু ক্ষতিকারক প্রতিক্রিয়া আছে।",
+    "contraindications": "হাইপার অক্সালিউরিয়া রোগীদের ক্ষেত্রে উচ্চমাত্রায় গ্রহণ নির্দেশিত নয়।",
+    "side_effects": "অত্যধিক মাত্রায় ব্যবহারে ডায়রিয়া, মাথা ব্যথা, লৌহ শোষন ক্ষমতার মাত্রাধিক্য হতে পারে।",
+    "pregnancy_cat": "**গর্ভাবস্থা ও স্তন্যদানকালে ব্যবহার:** স্বাভাবিক মাত্রায় সম্পুর্ণ নিরাপদ। তবে প্রতিদিন ৫ গ্রাম অথবা এর বেশী মাত্রায় গ্রহণ করলে গর্ভপাত হতে পারে।",
+    "precautions": "Glucose, ইউরিক এসিড এবং ক্রিয়েটিনিন পরীক্ষায় ভিটামিন সি ভুল পজিটিভ রেজাল্ট দিতে পারে।",
+    "drug_classes": "Vitamin-C Preparations",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০ ডিগ্রী সেঃ তাপমাত্রার নীচে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1137/vitamin-c-ascorbic-acid",
+  "source_url_bn": "https://medex.com.bd/generics/1137/vitamin-c-ascorbic-acid/bn",
+  "scraped_at": "2026-10-10T18:31:20+00:00"
+}

@@ -1,0 +1,886 @@
+{
+  "slug": "tiemonium",
+  "name_en": "Tiemonium Methylsulfate",
+  "name_bn": "টাইমোনিয়াম মিথাইলসালফেট",
+  "therapeutic_class": "Anticholinergics",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Algin",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/1430/algin-50-mg-tablet"
+    },
+    {
+      "name": "Algin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/1431/algin-10-mg-syrup"
+    },
+    {
+      "name": "Algin",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Renata PLC",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/1432/algin-5-mg-imiv-injection"
+    },
+    {
+      "name": "Aspasom",
+      "strength": "50 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24961/aspasom-50-mg-tablet"
+    },
+    {
+      "name": "Aspasom",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/24963/aspasom-10-mg-syrup"
+    },
+    {
+      "name": "Aspasom",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/28874/aspasom-5-mg-imiv-injection"
+    },
+    {
+      "name": "Deltimo",
+      "strength": "50 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36261/deltimo-50-mg-tablet"
+    },
+    {
+      "name": "Deltimo",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36659/deltimo-10-mg-syrup"
+    },
+    {
+      "name": "Dysma",
+      "strength": "50 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.20",
+      "url": "https://medex.com.bd/brands/26995/dysma-50-mg-tablet"
+    },
+    {
+      "name": "Emogin",
+      "strength": "50 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1434/emogin-50-mg-tablet"
+    },
+    {
+      "name": "Emonium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1435/emonium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Emonium",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24954/emonium-50-mg-tablet"
+    },
+    {
+      "name": "Freespa",
+      "strength": "50 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/29253/freespa-50-mg-tablet"
+    },
+    {
+      "name": "Inteum",
+      "strength": "50 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/29210/inteum-50-mg-tablet"
+    },
+    {
+      "name": "Monivis",
+      "strength": "50 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.75",
+      "url": "https://medex.com.bd/brands/24969/monivis-50-mg-tablet"
+    },
+    {
+      "name": "Norvis",
+      "strength": "50 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/1436/norvis-50-mg-tablet"
+    },
+    {
+      "name": "Norvis",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/1437/norvis-10-mg-syrup"
+    },
+    {
+      "name": "Norvis",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/1438/norvis-5-mg-imiv-injection"
+    },
+    {
+      "name": "Novispa",
+      "strength": "50 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/37395/novispa-50-mg-tablet"
+    },
+    {
+      "name": "Onibest",
+      "strength": "50 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36736/onibest-50-mg-tablet"
+    },
+    {
+      "name": "Onium",
+      "strength": "50 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1439/onium-50-mg-tablet"
+    },
+    {
+      "name": "Onium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/1440/onium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Onium",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/1441/onium-10-mg-syrup"
+    },
+    {
+      "name": "Panium",
+      "strength": "50 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1442/panium-50-mg-tablet"
+    },
+    {
+      "name": "Panium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24967/panium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Panium",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28492/panium-10-mg-syrup"
+    },
+    {
+      "name": "Previp",
+      "strength": "50 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1444/previp-50-mg-tablet"
+    },
+    {
+      "name": "Relvis",
+      "strength": "50 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1445/relvis-50-mg-tablet"
+    },
+    {
+      "name": "Relvis",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "2 ml ampoule : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1446/relvis-5-mg-imiv-injection"
+    },
+    {
+      "name": "Relvis",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 88.00",
+      "url": "https://medex.com.bd/brands/37909/relvis-10-mg-syrup"
+    },
+    {
+      "name": "Salgin",
+      "strength": "50 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/39349/salgin-50-mg-tablet"
+    },
+    {
+      "name": "Silgin",
+      "strength": "50 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31571/silgin-50-mg-tablet"
+    },
+    {
+      "name": "Spadyl",
+      "strength": "50 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24977/spadyl-50-mg-tablet"
+    },
+    {
+      "name": "Spanium",
+      "strength": "50 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1447/spanium-50-mg-tablet"
+    },
+    {
+      "name": "Spanium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1448/spanium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Sparel",
+      "strength": "50 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.01",
+      "url": "https://medex.com.bd/brands/24980/sparel-50-mg-tablet"
+    },
+    {
+      "name": "Spason",
+      "strength": "50 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/24951/spason-50-mg-tablet"
+    },
+    {
+      "name": "Spazin",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/1449/spazin-50-mg-tablet"
+    },
+    {
+      "name": "Tie",
+      "strength": "50 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/24968/tie-50-mg-tablet"
+    },
+    {
+      "name": "Tiemis",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/36763/tiemis-10-mg-syrup"
+    },
+    {
+      "name": "Tiemis",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36764/tiemis-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tiemis",
+      "strength": "50 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36765/tiemis-50-mg-tablet"
+    },
+    {
+      "name": "Tiemo",
+      "strength": "50 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1450/tiemo-50-mg-tablet"
+    },
+    {
+      "name": "Tienum",
+      "strength": "50 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1451/tienum-50-mg-tablet"
+    },
+    {
+      "name": "Tienum",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1452/tienum-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tim-50",
+      "strength": "50 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34790/tim-50-50-mg-tablet"
+    },
+    {
+      "name": "Timem",
+      "strength": "50 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.60",
+      "url": "https://medex.com.bd/brands/1453/timem-50-mg-tablet"
+    },
+    {
+      "name": "Timeth",
+      "strength": "50 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/1454/timeth-50-mg-tablet"
+    },
+    {
+      "name": "Timoben",
+      "strength": "50 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/24953/timoben-50-mg-tablet"
+    },
+    {
+      "name": "Timoben",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/27480/timoben-10-mg-syrup"
+    },
+    {
+      "name": "Timofet",
+      "strength": "50 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/24948/timofet-50-mg-tablet"
+    },
+    {
+      "name": "Timolax",
+      "strength": "50 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/1455/timolax-50-mg-tablet"
+    },
+    {
+      "name": "Timomed",
+      "strength": "50 mg",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24965/timomed-50-mg-tablet"
+    },
+    {
+      "name": "Timonac",
+      "strength": "50 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1456/timonac-50-mg-tablet"
+    },
+    {
+      "name": "Timonac",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "2 ml ampoule : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/33504/timonac-5-mg-imiv-injection"
+    },
+    {
+      "name": "Timonate",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28603/timonate-50-mg-tablet"
+    },
+    {
+      "name": "Timonate",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28604/timonate-5-mg-imiv-injection"
+    },
+    {
+      "name": "Timonil",
+      "strength": "50 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1458/timonil-50-mg-tablet"
+    },
+    {
+      "name": "Timonium",
+      "strength": "50 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32563/timonium-50-mg-tablet"
+    },
+    {
+      "name": "Timopa",
+      "strength": "50 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1460/timopa-50-mg-tablet"
+    },
+    {
+      "name": "Timothy",
+      "strength": "50 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1461/timothy-50-mg-tablet"
+    },
+    {
+      "name": "Timothy",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/1462/timothy-5-mg-imiv-injection"
+    },
+    {
+      "name": "Timovis",
+      "strength": "50 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/1463/timovis-50-mg-tablet"
+    },
+    {
+      "name": "Timovis",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/39257/timovis-10-mg-syrup"
+    },
+    {
+      "name": "Timozin",
+      "strength": "50 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1464/timozin-50-mg-tablet"
+    },
+    {
+      "name": "Timozin",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/24959/timozin-5-mg-imiv-injection"
+    },
+    {
+      "name": "Timozin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/33821/timozin-10-mg-syrup"
+    },
+    {
+      "name": "Tinimet",
+      "strength": "50 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1466/tinimet-50-mg-tablet"
+    },
+    {
+      "name": "Tinimet",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1467/tinimet-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tinium",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/24946/tinium-50-mg-tablet"
+    },
+    {
+      "name": "Tinium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/24979/tinium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tino",
+      "strength": "50 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/1468/tino-50-mg-tablet"
+    },
+    {
+      "name": "Tispa",
+      "strength": "50 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/1469/tispa-50-mg-tablet"
+    },
+    {
+      "name": "Titos",
+      "strength": "50 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/1470/titos-50-mg-tablet"
+    },
+    {
+      "name": "Tium",
+      "strength": "50 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1471/tium-50-mg-tablet"
+    },
+    {
+      "name": "Tium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36646/tium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tivis",
+      "strength": "50 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1472/tivis-50-mg-tablet"
+    },
+    {
+      "name": "TMS",
+      "strength": "50 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1473/tms-50-mg-tablet"
+    },
+    {
+      "name": "Tomium",
+      "strength": "50 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27943/tomium-50-mg-tablet"
+    },
+    {
+      "name": "Tumpa",
+      "strength": "50 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38297/tumpa-50-mg-tablet"
+    },
+    {
+      "name": "Tygin",
+      "strength": "50 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1465/tygin-50-mg-tablet"
+    },
+    {
+      "name": "Tynium",
+      "strength": "50 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/1474/tynium-50-mg-tablet"
+    },
+    {
+      "name": "Tynium",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 88.00",
+      "url": "https://medex.com.bd/brands/1475/tynium-10-mg-syrup"
+    },
+    {
+      "name": "Tynium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "ACI Limited",
+      "price": "2 ml ampoule : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/1476/tynium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Tysul",
+      "strength": "50 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/36400/tysul-50-mg-tablet"
+    },
+    {
+      "name": "Tyvas",
+      "strength": "50 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24956/tyvas-50-mg-tablet"
+    },
+    {
+      "name": "Tyvas",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "2 mg ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32703/tyvas-5-mg-imiv-injection"
+    },
+    {
+      "name": "V-gin",
+      "strength": "50 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37669/v-gin-50-mg-tablet"
+    },
+    {
+      "name": "Veralgin",
+      "strength": "50 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/1477/veralgin-50-mg-tablet"
+    },
+    {
+      "name": "Veralgin",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "2 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/1478/veralgin-5-mg-imiv-injection"
+    },
+    {
+      "name": "Vesium",
+      "strength": "50 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36618/vesium-50-mg-tablet"
+    },
+    {
+      "name": "Visalex",
+      "strength": "50 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24964/visalex-50-mg-tablet"
+    },
+    {
+      "name": "Visarin",
+      "strength": "50 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1479/visarin-50-mg-tablet"
+    },
+    {
+      "name": "Visarin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/24973/visarin-10-mg-syrup"
+    },
+    {
+      "name": "Viscer",
+      "strength": "50 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 3.48",
+      "url": "https://medex.com.bd/brands/1480/viscer-50-mg-tablet"
+    },
+    {
+      "name": "Viscer",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "2 ml ampoule : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1481/viscer-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visceral",
+      "strength": "50 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.27",
+      "url": "https://medex.com.bd/brands/1482/visceral-50-mg-tablet"
+    },
+    {
+      "name": "Visceral",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "2 ml ampoule : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/24958/visceral-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visceralgine",
+      "strength": "50 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/1483/visceralgine-50-mg-tablet"
+    },
+    {
+      "name": "Visceralgine",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 39.57",
+      "url": "https://medex.com.bd/brands/1484/visceralgine-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visegin",
+      "strength": "50 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1485/visegin-50-mg-tablet"
+    },
+    {
+      "name": "Viset",
+      "strength": "50 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1486/viset-50-mg-tablet"
+    },
+    {
+      "name": "Viset",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/1487/viset-10-mg-syrup"
+    },
+    {
+      "name": "Viset",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/1488/viset-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visetil",
+      "strength": "50 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27413/visetil-50-mg-tablet"
+    },
+    {
+      "name": "Visnil",
+      "strength": "50 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1489/visnil-50-mg-tablet"
+    },
+    {
+      "name": "Visnil",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/17180/visnil-10-mg-syrup"
+    },
+    {
+      "name": "Visnil",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/37585/visnil-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visnor",
+      "strength": "50 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1490/visnor-50-mg-tablet"
+    },
+    {
+      "name": "Visnor",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1491/visnor-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visonium",
+      "strength": "50 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1443/visonium-50-mg-tablet"
+    },
+    {
+      "name": "Visonium",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "2 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24955/visonium-5-mg-imiv-injection"
+    },
+    {
+      "name": "Vispazin",
+      "strength": "50 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1493/vispazin-50-mg-tablet"
+    },
+    {
+      "name": "Vispazin",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1494/vispazin-5-mg-imiv-injection"
+    },
+    {
+      "name": "Vispazin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/24957/vispazin-10-mg-syrup"
+    },
+    {
+      "name": "Visral",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/1495/visral-5-mg-imiv-injection"
+    },
+    {
+      "name": "Visral",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/1496/visral-10-mg-syrup"
+    },
+    {
+      "name": "Visral",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1497/visral-50-mg-tablet"
+    },
+    {
+      "name": "Visral",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1498/visral-20-mg-suppository"
+    },
+    {
+      "name": "Xelcom",
+      "strength": "5 mg/2 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/24975/xelcom-5-mg-imiv-injection"
+    },
+    {
+      "name": "Xelcom",
+      "strength": "50 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/24976/xelcom-50-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Tiemonium Methylsulfate is an antispasmodic drug that reduces muscles spasm of the intestine, biliary system, bladder and uterus. It is used in symptomatic treatment of pain related to functional disorders of the digestive tract and biliary system. It is also indicated for the treatment of spasm and pain in urological and gynaecological diseases.",
+    "mode_of_action": "Tiemonium Methylsulphate a competitive antagonist of Acetylcholine, Histamine and strengthens of calcium bond with membrane phospholipids and proteins. Thus inhibits intracellular contractile protein of visceral cell which causes inhibition of visceral spasm and pain.",
+    "dosage": "**Tablet/Syrup**-\r\n\n- Adult: usual dose is 2-6 tablets or 3-9 teaspoonfuls syrup daily in divided doses.\n- Children: 3 ml/kg or 6 mg/kg body weight daily in divided doses.\n\n**Injection**: 1 injection 3 times daily, through Intravenous route slowly or Intramuscular route.\n\n**Suppository**: 20 mg suppository two or three times daily, through rectal route.",
+    "interaction": "Tiemonium methylsulphate tablet should not be used with other drugs without prior consult of a registered physician to avoid possible drug interaction.",
+    "contraindications": "It should not be used in urethroprostatic disorder involving a risk of urine retension. It is contraindicated in patient with having risk of angle closure glaucoma.",
+    "side_effects": "Tiemonium Methylsulphate may have the risk of hypotension & tachycardia in certain individuals.",
+    "pregnancy_cat": "The results of animal studies of Tiemonium Methylsulphate did not reveal any teratogenic effects; no deformities have been reported up till now with normal use. In absence of sufficient data, prudence should be the rule for nursing mothers although no problems have been reported with normal use.",
+    "precautions": "Caution should be taken during treatment of patients with disorders of the prostate. Caution should also be taken in case of chronic bronchitis, coronary insufficiency, ambient hyperthermia, renal & hepatic insufficiency. The risks of visual disturbances can make it dangerous to drive or use machines.",
+    "pediatric_uses": "**Paediatric use:** safety and effectiveness of Tiemonium methylsulphate in paediatric patients have not been established.\n\n**Geriatric use:** Efficacy and safety were maintained with increasing age.",
+    "overdose_effects": "There is not available data regarding the overdose of Tiemonium methylsulphate tablet.",
+    "drug_classes": "Anticholinergics",
+    "storage_conditions": "Keep in a dry place, away from light and heat. Keep out of the reach of children.",
+    "commonly_asked_questions": "#### What is Tiemonium Methylsulfate?\n\nTiemonium Methylsulfate is an antispasmodic drug that reduces muscles spasm of the intestine, biliary system, bladder and uterus.\n\n#### What is Tiemonium Methylsulfate used for?\n\nTiemonium Methylsulfate is used for the treatment of pain in digestive tract and biliary system. It is also indicated for the treatment of spasm and pain in urological and gynaecological diseases."
+  },
+  "sections_bn": {
+    "indications": "টাইমোনিয়াম মিথাইলসালফেট একটি মাংসপেশীর খিঁচুনীরোধী ঔষধ যা পরিপাকনালী, পিত্ততন্ত্র, মূত্রাশয় ও জরায়ুর পেশীর সংকোচন কমায়। ইহা পরিপাকনালী ও পিত্ততন্ত্রের অকার্যকারিতা সংক্রান্ত ব্যথার লক্ষণ ভিত্তিক চিকিৎসায় ব্যবহৃত হয়। এছাড়াও এটি মূত্রনালী ও স্ত্রী জননাঙ্গ সংক্রান্ত রোগের সংকোচন ও ব্যথার চিকিৎসায় নির্দেশিত।",
+    "mode_of_action": "টাইমোনিয়াম মিথাইলসালফেট হল এসিটাইলকোলিন ও হিস্টামিনের এন্টাগোনিস্ট। এটি কোষের ঝিল্লির ফসফোলিপিড এবং প্রোটিনের সাথে ক্যালসিয়ামের বন্ধনকে শক্তিশালী করে। ফলে এটি অন্ত্র, পিত্তথলি, মূত্রাশয় ও জরায়ুর মসৃণ পেশীর সংকোচন কাজকে বাধাপ্রদর্শন করে, যা অভ্যন্তরীণ ব্যথা কমায়।",
+    "dosage": "**প্রাপ্তবয়স্কদের ক্ষেত্রে**: সাধারণ মাত্রা দৈনিক ২-৬ টি ট্যাবলেট অথবা ৩-৯ চা চামচ সিরাপ বিভক্ত মাত্রায়।\n\n**শিশুদের ক্ষেত্রে**: দৈনিক ৩ মিঃলিঃ/কেজি অথবা ৬ মিঃগ্রাঃ/কেজি দৈহিক ওজন হিসেবে বিভক্ত মাত্রায়।",
+    "contraindications": "ইউরেথ্রোপ্রোস্টেটিক ডিজঅর্ডার যেখানে প্রস্রাব আটকে যাওয়ার ঝুঁকি আছে সেসব ক্ষেত্রে এটি ব্যবহার করা উচিত নয়। যে সমন্ত রোগীর এ্যাঙ্গেল ক্লোজার Glucoma হওয়ার ঝুঁকি আছে তাদের ক্ষেত্রে এটি প্রতিনির্দেশিত।",
+    "side_effects": "টাইমোনিয়াম মিথাইলসালফেট ব্যবহারে কারো কারো হাইপোটেনশন ও ট্যাকিকার্ডিয়া হওয়ার ঝুঁকি থাকে।",
+    "pregnancy_cat": "প্রাণীর উপর গবেষণা করে দেখা গেছে যে, Fetus এর উপর টাইমোনিয়াম মিথাইলসালফেট এর কোন ক্ষতিকর প্রভাব নেই; সাধারণ ব্যবহারে এখন পর্যন্ত Fetus এর কোন বিকলাঙ্গতা দেখা যায়নি। তবুও পর্যাপ্ত তথ্য না থাকার কারণে স্তন্যদানকালে ব্যবহারের ক্ষেত্রে বিচার বুদ্ধি ও সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "প্রোস্টেট গ্ল্যান্ডের সমস্যা আছে এমন সব রোগীর ক্ষেত্রে সতর্কতা অবলম্বন করা উচিত। তীব্র ফুসফুসের প্রদাহ, করোনারী অপর্যাপ্ততা, অত্যাধিক দেহতাপ বৃদ্ধি এবং বৃক্কীয় ও যকৃতের অপর্যাপ্ত কার্যকারিতার ক্ষেত্রেও সতর্কতা অবলম্বন করা উচিত। দৃষ্টি বিভ্রাট হওয়ার ঝুঁকি, গাড়ি ও মেশিন চালানোর ক্ষেত্রে বিপজ্জনক হয়ে উঠতে পারে।",
+    "drug_classes": "Anticholinergics",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে, শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1069/tiemonium-methylsulfate",
+  "source_url_bn": "https://medex.com.bd/generics/1069/tiemonium-methylsulfate/bn",
+  "scraped_at": "2026-10-10T18:15:17+00:00"
+}

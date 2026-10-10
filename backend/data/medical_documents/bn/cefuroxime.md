@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Second generation cephalosporins
 - সহজলভ্য ডোজ ফর্ম: Tablets & Oral Suspension, Injection
 - উৎস লিংক: https://medex.com.bd/generics/226/cefuroxime-axetil/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:47:51+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T18:15:46+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

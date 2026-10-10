@@ -3,7 +3,7 @@
 - মূল নাম: aceclofenac
 - থেরাপিউটিক ক্লাস: Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)
 - উৎস লিংক: https://medex.com.bd/generics/3/aceclofenac/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:45:46+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T18:14:01+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Motility Stimulants, Motility stimulants/Dopamine antagonist, Prokinetic drugs
 - সহজলভ্য ডোজ ফর্ম: Tablets & Oral Suspension, Suppository
 - উৎস লিংক: https://medex.com.bd/generics/380/domperidone-maleate/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:47:02+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T18:15:06+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

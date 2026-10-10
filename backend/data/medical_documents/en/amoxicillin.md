@@ -4,7 +4,7 @@
 - Therapeutic Class: Broad spectrum penicillins
 - Available Dosage Forms: Ref-01, Ref-02
 - Source URL: https://medex.com.bd/generics/69/amoxicillin-trihydrate
-- Retrieved At (UTC): 2026-10-10T15:47:14+00:00
+- Retrieved At (UTC): 2026-10-10T18:16:21+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

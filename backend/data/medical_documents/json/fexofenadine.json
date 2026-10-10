@@ -1,0 +1,1638 @@
+{
+  "slug": "fexofenadine",
+  "name_en": "Fexofenadine Hydrochloride",
+  "name_bn": "ফেক্সোফেনাডিন হাইড্রোক্লোরাইড",
+  "therapeutic_class": "Anti-histamine",
+  "dosage_forms": [
+    "Tablet",
+    "Oral suspension"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adifex",
+      "strength": "120 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/20395/adifex-120-mg-tablet"
+    },
+    {
+      "name": "Afexa",
+      "strength": "120 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29422/afexa-120-mg-tablet"
+    },
+    {
+      "name": "Afexa",
+      "strength": "180 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29423/afexa-180-mg-tablet"
+    },
+    {
+      "name": "Afexa",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/29424/afexa-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alafree",
+      "strength": "120 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12055/alafree-120-mg-tablet"
+    },
+    {
+      "name": "Alafree",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 52.00",
+      "url": "https://medex.com.bd/brands/20332/alafree-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alagra",
+      "strength": "120 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12059/alagra-120-mg-tablet"
+    },
+    {
+      "name": "Alagra",
+      "strength": "180 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12060/alagra-180-mg-tablet"
+    },
+    {
+      "name": "Alagra",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12061/alagra-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alagra",
+      "strength": "60 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/27838/alagra-60-mg-tablet"
+    },
+    {
+      "name": "Alanil",
+      "strength": "120 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12062/alanil-120-mg-tablet"
+    },
+    {
+      "name": "Alanil",
+      "strength": "180 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12063/alanil-180-mg-tablet"
+    },
+    {
+      "name": "Alanil",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12064/alanil-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alerfast",
+      "strength": "120 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12065/alerfast-120-mg-tablet"
+    },
+    {
+      "name": "Alerfast",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/28883/alerfast-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alerfast",
+      "strength": "180 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35037/alerfast-180-mg-tablet"
+    },
+    {
+      "name": "Alerfex",
+      "strength": "120 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12066/alerfex-120-mg-tablet"
+    },
+    {
+      "name": "Alerfex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12067/alerfex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alerfex",
+      "strength": "180 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34516/alerfex-180-mg-tablet"
+    },
+    {
+      "name": "Alfex",
+      "strength": "120 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12068/alfex-120-mg-tablet"
+    },
+    {
+      "name": "Alfex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/12069/alfex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Alphedin",
+      "strength": "120 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6220/alphedin-120-mg-tablet"
+    },
+    {
+      "name": "Ambfex",
+      "strength": "120 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38333/ambfex-120-mg-tablet"
+    },
+    {
+      "name": "Ambfex",
+      "strength": "180 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38334/ambfex-180-mg-tablet"
+    },
+    {
+      "name": "Amifex",
+      "strength": "60 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/20330/amifex-60-mg-tablet"
+    },
+    {
+      "name": "Amifex",
+      "strength": "120 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20331/amifex-120-mg-tablet"
+    },
+    {
+      "name": "Axodin",
+      "strength": "60 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12070/axodin-60-mg-tablet"
+    },
+    {
+      "name": "Axodin",
+      "strength": "120 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12071/axodin-120-mg-tablet"
+    },
+    {
+      "name": "Axodin",
+      "strength": "180 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12072/axodin-180-mg-tablet"
+    },
+    {
+      "name": "Axodin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12073/axodin-30-mg-oral-suspension"
+    },
+    {
+      "name": "Axofen",
+      "strength": "120 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12074/axofen-120-mg-tablet"
+    },
+    {
+      "name": "Axofen",
+      "strength": "180 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12075/axofen-180-mg-tablet"
+    },
+    {
+      "name": "Axofen",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12076/axofen-30-mg-oral-suspension"
+    },
+    {
+      "name": "Cpdin",
+      "strength": "120 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/35563/cpdin-120-mg-tablet"
+    },
+    {
+      "name": "Delfex",
+      "strength": "120 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/20342/delfex-120-mg-tablet"
+    },
+    {
+      "name": "Delfex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/20343/delfex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Delfex",
+      "strength": "180 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35895/delfex-180-mg-tablet"
+    },
+    {
+      "name": "Dinafex",
+      "strength": "60 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/12077/dinafex-60-mg-tablet"
+    },
+    {
+      "name": "Dinafex",
+      "strength": "120 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12078/dinafex-120-mg-tablet"
+    },
+    {
+      "name": "Dinafex",
+      "strength": "180 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12079/dinafex-180-mg-tablet"
+    },
+    {
+      "name": "Dinafex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12080/dinafex-30-mg-oral-suspension"
+    },
+    {
+      "name": "ED-Fex",
+      "strength": "120 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28083/ed-fex-120-mg-tablet"
+    },
+    {
+      "name": "ED-Fex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/32666/ed-fex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Elfexo",
+      "strength": "120 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12922/elfexo-120-mg-tablet"
+    },
+    {
+      "name": "Elfexo",
+      "strength": "180 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12923/elfexo-180-mg-tablet"
+    },
+    {
+      "name": "Elfexo",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/12924/elfexo-30-mg-oral-suspension"
+    },
+    {
+      "name": "Exfen",
+      "strength": "120 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38591/exfen-120-mg-tablet"
+    },
+    {
+      "name": "Exfen",
+      "strength": "180 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38592/exfen-180-mg-tablet"
+    },
+    {
+      "name": "Exonid",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30427/exonid-30-mg-oral-suspension"
+    },
+    {
+      "name": "Exonid",
+      "strength": "120 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/30428/exonid-120-mg-tablet"
+    },
+    {
+      "name": "Exonid",
+      "strength": "180 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30429/exonid-180-mg-tablet"
+    },
+    {
+      "name": "Fastact",
+      "strength": "120 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/12925/fastact-120-mg-tablet"
+    },
+    {
+      "name": "Fastact",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/12926/fastact-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fastel",
+      "strength": "120 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20382/fastel-120-mg-tablet"
+    },
+    {
+      "name": "Fastel",
+      "strength": "180 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/20383/fastel-180-mg-tablet"
+    },
+    {
+      "name": "Fastel",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/39285/fastel-30-mg-oral-suspension"
+    },
+    {
+      "name": "FD-120",
+      "strength": "120 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32933/fd-120-120-mg-tablet"
+    },
+    {
+      "name": "Fegra",
+      "strength": "120 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12928/fegra-120-mg-tablet"
+    },
+    {
+      "name": "Fenadin",
+      "strength": "60 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/12082/fenadin-60-mg-tablet"
+    },
+    {
+      "name": "Fenadin",
+      "strength": "120 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12083/fenadin-120-mg-tablet"
+    },
+    {
+      "name": "Fenadin",
+      "strength": "180 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12084/fenadin-180-mg-tablet"
+    },
+    {
+      "name": "Fenadin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "30 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/12085/fenadin-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fenadin ODT",
+      "strength": "30 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/38441/fenadin-odt-30-mg-dispersible-tablet"
+    },
+    {
+      "name": "Fenafex",
+      "strength": "120 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34880/fenafex-120-mg-tablet"
+    },
+    {
+      "name": "Fenafex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Maks Drug Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34881/fenafex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fenargic",
+      "strength": "120 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.42",
+      "url": "https://medex.com.bd/brands/27805/fenargic-120-mg-tablet"
+    },
+    {
+      "name": "Fenargic",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/39658/fenargic-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fenaxo",
+      "strength": "60 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/12929/fenaxo-60-mg-tablet"
+    },
+    {
+      "name": "Fenaxo",
+      "strength": "120 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20354/fenaxo-120-mg-tablet"
+    },
+    {
+      "name": "Fenaxo",
+      "strength": "180 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/20355/fenaxo-180-mg-tablet"
+    },
+    {
+      "name": "Fenaxo",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/20356/fenaxo-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fenofex",
+      "strength": "60 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12088/fenofex-60-mg-tablet"
+    },
+    {
+      "name": "Fenofex",
+      "strength": "120 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12089/fenofex-120-mg-tablet"
+    },
+    {
+      "name": "Fenofex",
+      "strength": "180 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12090/fenofex-180-mg-tablet"
+    },
+    {
+      "name": "Fenofex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/12091/fenofex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fenox",
+      "strength": "120 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20392/fenox-120-mg-tablet"
+    },
+    {
+      "name": "Ferdin",
+      "strength": "120 mg",
+      "manufacturer": "Royal Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32179/ferdin-120-mg-tablet"
+    },
+    {
+      "name": "Fesler",
+      "strength": "180 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12092/fesler-180-mg-tablet"
+    },
+    {
+      "name": "Fesler",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/12093/fesler-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fesler",
+      "strength": "120 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20363/fesler-120-mg-tablet"
+    },
+    {
+      "name": "Fexadyne",
+      "strength": "120 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32911/fexadyne-120-mg-tablet"
+    },
+    {
+      "name": "Fexen",
+      "strength": "120 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/38501/fexen-120-mg-tablet"
+    },
+    {
+      "name": "Fexen",
+      "strength": "180 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/38502/fexen-180-mg-tablet"
+    },
+    {
+      "name": "Fexirin",
+      "strength": "120 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/20396/fexirin-120-mg-tablet"
+    },
+    {
+      "name": "Fexirin",
+      "strength": "180 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20397/fexirin-180-mg-tablet"
+    },
+    {
+      "name": "Fexlor",
+      "strength": "120 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/38719/fexlor-120-mg-tablet"
+    },
+    {
+      "name": "Fexlor",
+      "strength": "180 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38720/fexlor-180-mg-tablet"
+    },
+    {
+      "name": "Fexo",
+      "strength": "60 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/12094/fexo-60-mg-tablet"
+    },
+    {
+      "name": "Fexo",
+      "strength": "120 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12095/fexo-120-mg-tablet"
+    },
+    {
+      "name": "Fexo",
+      "strength": "180 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12096/fexo-180-mg-tablet"
+    },
+    {
+      "name": "Fexo",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12097/fexo-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexobest",
+      "strength": "120 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33600/fexobest-120-mg-tablet"
+    },
+    {
+      "name": "Fexobest",
+      "strength": "180 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33601/fexobest-180-mg-tablet"
+    },
+    {
+      "name": "Fexobest",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33602/fexobest-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexocare",
+      "strength": "120 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35689/fexocare-120-mg-tablet"
+    },
+    {
+      "name": "Fexocare",
+      "strength": "180 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/35690/fexocare-180-mg-tablet"
+    },
+    {
+      "name": "Fexocold",
+      "strength": "120 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/32078/fexocold-120-mg-tablet"
+    },
+    {
+      "name": "Fexocold",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/35331/fexocold-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexocon",
+      "strength": "120 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/12098/fexocon-120-mg-tablet"
+    },
+    {
+      "name": "Fexocon",
+      "strength": "180 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12099/fexocon-180-mg-tablet"
+    },
+    {
+      "name": "Fexocon",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12100/fexocon-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexodin",
+      "strength": "120 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12101/fexodin-120-mg-tablet"
+    },
+    {
+      "name": "Fexodin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12102/fexodin-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexofast",
+      "strength": "120 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12103/fexofast-120-mg-tablet"
+    },
+    {
+      "name": "Fexofast",
+      "strength": "180 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12104/fexofast-180-mg-tablet"
+    },
+    {
+      "name": "Fexofast",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/12105/fexofast-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexofast",
+      "strength": "60 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/20348/fexofast-60-mg-tablet"
+    },
+    {
+      "name": "Fexofeda",
+      "strength": "120 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27240/fexofeda-120-mg-tablet"
+    },
+    {
+      "name": "Fexofeda",
+      "strength": "180 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27241/fexofeda-180-mg-tablet"
+    },
+    {
+      "name": "Fexofen",
+      "strength": "120 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12106/fexofen-120-mg-tablet"
+    },
+    {
+      "name": "Fexofen",
+      "strength": "180 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12107/fexofen-180-mg-tablet"
+    },
+    {
+      "name": "Fexofen",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/12108/fexofen-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexole",
+      "strength": "120 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/30324/fexole-120-mg-tablet"
+    },
+    {
+      "name": "Fexomax",
+      "strength": "60 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12932/fexomax-60-mg-tablet"
+    },
+    {
+      "name": "Fexomin",
+      "strength": "60 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12109/fexomin-60-mg-tablet"
+    },
+    {
+      "name": "Fexomin",
+      "strength": "120 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12110/fexomin-120-mg-tablet"
+    },
+    {
+      "name": "Fexomin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/12111/fexomin-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexomin",
+      "strength": "180 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/20352/fexomin-180-mg-tablet"
+    },
+    {
+      "name": "Fexon",
+      "strength": "120 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12112/fexon-120-mg-tablet"
+    },
+    {
+      "name": "Fexon",
+      "strength": "180 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12113/fexon-180-mg-tablet"
+    },
+    {
+      "name": "Fexona",
+      "strength": "120 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12115/fexona-120-mg-tablet"
+    },
+    {
+      "name": "Fexona",
+      "strength": "180 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12116/fexona-180-mg-tablet"
+    },
+    {
+      "name": "Fexona",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12117/fexona-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexonaaf",
+      "strength": "120 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20366/fexonaaf-120-mg-tablet"
+    },
+    {
+      "name": "Fexonaaf",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "50 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/20367/fexonaaf-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexonor",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/36345/fexonor-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexonor",
+      "strength": "120 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/36638/fexonor-120-mg-tablet"
+    },
+    {
+      "name": "Fexonor",
+      "strength": "180 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36639/fexonor-180-mg-tablet"
+    },
+    {
+      "name": "Fexoral",
+      "strength": "120 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/20377/fexoral-120-mg-tablet"
+    },
+    {
+      "name": "Fexoral",
+      "strength": "180 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20378/fexoral-180-mg-tablet"
+    },
+    {
+      "name": "Fexoral",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/20379/fexoral-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexoril",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "50 ml bottle : ৳ 55.20",
+      "url": "https://medex.com.bd/brands/36384/fexoril-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexorush",
+      "strength": "180 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32079/fexorush-180-mg-tablet"
+    },
+    {
+      "name": "Fexosic",
+      "strength": "120 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37803/fexosic-120-mg-tablet"
+    },
+    {
+      "name": "Fexosic",
+      "strength": "180 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37804/fexosic-180-mg-tablet"
+    },
+    {
+      "name": "Fexosun",
+      "strength": "120 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/36928/fexosun-120-mg-tablet"
+    },
+    {
+      "name": "Fexosun",
+      "strength": "180 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/36929/fexosun-180-mg-tablet"
+    },
+    {
+      "name": "Fexotab",
+      "strength": "120 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/12934/fexotab-120-mg-tablet"
+    },
+    {
+      "name": "Fexotab",
+      "strength": "180 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/12935/fexotab-180-mg-tablet"
+    },
+    {
+      "name": "Fexoton",
+      "strength": "120 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/39336/fexoton-120-mg-tablet"
+    },
+    {
+      "name": "Fexozen",
+      "strength": "120 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28757/fexozen-120-mg-tablet"
+    },
+    {
+      "name": "Fexozen",
+      "strength": "60 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/28758/fexozen-60-mg-tablet"
+    },
+    {
+      "name": "Fexsil",
+      "strength": "120 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31473/fexsil-120-mg-tablet"
+    },
+    {
+      "name": "Fexsil",
+      "strength": "180 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31474/fexsil-180-mg-tablet"
+    },
+    {
+      "name": "Fexsil",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/31475/fexsil-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fexten",
+      "strength": "120 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12118/fexten-120-mg-tablet"
+    },
+    {
+      "name": "Fexten",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12120/fexten-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fextive",
+      "strength": "120 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27913/fextive-120-mg-tablet"
+    },
+    {
+      "name": "Fextive",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38752/fextive-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fixal",
+      "strength": "30 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/12121/fixal-30-mg-tablet"
+    },
+    {
+      "name": "Fixal",
+      "strength": "60 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/12122/fixal-60-mg-tablet"
+    },
+    {
+      "name": "Fixal",
+      "strength": "120 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12123/fixal-120-mg-tablet"
+    },
+    {
+      "name": "Fixal",
+      "strength": "180 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12124/fixal-180-mg-tablet"
+    },
+    {
+      "name": "Fixal",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12125/fixal-30-mg-oral-suspension"
+    },
+    {
+      "name": "Fixasin",
+      "strength": "120 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/39468/fixasin-120-mg-tablet"
+    },
+    {
+      "name": "Fixen",
+      "strength": "120 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12126/fixen-120-mg-tablet"
+    },
+    {
+      "name": "Fixen",
+      "strength": "180 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27966/fixen-180-mg-tablet"
+    },
+    {
+      "name": "Fixen",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/27967/fixen-30-mg-oral-suspension"
+    },
+    {
+      "name": "Flufex",
+      "strength": "120 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/32513/flufex-120-mg-tablet"
+    },
+    {
+      "name": "Fondy",
+      "strength": "180 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20370/fondy-180-mg-tablet"
+    },
+    {
+      "name": "Fondy",
+      "strength": "120 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20371/fondy-120-mg-tablet"
+    },
+    {
+      "name": "Furia",
+      "strength": "60 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/20372/furia-60-mg-tablet"
+    },
+    {
+      "name": "Furia",
+      "strength": "120 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/20373/furia-120-mg-tablet"
+    },
+    {
+      "name": "Furia",
+      "strength": "180 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/20374/furia-180-mg-tablet"
+    },
+    {
+      "name": "Furia",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.14",
+      "url": "https://medex.com.bd/brands/20375/furia-30-mg-oral-suspension"
+    },
+    {
+      "name": "Histafen",
+      "strength": "120 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/27417/histafen-120-mg-tablet"
+    },
+    {
+      "name": "Nafex",
+      "strength": "180 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/20344/nafex-180-mg-tablet"
+    },
+    {
+      "name": "Nafex",
+      "strength": "120 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20345/nafex-120-mg-tablet"
+    },
+    {
+      "name": "Nefoxen",
+      "strength": "120 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20368/nefoxen-120-mg-tablet"
+    },
+    {
+      "name": "Nefoxen",
+      "strength": "180 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/20369/nefoxen-180-mg-tablet"
+    },
+    {
+      "name": "Nexofen",
+      "strength": "120 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37839/nexofen-120-mg-tablet"
+    },
+    {
+      "name": "Nolargy",
+      "strength": "120 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/12127/nolargy-120-mg-tablet"
+    },
+    {
+      "name": "Nolargy",
+      "strength": "180 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12128/nolargy-180-mg-tablet"
+    },
+    {
+      "name": "Nolargy",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/12129/nolargy-30-mg-oral-suspension"
+    },
+    {
+      "name": "Nosedex",
+      "strength": "120 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12130/nosedex-120-mg-tablet"
+    },
+    {
+      "name": "Odafen",
+      "strength": "120 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.64",
+      "url": "https://medex.com.bd/brands/12132/odafen-120-mg-tablet"
+    },
+    {
+      "name": "Odafen",
+      "strength": "180 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/12133/odafen-180-mg-tablet"
+    },
+    {
+      "name": "Odafen",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12134/odafen-30-mg-oral-suspension"
+    },
+    {
+      "name": "Odofex",
+      "strength": "120 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20339/odofex-120-mg-tablet"
+    },
+    {
+      "name": "Perfex",
+      "strength": "120 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27294/perfex-120-mg-tablet"
+    },
+    {
+      "name": "Perfex",
+      "strength": "180 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27295/perfex-180-mg-tablet"
+    },
+    {
+      "name": "Perfex",
+      "strength": "60 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27296/perfex-60-mg-tablet"
+    },
+    {
+      "name": "Perfex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/34840/perfex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Predine",
+      "strength": "120 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20380/predine-120-mg-tablet"
+    },
+    {
+      "name": "Rafex",
+      "strength": "120 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20394/rafex-120-mg-tablet"
+    },
+    {
+      "name": "Rafex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/27338/rafex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Rinofen",
+      "strength": "120 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12135/rinofen-120-mg-tablet"
+    },
+    {
+      "name": "Rinofen",
+      "strength": "180 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12136/rinofen-180-mg-tablet"
+    },
+    {
+      "name": "Ritch",
+      "strength": "60 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 5.04",
+      "url": "https://medex.com.bd/brands/12137/ritch-60-mg-tablet"
+    },
+    {
+      "name": "Ritch",
+      "strength": "120 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12138/ritch-120-mg-tablet"
+    },
+    {
+      "name": "Ritch",
+      "strength": "180 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/12139/ritch-180-mg-tablet"
+    },
+    {
+      "name": "Ritch",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/12140/ritch-30-mg-oral-suspension"
+    },
+    {
+      "name": "Rynofex",
+      "strength": "120 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/29261/rynofex-120-mg-tablet"
+    },
+    {
+      "name": "Rynofex",
+      "strength": "180 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/29262/rynofex-180-mg-tablet"
+    },
+    {
+      "name": "Sardin",
+      "strength": "120 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12937/sardin-120-mg-tablet"
+    },
+    {
+      "name": "Sardin",
+      "strength": "180 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12938/sardin-180-mg-tablet"
+    },
+    {
+      "name": "Sardin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/29161/sardin-30-mg-oral-suspension"
+    },
+    {
+      "name": "SB-Fexec",
+      "strength": "120 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/20393/sb-fexec-120-mg-tablet"
+    },
+    {
+      "name": "Sifena",
+      "strength": "120 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29175/sifena-120-mg-tablet"
+    },
+    {
+      "name": "Soldin",
+      "strength": "120 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/38979/soldin-120-mg-tablet"
+    },
+    {
+      "name": "Telfadin",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/12939/telfadin-30-mg-oral-suspension"
+    },
+    {
+      "name": "Telfadin",
+      "strength": "120 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12941/telfadin-120-mg-tablet"
+    },
+    {
+      "name": "Telfadin",
+      "strength": "180 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12942/telfadin-180-mg-tablet"
+    },
+    {
+      "name": "Telfast",
+      "strength": "120 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12141/telfast-120-mg-tablet"
+    },
+    {
+      "name": "Telfast",
+      "strength": "180 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/12142/telfast-180-mg-tablet"
+    },
+    {
+      "name": "Telfast",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "50 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/12143/telfast-30-mg-oral-suspension"
+    },
+    {
+      "name": "Telfex",
+      "strength": "120 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12144/telfex-120-mg-tablet"
+    },
+    {
+      "name": "Telfex",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/12145/telfex-30-mg-oral-suspension"
+    },
+    {
+      "name": "Telfex",
+      "strength": "180 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31527/telfex-180-mg-tablet"
+    },
+    {
+      "name": "Vifas",
+      "strength": "60 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12146/vifas-60-mg-tablet"
+    },
+    {
+      "name": "Vifas",
+      "strength": "120 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12147/vifas-120-mg-tablet"
+    },
+    {
+      "name": "Vifas",
+      "strength": "180 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12148/vifas-180-mg-tablet"
+    },
+    {
+      "name": "Vifas",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/20351/vifas-30-mg-oral-suspension"
+    },
+    {
+      "name": "X-Din",
+      "strength": "120 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/20335/x-din-120-mg-tablet"
+    },
+    {
+      "name": "X-Din",
+      "strength": "180 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20336/x-din-180-mg-tablet"
+    },
+    {
+      "name": "X-Din",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/27484/x-din-30-mg-oral-suspension"
+    },
+    {
+      "name": "Xofast",
+      "strength": "60 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/12149/xofast-60-mg-tablet"
+    },
+    {
+      "name": "Xofast",
+      "strength": "120 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12150/xofast-120-mg-tablet"
+    },
+    {
+      "name": "Xofast",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/33747/xofast-30-mg-oral-suspension"
+    },
+    {
+      "name": "Xofast",
+      "strength": "180 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38830/xofast-180-mg-tablet"
+    },
+    {
+      "name": "Xofedin",
+      "strength": "120 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.52",
+      "url": "https://medex.com.bd/brands/12151/xofedin-120-mg-tablet"
+    },
+    {
+      "name": "Xofedin",
+      "strength": "180 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/12152/xofedin-180-mg-tablet"
+    },
+    {
+      "name": "Xofena",
+      "strength": "120 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12943/xofena-120-mg-tablet"
+    },
+    {
+      "name": "Xofena",
+      "strength": "180 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/12944/xofena-180-mg-tablet"
+    },
+    {
+      "name": "Xofena",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/12945/xofena-30-mg-oral-suspension"
+    },
+    {
+      "name": "Xonad",
+      "strength": "120 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/12086/xonad-120-mg-tablet"
+    },
+    {
+      "name": "Xonad",
+      "strength": "180 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/12087/xonad-180-mg-tablet"
+    },
+    {
+      "name": "Xonad",
+      "strength": "30 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/20385/xonad-30-mg-oral-suspension"
+    }
+  ],
+  "sections_en": {
+    "indications": "**Allergic rhinitis**: Fexofenadine is indicated for the relief of symptoms associated with seasonal and perennial allergic rhinitis, in adults and children 12 years of age and over. Symptoms treated effectively include sneezing, rhinorrhea, lacrimation, itchy, red eyes and itchy nose/palate/throat ... Read more**Allergic rhinitis**: Fexofenadine is indicated for the relief of symptoms associated with seasonal and perennial allergic rhinitis, in adults and children 12 years of age and over. Symptoms treated effectively include sneezing, rhinorrhea, lacrimation, itchy, red eyes and itchy nose/palate/throat. Fexofenadine improves health-related quality of life and work/activity productivity. \n \n**Chronic idiopathic urticaria**: Fexofenadine is indicated for the relief of symptoms associated with chronic idiopathic urticaria in adults and children 12 years of age and older. Fexofenadine significantly reduces the signs and symptoms of chronic idiopathic urticaria, the number of wheals, and pruritus. Fexofenadine improves health-related quality of life and work/activity productivity.",
+    "mode_of_action": "The H1 histamine receptor is responsible for mediating hypersensitivity and allergic reactions. Exposure to allergen results in the degranulation of mast cells and basophils, which then release histamine and other inflammatory mediators. Histamine binds to, and activates, H1 receptors, which results in the further release of pro-inflammatory cytokines, such as interleukins, from basophils and mast cells. These downstream effects of histamine binding are responsible for a wide variety of allergic symptoms, such as pruritus, rhinorrhea, and watery eyes.\n\nFexofenadine is considered an \"inverse agonist\" of the H1 receptor because it binds to and stabilizes the inactive form of the receptor, preventing its activation and subsequent downstream effects. It has a potent and selective affinity for H1 receptors, and there is no evidence that it carries antidopaminergic, antiserotonergic, anticholinergic, sedative, or adrenergic blocking activity. Fexofenadine does not cross the blood-brain barrier and thus is unlikely to cause significant CNS effects.",
+    "dosage": "**Allergic Rhinitis-**\n\nAdults and children 12 years and older:\n\n- Tablet: 60 mg twice daily or 120 mg once daily or 180 mg once daily\n- In case of impaired renal function: 60 mg once daily\n\r\nChildren from 6 to 11 years:\n\n- Tablet: 30 mg twice daily or 60 mg once daily\n- In case of impaired renal function: 30 mg once daily\n\r\nChildren from 2 to 11 years\n\n- Suspension: 30 mg or 5 ml twice daily\n- In case of impaired renal function: 30 mg or 5 ml once daily\n\n**Chronic Idiopathic Urticaria-**Adults and children 12 years and older:\n\n- Tablet: 60 mg twice daily or 120 mg once daily or 180 mg once daily\n- In case of impaired renal function: 60 mg once daily\n\r\nChildren from 6 to 11 years:\n\n- Tablet: 30 mg twice daily or 60 mg once daily\n- In case of impaired renal function: 30 mg once daily\n\r\nChildren from 6 months to less than 2 years:\n\n- Suspension: 15 mg or 2.5 ml (1/2 tsp) twice daily\n- In case of impaired renal function: 15 mg or 2.5 ml (1/2 tsp) once daily\n\r\nChildren from 2 to 11 years:\n\n- Suspension: 30 mg or 5 ml (1 tsp) twice daily\n- In case of impaired renal function: 30 mg or 5 ml (1 tsp) once daily",
+    "interaction": "Fexofenadine does not undergo hepatic biotransformation and therefore will not interact with other medicinal products through hepatic mechanisms. Coadministration of fexofenadine hydrochloride with erythromycin or ketoconazole has been found to result in a 2-3 times increase in the level of fexofenadine in plasma. The changes were not accompanied by any effects on the QT interval and were not associated with any increase in adverse reactions compared to the medicinal products given singly. No interaction between fexofenadine and omeprazole was observed. However, the administration of an antacid containing aluminium and magnesium hydroxide gels 15 minutes prior to fexofenadine hydrochloride caused a reduction in bioavailability, most likely due to binding in the gastrointestinal tract. It is advisable to leave 2 hours between administration of fexofenadine hydrochloride and aluminium and magnesium hydroxide containing antacids.",
+    "contraindications": "Contraindicated in patients with known hypersensitivity to Fexofenadine Hydrochloride or any of its ingredients.",
+    "side_effects": "The following frequency rating has been used, when applicable: Very common ≥1/10; Common ≥1/100 and <1/10; Uncommon ≥1/1,000 and <1/100; Rare ≥1/10,000 and <1/1,000; Very rare <1/10,000 and not known (frequency cannot be estimated from the available data). Within each frequency grouping, undesirable effects are presented in order of decreasing seriousness. In adults, the following undesirable effects have been reported in clinical trials, with an incidence similar to that observed with placebo: Nervous system disorders- Common: headache, drowsiness, dizziness; Gastrointestinal disorders- Common: nausea; General disorders and administration site conditions- Uncommon: fatigue. In adults, the following undesirable effects have been reported in post-marketing surveillance. The frequency with which they occur is not known (cannot be estimated from available data): Immune system disorders- hypersensitivity reactions with manifestations such as angioedema, chest tightness, dyspnoea, flushing and systemic anaphylaxis; Psychiatric disorders- insomnia, nervousness, sleep disorders or nightmares/excessive dreaming (paroniria); Cardiac disorders- tachycardia, palpitations; Gastrointestinal disorders- diarrhea; Skin and subcutaneous tissue disorders- rash, urticaria, pruritus",
+    "pregnancy_cat": "There are no adequate data from the use of Fexofenadine hydrochloride in pregnant women. Limited animal studies do not indicate direct or indirect harmful effects with respect to effects on pregnancy, embryonal/foetal development, parturition or postnatal development. Fexofenadine hydrochloride should not be used during pregnancy unless clearly necessary.\n\nThere are no data on the content of human milk after administering Fexofenadine hydrochloride. However, when Terfenadine was administered to nursing mothers Fexofenadine was found to cross into human breast milk. Therefore, Fexofenadine hydrochloride is not recommended for mothers breast-feeding their babies. No human data on the effect of Fexofenadine hydrochloride on fertility are available. In mice, there was no effect on fertility with Fexofenadine hydrochloride treatment.",
+    "precautions": "As with most new medicinal products there is only limited data in the older people and renally or hepatically impaired patients. Fexofenadine hydrochloride should be administered with care in these special groups. Patients with a history of or ongoing cardiovascular disease should be warned that, antihistamines as a medicine class, have been associated with the adverse reactions, tachycardia and palpitations.\n\nEffects on ability to drive and use machines: On the basis of the pharmacodynamic profile and reported adverse reactions it is unlikely that Fexofenadine hydrochloride tablets will produce an effect on the ability to drive or use machines. In objective tests, Fexofenadine has been shown to have no significant effects on central nervous system function. This means that patients may drive or perform tasks that require concentration. However, in order to identify sensitive people who have an unusual reaction to medicinal products, it is advisable to check the individual response before driving or performing complicated tasks.",
+    "pediatric_uses": "**Renal and hepatic impaired patient**: The pharmacokinetics of fexofenadine are altered in individuals with renal impairment. Based on increases in bioavailability and half-life, a dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function. Moderate to severe hepatic disease does not affect the pharmacokinetics of fexofenadine substantially.\n\n**Elderly patient**: Adverse events were similar in this group compared to patients under 65 years of age. Nevertheless, the pharmacokinetics of fexofenadine is altered (increased bioavailability) in individuals over 65 years of age.",
+    "overdose_effects": "Dizziness, drowsiness, fatigue and dry mouth have been reported with overdose of Fexofenadine hydrochloride. Single doses up to 800 mg and doses up to 690 mg twice daily for 1 month or 240 mg once daily for 1 year have been administered to healthy subjects without the development of clinically significant adverse reactions as compared with placebo. The maximum tolerated dose of Fexofenadine hydrochloride has not been established. Standard measures should be considered to remove any unabsorbed medicinal product. Symptomatic and supportive treatment is recommended. Haemodialysis does not effectively remove Fexofenadine hydrochloride from blood.",
+    "drug_classes": "Anti-histamine",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 32 H 39 NO 4 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Fexofenadine?\n\nFexofenadine is an antihistamine. It works by blocking histamine that the body makes during an allergic reaction.\n\n#### What are the uses of Fexofenadine?\n\nFexofenadine is used for the treatment of allergic rhinitis and urticaria. It relieves allergy symptoms such as runny nose, itching eyes/nose, sneezing, hives, and itching.\n\n#### What are the Side Effects of Fexofenadine?\n\nFexofenadine has some reported side effects such as Vomiting, Headache, Coughing, Diarrhea, Painful menstruation, Pain in the arms and legs, Hives and redness of skin, Swelling of face, lips, eyelids, tongue, hands and feet.\n\n#### What are the instructions for storage and disposal Fexofenadine?\n\nFexofenadine should be kept in a cool dry place and in its original pack. Make sure this medication remains unreachable to children and pets.\n\n#### Can Fexofenadine make you sleepy?\n\nYes, Fexofenadine can make you feel sleepy, infect sleepiness is a common side effect of this medicine.\n\n#### Can you overdose on Fexofenadine?\n\nDo not take an overdose of Fexofenadine as this can cause adverse reactions and may increase the risk of side effects like dizziness, drowsiness, fatigue, and dry mouth.\n\n#### How quickly does Fexofenadine work?\n\nFexofenadine starts working within 1 hour of consuming it. The peak benefit of this drug is observed within 6 hours.\n\n#### Does Fexofenadine relieve symptoms of outdoor and indoor allergies?\n\nYes, Fexofenadine can help relieve symptoms that may be caused by outdoor and indoor allergens such as upper respiratory allergies, hay fever, watery eyes, runny nose, and sneezing, or itching of the nose or throat.\n\n#### How to cope with dizziness caused by Fexofenadine?\n\nTake some rest after taking Fexofenadine if you feel dizzy or sleep. Do not use heavy machinery or drive and move very slowly. Exercise caution and if there is extreme dizziness, then consult a doctor as soon as possible.\n\n#### Can I take antacids while taking Fexofenadine?\n\nFexofenadine should not be used in combination with antacids as the interaction between them can result in a decreased absorption of Fexofenadine.\n\n#### How should I take Fexofenadine?\n\nFexofenadine should be taken in dose and duration as recommended by the doctor. Do not take an overdose as this can affect your health adversely.\n\n#### Is there any food or drink that I need to avoid while taking Fexofenadine?\n\nDo not consume juices like grapefruit juice, orange juice and apple juice if you are on the course of medication with Fexofenadine.\n\n#### Can Fexofenadine cause heart problems?\n\nThose who suffer from heart disorders should exercise caution and must look out for some other alternative of this medicine.\n\n#### Quick Tips\n\n- Fexofenadine is an antihistaminic medication. It treats allergy symptoms such as itching, swelling, and rashes by blocking the effects of a chemical messenger (histamine) in the body.\n- Fexofenadine is less likely to make you feel sleepy than some other similar medicines.\n- Do not take Fexofenadine with any fruit juices (such as apple, orange, or grapefruit) as they might make the drug less effective.\n- Fexofenadine may cause nausea. Stick to simple meals, and do not eat rich or spicy food.\n- Avoid using antacids 30 minutes before or after taking Fexofenadine. It can make it harder for your body to absorb this medication."
+  },
+  "sections_bn": {
+    "indications": "**অ্যালার্জিক রাইনাইটিস**: ফেক্সোফেনাডিন হাইড্রোক্লোরাইড ১২ বছর বা তার বেশি বয়সী প্রাপ্তবয়স্ক এবং শিশুদের মধ্যে মৌসুমী এবং পেরিনিয়াল অ্যালার্জিক রাইনাইটিস সম্পর্কিত লক্ষণগুলির উপশমের জন্য নির্দেশিত। কার্যকরভাবে চিকিতসা করা লক্ষণগুলির মধ্যে রয়েছে হাঁচি, রাইনোরিয়া, ল্যাক্রিমেশন, চুলকানি, চোখ লাল হওয়া এবং চুলকানি নাক/তালু/গলা। ফেক্সোফেনাডিন স্বাস্থ্য-সম্পর্কিত জীবনযাত্রার মান এবং কাজ/ক্রিয়াকলাপ উৎপাদনশীলতা উন্নত করে।\n\n**ক্রণিক ইডিয়প্যাথিক আর্টিক্যারিয়া**: ফেক্সোফেনাডিন হাইড্রোক্লোরাইড প্রাপ্তবয়স্কদের এবং ১২ বছর বা তার বেশি বয়সী শিশুদের মধ্যে ক্রণিক ইডিয়প্যাথিক আর্টিক্যারিয়া-এর সাথে সম্পর্কিত লক্ষণগুলির উপশমের জন্য নির্দেশিত হয়। ফেক্সোফেনাডিন ক্রণিক ইডিয়প্যাথিক ছত্রাকের লক্ষণ ও উপসর্গ, চাকার সংখ্যা এবং প্রুরিটাস উল্লেখযোগ্যভাবে হ্রাস করে। ফেক্সোফেনাডিন স্বাস্থ্য-সম্পর্কিত জীবনযাত্রার মান এবং কাজ/ক্রিয়াকলাপ উৎপাদনশীলতা উন্নত করে।",
+    "mode_of_action": "H1 হিস্টামিন রিসেপ্টর অতি সংবেদনশীলতা এবং এলার্জি প্রতিক্রিয়ার মধ্যস্থতার জন্য দায়ী। অ্যালার্জেনের সংস্পর্শে আসার ফলে মাস্ট কোষ এবং বেসোফিলগুলির অবক্ষয় ঘটে, যা পরে হিস্টামিন এবং অন্যান্য প্রদাহজনক মধ্যস্থতাকারীকে ছেড়ে দেয়। হিস্টামিন H1 রিসেপ্টরকে আবদ্ধ করে এবং সক্রিয় করে, যার ফলে বেসোফিল এবং মাস্ট কোষ থেকে ইন্টারলিউকিনসের মতো প্রো-ইনফ্ল্যামেটরি সাইটোকাইনগুলি আরও মুক্তি পায়। হিস্টামিন বাঁধার এই নিম্নধারার প্রভাবগুলি বিভিন্ন ধরণের অ্যালার্জির লক্ষণগুলির জন্য দায়ী, যেমন প্রুরিটাস, রাইনোরিয়া এবং জলযুক্ত চোখ।\n\nফেক্সোফেনাডিনকে H1 রিসেপ্টরের একটি \"বিপরীত অ্যাগোনিস্ট\" হিসাবে বিবেচনা করা হয় কারণ এটি রিসেপ্টরের নিষ্ক্রিয় রূপকে আবদ্ধ করে এবং স্থিতিশীল করে, এর সক্রিয়করণ এবং পরবর্তী নিম্নধারার প্রভাবগুলিকে প্রতিরোধ করে। এটি H1 রিসেপ্টরগুলির জন্য একটি শক্তিশালী এবং নির্বাচনী সখ্যতা রয়েছে এবং এটি অ্যান্টিডোপামিনার্জিক, অ্যান্টিসেরোটোনার্জিক, অ্যান্টিকোলিনার্জিক, সেডেটিভ বা অ্যাড্রেনারজিক ব্লকিং কার্যকলাপ বহন করে এমন কোনও প্রমাণ নেই। ফেক্সোফেনাডিন রক্ত-মস্তিষ্কের বাধা অতিক্রম করে না এবং এইভাবে উল্লেখযোগ্য CNS প্রভাব সৃষ্টি করার সম্ভাবনা কম।",
+    "dosage": "**এলার্জিক রাইনাইটিস-**\n\nপ্রাপ্ত বয়স্ক এবং ১২ বছরের বেশী বয়সের শিশুদের জন্যঃ \n\n- ট্যাবলেটঃ ৬০ মিঃগ্রাঃ দৈনিক দুই বার অথবা ১২০ মিঃগ্রাঃ দৈনিক এক বার অথবা ১৮০ মিঃগ্রাঃ দৈনিক এক বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৬০ মিঃগ্রাঃ দৈনিক এক বার\n\r\n৬ থেকে ১১ বছর বয়সের শিশুদের জন্যঃ \n\n- ট্যাবলেটঃ ৩০ মিঃগ্রাঃ দৈনিক দুই বার অথবা ৬০ মিঃগ্রাঃ দৈনিক এক বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৩০ মিঃগ্রাঃ দৈনিক এক বার\n\r\n২ থেকে ১১ বছর বয়সের শিশুদের জন্যঃ\n\n- সাসপেনশনঃ ৩০ মিঃগ্রাঃ অথবা ৫ মিঃলিঃ (১ চা-চামচ) দৈনিক দুই বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৩০ মিঃগ্রাঃ অথবা ৫ মিঃলিঃ (১ চা-চামচ) দৈনিক এক বার\n\n**ক্রণিক ইডিয়প্যাথিক আর্টিক্যারিয়া-**প্রাপ্ত বয়স্ক এবং ১২ বছরের বেশী বয়সের শিশুদের জন্যঃ\n\n- ট্যাবলেটঃ ৬০ মিঃগ্রাঃ দৈনিক দুই বার অথবা ১২০ মিঃগ্রাঃ দৈনিক এক বার অথবা ১৮০ মিঃগ্রাঃ দৈনিক এক বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৬০ মিঃগ্রাঃ দৈনিক এক বার\n\r\n৬ থেকে ১১ বছর বয়সের শিশুদের জন্যঃ \n\n- ট্যাবলেটঃ ৩০ মিঃগ্রাঃ দৈনিক দুই বার অথবা ৬০ মিঃগ্রাঃ দৈনিক এক বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৩০ মিঃগ্রাঃ দৈনিক এক বার\n\r\n৬ মাস থেকে ২ বছরের কম বয়সের শিশুদের জন্যঃ\n\n- সাসপেনশনঃ ১৫ মিঃগ্রাঃ অথবা ২.৫ মিঃলিঃ (১/২ চা-চামচ) দৈনিক দুই বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ১৫ মিঃগ্রাঃ অথবা ২.৫ মিঃলিঃ (১/২ চা-চামচ) দৈনিক এক বার\n\r\n২ থেকে ১১ বছর বয়সের শিশুদের জন্যঃ \n\n- সাসপেনশনঃ ৩০ মিঃগ্রাঃ অথবা ৫ মিঃলিঃ (১ চা-চামচ) দৈনিক দুই বার\n- বৃক্কীয় কার্যকারিতা কমে গেলেঃ ৩০ মিঃগ্রাঃ অথবা ৫ মিঃলিঃ (১ চা-চামচ) দৈনিক এক বার",
+    "contraindications": "ফেক্সোফেনাডিন হাইড্রোক্লোরাইড বা এটির কোন উপাদানের প্রতি অতিসংবেদনশীলতায় এটি প্রতিনির্দেশিত।",
+    "pediatric_uses": "**রেনাল এবং হেপাটিক প্রতিবন্ধী রোগী**: ফেক্সোফেনাডিনের ফার্মাকোকিনেটিক্স রেনাল impairment রোগীদের মধ্যে পরিবর্তিত হয়। বর্ধিত Bioavailability and half-life এর বৃদ্ধির উপর ভিত্তি করে, কিডনি ফাংশন কমে যাওয়া রোগীদের প্রাথমিক ডোজ হিসাবে প্রতিদিন একবার ৬০ মিলিগ্রামের ডোজ সুপারিশ করা হয়। মাঝারি থেকে গুরুতর হেপাটিক রোগ ফেক্সোফেনাডিনের ফার্মাকোকিনেটিক্সকে উল্লেখযোগ্যভাবে প্রভাবিত করে না।\n\n**বয়স্ক রোগী**: ৬৫ বছরের কম বয়সী রোগীদের তুলনায় এই গ্রুপে প্রতিকূল ঘটনাগুলি একই রকম ছিল। তবুও, ৬৫ বছরের বেশি বয়সী ব্যক্তিদের মধ্যে ফেক্সোফেনাডিনের ফার্মাকোকিনেটিক্স পরিবর্তিত হয় (বর্ধিত Bioavailability)।",
+    "drug_classes": "Anti-histamine",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 32 H 39 NO 4 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/468/fexofenadine-hydrochloride",
+  "source_url_bn": "https://medex.com.bd/generics/468/fexofenadine-hydrochloride/bn",
+  "scraped_at": "2026-10-10T18:29:54+00:00"
+}

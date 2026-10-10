@@ -1,0 +1,74 @@
+{
+  "slug": "vitamin_b_complex_c",
+  "name_en": "Vitamin B complex + Vitamin C",
+  "name_bn": "ভিটামিন বি কমপ্লেক্স + ভিটামিন সি",
+  "therapeutic_class": "Specific combined vitamin preparations",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Alvit-B Gold",
+      "strength": "Albion Laboratories Limited",
+      "manufacturer": "Unit Price : ৳ 3.62",
+      "price": "",
+      "url": "https://medex.com.bd/brands/36375/alvit-b-gold-capsule"
+    },
+    {
+      "name": "Becosules",
+      "strength": "Renata PLC",
+      "manufacturer": "Unit Price : ৳ 2.50",
+      "price": "",
+      "url": "https://medex.com.bd/brands/13752/becosules-capsule"
+    },
+    {
+      "name": "Becosules Gold",
+      "strength": "Renata PLC",
+      "manufacturer": "Unit Price : ৳ 3.02",
+      "price": "",
+      "url": "https://medex.com.bd/brands/13999/becosules-gold-capsule"
+    },
+    {
+      "name": "Opsovit C",
+      "strength": "Opsonin Pharma Ltd.",
+      "manufacturer": "Unit Price : ৳ 3.01",
+      "price": "",
+      "url": "https://medex.com.bd/brands/14215/opsovit-c-capsule"
+    },
+    {
+      "name": "Restovit Plus",
+      "strength": "Zenith Pharmaceuticals Ltd.",
+      "manufacturer": "Unit Price : ৳ 3.00",
+      "price": "",
+      "url": "https://medex.com.bd/brands/14000/restovit-plus-capsule"
+    }
+  ],
+  "sections_en": {
+    "indications": "This combination capsule is indicated in the treatment of patients with deficiencies of, or increased requirement for, vitamin B-complex and vitamin C. Such patients and conditions include:\n\n- Decreased intake because of restricted or unbalanced diet as in anorexia, diabetes mellitus, obesity and alcoholism.\nThis combination capsule is indicated in the treatment of patients with deficiencies of, or increased requirement for, vitamin B-complex and vitamin C. Such patients and conditions include:\n\n- Decreased intake because of restricted or unbalanced diet as in anorexia, diabetes mellitus, obesity and alcoholism.\n- Reduced availability during treatment with antimicrobials which alter normal intestinal flora, in prolonged diarrhea and in chronic gastrointestinal disorders.\n- Increased requirements due to increased metabolic rate as in fever and tissue wasting, e.g. febrile illness, acute or chronic infections, surgery, burns and fractures.\n- Stomatitis, glossitis, cheilosis, paraesthesias, neuralgia and dermatitis.\n- Micronutrient deficiencies during pregnancy or lactation.",
+    "composition": "Each capsule contains-\n\n- Ascorbic Acid BP 175.0 mg\n- Calcium D-Pantothenate BP 25.0 mg\n- Cyanocobalamin BP 5 mcg\n- Folic Acid BP 500 mcg\n- Thiamine Mononitrate USP 50.0 mg\n- Riboflavin BP 25.0 mg\n- Pyridoxine Hydrochloride BP 10.0 mg\n- Nicotinamide BP 100.0 mg",
+    "mode_of_action": "Vitamin B-Complex and Vitamin C function as cofactors of various enzymes which regulate carbohydrate, protein and fat metabolism.\n\n**Thiamine (B1)** acts as a cofactor in the decarboxylation of keto acids such as pyruvic acid.\n\n**Riboflavin (B2)** plays a vital role in cellular respiratory reactions in conjunction with nicotinamide.\n\n**Pyridoxine (B6)** takes part in decarboxylation and interconversion of amino acids. It is also required for normal antibody-mediated and cell-mediated immune responses.\n\n**Vitamin B12 (cyanocobalamin)** is required for synthesis of DNA (deoxyribo-nucleic acid) and maturation of RBCs (red blood cells). \n\n**Nicotinamide** plays a vital role in cellular respiration in conjunction with riboflavin.\n\n**Calcium Pantothenate** functions as a cofactor for enzymes involved in transfer of acetyl groups. It is also required for normal antibody response in conjunction with pyridoxine.\n\n**Folic acid**, after conversion in the body to folinic acid, takes part in reactions involved in the synthesis of nucleotides and maturation of RBCs in conjunction with vitamin B12. It also plays an important role in lymphocyte-mediated immune response.\n\n**Ascorbic acid (Vitamin C)** takes part in biochemical reactions involving oxidation, as in collagen synthesis, and in conversion of folic acid to folinic acid. It is also necessary for normal phagocytic function ofWBCs (white blood cells).\n\nThus an adequate supply of these water-soluble vitamins is required for the optimum function of various cells and tissues.Except for Vitamin B12, these water-soluble vitamins are not stored in the body to any significant extent, the excess quantities being excreted in the urine. Therefore, a regular and adequate intake of them is necessary to meet the metabolic requirements. Deficiencies of water-soluble vitamins often co-exist because of their overlapping dietary sources and metabolic interdependence. Initially the deficiency of these vitamins may be subclinical and demonstrable only by means of biochemical tests. If not corrected at this stage, it may become manifest as various symptoms, including impaired wound healing and increased susceptibility to infection. Classical deficiency diseases such as beri beri, pellagra and scurvy are rare, whereas mild and subclinical deficiencies are probably more common, even among apparently healthy individuals.",
+    "dosage": "One capsule daily or as advised by the physician.",
+    "interaction": "Folic acid may lower the serum concentration of phenytoin. Pyridoxine can reduce the effect of levodopa.",
+    "contraindications": "Hypersensitivity to any of the ingredients of this preparation.",
+    "side_effects": "Allergic reactions may occur in patients hypersensitive to any component in the preparation, for example,\nmethyl parahydroxybenzoate or thiamine. There have been rare reports of anaphylactoid reactions following repeated injection of preparations containing thiamine. Flushing, itching or burning of the skin may occur in patients susceptible to the effects of nicotinamide.",
+    "pregnancy_cat": "Animal reproduction studies or clinical investigations during pregnancy have not been carried out with this\npreparation. However, there are published reports on safe administration of water-soluble vitamins in this patient group.",
+    "precautions": "Patients with deficiency or increased requirement of Vitamin B-complex and Vitamin C should be accompanied by specific therapy for the primary illness. Treatment with capsule should be continued only until the deficiency is corrected or the need for supplementation exists. Pyridoxine may reduce the therapeutic effects of levodopa in Parkinson's disease, Riboflavin may color the urine yellow. During treatment with capsule the urine may give a false positive result for sugar by Benedict's test because of the presence of ascorbic acid. Therefore, a test not affected by ascorbic acid should be used.",
+    "drug_classes": "Specific combined vitamin preparations",
+    "storage_conditions": "Store in a cool and dry place, away from light and children."
+  },
+  "sections_bn": {
+    "indications": "ভিটামিন বি কমপ্লেক্স এবং ভিটামিন সি এর স্বল্পতার জন্য নির্দেশিত। যেসব ক্ষেত্রে প্রযোজ্য -\n\n- ক্ষুধামন্দা, ডায়াবেটিস মেলাইটাস, স্থূলতা এবং অ্যালকোহলিসম এর দরুন সৃষ্ট ভিটামিন স্বল্পতায় ।\n- দীর্ঘস্থায়ী ডায়রিয়া, ক্ষুদ্রান্ত্রের জটিলতা এবং দীর্ঘসময় ধরে এন্টিবায়োটিক ব্যবহারের দরুন সৃষ্ট অবস্থায়।\n- জ্বর সহ বিভিন্ন শারীরিক অবস্থা যেমন-দীর্ঘস্থায়ী ক্ষত, শল্য চিকিৎসা, পোড়া ক্ষত এবং ভাঙ্গা জখমের জন্য সৃষ্ট অতিরিক্ত ভিটামিনের চাহিদায়।\n- স্টোমাটাইটিস, গ্লসিটিস, চিলোসিস, নিউরালজিয়া, ডার্মাটাইটিস এবং পেরিস্থিসিসে।\n- গর্ভাবস্থা ও স্তন্যদানকালে পুষ্টির স্বল্পতা পূরণে।",
+    "composition": "প্রতিটি ক্যাপসুলে আছে \n\n- অ্যাসকরবিক এসিড বিপি ১৭৫ মিগ্রা\n- ক্যালসিয়াম ডি প্যানটোথিনেট বিপি ২৫ মিগ্রা\n- সায়ানোকোবালামিন বিপি ৫ মাইক্রোগ্রাম\n- ফলিক এসিড বিপি ৫০০ মাইক্রোগ্রাম\n- থায়ামিন মনোনাইট্রেট ইউএসপি ৫০ মিগ্রা\n- রিবোফ্লাভিন বিপি ২৫ মিগ্রা\n- পাইরিডক্সিন হাইড্রোক্লোরাইড বিপি ১০ মিগ্রা\n- নিকোটিনামাইড বিপি ১০০ মিগ্রা",
+    "mode_of_action": "ভিটামিন বি কমপ্লেক্স এবং ভিটামিন সি বিভিন্ন এনজাইমের কো-ফ্যাক্টর হিসেবে কাজ করে যা শর্করা, আমিষ এবং স্নেহ বিপাকে অংশ নেয়। ওষুধের উপর শরীরের ক্রিয়া (ফার্মাকোকাইনেটিক্স) ভিটামিন বি কমপ্লেক্স এবং ভিটামিন সি রক্তে দ্রুত মিশে যায়, যকৃতে বিপাক সাধন হয় এবং মূত্রের মাধ্যমে শরীর থেকে বের হয়ে যায়।",
+    "dosage": "প্রতিদিন একটি করে ক্যাপসুল অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+    "interaction": "কোন বিরুপ প্রতিক্রিয়া পাওয়া যায়নি।",
+    "contraindications": "যদি ক্যাপসুলের কোন উপাদানের প্রতি অতিসংবেদনশীলতা থাকে তবে সেই রোগীদের জন্য প্রতিনির্দেশিত।",
+    "side_effects": "অ্যালার্জি জনিত লক্ষণ দেখা যেতে পারে বিশেষ করে মিথাইল প্যারাহাইড্রক্সিবেনজোয়েট অথবা থায়ামিনের প্রতি যাদের অতিসংবেদনশীলতা আছে। থায়ামিন থাকার জন্য খুব ঘন ঘন সেবন করার পরও অ্যানাফাইল্যাকটয়েড শকের সম্ভাবনা ক্ষীণ। চুলকানিভাব, ফ্লাসিং অথবা ত্বকে পোড়াভাব লক্ষ্য করা যেতে পারে।",
+    "pregnancy_cat": "বিভিন্ন প্রাণীর উপর গবেষণায় কোন বিরুদ্ধ লক্ষণ পাওয়া যায়নি। উপাদানসমূহ পানিতে দ্রবণীয় হওয়ায় এটি নিরাপদ।",
+    "precautions": "যেসকল রোগীদের ভিটামিন স্বল্পতা অনেক বেশি এবং যাদের খুব দ্রুত ভিটামিন প্রয়োজন তাদের জন্য সুনির্দিষ্ট থেরাপি উত্তম। শুধুমাত্র তখনই ক্যাপসুল সেবন চালিয়ে যেতে হবে যখন শরীরে ভিটামিনের ঘাটতি পূরণ না হবে। পাইরিডক্সিন, পারকিনসনিসম রোগের ক্ষেত্রে লেভোডোপার কার্যকারীতা কমাতে পারে। রিবোফ্লাভিন মূত্রের রং হলুদ করে দিতে পারে। ক্যাপসুল সেবনকালীন সময়ে অ্যাসকরবিক এসিডের জন্য মূত্রের শর্করার পরিমাণ বেশি দেখাতে পারে যদি ব্যানেডিক্ট টেস্ট করা হয়। এক্ষেত্রে শর্করা পরিমাপের যেসব টেস্টে অ্যাসকরবিক এসিডের ভূমিকা নাই সেসকল টেস্ট করানো যেতে পারে। ফলিক এসিড প্লাজমাতে ফিনাইটয়িনের ঘনত্ব কমিয়ে দিতে পারে। এছাড়া পাইরিডক্সিন লেভোডোপার কার্যক্ষমতা কমাতে পারে।",
+    "drug_classes": "Specific combined vitamin preparations",
+    "storage_conditions": "আলো থেকে দূরে, শুষ্ক এবং ঠাণ্ডাস্থানে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1366/vitamin-b-complex-vitamin-c",
+  "source_url_bn": "https://medex.com.bd/generics/1366/vitamin-b-complex-vitamin-c/bn",
+  "scraped_at": "2026-10-10T18:31:15+00:00"
+}

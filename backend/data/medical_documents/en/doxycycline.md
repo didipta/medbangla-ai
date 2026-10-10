@@ -3,7 +3,7 @@
 - Generic Name: doxycycline
 - Therapeutic Class: Tetracycline group of drugs
 - Source URL: https://medex.com.bd/generics/394/doxycycline-hydrochloride
-- Retrieved At (UTC): 2026-10-10T15:48:16+00:00
+- Retrieved At (UTC): 2026-10-10T18:16:38+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

@@ -1,0 +1,1117 @@
+{
+  "slug": "clonazepam",
+  "name_en": "Clonazepam",
+  "name_bn": "ক্লোনাজিপাম",
+  "therapeutic_class": "Adjunct anti-epileptic drugs, Benzodiazepine hypnotics",
+  "dosage_forms": [
+    "Tablet",
+    "Pediatric Drop",
+    "ODT"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Arotril",
+      "strength": "0.5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4819/arotril-05-mg-tablet"
+    },
+    {
+      "name": "Arotril",
+      "strength": "1 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4820/arotril-1-mg-tablet"
+    },
+    {
+      "name": "Arotril",
+      "strength": "2 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/4821/arotril-2-mg-tablet"
+    },
+    {
+      "name": "Clepam",
+      "strength": "2 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/19480/clepam-2-mg-tablet"
+    },
+    {
+      "name": "Clepam",
+      "strength": "0.5 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/27230/clepam-05-mg-tablet"
+    },
+    {
+      "name": "Clepam",
+      "strength": "1 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/30833/clepam-1-mg-tablet"
+    },
+    {
+      "name": "Cloma",
+      "strength": "0.5 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/4822/cloma-05-mg-tablet"
+    },
+    {
+      "name": "Cloma",
+      "strength": "2 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4823/cloma-2-mg-tablet"
+    },
+    {
+      "name": "Cloma",
+      "strength": "1 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31976/cloma-1-mg-tablet"
+    },
+    {
+      "name": "Clon",
+      "strength": "0.5 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4824/clon-05-mg-tablet"
+    },
+    {
+      "name": "Clon",
+      "strength": "2 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/19482/clon-2-mg-tablet"
+    },
+    {
+      "name": "Clonaben",
+      "strength": "0.5 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4874/clonaben-05-mg-tablet"
+    },
+    {
+      "name": "Clonaben",
+      "strength": "2 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/19472/clonaben-2-mg-tablet"
+    },
+    {
+      "name": "Clonaben",
+      "strength": "1 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/35359/clonaben-1-mg-tablet"
+    },
+    {
+      "name": "Clonabest",
+      "strength": "0.5 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/38094/clonabest-05-mg-tablet"
+    },
+    {
+      "name": "Clonabest",
+      "strength": "1 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38095/clonabest-1-mg-tablet"
+    },
+    {
+      "name": "Clonabest",
+      "strength": "2 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/38096/clonabest-2-mg-tablet"
+    },
+    {
+      "name": "Clonafix",
+      "strength": "0.5 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/33265/clonafix-05-mg-tablet"
+    },
+    {
+      "name": "Clonafix",
+      "strength": "2 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33266/clonafix-2-mg-tablet"
+    },
+    {
+      "name": "Clonapex",
+      "strength": "0.5 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/4875/clonapex-05-mg-tablet"
+    },
+    {
+      "name": "Clonapex",
+      "strength": "1 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4876/clonapex-1-mg-tablet"
+    },
+    {
+      "name": "Clonapin",
+      "strength": "0.5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/4825/clonapin-05-mg-tablet"
+    },
+    {
+      "name": "Clonapin",
+      "strength": "2 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4826/clonapin-2-mg-tablet"
+    },
+    {
+      "name": "Clonapin",
+      "strength": "1 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26461/clonapin-1-mg-tablet"
+    },
+    {
+      "name": "Clonatril",
+      "strength": "0.5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4827/clonatril-05-mg-tablet"
+    },
+    {
+      "name": "Clonatril",
+      "strength": "1 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4828/clonatril-1-mg-tablet"
+    },
+    {
+      "name": "Clonatril",
+      "strength": "2 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4829/clonatril-2-mg-tablet"
+    },
+    {
+      "name": "Clonatril",
+      "strength": "0.25 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/38962/clonatril-025-mg-tablet"
+    },
+    {
+      "name": "Clonazepam",
+      "strength": "0.5 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/37640/clonazepam-05-mg-tablet"
+    },
+    {
+      "name": "Clonepam",
+      "strength": "0.5 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31349/clonepam-05-mg-tablet"
+    },
+    {
+      "name": "Clonil",
+      "strength": "0.5 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4877/clonil-05-mg-tablet"
+    },
+    {
+      "name": "Clonil",
+      "strength": "2 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4878/clonil-2-mg-tablet"
+    },
+    {
+      "name": "Clonium",
+      "strength": "0.5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4830/clonium-05-mg-tablet"
+    },
+    {
+      "name": "Clonium",
+      "strength": "1 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4831/clonium-1-mg-tablet"
+    },
+    {
+      "name": "Clonium",
+      "strength": "2 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/4832/clonium-2-mg-tablet"
+    },
+    {
+      "name": "Clonium ODT",
+      "strength": "0.5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33838/clonium-odt-05-mg-dispersible-tablet"
+    },
+    {
+      "name": "Clonzy",
+      "strength": "0.5 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4879/clonzy-05-mg-tablet"
+    },
+    {
+      "name": "Clonzy",
+      "strength": "2 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4880/clonzy-2-mg-tablet"
+    },
+    {
+      "name": "Clopam",
+      "strength": "0.5 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/4833/clopam-05-mg-tablet"
+    },
+    {
+      "name": "Clopam",
+      "strength": "2 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4834/clopam-2-mg-tablet"
+    },
+    {
+      "name": "Cloron",
+      "strength": "0.5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4835/cloron-05-mg-tablet"
+    },
+    {
+      "name": "Cloron",
+      "strength": "2 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4836/cloron-2-mg-tablet"
+    },
+    {
+      "name": "Cloron",
+      "strength": "1 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/19479/cloron-1-mg-tablet"
+    },
+    {
+      "name": "Cloron",
+      "strength": "2.5 mg/ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "10 ml drop : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/26749/cloron-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Closid",
+      "strength": "0.5 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/36575/closid-05-mg-tablet"
+    },
+    {
+      "name": "Closid",
+      "strength": "1 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36576/closid-1-mg-tablet"
+    },
+    {
+      "name": "Closid",
+      "strength": "2 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36577/closid-2-mg-tablet"
+    },
+    {
+      "name": "Clozep",
+      "strength": "0.5 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/35470/clozep-05-mg-tablet"
+    },
+    {
+      "name": "Clozep",
+      "strength": "2 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35471/clozep-2-mg-tablet"
+    },
+    {
+      "name": "Comfy",
+      "strength": "0.5 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.90",
+      "url": "https://medex.com.bd/brands/19488/comfy-05-mg-tablet"
+    },
+    {
+      "name": "Comfy",
+      "strength": "2 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/19489/comfy-2-mg-tablet"
+    },
+    {
+      "name": "Comfy",
+      "strength": "1 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26957/comfy-1-mg-tablet"
+    },
+    {
+      "name": "Conpan",
+      "strength": "0.5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.60",
+      "url": "https://medex.com.bd/brands/19490/conpan-05-mg-tablet"
+    },
+    {
+      "name": "Conpan",
+      "strength": "2 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/19491/conpan-2-mg-tablet"
+    },
+    {
+      "name": "Conpan",
+      "strength": "1 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26907/conpan-1-mg-tablet"
+    },
+    {
+      "name": "Conpan ODT",
+      "strength": "0.5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.90",
+      "url": "https://medex.com.bd/brands/33725/conpan-odt-05-mg-dispersible-tablet"
+    },
+    {
+      "name": "Cozinil",
+      "strength": "0.5 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/4837/cozinil-05-mg-tablet"
+    },
+    {
+      "name": "Cozinil",
+      "strength": "2 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4838/cozinil-2-mg-tablet"
+    },
+    {
+      "name": "Denixil",
+      "strength": "0.5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/4839/denixil-05-mg-tablet"
+    },
+    {
+      "name": "Denixil",
+      "strength": "2 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/4840/denixil-2-mg-tablet"
+    },
+    {
+      "name": "Denixil",
+      "strength": "1 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29297/denixil-1-mg-tablet"
+    },
+    {
+      "name": "Denixil",
+      "strength": "0.25 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/30335/denixil-025-mg-tablet"
+    },
+    {
+      "name": "Denixil Rapid",
+      "strength": "0.25 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/36011/denixil-rapid-025-mg-dispersible-tablet"
+    },
+    {
+      "name": "Denixil Rapid",
+      "strength": "0.5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36012/denixil-rapid-05-mg-dispersible-tablet"
+    },
+    {
+      "name": "Depanil",
+      "strength": "0.5 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/4841/depanil-05-mg-tablet"
+    },
+    {
+      "name": "Depanil",
+      "strength": "2 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4842/depanil-2-mg-tablet"
+    },
+    {
+      "name": "Dipan",
+      "strength": "0.5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 6.60",
+      "url": "https://medex.com.bd/brands/33333/dipan-05-mg-tablet"
+    },
+    {
+      "name": "Dipan",
+      "strength": "2 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 11.40",
+      "url": "https://medex.com.bd/brands/33334/dipan-2-mg-tablet"
+    },
+    {
+      "name": "Dipan",
+      "strength": "1 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 8.40",
+      "url": "https://medex.com.bd/brands/36382/dipan-1-mg-tablet"
+    },
+    {
+      "name": "Disogen",
+      "strength": "0.5 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/35873/disogen-05-mg-tablet"
+    },
+    {
+      "name": "Disogen",
+      "strength": "2 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/35874/disogen-2-mg-tablet"
+    },
+    {
+      "name": "Disopan",
+      "strength": "0.5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4843/disopan-05-mg-tablet"
+    },
+    {
+      "name": "Disopan",
+      "strength": "2 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/4844/disopan-2-mg-tablet"
+    },
+    {
+      "name": "Disopan",
+      "strength": "1 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/19483/disopan-1-mg-imiv-injection"
+    },
+    {
+      "name": "Disopan",
+      "strength": "1 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/19484/disopan-1-mg-tablet"
+    },
+    {
+      "name": "Disopan ODT",
+      "strength": "0.25 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/38243/disopan-odt-025-mg-dispersible-tablet"
+    },
+    {
+      "name": "Epiclon",
+      "strength": "0.5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4845/epiclon-05-mg-tablet"
+    },
+    {
+      "name": "Epiclon",
+      "strength": "2 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/4846/epiclon-2-mg-tablet"
+    },
+    {
+      "name": "Epiclon",
+      "strength": "1 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/19481/epiclon-1-mg-tablet"
+    },
+    {
+      "name": "Epitra",
+      "strength": "0.5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4847/epitra-05-mg-tablet"
+    },
+    {
+      "name": "Epitra",
+      "strength": "1 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4848/epitra-1-mg-tablet"
+    },
+    {
+      "name": "Epitra",
+      "strength": "2 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/4849/epitra-2-mg-tablet"
+    },
+    {
+      "name": "Epizam",
+      "strength": "0.5 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27853/epizam-05-mg-tablet"
+    },
+    {
+      "name": "Epizam",
+      "strength": "2 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27854/epizam-2-mg-tablet"
+    },
+    {
+      "name": "Epnil",
+      "strength": "0.5 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4851/epnil-05-mg-tablet"
+    },
+    {
+      "name": "Epnil",
+      "strength": "2 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/4852/epnil-2-mg-tablet"
+    },
+    {
+      "name": "Epnil",
+      "strength": "1 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 9.25",
+      "url": "https://medex.com.bd/brands/4885/epnil-1-mg-tablet"
+    },
+    {
+      "name": "Eram",
+      "strength": "0.5 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37228/eram-05-mg-tablet"
+    },
+    {
+      "name": "Eram",
+      "strength": "1 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37229/eram-1-mg-tablet"
+    },
+    {
+      "name": "Eram",
+      "strength": "2 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/37230/eram-2-mg-tablet"
+    },
+    {
+      "name": "Esypan",
+      "strength": "0.5 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/4853/esypan-05-mg-tablet"
+    },
+    {
+      "name": "Esypan",
+      "strength": "2 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/4854/esypan-2-mg-tablet"
+    },
+    {
+      "name": "Genopam",
+      "strength": "0.5 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32758/genopam-05-mg-tablet"
+    },
+    {
+      "name": "Genopam",
+      "strength": "2 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32895/genopam-2-mg-tablet"
+    },
+    {
+      "name": "Kuit",
+      "strength": "0.5 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/19486/kuit-05-mg-tablet"
+    },
+    {
+      "name": "Kuit",
+      "strength": "1 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/19487/kuit-1-mg-tablet"
+    },
+    {
+      "name": "kuit",
+      "strength": "2 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/36362/kuit-2-mg-tablet"
+    },
+    {
+      "name": "Leptic",
+      "strength": "0.5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.90",
+      "url": "https://medex.com.bd/brands/4855/leptic-05-mg-tablet"
+    },
+    {
+      "name": "Leptic",
+      "strength": "2 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/4856/leptic-2-mg-tablet"
+    },
+    {
+      "name": "Leptic",
+      "strength": "1 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26519/leptic-1-mg-tablet"
+    },
+    {
+      "name": "Leptic ODT",
+      "strength": "0.5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/31391/leptic-odt-05-mg-dispersible-tablet"
+    },
+    {
+      "name": "Leptic ODT",
+      "strength": "0.25 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/31392/leptic-odt-025-mg-dispersible-tablet"
+    },
+    {
+      "name": "Lonapam",
+      "strength": "0.5 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/4857/lonapam-05-mg-tablet"
+    },
+    {
+      "name": "Lonapam",
+      "strength": "2 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4858/lonapam-2-mg-tablet"
+    },
+    {
+      "name": "Lonapam",
+      "strength": "1 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27774/lonapam-1-mg-tablet"
+    },
+    {
+      "name": "Lonazep",
+      "strength": "0.5 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4859/lonazep-05-mg-tablet"
+    },
+    {
+      "name": "Lonazep",
+      "strength": "2 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4860/lonazep-2-mg-tablet"
+    },
+    {
+      "name": "Lonazep MD",
+      "strength": "0.5 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/31941/lonazep-md-05-mg-dispersible-tablet"
+    },
+    {
+      "name": "Lonazep MD",
+      "strength": "1 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31942/lonazep-md-1-mg-dispersible-tablet"
+    },
+    {
+      "name": "Lonazep MD",
+      "strength": "2 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31943/lonazep-md-2-mg-dispersible-tablet"
+    },
+    {
+      "name": "Miraclon",
+      "strength": "0.5 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32841/miraclon-05-mg-tablet"
+    },
+    {
+      "name": "Miraclon",
+      "strength": "1 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/32842/miraclon-1-mg-tablet"
+    },
+    {
+      "name": "Miraclon",
+      "strength": "2 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/32843/miraclon-2-mg-tablet"
+    },
+    {
+      "name": "Myotril",
+      "strength": "0.5 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/4861/myotril-05-mg-tablet"
+    },
+    {
+      "name": "Novotril",
+      "strength": "0.5 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/19474/novotril-05-mg-tablet"
+    },
+    {
+      "name": "Novotril",
+      "strength": "2 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/19475/novotril-2-mg-tablet"
+    },
+    {
+      "name": "Pandura",
+      "strength": "0.5 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17226/pandura-05-mg-tablet"
+    },
+    {
+      "name": "Pandura",
+      "strength": "1 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/17227/pandura-1-mg-tablet"
+    },
+    {
+      "name": "Pandura",
+      "strength": "2 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/17228/pandura-2-mg-tablet"
+    },
+    {
+      "name": "Pase",
+      "strength": "0.5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/4863/pase-05-mg-tablet"
+    },
+    {
+      "name": "Pase",
+      "strength": "1 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4864/pase-1-mg-tablet"
+    },
+    {
+      "name": "Pase",
+      "strength": "2 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/4865/pase-2-mg-tablet"
+    },
+    {
+      "name": "Pase",
+      "strength": "2.5 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "10 ml drop : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/4866/pase-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Pase",
+      "strength": "1 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/34157/pase-1-mg-imiv-injection"
+    },
+    {
+      "name": "Pase OFT",
+      "strength": "0.25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/33257/pase-oft-025-mg-flash-tablet"
+    },
+    {
+      "name": "Pase OFT",
+      "strength": "0.5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33258/pase-oft-05-mg-flash-tablet"
+    },
+    {
+      "name": "Restonix",
+      "strength": "0.5 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32204/restonix-05-mg-tablet"
+    },
+    {
+      "name": "Restonix",
+      "strength": "2 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32205/restonix-2-mg-tablet"
+    },
+    {
+      "name": "Reverse",
+      "strength": "0.5 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32552/reverse-05-mg-tablet"
+    },
+    {
+      "name": "Reverse",
+      "strength": "2 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32553/reverse-2-mg-tablet"
+    },
+    {
+      "name": "Rivo",
+      "strength": "0.5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4867/rivo-05-mg-tablet"
+    },
+    {
+      "name": "Rivo",
+      "strength": "2 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/4868/rivo-2-mg-tablet"
+    },
+    {
+      "name": "Rivo",
+      "strength": "1 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26934/rivo-1-mg-tablet"
+    },
+    {
+      "name": "Rivo",
+      "strength": "0.25 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/32087/rivo-025-mg-tablet"
+    },
+    {
+      "name": "Rivotril",
+      "strength": "0.5 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/4869/rivotril-05-mg-tablet"
+    },
+    {
+      "name": "Rivotril",
+      "strength": "2 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/4870/rivotril-2-mg-tablet"
+    },
+    {
+      "name": "Rivotril",
+      "strength": "1 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/31099/rivotril-1-mg-tablet"
+    },
+    {
+      "name": "Rivotril",
+      "strength": "0.25 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/34560/rivotril-025-mg-tablet"
+    },
+    {
+      "name": "Slona",
+      "strength": "0.5 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31578/slona-05-mg-tablet"
+    },
+    {
+      "name": "Slona",
+      "strength": "2 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31579/slona-2-mg-tablet"
+    },
+    {
+      "name": "Sypam",
+      "strength": "0.5 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/19467/sypam-05-mg-tablet"
+    },
+    {
+      "name": "Sypam",
+      "strength": "2 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/19469/sypam-2-mg-tablet"
+    },
+    {
+      "name": "Xetril",
+      "strength": "0.5 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4871/xetril-05-mg-tablet"
+    },
+    {
+      "name": "Xetril",
+      "strength": "2 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4872/xetril-2-mg-tablet"
+    },
+    {
+      "name": "Xetril",
+      "strength": "1 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34556/xetril-1-mg-tablet"
+    },
+    {
+      "name": "Xioclon",
+      "strength": "0.5 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4886/xioclon-05-mg-tablet"
+    },
+    {
+      "name": "Xioclon",
+      "strength": "1 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4887/xioclon-1-mg-tablet"
+    },
+    {
+      "name": "Xioclon",
+      "strength": "2 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/4888/xioclon-2-mg-tablet"
+    },
+    {
+      "name": "Xorest",
+      "strength": "0.5 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/31832/xorest-05-mg-tablet"
+    },
+    {
+      "name": "Xorest",
+      "strength": "1 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/31833/xorest-1-mg-tablet"
+    },
+    {
+      "name": "Xyclon",
+      "strength": "0.5 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/30835/xyclon-05-mg-tablet"
+    },
+    {
+      "name": "Xyclon",
+      "strength": "1 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/30836/xyclon-1-mg-tablet"
+    },
+    {
+      "name": "Xyclon",
+      "strength": "2 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30837/xyclon-2-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Clonazepam is indicated for the treatment of panic disorder, with or without agoraphobia. Panic disorder is characterized by the occurrence of unexpected panic attacks and associated concern about having additional attacks, worry about the implications or consequences of the attacks.\n\nClonazepam ... Read moreClonazepam is indicated for the treatment of panic disorder, with or without agoraphobia. Panic disorder is characterized by the occurrence of unexpected panic attacks and associated concern about having additional attacks, worry about the implications or consequences of the attacks.\n\nClonazepam is also indicated alone or as an adjunct in the treatment of the Lennox-Gastaut Syndrome (petit mal variant), akinetic and myoclonic seizures. It may be indicated in patients with absence seizures (petit mal) who have failed to respond to succinimides.\n\nThe effectiveness of Clonazepam in long-term use, that is, for more than 9 weeks, has not been systematically studied in controlled clinical trials. The physician who elects to use Clonazepam for extended periods should periodically reevaluate the long-term usefulness of the drug for the individual patient.",
+    "mode_of_action": "Clonazepam exhibits pharmacological properties which are common to benzodiazepines and include anticonvulsive, sedative, muscle relaxing and anxiolytic effects. The central actions of benzodiazepines are mediated through an enhancement of the GABAergic neurotransmission at inhibitory synapses. In the presence of benzodiazepines the affinity of the GABA receptor for the neurotransmitter is enhanced through positive allosteric modulation resulting in an increased action of released GABA on the postsynaptic transmembrane chloride ion flux.\n\nThere are also animal data showing an effect of clonazepam on serotonin. Animal data and electroencephalographic investigations in man have shown that clonazepam rapidly suppresses many types of paroxysmal activity including the spike and wave discharge in absences seizures (petit mal), slow spike wave, generalized spike wave, spikes with temporal or other locations as well as irregular spikes and waves. Generalized EEG abnormalities are more regularly suppressed than focal abnormalities. According to these findings clonazepam has beneficial effects in generalized and focal epilepsies.",
+    "dosage": "Oral:\n\n- **Adults**: The initial dose for adults with seizure disorders should not exceed 1.5 mg/day divided into three doses. Dosage may be increased in increments of 0.5 to 1 mg every 3 days until seizures are adequately controlled or until side effects preclude any further increase. Maintenance dosage must be individualized for each patient depending upon response. Maximum recommended daily dose is 20 mg.\n\n- The initial dose for adults with panic disorder is 0.25 mg given in two divided dose. An increase to the target dose for most patients of 1 mg/day may be made after 3 days.\n- **Pediatric Patients**: In order to minimize drowsiness, the initial dose for infants and children (up to 10 years of age or 30 kg of body weight) should be between 0.01 and 0.03 mg/kg/day but not to exceed 0.05 mg/kg/day given in two or three divided doses.\n\nInjection:\n\n- **Infants and children**: half of a vial (0.5 mg) by slow IV injection or by IV infusion.\n\n- **Adults**: 1 vial (1 mg) by slow IV injection or by IV infusion. This dose can be repeated as required (1-4 mg are usually sufficient to reverse the status). In adults, the rate of injection must not exceed 0.25 - 0.5 mg per minute (0.5-1.0 ml of the prepared solution) and a total dose of 10 mg should not be exceeded.",
+    "interaction": "Clonazepam does not appear to alter the pharmacokinetics of phenytoin, carbamazepine or phenobarbital. The effect of Clonazepam on the metabolism of other drugs has not been investigated.",
+    "contraindications": "It should not be used in patients with a history of hypersensitivity to benzodiazepines, nor in patients with clinical or biochemical evidence of significant liver disease. It may be used in patients with open angle glaucoma who are receiving appropriate therapy but is contraindicated in acute narrow angle glaucoma.",
+    "side_effects": "The most frequently occurring side effects of Clonazepam are referable to CNS depression. Experience in treatment of seizures has shown that drowsiness has occurred in approximately 50% of patients and ataxia in approximately 30%. In some cases, these may diminish with time; behavior problems have been noted in approximately 25% of patients. Abnormal eye movements, aphonia, coma, tremor, vertigo, confusion, depression, amnesia, hallucinations, hysteria, increased libido, insomnia, psychosis & palpitations may also occur.",
+    "pregnancy_cat": "**Pregnancy**: From preclinical studies it cannot be excluded that clonazepam possesses the possibility of producing congenital malformations. From epidemiological evaluations there is evidence that anticonvulsant drugs act as teratogens. However, it is difficult to determine from published epidemiological reports which drug or combination of drugs is responsible for defects in the newborn. The possibility also exists that other factors e.g. genetic factors or the epileptic condition itself may be more important than drug therapy in leading to birth defects. Under these circumstances, the drug should only be administered to pregnant women if the potential benefits outweigh the risk to the foetus. During pregnancy, Clonazepam may be administered only if there is a compelling indication. Administration of high doses in the last trimester of pregnancy or during labour can cause irregularities in the heartbeat of the unborn child and hypothermia, hypotonia, mild respiratory depression and poor feeding in the neonate. It should be borne in mind that both pregnancy itself and abrupt discontinuation of the medication can cause exacerbation of epilepsy. Withdrawal symptoms in newborn infants have occasionally been reported with benzodiazepines.\n\n**Nursing Mothers**: Although the active ingredient of Clonazepam has been found to pass into the maternal milk in small amounts only, mothers undergoing treatment with this drug should not breastfeed. If there is a compelling indication for Clonazepam, breastfeeding should be discontinued.",
+    "precautions": "When used in patients in whom several different types of seizure disorders coexist, Clonazepam may increase the incidence or precipitate the onset of generalized tonic-clonic seizures. This may require the addition of appropriate anticonvulsants or an increase in their dosages. The concomitant use of valproic acid and Clonazepam may produce absence status.",
+    "pediatric_uses": "**Pediatric Use**: In infants and small children Rivotril may cause increased production of saliva and bronchial secretion. Therefore special attention must be paid to maintaining patency of the airways. \n\n**Geriatric Use**: Benzodiazepine pharmacologic effects appear to be greater in elderly patients than in younger patients even at similar plasma benzodiazepine concentrations, possibly because of age-related changes in drug–receptor interactions, post-receptor mechanisms and organ function.\n\n**Renal Impairment**: Renal impairment does not affect the pharmacokinetics of clonazepam. Based on pharmacokinetic criteria, no dose adjustment is required in patients with renal impairment.\n\n**Hepatic Impairmen**t: Plasma protein binding of clonazepam in cirrhotic patients is significantly different from that in healthy subjects (free fraction 17.1±1.0% vs 13.9±0.2%). Although the influence of hepatic impairment on clonazepam pharmacokinetics has not been further investigated, experience with another closely related nitrobenzodiazepine (nitrazepam) indicates that clearance of unbound clonazepam might be reduced in liver cirrhosis.",
+    "overdose_effects": "**Symptoms**: Benzodiazepines commonly cause drowsiness, ataxia, dysarthria and nystagmus. Overdose of Clonazepam is seldom life-threatening if the drug is taken alone, but may lead to areflexia, apnoea, hypotension, cardiorespiratory depression and coma. Coma, if it occurs, usually lasts a few hours but it may be more protracted and cyclical, particularly in elderly patients. Increased frequency of seizures may occur in patients at supratherapeutic plasma concentrations. Benzodiazepine respiratory depressant effects are more serious in patients with respiratory disease. Benzodiazepines increase the effects of other central nervous system depressants, including alcohol.\n\n**Treatment**: Monitor the patient’s vital signs and institute supportive measures as indicated by the patient’s clinical state. In particular, patients may require symptomatic treatment for cardiorespiratory effects or central nervous system effects. Further absorption should be prevented using an appropriate method e.g. treatment within 1-2 hours with activated charcoal. If activated charcoal is used airway protection is imperative for drowsy patients. In case of mixed ingestion gastric lavage may be considered, however not as a routine measure. If CNS depression is severe consider the use of flumazenil, a benzodiazepine antagonist. This should only be administered under closely monitored conditions. It has a short half-life (about an hour), therefore patients administered flumazenil will require monitoring after its effects have worn off. Flumazenil is to be used with extreme caution in the presence of drugs that reduce seizure threshold (e.g. tricyclic antidepressants). Refer to the prescribing information for flumazenil, for further information on the correct use of this drug.",
+    "drug_classes": "Adjunct anti-epileptic drugs, Benzodiazepine hypnotics",
+    "reconstitution": "**Slow intravenous injection**: The contents of the vial must be diluted with 1 ml of water for injection prior to administration so as to avoid local irritation of the veins. The injection solution should be prepared immediately before use. IV injection should be administered slowly with continuous monitoring of EEG, respiration and blood pressure.\n\n**Intravenous infusion**: Clonazepam (the vial) can be diluted for infusion in a ratio of 1 vial (1 mg) to at least 85 ml diluting media. The diluting media can be any of the following: sodium chloride 0.9%; sodium chloride 0.45% + glucose 2.5%; glucose 5% or glucose 10%. These mixtures are stable for 24 hours at room temperature. Infusion bags other than PVC should be used for infusing Clonazepam. If PVC infusion bags are used then the mixture should be infused immediately or within 4 hours. The infusion time should not exceed 8 hours. Do not prepare Clonazepam infusions using sodium bicarbonate solution, as precipitation of the solution may occur.\n\n**Intramuscular injection**: The IM route should be used only in exceptional cases or if IV administration is not feasible.",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 15 H 10 ClN 3 O 3 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### Is Clonazepam a sleeping pill?\n\nClonazepam is not used as a sleeping pill as it might cause difficulty in sleeping.\n\n#### Can Clonazepam be taken for the longer-term?\n\nYou need to take Clonazepam as long as the doctor has advised you. Suddenly stopping it or changing the dose may cause seizures to recur.\n\n#### On stopping Clonazepam what kind of withdrawal symptoms occur?\n\nThe common symptoms that will be seen after stopping Clonazepam are difficulty in sleeping, changes in mood, and increased sweating. In some cases, Clonazepam might also result in muscle pain, headache, shaking (tremor) or feeling restless, feeling very anxious, tense, etc.\n\n#### How can I look for early symptoms of suicidal thoughts and actions?\n\nYou should pay attention to changes that take place in your body, especially sudden changes in mood, behaviors, thoughts, or feelings. You must consult the doctor on a regular basis.\n\n#### Does Clonazepam cause weight gain?\n\nYes, in some cases Clonazepam might cause weight gain and weight loss. It is advised to consult the doctor before consuming it.\n\n#### Can Clonazepam affect my memory?\n\nNo, Clonazepam does not affect memory. The patient may complain of partial to recall the recent past.\n\n#### Can Clonazepam be harmful if more than the recommended doses are used?\n\nOverdose can cause sleepiness, change in speech, confusion, abnormalities in eye movement, etc.\n\n#### Can I take Clonazepam and zolpidem together?\n\nThe combination of Clonazepam and zolpidem should be avoided as it may have increased the chances of side effects.\n\n#### Can Clonazepam and quetiapine be taken together?\n\nIf both these medications are used together the side effects may increase. The side effects might include drowsiness, confusion, weakness, breathing trouble, etc.\n\n#### Quick Tips\n\n- The addiction / habit-forming potential of Clonazepam is very high. Take it only as per the dose and duration advised by your doctor\n- Clonazepam may cause dizziness. Do not drive or do anything that requires mental focus until you know how Clonazepam affects you.\n- Avoid consuming alcohol as Clonazepam may increase dizziness and drowsiness.\n- Inform your doctor if you are pregnant, planning to conceive or breastfeeding.\n- Inform your doctor if you experience worsen anxiety, depression angry, or violent behavior and mania while taking this medicine.\n- Do not stop taking Clonazepam suddenly without talking to your doctor as that may lead to nausea, anxiety, agitation, flu-like symptoms, sweating, tremor, and confusion."
+  },
+  "sections_bn": {
+    "indications": "এগোরাফোবিয়া সহ বা ব্যতীত প্যানিক ডিসঅর্ডারে এটি নির্দেশিত। পুনঃপুনঃ আকস্মিক ভীতি হল এ রোগের লক্ষণ এবং এক্ষেত্রে রোগী সর্বদাই আসন্ন ভয় পাওয়ার আশংকায় থাকে।\n\nএটি একক ভাবে বা অন্যান্য ঔষধের সাথে লেনক্স গ্যাসটউট সিনড্রোম (পেটিট ম্যাল ভেরিয়েন্ট), অ্যাকাইনেটিক এবং মায়োক্লনিক সিজারের চিকিৎসায় নির্দেশিত। অ্যাবসেন্স সিজার (পেটিট ম্যাল)-এর রোগী যাদের ক্ষেত্রে সাকসিনামাইড অকার্যকর, তাদের ক্ষেত্রেও এটি নির্দেশিত হতে পারে।\n\nদীর্ঘদিন ধরে ক্লোনাজিপাম ব্যবহারের কার্যকারিতা, অর্থাৎ ৯ সপ্তাহের অধিক ব্যবহারের ক্ষেত্রে সুনিয়ন্ত্রিত ক্লিনিক্যাল পর্যবেক্ষণ করা হয়নি। দীর্ঘকালীন ব্যবহারের ক্ষেত্রে ডাক্তার পর্যায়ক্রমে দীর্ঘমেয়াদী ব্যবহারের উপযোগিতা বিবেচনা করে রোগীকে ক্লোনাজিপাম দিতে পারেন।",
+    "dosage": "**প্রাপ্ত বয়ষ্কদের ক্ষেত্রে**: সিজার ডিসঅর্ডার-এ ক্লোনাজিপাম এর প্রারম্ভিক মাত্রা সর্বোচ্চ ১.৫ মিঃগ্রাঃ করে দৈনিক ৩ বার। সিজার নিয়ন্ত্রণ না হওয়া পর্যন্ত প্রয়োজন অনুসারে অন্ততপক্ষে ৩ দিন অন্তর ০.৫ থেকে ১ মিঃগ্রাঃ অতিরিক্ত মাত্রা অন্তর্ভুক্তি করা যেতে পারে। ব্যক্তি বিশেষের উপর নির্ভর করে মেইনটেন্যান্স মাত্রা নির্ধারণ করতে হবে। দৈনিক সর্বোচ্চ নির্ধারিত মাত্রা ২০ মিঃগ্রাঃ।\n\n**প্যানিক ডিসঅর্ডারের ক্ষেত্রে**: প্রারম্ভিক মাত্রা ০.২৫ মিঃগ্রাঃ দিনে ২ টি বিভক্ত মাত্রায়। ৩ দিন অন্তর অধিকাংশ রোগীর ক্ষেত্রে ঔষধের লক্ষ্যমাত্রা দৈনিক ১ মিঃগ্রাঃ বৃদ্ধি করা যেতে পারে।\n\n**শিশুদের ক্ষেত্রে**: ঝিমানো ভাব কমানোর জন্য প্রারম্ভিক মাত্রা দৈনিক ০.০১-০.০৩ মিঃগ্রাঃ/কেজি (১০ বছর বা ৩০ কেজি ওজন পর্যন্ত) এর মধ্যে রাখতে হবে। দৈনিক সর্বোচ্চ মাত্রা ০.০৫ মিঃগ্রাঃ/কেজি ২ থেকে ৩ টি বিভক্ত মাত্রায়।",
+    "interaction": "ক্লোনাজিপাম ফেনাইটইন, কারবামাজেপিন অথবা ফেনোবার্বিটাল-এর ফার্মাকোকাইনেটিকে কোন পরিবর্তন করে না। অন্য কোন ঔষধের বিপাকে ক্লোনাজিপাম এর কোন ক্রিয়া পাওয়া যায়নি।",
+    "contraindications": "বেনজোডায়াজিপাইন সমূহের প্রতি অতিসংবেদনশীল রোগীর ক্ষেত্রে ক্লোনাজিপাম ব্যবহার করা উচিৎ নয়, এমনকি যেসকল রোগীদের যকৃতের বিশেষ জটিলতা রয়েছে তাদের ক্ষেত্রেও এটি প্রযোজ্য নয়। ওপেন অ্যাঙ্গেল Glucoma রোগীদের ক্ষেত্রে ব্যবহার করা গেলেও ন্যাড়ো অ্যাঙ্গেল Glucoma রোগীদের জন্য এটি প্রতিনির্দেশিত।",
+    "side_effects": "ক্লোনাজিপাম ব্যবহারের ক্ষেত্রে সচরাচর যে ধরনের পার্শ্বপ্রতিক্রিয়া দেখা যায় তার মধ্যে মস্তিষ্কের অবসন্নতা অন্যতম। সিজার রোগীদের মধ্যে ৫০% ক্ষেত্রে মাথা ঘোরা এবং ৩০% রোগীদের ক্ষেত্রে অনিয়ন্ত্রিত চলাচল হতে পারে। কিছু ক্ষেত্রে এই পার্শ্বপ্রতিক্রিয়াগুলো সময়ের সাথে চলে যায় এবং ২৫% রোগীদের ক্ষেত্রে আচরনগত সমস্যা দেখা যায়। অন্যান্য পার্শ্বপ্রতিক্রিয়াগুলো হচ্ছে- অস্বাভাবিক চোখ ঘোরা, এফনিয়া, কোমা, অস্বাভাবিক বাকভঙ্গি, খিঁচুনি, মাথাঘোরা, সিদ্ধান্তহীনতা, বিষন্নতা, স্মৃতি লোপ, হেলুসিনেশন, হিস্টেরিয়া, যৌন আকাঙ্খা বৃদ্ধি, অনিদ্রা, সাইকোসিস এবং বুক ধড়ফড় করা।",
+    "pregnancy_cat": "গর্ভাবস্থায়: ক্লোনাজিপাম ব্যবহার করা ছাড়া অন্য কোন গত্যন্তর না থাকলেই কেবল এটি ব্যবহার করা যেতে পারে। গর্ভাবস্থায় শেষ তিনমাসের মধ্যে অথবা প্রসব ব্যথাকালীন সময়ে ক্লোনাজিপাম এর উচ্চমাত্রা ব্যবহার করলে গর্ভজাত শিশুর অনিয়মিত হৃদস্পন্দন এবং নবজাতকের হাইপোথারমিয়া, হাইপোটোনিয়া, শ্বাসতন্ত্রের অক্ষমতা ও ক্ষুধামন্দা ঘটে। একটি কথা মনে রাখতে হবে যে গর্ভাবস্থায় এর ব্যবহারে এবং যে কোন রোগীর ক্ষেত্রে হঠাৎ করে এর প্রয়োগ বন্ধ করলে মৃগীর আক্রমণ বাড়িয়ে দিতে পারে। \n\nক্লোনাজিপাম যেহেতু স্বল্পমাত্রায় দুগ্ধদাত্রী মায়ের দুধে নিঃসরিত হয়, সেহেতু দুগ্ধদাত্রী মায়ের ক্লোনাজিপাম সেবন করা উচিত নয়। যদি দুগ্ধদাত্রী মায়ের ক্লোনাজিপাম ব্যবহার ব্যতীত অন্য কোন গত্যন্তর না থাকে সেক্ষেত্রে দুগ্ধদাত্রী মায়েদের সন্তানকে দুগ্ধদান বন্ধ রাখতে হবে।",
+    "precautions": "বিভিন্ন ধরনের সিজার ডিসঅর্ডার এর রোগীদের ক্ষেত্রে ক্লোনাজিপাম ব্যবহারের ফলে জেনারেলাইজড টনিক-ক্লনিক সিজার এর ব্যাপ্তি বৃদ্ধি পেতে পারে। এক্ষেত্রে একটি অত্যাবশ্যকীয় অনিয়ন্ত্রিত মাথাঘোরার ঔষধ যোগ করা যেতে পারে। ভালপ্রোয়িক এসিড এবং ক্লোনাজিপাম একত্রে ব্যবহারে সংজ্ঞাহীন অবস্থা তৈরি হতে পারে।",
+    "drug_classes": "Adjunct anti-epileptic drugs, Benzodiazepine hypnotics",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক ও ঠান্ডা স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 15 H 10 ClN 3 O 3 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/284/clonazepam",
+  "source_url_bn": "https://medex.com.bd/generics/284/clonazepam/bn",
+  "scraped_at": "2026-10-10T18:30:57+00:00"
+}

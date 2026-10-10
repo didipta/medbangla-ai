@@ -1,0 +1,787 @@
+{
+  "slug": "paracetamol_caffeine",
+  "name_en": "Paracetamol + Caffeine",
+  "name_bn": "প্যারাসিটামল + ক্যাফেইন",
+  "therapeutic_class": "Non-Opioid Analgesics",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-One Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.40",
+      "url": "https://medex.com.bd/brands/27176/a-one-plus-500-mg-tablet"
+    },
+    {
+      "name": "Ace Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.51",
+      "url": "https://medex.com.bd/brands/10557/ace-plus-500-mg-tablet"
+    },
+    {
+      "name": "Acep Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10558/acep-extra-500-mg-tablet"
+    },
+    {
+      "name": "Aceta-X",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10559/aceta-x-500-mg-tablet"
+    },
+    {
+      "name": "Act Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10394/act-plus-500-mg-tablet"
+    },
+    {
+      "name": "Adol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/34960/adol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Alpa Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Albion Specialized Pharma Limited",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/38820/alpa-extra-500-mg-tablet"
+    },
+    {
+      "name": "Ampol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/32324/ampol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Archi Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10561/archi-extra-500-mg-tablet"
+    },
+    {
+      "name": "Asta Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10563/asta-plus-500-mg-tablet"
+    },
+    {
+      "name": "Atopen Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.51",
+      "url": "https://medex.com.bd/brands/10564/atopen-plus-500-mg-tablet"
+    },
+    {
+      "name": "ATP Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10568/atp-extra-500-mg-tablet"
+    },
+    {
+      "name": "Benalgin Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/10637/benalgin-plus-500-mg-tablet"
+    },
+    {
+      "name": "Bepol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10565/bepol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Caf-N",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10638/caf-n-500-mg-tablet"
+    },
+    {
+      "name": "Caface",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10639/caface-500-mg-tablet"
+    },
+    {
+      "name": "Cafceta",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10566/cafceta-500-mg-tablet"
+    },
+    {
+      "name": "Cafecool Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/32495/cafecool-plus-500-mg-tablet"
+    },
+    {
+      "name": "Cafedon",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10567/cafedon-500-mg-tablet"
+    },
+    {
+      "name": "Cafeta",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/23562/cafeta-500-mg-tablet"
+    },
+    {
+      "name": "Caffo",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10569/caffo-500-mg-tablet"
+    },
+    {
+      "name": "Caftyl",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.20",
+      "url": "https://medex.com.bd/brands/23563/caftyl-500-mg-tablet"
+    },
+    {
+      "name": "Capdol",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29275/capdol-500-mg-tablet"
+    },
+    {
+      "name": "Centamol",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10571/centamol-500-mg-tablet"
+    },
+    {
+      "name": "Cetacaf",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.51",
+      "url": "https://medex.com.bd/brands/23573/cetacaf-500-mg-tablet"
+    },
+    {
+      "name": "Cetadol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10572/cetadol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Cetal Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10573/cetal-plus-500-mg-tablet"
+    },
+    {
+      "name": "Cetam Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10574/cetam-plus-500-mg-tablet"
+    },
+    {
+      "name": "Cetamex Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/36996/cetamex-plus-500-mg-tablet"
+    },
+    {
+      "name": "Cpmol",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10576/cpmol-500-mg-tablet"
+    },
+    {
+      "name": "DC-Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10577/dc-plus-500-mg-tablet"
+    },
+    {
+      "name": "Depol Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10578/depol-extra-500-mg-tablet"
+    },
+    {
+      "name": "Dola Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10579/dola-extra-500-mg-tablet"
+    },
+    {
+      "name": "Dual",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10580/dual-500-mg-tablet"
+    },
+    {
+      "name": "Duet",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/10581/duet-500-mg-tablet"
+    },
+    {
+      "name": "Ease Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/23564/ease-plus-500-mg-tablet"
+    },
+    {
+      "name": "Enyl Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10582/enyl-plus-500-mg-tablet"
+    },
+    {
+      "name": "Fap Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 1.92",
+      "url": "https://medex.com.bd/brands/10583/fap-plus-500-mg-tablet"
+    },
+    {
+      "name": "Fast Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.40",
+      "url": "https://medex.com.bd/brands/10584/fast-plus-500-mg-tablet"
+    },
+    {
+      "name": "Feva Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10586/feva-plus-500-mg-tablet"
+    },
+    {
+      "name": "Fevnil",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/36617/fevnil-500-mg-tablet"
+    },
+    {
+      "name": "Fevrex Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10640/fevrex-plus-500-mg-tablet"
+    },
+    {
+      "name": "Fibi Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10587/fibi-plus-500-mg-tablet"
+    },
+    {
+      "name": "Fibi Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10641/fibi-plus-500-mg-tablet"
+    },
+    {
+      "name": "Hedex",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10589/hedex-500-mg-tablet"
+    },
+    {
+      "name": "Hepa-Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10590/hepa-plus-500-mg-tablet"
+    },
+    {
+      "name": "K-Pol",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10591/k-pol-500-mg-tablet"
+    },
+    {
+      "name": "Momodol Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/33115/momodol-extra-500-mg-tablet"
+    },
+    {
+      "name": "Napa Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10592/napa-extra-500-mg-tablet"
+    },
+    {
+      "name": "Napton Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/39343/napton-plus-500-mg-tablet"
+    },
+    {
+      "name": "Nebs Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23461/nebs-plus-500-mg-tablet"
+    },
+    {
+      "name": "Neopara Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10593/neopara-plus-500-mg-tablet"
+    },
+    {
+      "name": "Nor Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10594/nor-plus-500-mg-tablet"
+    },
+    {
+      "name": "Nova Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10595/nova-plus-500-mg-tablet"
+    },
+    {
+      "name": "Nuceta Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "FnF Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/23557/nuceta-plus-500-mg-tablet"
+    },
+    {
+      "name": "Orpa Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10596/orpa-plus-500-mg-tablet"
+    },
+    {
+      "name": "P+C",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.17",
+      "url": "https://medex.com.bd/brands/10608/pc-500-mg-tablet"
+    },
+    {
+      "name": "PAC",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10597/pac-500-mg-tablet"
+    },
+    {
+      "name": "Pace",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.51",
+      "url": "https://medex.com.bd/brands/10644/pace-500-mg-tablet"
+    },
+    {
+      "name": "Painil Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10598/painil-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pamix Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/26735/pamix-extra-500-mg-tablet"
+    },
+    {
+      "name": "Panalgin Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.80",
+      "url": "https://medex.com.bd/brands/10646/panalgin-plus-500-mg-tablet"
+    },
+    {
+      "name": "Panol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10600/panol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Para C",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10601/para-c-500-mg-tablet"
+    },
+    {
+      "name": "Para Caf",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10602/para-caf-500-mg-tablet"
+    },
+    {
+      "name": "Para Fast",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10605/para-fast-500-mg-tablet"
+    },
+    {
+      "name": "Paracet Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/27932/paracet-plus-500-mg-tablet"
+    },
+    {
+      "name": "Paracin",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10604/paracin-500-mg-tablet"
+    },
+    {
+      "name": "Paradil Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23552/paradil-extra-500-mg-tablet"
+    },
+    {
+      "name": "Parafeine",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/37811/parafeine-500-mg-tablet"
+    },
+    {
+      "name": "Paragesic-C",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/23569/paragesic-c-500-mg-tablet"
+    },
+    {
+      "name": "Parajor Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10562/parajor-plus-500-mg-tablet"
+    },
+    {
+      "name": "Paret Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10648/paret-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pax",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10607/pax-500-mg-tablet"
+    },
+    {
+      "name": "PM Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10643/pm-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10611/pol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Premol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/23566/premol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pricet Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10649/pricet-plus-500-mg-tablet"
+    },
+    {
+      "name": "Promel Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10612/promel-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pyra Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/35351/pyra-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pyrenol",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10614/pyrenol-500-mg-tablet"
+    },
+    {
+      "name": "Pyrex Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.81",
+      "url": "https://medex.com.bd/brands/10615/pyrex-plus-500-mg-tablet"
+    },
+    {
+      "name": "Pyrexil Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.53",
+      "url": "https://medex.com.bd/brands/23574/pyrexil-plus-500-mg-tablet"
+    },
+    {
+      "name": "Qcet Cafe",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/29196/qcet-cafe-500-mg-tablet"
+    },
+    {
+      "name": "Reliv Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10616/reliv-plus-500-mg-tablet"
+    },
+    {
+      "name": "Remalgin Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10617/remalgin-plus-500-mg-tablet"
+    },
+    {
+      "name": "Renova Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.51",
+      "url": "https://medex.com.bd/brands/10618/renova-plus-500-mg-tablet"
+    },
+    {
+      "name": "Reset Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10619/reset-plus-500-mg-tablet"
+    },
+    {
+      "name": "SB-Opa Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/27374/sb-opa-plus-500-mg-tablet"
+    },
+    {
+      "name": "Tacs",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.30",
+      "url": "https://medex.com.bd/brands/10620/tacs-500-mg-tablet"
+    },
+    {
+      "name": "Tamen Turbo",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10621/tamen-turbo-500-mg-tablet"
+    },
+    {
+      "name": "Tamino Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10623/tamino-plus-500-mg-tablet"
+    },
+    {
+      "name": "Temfin",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.80",
+      "url": "https://medex.com.bd/brands/10625/temfin-500-mg-tablet"
+    },
+    {
+      "name": "Temnor Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/23553/temnor-plus-500-mg-tablet"
+    },
+    {
+      "name": "Temol Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/23571/temol-extra-500-mg-tablet"
+    },
+    {
+      "name": "Tempa Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/35669/tempa-extra-500-mg-tablet"
+    },
+    {
+      "name": "Tempanil Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.91",
+      "url": "https://medex.com.bd/brands/10626/tempanil-extra-500-mg-tablet"
+    },
+    {
+      "name": "Tempol Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10627/tempol-plus-500-mg-tablet"
+    },
+    {
+      "name": "Temrif Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10628/temrif-plus-500-mg-tablet"
+    },
+    {
+      "name": "Timidal Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/10629/timidal-plus-500-mg-tablet"
+    },
+    {
+      "name": "Ty-Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10631/ty-plus-500-mg-tablet"
+    },
+    {
+      "name": "Tylen Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10630/tylen-plus-500-mg-tablet"
+    },
+    {
+      "name": "Ucet Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/30110/ucet-extra-500-mg-tablet"
+    },
+    {
+      "name": "Xcel Plus",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 2.35",
+      "url": "https://medex.com.bd/brands/10632/xcel-plus-500-mg-tablet"
+    },
+    {
+      "name": "Xpa-C",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/10633/xpa-c-500-mg-tablet"
+    },
+    {
+      "name": "Zara Extra",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "RN Pharmaceuticals",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23568/zara-extra-500-mg-tablet"
+    },
+    {
+      "name": "Zerin-XP",
+      "strength": "500 mg+65 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/10634/zerin-xp-500-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "This combination is indicated in the following conditions-\n\n- Headache\n- Migraine\n- Toothache\n- Neuralgia\n- Feverishness\n- Period pain\n- Sore throat\n- Backache\n- Help to reduce the temperature\n- Aches and pain of colds and flu",
+    "mode_of_action": "This is a combination of Paracetamol and Caffeine. Paracetamol has analgesic and antipyretic properties with weak anti-inflammatory activity. Caffeine is an alkaloid which is a theophylline-like xanthine derivative. By intermolecular association with Paracetamol, Caffeine increases the solubility and transmembrane permeation of Paracetamol. In addition, Caffeine increases the pain threshold and tolerance of pain. Caffeine has also an intrinsic power to raise vessel tone in the brain, which provides another benefit to treat migraine and headache.",
+    "dosage": "**Adult dose**: 1-2 tablets every 4-6 hours. Maximum dose: 8 tablets daily. \n**Child dose**: Not recommended for children below 12 years.",
+    "interaction": "May reduce serum levels with anticonvulsants (e.g. phenytoin, barbiturates, carbamazepine). May enhance the anticoagulant effect of warfarin and other coumarins with prolonged use. Accelerated absorption with metoclopramide and domperidone. May increase serum levels with probenecid. May increase serum levels of chloramphenicol. May reduce absorption with colestyramine within 1 hr of admin. May cause severe hypothermia with phenothiazine.",
+    "contraindications": "Paracetamol is contraindicated in patients with severe renal function impairment and hepatic disease (Viral Hepatitis). Known hypersensitivity to paracetamol or caffeine.",
+    "side_effects": "Side effects of paracetamol are usually mild, though haematological reactions including thrombocytopenia, leukopenia, pancytopenia, neutropenia, and agranulocytosis have been reported. Pancreatitis, skin rashes, and other allergic reactions occur occasionally.",
+    "pregnancy_cat": "Pregnant mothers should consult with doctors before taking Paracetamol & Caffeine. Paracetamol & Caffeine can be taken whilst breast feeding.",
+    "precautions": "Paracetamol & Caffeine should be given cautiously in the following cases: In patients with hepatic or renal failure, in patients taking other hepatotoxic medication. Prolonged use of the drug without consulting a physician should be avoided.",
+    "overdose_effects": "Symptoms of Paracetamol overdose in the first 24 hours are pallor, nausea, vomiting, anorexia and abdominal pain. Liver damage may become apparent 12 to 40 hours after ingestion. Abnormalities of glucose metabolism and metabolic acidosis may occur.",
+    "drug_classes": "Non-Opioid Analgesics",
+    "storage_conditions": "Store in a cool and dry place, protect from light and moisture.Keep all medicines out of the reach of the children."
+  },
+  "sections_bn": {
+    "indications": "ইহা নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- জ্বর\n- মাইগ্রেন ও মাথাব্যথা\n- সাধারণ সর্দিজ্বর\n- কণ্ঠনালীর প্রদাহ\n- কান ব্যথা\n- দাঁত ব্যথা\n- পিঠব্যথা\n- বাত ও মাংসপেশীর ব্যথা\n- স্নায়ুবিক যন্ত্রণা\n- ঋতুস্রাবজনিত ব্যথা।",
+    "mode_of_action": "ইহা প্যারাসিটামল ও ক্যাফেইনের একটি সমন্বিত ঔষধ। প্যারাসিটামলের ব্যথানাশক এবং জ্বর উপশমক গুণাবলীর সাথে কিছুটা প্রদাহবিরোধী কার্যকারিতাও রয়েছে। ক্যাফেইন হচ্ছে একধরনের অ্যালকালয়েড যা থিওফাইলিন সদৃশ জ্যানথিন যৌগ। প্যারাসিটামলের সাথে আন্তঃআণবিক সংযুক্তির মাধ্যমে ক্যাফেইন, প্যারাসিটামলের দ্রবণীয়তা ও আন্তঃমেমব্রেন ভেদ্যতা বৃদ্ধি করে। এছাড়াও ক্যাফেইন পেইন থ্রেশোল্ড এবং পেইন সহনীয়তা বৃদ্ধি করে। ক্যাফেইন মস্তিষ্কের ভেসেল টোন বৃদ্ধি করে যা মাইগ্রেন ও মাথাব্যথার চিকিৎসায় সহায়ক।",
+    "dosage": "**প্রাপ্তবয়স্ক ও ১২ বছর বা তদূর্ধ্ব বয়স্কদের চিকিৎসায়**: ১-২ টি ট্যাবলেট প্রয়োজন অনুযায়ী প্রতি ৪-৬ ঘন্টা অন্তর অন্তর সেবন করতে হবে। সর্বোচ্চ মাত্রা ২৪ ঘণ্টায় ৮ টি ট্যাবলেট। \n**১২ বছরের কম শিশু**: এটি ১২ বছরের কম শিশুদের জন্য প্রযোজ্য নয়।",
+    "interaction": "এটি এন্টিকোয়াগুলেন্ট দ্বারা নিয়ন্ত্রিত প্রোথ্রম্বিন সময়কে প্রভাবিত করতে পারে। এলকোহল বা প্যারাসিটামলের লিভার মেটাবলিজম বৃদ্ধি করে এমন ঔষধ (যেমন-বারবিচুরেট, ট্রাইসাইক্লিক এন্টিডিপ্রেসেন্ট)-এর সাথে এটির যৌথ ব্যবহার লিভারের উপর ক্ষতিকর প্রভাব বৃদ্ধি করে।",
+    "contraindications": "প্যারাসিটামল, ক্যাফেইন বা এটির কোন উপাদানের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে ইহা প্রতিনির্দেশিত।",
+    "side_effects": "অনুমোদিত মাত্রায় এটি পার্শ্ব প্রতিক্রিয়ামুক্ত। তবে কদাচিৎ ত্বকের সংক্রমণ যেমন, আর্টিক্যারিয়া দেখা দিতে পারে।",
+    "pregnancy_cat": "এপিডেমিওলজিক্যাল তথ্য অনুযায়ী গর্ভাবস্থায় ও স্তন্যদানকালে প্যারাসিটামল ব্যবহার যদিও নিরাপদ, তদুপরি এটি সেবনের পূর্বে চিকিৎসকের পরামর্শ নেয়া উচিৎ।",
+    "precautions": "তীব্র লিভার ও কিডনি রোগের ক্ষেত্রে এটি সতর্কতার সাথে ব্যবহার করতে হবে। এ ঔষধ সেবনকালে অন্যান্য প্যারাসিটামল সমৃদ্ধ ঔষধ সেবন করা যাবে না এবং অতিরিক্ত চা বা কফি পান থেকে বিরত থাকতে হবে।",
+    "drug_classes": "Non-Opioid Analgesics",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/861/paracetamol-caffeine",
+  "source_url_bn": "https://medex.com.bd/generics/861/paracetamol-caffeine/bn",
+  "scraped_at": "2026-10-10T18:13:56+00:00"
+}

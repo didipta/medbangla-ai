@@ -1,0 +1,1502 @@
+{
+  "slug": "flucloxacillin",
+  "name_en": "Flucloxacillin Sodium",
+  "name_bn": "ফ্লুক্লক্সাসিলিন সোডিয়াম",
+  "therapeutic_class": "Narrow spectrum penicillin",
+  "dosage_forms": [
+    "Capsules & Oral Solution",
+    "Powder for Injection",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-Flox",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6210/a-flox-250-mg-capsule"
+    },
+    {
+      "name": "A-Flox",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6211/a-flox-500-mg-capsule"
+    },
+    {
+      "name": "A-Flox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6212/a-flox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "A-Flox",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 45.30",
+      "url": "https://medex.com.bd/brands/6214/a-flox-500-mg-imiv-injection"
+    },
+    {
+      "name": "Adflox",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/19611/adflox-500-mg-capsule"
+    },
+    {
+      "name": "Ancoc",
+      "strength": "250 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6215/ancoc-250-mg-capsule"
+    },
+    {
+      "name": "Ancoc",
+      "strength": "500 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6216/ancoc-500-mg-capsule"
+    },
+    {
+      "name": "Ancoc",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6217/ancoc-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bdflox",
+      "strength": "500 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6221/bdflox-500-mg-capsule"
+    },
+    {
+      "name": "Bdflox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6222/bdflox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Belox",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27452/belox-500-mg-capsule"
+    },
+    {
+      "name": "Clox-F",
+      "strength": "250 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/6228/clox-f-250-mg-capsule"
+    },
+    {
+      "name": "Clox-F",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6229/clox-f-500-mg-capsule"
+    },
+    {
+      "name": "Clox-F",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6230/clox-f-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Clox-F DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/6231/clox-f-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cloxafu",
+      "strength": "250 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.64",
+      "url": "https://medex.com.bd/brands/6226/cloxafu-250-mg-capsule"
+    },
+    {
+      "name": "Cloxafu",
+      "strength": "500 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.25",
+      "url": "https://medex.com.bd/brands/6227/cloxafu-500-mg-capsule"
+    },
+    {
+      "name": "Cloxakil",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/29576/cloxakil-500-mg-capsule"
+    },
+    {
+      "name": "Debac",
+      "strength": "500 mg",
+      "manufacturer": "FnF Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32929/debac-500-mg-capsule"
+    },
+    {
+      "name": "Dolopen",
+      "strength": "500 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6232/dolopen-500-mg-capsule"
+    },
+    {
+      "name": "Dolopen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6233/dolopen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dolopen",
+      "strength": "500 mg/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "500 mg vial : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6234/dolopen-500-mg-imiv-injection"
+    },
+    {
+      "name": "Doribac",
+      "strength": "250 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/31817/doribac-250-mg-capsule"
+    },
+    {
+      "name": "Doribac",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.53",
+      "url": "https://medex.com.bd/brands/31818/doribac-500-mg-capsule"
+    },
+    {
+      "name": "Doribac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.18",
+      "url": "https://medex.com.bd/brands/31819/doribac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "E-Flu",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 11.10",
+      "url": "https://medex.com.bd/brands/6235/e-flu-500-mg-capsule"
+    },
+    {
+      "name": "E-Flu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6236/e-flu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eflucin",
+      "strength": "250 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.79",
+      "url": "https://medex.com.bd/brands/6237/eflucin-250-mg-capsule"
+    },
+    {
+      "name": "Eflucin",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/6238/eflucin-500-mg-capsule"
+    },
+    {
+      "name": "Eflucin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 61.43",
+      "url": "https://medex.com.bd/brands/6239/eflucin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eflucin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "250 mg vial : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/6240/eflucin-250-mg-imiv-injection"
+    },
+    {
+      "name": "Eflucin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "500 mg vial : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/6241/eflucin-500-mg-imiv-injection"
+    },
+    {
+      "name": "Enoclox",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.54",
+      "url": "https://medex.com.bd/brands/6242/enoclox-500-mg-capsule"
+    },
+    {
+      "name": "Enoclox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6243/enoclox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Faxilin",
+      "strength": "250 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6244/faxilin-250-mg-capsule"
+    },
+    {
+      "name": "Faxilin",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6245/faxilin-500-mg-capsule"
+    },
+    {
+      "name": "Faxilin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6246/faxilin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flac",
+      "strength": "250 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/6250/flac-250-mg-capsule"
+    },
+    {
+      "name": "Flac",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6251/flac-500-mg-capsule"
+    },
+    {
+      "name": "Flac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6252/flac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flox",
+      "strength": "250 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.54",
+      "url": "https://medex.com.bd/brands/6257/flox-250-mg-capsule"
+    },
+    {
+      "name": "Flox",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.43",
+      "url": "https://medex.com.bd/brands/6258/flox-500-mg-capsule"
+    },
+    {
+      "name": "Flox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.40",
+      "url": "https://medex.com.bd/brands/6259/flox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flox R",
+      "strength": "250 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.80",
+      "url": "https://medex.com.bd/brands/6371/flox-r-250-mg-capsule"
+    },
+    {
+      "name": "Flox R",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6372/flox-r-500-mg-capsule"
+    },
+    {
+      "name": "Flox R",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6373/flox-r-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Floxabac",
+      "strength": "250 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 5.88",
+      "url": "https://medex.com.bd/brands/34585/floxabac-250-mg-capsule"
+    },
+    {
+      "name": "Floxabac",
+      "strength": "500 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/34586/floxabac-500-mg-capsule"
+    },
+    {
+      "name": "Floxabac",
+      "strength": "500 mg/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "500 mg vial : ৳ 45.30",
+      "url": "https://medex.com.bd/brands/35396/floxabac-500-mg-imiv-injection"
+    },
+    {
+      "name": "Floxapen",
+      "strength": "250 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6260/floxapen-250-mg-capsule"
+    },
+    {
+      "name": "Floxapen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 61.40",
+      "url": "https://medex.com.bd/brands/6262/floxapen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Floxason",
+      "strength": "250 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/6263/floxason-250-mg-capsule"
+    },
+    {
+      "name": "Floxason",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6265/floxason-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Floxason-DS",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6264/floxason-ds-500-mg-capsule"
+    },
+    {
+      "name": "Flu-K",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.65",
+      "url": "https://medex.com.bd/brands/6305/flu-k-250-mg-capsule"
+    },
+    {
+      "name": "Flu-K",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.53",
+      "url": "https://medex.com.bd/brands/6306/flu-k-500-mg-capsule"
+    },
+    {
+      "name": "Flu-K",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6307/flu-k-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubac",
+      "strength": "250 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6267/flubac-250-mg-capsule"
+    },
+    {
+      "name": "Flubac",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6268/flubac-500-mg-capsule"
+    },
+    {
+      "name": "Flubac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6269/flubac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubac DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 110.42",
+      "url": "https://medex.com.bd/brands/6270/flubac-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubex",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6271/flubex-250-mg-capsule"
+    },
+    {
+      "name": "Flubex",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6272/flubex-500-mg-capsule"
+    },
+    {
+      "name": "Flubex",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6273/flubex-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubex DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/6274/flubex-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubion",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/28201/flubion-500-mg-capsule"
+    },
+    {
+      "name": "Flubiotic",
+      "strength": "250 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.55",
+      "url": "https://medex.com.bd/brands/6275/flubiotic-250-mg-capsule"
+    },
+    {
+      "name": "Flubiotic",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.05",
+      "url": "https://medex.com.bd/brands/6276/flubiotic-500-mg-capsule"
+    },
+    {
+      "name": "Fluc",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6278/fluc-500-mg-capsule"
+    },
+    {
+      "name": "Fluc",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6279/fluc-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucil",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6281/flucil-500-mg-capsule"
+    },
+    {
+      "name": "Flucil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6282/flucil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucillin",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6283/flucillin-250-mg-capsule"
+    },
+    {
+      "name": "Flucillin",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6284/flucillin-500-mg-capsule"
+    },
+    {
+      "name": "Flucillin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6285/flucillin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucin",
+      "strength": "250 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6286/flucin-250-mg-capsule"
+    },
+    {
+      "name": "Flucin",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/6287/flucin-500-mg-capsule"
+    },
+    {
+      "name": "Flucin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 61.14",
+      "url": "https://medex.com.bd/brands/6288/flucin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/6289/flucin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluclox",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6290/fluclox-250-mg-capsule"
+    },
+    {
+      "name": "Fluclox",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6291/fluclox-500-mg-capsule"
+    },
+    {
+      "name": "Fluclox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6292/fluclox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluclox",
+      "strength": "250 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "250 mg vial : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/6294/fluclox-250-mg-imiv-injection"
+    },
+    {
+      "name": "Fluclox",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "500 mg vial : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6295/fluclox-500-mg-imiv-injection"
+    },
+    {
+      "name": "Fluclox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/6293/fluclox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucloxi",
+      "strength": "250 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6296/flucloxi-250-mg-capsule"
+    },
+    {
+      "name": "Flucloxi",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6297/flucloxi-500-mg-capsule"
+    },
+    {
+      "name": "Flucloxi",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.50",
+      "url": "https://medex.com.bd/brands/6298/flucloxi-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucloxin",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.77",
+      "url": "https://medex.com.bd/brands/6299/flucloxin-250-mg-capsule"
+    },
+    {
+      "name": "Flucloxin",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6300/flucloxin-500-mg-capsule"
+    },
+    {
+      "name": "Flucloxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6301/flucloxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucloxin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 45.28",
+      "url": "https://medex.com.bd/brands/26751/flucloxin-500-mg-imiv-injection"
+    },
+    {
+      "name": "Flucocin",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.52",
+      "url": "https://medex.com.bd/brands/29010/flucocin-500-mg-capsule"
+    },
+    {
+      "name": "Flucopen",
+      "strength": "250 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.53",
+      "url": "https://medex.com.bd/brands/6302/flucopen-250-mg-capsule"
+    },
+    {
+      "name": "Flucopen",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/6303/flucopen-500-mg-capsule"
+    },
+    {
+      "name": "Flucopen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.23",
+      "url": "https://medex.com.bd/brands/6304/flucopen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flukin",
+      "strength": "250 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6308/flukin-250-mg-capsule"
+    },
+    {
+      "name": "Flukin",
+      "strength": "500 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/6309/flukin-500-mg-capsule"
+    },
+    {
+      "name": "Flukin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6310/flukin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluking",
+      "strength": "250 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/27565/fluking-250-mg-capsule"
+    },
+    {
+      "name": "Fluking",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/27566/fluking-500-mg-capsule"
+    },
+    {
+      "name": "Fluking",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/27567/fluking-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flumark",
+      "strength": "500 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6312/flumark-500-mg-capsule"
+    },
+    {
+      "name": "Flumark",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6313/flumark-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flumed",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6315/flumed-500-mg-capsule"
+    },
+    {
+      "name": "Flumed",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6316/flumed-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flunid",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/28090/flunid-250-mg-capsule"
+    },
+    {
+      "name": "Flunid",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/28091/flunid-500-mg-capsule"
+    },
+    {
+      "name": "Flunid",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "100 ml bottle : ৳ 61.00",
+      "url": "https://medex.com.bd/brands/28092/flunid-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flupen",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6317/flupen-250-mg-capsule"
+    },
+    {
+      "name": "Flupen",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/6318/flupen-500-mg-capsule"
+    },
+    {
+      "name": "Flupen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6319/flupen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flurif",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.52",
+      "url": "https://medex.com.bd/brands/6320/flurif-500-mg-capsule"
+    },
+    {
+      "name": "Flustaph",
+      "strength": "250 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/26885/flustaph-250-mg-capsule"
+    },
+    {
+      "name": "Flustaph",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26886/flustaph-500-mg-capsule"
+    },
+    {
+      "name": "Flustaph",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 59.94",
+      "url": "https://medex.com.bd/brands/26887/flustaph-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flustar",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6321/flustar-250-mg-capsule"
+    },
+    {
+      "name": "Flustar",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6322/flustar-500-mg-capsule"
+    },
+    {
+      "name": "Flustar",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/26636/flustar-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flutam",
+      "strength": "250 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.70",
+      "url": "https://medex.com.bd/brands/27183/flutam-250-mg-capsule"
+    },
+    {
+      "name": "Flutam",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.44",
+      "url": "https://medex.com.bd/brands/27184/flutam-500-mg-capsule"
+    },
+    {
+      "name": "Flutam DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/27185/flutam-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flutec",
+      "strength": "250 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/6324/flutec-250-mg-capsule"
+    },
+    {
+      "name": "Flutec",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6326/flutec-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flutec-DS",
+      "strength": "500 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6325/flutec-ds-500-mg-capsule"
+    },
+    {
+      "name": "Flux",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.77",
+      "url": "https://medex.com.bd/brands/6327/flux-250-mg-capsule"
+    },
+    {
+      "name": "Flux",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/6328/flux-500-mg-capsule"
+    },
+    {
+      "name": "Flux",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6329/flux-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flux",
+      "strength": "500 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "500 mg vial : ৳ 45.30",
+      "url": "https://medex.com.bd/brands/6331/flux-500-mg-imiv-injection"
+    },
+    {
+      "name": "Flux",
+      "strength": "250 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "250 mg vial : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/36811/flux-250-mg-imiv-injection"
+    },
+    {
+      "name": "Flux DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 110.75",
+      "url": "https://medex.com.bd/brands/6330/flux-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluxi",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6334/fluxi-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluxicap",
+      "strength": "250 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.60",
+      "url": "https://medex.com.bd/brands/6332/fluxicap-250-mg-capsule"
+    },
+    {
+      "name": "Fluxicap",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6333/fluxicap-500-mg-capsule"
+    },
+    {
+      "name": "Fluxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 58.88",
+      "url": "https://medex.com.bd/brands/6337/fluxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluxin",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.04",
+      "url": "https://medex.com.bd/brands/28031/fluxin-500-mg-capsule"
+    },
+    {
+      "name": "Fluxin",
+      "strength": "250 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.59",
+      "url": "https://medex.com.bd/brands/28032/fluxin-250-mg-capsule"
+    },
+    {
+      "name": "Flxzen",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/6338/flxzen-250-mg-capsule"
+    },
+    {
+      "name": "Flxzen",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6339/flxzen-500-mg-capsule"
+    },
+    {
+      "name": "Flxzen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6340/flxzen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fucil",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/6342/fucil-500-mg-capsule"
+    },
+    {
+      "name": "Fucil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6343/fucil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Flucloxacillin",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6347/g-flucloxacillin-500-mg-capsule"
+    },
+    {
+      "name": "G-Flucloxacillin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "500 mg vial : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/6348/g-flucloxacillin-500-mg-imiv-injection"
+    },
+    {
+      "name": "G-Flucloxacillin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6349/g-flucloxacillin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Halopen",
+      "strength": "250 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.55",
+      "url": "https://medex.com.bd/brands/6350/halopen-250-mg-capsule"
+    },
+    {
+      "name": "Halopen",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6351/halopen-500-mg-capsule"
+    },
+    {
+      "name": "Halopen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6352/halopen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Inclox",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6353/inclox-250-mg-capsule"
+    },
+    {
+      "name": "Inclox",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6354/inclox-500-mg-capsule"
+    },
+    {
+      "name": "Isoclox",
+      "strength": "250 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6355/isoclox-250-mg-capsule"
+    },
+    {
+      "name": "Isoclox",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.55",
+      "url": "https://medex.com.bd/brands/6356/isoclox-500-mg-capsule"
+    },
+    {
+      "name": "Isoclox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6357/isoclox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Isoflu",
+      "strength": "500 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6358/isoflu-500-mg-capsule"
+    },
+    {
+      "name": "Isoflu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6359/isoflu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Luf",
+      "strength": "250 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6360/luf-250-mg-capsule"
+    },
+    {
+      "name": "Luf",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6361/luf-500-mg-capsule"
+    },
+    {
+      "name": "Luf",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6362/luf-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Monaclox-F",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6363/monaclox-f-250-mg-capsule"
+    },
+    {
+      "name": "Monaclox-F",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6364/monaclox-f-500-mg-capsule"
+    },
+    {
+      "name": "Monaclox-F",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6365/monaclox-f-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Murein",
+      "strength": "500 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/27086/murein-500-mg-capsule"
+    },
+    {
+      "name": "Murein",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "100 ml bottel : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/39925/murein-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orgaflu",
+      "strength": "250 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.58",
+      "url": "https://medex.com.bd/brands/6367/orgaflu-250-mg-capsule"
+    },
+    {
+      "name": "Orgaflu",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/6368/orgaflu-500-mg-capsule"
+    },
+    {
+      "name": "Orgaflu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.40",
+      "url": "https://medex.com.bd/brands/33291/orgaflu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Phylopen",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6374/phylopen-250-mg-capsule"
+    },
+    {
+      "name": "Phylopen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6376/phylopen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Phylopen",
+      "strength": "500 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 54.00",
+      "url": "https://medex.com.bd/brands/6378/phylopen-500-mg-imiv-injection"
+    },
+    {
+      "name": "Phylopen DS",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6375/phylopen-ds-500-mg-capsule"
+    },
+    {
+      "name": "Phylopen Forte",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/6377/phylopen-forte-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Revistar",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6379/revistar-250-mg-capsule"
+    },
+    {
+      "name": "Revistar",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.05",
+      "url": "https://medex.com.bd/brands/6380/revistar-500-mg-capsule"
+    },
+    {
+      "name": "Revistar",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 60.23",
+      "url": "https://medex.com.bd/brands/6381/revistar-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "S-Fluclox",
+      "strength": "250 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6382/s-fluclox-250-mg-capsule"
+    },
+    {
+      "name": "S-Fluclox",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6383/s-fluclox-500-mg-capsule"
+    },
+    {
+      "name": "Silox",
+      "strength": "250 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.77",
+      "url": "https://medex.com.bd/brands/6384/silox-250-mg-capsule"
+    },
+    {
+      "name": "Silox",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.04",
+      "url": "https://medex.com.bd/brands/6385/silox-500-mg-capsule"
+    },
+    {
+      "name": "Silox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 60.22",
+      "url": "https://medex.com.bd/brands/6386/silox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sinaflox",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.60",
+      "url": "https://medex.com.bd/brands/6387/sinaflox-250-mg-capsule"
+    },
+    {
+      "name": "Sinaflox",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6388/sinaflox-500-mg-capsule"
+    },
+    {
+      "name": "Sinaflox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6389/sinaflox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Skilox",
+      "strength": "250 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6390/skilox-250-mg-capsule"
+    },
+    {
+      "name": "Skilox",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/6391/skilox-500-mg-capsule"
+    },
+    {
+      "name": "Skilox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6392/skilox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sofa",
+      "strength": "250 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.25",
+      "url": "https://medex.com.bd/brands/6393/sofa-250-mg-capsule"
+    },
+    {
+      "name": "Sofa",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6395/sofa-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Softapen",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/6396/softapen-500-mg-capsule"
+    },
+    {
+      "name": "Softapen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6397/softapen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Staflu",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.79",
+      "url": "https://medex.com.bd/brands/27886/staflu-250-mg-capsule"
+    },
+    {
+      "name": "Staflu",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.57",
+      "url": "https://medex.com.bd/brands/27887/staflu-500-mg-capsule"
+    },
+    {
+      "name": "Staflu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 65.20",
+      "url": "https://medex.com.bd/brands/27888/staflu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Staflu DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 110.75",
+      "url": "https://medex.com.bd/brands/27889/staflu-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Stafoxin",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6398/stafoxin-250-mg-capsule"
+    },
+    {
+      "name": "Stafoxin",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6399/stafoxin-500-mg-capsule"
+    },
+    {
+      "name": "Stafoxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6400/stafoxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Staphylox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/6402/staphylox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Staphylox-500",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6401/staphylox-500-500-mg-capsule"
+    },
+    {
+      "name": "Stapkil",
+      "strength": "250 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6403/stapkil-250-mg-capsule"
+    },
+    {
+      "name": "Stapkil",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6404/stapkil-500-mg-capsule"
+    },
+    {
+      "name": "Stapkil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 58.00",
+      "url": "https://medex.com.bd/brands/6405/stapkil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Surgeflox",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.29",
+      "url": "https://medex.com.bd/brands/6407/surgeflox-500-mg-capsule"
+    },
+    {
+      "name": "Syflu",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6409/syflu-500-mg-capsule"
+    },
+    {
+      "name": "Syflu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "MST Pharma",
+      "price": "100 ml bottle : ৳ 61.00",
+      "url": "https://medex.com.bd/brands/6410/syflu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Topflu",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/37053/topflu-500-mg-capsule"
+    },
+    {
+      "name": "Topflu",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/37054/topflu-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Uflu",
+      "strength": "250 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34980/uflu-250-mg-capsule"
+    },
+    {
+      "name": "Uflu",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34981/uflu-500-mg-capsule"
+    }
+  ],
+  "sections_en": {
+    "indications": "Flucloxacillin is indicated for the treatment of infections due to Gram-positive organisms, including infections caused by penicillinase producing staphylococci. These indications include:\n\n- Skin and soft tissue infections: Boils, abscess, carbuncles, infected skin conditions (e.g. ulcer, eczema, acne, furunculosis, cellulitis, infected wounds, infected burns, otitis media and externa, impetigo).\nFlucloxacillin is indicated for the treatment of infections due to Gram-positive organisms, including infections caused by penicillinase producing staphylococci. These indications include:\n\n- Skin and soft tissue infections: Boils, abscess, carbuncles, infected skin conditions (e.g. ulcer, eczema, acne, furunculosis, cellulitis, infected wounds, infected burns, otitis media and externa, impetigo).\n- Respiratory tract infections: Pneumonia, lung abscess, empyema, sinusitis, pharyngitis, tonsillitis, quinsy.\n- It is also used for the treatment of other infections i.e. osteomyelitis, enteritis, endocarditis, urinary tract infection, meningitis, septicaemia caused by Flucloxacillin-sensitive organisms.\n- As a prophylactic agent, it is used during major surgical procedures where appropriate; for example, cardiothoracic and orthopedic surgery.",
+    "mode_of_action": "Flucloxacillin is active against Gram-positive organisms including penicillinase producing strains. It has little activity against Gram-negative bacilli. Flucloxacillin acts by inhibiting the formation of cell wall of bacteria. Flucloxacillin is isoxazolyl penicillin which combined the properties of resistance to hydrolysis by penicillinase, gastric acid stability and activity against gram-positive bacteria. Flucloxacillin is a bactericidal antibiotic that is particularly useful against penicillinase-producing staphylococci. Flucloxacillin kills bacterial cellwall, thus interfering with peptidoglycan synthesis. Peptidoglycan is a heteropolymeric structure that provides the cell wall with its mechanical stability. The final stage of peptidoglycan synthesis involves the completion of the cross-linking with the terminal glycine residue of the pentaglycin bridge linking to the fourth residue of the pentapeptide (D-alanine). The transpeptidase enzyme that performs this step is inhibited by Flucloxacillin. As a result the bacterial cellwall is weakened, the cell swells and then ruptures. Flucloxacillin resists the action of bacterial penicillinase probably because of the steric hindrance induced by the acyl side chain which prevents the opening of the β- lactam ring.",
+    "dosage": "Oral administration:\r\n\n- **Adult**: 250 mg four times daily. Dosage may be doubled in severe infections. In osteomyelitis and endocarditis, up to 8 gm daily is used in 6-8 hourly divided doses.\n- **Children (2-10 years)**: 1/2 of adult dose.\n- **Children (Under 2 years)**: 1/4 of adult dose.\n\r\nParenteral administration:\nAdult or Elderly:\r\n\n- **Intramuscular Injection**: 250 mg four times daily.\n- **Intravenous Injection**: 250 mg-1 g four times daily by slow injection over 3 to 4 minutes or by intravenous infusion.\n- **All systemic doses may be doubled in severe infections**: doses up to 8 g daily have been suggested for endocarditis or osteomyelitis.\n\r\nChildren:\r\n\n- **2-10 years**: half of the adult dose.\n- **Under 2 years**: a quarter of the adult dose.",
+    "administration": "Oral doses should be administered 1 hour before meal.",
+    "interaction": "Concurrent use of Flucloxacillin and may result in increased level of Flucloxacillin in blood for prolonged period.",
+    "contraindications": "Flucloxacillin is contraindicated in penicillin hypersensitive patients.",
+    "side_effects": "There have been some common side effects of gastrointestinal tract such as nausea, vomiting, diarrhoea, dyspepsia and other minor gastrointestinal disturbances. Besides these rashes, urticaria, purpura, fever, interstitial nephritis, hepatitis and cholestatic jaundice have been reported.",
+    "pregnancy_cat": "US FDA Pregnancy Category of Flucloxacillin is B. There are, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Flucloxacillin have been shown to be excreted in human milk. So, caution should be exercised when Flucloxacillin is administered to a lactating mother.",
+    "precautions": "Flucloxacillin should be used with caution in patients with evidence of hepatic dysfunction. Caution should also be exercised in the treatment of patients with an allergic diathesis.",
+    "pediatric_uses": "In severe renal failure (creatinine clearance <10 ml/min), a reduction in dose or an extension of dose interval should be considered.",
+    "drug_classes": "Narrow spectrum penicillin",
+    "reconstitution": "Flucloxacillin has been used in other routes in conjunction with systemic therapy. It has been administered in a dose of 250 mg to 500 mg daily by intraarticular injection, dissolved if necessary in a 0.5% solution of lignocaine hydrochloride, and by intrapleural injection in a dose of 250 mg daily. Using powder for injection, 125 mg-250 mg has been dissolved in 3 ml of sterile water and inhaled by nebuliser four times daily.",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "ফ্লুক্লক্সাসিলিন, পেনিসিলিনেজ তৈরী করে, এমন সব স্ট্যাফাইলোকক্কি ব্যাকটেরিয়া সহ অন্যান্য গ্রাম-পজিটিভ জীবাণু দ্বারা সৃষ্ট সংক্রমণে নির্দেশিত। এ জাতীয় নির্দেশনাগুলো হলো-\n\n- ত্বক ও কোমল কলার সংক্রমণঃ ফোঁড়া, এব্সেস, কার্বাংকল, সংক্রমিত ত্বক (যেমন- আলসার, একজিমা, ব্রন, ফুরাংকিউলোসিস, সেলুলাইটিস, সংক্রমিত ক্ষত ও পোঁড়া, ওটাইটিস মিডিয়া ও এক্সটার্না, ইমপেটিগো)।\n- শ্বাসনালীর সংক্রমণঃ নিউমোনিয়া, লাং এব্সেস, এমপায়েমা, সাইনুসাইটিস, ফ্যারিনজাইটিস, টনসিলাইটিস, কুইন্সি।\n- এটি Flucloxacillin এর প্রতি সংবেদনশীল এমন সব জীবাণু দ্বারা সৃষ্ট অন্যান্য সংক্রমণের চিকিৎসায় (যেমন- অস্টিওমায়েলাইটিস, এন্টেরাইটিস, এন্ডোকার্ডিটিস, মূত্রনালীর সংক্রমণ, মেনিনজাইটিস, সেপটিসেমিয়া) ব্যবহৃত হয়।\n- প্রোফাইলেক্টিক হিসেবে এটি গুরুত্বপূর্ণ অপারেশনের সময়, যে ক্ষেত্রে উপযুক্ত তার ভিত্তিতে ব্যবহৃত হয় (যেমন- কার্ডিওথোরাসিক ও অর্থোপেডিক অপারেশন)।",
+    "mode_of_action": "ফ্লুক্লক্সাসিলিন পেনিসিলিনেজ তৈরী করে এমন সব গ্রাম-পজিটিভ জীবাণুর বিরূদ্ধে কার্যকরী। গ্রাম-নিগেটিভ ব্যাসিলি-এর বিরূদ্ধে এটির সামান্য কার্যকারিতা আছে। ফ্লুক্লক্সাসিলিন, ব্যাকটেরিয়ার কোষপ্রাচীর গঠন ব্যাহত করার মাধ্যমে কাজ করে।",
+    "dosage": "**প্রাপ্তবয়স্ক**: ২৫০ মিঃগ্রাঃ করে দিনে ৪ বার। তীব্র সংক্রমণের ক্ষেত্রে এ মাত্রা দ্বিগুণ করা যেতে পারে। অস্টিওমায়েলাইটিস ও এন্ডোকার্ডিটিস-এর ক্ষেত্রে দৈনিক সর্বোচ্চ ৮ গ্রাম বিভক্তমাত্রায় ৬-৮ ঘন্টা পরপর।\n**বাচ্চা (২-১০ বৎসর)**: প্রাপ্তবয়স্কদের অর্ধেক মাত্রা। \n**বাচ্চা (২ বৎসরের নিচে)**: প্রাপ্তবয়স্কদের এক চতুর্থাংশ মাত্রা।",
+    "administration": "মুখে সেবনযোগ্য এ ঔষধটি খাবারের ১ ঘন্টা পূর্বে খাওয়া উচিত।",
+    "interaction": "ফ্লুক্লক্সাসিলিন ও প্রোবেনসিড এর যুগপৎ ব্যবহার ফ্লুক্লক্সাসিলিন এর প্লাজমা ঘনত্ব বৃদ্ধি ও দীর্ঘস্থায়ী করতে পারে।",
+    "contraindications": "পেনিসিলিন জাতীয় ঔষধের প্রতি অতিসংবেদনশীলতার ক্ষেত্রে ফ্লুক্লক্সাসিলিন প্রতিনির্দেশিত।",
+    "side_effects": "পরিপাকতন্ত্রীর সাধারণ পার্শ্ব প্রতিক্রিয়াগুলো হচ্ছে- বমিবমি ভাব বা বমি, ডায়রিয়া, বদহজম এবং অন্যান্য পরিপাকতন্ত্রীয় সমস্যা। এগুলো ছাড়াও র‌্যাশ, আর্টিক্যারিয়া, পুরপুরা, জ্বর, ইনটারস্টিসিয়াল নেফ্রাইটিস, হেপাটাইটিস এবং কোলেস্টেটিক জন্ডিস লক্ষ্য করা যায়।",
+    "pregnancy_cat": "US FDA-এর প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী ফ্লুক্লক্সাসিলিন 'B' শ্রেণীভূক্ত ঔষধ। তাছাড়া, গর্ভাবস্থায় এটি ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহে কার্যকারিতা সন্বন্ধে পূর্ব ধারণা দেয় না, সেহেতু এই ঔষধটি গর্ভাবস্থায় কেবল সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। Flucloxacillin স্তন্যদুগ্ধে নিঃসৃত হয়। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে Flucloxacillin ব্যবহারে সতর্কতা অবলম্বন করা উচিত ।",
+    "precautions": "যকৃতের সমস্যা আছে এমন রোগীদের ক্ষেত্রে এটি সতর্কভাবে ব্যবহার করা উচিত। এলার্জিক ডায়াথিসিস আছে এমন রোগীদের ক্ষেত্রেও এটি ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "pediatric_uses": "তীব্র রেনাল ফেইলিউর-এর ক্ষেত্রে (ক্রিয়েটিনিন ক্লিয়ারেন্স <১০ মিঃলিঃ/মিনিট), মাত্রার পরিমাণ কমানো বা মাত্রা বিরতি বাড়ানোর প্রয়োজন হতে পারে।",
+    "drug_classes": "Narrow spectrum penicillin",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/473/flucloxacillin-sodium",
+  "source_url_bn": "https://medex.com.bd/generics/473/flucloxacillin-sodium/bn",
+  "scraped_at": "2026-10-10T18:15:31+00:00"
+}

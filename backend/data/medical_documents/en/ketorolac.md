@@ -4,7 +4,7 @@
 - Therapeutic Class: Drugs used for Rheumatoid Arthritis, Non-Opioid Analgesics
 - Available Dosage Forms: Nasal Spray, Injection, Tablets
 - Source URL: https://medex.com.bd/generics/648/ketorolac-tromethamine
-- Retrieved At (UTC): 2026-10-10T15:46:07+00:00
+- Retrieved At (UTC): 2026-10-10T18:14:22+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

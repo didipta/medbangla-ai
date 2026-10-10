@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Drugs used for Rheumatoid Arthritis, Non-Opioid Analgesics
 - সহজলভ্য ডোজ ফর্ম: Nasal Spray, Injection, Tablets
 - উৎস লিংক: https://medex.com.bd/generics/648/ketorolac-tromethamine/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:46:07+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T18:14:22+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

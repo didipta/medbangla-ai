@@ -73,200 +73,85 @@ HEADERS = {
     "Upgrade-Insecure-Requests": "1",
 }
 
-# Verified core generics in Bangladesh with exact IDs (40+ essential medicines)
+# Verified core generics in Bangladesh (Ranked by commercial brand volume & clinical importance from brands.csv)
 DEFAULT_GENERICS: List[Dict[str, str]] = [
-    # --- Analgesics, Antipyretics & NSAIDs ---
-    {
-        "name": "paracetamol",
-        "url": "https://medex.com.bd/generics/860/paracetamol",
-    },
-    {
-        "name": "aceclofenac",
-        "url": "https://medex.com.bd/generics/3/aceclofenac",
-    },
-    {
-        "name": "ibuprofen",
-        "url": "https://medex.com.bd/generics/593/ibuprofen-oral",
-    },
-    {
-        "name": "naproxen",
-        "url": "https://medex.com.bd/generics/795/naproxen-sodium",
-    },
-    {
-        "name": "ketorolac",
-        "url": "https://medex.com.bd/generics/648/ketorolac-tromethamine",
-    },
-    {
-        "name": "aspirin",
-        "url": "https://medex.com.bd/generics/85/aspirin",
-    },
+    # --- Analgesics, Antipyretics & Anti-Inflammatory (NSAIDs) ---
+    {"name": "paracetamol", "url": "https://medex.com.bd/generics/860/paracetamol"},
+    {"name": "paracetamol_caffeine", "url": "https://medex.com.bd/generics/861/paracetamol-caffeine"},  # Napa Extra, Ace Plus (89 brands)
+    {"name": "aceclofenac", "url": "https://medex.com.bd/generics/3/aceclofenac"},
+    {"name": "diclofenac_sodium", "url": "https://medex.com.bd/generics/355/diclofenac-sodium"},        # Clofenac, Voltalin (195 brands)
+    {"name": "etoricoxib", "url": "https://medex.com.bd/generics/446/etoricoxib"},                       # Torax, Cox-B (104 brands)
+    {"name": "naproxen", "url": "https://medex.com.bd/generics/795/naproxen-sodium"},
+    {"name": "ketorolac", "url": "https://medex.com.bd/generics/648/ketorolac-tromethamine"},
+    {"name": "ibuprofen", "url": "https://medex.com.bd/generics/593/ibuprofen-oral"},
+    {"name": "aspirin", "url": "https://medex.com.bd/generics/85/aspirin"},
 
-    # --- Gastrointestinal & Anti-Ulcerants (PPIs, H2 Blockers, Antiemetics) ---
-    {
-        "name": "omeprazole",
-        "url": "https://medex.com.bd/generics/825/omeprazole",
-    },
-    {
-        "name": "esomeprazole",
-        "url": "https://medex.com.bd/generics/433/esomeprazole",
-    },
-    {
-        "name": "pantoprazole",
-        "url": "https://medex.com.bd/generics/859/pantoprazole-sodium",
-    },
-    {
-        "name": "rabeprazole",
-        "url": "https://medex.com.bd/generics/942/rabeprazole-sodium",
-    },
-    {
-        "name": "famotidine",
-        "url": "https://medex.com.bd/generics/452/famotidine",
-    },
-    {
-        "name": "domperidone",
-        "url": "https://medex.com.bd/generics/380/domperidone-maleate",
-    },
-    {
-        "name": "ondansetron",
-        "url": "https://medex.com.bd/generics/827/ondansetron",
-    },
+    # --- Gastrointestinal & Anti-Ulcerants (PPIs, H2 Blockers, Antispasmodics) ---
+    {"name": "omeprazole", "url": "https://medex.com.bd/generics/825/omeprazole"},
+    {"name": "esomeprazole", "url": "https://medex.com.bd/generics/433/esomeprazole"},
+    {"name": "pantoprazole", "url": "https://medex.com.bd/generics/859/pantoprazole-sodium"},
+    {"name": "rabeprazole", "url": "https://medex.com.bd/generics/942/rabeprazole-sodium"},
+    {"name": "famotidine", "url": "https://medex.com.bd/generics/452/famotidine"},
+    {"name": "domperidone", "url": "https://medex.com.bd/generics/380/domperidone-maleate"},
+    {"name": "ondansetron", "url": "https://medex.com.bd/generics/827/ondansetron"},
+    {"name": "tiemonium", "url": "https://medex.com.bd/generics/1069/tiemonium-methylsulfate"},         # Visceralgine, Algin (82 brands)
 
-    # --- Antibiotics & Antimicrobials ---
-    {
-        "name": "amoxicillin",
-        "url": "https://medex.com.bd/generics/69/amoxicillin-trihydrate",
-    },
-    {
-        "name": "azithromycin",
-        "url": "https://medex.com.bd/generics/100/azithromycin-dihydrate",
-    },
-    {
-        "name": "ciprofloxacin",
-        "url": "https://medex.com.bd/generics/263/ciprofloxacin",
-    },
-    {
-        "name": "cefixime",
-        "url": "https://medex.com.bd/generics/217/cefixime-trihydrate",
-    },
-    {
-        "name": "cefuroxime",
-        "url": "https://medex.com.bd/generics/226/cefuroxime-axetil",
-    },
-    {
-        "name": "ceftriaxone",
-        "url": "https://medex.com.bd/generics/225/ceftriaxone-sodium",
-    },
-    {
-        "name": "levofloxacin",
-        "url": "https://medex.com.bd/generics/680/levofloxacin-hemihydrate",
-    },
-    {
-        "name": "metronidazole",
-        "url": "https://medex.com.bd/generics/751/metronidazole",
-    },
-    {
-        "name": "doxycycline",
-        "url": "https://medex.com.bd/generics/394/doxycycline-hydrochloride",
-    },
+    # --- Antibiotics & Antimicrobials (Top Bangladesh Prescription Classes) ---
+    {"name": "cephradine", "url": "https://medex.com.bd/generics/232/cephradine"},                      # Cephran, Lebac (#1 in BD: 367 brands)
+    {"name": "flucloxacillin", "url": "https://medex.com.bd/generics/473/flucloxacillin-sodium"},        # Fluclox (231 brands)
+    {"name": "cefixime", "url": "https://medex.com.bd/generics/217/cefixime-trihydrate"},
+    {"name": "cefuroxime", "url": "https://medex.com.bd/generics/226/cefuroxime-axetil"},
+    {"name": "ceftriaxone", "url": "https://medex.com.bd/generics/225/ceftriaxone-sodium"},
+    {"name": "cefpodoxime", "url": "https://medex.com.bd/generics/220/cefpodoxime-proxetil"},          # Cefodox (132 brands)
+    {"name": "ciprofloxacin", "url": "https://medex.com.bd/generics/263/ciprofloxacin"},
+    {"name": "azithromycin", "url": "https://medex.com.bd/generics/100/azithromycin-dihydrate"},
+    {"name": "amoxicillin", "url": "https://medex.com.bd/generics/69/amoxicillin-trihydrate"},
+    {"name": "levofloxacin", "url": "https://medex.com.bd/generics/680/levofloxacin-hemihydrate"},
+    {"name": "metronidazole", "url": "https://medex.com.bd/generics/751/metronidazole"},
+    {"name": "doxycycline", "url": "https://medex.com.bd/generics/394/doxycycline-hydrochloride"},
+    {"name": "fluconazole", "url": "https://medex.com.bd/generics/474/fluconazole"},                    # Flugal, Diflu (150 brands)
+    {"name": "nitazoxanide", "url": "https://medex.com.bd/generics/812/nitazoxanide"},                  # Zox, Alin (71 brands)
+    {"name": "albendazole", "url": "https://medex.com.bd/generics/16/albendazole"},                     # Almex, Alben (97 brands)
 
     # --- Cardiovascular & Antihypertensives ---
-    {
-        "name": "losartan",
-        "url": "https://medex.com.bd/generics/699/losartan-potassium",
-    },
-    {
-        "name": "amlodipine",
-        "url": "https://medex.com.bd/generics/62/amlodipine-besilate",
-    },
-    {
-        "name": "telmisartan",
-        "url": "https://medex.com.bd/generics/1038/telmisartan",
-    },
-    {
-        "name": "bisoprolol",
-        "url": "https://medex.com.bd/generics/135/bisoprolol-fumarate",
-    },
-    {
-        "name": "atenolol",
-        "url": "https://medex.com.bd/generics/88/atenolol",
-    },
-    {
-        "name": "atorvastatin",
-        "url": "https://medex.com.bd/generics/92/atorvastatin-calcium",
-    },
-    {
-        "name": "rosuvastatin",
-        "url": "https://medex.com.bd/generics/970/rosuvastatin-calcium",
-    },
-    {
-        "name": "clopidogrel",
-        "url": "https://medex.com.bd/generics/286/clopidogrel-bisulphate",
-    },
+    {"name": "losartan", "url": "https://medex.com.bd/generics/699/losartan-potassium"},
+    {"name": "amlodipine", "url": "https://medex.com.bd/generics/62/amlodipine-besilate"},
+    {"name": "telmisartan", "url": "https://medex.com.bd/generics/1038/telmisartan"},
+    {"name": "bisoprolol", "url": "https://medex.com.bd/generics/135/bisoprolol-fumarate"},
+    {"name": "atenolol", "url": "https://medex.com.bd/generics/88/atenolol"},
+    {"name": "atorvastatin", "url": "https://medex.com.bd/generics/92/atorvastatin-calcium"},
+    {"name": "rosuvastatin", "url": "https://medex.com.bd/generics/970/rosuvastatin-calcium"},
+    {"name": "clopidogrel", "url": "https://medex.com.bd/generics/286/clopidogrel-bisulphate"},
 
     # --- Antidiabetics ---
-    {
-        "name": "metformin",
-        "url": "https://medex.com.bd/generics/734/metformin-hydrochloride",
-    },
-    {
-        "name": "glimepiride",
-        "url": "https://medex.com.bd/generics/524/glimepiride",
-    },
-    {
-        "name": "linagliptin",
-        "url": "https://medex.com.bd/generics/687/linagliptin",
-    },
-    {
-        "name": "sitagliptin",
-        "url": "https://medex.com.bd/generics/990/sitagliptin",
-    },
-    {
-        "name": "empagliflozin",
-        "url": "https://medex.com.bd/generics/1275/empagliflozin",
-    },
+    {"name": "metformin", "url": "https://medex.com.bd/generics/734/metformin-hydrochloride"},          # Comet, Daomin (135 brands)
+    {"name": "glimepiride", "url": "https://medex.com.bd/generics/524/glimepiride"},
+    {"name": "linagliptin", "url": "https://medex.com.bd/generics/687/linagliptin"},
+    {"name": "sitagliptin", "url": "https://medex.com.bd/generics/990/sitagliptin"},
+    {"name": "empagliflozin", "url": "https://medex.com.bd/generics/1275/empagliflozin"},
 
-    # --- Antihistamines & Respiratory ---
-    {
-        "name": "cetirizine",
-        "url": "https://medex.com.bd/generics/234/cetirizine-hydrochloride",
-    },
-    {
-        "name": "fexofenadine",
-        "url": "https://medex.com.bd/generics/468/fexofenadine-hydrochloride",
-    },
-    {
-        "name": "desloratadine",
-        "url": "https://medex.com.bd/generics/329/desloratadine",
-    },
-    {
-        "name": "rupatadine",
-        "url": "https://medex.com.bd/generics/972/rupatadine-fumarate",
-    },
-    {
-        "name": "montelukast",
-        "url": "https://medex.com.bd/generics/768/montelukast-sodium",
-    },
-    {
-        "name": "salbutamol",
-        "url": "https://medex.com.bd/generics/1318/salbutamol",
-    },
+    # --- Antihistamines, Respiratory & Cough ---
+    {"name": "cetirizine", "url": "https://medex.com.bd/generics/234/cetirizine-hydrochloride"},        # Alatrol (123 brands)
+    {"name": "fexofenadine", "url": "https://medex.com.bd/generics/468/fexofenadine-hydrochloride"},    # Fexo (126 brands)
+    {"name": "desloratadine", "url": "https://medex.com.bd/generics/329/desloratadine"},
+    {"name": "rupatadine", "url": "https://medex.com.bd/generics/972/rupatadine-fumarate"},
+    {"name": "montelukast", "url": "https://medex.com.bd/generics/768/montelukast-sodium"},            # Monas, Provair (115 brands)
+    {"name": "salbutamol", "url": "https://medex.com.bd/generics/1318/salbutamol"},                     # Ventolin (113 brands)
+    {"name": "ambroxol", "url": "https://medex.com.bd/generics/53/ambroxol-hydrochloride"},             # Ambolyt (83 brands)
+    {"name": "xylometazoline", "url": "https://medex.com.bd/generics/1139/xylometazoline-hydrochloride"}, # Antazol (Nasal)
 
-    # --- CNS / Anxiolytic ---
-    {
-        "name": "clonazepam",
-        "url": "https://medex.com.bd/generics/284/clonazepam",
-    },
+    # --- Neurological & Musculoskeletal ---
+    {"name": "pregabalin", "url": "https://medex.com.bd/generics/919/pregabalin"},                      # Prelica, Neugaba (97 brands)
+    {"name": "baclofen", "url": "https://medex.com.bd/generics/105/baclofen"},                          # Flexil (79 brands)
+    {"name": "clonazepam", "url": "https://medex.com.bd/generics/284/clonazepam"},
 
-    # --- Minerals & Supplements ---
-    {
-        "name": "calcium_vitamin_d3",
-        "url": "https://medex.com.bd/generics/169/conventional-calcium-vitamin-d3",
-    },
-    {
-        "name": "zinc_sulfate",
-        "url": "https://medex.com.bd/generics/1144/zinc-sulfate-monohydrate",
-    },
+    # --- Minerals & Essential Supplements ---
+    {"name": "calcium_vitamin_d3", "url": "https://medex.com.bd/generics/169/conventional-calcium-vitamin-d3"}, # Calbo-D (100 brands)
+    {"name": "zinc_sulfate", "url": "https://medex.com.bd/generics/1144/zinc-sulfate-monohydrate"},              # Babyzinc (114 brands)
+    {"name": "vitamin_b_complex_c", "url": "https://medex.com.bd/generics/1366/vitamin-b-complex-vitamin-c"},   # B-50 Forte (154 brands)
+    {"name": "vitamin_c", "url": "https://medex.com.bd/generics/1137/vitamin-c-ascorbic-acid"},                  # Cee, C-Vivit
 ]
+
 
 
 # Section mappings between MedEx HTML IDs and readable titles (EN & BN)
@@ -678,12 +563,13 @@ def parse_generic_page(html: str) -> Dict[str, Any]:
 
 
 def fetch_page_with_retry(
-    url: str, max_retries: int = 3, base_delay: float = 2.0
+    url: str, max_retries: int = 3, base_delay: float = 3.0
 ) -> Tuple[Optional[str], Dict[str, Any]]:
     """
     Fetch a page and parse generic details. If a bot challenge or 0 sections
-    are returned, waits with exponential backoff and retries.
+    are returned, waits with exponential backoff and re-initializes session.
     """
+    global SESSION
     for attempt in range(1, max_retries + 1):
         try:
             resp = SESSION.get(url, timeout=(8, 25))
@@ -692,7 +578,7 @@ def fetch_page_with_retry(
                 if data and data.get("sections"):
                     return resp.text, data
                 logger.warning(
-                    "Attempt %d/%d for %s yielded bot challenge or 0 sections. Backing off...",
+                    "Attempt %d/%d for %s yielded bot challenge or 0 sections. Resetting session & backing off...",
                     attempt,
                     max_retries,
                     url,
@@ -714,12 +600,16 @@ def fetch_page_with_retry(
                 exc,
             )
 
+        # Clear session to drop any Cloudflare challenge cookies
+        SESSION = create_session()
+
         if attempt < max_retries:
-            sleep_time = base_delay * (2 ** (attempt - 1)) + random.uniform(0.5, 1.5)
+            sleep_time = base_delay * (2 ** (attempt - 1)) + random.uniform(2.0, 4.0)
             logger.info("Pausing %.1fs before retrying %s...", sleep_time, url)
             time.sleep(sleep_time)
 
     return None, {}
+
 
 
 # =========================================================
@@ -875,18 +765,33 @@ def build_bilingual_markdown(
 def scrape_generic_bilingual(
     name: str,
     target_url: str,
-    pause_between_langs: float = 1.0,
+    pause_between_langs: float = 1.5,
+    skip_existing: bool = True,
 ) -> bool:
     """
     Scrape both English and Bengali versions of a generic medicine,
     and save monolingual, bilingual, and JSON documents.
     """
+    slug = safe_filename(name)
+    json_path = JSON_DOCS_DIR / f"{slug}.json"
+    if skip_existing and json_path.exists():
+        try:
+            cached = json.loads(json_path.read_text(encoding="utf-8"))
+            has_sections = bool(cached.get("sections_en") or cached.get("sections_bn"))
+            is_corrupt = "security check" in str(cached.get("name_en", "")).lower()
+            if has_sections and not is_corrupt:
+                logger.info("Skipping '%s' (already exists & verified in %s)", name, json_path.name)
+                return True
+        except Exception:
+            pass
+
     logger.info("Starting scrape for generic '%s' -> %s", name, target_url)
 
     en_url, bn_url = build_language_urls(target_url)
 
     # 1. Fetch English Page (with retry and challenge backoff)
     _, en_data = fetch_page_with_retry(en_url)
+
 
     if pause_between_langs > 0:
         time.sleep(pause_between_langs)
@@ -1093,20 +998,25 @@ def main() -> None:
     parser.add_argument(
         "--delay",
         type=float,
-        default=1.5,
-        help="Delay in seconds between requests to avoid rate limits (default: 1.5)",
+        default=2.5,
+        help="Delay in seconds between requests to avoid rate limits (default: 2.5)",
     )
     parser.add_argument(
         "--fix-corrupted",
         action="store_true",
         help="Find and re-scrape any existing drug documents corrupted by bot check or missing sections",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force re-scraping even if valid document already exists locally",
+    )
 
     args = parser.parse_args()
 
     # Mode 0: Repair Corrupted
     if args.fix_corrupted:
-        fixed_count = fix_corrupted_documents(delay=max(args.delay, 1.5))
+        fixed_count = fix_corrupted_documents(delay=max(args.delay, 2.0))
         sys.exit(0 if fixed_count > 0 else 1)
 
     # Mode 1: Check Index
@@ -1123,7 +1033,7 @@ def main() -> None:
         slug = parsed.path.rstrip("/").split("/")[-1]
         if slug == "bn" or slug == "en":
             slug = parsed.path.rstrip("/").split("/")[-2]
-        success = scrape_generic_bilingual(name=slug, target_url=args.url)
+        success = scrape_generic_bilingual(name=slug, target_url=args.url, skip_existing=not args.force)
         sys.exit(0 if success else 1)
 
     # Mode 3: Dynamic crawl from index
@@ -1144,7 +1054,7 @@ def main() -> None:
 
         successful = 0
         for item in collected_generics:
-            if scrape_generic_bilingual(name=item["slug"], target_url=item["url"]):
+            if scrape_generic_bilingual(name=item["slug"], target_url=item["url"], skip_existing=not args.force):
                 successful += 1
             time.sleep(args.delay)
 
@@ -1161,7 +1071,23 @@ def main() -> None:
     failed = 0
 
     for item in DEFAULT_GENERICS:
-        if scrape_generic_bilingual(name=item["name"], target_url=item["url"]):
+        slug = safe_filename(item["name"])
+        json_path = JSON_DOCS_DIR / f"{slug}.json"
+        is_already_done = False
+        if not args.force and json_path.exists():
+            try:
+                cached = json.loads(json_path.read_text(encoding="utf-8"))
+                if (cached.get("sections_en") or cached.get("sections_bn")) and "security check" not in str(cached.get("name_en", "")).lower():
+                    logger.info("Skipping '%s' (already exists: %s)", item["name"], json_path.name)
+                    successful += 1
+                    is_already_done = True
+            except Exception:
+                pass
+
+        if is_already_done:
+            continue
+
+        if scrape_generic_bilingual(name=item["name"], target_url=item["url"], skip_existing=not args.force):
             successful += 1
         else:
             failed += 1

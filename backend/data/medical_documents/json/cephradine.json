@@ -1,0 +1,2057 @@
+{
+  "slug": "cephradine",
+  "name_en": "Cephradine",
+  "name_bn": "সেফরাডিন",
+  "therapeutic_class": "First generation cephalosporins",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Abac",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6776/abac-500-mg-capsule"
+    },
+    {
+      "name": "Abac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6777/abac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Abac",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6778/abac-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Acefra",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6779/acefra-500-mg-capsule"
+    },
+    {
+      "name": "Acefra",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/6780/acefra-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Adecef",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6781/adecef-500-mg-capsule"
+    },
+    {
+      "name": "Adecef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6782/adecef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Adecef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/6783/adecef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Alfradin",
+      "strength": "500 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/25855/alfradin-500-mg-capsule"
+    },
+    {
+      "name": "Alfradin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/25856/alfradin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amfrad",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.54",
+      "url": "https://medex.com.bd/brands/25857/amfrad-500-mg-capsule"
+    },
+    {
+      "name": "Amfrad",
+      "strength": "250 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.25",
+      "url": "https://medex.com.bd/brands/25858/amfrad-250-mg-capsule"
+    },
+    {
+      "name": "Amfrad",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/25859/amfrad-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ancef",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6785/ancef-500-mg-capsule"
+    },
+    {
+      "name": "Ancef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6786/ancef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ancef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6788/ancef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Ancef Forte",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6787/ancef-forte-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aphrin",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6789/aphrin-500-mg-capsule"
+    },
+    {
+      "name": "Avlosef",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/6792/avlosef-250-mg-capsule"
+    },
+    {
+      "name": "Avlosef",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/6793/avlosef-500-mg-capsule"
+    },
+    {
+      "name": "Avlosef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "ACI Limited",
+      "price": "15 ml bottle : ৳ 65.20",
+      "url": "https://medex.com.bd/brands/6794/avlosef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Avlosef",
+      "strength": "1 gm/vial",
+      "manufacturer": "ACI Limited",
+      "price": "1 gm vial : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/6798/avlosef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Avlosef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/26333/avlosef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Avlosef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 135.41",
+      "url": "https://medex.com.bd/brands/6795/avlosef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactacef",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/31454/bactacef-500-mg-capsule"
+    },
+    {
+      "name": "Bactacef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/31455/bactacef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactacef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/31456/bactacef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactokil",
+      "strength": "250 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6799/bactokil-250-mg-capsule"
+    },
+    {
+      "name": "Bactokil",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6800/bactokil-500-mg-capsule"
+    },
+    {
+      "name": "Bactokil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6801/bactokil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Belocef",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/6802/belocef-250-mg-capsule"
+    },
+    {
+      "name": "Belocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6804/belocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Belocef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6806/belocef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Belocef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/6805/belocef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Benocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/25869/benocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Benocef",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/25872/benocef-500-mg-capsule"
+    },
+    {
+      "name": "Betasef",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6807/betasef-250-mg-capsule"
+    },
+    {
+      "name": "Betasef",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6808/betasef-500-mg-capsule"
+    },
+    {
+      "name": "Betasef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6809/betasef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Betasef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6811/betasef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Betasef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 120.35",
+      "url": "https://medex.com.bd/brands/6810/betasef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Brace",
+      "strength": "250 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.53",
+      "url": "https://medex.com.bd/brands/6812/brace-250-mg-capsule"
+    },
+    {
+      "name": "Brace",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/6813/brace-500-mg-capsule"
+    },
+    {
+      "name": "Brace",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6814/brace-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefadin",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6817/cefadin-500-mg-capsule"
+    },
+    {
+      "name": "Cefadin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6818/cefadin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefasia",
+      "strength": "500 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/6821/cefasia-500-mg-capsule"
+    },
+    {
+      "name": "Cefasia",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "100 ml bottle : ৳ 80.31",
+      "url": "https://medex.com.bd/brands/6822/cefasia-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefasia DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6823/cefasia-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceflin",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.50",
+      "url": "https://medex.com.bd/brands/6824/ceflin-500-mg-capsule"
+    },
+    {
+      "name": "Ceflin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/6825/ceflin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefracef",
+      "strength": "250 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6827/cefracef-250-mg-capsule"
+    },
+    {
+      "name": "Cefracef",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6828/cefracef-500-mg-capsule"
+    },
+    {
+      "name": "Cefracef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6829/cefracef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceframax",
+      "strength": "500 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/37405/ceframax-500-mg-capsule"
+    },
+    {
+      "name": "Ceframed",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6830/ceframed-250-mg-capsule"
+    },
+    {
+      "name": "Ceframed",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6831/ceframed-500-mg-capsule"
+    },
+    {
+      "name": "Ceframed",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6832/ceframed-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceframed",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6833/ceframed-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Cefranov",
+      "strength": "500 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6834/cefranov-500-mg-capsule"
+    },
+    {
+      "name": "Cefranov",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6835/cefranov-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefrasyn",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/6836/cefrasyn-500-mg-capsule"
+    },
+    {
+      "name": "Cefrasyn",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "MST Pharma",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6837/cefrasyn-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceodin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6838/ceodin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephid",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.52",
+      "url": "https://medex.com.bd/brands/6839/cephid-250-mg-capsule"
+    },
+    {
+      "name": "Cephid",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6840/cephid-500-mg-capsule"
+    },
+    {
+      "name": "Cephid",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6841/cephid-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephracap",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6842/cephracap-500-mg-capsule"
+    },
+    {
+      "name": "Cephracap DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/29072/cephracap-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephradex",
+      "strength": "500 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6844/cephradex-500-mg-capsule"
+    },
+    {
+      "name": "Cephradex DS",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6845/cephradex-ds-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephran",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/6846/cephran-500-mg-capsule"
+    },
+    {
+      "name": "Cephran",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6847/cephran-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephran",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6849/cephran-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Cephran DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 120.45",
+      "url": "https://medex.com.bd/brands/6848/cephran-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephrasic",
+      "strength": "500 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/37794/cephrasic-500-mg-capsule"
+    },
+    {
+      "name": "Cephrasic",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "100 ml bottle : ৳ 87.00",
+      "url": "https://medex.com.bd/brands/37795/cephrasic-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceproval",
+      "strength": "500 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/6852/ceproval-500-mg-capsule"
+    },
+    {
+      "name": "Ceproval",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6853/ceproval-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dicef",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6859/dicef-250-mg-capsule"
+    },
+    {
+      "name": "Dicef",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/6860/dicef-500-mg-capsule"
+    },
+    {
+      "name": "Dicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/6861/dicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dicef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "15 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/6863/dicef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Dicef Forte",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/6862/dicef-forte-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Edin",
+      "strength": "250 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6872/edin-250-mg-capsule"
+    },
+    {
+      "name": "Edin",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6873/edin-500-mg-capsule"
+    },
+    {
+      "name": "Edin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 86.00",
+      "url": "https://medex.com.bd/brands/6874/edin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Edin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6876/edin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Edin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/6875/edin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Efrad",
+      "strength": "250 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6877/efrad-250-mg-capsule"
+    },
+    {
+      "name": "Efrad",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6878/efrad-500-mg-capsule"
+    },
+    {
+      "name": "Efrad",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 82.00",
+      "url": "https://medex.com.bd/brands/6879/efrad-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Elocef",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/25886/elocef-250-mg-capsule"
+    },
+    {
+      "name": "Elocef",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/25887/elocef-500-mg-capsule"
+    },
+    {
+      "name": "Elocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25888/elocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eusef",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.50",
+      "url": "https://medex.com.bd/brands/6880/eusef-500-mg-capsule"
+    },
+    {
+      "name": "Eusef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6881/eusef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eusef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6883/eusef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Eusef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6884/eusef-500-mg-imiv-injection"
+    },
+    {
+      "name": "Eusef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6885/eusef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Eusef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6882/eusef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Extracef",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6889/extracef-250-mg-capsule"
+    },
+    {
+      "name": "Extracef",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6890/extracef-500-mg-capsule"
+    },
+    {
+      "name": "Extracef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6891/extracef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Extracef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "15 ml bottle : ৳ 62.00",
+      "url": "https://medex.com.bd/brands/6893/extracef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Extracef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6892/extracef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Cefradine",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6896/g-cefradine-500-mg-capsule"
+    },
+    {
+      "name": "G-Cefradine",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6897/g-cefradine-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Cefradine",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/6898/g-cefradine-125-mg-pediatric-drop"
+    },
+    {
+      "name": "G-Cefradine",
+      "strength": "500 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "500 mg vial : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/6899/g-cefradine-500-mg-imiv-injection"
+    },
+    {
+      "name": "Gigacef",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6900/gigacef-500-mg-capsule"
+    },
+    {
+      "name": "Gigacef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6901/gigacef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Gigacef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 63.00",
+      "url": "https://medex.com.bd/brands/28539/gigacef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Glovocef",
+      "strength": "500 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/25895/glovocef-500-mg-capsule"
+    },
+    {
+      "name": "Glovocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25896/glovocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Indocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25904/indocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Intracef",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6903/intracef-250-mg-capsule"
+    },
+    {
+      "name": "Intracef",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6904/intracef-500-mg-capsule"
+    },
+    {
+      "name": "Intracef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6905/intracef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Intracef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6907/intracef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Intracef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/6906/intracef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Keprad",
+      "strength": "250 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.20",
+      "url": "https://medex.com.bd/brands/6915/keprad-250-mg-capsule"
+    },
+    {
+      "name": "Keprad",
+      "strength": "500 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.38",
+      "url": "https://medex.com.bd/brands/6916/keprad-500-mg-capsule"
+    },
+    {
+      "name": "Lebac",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/6917/lebac-250-mg-capsule"
+    },
+    {
+      "name": "Lebac",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/6918/lebac-500-mg-capsule"
+    },
+    {
+      "name": "Lebac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6919/lebac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Lebac",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "15 ml bottle : ৳ 65.19",
+      "url": "https://medex.com.bd/brands/6921/lebac-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Lebac",
+      "strength": "500 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 65.19",
+      "url": "https://medex.com.bd/brands/6922/lebac-500-mg-imiv-injection"
+    },
+    {
+      "name": "Lebac Forte",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6920/lebac-forte-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Libradin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Libra Pharmaceuticls Ltd.",
+      "price": "100 ml bottle : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/25910/libradin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Libradin",
+      "strength": "500 mg",
+      "manufacturer": "Libra Pharmaceuticls Ltd.",
+      "price": "Unit Price : ৳ 12.54",
+      "url": "https://medex.com.bd/brands/25911/libradin-500-mg-capsule"
+    },
+    {
+      "name": "Lidocef",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/25908/lidocef-500-mg-capsule"
+    },
+    {
+      "name": "Lidocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25909/lidocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Lindex",
+      "strength": "250 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6924/lindex-250-mg-capsule"
+    },
+    {
+      "name": "Lindex",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/6925/lindex-500-mg-capsule"
+    },
+    {
+      "name": "Lindex",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/6926/lindex-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Lindex",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6928/lindex-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Lindex",
+      "strength": "500 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/6929/lindex-500-mg-imiv-injection"
+    },
+    {
+      "name": "Lindex",
+      "strength": "1 gm/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/27807/lindex-1-gm-imiv-injection"
+    },
+    {
+      "name": "Lindex DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/6927/lindex-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Medicef",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6931/medicef-500-mg-capsule"
+    },
+    {
+      "name": "Medicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6932/medicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mefrad",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.55",
+      "url": "https://medex.com.bd/brands/6933/mefrad-500-mg-capsule"
+    },
+    {
+      "name": "Mefrad",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/25916/mefrad-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mega Cef",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.90",
+      "url": "https://medex.com.bd/brands/6936/mega-cef-500-mg-capsule"
+    },
+    {
+      "name": "Mega Cef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 81.00",
+      "url": "https://medex.com.bd/brands/6937/mega-cef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Multicef",
+      "strength": "250 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/6938/multicef-250-mg-capsule"
+    },
+    {
+      "name": "Multicef",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6939/multicef-500-mg-capsule"
+    },
+    {
+      "name": "Multicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/6940/multicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Multicef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/6941/multicef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Mycef",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.54",
+      "url": "https://medex.com.bd/brands/6942/mycef-500-mg-capsule"
+    },
+    {
+      "name": "Mycef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.31",
+      "url": "https://medex.com.bd/brands/6943/mycef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mycef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.19",
+      "url": "https://medex.com.bd/brands/6945/mycef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Mycef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/28046/mycef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Novadin",
+      "strength": "500 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/6946/novadin-500-mg-capsule"
+    },
+    {
+      "name": "Novadin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6947/novadin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orgacef",
+      "strength": "250 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.52",
+      "url": "https://medex.com.bd/brands/6948/orgacef-250-mg-capsule"
+    },
+    {
+      "name": "Orgacef",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.54",
+      "url": "https://medex.com.bd/brands/6949/orgacef-500-mg-capsule"
+    },
+    {
+      "name": "Orgacef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/6950/orgacef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "P-Cef",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/6951/p-cef-500-mg-capsule"
+    },
+    {
+      "name": "P-Cef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/6952/p-cef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "P-Cef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 50.18",
+      "url": "https://medex.com.bd/brands/6954/p-cef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "P-Cef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 120.45",
+      "url": "https://medex.com.bd/brands/6953/p-cef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Polycef",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 6.52",
+      "url": "https://medex.com.bd/brands/6955/polycef-250-mg-capsule"
+    },
+    {
+      "name": "Polycef",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.54",
+      "url": "https://medex.com.bd/brands/6956/polycef-500-mg-capsule"
+    },
+    {
+      "name": "Polycef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6957/polycef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Polycef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Renata PLC",
+      "price": "15 ml bottle : ৳ 62.00",
+      "url": "https://medex.com.bd/brands/6958/polycef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Polycef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "500 mg vial : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6961/polycef-500-mg-imiv-injection"
+    },
+    {
+      "name": "Polycef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "1 gm vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/6962/polycef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Polycef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 132.00",
+      "url": "https://medex.com.bd/brands/6959/polycef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Procef",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6963/procef-250-mg-capsule"
+    },
+    {
+      "name": "Procef",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6964/procef-500-mg-capsule"
+    },
+    {
+      "name": "Procef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6965/procef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Procef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6967/procef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Procef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6969/procef-500-mg-imiv-injection"
+    },
+    {
+      "name": "Procef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/6970/procef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Procef Fort",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/6966/procef-fort-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Recepra",
+      "strength": "500 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6974/recepra-500-mg-capsule"
+    },
+    {
+      "name": "Recepra",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/6975/recepra-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Reocef",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6976/reocef-500-mg-capsule"
+    },
+    {
+      "name": "Reocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 87.00",
+      "url": "https://medex.com.bd/brands/6977/reocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Revoc",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/6978/revoc-500-mg-capsule"
+    },
+    {
+      "name": "Revoc",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/6979/revoc-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Revoc",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/6981/revoc-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Revoc DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/6980/revoc-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rocef",
+      "strength": "250 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/6982/rocef-250-mg-capsule"
+    },
+    {
+      "name": "Rocef",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/6983/rocef-500-mg-capsule"
+    },
+    {
+      "name": "Rocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/6984/rocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rocef Forte",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/6985/rocef-forte-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Roxicef",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.55",
+      "url": "https://medex.com.bd/brands/6986/roxicef-500-mg-capsule"
+    },
+    {
+      "name": "Roxicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/6987/roxicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefacin",
+      "strength": "250 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.75",
+      "url": "https://medex.com.bd/brands/6992/sefacin-250-mg-capsule"
+    },
+    {
+      "name": "Sefacin",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/6993/sefacin-500-mg-capsule"
+    },
+    {
+      "name": "Sefacin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/6994/sefacin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefacin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6995/sefacin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sefcon",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/6996/sefcon-500-mg-capsule"
+    },
+    {
+      "name": "Sefcon DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.35",
+      "url": "https://medex.com.bd/brands/6997/sefcon-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefin",
+      "strength": "250 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6998/sefin-250-mg-capsule"
+    },
+    {
+      "name": "Sefin",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.59",
+      "url": "https://medex.com.bd/brands/6999/sefin-500-mg-capsule"
+    },
+    {
+      "name": "Sefin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 80.55",
+      "url": "https://medex.com.bd/brands/7000/sefin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 50.35",
+      "url": "https://medex.com.bd/brands/7002/sefin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sefin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "250 mg vial : ৳ 35.23",
+      "url": "https://medex.com.bd/brands/7003/sefin-250-mg-imiv-injection"
+    },
+    {
+      "name": "Sefin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "500 mg vial : ৳ 50.35",
+      "url": "https://medex.com.bd/brands/7004/sefin-500-mg-imiv-injection"
+    },
+    {
+      "name": "Sefin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "1 gm vial : ৳ 80.55",
+      "url": "https://medex.com.bd/brands/27755/sefin-1-gm-imiv-injection"
+    },
+    {
+      "name": "Sefin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 60.42",
+      "url": "https://medex.com.bd/brands/7001/sefin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefnin",
+      "strength": "250 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/7006/sefnin-250-mg-capsule"
+    },
+    {
+      "name": "Sefnin",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/7007/sefnin-500-mg-capsule"
+    },
+    {
+      "name": "Sefnin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7008/sefnin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefrad",
+      "strength": "250 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/7009/sefrad-250-mg-capsule"
+    },
+    {
+      "name": "Sefrad",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 16.05",
+      "url": "https://medex.com.bd/brands/7010/sefrad-500-mg-capsule"
+    },
+    {
+      "name": "Sefrad",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/7011/sefrad-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefrad",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "15 ml bottle : ৳ 65.20",
+      "url": "https://medex.com.bd/brands/7013/sefrad-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sefrad DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/7012/sefrad-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefrate",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/7015/sefrate-500-mg-capsule"
+    },
+    {
+      "name": "Sefrate",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7016/sefrate-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefrate",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7017/sefrate-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sefril",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/7018/sefril-250-mg-capsule"
+    },
+    {
+      "name": "Sefril",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.04",
+      "url": "https://medex.com.bd/brands/7019/sefril-500-mg-capsule"
+    },
+    {
+      "name": "Sefril",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/7020/sefril-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefro",
+      "strength": "250 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.52",
+      "url": "https://medex.com.bd/brands/7025/sefro-250-mg-capsule"
+    },
+    {
+      "name": "Sefro",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7026/sefro-500-mg-capsule"
+    },
+    {
+      "name": "Sefro",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/7027/sefro-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefro",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 62.00",
+      "url": "https://medex.com.bd/brands/7029/sefro-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sefro DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.80",
+      "url": "https://medex.com.bd/brands/7028/sefro-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Seftec",
+      "strength": "500 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/7030/seftec-500-mg-capsule"
+    },
+    {
+      "name": "Seftec",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7031/seftec-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Seftec",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7032/seftec-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sephar",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/7033/sephar-500-mg-capsule"
+    },
+    {
+      "name": "Sephar",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7034/sephar-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sephar DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7035/sephar-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sepra-S",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7036/sepra-s-500-mg-capsule"
+    },
+    {
+      "name": "Sepra-S",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 86.00",
+      "url": "https://medex.com.bd/brands/7037/sepra-s-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sicef",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.55",
+      "url": "https://medex.com.bd/brands/7041/sicef-500-mg-capsule"
+    },
+    {
+      "name": "Sicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 88.00",
+      "url": "https://medex.com.bd/brands/7042/sicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sicef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/7044/sicef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sicef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 70.26",
+      "url": "https://medex.com.bd/brands/7043/sicef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sinaceph",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 6.80",
+      "url": "https://medex.com.bd/brands/7045/sinaceph-250-mg-capsule"
+    },
+    {
+      "name": "Sinaceph",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7046/sinaceph-500-mg-capsule"
+    },
+    {
+      "name": "Sinaceph",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/7047/sinaceph-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sinaceph",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "15 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7049/sinaceph-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sinaceph DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7048/sinaceph-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "SK-cef",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/7052/sk-cef-250-mg-capsule"
+    },
+    {
+      "name": "SK-cef",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7053/sk-cef-500-mg-capsule"
+    },
+    {
+      "name": "SK-cef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/7054/sk-cef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "SK-cef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/7056/sk-cef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "SK-cef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7055/sk-cef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sporin",
+      "strength": "500 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/25913/sporin-500-mg-capsule"
+    },
+    {
+      "name": "Sporin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25914/sporin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sporin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/25915/sporin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Supracef",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/7059/supracef-250-mg-capsule"
+    },
+    {
+      "name": "Supracef",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7060/supracef-500-mg-capsule"
+    },
+    {
+      "name": "Supracef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/7061/supracef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Supracef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "15 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7063/supracef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Supracef F",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7062/supracef-f-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tydin",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.68",
+      "url": "https://medex.com.bd/brands/7067/tydin-500-mg-capsule"
+    },
+    {
+      "name": "Tydin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 82.00",
+      "url": "https://medex.com.bd/brands/7068/tydin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tydin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33399/tydin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Tydin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 120.46",
+      "url": "https://medex.com.bd/brands/7070/tydin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ultrasef",
+      "strength": "250 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.87",
+      "url": "https://medex.com.bd/brands/7071/ultrasef-250-mg-capsule"
+    },
+    {
+      "name": "Ultrasef",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 12.58",
+      "url": "https://medex.com.bd/brands/7072/ultrasef-500-mg-capsule"
+    },
+    {
+      "name": "Ultrasef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/7073/ultrasef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ultrasef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "15 ml drop : ৳ 50.35",
+      "url": "https://medex.com.bd/brands/27426/ultrasef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Urodin",
+      "strength": "250 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34994/urodin-250-mg-capsule"
+    },
+    {
+      "name": "Urodin",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34995/urodin-500-mg-capsule"
+    },
+    {
+      "name": "Urodin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34996/urodin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Urodin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/34997/urodin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Vecef",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/7075/vecef-500-mg-capsule"
+    },
+    {
+      "name": "Vecef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7076/vecef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Vecef",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7078/vecef-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Vecef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/38091/vecef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Vecef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38092/vecef-500-mg-imiv-injection"
+    },
+    {
+      "name": "Vecef-DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7077/vecef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Velodin",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/25899/velodin-500-mg-capsule"
+    },
+    {
+      "name": "Velodin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/25900/velodin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Velogen",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7080/velogen-500-mg-capsule"
+    },
+    {
+      "name": "Velox",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/7083/velox-250-mg-capsule"
+    },
+    {
+      "name": "Velox",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.04",
+      "url": "https://medex.com.bd/brands/7084/velox-500-mg-capsule"
+    },
+    {
+      "name": "Velox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/7085/velox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Velox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/7086/velox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Vericef",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.50",
+      "url": "https://medex.com.bd/brands/29584/vericef-500-mg-capsule"
+    },
+    {
+      "name": "Vericef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 93.00",
+      "url": "https://medex.com.bd/brands/29585/vericef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Wincef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/7088/wincef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Wincef",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/27944/wincef-500-mg-capsule"
+    },
+    {
+      "name": "Zecef",
+      "strength": "500 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7089/zecef-500-mg-capsule"
+    },
+    {
+      "name": "Zecef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/7090/zecef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zenaf",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.38",
+      "url": "https://medex.com.bd/brands/7093/zenaf-500-mg-capsule"
+    },
+    {
+      "name": "Zenaf",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 82.00",
+      "url": "https://medex.com.bd/brands/7094/zenaf-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zenaf",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 57.00",
+      "url": "https://medex.com.bd/brands/7095/zenaf-125-mg-pediatric-drop"
+    }
+  ],
+  "sections_en": {
+    "indications": "Cephradine is indicated for the treatment of infections caused by sensitive Gram-positive and Gram-negative bacteria. These include-\n\n- **Undesirable Upper respiratory tract infections**: sinusitis, pharyngitis, tonsillitis, laryngo-tracheo bronchitis and otitis media, and also\nCephradine is indicated for the treatment of infections caused by sensitive Gram-positive and Gram-negative bacteria. These include-\n\n- **Undesirable Upper respiratory tract infections**: sinusitis, pharyngitis, tonsillitis, laryngo-tracheo bronchitis and otitis media, and also\n- **Lower respiratory tract infections**: bronchitis (acute and chronic), lobar pneumonia and bronchopneumonia.\n- **Urinary tract infections**: cystitis, urethritis and pyelonephritis.\n- **Skin and soft tissue infections**: abscess, cellulitis, furunculosis and impetigo.\n\r\nThe following microorganisms are susceptible, in vitro to Cephradine: \n\n- **Gram-positive**: Staphylococci (both penicillin sensitive and resistant strains and penicillinase-producing species), Streptococci, Streptococci pyogenes (beta haemolytic), Streptococcus pneumonia.\n- **Gram-negative**: Escherichia coli, Klebsiella spp, Proteus mirabilis, Haemophilus influenza, Shigella spp, Salmonella spp (including Salmonella typhi), Neisseria spp Many strains of E.coli and Staphylococcus aureus that produce the enzyme penicillinase and thus are ampicillin resistant, are susceptible to Cephradine which is unaffected by this enzyme.",
+    "mode_of_action": "Cephradine is a semisynthetic broad spectrum bactericidal antibiotic, it is active against infections caused by both gram-positive and gram-negative microorganisms. Both penicillinase producing and nonproducing staphylococci are sensitive to Cephradine. The main site of action of Cephradine is the cell wall of bacteria. Cell wall of sensitive organism contains peptidoglycan. Cephradine inhibits cross-linking process and as a result cell wall with many pores are formed, thus lysis of bacteria occur due to external osmotic pressure.",
+    "dosage": "**For oral administration**-\nAdults:\n\n- Urinary tract infections: 500mg four times daily or 1g twice daily. Infections which are severe or chronic may necessitate the administration of higher doses. Where complications arise including prostatitis and epididymitis continued intensive treatment is required.\n- Respiratory tract infections: 250 to 500mg four times daily or 500mg to 1g twice daily, dependent on the site and severity of the infection.\n- Skin and soft tissue infections: 250 to 500mg four times daily or 500mg to 1g twice daily, again dependent on the site and severity of the infection.\n\r\nChildren:\n\n- Total daily dose of 25 to 50mg/kg given in two or four equally divided doses.\n- Otitis media: Total daily dose of 75 to 100mg/kg given in divided doses 6 to 12 hourly.\n- Maximum daily dosage: 4 gm\n\r\nElderly: The normal adult dose is appropriate. Patients with impaired renal or hepatic function should be monitored during treatment.\n\n**For injectable administration**- \n\n- Adult: The usual dose is 2-4 gm daily in four equally divided doses up to 8 gm daily. For prophylaxis a single preoperative dose of 1-2 gm intramuscularly or intravenously is given.\n- Children: The dose is 50-100 mg/kg daily in four equally divided doses, up to 300 mg/kg daily in severe infection.",
+    "interaction": "The concomitant use of nephrotoxic drugs such as aminoglycosides with Cefradine may increase the risk of kidney damage. Diuretics (e.g. frusemide, ethacrynic acid) and probenecid enhanced the possibility of renal toxicity.",
+    "contraindications": "Cephradine should not be used in patients with known or suspected hypersensitivity to cephalosporins.",
+    "side_effects": "Limited essentially to gastro-intestinal disturbances and on occasions to hypersensitivity phenomena. The latter are more likely to occur in individuals, who have previously demonstrated hypersensitivity and thos with a history of allergy, asthma, hay fever or urticaria. Skin reactions have occasionally been reported. Rare- Glossitis, heartburn, dizziness, tightness in the chest, nausea, vomiting, diarrhoea, abdominal pain, vaginitis, candida overgrowth. Skin and hypersensitivity reactions include urticaria, skin rashes, joint pains, oedema.\n\n- Blood and lymphatic system disorders- Unknown: blood disorders (including thrombocytopenia, leucopenia, agranulocytosis, aplastic anaemia and haemolytic anaemia)\n- Immune system disorders- Unknown: Fever, serum sickness like reactions, anaphylaxis\n- Psychiatric disorders- Unknown: Confusion, sleep disturbances\n- Nervous system disorders- Unknown: hyperactivity, hypertonia, dizziness, nervousness; Rarely: Headache\n- Hepatobiliary disorders- Frequency unknown: Liver, enzyme disturbances, transient hepatitis, cholestatic jaundice\n- Renal and urinary disorders- Unknown: Reversible interstitial nephritis\n- Investigations- Unknown: Elevation of blood urea nitrogen, serum creatinine, alanine aminotransferase, aspartate aminotransferase, total bilirubin, alkaline phosphatase.",
+    "pregnancy_cat": "Although animal studies have not demonstrated any teratogenicity, safety in pregnancy has not been established. Cephradine is excreted in breast milk and should be used with caution in lactating mothers. Since the medicine may cause dizziness, patients should be cautioned about operating hazardous machinery, including automobiles.",
+    "precautions": "- Prolonged use of an anti-infective may result in the development of superinfection due to the emergence of resistant organisms.\n- Cephradine should be administered with care to patients hypersensitive to penicillins because of the risk of cross-sensitivity between beta-lactam antibiotics.\n- Cephalosporin antibiotics may cause a positive result in Coombs’ testing. When Coombs testing is performed on neonates whose mothers received cephalosporins prior to labour, it should be noted that a positive result may be due to the drug.\n- Cephradine may cause a false positive urine glucose result when Benedict’s or Fehling’s solutions or tablets such as Clinitest are used in the testing. This does not occur with enzyme-based tests (e.g. Clinistix, Diastix).\n- Dosage adjustment is necessary in renal impairment.\n- This product contains lactose. Patients with rare hereditary problems of galactose intolerance, the Lapp lactase deficiency or glucose-galactose malabsorption should not take this medicine.",
+    "pediatric_uses": "Renal Impairment: The following doses are recommended (based on 500 mg every 6 hours) for patients not on haemodialysis:\n\n- CrCl: >20 ml/min: 500 mg every 6 hours\n- CrCl: 5-20 ml/min: 250 mg every 6 hours\n- CrCl: <5 ml/min: 250 mg every 50-70 hours.\n\r\nRecommendations for patients on chronic, intermittent haemodialysis:\n\n- 250 mg at the start of haemodialysis\n- 250 mg 6 to 12 hours after the start\n- 250 mg 36 to 48 hours after the start\n- 250 mg at the start of the next haemodialysis session if more than 30 hours have elapsed since the last dose.\n\r\nAdditional Information for all patients Regardless of patient age or weight, higher doses of up to 1 gm four times daily may be required for infections which are chronic or severe. Treatment should continue for at least 2 to 3 days after symptoms have resolved or bacteria have been eradicated. To reduce the possibility of rheumatic fever or glomerulonephritis resulting from infections with haemolytic streptococci, treatment should be continued for at least 10 days. Throughout treatment of chronic urinary tract infections and for several months thereafter, regular bacteriological and clinical monitoring is required. \n\nDoses below those recommended above should not be prescribed. Paediatric dosages should not exceed those specified for adults, regardless of severity of infection. It may be necessary to continue Cephradine therapy for several weeks in persistent infections. Patients may be transferred from intramuscular/intravenous Cephradine therapy to oral treatment at the same dosage level.",
+    "overdose_effects": "The symptoms of Sefrad overdose are non-specific and are generally nausea, vomiting, diarrhoea and gastric upsets. Treatment is mainly supportive although gastric lavage will be necessary if a large amount has been ingested.",
+    "drug_classes": "First generation cephalosporins",
+    "storage_conditions": "Cephradine Suspension should be freshly prepared. Reconstituted Suspension should be used within 7 days if kept at room temperature or within 14 days, if kept in a refrigerator. Cephradine Injection solutions should be used within 2 hours when kept at room temperature. When stored at 5°C, solutions retain potency for 12 hours. Reconstituted solutions may vary in colour from light to straw yellow; however, this does not affect the potency. Do not use later than the date of expiry. Keep all medicines out of the reach of children. To be dispensed only on the prescription of a registered physician"
+  },
+  "sections_bn": {
+    "indications": "সেফরাডিন নিম্নলিখিত সংবেদনশীল গ্রাম-পজেটিভ ... Read moreসেফরাডিন নিম্নলিখিত সংবেদনশীল গ্রাম-পজেটিভ ও গ্রাম-নেগেটিভ ব্যাক্টেরিয়া দ্বারা সৃষ্ট রােগের সংক্রমণে নির্দেশিত।\n\n- **উর্দ্ধ শ্বাসতন্ত্রের সংক্রমণ** যেমন- সাইনুসাইটিস, গলবি। প্রদাহ, কণ্ঠনালীর প্রদাহ, টনসিলের প্রদাহ, ল্যারিংগাে-ট্রাকিও ব্রংকাইটিস, মধ্যকর্ণের প্রদাহ।\n- **নিম্নশ্বাসতন্ত্রের সংক্রমণ** যেমন- তীব্র ও দীর্ঘমেয়াদী ব্রংকাইটিস, লােবারনিউমােনিয়া ও ব্রংকোনিউমােনিয়া।\n- **মূত্রতন্ত্রের সংক্রমণ** যেমন- মূত্রথলির সংক্রমণ, মূত্রনালীর সংক্রমণ, পেলভিক ও নেফ্রনের সংক্রমণ (পায়েলােনেফ্রাইটিস)।\n- **ত্বক ও নরম কলার সংক্রমণ** যেমন- এ্যাবসেস (ত্বকের নিচে পুঁজ জমা হওয়া), সেলুলাইটিস, ফারাংকুলােসিস (ফোঁড়া), ইমপেটিগাে (পাঁচড়া)।\n\r\nইনভিট্রো স্টাডিতে সেফরাডিন নিম্ন লিখিত জীবানু সমূহের বিরুদ্ধে কার্যকর-\n\n- **গ্রাম-পজেটিভ**: পেনিসিলিন প্রয়ােগে মরণশীল অথবা পেনিসিলিন প্রতিরােধী উভয় ধরণের এবং পেনিসিলিনেজ এনজাইম তৈরী করতে পারে এমন স্ট্যাফাইলােকক্কাই। স্ট্রেপ্টোকক্কাই, স্ট্রেপ্টোকক্কাই পায়ােজেন (বিটা হেমােলাইটিক), স্ট্রেপ্টোকক্কাস নিউমােনিয়া।\n- **গ্রাম-নেগেটিভ**: ইশ্চেরিসিয়া কলাই, ক্লেবসিয়েলা স্পেসিস, প্রােটিয়াস মিরাবিলিস, হেমােফিলাস ইনফ্লুয়েঞ্জা, সিগেলা স্পেসিসি, সালমােনেলা স্পেসিসি (সাথে সালমােনেলা টাইফি), নেইসেরিয়া স্পেসিসি। বিভিন্ন স্ট্রেইনের ই কলাই ও স্ট্যাফাইলােকক্কাস অরিয়াস যারা পেনিসিলিনেস এনজাইম তৈরি করতে পারে এবং এতে এরা এ্যাম্পিসিলিন প্রতিরােধী হয়, তাই সেফরাডিন এদের বিরুদ্ধে কার্যকর কারণ সেফরাডিন এই এনজাইম দ্বারা ধ্বংসপ্রাপ্ত হয়না।",
+    "mode_of_action": "সেফরাডিন হচ্ছে সেমিসিনথেটিক বিস্তৃত বর্ণালীর জীবাণু ধ্বংসকারী এন্টিবায়ােটিক। ইহা গ্রাম-পজিটিভ এবং গ্রাম-নেগেটিভ উভয় প্রকার জীবাণুঘটিত সংক্রমণে কার্যকর এছাড়া পেনিসিলিনেজ প্রস্তুতকারী এবং পেনিসিলিনেজ প্রস্তুতকারী নয় এমন উভয় প্রকার জীবাণুঘটিত সংক্রমণে ও কার্যকর। সেফরাডিন এর মূল কার্যকারিতা জীবাণুর কোষ প্রাচীরের উপর। সংবেদনশীল জীবাণুর কোষ প্রাচীরে পেপটিডােগ্লাইকেন থাকে, যেখানে সেফ্রাডিন আড়াআড়ি সংযােগে বাধা দেয় এবং ফলে ত্রুটিপূর্ণ কোষ প্রাচীর তৈরী হয়। এইভাবে অভিস্রবনের চাপে জীবাণু ভেঙ্গে যায়।",
+    "dosage": "**মুখে সেবনযোগ্য-**\nপ্রাপ্তবয়স্কদের ক্ষেত্রে:\n\n- মূত্রতন্ত্রের সংক্রমণ: ৫০০ মিগ্রা দিনে চার বার অথবা ১ গ্রাম দিনে দুইবার। তীব্র এবং দীর্ঘমেয়াদী সংক্রমণের চিকিৎসার জন্য মাত্রা বৃদ্ধি করা যেতে পারে।\n- যেসকল সংক্রমণ জটিলতা ধারণ করতে পারে- যেমন প্রােস্টেটের সংক্রমণ, এপিডিডাইমাইটিস এসব ক্ষেত্রে নিবিড় ভাবে চিকিৎসা চালিয়ে যাওয়া উচিত।\n- শ্বাসতন্ত্রের সংক্রমণ: সংক্রমণের স্থান ও তীব্রতার উপর ভিত্তি করে ২৫০ মিগ্রা থেকে ৫০০ মিগ্রা দিনে চারবার অথবা ৫০০ মিগ্রা থেকে ১ গ্রাম দিনে দুইবার।\n- ত্বক ও নরম কলার সংক্রমণ: সংক্রমণের স্থান ও তীব্রতার উপর ভিত্তি করে ২৫০ মিগ্রা থেকে ৫০০ মিগ্রা দিনে চারবার অথবা ৫০০ মিগ্রা থেকে ১ গ্রাম দিনে দুইবার।\n\r\nশিশুদের ক্ষেত্রে:\n\n- দৈনিক ২৫ মিগ্রা থেকে ৫০ মিগ্রা প্রতি কেজি দৈহিক ওজন হিসাবে দুই বা চারটি সমবিভক্ত মাত্রায়।\n- মধ্যকর্ণের প্রদাহে: দৈনিক ৭৫ মিগ্রা থেকে ১০০ মিগ্রা প্রতি কেজি দৈহিক ওজন হিসাবে দুই বা চারটি বিভক্ত মাত্রায় ছয় থেকে বার ঘণ্টা অন্তর। দৈনিক সর্বোচ্চ মাত্রা: ৪ গ্রাম।\n\r\nবয়স্ক রােগী:\n\n- সাধারণত প্রাপ্ত বয়স্কদের মাত্রাই তাঁদের জন্য উপযুক্ত। কিন্তু যে সকল রােগীর বৃক্ক (কিডনী) ও যকৃতের (লিভার) কার্যকারীতার সমস্যা রয়েছে তাদের ক্ষেত্রে চিকিৎসা চলাকালীন সময় বিশেষ ভাবে পর্যবেক্ষণ করা প্রয়ােজন।\n\n**ইনজেকশন-**\n\n- প্রাপ্ত বয়স্কঃ প্রচলিত মাত্রা হচ্ছে দিনে ২-৪ গ্রাম চারটি সমবিভক্ত মাত্রা, দিনে সর্বোচ্চ ৮ গ্রাম পর্যন্ত দেয়া যাবে। প্রি-অপারেটিভ প্রতিষেধক হিসাবে ১-২ গ্রাম একক মাত্রা মাংসপেশী অথবা শিরাপথে দেয়া যাবে।\n- শিশুঃ প্রচলিত মাত্রা হচ্ছে শরীরের প্রতি কেজি ওজনের জন্য ৫০-১০০ মিগ্রা চারটি সমবিভক্ত মাত্রা, দিনে সর্বোচ্চ শরীরের প্রতি কেজি ওজনের জন্য ৩০০ মিগ্রা পর্যন্ত দেয়া যাবে।",
+    "interaction": "অন্যান্য ওষুধের সাথে ক্রিয়া:\n\n- লুপ ডাইইউরেটিক জাতীয় ওষুধ সেফালােস্পােরিনের বৃক্কের বিষক্রিয়ার মাত্রা বাড়িয়ে দিতে পারে।\n- প্রােবেনেসিড বৃক্কের মাধ্যমে সেফালােস্পােরিনের নিঃসরণ হ্রাস করার ফলে রক্তে সেফরাডিনের ঘনত্ব বাড়িয়ে দিতে পারে।\n- যেহেতু পেনিসিলিন ও সেফালােস্পােরিন জাতীয় ওষুধের মধ্যে আংশিক ক্রস-সেন্সিটিভিটি ঘটারও উদাহরণ রয়েছে, তাই যে সকল রােগীদের পেনিসিলিনের প্রতি অতিসংবেদনশীলতা রয়েছে তাদের ক্ষেত্রে সতর্কতার সাথে সেফরাডিন ব্যাবহার করা উচিত।",
+    "contraindications": "যে সকল রােগীদের সেফালােস্পােরিন জাতীয় ওষুধের প্রতি আতিসংবেদনশীলতা রয়েছে তাদের জন্য সেফরাডিন প্রতিনির্দেশিত।",
+    "side_effects": "কিছু কিছু ক্ষেত্রে বিপাকীয় অসামঞ্জস্যতা ও অতিসংবেদনশীলতার ঘটনা পরিলক্ষিত হয়। অতিসংবেদনশীলতা সেই সব রােগীদের ক্ষেত্রেই বেশি লক্ষ্য করা যায় অথবা যাদের পূর্ব থেকেই অন্য ওষুধের প্রতি অতিসংবেদনশীলতা, অ্যালার্জি, হাঁপানী, জ্বরজ্বর। ভাব, আর্টিকারিয়া (চুলকানী) ইত্যাদি সমস্যার ইতিহাস ছিল। মাঝে মাঝে ত্বকের প্রদাহের ঘটনাও পরিলক্ষিত হয়।\n\nবিরল বিরুপ প্রতিক্রিয়াসমূহঃ জিহ্বাতে ব্যথা, বুক জ্বালাপােড়া করা, ঝিমুনী, বুক চেপে আসা, বমিবমি ভাব, বমি হওয়া, পাতলা পায়খানা, পেটব্যথা, যােনীপ্রদাহ, ক্যান্ডিভিয়া ছত্রাকের অতি বংশবৃদ্ধি। ত্বকের উপর বিরূপ প্রতিক্রিয়া ও অতিসংবেদনশীলতার লক্ষণগুলাে হচ্ছে- চুলকানী (আর্টিকারিয়া), র্যাশ, অস্থিসন্ধির ব্যথা, হাতে পায়ে পানি জমা (ইডিমা)।\n\n- রক্ত ও লাসিকাতন্ত্রের সমস্যা: জানা যায়নি- রক্তের সমস্যা যেমন থ্রম্বােসাইটোপেনিয়া, লিউকোপেনিয়া, এ্যাগ্র্যানুলােসাইটোসিস, এ্যাপ্লাস্টিক এ্যানিমিয়া (রক্তশূন্যতা), হেমােলাইটক এ্যানিমিয়া (রক্তশূন্যতা)।\n- ইমিউন সিস্টেম সংক্রান্ত সমস্যা (রােগপ্রতিরােধতন্ত্রের সমস্যা): জানা যায়নি- জ্বর, সিরামসিকনেসের মত অবস্থা (দুর্বলতা), এ্যানাফাইলেটিক।\n- মনেরােগ সক্রান্ত সমস্যা: জানা যায়নি- দ্বিধাগ্রস্থতা, ঘুমে ব্যাঘাত ঘটা।\n- স্নায়ুতন্ত্রের সমস্যা: অতিসক্রিয়তা, হাইপারটোনিয়া, ঝিমুনীভাব, ভীতি। বিরল সমস্যা: মাথা ব্যথা।\n- যকৃত ও পিত্তথলি সংক্রান্ত সমস্যা: পুনরাবৃত্তির হার জানা যায়নি- যকৃতের এনজাইমের সমস্যা, যকৃতে কোষের সাময়ীক প্রদাহ, পিত্ত ঘটিত জন্ডিস।\n- মূত্রতন্ত্র সংক্রান্ত সমস্যা। জানা যায়নি: পরিবর্তনীয় নেফ্রন মধ্যবর্তী প্রদাহ/ সংক্রমণ।\n- পরীক্ষা নিরিক্ষা সংক্রান্ত: রক্তে ইউরিয়া নাইট্রোজেন, রক্তের ক্রিয়াটিনিন, এ্যালানিন এ্যামিনােট্রান্সফেরেস, এ্যাসপার্টেট এ্যামিনােট্রান্সফেরেস, টোটাল বিলিরুবিন, এ্যালকালাইন ফসফাটেস ইত্যাদি বাড়িয়ে দিতে পারে।",
+    "pregnancy_cat": "যদিও প্রাণীকূলের উপর করা পরীক্ষায় প্রমাণিত হয়নি যে এটি ব্রণের জন্য ক্ষতিকারক, তারপরও এটি প্রতিষ্ঠিত নয় যে সেফরাডিন গর্ভাবস্থায় নিরাপদ। সেফরাডিন মাতৃদুগ্ধে নিঃসৃত হয় তাই স্তন্যদানকারী মায়েদের ক্ষেত্রে এটি সতর্কতার সাথে ব্যাবহার করা উচিত। যেহেতু এই ওষুধ ঝিমুনী তৈরী করতে পারে তাই রােগীকে গাড়ীসহ অন্যান্য ঝুকিপূর্ণ যন্ত্রপাতি পরিচালনা করার সময় সতর্ক থাকতে হবে।",
+    "precautions": "রােগ জীবানুরােধী (এ্যান্টিইনফেষ্টিভ) ওষুধ দীর্ঘ দিন ধরে ব্যাবহারের ফলে উক্ত জীবানুনাশকরােধী জীবানুর প্রাদূর্ভাবের ফলে অতিসংক্রমণের (সুপারইনফেকশন) সম্ভাবনা থাকে।\n\nযে সকল রােগীদের পেনিসিলিনের প্রতি অতিসংবেদনশীলতা রয়েছে তাদের ক্ষেত্রে সেফরাডিন সতর্কতার সাথে প্রয়ােগ করা উচিত। কারণ এই সকল রােগীদের ক্ষেত্রে বিটাল্যাক্টাম জাতীয় ওষুধের মধ্যে ক্রস -সেন্সিটিভিটি ঘটার সম্ভাবনা রয়েছে।\n\nসেফালােস্পােরিন জাতীয় ওষুধ কুম্বস পরীক্ষায় ইতিবাচক ফল নির্দেশ করতে পারে। যখন নবজাতকের ক্ষেত্রে কুম্বস টেস্ট করা হয় যে মা সন্তান প্রসবের পূর্বেই সেফালােস্পােরিন জাতীয় ওষুধ ব্যাবহার করেছিল সেই নবজাতকের ক্ষেত্রে কুম্বস টেস্টের ফল ওষুধের কারণে ইতিবাচক হতে পারে।\n\nযখন বেনেডিক্ট বা ফেলিং দ্রবনের সাহায্যে অথবা ক্লিনিটেস্ট দিয়ে মূত্রে গ্লুকোজের উপস্থিতি পরীক্ষা করা হয়, তখন সেফরাডিনের কারণে ভুল ইতিবাচক ফল পাওয়া যেতে পারে। কিন্তু এনজাইম সহযােগে যেমন ক্লিনিস্টিক্স, ডায়াস্টিক্স দিয়ে পরীক্ষা করলে এটি ঘটনা।\n\nবৃক্ক অকার্যকরী রােগীর ক্ষেত্রে মাত্রা সমন্বয়ের প্রয়ােজন হয়।\n\nএই ওষুধটিতে ল্যাক্টোজ রয়েছে। যদি কোন রােগীর গ্লুকোজের প্রতি বংশগত দূর্লভ অসহনীয়তা, ল্যাপ ল্যাক্টোজের অভাব বা গ্লুকোজ-গ্যালাক্টোজের শােষনের সমস্যা থাকে তাদের ক্ষেত্রে এই ওষুধ ব্যাবহার করা অনুচিত।",
+    "pediatric_uses": "বৃক্কের (কিডনী) অকার্যকারীতার ক্ষেত্রে: \n\nযে সকল রােগী হেমোডায়ালাইসিসের মাধ্যমে চিকিৎসাধীন নয় তাদের ক্ষেত্রে নিম্ন লিখিত মাত্রা নির্দেশিত: (৫০০ মিগ্রা ৬ ঘণ্টা অন্তর অন্তর মাত্রার উপর ভিত্তি করে।)\n\n- ক্রিয়াটিনিন ক্লিয়ারেন্স >২০ মিলি/মিনিট: ৫০০ মিগ্রা ৬ ঘণ্টা অন্তর\n- ক্রিয়াটিনিন ক্লিয়ারেন্স ৫ থেকে ২০ মিলি/মিনিট: ২৫০ মিগ্রা ৬ ঘণ্টা অন্তর\n- ক্রিয়াটিনিন ক্লিয়ারেন্স <৫ মিলি/মিনিট: ২৫০ মিগ্রা ৫০ থেকে ৭০ ঘণ্টা অন্তর\n\r\nযে সকল রােগী দীর্ঘদিন যাবত এবং অনিয়মিত হেমােডায়ালাইসিসের মাধ্যমে চিকিৎসাধীন তাঁদের জন্য নির্দেশিত মাত্রা হচ্ছে নিম্নরূপ:\n\n- হেমােডায়ালাইসিসের শুরু করার সময় ২৫০ মিগ্রা\n- হেমােডায়ালাইসিস শুরু করার পর ২৫০ মিগ্রা ৬ থেকে ১২ ঘণ্টা অন্তর\n- হেমােডায়ালাইসিস শুরু করার পর ২৫০ মিগ্রা ৩৬ থেকে ৪৮ ঘণ্টা অন্তর\n- যদি শেষ বারে করা হেমােডায়ালাইসিস চলাকালীন সময়ে মাত্রা প্রয়ােগের পর ৩০ ঘণ্টা অতিক্রান্ত হয় সেক্ষেত্রে পরবর্তি হেমােডায়ালাইসিস শুরু করার পূর্বে ২৫০ মিগ্রা মাত্রা প্রয়ােগ করতে হবে।\n\r\nসবধরণের রােগীদের জন্য অতিরিক্ত তথ্য:\n\n- দীর্ঘমেয়াদী এবং মারাত্মক সংক্রমণের ক্ষেত্রে সর্বোচ্চ মাত্রা হচ্ছে ১ গ্রাম পর্যন্ত দিনে চার বার, সেক্ষেত্রে রােগীর বয়স এবং শারীরিক ওজন বিবেচ্য বিষয় নয়।\n- রােগের উপসর্গ প্রশমনের পরেও অথবা জীবানু ধ্বংশ হওয়ার পরেও আরাে ২ থেকে ৩ দিন চিকিৎসা চালিয়ে যাওয়া উচিত।\n- হেমােলাইটিক স্ট্রেপ্টোক্কাই দ্বারা সংঘটিত সংক্রমণের ক্ষেত্রে সম্ভাব্য বাতজ্বর (রিউমেটিক ফিভার) অথবা ঘুমেরুলােনেফ্রাইটিসের ঝুঁকি হ্রাস করার জন্য এই চিকিৎসা অন্তত আরাে ১০ দিন চালিয়ে যাওয়া উচিত।\n- দীর্ঘমেয়াদী মূত্রতন্ত্রের সংক্রমণের ক্ষেত্রে কয়েক মাস অন্তর অন্তর নিয়মিত রােগীর ব্যাক্টেরিয়ালজিক্যাল ও ক্লিনিক্যাল পর্যবেক্ষণ করা প্রয়ােজন।\n- উল্লেখিত নির্দেশিত মাত্রার বাইরে কোন মাত্রার চিকিৎসা করা উচিত নয়।\n- মারাত্মক সংক্রমণ ছাড়া কোন ক্ষেত্রেই। কোন ভাবেই শিশুদের জন্য নির্ধারিত মাত্রা যেন প্রাপ্তবয়স্কদের মাত্রাকে অতিক্রম না করে তা বিশেষ ভাবে লক্ষ্য রাখতে হবে।\n- কোন কোন দীর্ঘমেয়াদী সংক্রমণের ক্ষেত্রে সেফরাডিন দিয়ে চিকিৎসা কয়েক সপ্তাহ পর্যন্ত চালিয়ে যাওয়ার প্রয়ােজন হতে পারে।\n- একই নির্দেশিত মাত্রায় ইন্ট্রামাসকুলার (মাংশপেশীতে প্রয়ােগযােগ্য)/ ইন্ট্রাভেনাস (শিরায় প্রয়ােগযােগ্য) ইঞ্জেকশনের পরিবর্তে মুখে সেবনযােগ্য ওষুধও প্রয়ােগ করা যেতে পারে।",
+    "overdose_effects": "সেফরাডিনের মাত্রাতিরিক্ততার উপসর্গগুলাে সুনির্দিষ্ট নয় এবং সাধারনত বমিবমি ভাব, বমি হওয়া, পাতলা পায়খানা এবং পাকস্থলির সমস্যা হয়। মাত্রাতিরিক্ততার ক্ষেত্রে উপসর্গভিত্তিক এবং সহায়ক চিকিৎসা করা উচিত। যদি কোন ক্ষেত্রে অনেক বেশী পরিমানে গ্রহণের ঘটনা ঘটে তবে সেক্ষেত্রে পাকস্থলি পরিস্কার করতে হবে।",
+    "drug_classes": "First generation cephalosporins",
+    "storage_conditions": "সেফরাডিন সাসপেনশন তাৎক্ষনিক তৈরি করতে হবে। সংমিশ্রিত সাসপেনশন সাধারন তাপমাত্রায় রাখলে ৭ দিনের মধ্যে অথবা রেফ্রিজারেটরে রাখলে ১৪ দিনের মধ্যে ব্যবহার করতে হবে। সেফরাডিন ইঞ্জেকশনের দ্রবণকে ঘরের তাপমাত্র য় রাখলে ২ ঘণ্টার মধ্যে ব্যবহার করতে হবে। ৫০ সে. তাপমাত্রায় সংরক্ষণ করলে দ্রবণের কার্যক্ষমতা ১২ ঘণ্টা পর্যন্ত সম্পূর্ণ ঠিক থাকে। সংমিশ্রিত দ্রবণের রং হালকা হলুদ থেকে খড় এর মত হতে পারে; তবে এ জন্য এর কার্যক্ষমতার কোন তারতম্য ঘটে না। মেয়াদ শেষ হওয়ার পরে ব্যবহার করা যাবেনা। সমস্ত ওষুধ শিশুদের নাগালের বাইরে রাখুন। শুধুমাত্র রেজিস্টার্ড চিকিৎসকের ব্যবস্থাপত্র অনুযায়ী বিক্রয়যােগ্য।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/232/cephradine",
+  "source_url_bn": "https://medex.com.bd/generics/232/cephradine/bn",
+  "scraped_at": "2026-10-10T18:15:25+00:00"
+}

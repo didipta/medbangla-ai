@@ -1,0 +1,871 @@
+{
+  "slug": "zinc_sulfate",
+  "name_en": "Zinc Sulfate Monohydrate",
+  "name_bn": "জিংক সালফেট মনোহাইড্রেট",
+  "therapeutic_class": "Specific mineral preparations, Vaccines, Anti-sera & Immunoglobulin",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "B-Zn",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14644/b-zn-10-mg-syrup"
+    },
+    {
+      "name": "Baby Zinc",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/14548/baby-zinc-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "Bimuty",
+      "strength": "20 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/14550/bimuty-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "Bimuty DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 36.00",
+      "url": "https://medex.com.bd/brands/14549/bimuty-ds-10-mg-syrup"
+    },
+    {
+      "name": "Biozinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14551/biozinc-10-mg-syrup"
+    },
+    {
+      "name": "BP Zinc",
+      "strength": "20 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.75",
+      "url": "https://medex.com.bd/brands/14552/bp-zinc-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "C-Zinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14553/c-zinc-10-mg-syrup"
+    },
+    {
+      "name": "Conzi",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/14645/conzi-10-mg-syrup"
+    },
+    {
+      "name": "G-Zinc",
+      "strength": "20 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/14556/g-zinc-20-mg-tablet"
+    },
+    {
+      "name": "G-Zinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/14557/g-zinc-10-mg-syrup"
+    },
+    {
+      "name": "Grow",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14555/grow-10-mg-syrup"
+    },
+    {
+      "name": "Imuzin",
+      "strength": "20 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.75",
+      "url": "https://medex.com.bd/brands/34837/imuzin-20-mg-tablet"
+    },
+    {
+      "name": "J-Zinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14558/j-zinc-10-mg-syrup"
+    },
+    {
+      "name": "Kidizinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14559/kidizinc-10-mg-syrup"
+    },
+    {
+      "name": "Kidzin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/14561/kidzin-10-mg-syrup"
+    },
+    {
+      "name": "Leozinc",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/14648/leozinc-405-mg-syrup"
+    },
+    {
+      "name": "Leozinc DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14649/leozinc-ds-10-mg-syrup"
+    },
+    {
+      "name": "Mazic",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14564/mazic-10-mg-syrup"
+    },
+    {
+      "name": "Mazic DS",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/14565/mazic-ds-20-mg-syrup"
+    },
+    {
+      "name": "Mazic Jr",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 38.00",
+      "url": "https://medex.com.bd/brands/14563/mazic-jr-405-mg-syrup"
+    },
+    {
+      "name": "My Zinc",
+      "strength": "20 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.75",
+      "url": "https://medex.com.bd/brands/31823/my-zinc-20-mg-tablet"
+    },
+    {
+      "name": "Naafzinc-DS",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28790/naafzinc-ds-20-mg-syrup"
+    },
+    {
+      "name": "Neo zinc",
+      "strength": "20 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/31107/neo-zinc-20-mg-tablet"
+    },
+    {
+      "name": "Neo zinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/31108/neo-zinc-10-mg-syrup"
+    },
+    {
+      "name": "Nid",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/14566/nid-20-mg-tablet"
+    },
+    {
+      "name": "Nid",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/14567/nid-10-mg-syrup"
+    },
+    {
+      "name": "Nipozin",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/14568/nipozin-10-mg-syrup"
+    },
+    {
+      "name": "Oral-Z",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/14570/oral-z-10-mg-syrup"
+    },
+    {
+      "name": "Oral-Z",
+      "strength": "20 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.51",
+      "url": "https://medex.com.bd/brands/14571/oral-z-20-mg-tablet"
+    },
+    {
+      "name": "Orazinc",
+      "strength": "20 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.52",
+      "url": "https://medex.com.bd/brands/14573/orazinc-20-mg-tablet"
+    },
+    {
+      "name": "Orazinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/14574/orazinc-10-mg-syrup"
+    },
+    {
+      "name": "Orgazinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/14575/orgazinc-10-mg-syrup"
+    },
+    {
+      "name": "Ozink",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/27093/ozink-10-mg-syrup"
+    },
+    {
+      "name": "P-Zink",
+      "strength": "20 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/28761/p-zink-20-mg-tablet"
+    },
+    {
+      "name": "Pedi-Z",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14576/pedi-z-10-mg-syrup"
+    },
+    {
+      "name": "Pedizinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14577/pedizinc-10-mg-syrup"
+    },
+    {
+      "name": "Pep",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 36.00",
+      "url": "https://medex.com.bd/brands/14578/pep-405-mg-syrup"
+    },
+    {
+      "name": "Pep-2",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/14579/pep-2-10-mg-syrup"
+    },
+    {
+      "name": "Pep-20",
+      "strength": "20 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/14580/pep-20-20-mg-tablet"
+    },
+    {
+      "name": "Pep-20",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 57.00",
+      "url": "https://medex.com.bd/brands/14581/pep-20-20-mg-syrup"
+    },
+    {
+      "name": "Peptin",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 25.28",
+      "url": "https://medex.com.bd/brands/14582/peptin-405-mg-syrup"
+    },
+    {
+      "name": "Peptin-DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 37.00",
+      "url": "https://medex.com.bd/brands/14583/peptin-ds-10-mg-syrup"
+    },
+    {
+      "name": "SMC Zinc",
+      "strength": "20 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 1.75",
+      "url": "https://medex.com.bd/brands/27098/smc-zinc-20-mg-tablet"
+    },
+    {
+      "name": "SMC Zinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/37412/smc-zinc-10-mg-syrup"
+    },
+    {
+      "name": "Syp-zi",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/27396/syp-zi-10-mg-syrup"
+    },
+    {
+      "name": "Syrup Zinc",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/14586/syrup-zinc-405-mg-syrup"
+    },
+    {
+      "name": "Syrup Zinc-200",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14587/syrup-zinc-200-10-mg-syrup"
+    },
+    {
+      "name": "Syrup-ZP",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/14588/syrup-zp-10-mg-syrup"
+    },
+    {
+      "name": "Temzinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 33.00",
+      "url": "https://medex.com.bd/brands/27348/temzinc-10-mg-syrup"
+    },
+    {
+      "name": "Tiny-Z",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14589/tiny-z-10-mg-syrup"
+    },
+    {
+      "name": "Uzu",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/35007/uzu-10-mg-syrup"
+    },
+    {
+      "name": "Welzinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36527/welzinc-10-mg-syrup"
+    },
+    {
+      "name": "Welzinc",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/36528/welzinc-20-mg-tablet"
+    },
+    {
+      "name": "Xinc",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/14590/xinc-20-mg-tablet"
+    },
+    {
+      "name": "Xinc",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14591/xinc-10-mg-syrup"
+    },
+    {
+      "name": "Z-sil",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 25.17",
+      "url": "https://medex.com.bd/brands/14641/z-sil-10-mg-syrup"
+    },
+    {
+      "name": "Zeal",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 30.15",
+      "url": "https://medex.com.bd/brands/14592/zeal-10-mg-syrup"
+    },
+    {
+      "name": "Zedex",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/28631/zedex-20-mg-tablet"
+    },
+    {
+      "name": "Zedex DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14594/zedex-ds-10-mg-syrup"
+    },
+    {
+      "name": "Zedex Max",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/28632/zedex-max-20-mg-syrup"
+    },
+    {
+      "name": "Zee-1",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14596/zee-1-405-mg-syrup"
+    },
+    {
+      "name": "Zee-2",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14597/zee-2-10-mg-syrup"
+    },
+    {
+      "name": "Zeenee",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/14598/zeenee-10-mg-syrup"
+    },
+    {
+      "name": "Zeenee",
+      "strength": "20 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34580/zeenee-20-mg-tablet"
+    },
+    {
+      "name": "Zeenk",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/14599/zeenk-10-mg-syrup"
+    },
+    {
+      "name": "Zemin",
+      "strength": "20 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.70",
+      "url": "https://medex.com.bd/brands/29082/zemin-20-mg-tablet"
+    },
+    {
+      "name": "Zemin DS",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/14601/zemin-ds-20-mg-syrup"
+    },
+    {
+      "name": "Zesup",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14604/zesup-10-mg-syrup"
+    },
+    {
+      "name": "Zesup",
+      "strength": "20 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/28166/zesup-20-mg-tablet"
+    },
+    {
+      "name": "Zico",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14606/zico-10-mg-syrup"
+    },
+    {
+      "name": "Zico",
+      "strength": "20 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34604/zico-20-mg-tablet"
+    },
+    {
+      "name": "Zido",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/14569/zido-10-mg-syrup"
+    },
+    {
+      "name": "Ziflu",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/14608/ziflu-20-mg-tablet"
+    },
+    {
+      "name": "Ziflu",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/14609/ziflu-10-mg-syrup"
+    },
+    {
+      "name": "Zifort",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/28107/zifort-10-mg-syrup"
+    },
+    {
+      "name": "Zigrow",
+      "strength": "20 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/36829/zigrow-20-mg-tablet"
+    },
+    {
+      "name": "Zigrow",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/37517/zigrow-10-mg-syrup"
+    },
+    {
+      "name": "Zikid",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14610/zikid-10-mg-syrup"
+    },
+    {
+      "name": "Zikid",
+      "strength": "20 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33795/zikid-20-mg-tablet"
+    },
+    {
+      "name": "Zimon",
+      "strength": "20 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.75",
+      "url": "https://medex.com.bd/brands/14611/zimon-20-mg-tablet"
+    },
+    {
+      "name": "Zimon",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14612/zimon-10-mg-syrup"
+    },
+    {
+      "name": "Zinc Kid",
+      "strength": "20 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/32317/zinc-kid-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "Zinc Sulphate",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14620/zinc-sulphate-10-mg-syrup"
+    },
+    {
+      "name": "Zinc-AG",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 52.00",
+      "url": "https://medex.com.bd/brands/31591/zinc-ag-10-mg-syrup"
+    },
+    {
+      "name": "Zinc-R",
+      "strength": "20 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.75",
+      "url": "https://medex.com.bd/brands/30970/zinc-r-20-mg-tablet"
+    },
+    {
+      "name": "Zinc-S",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/14619/zinc-s-10-mg-syrup"
+    },
+    {
+      "name": "Zinca",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14613/zinca-10-mg-syrup"
+    },
+    {
+      "name": "Zincare",
+      "strength": "20 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/27428/zincare-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "Zincase",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/14614/zincase-10-mg-syrup"
+    },
+    {
+      "name": "Zincep",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14616/zincep-10-mg-syrup"
+    },
+    {
+      "name": "Zincoral",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14618/zincoral-10-mg-syrup"
+    },
+    {
+      "name": "Zincoral DT",
+      "strength": "20 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29448/zincoral-dt-20-mg-dispersible-tablet"
+    },
+    {
+      "name": "Zincstar",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/38758/zincstar-10-mg-syrup"
+    },
+    {
+      "name": "ZincTab",
+      "strength": "20 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.75",
+      "url": "https://medex.com.bd/brands/29783/zinctab-20-mg-tablet"
+    },
+    {
+      "name": "Zinga",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/14622/zinga-10-mg-syrup"
+    },
+    {
+      "name": "Zinga",
+      "strength": "20 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/28922/zinga-20-mg-tablet"
+    },
+    {
+      "name": "Zinofa",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14623/zinofa-10-mg-syrup"
+    },
+    {
+      "name": "Zinon",
+      "strength": "20 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/14624/zinon-20-mg-tablet"
+    },
+    {
+      "name": "Zinon",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/14625/zinon-10-mg-syrup"
+    },
+    {
+      "name": "Zinpro",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 34.50",
+      "url": "https://medex.com.bd/brands/14626/zinpro-10-mg-syrup"
+    },
+    {
+      "name": "Zins",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "100 ml bottle : ৳ 26.00",
+      "url": "https://medex.com.bd/brands/14657/zins-10-mg-syrup"
+    },
+    {
+      "name": "Zinsul",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14627/zinsul-405-mg-syrup"
+    },
+    {
+      "name": "Zinta-20",
+      "strength": "20 mg/5 ml",
+      "manufacturer": "MST Pharma",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/14628/zinta-20-20-mg-syrup"
+    },
+    {
+      "name": "Zinton",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14629/zinton-10-mg-syrup"
+    },
+    {
+      "name": "Zipol",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/14630/zipol-10-mg-syrup"
+    },
+    {
+      "name": "Zipol",
+      "strength": "20 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/34057/zipol-20-mg-tablet"
+    },
+    {
+      "name": "Ziqui",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14631/ziqui-10-mg-syrup"
+    },
+    {
+      "name": "Zis-DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 38.11",
+      "url": "https://medex.com.bd/brands/14632/zis-ds-10-mg-syrup"
+    },
+    {
+      "name": "Zismo",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14633/zismo-10-mg-syrup"
+    },
+    {
+      "name": "Zisul",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/14659/zisul-10-mg-syrup"
+    },
+    {
+      "name": "Zisulmet",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14634/zisulmet-10-mg-syrup"
+    },
+    {
+      "name": "Ziton",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/14635/ziton-10-mg-syrup"
+    },
+    {
+      "name": "Zixol",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/28302/zixol-10-mg-syrup"
+    },
+    {
+      "name": "Zixol",
+      "strength": "20 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/30120/zixol-20-mg-tablet"
+    },
+    {
+      "name": "ZMS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14636/zms-10-mg-syrup"
+    },
+    {
+      "name": "Zn",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14637/zn-10-mg-syrup"
+    },
+    {
+      "name": "ZS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14639/zs-10-mg-syrup"
+    },
+    {
+      "name": "Zym",
+      "strength": "4.05 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/14642/zym-405-mg-syrup"
+    },
+    {
+      "name": "Zym DS",
+      "strength": "10 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/14643/zym-ds-10-mg-syrup"
+    }
+  ],
+  "sections_en": {
+    "indications": "This preparation is indicated in zinc deficiency and/or zinc losing conditions. Zinc deficiency can occur as a result of inadequate diet or malabsorption. Excessive loss of zinc can occur in trauma, burns, diarrhoea and protein losing conditions. A zinc supplement is given until clinical improvement occurs but it may need to be continued in severe malabsorption, metabolic disease or in zinc losing states.",
+    "mode_of_action": "Zinc sulphate monohydrate is an essential trace element and is involved in a number of body enzyme systems. The body needs zinc for normal growth and health. Zinc is also vital for sexual maturation and reproduction, dark vision adaptation, olfactory and gustatory activity, insulin storage & release and for a variety of host immune defenses. Zinc deficiency may lead to impaired immune function, delayed wound healing, a decrease in sense of taste and smell, a reduced ability to fight infections, poor night vision, increased risk of abortion, alopecia, mental lethargy, skin changes and poor development of reproductive organs.",
+    "dosage": "**Child under 10 kg**: 5 ml (1 teaspoonful) 2 times daily after food.\n**Child between 10-30 kg**: 10 ml (2 teaspoonfuls) 1-3 times daily after food.\n**Adults and child over 30 kg**: 20 ml (4 teaspoonfuls) 1-3 times daily after food.\n\nThis drug is most effective if they are taken at least 1 hour before or 2 hour after meals. However, if causes stomach upset, this may be taken with a meal.",
+    "administration": "For dispersible tablet**-**\n\n- Place the tablet in a teaspoon\n- Add adequate amount of water\n- Let the tablet dissolve completely\n- Give the entire spoonful solution",
+    "interaction": "Concomitant intake of a tetracycline and zinc may decrease the absorption of both the tetracycline and zinc. Similarly concomitant administration of zinc and quinolone drug may also decrease the absorption of both. Concomitant intake of penicillamine and zinc may decrese absorption of zinc.",
+    "contraindications": "It is contraindicated in those who are hypersensitive to any component of the ingredient of this preparation.",
+    "side_effects": "Zinc may cause nausea, vomiting, diarrhoea, stomach upset, heartburn and gastritis.",
+    "pregnancy_cat": "The safety of this product in human pregnancy has not been established. Zinc crosses the placenta and is present in breast milk.",
+    "precautions": "In acute renal failure, zinc accumulation may occur in body; so dose adjustment is needed.",
+    "drug_classes": "Specific mineral preparations, Vaccines, Anti-sera & Immunoglobulin",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "জিংক সালফেট মনোহাইড্রেট জিংকের ঘাটতি এবং জিংক ক্ষয় নিয়ন্ত্রণে নির্দেশিত। অপর্যাপ্ত খাবার অথবা শোষণের ঘাটতি জনিত কারণে জিংকের ঘাটতি হতে পারে। আঘাত, পোড়া, ডায়রিয়া এবং প্রোটিন ক্ষয়ের ফলেও জিংকের অতিরিক্ত ঘাটতি হতে পারে। শারীরিক অবস্থার উন্নতি না হওয়া পর্যন্ত সম্পূরক হিসেবে জিংক সেবন করতে হবে; তবে তীব্র শোষণের ঘাটতি, জিংক শোষণ জনিত ব্যাধি অথবা জিংকের ক্ষয় নিয়ন্ত্রণে দীর্ঘ দিন পর্যন্ত নিতে হতে পারে।",
+    "mode_of_action": "জিংক সালফেট মনোহাইড্রেট একটি প্রক্রিয়াজাত খনিজ উপাদান যা অতি অল্পমাত্রায় শরীরের জন্য প্রয়োজনীয় এবং শরীরের অসংখ্য এনজাইম সিস্টেমের সাথে সম্পৃক্ত। স্বাস্থ্য এবং স্বাভাবিক বৃদ্ধির জন্য শরীরে জিংক প্রয়োজন। সেক্সচুয়াল ম্যাচুরেশন এবং প্রজনন, ডার্ক ভিশন এডাপ্টেশন, ওলফেক্টরী এবং স্বাদগ্রাহী ক্ষমতা, ইনসুলিন সংরক্ষণ ও নিঃসরণ এবং বিভিন্ন ধরনের হোস্ট ইমিউন ডিফেন্সের জন্য জিংক অত্যন্ত গুরুত্ব¡পূর্ণ। জিংক এর অভাবে রোগ প্রতিরোধ ক্ষমতা কমে যাওয়া, দেরিতে ক্ষত শুকানো, স্বাদ ও গন্ধের অনুভূতি কমে যাওয়া, রাতকানা, এ্যাবর্শন এর ঝুঁকি বেড়ে যাওয়া, মাথায় টাক পড়া, মানসিক লেথার্জি, ত্বকের পরিবর্তন এবং প্রজনন অঙ্গের পরিপক্কতা কম হতে পারে ।",
+    "dosage": "১০ কেজির নিচের শিশুদের ক্ষেত্রেঃ ৫ মিঃলিঃ (১ চা চামচ) দৈনিক ২ বার খাবারের পরে।\n১০ কেজি থেকে ৩০ কেজি পর্যন্ত শিশুদের জন্যঃ ১০ মিঃলিঃ (২ চা চামচ) দৈনিক ১-৩ বার খাবারের পরে।\nপ্রাপ্ত বয়স্ক এবং ৩০ কেজির ঊর্দ্ধে শিশুদের জন্যঃ ২০ মিঃলিঃ (৪ চা চামচ) দৈনিক ১-৩ বার খাবারের পরে।\n\nআহারের ১ ঘন্টা পূর্বে অথবা ২ ঘন্টা পরে সেবনে এই ঔষধটি তার সর্বোচ্চ কার্যকারিতা দেখায়। পরিপাকতন্ত্রের সমস্যা হলে এটি আহারের সাথে সেবন করা যেতে পারে।",
+    "interaction": "টেট্রাসাইক্লিন এবং জিংক একত্রে সেবন করলে উভয়ের শোষণের মাত্রা কমে যেতে পারে। অনুরুপভাবে জিংক এবং কুইনোলন জাতীয় ঔষধ একত্রে সেবন করলে উভয়ের শোষণের হার কমে যেতে পারে। পেনিসিলামিন এবং জিংক এর সহ সেবন জিংক এর শোষণের হার কমিয়ে দিতে পারে।",
+    "contraindications": "জিংক বা এটির কোন উপাদানের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে এটি ব্যবহার করা যাবে না।",
+    "side_effects": "কিছু কিছু ক্ষেত্রে বমি-বমি ভাব, বমি, ডায়রিয়া, পরিপাকতন্ত্রের সমস্যা, বুক জ্বালা পোড়া এবং পেটে প্রদাহ হতে পারে।",
+    "pregnancy_cat": "গর্ভাবস্থায় এই ঔষধের নিরাপত্তা প্রতিষ্ঠিত নয়। জিংক প্লাসেন্টা অতিক্রম করতে পারে এবং স্তন্যদুগ্ধে পাওয়া যায়।",
+    "precautions": "তীব্র রেনাল ফেইলিউরের ক্ষেত্রে শরীরে জিংক জমা হতে পারে; সেক্ষেত্রে মাত্রা সমন্বয় করতে হবে।",
+    "drug_classes": "Specific mineral preparations, Vaccines, Anti-sera & Immunoglobulin",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1144/zinc-sulfate-monohydrate",
+  "source_url_bn": "https://medex.com.bd/generics/1144/zinc-sulfate-monohydrate/bn",
+  "scraped_at": "2026-10-10T18:31:10+00:00"
+}

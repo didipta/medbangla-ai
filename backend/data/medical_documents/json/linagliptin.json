@@ -1,0 +1,313 @@
+{
+  "slug": "linagliptin",
+  "name_en": "Linagliptin",
+  "name_bn": "লিনাগ্লিপটিন",
+  "therapeutic_class": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adlina",
+      "strength": "5 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5481/adlina-5-mg-tablet"
+    },
+    {
+      "name": "Carlina",
+      "strength": "5 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/29087/carlina-5-mg-tablet"
+    },
+    {
+      "name": "D-Lina",
+      "strength": "5 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/21721/d-lina-5-mg-tablet"
+    },
+    {
+      "name": "Dialina",
+      "strength": "5 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/21720/dialina-5-mg-tablet"
+    },
+    {
+      "name": "Diplin",
+      "strength": "5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/21725/diplin-5-mg-tablet"
+    },
+    {
+      "name": "Dualin",
+      "strength": "5 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38286/dualin-5-mg-tablet"
+    },
+    {
+      "name": "Edjenta",
+      "strength": "5 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/29540/edjenta-5-mg-tablet"
+    },
+    {
+      "name": "Glinta",
+      "strength": "5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/26637/glinta-5-mg-tablet"
+    },
+    {
+      "name": "Glipxen",
+      "strength": "5 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/30962/glipxen-5-mg-tablet"
+    },
+    {
+      "name": "Glitin",
+      "strength": "5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/5482/glitin-5-mg-tablet"
+    },
+    {
+      "name": "Isentin",
+      "strength": "5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/29215/isentin-5-mg-tablet"
+    },
+    {
+      "name": "Ligazid",
+      "strength": "5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/26769/ligazid-5-mg-tablet"
+    },
+    {
+      "name": "Ligend",
+      "strength": "5 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/30963/ligend-5-mg-tablet"
+    },
+    {
+      "name": "Lijenta",
+      "strength": "5 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5479/lijenta-5-mg-tablet"
+    },
+    {
+      "name": "Linacon",
+      "strength": "5 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/31821/linacon-5-mg-tablet"
+    },
+    {
+      "name": "Linadi",
+      "strength": "5 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/5484/linadi-5-mg-tablet"
+    },
+    {
+      "name": "Linadus",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/5485/linadus-5-mg-tablet"
+    },
+    {
+      "name": "Linaglip",
+      "strength": "5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5480/linaglip-5-mg-tablet"
+    },
+    {
+      "name": "Linago",
+      "strength": "5 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5486/linago-5-mg-tablet"
+    },
+    {
+      "name": "Linajen",
+      "strength": "5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/5487/linajen-5-mg-tablet"
+    },
+    {
+      "name": "Linalit",
+      "strength": "5 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5488/linalit-5-mg-tablet"
+    },
+    {
+      "name": "Linaptin",
+      "strength": "5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5489/linaptin-5-mg-tablet"
+    },
+    {
+      "name": "Linarol",
+      "strength": "5 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5490/linarol-5-mg-tablet"
+    },
+    {
+      "name": "Linasec",
+      "strength": "5 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38983/linasec-5-mg-tablet"
+    },
+    {
+      "name": "Linastar",
+      "strength": "5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/28676/linastar-5-mg-tablet"
+    },
+    {
+      "name": "Linatab",
+      "strength": "5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/5491/linatab-5-mg-tablet"
+    },
+    {
+      "name": "Linatin",
+      "strength": "5 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/5492/linatin-5-mg-tablet"
+    },
+    {
+      "name": "Linax",
+      "strength": "5 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/5493/linax-5-mg-tablet"
+    },
+    {
+      "name": "Linaxitin",
+      "strength": "5 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5494/linaxitin-5-mg-tablet"
+    },
+    {
+      "name": "Linera",
+      "strength": "5 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/30964/linera-5-mg-tablet"
+    },
+    {
+      "name": "Linita",
+      "strength": "5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5495/linita-5-mg-tablet"
+    },
+    {
+      "name": "Lino",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/5496/lino-5-mg-tablet"
+    },
+    {
+      "name": "Lintin",
+      "strength": "5 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/21724/lintin-5-mg-tablet"
+    },
+    {
+      "name": "Renaliv",
+      "strength": "5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27207/renaliv-5-mg-tablet"
+    },
+    {
+      "name": "Renolina",
+      "strength": "5 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/33738/renolina-5-mg-tablet"
+    },
+    {
+      "name": "SB-Lina",
+      "strength": "5 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/21727/sb-lina-5-mg-tablet"
+    },
+    {
+      "name": "Tajenta",
+      "strength": "5 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/33625/tajenta-5-mg-tablet"
+    },
+    {
+      "name": "Temolina",
+      "strength": "5 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/28780/temolina-5-mg-tablet"
+    },
+    {
+      "name": "Traneta",
+      "strength": "5 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5497/traneta-5-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Linagliptin is indicated in the treatment of type 2 diabetes mellitus to improve glycaemic control in adults.\n\n- **As monotherapy**: in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to intolerance or contraindicated due to renal impairment.\nLinagliptin is indicated in the treatment of type 2 diabetes mellitus to improve glycaemic control in adults.\n\n- **As monotherapy**: in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to intolerance or contraindicated due to renal impairment.\n- **As combination therapy**: in combination with metformin when diet and exercise plus metformin alone do not provide adequate glycaemic control in combination with a sulphonylurea and metformin when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control.",
+    "mode_of_action": "Linagliptin is indicated to improve glycemic control in patients with type 2 diabetes mellitus. Linagliptin is an inhibitor of DPP-4 (dipeptidyl peptidase-4), an enzyme that degrades the incretin hormones GLP-1 (glucagon like peptide-1) and GIP (glucose dependent insulinotropic polypeptide). Thus, Linagliptin increases the concentrations of active incretin hormones, stimulating the release of insulin from pancreatic beta (β) cells in a glucose-dependent manner and decreasing the secretion of glucagon from pancreatic alpha (α) cells in the circulation.",
+    "dosage": "Linagliptin 5 mg once daily. If added to metformin, the dose of metformin should be maintained and linagliptin administered concomitantly. When used in combination with a sulfonylurea, a lower dose of the sulphonylurea may be considered to reduce the risk of hypoglycaemia.\n\nPatients with renal impairment: No dose adjustment required. Linagliptin can be taken with or without a meal at any time of the day.",
+    "interaction": "Linagliptin is a weak competitive and a weak to moderate mechanism-based inhibitor of CYP isozyme CYP3A4, but does not inhibit other CYP isozymes. The risk for clinically meaningful interactions by other medicinal products on linagliptin is low and in clinical studies linagliptin had no clinically relevant effect on the pharmacokinetics of metformin, glyburide, simvastatin, warfarin, digoxin or oral contraceptives.",
+    "contraindications": "Hypersensitivity to the active substance or to any of the excipients.",
+    "side_effects": "There may be hypoglycaemia, nasopharyngitis, cough and pancreatitis in combination with metformin and sulfonylurea.",
+    "pregnancy_cat": "Pregnancy category B. There are no adequate and well controlled studies in pregnant women. So, Linagliptin tablets should be used during pregnancy only if clearly needed. It is not known whether Linagliptin passes into breast milk or not.",
+    "precautions": "Hypersensitivity to the active substance or to any of the excipients.",
+    "drug_classes": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 25 H 28 N 8 O 2 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Linagliptin?\n\nLinagliptin is an inhibitor of DPP-4 enzyme.\n\n#### What is Linagliptin used for?\n\nLinagliptin is used for the treatment of type 2 diabetes mellitus to improve glycaemic control in adults.\n\n#### How long do I need to use Linagliptin before I see improvement in my condition?\n\nLinagliptin is to be taken till the time you see an improvement in your health conditions.\n\n#### At what frequency do I need to use Linagliptin?\n\nLinagliptin should be taken in the dosage as prescribed by the doctor.\n\n#### Should I use Linagliptin empty stomach, before food or after food?\n\nLinagliptin should be taken after food in a prescribed dosage.\n\n#### What are the instructions for the storage and disposal of Linagliptin?\n\nLinagliptin should be kept in a cool dry place and in its original packaging. Make sure this medication remains unreachable to children and pets.\n\n#### Quick Tips\n\n- Linagliptin should be taken at the same time every day since this helps you remember to take it.\n- Linagliptin may cause hypoglycemia (low blood sugar level) when used with other antidiabetic medicines, alcohol or if you delay or miss a meal.\n- Always carry some sugary food or fruit juice with you in case you experience hypoglycemia symptoms such as cold sweats, cool pale skin, tremor and anxiety.\n- Be careful while driving or operating machinery until you know how Linagliptin affects you.\n- Inform your doctor if you notice joint pains or develop symptoms such as stomach pain, nausea and/or vomiting."
+  },
+  "sections_bn": {
+    "indications": "লিনাগ্লিপটিন প্রাপ্তবয়স্কদের টাইপ-২ ডায়াবেটিস এ রক্তে Glucose নিয়ন্ত্রনের জন্য নির্দেশিত।\n\n- **একক ব্যবহারে**: খাদ্য ও ব্যায়াম একক ভাবে যখন রোগীদের উপর পর্যাপ্ত ভাবে কাজ করে না এবং যাদের মেটফরমিনের অসহনীয়তা অথবা বৃক্কীয় অকার্যকারীতার কারনে মেটফরমিন প্রতিনির্দেশিত সেসব রোগীদের ক্ষেত্রে নির্দেশিত।\n- **যুগপৎ ব্যবহারে**: মেটফরমিন ব্যবহারকালীন খাদ্যাভাস ও ব্যায়াম যখন পর্যাপ্ত ভাবে Glucose নিয়ন্ত্রন করতে পারে না সেসব রোগীদের ক্ষেত্রে মেটফরমিনের সাথে যুগপৎ ভাবে ব্যবহৃত। খাদ্য এবং ব্যায়ামের সাথে মেটফরমিন এবং সালফোনাইল ইউরিয়া যখন সম্মিলিত ভাবে Glucose নিয়ন্ত্রন করতে পারে না তখনও সালফোনাইল ইউরিয়া এবং মেটফরমিনের সাথে যুগপৎভাবে ব্যবহৃত।",
+    "mode_of_action": "লিনাগ্লিপটিন টাইপ-২ ডায়াবেটিস রোগীদের Glucose নিয়ন্ত্রণের জন্য নির্দেশিত। লিনাগ্লিপটিন একটি ডিপিপি-৪ (ডাইপেপটাইডিল পেপটাইডেজ-৪) প্রতিরোধক, যে এনজাইমটি ইনক্রেটিন হরমোন জিএলপি-১ (Glucagon-লাইক পেপটাইড-১) ও জিআইপি (Glucose-ডিপেন্ডেন্ট ইনসুলিনোট্রপিক পলিপেপটাইড)-কে ভেঙ্গে ফেলে। এভাবে লিনাগ্লিপটিন রক্তে Glucose এর মাত্রা অনুযায়ী সক্রিয় ইনক্রেটিনের পরিমান বাড়িয়ে প্যানক্রিয়াসের বিটা কোষ থেকে ইনসুলিন নিঃসরন বাড়ায় এবং আলফা কোষ থেকে Glucagon নিঃসরন কমায়।",
+    "dosage": "লিনাগ্লিপটিন ৫ মিঃগ্রাঃ দৈনিক একবার। মেটফরমিনের সাথে লিনাগ্লিপটিনের ব্যবহারে মেটফরমিনের মাত্রা নিয়ন্ত্রন করতে হবে। সালফোনাইল ইউরিয়া এর সাথে ব্যবহারে, হাইপোগ্লাইসেমিয়ার ঝুঁকি কমাতে সালফোনাইল ইউরিয়ার অল্প মাত্রা বিবেচনা করতে হবে।\n\nবৃক্কীয় অকার্যকর রোগীদের ক্ষেত্রেঃ মাত্রা সমন্বয়ের প্রয়োজন নেই। লিনাগ্লিপটিন ভরা পেটে অথবা খালি পেটে দিনের যে কোন সময় খাওয়া যেতে পারে।",
+    "interaction": "লিনাগ্লিপটিন CYP আইসোজাইম CYP3A4 এর একটি দূর্বল প্রতিদ্বন্দী এবং কার্যত দূর্বল থেকে মাঝারি পর্যায়ের বাধা প্রদান কারক কিন্তু অন্যান্য CYP আইসোজাইমকে বাধা প্রদান করে না। লিনাগ্লিপটিনের সাথে অন্যান্য ঔষধের ক্লিনিক্যালী অর্থপূর্ন মিথস্ক্রিয়ার ঝুঁকি কম এবং একটি ক্লিনিক্যাল সমীক্ষায় লিনাগ্লিপটিনের সাথে মেটফরমিন, Glyburide, সিমভাসটাটিন, ওয়ারফেরিন, ডিগক্সিন অথবা ওরাল কন্ট্রাসেপটিভ এর ফার্মাকোকাইনেটিকসের উপর ক্লিনিক্যালী সংগতিপূর্ণ কোন প্রভাব পাওয়া যায় নাই।",
+    "contraindications": "লিনাগ্লিপটিনের সক্রিয় উপাদান অথবা যে কোন উপাদানের প্রতি অতি সংবেদনশীলতায় এটি প্রতিনির্দেশিত।",
+    "side_effects": "মেটফরমিন এবং সালফোনাইল ইউরিয়া এর সাথে যুগপৎ ব্যবহারে হাইপোগ্লাইসেমিয়া, ন্যাসোফ্যারিনজাইটিস, কাশি এবং প্যানক্রিয়াটাইটিস দেখা দিতে পারে।",
+    "pregnancy_cat": "প্রেগন্যান্সি ক্যাটাগরী বি ড্রাগ। গর্ভবতী মহিলাদের ক্ষেত্রে এর ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। সুতরাং লিনাগ্লিপটিন ট্যাবলেটটি গর্ভাবস্থায় কেবল সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। লিনাগ্লিপটিন আদৌ মাতৃদুগ্ধে নিঃসৃত হয় কিনা তা জানা যায়নি।",
+    "precautions": "লিনাগ্লিপটিন টাইপ-১ ডায়াবেটিস অথবা ডায়াবেটিক কিটোএসিডোসিস চিকিৎসায় ব্যবহার করা উচিত নয়।",
+    "drug_classes": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 25 H 28 N 8 O 2 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/687/linagliptin",
+  "source_url_bn": "https://medex.com.bd/generics/687/linagliptin/bn",
+  "scraped_at": "2026-10-10T18:29:27+00:00"
+}

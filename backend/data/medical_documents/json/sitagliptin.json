@@ -1,0 +1,335 @@
+{
+  "slug": "sitagliptin",
+  "name_en": "Sitagliptin",
+  "name_bn": "সিটাগ্লিপটিন",
+  "therapeutic_class": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "D-Glip",
+      "strength": "50 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/39542/d-glip-50-mg-tablet"
+    },
+    {
+      "name": "Glipita",
+      "strength": "100 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/5503/glipita-100-mg-tablet"
+    },
+    {
+      "name": "Glipita",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/5502/glipita-50-mg-tablet"
+    },
+    {
+      "name": "Glucodip",
+      "strength": "100 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/24523/glucodip-100-mg-tablet"
+    },
+    {
+      "name": "Glucodip",
+      "strength": "50 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/24522/glucodip-50-mg-tablet"
+    },
+    {
+      "name": "Glucodip",
+      "strength": "25 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/24521/glucodip-25-mg-tablet"
+    },
+    {
+      "name": "Incrit",
+      "strength": "100 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 30.09",
+      "url": "https://medex.com.bd/brands/5518/incrit-100-mg-tablet"
+    },
+    {
+      "name": "Incrit",
+      "strength": "50 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/5517/incrit-50-mg-tablet"
+    },
+    {
+      "name": "Janvia",
+      "strength": "100 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 28.08",
+      "url": "https://medex.com.bd/brands/5505/janvia-100-mg-tablet"
+    },
+    {
+      "name": "Janvia",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.04",
+      "url": "https://medex.com.bd/brands/5504/janvia-50-mg-tablet"
+    },
+    {
+      "name": "Radiglip",
+      "strength": "50 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/24520/radiglip-50-mg-tablet"
+    },
+    {
+      "name": "Radiglip",
+      "strength": "100 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/30877/radiglip-100-mg-tablet"
+    },
+    {
+      "name": "SB-Sita",
+      "strength": "50 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/24524/sb-sita-50-mg-tablet"
+    },
+    {
+      "name": "SB-Sita",
+      "strength": "100 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/24525/sb-sita-100-mg-tablet"
+    },
+    {
+      "name": "SGN",
+      "strength": "25 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/24519/sgn-25-mg-tablet"
+    },
+    {
+      "name": "SGN",
+      "strength": "100 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/5507/sgn-100-mg-tablet"
+    },
+    {
+      "name": "SGN",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/5506/sgn-50-mg-tablet"
+    },
+    {
+      "name": "Siglita",
+      "strength": "50 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/5508/siglita-50-mg-tablet"
+    },
+    {
+      "name": "Sigtil",
+      "strength": "50 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5510/sigtil-50-mg-tablet"
+    },
+    {
+      "name": "Sigtil",
+      "strength": "25 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27936/sigtil-25-mg-tablet"
+    },
+    {
+      "name": "Sigtil",
+      "strength": "100 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/27937/sigtil-100-mg-tablet"
+    },
+    {
+      "name": "Silinor",
+      "strength": "100 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/5521/silinor-100-mg-tablet"
+    },
+    {
+      "name": "Silinor",
+      "strength": "50 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5520/silinor-50-mg-tablet"
+    },
+    {
+      "name": "Silinor",
+      "strength": "25 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/5519/silinor-25-mg-tablet"
+    },
+    {
+      "name": "Sitacret",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/31731/sitacret-50-mg-tablet"
+    },
+    {
+      "name": "Sitadus",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/27073/sitadus-50-mg-tablet"
+    },
+    {
+      "name": "Sitadus",
+      "strength": "25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/27072/sitadus-25-mg-tablet"
+    },
+    {
+      "name": "Sitadus",
+      "strength": "100 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 28.08",
+      "url": "https://medex.com.bd/brands/27071/sitadus-100-mg-tablet"
+    },
+    {
+      "name": "Sitagil",
+      "strength": "100 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/5513/sitagil-100-mg-tablet"
+    },
+    {
+      "name": "Sitagil",
+      "strength": "25 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/5511/sitagil-25-mg-tablet"
+    },
+    {
+      "name": "Sitagil",
+      "strength": "50 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5512/sitagil-50-mg-tablet"
+    },
+    {
+      "name": "Sitaglap",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32954/sitaglap-50-mg-tablet"
+    },
+    {
+      "name": "Sitap",
+      "strength": "100 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 28.08",
+      "url": "https://medex.com.bd/brands/5525/sitap-100-mg-tablet"
+    },
+    {
+      "name": "Sitap",
+      "strength": "50 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/5524/sitap-50-mg-tablet"
+    },
+    {
+      "name": "Sitavia",
+      "strength": "50 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5526/sitavia-50-mg-tablet"
+    },
+    {
+      "name": "Sitazid",
+      "strength": "100 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/24513/sitazid-100-mg-tablet"
+    },
+    {
+      "name": "Sitazid",
+      "strength": "50 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/24512/sitazid-50-mg-tablet"
+    },
+    {
+      "name": "Sliptin",
+      "strength": "100 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 28.10",
+      "url": "https://medex.com.bd/brands/5516/sliptin-100-mg-tablet"
+    },
+    {
+      "name": "Sliptin",
+      "strength": "50 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/5515/sliptin-50-mg-tablet"
+    },
+    {
+      "name": "Sliptin",
+      "strength": "25 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/5514/sliptin-25-mg-tablet"
+    },
+    {
+      "name": "Sucosit",
+      "strength": "50 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/24515/sucosit-50-mg-tablet"
+    },
+    {
+      "name": "Sucosit",
+      "strength": "100 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/24514/sucosit-100-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "**Monotherapy and Combination Therapy**: Sitagliptin is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.\n\n**Important Limitations of Use**: Sitagliptin should not be used in patients with type 1 diabetes ... Read more**Monotherapy and Combination Therapy**: Sitagliptin is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.\n\n**Important Limitations of Use**: Sitagliptin should not be used in patients with type 1 diabetes or for the treatment of diabetic ketoacidosis, as it would not be effective in these settings. Sitagliptin has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using Sitagliptin.",
+    "mode_of_action": "Sitagliptin is a DPP-4 inhibitor, which is believed to exert its actions in patients with type 2 diabetes by slowing the inactivation of incretin hormones. Concentrations of the active intact hormones are increased by Sitagliptin, thereby increasing and prolonging the action of these hormones. Incretin hormones, including glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP), are released by the intestine throughout the day, and levels are increased in response to a meal. These hormones are rapidly inactivated by the enzyme, DPP-4. The incretins are part of an endogenous system involved in the physiologic regulation of glucose homeostasis. When blood glucose concentrations are normal or elevated, GLP-1 and GIP increase insulin synthesis and release from pancreatic beta cells by intracellular signaling pathways involving cyclic AMP. GLP-1 also lowers glucagon secretion from pancreatic alpha cells, leading to reduced hepatic glucose production. By increasing and prolonging active incretin levels, Sitagliptin increases insulin release and decreases glucagon levels in the circulation in a glucose-dependent manner. Sitagliptin demonstrates selectivity for DPP-4 and does not inhibit DPP-8 or DPP-9 activity in vitro at concentrations approximating those from therapeutic doses.",
+    "dosage": "The recommended dose of sitagliptin is 50 mg twice a day and 100 mg once daily. Sitagliptin can be taken with or without food.",
+    "interaction": "**Effects of sitagliptin on other Drugs**: Sitagliptin did not meaningfully alter the pharmacokinetics of metformin, glyburide, simvastatin, rosiglitazone, warfarin, or oral contraceptive.\n\n**Digoxin**: Sitagliptin slightly increases the mean of Digoxin concentration. However, no dose adjustment of either drug is required.",
+    "contraindications": "History of a serious hypersensitivity reaction to sitagliptin, such as anaphylaxis or angioedema.",
+    "side_effects": "The most common adverse reactions include headache, upper respiratory tract infection and nasopharyngitis. Hypoglycemia may occur in patients treated with the combination to Sitagliptin and sulfonylurea and add on to insulin.",
+    "pregnancy_cat": "Pregnancy Category B. Reproduction studies have been performed in rats and rabbits. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Sitagliptin is secreted in the milk of lactating rats at milk to plasma ratio of 4:1. It is not known whether sitagliptin is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when sitagliptin is administered to a nursing woman.",
+    "precautions": "If pancreatitis is suspected, sitagliptin should promptly be discontinued and appropriate management should be initiated.\n\n**Use in Patients with Renal Insufficiency**: Dosage adjustment is recommended in patients with moderate or severe renal insufficiency and in patients with ESRD requiring hemodialysis or peritoneal dialysis.\n\n**Use with medications known to cause Hypoglycemia**: When sitagliptin is used in combination therapy dosage adjustment of sulfonylurea or insulin may be required to reduce the risk of hypoglycemia.\n\n**Hypersensitivity Reactions**: There have been post-marketing reports of serious hypersensitivity reactions in patients treated with sitagliptin. These reactions include anaphylaxis, angioedema, and exfoliative skin conditions including Stevens-Johnson syndrome. If a hypersensitivity reaction is suspected, discontinue sitagliptin, assess for other potential causes for the event, and institute alternative treatment for diabetes.",
+    "pediatric_uses": "**Pediatric Use**: Safety and effectiveness of sitagliptin in pediatric patients under 18 years of age have not been established.\n\n**Geriatric Use**: This drug is known to be substantially excreted by the kidney. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection in the elderly, and it may be useful to assess renal function in these patients prior to initiating dosing and periodically thereafter.\n\n**For patients with mild renal insufciency**: (CrCl <50 ml/min or serum creatinine levels of <1.7 mg/DL in men and <1.5 mg/DL in women), no dosage adjustment for sitagliptin is required.\n\n**For patients with moderate renal insufciency**: (CrCl <30 to <50 mL/min, or serum creatinine levels of >1.7 to <3.0 mg/dL in men and >1.5 to <2.5 mg/dL in women), the dose of sitagliptin is 50 mg once daily.\n\n**For patients with severe renal insufficiency**: (CrCl <30 mL/min or serum creatinine levels of >3.0 mg/dL in men and 2.5 mg/dL in women) or with end-stage renal disease (ESRD) requiring hemodialysis or peritoneal dialysis, the dose of sitagliptin is 25 mg once daily. Sitagliptin may be administered without regard to the limiting of hemodialysis.",
+    "overdose_effects": "During controlled clinical trials in healthy subjects, single doses of up to 800 mg Sitagliptin were administered. Maximal mean increases in QTc of 8.0 msec were observed in one study at a dose of 800 mg Sitagliptin, a mean effect that is not considered clinically important. There is no experience with doses above 800 mg in clinical studies. In Phase I multiple-dose studies, there were no dose-related clinical adverse reactions observed with Sitagliptin with doses of up to 600 mg per day for periods of up to 10 days and 400 mg per day for up to 28 days. \n\nIn the event of an overdose, it is reasonable to employ the usual supportive measures, e.g., remove unabsorbed material from the gastrointestinal tract, employ clinical monitoring (including obtaining an electrocardiogram), and institute supportive therapy as dictated by the patient's clinical status. Sitagliptin is modestly dialyzable. In clinical studies, approximately 13.5% of the dose was removed over a 3- to 4-hour hemodialysis session. Prolonged hemodialysis may be considered if clinically appropriate. It is not known if sitagliptin is dialyzable by peritoneal dialysis.",
+    "drug_classes": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+    "storage_conditions": "Store below 25°C in a dry place away from light. Keep the medicines in a safe place, out of the reach of children. Do not use later than the date of expiry. To be dispensed only on the prescription of a registered physician"
+  },
+  "sections_bn": {
+    "indications": "**একক এবং সংযুক্ত চিকিৎসা হিসাবে**: সিটাগ্লিপ্টিন টাইপ-২ ডায়াবেটিস মেলাইটাসের প্রাপ্তবয়স্ক রোগীদের রক্তের গ্লুকোজের মাত্রা নিয়ন্ত্রনের জন্য খাদ্যাভ্যাস ও ব্যয়ামের সাথে সহায়ক হিসাবে নির্দেশিত।\n\n**ওষুধটি ব্যবহারের গুরুত্বপূর্ণ সীমাবদ্ধতা সমূহ**: যেসকল রোগীদের টাইপ-১ ডায়াবেটিস ম্যালাইটাস রয়েছে অথবা এটি ডায়াবেটিক কিটোএ্যাসিডোসিস এর চিকিৎসায় ব্যবহার করা উচিত নয় কারণ, এই সকল ক্ষেত্রে সিটাগ্লিপ্টিন কার্যকরী নয়। প্যানক্রিয়াটাইটিসের (অগ্নাশয়ের প্রদাহ) ইতিহাস আছে এমন রোগীদের ক্ষেত্রে সিটাগ্লিপ্টিন প্রয়োগ করে গবেষনা করা হয়নি। যেসব রোগীদের অগ্নাশয়ের প্রদাহের (প্যানক্রিয়াটাইটিস) পুর্ব ইতিহাস ছিল তাদের ক্ষেত্রে সিটাগ্লিপ্টিন ব্যবহারের ফলে প্যানক্রিয়েটাইটিস হবার ঝুঁকি বেড়ে যায় কিনা তা জানা যায়নি।",
+    "mode_of_action": "সিটাগ্লিপটিন, ডাইপেপটাইডিল পেপটাইডেজ ৪ (ডিপিপি-৪) প্রতিবন্ধক। এটি টাইপ-২ ডায়াবেটিস মেলাইটাসের রোগীর ক্ষেত্রে ইনক্রেটিন হরমোনের অকার্যকর হওয়ার প্রক্রিয়াকে বিলম্বিত করার মাধ্যমে কার্যকারিতা প্রদর্শন করে। সিটাগ্লিপ্টিন এর মাধ্যমে এ্যাক্টিভ ইনট্যাক্ট (কার্যকর এবং সজীব) হরমোনের ঘনত্ব বেড়ে যায়। যার ফলে ঐ হরমোনের কার্যকারিতাও বেড়ে যায় এবং তা দীর্ঘস্থায়ী হয়।\n\nসাধারণত অস্ত্র হতে সারা দিন যাবৎ ইনক্রেটিন জাতীয় হরমোন যেমন- গ্লুকাগন লাইক পেপটাইড-১ (জিএলপি) এবং গ্লুকোজ ডিপেনডেন্ট ইনসুলনোট্রপিক পলিপেপটাইড (জিআইপি) নিঃসৃত হয় এবং এগুলির মাত্রা খাদ্য গ্রহণ করার পর বৃদ্ধি পায়। আর এই হরমোনগুলো ডিপিপি-৪ দ্বারা দ্রুতই অকার্যকর হয়ে যায়। ইনক্রেটিন হরমোন হলো শরীরের অভ্যন্তরীন ব্যবস্থার একটি অংশ যা শর্করার ভারসাম্যের শরীর বৃত্তীয় প্রক্রিয়ার সাথে সম্পর্কযুক্ত।\n\nযখন রক্তে শর্করার ঘনত্ব স্বাভাবিক থাকে বা বেড়ে যায় তখন জিএলপি-১ এবং জিআইপি ইনসুলিনের সংশ্লেষন বাড়িয়ে দেয় এবং প্যানক্রিয়াটিক (অগ্নাশয়ের) বিটা কোষ থেকে ইনসুলিনের নিঃসরণ ঘটায় যা সাইক্লিক এএমপি সংশ্লিষ্ট আস্তঃকোষীয় সংকেতের মাধ্যমে হয়ে থাকে।\n\nজিএলপি-১ প্যানক্রিয়াটিক (অগ্নাশয়ের) আলফা কোষ থেকে গ্লুকাগনের নিঃসরনও কমায় যা যকৃত হতে গ্লুকোজের উৎপাদনও কমিয়ে দেয়। এ্যাক্টিভ ইনক্রেটিন হরমোনের এর পরিমান বৃদ্ধি এবং দীর্ঘস্থায়ীত্বের মাধ্যমে সিটাগ্লিপ্টিন ইনসুলিনের নিঃসরণ বাড়ায় এবং গ্লুকাগন এর পরিমান কমায় যা রক্তপ্রবাহে গ্লুকোজ এর পরিমানের উপর নির্ভরশীল। সিটাগ্লিপ্টিন শুধুমাত্র বেছে বেছে ডিপিপি-৪ এর কার্যকারীতাকে বাধাদান করে এবং এটি ইনভিট্রোর ঘনত্বে ডিপিপি-৮ অথবা ডিপিপি-৯ এর কার্যকারিতায় বাধা প্রদান করে না।",
+    "dosage": "সিটাগ্লিপটিন এর নির্দেশিত সেবনমাত্রা হচ্ছে ৫০ মিগ্রা দিনে দুইবার অথবা ১০০ মিগ্রা দিনে একবার। এটা খাদ্য গ্রহনের সাথে অথবা খালি পেটে সেবন করা যায়।",
+    "interaction": "**অন্যান্য ওষুধের উপর সিটাগ্লিপটিন এর প্রভাব**: মেটফরমিন, গ্লাইবুরাইড, সিম্ভাস্ট্যাটিন, রসিগ্লিাটাজোন, ওয়ারফেরিন, মুখেসেব্য জন্মনিরোধকের উপর সিটাগ্লিপটিন এর কোন কার্যকরী প্রভাব নেই।\n\n**ডিগক্সিন**: সিটাগ্লিপটিন সামান্য পরিমানে ডিগক্সিনের গড় ঘনত্ব বাড়িয়ে দিতে পারে। সেক্ষেত্রে কোন ওষুধেরই মাত্রা সমন্বয়ের প্রয়োজন নাই।",
+    "contraindications": "যেসকল রোগীদের সিটাগ্লিপটিন এর প্রতি মারাত্মক হাইপারসেনসিটিভিটি (তীব্র এ্যালার্জিক) রিঅ্যাকশন যেমন- অ্যানাফাইল্যাক্সিস বা এ্যানজিওইডিমা রয়েছে তাদের ক্ষেত্রে সিটাগ্লিপটিন নির্দেশিত নয়।",
+    "side_effects": "প্রচলিত বিরূপ প্রতিক্রিয়াসমূহ হল: মাথাব্যথা, উর্দ্ধ শ্বাসনালীর সংক্রমন এবং ন্যাসোফেরিনজাইটিস (নাসিকা রন্ধ্র ও ফ্যারিংসের প্রদাহ)। সিটাগ্লিপ্টিন এর সাথে সালফোনাইল ইউরিয়ার যৌথ ভাবে প্রয়োগ করলে অথবা ইনসুলিনের সাথে প্রয়োগ করলে হাইপোগ্লাইসেমিয়া (রক্তে গ্লুকোজের পরিমান তীব্র ভাবে কমে যাওয়া) হতে পারে।",
+    "pregnancy_cat": "প্রেগন্যান্সি ক্যাটাগরি বি। ইঁদুর ও খরগোশের উপর প্রজনন সম্পর্কিত গবেষনা করা হয়েছে। যদি খুব বেশী প্রয়োজন হয় তখনি শুধুমাত্র গর্ভাবস্থায় ওষুধটি ব্যবহার করা উচিত। কারণ প্রাণীদের উপর করা প্রজনন সম্পর্কিত গবেষণা অনেক ক্ষেত্রে মানুষের প্রজনন প্রক্রিয়ার ক্ষেত্রে প্রযোজ্য নাও হতে পারে। স্তন্যদান কালে সিটাগ্লিপটিন স্তন্যদানকারী ইঁদুরের দুধে নিঃসৃত হয়। যার প্লাজমা (রক্তরস) ও দুধের অনুপাত হচ্ছে ৪:১। সিটাগ্লিপ্টিন মনুষ্য মাতৃদুগ্ধে নিঃসরিত হয় কিনা তা জানা যায়নি। যেহেতু অনেক ওষুধই মাতৃদুগ্ধে নিঃসরিত হয় তাই স্তন্যদানকারী মহিলাদের ক্ষেত্রে সিটাগ্লিপটিন ব্যবহার করার ক্ষেত্রে সতর্ক থাকা উচিত।",
+    "precautions": "যদি কোন রোগীর ক্ষেত্রে সন্দেহ করা হয় যে তার প্যানক্রিয়াটাইটিস রয়েছে সেক্ষেত্রে অবশ্যই দ্রুত সিটাগ্লিপটিন বন্ধ করে দিতে হবে এবং যথাযথ ব্যবস্থা গ্রহণ করতে হবে।\n\n**বৃক্কীয় অসমকার্যকারীতায় অপর্যাপ্ততা রয়েছে এমন রোগীর ক্ষেত্রে ব্যবহার**: মাঝারি কিংবা তীব্র বৃক্কীয় অসমকার্যকারী রোগী এবং এন্ড স্টেজ রেনাল ডিজিস (ইএসআরডি) আছে এমন রোগীর ক্ষেত্রে সেবন মাত্রা পরিবর্তন করতে হবে।\n\n**অন্যান্য হাইপোগ্লাইসেমিয়ার ওষুধের সাথে ব্যবহারের ক্ষেত্রে**: যখন সিটাগ্লিপ্টিন অন্যান্য ওষুধের ক্ষেত্রে যৌথ ভাবে ব্যবহার করা হয়, তখন হাইপোগ্লাইসেমিয়ার ঝুঁকি কমাতে সালফোনাইলইউরিয়া বা ইনসুলিনের এর মাত্রা সমন্বয় করতে হবে।\n\n**অতিসংবেদনশীলতা**: বাজারজাত করার পরে রোগীদের সিটাগ্লিপটিন দ্বারা চিকিৎসাকালে গুরুতর এ্যালার্জি এবং হাইপারসেনসিটিভিটি প্রতিক্রিয়ার খবর পাওয়া গেছে। যেমন- অ্যানাফাইল্যাক্সিস, এ্যানজিওইডিমা এবং স্টিভেনস জনসন সিনড্রোমসহ অতিমাত্রার ত্বকের সমস্যা। যদি অতিসংবেদনশীলতা ধরা পরে তাহলে সিটাগ্লিপটিন বন্ধ করতে হবে এবং ডায়াবেটিসের ক্ষেত্রে বিকল্প চিকিৎসা শুরু করতে হবে।",
+    "pediatric_uses": "**অপ্রাপ্তবয়স্ক রোগীদের ক্ষেত্রে ব্যবহার**: ১৮ বছরের কম বয়সের রোগীদের ক্ষেত্রে সিটাগ্লিপটিন  এর নিরাপত্তা ও কার্যকারীতা প্রতিষ্ঠিত হয়নি।\n\n**বয়স্কদের ক্ষেত্রে ব্যবহার**: ওষুধটি বৃক্কের মাধ্যমে নিঃসৃত হয়। যেহেতু বয়স্ক রোগীদের বৃক্কীয় অসমকার্যকারিতার সমস্যা থাকে তাই তাদের ক্ষেত্রে সতর্কতার সাথে সেবন মাত্রা নির্ধারন করতে হবে এবং ওষুধটি প্রয়োগ করার পূর্বে এবং পরবর্তী সময়ে বৃক্কের কার্যকরীতা পরীক্ষা করতে হবে।**যেসকল রোগীর মৃদু বৃক্কীয় অসমকার্যকারিতা**(ক্রিয়েটিনিন ক্লিয়ারেন্স ৫০ মিলি  মিনিট এর কম বা সেরাম ক্রিয়োটিন লেভেল পুরুষদের ১.৭ মিগ্রা/ডিএল এবং মহিলাদের ১.৫ মিগ্রা/ ডিএল) রয়েছে তাদের ক্ষেত্রে সেবন মাত্রা পরিবর্তন করার প্রয়োজন নেই।\n\n**যেসকল রোগীর মাঝারি ধরণের বৃক্কীয় অসমকার্যকারিতা** (ক্রিয়েটিনিন ক্লিয়ারেন্স ৩০ এর কম থেকে ৫০ মিলি/মিনিট এর মধ্যে, বা সেরাম ক্রিয়েটিনিন লেভেল পুরুষদের ১৭ থেকে ৩.০ মিগ্রা/ডিএল এবং মহিলাদের ১৫ থেকে ২.৫ মিগ্রা/ডিএল) রয়েছে তাদের ক্ষেত্রে সিটাগ্লিপটিন এর মাত্রা হচ্ছে ৫০ মিগ্রা দিনে একবার।\n\n**যেসকল রোগীর তীব্র বৃক্কীয় অসমকার্যকারিতা** (ক্রিয়েটিনিন ক্লিয়ারেন্স ৩০ মিলি/ মিনিট এর কম অথবা সেরাম ক্রিয়েটিনিন লেভেল পুরুষদের ৩.০ মিগ্রা/ডিএল এবং মহিলাদের ২.৫মিগ্রা/ডিএল) কিংবা যেসকল রোগীদের বৃক্ক সম্পুর্ণ অকার্যকর হয়ে গেছে এবং যাদের হেমোডায়ালাইসসি বা পেরিটোনিয়াল ডায়ালাইসিসি করতে হয় তাদের ক্ষেত্রে সিটাগ্লিপ্টিনের সেবন মাত্রা হচ্ছে ২.৫ মিগ্রা দিনে একবার।",
+    "overdose_effects": "সুস্থ ব্যক্তির উপর নিয়ন্ত্রিত ক্লিনিক্যাল ট্রায়ালের (বৈজ্ঞানিক গবেষণায়) সময় একক মাত্রায় ৮০০ মিগ্রা পর্যন্ত প্রয়োগ করা হয়েছে। গবেষনায় দেখা গেছে ৮০০ মিগ্রা সিটাগ্লিপটিন সেবন করলে QTc সর্বাধিক গড় ৮০ msec বেড়ে যায় এবং এই গড় প্রভাব চিকিৎসায় গুরুত্বপূর্ণ বলে বিবেচিত নয়। ক্লিনিক্যাল স্টাডিতে ৮০০ মিগ্রা এর অধিক মাত্রার কোন অভিজ্ঞতা নেই। প্রতিদিন ৬০০ মিগ্রা করে ১০ দিন এবং ৪০০ মিগ্রা করে ২৮ দিন সিটাগ্লিপটিন এর সাথে ফেজ-১ এ একাধিক ডোজ স্টাডিতে মাত্রা সংক্রান্ত কোন চিকিৎসাগত বিরূপ প্রতিক্রিয়া দেখা যায়নি।\n\nমাত্রাধিক্যের ক্ষেত্রে প্রয়োজনীয় সহায়তা প্রদান করাই যুক্তি সম্মত। যেমন পরিপাকতন্ত্র থেকে অশোষিত বস্তু সরিয়ে ফেলা, ক্লিনিক্যালি মনিটর করা (ইলেকট্রোকার্ডিওগ্রাম) এবং রোগীর শারীরিক অবস্থা অনুযায়ী সহায়ক চিকিৎসা প্রদান করা। সিটাগ্লিপটিন মৃদুভাবে ডায়ালাইসসের মাধ্যমে অপসারণ যোগ্য। ক্লিনিক্যাল স্টাডিতে দেখা গেছে ৩ থেকে ৪ ঘণ্টা হেমোডায়ালাইসিস সেশন এ প্রায় ১৩.৫% মাত্রা অপসারন করা যায়। যদি ক্লিনিক্যালি যথাযথ বলে বিবেচনা করা হয় তবে দীর্ঘমেয়াদী হিমোডায়ালাইসিস দেয়া যেতে পারে। সিটাগ্লিপটিন পেরিটোনিয়াল ডায়ালাইসিস দ্বারা অপসারণ করা যায় কিনা তা জানা যায়নি।",
+    "drug_classes": "Dipeptidyl Peptidase-4 (DPP-4) inhibitor",
+    "storage_conditions": "আলো থেকে দূরে ২৫ ডিগ্রি সে. এর নিচে শুষ্ক স্থানে সংরক্ষণ করুন। সমস্ত ওষুধ শিশুদের নাগালের বাইরে রাখুন। মেয়াদ উত্তীর্ণ ওষুধ ব্যবহার থেকে বিরত থাকুন। শুধুমাত্র রেজিস্টার্ড চিকিৎসকের ব্যবস্থাপত্র অনুযায়ী বিতরণযোগ্য।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/990/sitagliptin",
+  "source_url_bn": "https://medex.com.bd/generics/990/sitagliptin/bn",
+  "scraped_at": "2026-10-10T18:29:34+00:00"
+}

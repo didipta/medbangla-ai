@@ -1,0 +1,525 @@
+{
+  "slug": "empagliflozin",
+  "name_en": "Empagliflozin",
+  "name_bn": "এম্পাগ্লিফ্লোজিন",
+  "therapeutic_class": "Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adempa",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/30075/adempa-10-mg-tablet"
+    },
+    {
+      "name": "Adempa",
+      "strength": "25 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30076/adempa-25-mg-tablet"
+    },
+    {
+      "name": "Ajardy",
+      "strength": "10 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/30904/ajardy-10-mg-tablet"
+    },
+    {
+      "name": "Ajardy",
+      "strength": "25 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/30905/ajardy-25-mg-tablet"
+    },
+    {
+      "name": "Ardance",
+      "strength": "25 mg",
+      "manufacturer": "Pharmacil Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34207/ardance-25-mg-tablet"
+    },
+    {
+      "name": "Ardance",
+      "strength": "10 mg",
+      "manufacturer": "Pharmacil Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/34206/ardance-10-mg-tablet"
+    },
+    {
+      "name": "Coport",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/31384/coport-10-mg-tablet"
+    },
+    {
+      "name": "Coport",
+      "strength": "25 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/31385/coport-25-mg-tablet"
+    },
+    {
+      "name": "D-Fozin",
+      "strength": "10 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/34210/d-fozin-10-mg-tablet"
+    },
+    {
+      "name": "D-Fozin",
+      "strength": "25 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/34209/d-fozin-25-mg-tablet"
+    },
+    {
+      "name": "Diampa",
+      "strength": "25 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/29852/diampa-25-mg-tablet"
+    },
+    {
+      "name": "Diampa",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29853/diampa-10-mg-tablet"
+    },
+    {
+      "name": "Diastat",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29878/diastat-10-mg-tablet"
+    },
+    {
+      "name": "Diastat",
+      "strength": "25 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/29879/diastat-25-mg-tablet"
+    },
+    {
+      "name": "Eflow",
+      "strength": "25 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/38288/eflow-25-mg-tablet"
+    },
+    {
+      "name": "Eflow",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38287/eflow-10-mg-tablet"
+    },
+    {
+      "name": "Emaglin",
+      "strength": "10 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/36262/emaglin-10-mg-tablet"
+    },
+    {
+      "name": "Emaglin",
+      "strength": "25 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36263/emaglin-25-mg-tablet"
+    },
+    {
+      "name": "Emazid",
+      "strength": "25 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/27110/emazid-25-mg-tablet"
+    },
+    {
+      "name": "Emazid",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/27111/emazid-10-mg-tablet"
+    },
+    {
+      "name": "Emfogen",
+      "strength": "25 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/26549/emfogen-25-mg-tablet"
+    },
+    {
+      "name": "Emfogen",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26548/emfogen-10-mg-tablet"
+    },
+    {
+      "name": "Emglif",
+      "strength": "25 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/31445/emglif-25-mg-tablet"
+    },
+    {
+      "name": "Emglif",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/31444/emglif-10-mg-tablet"
+    },
+    {
+      "name": "Emglit",
+      "strength": "10 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34211/emglit-10-mg-tablet"
+    },
+    {
+      "name": "Emglit",
+      "strength": "25 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/34212/emglit-25-mg-tablet"
+    },
+    {
+      "name": "Emjard",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29028/emjard-10-mg-tablet"
+    },
+    {
+      "name": "Emjard",
+      "strength": "25 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/29029/emjard-25-mg-tablet"
+    },
+    {
+      "name": "Emlozin",
+      "strength": "25 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/34213/emlozin-25-mg-tablet"
+    },
+    {
+      "name": "Emlozin",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34214/emlozin-10-mg-tablet"
+    },
+    {
+      "name": "Empa",
+      "strength": "25 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/17186/empa-25-mg-tablet"
+    },
+    {
+      "name": "Empa",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/17133/empa-10-mg-tablet"
+    },
+    {
+      "name": "Empadi",
+      "strength": "25 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/29159/empadi-25-mg-tablet"
+    },
+    {
+      "name": "Empadi",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29158/empadi-10-mg-tablet"
+    },
+    {
+      "name": "Empadus",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/30440/empadus-10-mg-tablet"
+    },
+    {
+      "name": "Empadus",
+      "strength": "25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/30441/empadus-25-mg-tablet"
+    },
+    {
+      "name": "Empaglif",
+      "strength": "25 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/26418/empaglif-25-mg-tablet"
+    },
+    {
+      "name": "Empaglif",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/26417/empaglif-10-mg-tablet"
+    },
+    {
+      "name": "Empala",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/37923/empala-10-mg-tablet"
+    },
+    {
+      "name": "Empanor",
+      "strength": "10 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/34208/empanor-10-mg-tablet"
+    },
+    {
+      "name": "Emparol",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/27108/emparol-10-mg-tablet"
+    },
+    {
+      "name": "Emparol",
+      "strength": "25 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/27109/emparol-25-mg-tablet"
+    },
+    {
+      "name": "Empastar",
+      "strength": "25 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/35735/empastar-25-mg-tablet"
+    },
+    {
+      "name": "Empastar",
+      "strength": "10 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35734/empastar-10-mg-tablet"
+    },
+    {
+      "name": "Empatab",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26203/empatab-10-mg-tablet"
+    },
+    {
+      "name": "Empatab",
+      "strength": "25 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/26204/empatab-25-mg-tablet"
+    },
+    {
+      "name": "Empavic",
+      "strength": "25 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/31386/empavic-25-mg-tablet"
+    },
+    {
+      "name": "Empavic",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/31387/empavic-10-mg-tablet"
+    },
+    {
+      "name": "Empazin",
+      "strength": "25 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/27768/empazin-25-mg-tablet"
+    },
+    {
+      "name": "Empazin",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/23730/empazin-10-mg-tablet"
+    },
+    {
+      "name": "Empoli",
+      "strength": "10 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/38098/empoli-10-mg-tablet"
+    },
+    {
+      "name": "Empoli",
+      "strength": "25 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38099/empoli-25-mg-tablet"
+    },
+    {
+      "name": "Epaglin",
+      "strength": "10 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/38984/epaglin-10-mg-tablet"
+    },
+    {
+      "name": "Evania",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28645/evania-10-mg-tablet"
+    },
+    {
+      "name": "Evania",
+      "strength": "25 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28646/evania-25-mg-tablet"
+    },
+    {
+      "name": "Glifo",
+      "strength": "25 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/26513/glifo-25-mg-tablet"
+    },
+    {
+      "name": "Glifo",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 27.50",
+      "url": "https://medex.com.bd/brands/26512/glifo-10-mg-tablet"
+    },
+    {
+      "name": "Glipatab",
+      "strength": "25 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/31135/glipatab-25-mg-tablet"
+    },
+    {
+      "name": "Glipatab",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/31134/glipatab-10-mg-tablet"
+    },
+    {
+      "name": "Glycenor",
+      "strength": "25 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/29341/glycenor-25-mg-tablet"
+    },
+    {
+      "name": "Glycenor",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29340/glycenor-10-mg-tablet"
+    },
+    {
+      "name": "Jardian",
+      "strength": "25 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/23729/jardian-25-mg-tablet"
+    },
+    {
+      "name": "Jardian",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/23728/jardian-10-mg-tablet"
+    },
+    {
+      "name": "Jardiance",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 69.00",
+      "url": "https://medex.com.bd/brands/26447/jardiance-10-mg-tablet"
+    },
+    {
+      "name": "Jardiance",
+      "strength": "25 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 84.00",
+      "url": "https://medex.com.bd/brands/26448/jardiance-25-mg-tablet"
+    },
+    {
+      "name": "Sinjard",
+      "strength": "25 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30277/sinjard-25-mg-tablet"
+    },
+    {
+      "name": "Sinjard",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/30276/sinjard-10-mg-tablet"
+    },
+    {
+      "name": "Sucozin",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29281/sucozin-10-mg-tablet"
+    },
+    {
+      "name": "Sucozin",
+      "strength": "25 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/29282/sucozin-25-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Empagliflozin is indicated in:\n\n- As an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.\n- To reduce the risk of cardiovascular death in adult patients with type 2 diabetes mellitus and established cardiovascular disease.",
+    "mode_of_action": "Empagliflozin is a sodium glucose co-transporter-2 (SGLT-2) inhibitor. SGLT2 co-transporters are responsible for reabsorption of glucose from the glomerular filtrate in the kidney. The glucuretic effect resulting from SGLT2 inhibition reduces renal absorption and lowers the renal threshold for glucose, resulting in increased glucose excretion. Additionally, it contributes to reduced hyperglycaemia, assists weight loss, and reduces blood pressure.",
+    "dosage": "The recommended dose of Empagliflozin is 10 mg once daily, taken in the morning, with or without food. In patients tolerating Empagliflozin, the dose may be increased to 25 mg once daily. In patients with volume depletion, correcting this condition prior to initiation of Empagliflozin is recommended.",
+    "interaction": "**Diuretics**: Co-administration of Empagliflozin with diuretics resulted in increased urine volume. \n\n**Insulin or Insulin Secretagogues**: Co-administration of Empagliflozin with insulin or insulin secretagogues increases the risk for hypoglycemia. \n\n**Positive Urine Glucose Test**: Monitoring glycemic control with urine glucose tests is not recommended in patients taking SGLT2 inhibitors as SGLT2 inhibitors increase urinary glucose excretion and will lead to positive urine glucose tests. Use alternative methods to monitor glycemic control. \n\n**Interference with 1,5-anhydroglucitol (1,5-AG) Assay**: Monitoring glycemic control with 1,5-AG assay is not recommended as measurements of 1,5-AG are unreliable in assessing glycemic control in patients taking SGLT2 inhibitors. Use alternative methods to monitor glycemic control.",
+    "contraindications": "Empagliflozin is contraindicated in patients with history of serious hypersensitivity reaction to Empagliflozin or any of its ingredients, severe renal impairment, end-stage renal disease, or dialysis.",
+    "side_effects": "The most common adverse reactions associated with Empagliflozin are urinary tract infections and female genital mycotic infections. Others common side effects includes dehydration, hypotension, weakness, dizziness and increased thirstiness.",
+    "pregnancy_cat": "There are no adequate and well-controlled studies of Empagliflozin in pregnant women. Empagliflozin should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. It is not known if Empagliflozin is excreted in human milk. It is not recommended when breastfeeding.",
+    "precautions": "Assessment of renal function is recommended prior to initiation of Empagliflozin and periodically thereafter. Empagliflozin should not initiated in patients with an eGFR less than 45 ml/min/1.73 m2. No dose adjustment is needed in patients with an eGFR greater than or equal to 45 ml/min/1.73 m2.",
+    "overdose_effects": "In the event of an overdose with Empagliflozin the usual supportive measures (e.g., remove unabsorbed material from the gastrointestinal tract, perform clinical monitoring, and institute supportive treatment) should be employed. Removal of Empagliflozin by hemodialysis has not been studied.",
+    "drug_classes": "Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors",
+    "storage_conditions": "Keep in a cool & dry place (below 30° C), protected from light & moisture. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 23 H 27 ClO 7 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Empagliflozin?\n\nEmpagliflozin is a SGLT-2 inhibitor which reduces the reabsorption of glucose from kidney.\n\n#### What is Empagliflozin used for?\n\nEmpagliflozin is commonly used to improve glycemic control in adults.\n\n#### Are there any pregnancy warnings?\n\nEmpagliflozin may be unsafe to use during pregnancy.\n\n#### Are there any breast-feeding warnings?\n\nEmpagliflozin is probably unsafe to use during breastfeeding.\n\n#### Does this affect kidney function?\n\nEmpagliflozin should be used cautiously in patients with an underlying kidney disease.\n\n#### Does this affect liver function?\n\nNo dose adjustment is needed for patients with the mild to moderate liver disease.\n\n#### Quick Tips\n\n- Empagliflozin is used alone or together with other diabetes medicines to control blood sugar and avoid long-term complications.\n- Empagliflozin may cause your body to lose too much fluid (dehydration) or you may urinate more often. Drink plenty of water and stay hydrated.\n- Empagliflozin may cause hypoglycemia (low blood sugar level) when used with other antidiabetic medicines, alcohol or if you delay or miss a meal.\n- Always carry some sugary food or fruit juice with you in case you experience hypoglycemia symptoms such as cold sweats, cool pale skin, tremor and anxiety.\n- Empagliflozin can cause genital fungal and/or urinary tract infections (UTIs) in both females and males, so practice good hygiene.\n- Monitor your blood sugar regularly while taking Empagliflozin.\n- Inform your doctor immediately if you experience constant dizziness, joint pain, cold-like symptoms or unexplained nausea/vomiting."
+  },
+  "sections_bn": {
+    "indications": "এম্পাগ্লিফ্লোজিন নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- প্রাপ্তবয়স্ক টাইপ-২ ডায়াবেটিস মেলাইটাস রোগীদের গ্লুকোজ নিয়ন্ত্রণ ভালো করার জন্য আহার ও ব্যায়াম এর সম্পূরক হিসেবে।\n- প্রাপ্তবয়স্ক টাইপ-২ ডায়াবেটিস মেলাইটাস রোগীদের হৃদরোগ এবং হৃদরোগের মৃত্যু ঝুঁকি কমাতে।",
+    "mode_of_action": "এম্পাগ্লিফ্লোজিন হচ্ছে একটি সোডিয়াম-গ্লুকোজ কোট্রান্সপোর্টার ২ (এসজিএলটি-২) ইনহিবিটর। এসজিএলটি-২ বৃক্কের গ্লুকোজ রক্তে পুনরায় শোষণের জন্য প্রধান পরিবাহক। এসজিএলটি-২ কে বাঁধা প্রদানের মাধ্যমে এম্পাগ্লিফ্লোজিন বৃক্কের পরিস্রাবিত গ্লুকোজ এর পুনঃশোষণ কমায় ও বৃক্কের গ্লুকোজ এর সরবরাহ সীমা কমায় এবং এভাবে প্রস্রাবের মাধ্যমে গ্লুকোজ নিস্কাশনকে ত্বরান্বিত করে।",
+    "dosage": "এম্পাগ্লিফ্লোজিনের অনুমোদিত সেবনমাত্রা ১০ মিঃগ্রাঃ দিনে একবার, সকালে খাবারের সাথে অথবা খাবার ছাড়া। প্রয়োজনে দৈনিক মাত্রা ২৫ মিঃগ্রাঃ পর্যন্ত বৃদ্ধি করা যেতে পারে। যে সকল রোগীর হাইপোভলিমিয়া আছে তাদের ক্ষেত্রে এম্পাগ্লিফ্লোজিন দেয়ার আগে অবস্থার উন্নতির পরামর্শ দেয়া হচ্ছে।",
+    "interaction": "**ডাইইউরেটিক্স**: এম্পাগ্লিফ্লোজিন ডাইইউরেটিক্সের সাথে দিলে প্রস্রাবের পরিমাণ বেড়ে যেতে পারে। \n**ইনসুলিন এবং ইনসুলিন নি:সরনকারী ঔষধ**: এম্পাগ্লিফ্লোজিন ইনসুলিন এবং ইনসুলিন নিঃসরনকারী ঔষধের সাথে দিলে হাইপোগ্লাইসেমিয়ার প্রবণতা বেড়ে যেতে পারে।\n**প্রস্রাবে শর্করার উপস্থিতির পরীক্ষা**: প্রস্রাবে শর্করার উপস্থিতির পরীক্ষার মাধ্যমে গ্লাইসেমিয়া নির্ধারণ করা যাবে না কারন যে সকল রোগী SGLT-2 নিচ্ছে তাদের প্রস্রাবে শর্করার মাত্রা বেড়ে যায় যেটা প্রস্রাবে শর্করার মাত্রা বেশী হিসেবে নির্ধারিত হয়। শর্করার মাত্রা নির্ধারণ করার জন্য বিকল্প পদ্ধতি ব্যবহার করতে হবে।\n**1,5-anhydroglucitol পরীক্ষার অসামঞ্জস্যতা**: যারা SGLT-2 নিচ্ছে তাদের শর্করার নিয়ন্ত্রণ পরীক্ষা করার জন্য 1,5-anhydroglucitol পরিমাপক হিসেবে বিশ্বাসযোগ্য নয়। শর্করার মাত্রা নিয়ন্ত্রণ করার জন্য বিকল্প পদ্ধতি ব্যবহার করতে হবে।",
+    "contraindications": "যাদের এম্পাগ্লিফ্লোজিন বা এর উপাদানের প্রতি অতিসংবেদনশীলতা রয়েছে এবং কিডনি সমস্যা ও ডায়ালাইসিস রোগীদের ক্ষেত্রে ঔষধটি প্রতিনির্দেশিত।",
+    "side_effects": "এম্পাগ্লিফ্লোজিনের সাধারণ পার্শ্ব প্রতিক্রিয়া হল মূত্রনালীতে সংক্রমণ ও মহিলাদের জেনিটাল মাইকোটিক সংক্রমণ।",
+    "pregnancy_cat": "গর্ভবতী মহিলাদের ক্ষেত্রে এর ব্যবহারে সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। সুতরাং কেবল সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। এম্পাগ্লিফ্লোজিন মাতৃদুগ্ধে নিঃসৃত হয় কিনা জানা যায়নি। স্তন্যদানকারী মায়েদের ব্যবহারে বিরত থাকতে হবে।",
+    "precautions": "এম্পাগ্লিফ্লোজিন শুরু করার পূর্বে বৃক্কের সক্ষমতা নির্ণয় করার জন্য নির্দেশনা দেয়া হচ্ছে এবং তারপর পর্যায়ক্রমে তা পর্যবেক্ষণে রাখতে হবে। যাদের eGFR ৪৫ মিঃলিঃ/মি./১.৭৩ মি২ এর কম তাদের এম্পাগ্লিফ্লোজিন শুরু করা যাবে না। যে সকল রোগীর বএঋজ ৪৫ মিঃলিঃ/মি./১.৭৩ মি২ এর সমান বা তার বেশী তাদের ক্ষেত্রে ডোজ সমন্বয় করার প্রয়োজন নেই। পেরিনিয়াম এ ন্যাক্রোটাইজিং ফ্যাসিটিস/ফোরনিয়ার’স গ্যাংগ্রীন হওয়ার ঝুঁকি থাকে যা খুবই বিরল। যদি জননেন্দ্রে অথবা জননেন্দ্রের পিছন হতে মলদ্বার পর্যন্ত নরমতা, লালভাব হওয়া বা ফোলাভাব এবং জ্বর ১০০.৪° ফাঃ এর বেশি হয় তাহলে অতি শীঘ্রই চিকিৎসকের পরামর্শ নিন।",
+    "overdose_effects": "এম্পাগ্লিফ্লোজিন এর মাত্রাধিক ব্যবহারের ক্ষেত্রে সহায়ক ব্যবস্থা (অশোষিত পদার্থ পাকস্থলি থেকে অপসারন, ক্লিনিকাল পর্যবেক্ষন এবং সহায়ক চিকিৎসার ব্যবস্থা) গ্রহন করতে হবে। এম্পাগ্লিফ্লোজিনের হেমোডায়ালাইসিস এর মাধ্যমে অপসারন করার বিষয় এখনও গবেষনা করা হয় নি।",
+    "drug_classes": "Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ঠান্ডা ও শুষ্ক স্থানে (৩০°সেঃ তাপমাত্রার নীচে) রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 23 H 27 ClO 7 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1275/empagliflozin",
+  "source_url_bn": "https://medex.com.bd/generics/1275/empagliflozin/bn",
+  "scraped_at": "2026-10-10T18:29:40+00:00"
+}

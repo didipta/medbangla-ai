@@ -1,0 +1,1469 @@
+{
+  "slug": "metformin",
+  "name_en": "Metformin Hydrochloride",
+  "name_bn": "মেটফরমিন হাইড্রোক্লোরাইড",
+  "therapeutic_class": "Biguanides",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Benformin",
+      "strength": "850 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/22090/benformin-850-mg-tablet"
+    },
+    {
+      "name": "Benformin",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/22091/benformin-500-mg-tablet"
+    },
+    {
+      "name": "Bigmet",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5357/bigmet-500-mg-tablet"
+    },
+    {
+      "name": "Bigmet",
+      "strength": "850 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5358/bigmet-850-mg-tablet"
+    },
+    {
+      "name": "Bigmet XR",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/29292/bigmet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Centomin",
+      "strength": "500 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22097/centomin-500-mg-tablet"
+    },
+    {
+      "name": "Centomin",
+      "strength": "850 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22098/centomin-850-mg-tablet"
+    },
+    {
+      "name": "Comet",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5359/comet-500-mg-tablet"
+    },
+    {
+      "name": "Comet",
+      "strength": "850 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/5361/comet-850-mg-tablet"
+    },
+    {
+      "name": "Comet XR",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/5363/comet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Comet XR",
+      "strength": "1000 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/5364/comet-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "D-Fo",
+      "strength": "850 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/5371/d-fo-850-mg-tablet"
+    },
+    {
+      "name": "D-Met",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/33744/d-met-500-mg-tablet"
+    },
+    {
+      "name": "D-Met",
+      "strength": "850 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/33745/d-met-850-mg-tablet"
+    },
+    {
+      "name": "Daomin",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5365/daomin-500-mg-tablet"
+    },
+    {
+      "name": "Daomin",
+      "strength": "850 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5366/daomin-850-mg-tablet"
+    },
+    {
+      "name": "Daomin XR",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/5367/daomin-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Daomin XR",
+      "strength": "1000 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/5368/daomin-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Deformin",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/28750/deformin-500-mg-tablet"
+    },
+    {
+      "name": "Deformin",
+      "strength": "850 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/28751/deformin-850-mg-tablet"
+    },
+    {
+      "name": "Dia M",
+      "strength": "850 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/22124/dia-m-850-mg-tablet"
+    },
+    {
+      "name": "Dia M",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.10",
+      "url": "https://medex.com.bd/brands/22125/dia-m-500-mg-tablet"
+    },
+    {
+      "name": "Dia M SR",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/22126/dia-m-sr-500-mg-sr-tablet"
+    },
+    {
+      "name": "Diabest",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/37051/diabest-500-mg-tablet"
+    },
+    {
+      "name": "Diabest",
+      "strength": "850 mh",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/37052/diabest-850-mh-tablet"
+    },
+    {
+      "name": "Diablo",
+      "strength": "500 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/33080/diablo-500-mg-tablet"
+    },
+    {
+      "name": "Diablo",
+      "strength": "850 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/33081/diablo-850-mg-tablet"
+    },
+    {
+      "name": "Diafit",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/28777/diafit-500-mg-tablet"
+    },
+    {
+      "name": "Diafit",
+      "strength": "850 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28778/diafit-850-mg-tablet"
+    },
+    {
+      "name": "Diafre",
+      "strength": "500 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/5372/diafre-500-mg-tablet"
+    },
+    {
+      "name": "Diafre",
+      "strength": "850 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5373/diafre-850-mg-tablet"
+    },
+    {
+      "name": "Diamin",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/5374/diamin-500-mg-tablet"
+    },
+    {
+      "name": "Diamin",
+      "strength": "850 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5375/diamin-850-mg-tablet"
+    },
+    {
+      "name": "DMF",
+      "strength": "500 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/32504/dmf-500-mg-tablet"
+    },
+    {
+      "name": "DMF",
+      "strength": "850 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32505/dmf-850-mg-tablet"
+    },
+    {
+      "name": "Etform",
+      "strength": "500 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5377/etform-500-mg-tablet"
+    },
+    {
+      "name": "Etform",
+      "strength": "850 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5378/etform-850-mg-tablet"
+    },
+    {
+      "name": "Exformin ER",
+      "strength": "1000 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31944/exformin-er-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Exformin ER",
+      "strength": "500 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/31945/exformin-er-500-mg-xr-tablet"
+    },
+    {
+      "name": "Formet",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5379/formet-500-mg-tablet"
+    },
+    {
+      "name": "Formet",
+      "strength": "850 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5380/formet-850-mg-tablet"
+    },
+    {
+      "name": "Formet XR",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22094/formet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Formet XR",
+      "strength": "1000 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32835/formet-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "G-Metformin",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/5397/g-metformin-500-mg-tablet"
+    },
+    {
+      "name": "G-Metformin",
+      "strength": "850 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.60",
+      "url": "https://medex.com.bd/brands/5398/g-metformin-850-mg-tablet"
+    },
+    {
+      "name": "G-Phase",
+      "strength": "850 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5399/g-phase-850-mg-tablet"
+    },
+    {
+      "name": "G-Phase",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/29541/g-phase-500-mg-tablet"
+    },
+    {
+      "name": "Glimet",
+      "strength": "850 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5381/glimet-850-mg-tablet"
+    },
+    {
+      "name": "Glucomet",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5382/glucomet-500-mg-tablet"
+    },
+    {
+      "name": "Glucomet",
+      "strength": "850 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5383/glucomet-850-mg-tablet"
+    },
+    {
+      "name": "Glucomet XR",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5384/glucomet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Glucomet XR",
+      "strength": "750 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/5385/glucomet-xr-750-mg-xr-tablet"
+    },
+    {
+      "name": "Glucomin",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5386/glucomin-500-mg-tablet"
+    },
+    {
+      "name": "Glucomin",
+      "strength": "850 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5387/glucomin-850-mg-tablet"
+    },
+    {
+      "name": "Glucomin XR",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31702/glucomin-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Glucomin XR",
+      "strength": "1000 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/31703/glucomin-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Glunor",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5388/glunor-500-mg-tablet"
+    },
+    {
+      "name": "Glunor",
+      "strength": "850 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5389/glunor-850-mg-tablet"
+    },
+    {
+      "name": "Glunor OD",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32453/glunor-od-500-mg-oros-tablet"
+    },
+    {
+      "name": "Glunor XR",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5390/glunor-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Glutec",
+      "strength": "500 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5392/glutec-500-mg-tablet"
+    },
+    {
+      "name": "Glutec",
+      "strength": "850 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5393/glutec-850-mg-tablet"
+    },
+    {
+      "name": "Glymin",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5394/glymin-500-mg-tablet"
+    },
+    {
+      "name": "Glymin",
+      "strength": "850 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5395/glymin-850-mg-tablet"
+    },
+    {
+      "name": "Glymin XR",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5396/glymin-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Goodmet",
+      "strength": "500 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/33603/goodmet-500-mg-tablet"
+    },
+    {
+      "name": "Goodmet",
+      "strength": "850 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/33604/goodmet-850-mg-tablet"
+    },
+    {
+      "name": "Hi-met",
+      "strength": "850 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5401/hi-met-850-mg-tablet"
+    },
+    {
+      "name": "Info-500",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/5402/info-500-500-mg-tablet"
+    },
+    {
+      "name": "Info-850",
+      "strength": "850 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5403/info-850-850-mg-tablet"
+    },
+    {
+      "name": "Informet",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5404/informet-500-mg-tablet"
+    },
+    {
+      "name": "Informet",
+      "strength": "850 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/5405/informet-850-mg-tablet"
+    },
+    {
+      "name": "Informet LA",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5406/informet-la-500-mg-tablet"
+    },
+    {
+      "name": "Informet LA",
+      "strength": "750 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22092/informet-la-750-mg-tablet"
+    },
+    {
+      "name": "Informet LA",
+      "strength": "1000 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29092/informet-la-1000-mg-tablet"
+    },
+    {
+      "name": "Informet XR",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32489/informet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Informet XR",
+      "strength": "750 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/32490/informet-xr-750-mg-xr-tablet"
+    },
+    {
+      "name": "Insimet",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5407/insimet-500-mg-tablet"
+    },
+    {
+      "name": "Insimet",
+      "strength": "850 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5408/insimet-850-mg-tablet"
+    },
+    {
+      "name": "Insimet XR",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/22113/insimet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Kemin",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/5409/kemin-500-mg-tablet"
+    },
+    {
+      "name": "Kemin",
+      "strength": "850 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/5410/kemin-850-mg-tablet"
+    },
+    {
+      "name": "Kemin-SR",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5411/kemin-sr-500-mg-tablet"
+    },
+    {
+      "name": "M-Form",
+      "strength": "850 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/5451/m-form-850-mg-tablet"
+    },
+    {
+      "name": "M-Fort",
+      "strength": "500 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22080/m-fort-500-mg-tablet"
+    },
+    {
+      "name": "M-Fort",
+      "strength": "850 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22081/m-fort-850-mg-tablet"
+    },
+    {
+      "name": "M-min",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5452/m-min-500-mg-tablet"
+    },
+    {
+      "name": "M-min",
+      "strength": "850 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/5453/m-min-850-mg-tablet"
+    },
+    {
+      "name": "Mefin",
+      "strength": "500 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/27389/mefin-500-mg-tablet"
+    },
+    {
+      "name": "Mefin",
+      "strength": "850 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27390/mefin-850-mg-tablet"
+    },
+    {
+      "name": "Meforex",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/5412/meforex-500-mg-tablet"
+    },
+    {
+      "name": "Meforex",
+      "strength": "850 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5413/meforex-850-mg-tablet"
+    },
+    {
+      "name": "Meforin",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5414/meforin-500-mg-tablet"
+    },
+    {
+      "name": "Meforin",
+      "strength": "850 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5415/meforin-850-mg-tablet"
+    },
+    {
+      "name": "Meformin",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/5417/meformin-500-mg-tablet"
+    },
+    {
+      "name": "Meformin",
+      "strength": "850 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5418/meformin-850-mg-tablet"
+    },
+    {
+      "name": "Meglu",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5419/meglu-500-mg-tablet"
+    },
+    {
+      "name": "Meglu",
+      "strength": "850 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5420/meglu-850-mg-tablet"
+    },
+    {
+      "name": "Meglu ER",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5421/meglu-er-500-mg-xr-tablet"
+    },
+    {
+      "name": "Meglu ER",
+      "strength": "750 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22164/meglu-er-750-mg-xr-tablet"
+    },
+    {
+      "name": "Meglu ER",
+      "strength": "1000 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22165/meglu-er-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Met",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5422/met-500-mg-tablet"
+    },
+    {
+      "name": "Met",
+      "strength": "850 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5423/met-850-mg-tablet"
+    },
+    {
+      "name": "Met XR",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/5424/met-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Met XR",
+      "strength": "750 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/5425/met-xr-750-mg-xr-tablet"
+    },
+    {
+      "name": "Met XR",
+      "strength": "1000 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22135/met-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Metarin",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5426/metarin-500-mg-tablet"
+    },
+    {
+      "name": "Metarin",
+      "strength": "850 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5427/metarin-850-mg-tablet"
+    },
+    {
+      "name": "Metarin XR",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34436/metarin-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Metarin XR",
+      "strength": "1000 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34437/metarin-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Metcure",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.80",
+      "url": "https://medex.com.bd/brands/22103/metcure-500-mg-tablet"
+    },
+    {
+      "name": "Metcure",
+      "strength": "850 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/22104/metcure-850-mg-tablet"
+    },
+    {
+      "name": "Metfar",
+      "strength": "850 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5429/metfar-850-mg-tablet"
+    },
+    {
+      "name": "Metfar",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/27926/metfar-500-mg-tablet"
+    },
+    {
+      "name": "Metfar SR",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27927/metfar-sr-500-mg-sr-tablet"
+    },
+    {
+      "name": "Metfar SR",
+      "strength": "1000 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27928/metfar-sr-1000-mg-sr-tablet"
+    },
+    {
+      "name": "Metfen",
+      "strength": "850 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5432/metfen-850-mg-tablet"
+    },
+    {
+      "name": "Metfo",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5433/metfo-500-mg-tablet"
+    },
+    {
+      "name": "Metfo",
+      "strength": "850 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5434/metfo-850-mg-tablet"
+    },
+    {
+      "name": "Metfo XR",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/5435/metfo-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Metfo XR",
+      "strength": "750 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22137/metfo-xr-750-mg-xr-tablet"
+    },
+    {
+      "name": "Metfo XR",
+      "strength": "1000 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22138/metfo-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Metfomin",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/22088/metfomin-500-mg-tablet"
+    },
+    {
+      "name": "Metfomin",
+      "strength": "850 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22089/metfomin-850-mg-tablet"
+    },
+    {
+      "name": "Metforal",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/31080/metforal-500-mg-tablet"
+    },
+    {
+      "name": "Metforal",
+      "strength": "850 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31081/metforal-850-mg-tablet"
+    },
+    {
+      "name": "Metforal SR",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31082/metforal-sr-500-mg-sr-tablet"
+    },
+    {
+      "name": "Metform",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/5436/metform-500-mg-tablet"
+    },
+    {
+      "name": "Metform",
+      "strength": "850 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5437/metform-850-mg-tablet"
+    },
+    {
+      "name": "Metform ER",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5438/metform-er-500-mg-xr-tablet"
+    },
+    {
+      "name": "Metform ER",
+      "strength": "1000 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/32306/metform-er-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Metfosil",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/31480/metfosil-500-mg-tablet"
+    },
+    {
+      "name": "Metfosil",
+      "strength": "850 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31481/metfosil-850-mg-tablet"
+    },
+    {
+      "name": "Metguard",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/22112/metguard-500-mg-tablet"
+    },
+    {
+      "name": "Metin",
+      "strength": "850 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.96",
+      "url": "https://medex.com.bd/brands/5440/metin-850-mg-tablet"
+    },
+    {
+      "name": "Metin",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/22162/metin-500-mg-tablet"
+    },
+    {
+      "name": "Metle",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27172/metle-500-mg-tablet"
+    },
+    {
+      "name": "Metlife",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5441/metlife-500-mg-tablet"
+    },
+    {
+      "name": "Metlife",
+      "strength": "850 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/5442/metlife-850-mg-tablet"
+    },
+    {
+      "name": "Metmin",
+      "strength": "850 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/5444/metmin-850-mg-tablet"
+    },
+    {
+      "name": "Metmin",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27868/metmin-500-mg-tablet"
+    },
+    {
+      "name": "Metmin XR",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27867/metmin-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Metnaaf",
+      "strength": "850 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38966/metnaaf-850-mg-tablet"
+    },
+    {
+      "name": "Metnaaf",
+      "strength": "500 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/38967/metnaaf-500-mg-tablet"
+    },
+    {
+      "name": "Metnil",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5445/metnil-500-mg-tablet"
+    },
+    {
+      "name": "Metnor",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/22127/metnor-500-mg-tablet"
+    },
+    {
+      "name": "Metomin",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/5446/metomin-500-mg-tablet"
+    },
+    {
+      "name": "Metomin",
+      "strength": "850 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5447/metomin-850-mg-tablet"
+    },
+    {
+      "name": "Metsa",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5448/metsa-500-mg-tablet"
+    },
+    {
+      "name": "Metsa",
+      "strength": "850 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/5449/metsa-850-mg-tablet"
+    },
+    {
+      "name": "Metsa XR",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/5450/metsa-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Metsa XR",
+      "strength": "1000 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26840/metsa-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Metsa XR",
+      "strength": "750 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/36116/metsa-xr-750-mg-xr-tablet"
+    },
+    {
+      "name": "Minirfor",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22150/minirfor-500-mg-tablet"
+    },
+    {
+      "name": "Minirfor",
+      "strength": "850 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22151/minirfor-850-mg-tablet"
+    },
+    {
+      "name": "Nobesit",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5454/nobesit-500-mg-tablet"
+    },
+    {
+      "name": "Nobesit",
+      "strength": "850 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5455/nobesit-850-mg-tablet"
+    },
+    {
+      "name": "Nobesit XR",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22114/nobesit-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Nobesit XR",
+      "strength": "1000 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22116/nobesit-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "NVmet",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5456/nvmet-500-mg-tablet"
+    },
+    {
+      "name": "NVmet",
+      "strength": "850 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5457/nvmet-850-mg-tablet"
+    },
+    {
+      "name": "NVmet SR",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5458/nvmet-sr-500-mg-sr-tablet"
+    },
+    {
+      "name": "Obemet",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5459/obemet-500-mg-tablet"
+    },
+    {
+      "name": "Obemet",
+      "strength": "850 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5460/obemet-850-mg-tablet"
+    },
+    {
+      "name": "Obid",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5461/obid-500-mg-tablet"
+    },
+    {
+      "name": "Obid",
+      "strength": "850 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5462/obid-850-mg-tablet"
+    },
+    {
+      "name": "Onmet",
+      "strength": "850 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/22119/onmet-850-mg-tablet"
+    },
+    {
+      "name": "Onmet",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/22120/onmet-500-mg-tablet"
+    },
+    {
+      "name": "Oramet",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5463/oramet-500-mg-tablet"
+    },
+    {
+      "name": "Oramet",
+      "strength": "850 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5464/oramet-850-mg-tablet"
+    },
+    {
+      "name": "Oramet-SR",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5465/oramet-sr-500-mg-sr-tablet"
+    },
+    {
+      "name": "Oramet-SR",
+      "strength": "1000 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/5466/oramet-sr-1000-mg-sr-tablet"
+    },
+    {
+      "name": "Ormin",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/5467/ormin-500-mg-tablet"
+    },
+    {
+      "name": "Ormin",
+      "strength": "850 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.01",
+      "url": "https://medex.com.bd/brands/5468/ormin-850-mg-tablet"
+    },
+    {
+      "name": "Pimin",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/5469/pimin-500-mg-tablet"
+    },
+    {
+      "name": "Pimin",
+      "strength": "850 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/5470/pimin-850-mg-tablet"
+    },
+    {
+      "name": "Polimet",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22099/polimet-500-mg-tablet"
+    },
+    {
+      "name": "Polimet",
+      "strength": "850 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22100/polimet-850-mg-tablet"
+    },
+    {
+      "name": "Radimet",
+      "strength": "500 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22145/radimet-500-mg-tablet"
+    },
+    {
+      "name": "Radimet",
+      "strength": "850 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22146/radimet-850-mg-tablet"
+    },
+    {
+      "name": "Radimet XR",
+      "strength": "500 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22147/radimet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Ruzmet",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.33",
+      "url": "https://medex.com.bd/brands/5471/ruzmet-500-mg-tablet"
+    },
+    {
+      "name": "SB-Met",
+      "strength": "500 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22157/sb-met-500-mg-tablet"
+    },
+    {
+      "name": "SB-Met",
+      "strength": "850 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22158/sb-met-850-mg-tablet"
+    },
+    {
+      "name": "SB-Met",
+      "strength": "1000 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27371/sb-met-1000-mg-tablet"
+    },
+    {
+      "name": "SB-Met XR",
+      "strength": "500 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22159/sb-met-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "SB-Met XR",
+      "strength": "1000 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22160/sb-met-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Sucomet",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.45",
+      "url": "https://medex.com.bd/brands/5473/sucomet-500-mg-tablet"
+    },
+    {
+      "name": "Sucomet",
+      "strength": "850 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/5474/sucomet-850-mg-tablet"
+    },
+    {
+      "name": "Sugamet",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5475/sugamet-500-mg-tablet"
+    },
+    {
+      "name": "Sugamet",
+      "strength": "850 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/5476/sugamet-850-mg-tablet"
+    },
+    {
+      "name": "Sugamet XR",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32039/sugamet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Sugamet XR",
+      "strength": "1000 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/32040/sugamet-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Sumin",
+      "strength": "500 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22136/sumin-500-mg-tablet"
+    },
+    {
+      "name": "Umet",
+      "strength": "500 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/38975/umet-500-mg-tablet"
+    },
+    {
+      "name": "Uride",
+      "strength": "850 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/34993/uride-850-mg-tablet"
+    },
+    {
+      "name": "Verimet",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/22166/verimet-500-mg-tablet"
+    },
+    {
+      "name": "Verimet",
+      "strength": "850 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/22167/verimet-850-mg-tablet"
+    },
+    {
+      "name": "Wellmet",
+      "strength": "850 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31156/wellmet-850-mg-tablet"
+    },
+    {
+      "name": "Wellmet",
+      "strength": "500 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/31157/wellmet-500-mg-tablet"
+    },
+    {
+      "name": "Xelmet",
+      "strength": "850 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/29186/xelmet-850-mg-tablet"
+    },
+    {
+      "name": "Xelmet",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32367/xelmet-500-mg-tablet"
+    },
+    {
+      "name": "Xelmet XR",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34847/xelmet-xr-500-mg-xr-tablet"
+    },
+    {
+      "name": "Xelmet XR",
+      "strength": "1000 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35845/xelmet-xr-1000-mg-xr-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Metformin Hydrochloride tablet is indicated for the treatment of type 2 diabetes mellitus, particularly in overweight patients when dietary management and exercise alone does not result in adequate glycaemic control.\n\n- **In adults**: Metformin may be used as monotherapy or in combination with other oral antidiabetic agents or with insulin.\nMetformin Hydrochloride tablet is indicated for the treatment of type 2 diabetes mellitus, particularly in overweight patients when dietary management and exercise alone does not result in adequate glycaemic control.\n\n- **In adults**: Metformin may be used as monotherapy or in combination with other oral antidiabetic agents or with insulin.\n- **In children from 10 years of age and adolescents**: Metformin may be used as monotherapy or in combination with insulin.\n\r\nA reduction of diabetic complications has been shown in overweight type 2 diabetic adult patients treated with metformin as first-line therapy after diet failure.",
+    "mode_of_action": "Metformin is a biguanide type oral antihyperglycemic drug used in the management of type 2 diabetes. It lowers both basal and postprandial plasma glucose. Its mechanism of action is different from those of sulfonylureas and it does not produce hypoglycemia. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose and improves insulin sensitivity by an increase in peripheral glucose uptake and utilization.",
+    "dosage": "**Metformin immediate release tablet**: Dosage of Metformin Hydrochloride must be individualized on the basis of both effectiveness and tolerance, while not exceeding the maximum recommended daily doses.\n\n- **Adult**: The usual starting dose of Metformin is 500 mg twice a day or 850 mg once a day, given with meals. Dosage increases should be made in increments of 500 mg weekly or 850 mg every 2 weeks, up to a total of 2000 mg per day, given in divided doses. For those patients requiring additional glycemic control, Glucomin may be given to a maximum daily dose of 2550 mg per day. Doses above 2000 mg may be better tolerated given three times a day with meals.\n- **Children**: The usual starting dose of Metformin is 500 mg twice a day, given with meals. Dosage increases should be made in increments of 500 mg weekly up to a maximum of 2000 mg per day, given in divided doses.\n\n**Metformin extended release tablet**: Swallow Metformin XR tablet whole and never crush, cut or chew.\n\n- **Adult**: The usual starting dose of Metformin XR is 500 mg once daily with the evening meal. Dose should be increased in increments of 500 mg weekly, up to a maximum of 2000 mg once daily with the evening meal, alternatively increased to 1000 mg twice daily taken with meal. Patient receiving Metformin immediate release tablet may be switched to Metformin extended release tablet up to a maximum recommended daily dose.\n- **Children**: Metformin extended release tablet has not been studied in children.\n- **Renal impaired patient**: Do not use Metformin in patients with eGFR below 30 mL/min/1.73 m2. Asses risk/benefit of counting if eGFR falls below 45 mL/min/1.73 m2.",
+    "interaction": "No information is available about the interaction of Metformin and Furosemide when co-administered chronically. Nifedipine appears to enhance the absorption of Metformin. Metformin had minimal effects on Nifedipine. Cationic drugs (e.g., Amiloride, Digoxin, Morphine, Procainamide, Quinidine, Quinine, Triamterene, Trimethoprim, or Vancomycin) that are eliminated by renal tubular secretion theoretically have the potential for interaction with Metformin by competing for common renal tubular transport systems. Metformin had no effect on Cimetidine pharmacokinetics. Certain drugs tend to produce hyperglycemia and may lead to loss of glycemic control. These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, Estrogens, Oral contraceptives, Phenytoin, Nicotinic Acid, sympathomimetics, calcium channel blocking drugs, and Isoniazid.",
+    "contraindications": "- Hypersensitivity to the active substance or to any of the excipients.\n- Any type of acute metabolic acidosis (such as lactic acidosis, diabetic ketoacidosis).\n- Severe renal failure (GFR <30 mL/min).\n- Acute conditions with the potential to alter renal function such as: dehydration, severe infection, shock.\n- Acute or chronic disease, which may cause tissue hypoxia such as: cardiac or respiratory failure, recent myocardial infarction, shock, Hepatic insufciency, acute alcohol intoxication, alcoholism.",
+    "side_effects": "**Blood and lymphatic system disorders**: Not known: Hemolytic anemia\n\n**Metabolism and nutrition disorders**: Very rare: Lactic acidosis. Decrease of vitamin B12 absorption with a decrease of serum levels during long-term use of metformin. Consideration of such etiology is recommended if a patient presents with megaloblastic anemia. Cases of peripheral neuropathy in patients with vitamin B12 deficiency have been reported in post-marketing experience (frequency not known)\n\n**Nervous system disorder**s: Common: Taste disturbance. Not known: Encephalopathy\n\n**Gastrointestinal disorders**: Very common: Gastrointestinal disorders, such as nausea, vomiting, diarrhea, abdominal pain, and loss of appetite. These undesirable effects occur most frequently during the initiation of therapy and resolve spontaneously in most cases. To prevent them, it is recommended that metformin be taken in 2 or 3 daily doses during or after meals. A slow increase of the dose may also improve gastrointestinal tolerability.\n\n**Hepatobiliary disorders**: Very rare: Isolated reports of liver function test abnormalities or hepatitis resolving upon metformin discontinuation.\n\n**Skin and subcutaneous tissue disorders**: Very rare: Skin reactions, such as erythema, pruritus, urticaria.",
+    "pregnancy_cat": "**Pregnancy**: Uncontrolled diabetes during pregnancy (gestational or permanent) is associated with an increased risk of congenital abnormalities and perinatal mortality. When the patient plans to become pregnant and during pregnancy, it is recommended that diabetes is not treated with metformin but insulin be used to maintain blood glucose levels as close to normal as possible, to reduce the risk of malformations of the foetus.\n\n**Breastfeeding**: Metformin is excreted into human breast milk. No adverse efects were observed in breastfed newborns/infants. However, as only limited data are available, breastfeeding is not recommended during metformin treatment. A decision on whether to discontinue breastfeeding should be made, taking into account the benefit of breastfeeding and the potential risk to adverse effects on the child.",
+    "precautions": "Metformin Hydrochloride is known to be substantially excreted by the kidney and the risk of Metformin accumulation and lactic acidosis increases with the degree of impairment of renal function. Metformin may lower vitamin B12 level. It also increases risk of hypoglycemia when use in combination with insulin or insulin secretagogue.\n\nMetformin Hydrochloride is excreted by the kidney and regular monitoring of renal function is advised in all diabetics. Metformin Hydrochloride therapy should be stopped 2-3 days before surgery and clinical investigations such as intravenous urography and intravenous angiography, and reinstated only after control or renal function has been regained. The use of Metformin is not advised in conditions which may cause dehydration or in patients suffering from serious infections or trauma. Patients receiving continuous Metformin therapy should have an annual estimation of Vitamin B-12 levels because of reports of decreased Vitamin B-12 absorption. During concomitant therapy with a sulphonylurea, blood glucose should be monitored because combined therapy may cause hypoglycaemia. Stabilization of diabetic patients with Metformin and insulin should be carried out in hospital because of the possibility of hypoglycaemia until the correct ratio of the two drugs has been obtained. Reduced renal clearance of Metformin Hydrochloride has been reported during cimetidine therapy, so a dose reduction should be considered. As with a number of drugs, an interaction between Metformin Hydrochloride and anticoagulants is a possibility and dosage of the latter may need adjustment.",
+    "pediatric_uses": "**Elderly**: Due to the potential for decreased renal function in elderly subjects, the metformin dosage should be adjusted based on renal function. Regular assessment of renal function is necessary.\n\n**Pediatric population**: The diagnosis of type 2 diabetes mellitus should be confirmed before treatment with metformin is initiated. No effect of metformin on growth and puberty has been detected during controlled clinical studies of one-year duration but no long-term data on these specific points are available. Therefore, a careful follow-up of the effect of metformin on these parameters in metformin-treated children, especially prepubescent children, is recommended.\n\n**Children aged between 10 and 12 years**: Particular caution is recommended when prescribing to children aged between 10 and 12 years.\n\n**Renal function**: As metformin is excreted by the kidney, creatinine clearance (this can be estimated from serum creatinine levels by using the Cockcroft-Gault formula) should be determined before initiating treatment and regularly thereafter:\n\n- At least annually in patients with normal renal function,\n- At least two to four times a year in patients with creatinine clearance at the lower limit of normal and in elderly subjects.\n\r\nDecreased renal function in elderly subjects is frequent and asymptomatic. Special caution should be exercised in situations where renal function may become impaired, for example when initiating antihypertensive therapy or diuretic therapy and when starting therapy with a non-steroidal anti-inflammatory drug (NSAID). GFR should be assessed before treatment initiation and regularly thereafter. Metformin is contraindicate in patients with GFR<30 ml/min and should be temporarily discontinued in the presence of conditions that alter renal function.",
+    "overdose_effects": "Hypoglycemia has not been seen with Metformin doses up to 85 gm, although lactic acidosis has occurred in such circumstances. Lactic acidosis is a medical emergency and must be treated in hospital. The most effective method to remove lactate and Metformin is hemodialysis.",
+    "drug_classes": "Biguanides",
+    "storage_conditions": "Keep below 30°C temperature, protected from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "মেটফরমিন টাইপ-২ ডায়াবেটিস মেলাইটাস ... Read moreমেটফরমিন টাইপ-২ ডায়াবেটিস মেলাইটাস এর চিকিৎসায় নির্দেশিত বিশেষ করে যেসব রোগীর ওজন মাত্রাতিরিক্ত এবং এককভাবে খাদ্যাভ্যাস নিয়ন্ত্রণ ও শরীরচর্চার মাধ্যমে রক্তের গ্লুকোজের পরিমাণ পর্যাপ্ত পরিমানে নিয়ন্ত্রণ হয় না।\n\n- **প্রাপ্ত বয়স্কদের****ক্ষেত্রে**: মেটফরমিন একক চিকিৎসা হিসেবে অথবা মুখে সেব্য অন্য ডায়াবেটিস নিয়ন্ত্রণকারী ওষুধের সাথে অথবা ইনসুলিনের সাথে ব্যবহৃত হতে পারে।\n- **শিশুদের ক্ষেত্রে ১০ বছর বয়স থেকে এবং কিশোরদের****জন্য**: মেটফরমিন একক চিকিৎসা হিসেবে অথবা ইনসুলিনের সাথে ব্যবহৃত হতে পারে।\n\r\nমাত্রাতিরিক্ত ওজনের প্রাপ্ত বয়স্ক টাইপ-২ ডায়াবেটিস রোগীদের ক্ষেত্রে দেখা গেছে, খাদ্যাভ্যাস নিয়ন্ত্রণে কাজ না হলে প্রথম সারির চিকিৎসা হিসেবে মেটফরমিন ব্যবহার করলে ডায়াবেটিসের জটিলতা হ্রাস পায়।",
+    "mode_of_action": "মেটফরমিন হচ্ছে বাইগুয়ানাইড ধরনের মুখে সেব্য ডায়াবেটিস বিরোধী ঔষধ যা টাইপ ২ ডায়াবেটিস নিয়ন্ত্রণে ব্যবহার করা হয়। এটি স্বাভাবিক অবস্থায় ও খাবারের পর রক্তে Glucose এর পরিমাণ কমায়। এর কার্যপ্রনালী সালফোনাইলইউরিয়া থেকে ভিন্ন এবং এটি হাইপোগ্লাইসেমিয়া করে না। মেটফরমিন যকৃতের Glucose এর উৎপাদন কমায়, অন্ত্রের Glucose শোষণ কমায় এবং পেরিফেরাল Glucose গ্রহণ ও ব্যবহারকে বৃদ্ধি করার মাধ্যমে ইনসুলিনের সংবেদনশীলতা উন্নতি করে।",
+    "dosage": "**মেটফরমিন ইমিডিয়েট রিলিজ ট্যাবলেট**: কার্যকারিতা ও সহনশীলতার ভিত্তিতে মেটফরমিন এর নিজস্ব মাত্রা থাকবে যেন উহা উল্লে­খিত দৈনিক মাত্রা অতিক্রম না করে।\n\n- **প্রাপ্ত বয়স্কদের**: সাধারনত প্রারম্ভিক সেবনমাত্রা হচ্ছে মেটফরমিন ৫০০ মিঃগ্রাঃ দিনে দুইবার অথবা ৮৫০ মিঃগ্রাঃ দিনে একবার খাবারের সাথে। ঔষধের মাত্রা সপ্তাহে ৫০০ মিঃগ্রাঃ অথবা প্রতি দুই সপ্তাহে ৮৫০ মিঃগ্রাঃ করে বাড়ানো উচিত, এভাবে বিভক্ত মাত্রায় দৈনিক ২০০০ মিঃগ্রাঃ পর্যন্ত দেয়া যায়। যেসব রোগীদের অধিক Glucose এর নিয়ন্ত্রন দরকার, তাদের ক্ষেত্রে মেটফরমিন সর্বোচ্চ দৈনিক ২৫৫০ মিঃগ্রাঃ পর্যন্ত দেয়া যেতে পারে। ঔষধের মাত্রা ২০০০ মিঃগ্রাঃ এর বেশী হলে দৈনিক তিনবার খাবারের সাথে খেলে অধিকতর সহনীয় হতে পারে।\n- **শিশুদের**: সাধারনত প্রারম্ভিক সেবনমাত্রা হচ্ছে মেটফরমিন ৫০০ মিঃগ্রাঃ দিনে দুইবার খাবারের সাথে। ঔষধের মাত্রা সপ্তাহে ৫০০ মিঃগ্রাঃ করে বাড়ানো উচিত, এভাবে বিভক্ত মাত্রায় দৈনিক ২০০০ মিঃগ্রাঃ পর্যন্ত দেয়া যায়।\n\n**মেটফরমিন এক্সটেন্ডেড রিলিস ট্যাবলেটে**: ইহা পুরোটা একসাথে মুখে সেবন করতে হবে এবং কখনও পিষে, কাটা বা চিবানো যাবে না।\n\n- **প্রাপ্তবয়স্কদের**: মেটফরমিন এক্স.আর. এর সাধারণ প্রারম্ভিক মাত্রা হচ্ছে রাতের খাবারের সাথে দৈনিক ৫০০ মিলিগ্রাম করে একবার। মাত্রা ৫০০ মিলিগ্রাম করে সাপ্তাহিকভাবে বৃদ্ধি করে দৈনিক সর্বোচ্চ ২০০০ মিলিগ্রাম পর্যন্ত বৃদ্ধি করা যাবে এবং রাতের খাবারের সাথে একবারে সেবন করতে হবে অথবা ১০০০ মিলিগ্রাম করে দিনে দুইবার খাবারের সাথে সেবন করতে হবে। মেটফরমিন ইমিডিয়েট রিলিজ ট্যাবলেট গ্রহণকারী রোগী তাদের নির্দেশিত সর্বোচ্চ দৈনিক মাত্রা ঠিক রেখে মেটফরমিন এক্সটেন্ডেড রিলিস ট্যাবলেটে স্যুইচ করতে পারবে।\n- **শিশুদের**: শিশুদের ক্ষেত্রে মেটফরমিন এক্সটেন্ডেড রিলিজ ট্যাবলেট এর উপর কোন গবেষণা হয়নি।\n- **কিডনির সমস্যাজনিত রোগীদের**: যে সকল রোগীদের eGFR ৩০ মিঃলিঃ/মিনিট/১.৭৩ মি২ এর নিচে, তাদের ক্ষেত্রে মেটফরমিন ব্যবহার করা যাবে না। eGFR ৪৫ মিঃলিঃ/মিনিট/১.৭৩ মি২ এর নিচে হলে মেটফরমিন ব্যবহারের ক্ষেত্রে ক্ষতি/সুবিধা বিবেচনা করতে হবে।",
+    "interaction": "মেটফরমিন ও ফিউরোসেমাইড একত্রে সেবনে দীর্ঘমেয়াদী কোন প্রতিক্রিয়ার তথ্য পাওয়া যায়নি। নিফিডিপিন মেটফরমিনের শোষণ বাড়ালেও নিফিডিপিনের উপর মেটফরমিনের সামান্য প্রভাব পরিলক্ষিত হয়। ক্যাটায়নিক ড্রাগ (যেমন: অ্যামিলোরাইড, ডিগোক্সিন, মরফিন, প্রোকেইনামাইড, কুইনিডিন, কুইনিন, ট্রায়ামটিরিন, ট্রাইমিথোপ্রিম অথবা ভেনকোমাইসিন) যারা কিডনির মাধ্যমে নিষ্কাশিত হয়, সেসব ক্ষেত্রে নিষ্কাশিত হবার সময় মেটফরমিনের সাথে প্রতিযোগিতার সম্মুখীন হতে পারে। সিমেটিডিনের ফার্মাকোকাইনেটিক বৈশিষ্ট্যের উপর মেটফরমিনের কোন প্রভাব নেই। কিছু কিছু ঔষধ যেমন থায়াজাইড এবং অন্যান্য মূত্রবর্ধক, কর্টিকোস্টেরয়েড, ফেনোথায়াজিন, থাইরয়েড প্রডাক্ট, ইস্ট্রোজেন, মুখে খাবার জন্মনিরোধক, ফিনাইটোয়েন, নিকোটিনিক এসিড, সিমপ্যাথোমিমেটিক ক্যালসিয়াম চ্যানেল ব্লকার এবং আইসোসরবাইড হাইপোগ্লাইসেমিয়া তৈরি করতে পারে এবং এসব ঔষধ গ্রহণের ক্ষেত্রে সাবধানতা অবলম্বন করতে হবে।",
+    "contraindications": "- সক্রিয় উপাদানের প্রতি অথবা যে কোন উপাদানের প্রতি অতিসংবেদনশীলতার ক্ষেত্রে।\n- যেকোনো ধরনের বিপাকীয় এসিডোসিস যেমন ল্যাকটিক এসিডোসিস (শরীরে ল্যাকটেট এর পরিমাণ বৃদ্ধি), ডায়াবেটিক কিটোএসিডোসিস (রক্তে কিটোনবডির পরিমাণ বৃদ্ধি পাওয়া)\n- কিডনীর মারাত্মক বিপর্যয় (জিএফআর <৩০ মিলি/মিনিট)।\n- সঙ্কটজনক অবস্থা যা কিডনীর কার্যকারিতাকে পরিবর্তন করে যেমন- পানিশূন্যতা, মারাত্মক সংক্রমণ, শক।\n- তীব্র অথবা দীর্ঘমেয়াদী রোগ যা টিস্যুর অক্সিজেনের পরিমাণ কমাতে পারে যেমন- হৃদপিন্ড অথবা শ্বাসনালীর অকার্যকারিতা, সাম্প্রতিক মায়োকার্ডিয়াল ইনফার্কশন (হৃদপিন্ডের আন্তঃকোষের ক্ষয়), শক, যকৃতের অকার্যকারিতা, মদ জাতীয় পানীয়র মারাত্মক নেশা, মদ জাতীয় পানীয়র প্রতি অতি আসক্তি।",
+    "side_effects": "**রক্ত এবং লসিকানালী সংক্রান্ত সমস্যা**: জানা যায়নি: হেমোলাইটিক এ্যানিমিয়া (রক্ত কণিকা বিধ্বংসী রক্তস্বল্পতা)\n\n**পরিপাক এবং পুষ্টি সংক্রান্ত সমস্যা**: খুবই বিরল: ল্যাকটিক এসিডোসিস (শরীরে ল্যাকটেট এর পরিমাণ বৃদ্ধি)। দীর্ঘ-দিন মেটফরমিন গ্রহণে ভিটামিন বি১২ এর শোষণ হ্রাসের সাথে রক্তে ভিটামিন বি১২ এর পরিমান কমতে পারে। যদি রোগীর ম্যাগালোব্লাসটিক এ্যানিমিয়া (রক্ত কণিকার আকার বৃদ্ধিজনিত রক্তস্বল্পতা) উপস্থিত থাকে সে ক্ষেত্রে বিশেষ বিবেচনা নির্দেশিত হবে। বিক্রয় পরবর্তী অভিজ্ঞতায় ভিটামিন বি১২ এর ঘাটতির রোগীদের পেরিফেরাল নিউরোপ্যাথি (পার্শ্বিয় স্নায়ুতন্ত্রের প্রদাহ) হওয়ার তথ্য পাওয়া গেছে (পুনরাবৃত্তির তথ্য জানা যায়নি)।\n\n**স্নায়ুতন্ত্র সংক্রান্ত সমস্যা**: সাধারণ: খাবারের স্বাদ গ্রহণ সংক্রান্ত সমস্যা, জানা যায়নি: এনসেফ্যালোপ্যাথি (মস্তিষ্কের রোগ)। \n\n**পরিপাকতন্ত্র সংক্রান্ত সমস্যা**: খুব সাধারণ: পরিপাকতন্ত্র সংক্রান্ত সমস্যা যেমন বমিবমি ভাব, বমি, ডায়রিয়া, পেটের ব্যথা এবং ক্ষুধামান্দ্য। চিকিৎসার শুরু দিকে এইসমস্ত উপসর্গ প্রায়শই ঘটে থাকে এবং অধিকাংশ ক্ষেত্রে অনায়াসে সমাধান হয়ে যায়। এইসব বিরূপ প্রতিক্রিয়াসমূহ প্রতিরোধ করতে মেটফরমিন এর মাত্রা দৈনিক ২ অথবা ৩টি ভাগে প্রয়োগ নির্দেশিত এবং ওষুধটির মাত্রা বৃদ্ধি ধীর গতিতে করতে হবে। মাত্রার ধীর গতিতে বৃদ্ধি পরিপাকতন্ত্র সংক্রান্ত সহনশীলতার সক্ষমতাকে উন্নত করে।\n\n**হেপাটোবিলিয়ারি (যকৃত ও পিত্ত সংক্রান্ত) সমস্যা**: খুবই বিরল: যকৃতের পরীক্ষায় অস্বাভাবিক কার্যকারিতা অথবা যকৃতের প্রদাহের মত বিচ্ছিন্ন ফলাফল পাওয়া যায় যা মেটফরমিন প্রত্যাহারের মাধ্যমে সমাধান করা হয়।\n\n**ত্বক ও ত্বকের নিচের কলার রোগ**: খুবই বিরল: ত্বকের প্রতিক্রিয়াসমূহ যেমন- ফুসকুড়ি, চুলকানি, আর্টিক্যারিয়া।",
+    "pregnancy_cat": "গর্ভাবস্থায় (গর্ভকালীন অথবা স্থায়ী) অনিয়ন্ত্রিত ডায়াবেটিস শিশুর জন্মগত অস্বাভাবিকতা এবং পেরিন্যাটাল (জন্মের পর এক থেকে চার সপ্তাহ সময়কাল) মৃত্যুহার এর ঝুঁকি বৃদ্ধির সাথে জড়িত। ভ্রুণের বিকলাঙ্গতার ঝুঁকি কমাতে, রোগী গর্ভধারণের পরিকল্পনা করলে এবং গর্ভধারণের সময় মেটফরমিন দিয়ে ডায়াবেটিসের চিকিৎসা নির্দেশিত নয় কিন্তু রক্তের গ্লুকোজের পরিমান যতটা সম্ভব স্বাভাবিকের কাছাকাছি বজায় রাখার জন্য ইনসুলিন প্রয়োগ করতে হবে।\n\nস্তন্যদানকালে: মেটফরমিন মায়ের বুকের দুধের মাধ্যমে নি:সৃত হয়। স্তন্যদানকালে নবজাতকের কোন বিরূপ প্রতিক্রিয়া পরিলক্ষিত হয়নি। তবুও যেহেতু এক্ষেত্রে সীমিত তথ্য পাওয়া গেছে তাই মেটফরমিন দিয়ে চিকিৎসা চলাকালে স্তন্যদান নির্দেশিত নয়। স্তন্যদানের উপকারিতা এবং শিশুর উপর সম্ভাব্য বিরূপ প্রতিক্রিয়াসমূহের প্রভাব বিবেচনা করে মা স্তন্যদান বন্ধ রাখবে কিনা এই সিদ্ধান্ত গ্রহণ করা উচিত।",
+    "precautions": "মেটফরমিন হাইড্রোক্লোরাইড কিডনির মাধ্যমে দেহ থেকে ধীরে ধীরে বের হয়। তাই শরীরে মেটফরমিন জমা হওয়া ও ল্যাকটিক এসিডোসিস হওয়ার সম্ভাবনা কিডনির অক্ষমতার মাত্রার উপর নির্ভর করে। মেটফরমিন শরীরে ভিটামিন বি১২ এর পরিমাণ কমায় এবং ইনসুলিন বা ইনসুলিন সিক্রেটোগগ এর সাথে একত্রে ব্যবহারে হাইপোগ্লাইসেমিয়া হওয়ার ঝুঁকি বাড়ায়।",
+    "pediatric_uses": "**বয়স্কদের ক্ষেত্রে**: বয়স্কদের ক্ষেত্রে কিডনীর কার্যকারিতা হ্রাসের সম্ভাবনা থাকায় কিডনীর কার্যকারিতার উপর ভিত্তি করে মেটফরমিনের মাত্রা সমন্বয় করা উচিত। সেক্ষেত্রে নিয়মিত কিডনীর কার্যকারিতা পর্যবেক্ষণ করা প্রয়োজন।\n\n**শিশুদের ক্ষেত্রে**: শিশুদের ক্ষেত্রে মেটফরমিন দিয়ে চিকিৎসা শুরুর পূর্বে রোগ নির্নয় করে নিশ্চিত হতে হবে যে, রোগীর টাইপ-২ ডায়াবেটিস মেলাইটাস রয়েছে।\n\nএক বছর ধরে করা নিয়ন্ত্রিত ক্লিনিক্যাল পরীক্ষায় শিশুর স্বাভাবিক বৃদ্ধি এবং বয়:সন্ধি কালীন বৃদ্ধির উপর মেটফরমিনের কোন প্রভাব পাওয়া যায়নি এবং এই সুনির্দিষ্ট বিষয়ের উপর দীর্ঘমেয়াদী কোন তথ্য নেই। তাই এসব বিষয়ের উপর মেটফরমিন দ্বারা চিকিৎসাধীন শিশুদের বিশেষভাবে বয়:সন্ধি পূর্ববর্তী শিশুদের উপর মেটফরমিনের প্রভাবের একটি নিবিড় পর্যবেক্ষণ নির্দেশিত।\n\n**১০ থেকে ১২ বছর বয়সী শিশুদের ক্ষেত্রে**: ১০ থেকে ১২ বছর বয়সী শিশুদের ক্ষেত্রে ওষুধটির ব্যবস্থাপত্র দেওয়ার সময় বিশেষ সতর্কতা অবলম্বন নির্দেশিত।\n\n**কিডনীর কার্যকারিতার উপর প্রভাব**: যেহেতু মেটফরমিন কিডনী দ্বারা নিঃসৃত হয় তাই চিকিৎসা শুরুর পূর্বেই ক্রিয়েটিনিন ক্লিয়ারেন্স (ককক্রফট-গল্ট সূত্র ব্যবহার করে রক্তে ক্রিয়েটিনিনের পরিমান থেকে এটি নির্ধারণ করা যাবে) নির্ধারণ করতে হবে এবং তারপর-\n\n- যেসব রোগীর কিডনীর কার্যকারিতা স্বাভাবিক রয়েছে তাদের ক্ষেত্রে বছরে কমপক্ষে একবার ক্রিয়েটিনিন ক্লিয়ারেন্স পর্যবেক্ষণ করতে হবে।\n- বয়স্ক রোগী এবং যেসব রোগীর ক্রিয়েটিনিন ক্লিয়ারেন্স মান স্বাভাবিকের নিম্নতম মাত্রায় রয়েছে তাদের বছরে কমপক্ষে দুই থেকে চার বার ক্লিয়ারেন্স পর্যবেক্ষণ করতে হবে।\n\n**বয়স্ক রোগীর ক্ষেত্রে**: কিডনীর কার্যকারিতা হ্রাসের ঘটনা প্রায়শই ঘটে এবং তা উপসর্গবিহীন হয়। কিডনীর কার্যকারিতা ক্ষতিগ্রস্ত করতে পারে এমন বিষয় যেমন প্রারম্ভিক ভাবে রক্তচাপ নিয়ন্ত্রণকারী ওষুধ অথবা মুত্রবর্ধক ওষুধ দিয়ে চিকিৎসা করার সময় এবং ব্যথানাশক ওষুধ দিয়ে চিকিৎসা শুরুর সময় বিশেষ সতর্কতা অবলম্বন করা উচিত।\n\nচিকিৎসা শুরুর পূর্বে এবং পরবর্তীর্তে নিয়মিতভাবে জিএফআর পরিমাপ করা উচিৎ। জিএফআর <৩০ মিলি/মিনিট রয়েছে এমন রোগীদের ক্ষেত্রে মেটফরমিন নিষিদ্ধ এবং কিডনীর কার্যকারিতা পরিবর্তন হয় এমন অবস্থার উপস্থিতিতে মেটফরমিন সাময়িকভাবে প্রত্যাহার করা উচিৎ।",
+    "overdose_effects": "মেটফরমিন ৮৫ গ্রাম পর্যন্ত সেবনে হাইপোগ্লাইসেমিয়া দেখা যায়নি, যদিও ল্যাকটিক অ্যাসিডোসিস হওয়ার তথ্য আছে। এক্ষেত্রে ল্যাকটিক অ্যাসিডোসিস এর চিকিৎসা করা জরুরি এবং রোগীকে জরুরী ভিত্তিতে হাসপাতালে নিয়ে চিকিৎসা করা উচিত। ল্যাকটেট এবং মেটফরমিন অপসারণের সবচেয়ে কার্যকর পদ্ধতি হিমোডায়ালাইসিস।",
+    "drug_classes": "Biguanides",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০° সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/734/metformin-hydrochloride",
+  "source_url_bn": "https://medex.com.bd/generics/734/metformin-hydrochloride/bn",
+  "scraped_at": "2026-10-10T18:29:14+00:00"
+}

@@ -4,7 +4,7 @@
 - Therapeutic Class: Second generation cephalosporins
 - Available Dosage Forms: Tablets & Oral Suspension, Injection
 - Source URL: https://medex.com.bd/generics/226/cefuroxime-axetil
-- Retrieved At (UTC): 2026-10-10T15:47:51+00:00
+- Retrieved At (UTC): 2026-10-10T18:15:46+00:00
 
 > Medical Notice: Reference information extracted from public database. Always verify with qualified medical practitioners before clinical use.
 

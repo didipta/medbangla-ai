@@ -1,0 +1,192 @@
+{
+  "slug": "diclofenac_sodium",
+  "name_en": "Diazepam",
+  "name_bn": "Diazepam",
+  "therapeutic_class": "Benzodiazepine sedatives, Centrally acting Skeletal Muscle Relaxants, Primary anti-epileptic drugs",
+  "dosage_forms": [
+    "Tablets",
+    "Injection",
+    "Rectal Gel"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Azepam",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/4218/azepam-5-mg-tablet"
+    },
+    {
+      "name": "D-Pam",
+      "strength": "5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.68",
+      "url": "https://medex.com.bd/brands/4220/d-pam-5-mg-tablet"
+    },
+    {
+      "name": "Diazimet",
+      "strength": "5 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.50",
+      "url": "https://medex.com.bd/brands/4219/diazimet-5-mg-tablet"
+    },
+    {
+      "name": "Easium",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/4221/easium-5-mg-tablet"
+    },
+    {
+      "name": "Easium",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/4223/easium-10-mg-suppository"
+    },
+    {
+      "name": "Easium",
+      "strength": "10 mg/2 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28316/easium-10-mg-imiv-injection"
+    },
+    {
+      "name": "Evalin",
+      "strength": "5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 0.68",
+      "url": "https://medex.com.bd/brands/4225/evalin-5-mg-tablet"
+    },
+    {
+      "name": "G-Diazepam",
+      "strength": "5 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.50",
+      "url": "https://medex.com.bd/brands/4226/g-diazepam-5-mg-tablet"
+    },
+    {
+      "name": "G-Diazepam",
+      "strength": "10 mg/2 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4227/g-diazepam-10-mg-imiv-injection"
+    },
+    {
+      "name": "Nazopam",
+      "strength": "5 mg/0.1 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 metered spray : ৳ 500.00",
+      "url": "https://medex.com.bd/brands/39527/nazopam-5-mg-nasal-spray"
+    },
+    {
+      "name": "Pharmapam",
+      "strength": "5 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.25",
+      "url": "https://medex.com.bd/brands/4228/pharmapam-5-mg-tablet"
+    },
+    {
+      "name": "Relaxen",
+      "strength": "5 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.68",
+      "url": "https://medex.com.bd/brands/4229/relaxen-5-mg-tablet"
+    },
+    {
+      "name": "Sedapen",
+      "strength": "5 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/4231/sedapen-5-mg-tablet"
+    },
+    {
+      "name": "Sedatab",
+      "strength": "5 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.68",
+      "url": "https://medex.com.bd/brands/4232/sedatab-5-mg-tablet"
+    },
+    {
+      "name": "Sedil",
+      "strength": "5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/4233/sedil-5-mg-tablet"
+    },
+    {
+      "name": "Sedil",
+      "strength": "10 mg/2 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "2 ml ampoule : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/4234/sedil-10-mg-imiv-injection"
+    },
+    {
+      "name": "Seduxen",
+      "strength": "5 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/28052/seduxen-5-mg-tablet"
+    },
+    {
+      "name": "Seduxen",
+      "strength": "10 mg/2 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28058/seduxen-10-mg-imiv-injection"
+    },
+    {
+      "name": "Seequil-S",
+      "strength": "5 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.21",
+      "url": "https://medex.com.bd/brands/4239/seequil-s-5-mg-tablet"
+    },
+    {
+      "name": "Selium",
+      "strength": "5 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.69",
+      "url": "https://medex.com.bd/brands/31558/selium-5-mg-tablet"
+    },
+    {
+      "name": "Tensareal",
+      "strength": "5 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 0.25",
+      "url": "https://medex.com.bd/brands/19811/tensareal-5-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Diazepam is indicated for the short-term treatment of mild to moderate anxiety, excitation, agitation, fear, aggressiveness, etc. Anxiety reactions caused by stressed conditions, anxiety states with somatic expression, acute alcohol withdrawal, status epilepticus, premedication for surgical procedures ... Read moreDiazepam is indicated for the short-term treatment of mild to moderate anxiety, excitation, agitation, fear, aggressiveness, etc. Anxiety reactions caused by stressed conditions, anxiety states with somatic expression, acute alcohol withdrawal, status epilepticus, premedication for surgical procedures, febrile convulsions, insomnia of hospitalized patients.\n\nDiazepam nasal spray is indicated for the acute treatment of intermittent, stereotypic episodes of frequent seizure activity (i.e., seizure clusters, acute repetitive seizures) that are distinct from a patient’s usual seizure pattern in patients with epilepsy 6 years of age and older.",
+    "description": "Diazepam is a benzodiazepine derivative and is a safe tranquillizer with anxiolytic, anticonvulsant and central muscle relaxant actions. Intravenous Diazepam injection is widely used in obstetrics and control of status epilepticus.",
+    "mode_of_action": "Diazepam attaches to the specific site on the GABA receptor and potentiates the effect of GABA, which acts by opening chloride ion channels into cells.\n\nDiazepam is absorbed rapidly and completely after oral administration. Peak Plasma concentration reaches within 15-90 minutes. Mean plasma half-life is 30 hours. Plasma protein binding is 98-99%. Diazepam is metabolized in the liver with only traces of the unchanged drug excreted in urine. A very small proportion of the metabolites is excreted through the bile into the intestine and eliminated with the feces. After rectal administration in suppository form diazepam is significantly absorbed and peak concentration reaches within 1.5-2 hours.",
+    "dosage": "**Oral**: \n\n- Anxiety: 2 mg thrice daily, increased if necessary to 15-30 mg daily in divided doses. Elderly (or debilitated), half of the adult dose.\n- Insomnia associated with anxiety: 5-15 mg at bedtime.\n- Night terrors and somnambulism in Child: 1-5 mg at bedtime.\n\n**Injection** (large vein, a rate below 5 mg/minute): \n\n- For severe acute anxiety, control of acute panic attacks, and acute alcohol withdrawal: 10 mg repeated if necessary after not less than 4 hours.\n- Febrile convulsion in children: Slow IV in a dose of 250 mcg/kg.\n\n**Rectal**: In case of children- A dose of 500 mcg/kg (maximum 10 mg), repeated if necessary.\n\n**Nasal spray**: The recommended dose of Diazepam nasal spray is 0.2 mg/kg or 0.3 mg/kg, depending on the patient’s age and weight. A second dose, when required, may be administered after at least 4 hours after the initial dose. Do not use more than 2 doses to treat a single episode. It is recommended that Diazepam nasal spray be used to treat no more than one episode every five days and no more than five episodes per month.",
+    "interaction": "Concomitant intake with alcohol is not recommended. Sedation may be increased due to concomitant use of neuroleptics (antipsychotics), hypnotics, sedative antihistamines and CNS depressants e.g., general anesthetics, narcotic analgesics or antidepressants. Diazepam clearance is increased by concomitant administration of phonobarbitone and is decreased by administration of cimetidine. Omeprazole and isoniazide inhibit diazepam metabolism.",
+    "contraindications": "Diazepam is contraindicated in myasthenia gravis, pulmonary insufficiency, respiratory depression and hypersensitivity to bezodiazepine.",
+    "side_effects": "Diazepam is generally well tolerated. Higher doses may cause somnolence, dizziness, light headedness, confusion and ataxia.",
+    "pregnancy_cat": "Diazepam and its active metabolites cross the placental barrier and also pass into breast milk. So, it should be avoided if possible during pregnancy and lactation. US FDA pregnancy category D.",
+    "precautions": "Prolonged use and abrupt withdrawal should be avoided. Diazepam should be used with caution in respiratory disease, muscle weakness, history of drug or alcohol abuse, in hepatic or renal impairment.",
+    "overdose_effects": "Sedation, muscle weakness, profound sleep or paradoxical excitation. In more severe cases symptoms may include ataxia, hypotonia, hypotension, respiratory depression and rarely coma and death.",
+    "drug_classes": "Benzodiazepine sedatives, Centrally acting Skeletal Muscle Relaxants, Primary anti-epileptic drugs",
+    "storage_conditions": "Store in a cool (below 25˚C temperature) and dry place protected from light."
+  },
+  "sections_bn": {
+    "indications": "Diazepam is indicated for the short-term treatment of mild to moderate anxiety, excitation, agitation, fear, aggressiveness, etc. Anxiety reactions caused by stressed conditions, anxiety states with somatic expression, acute alcohol withdrawal, status epilepticus, premedication for surgical procedures ... Read moreDiazepam is indicated for the short-term treatment of mild to moderate anxiety, excitation, agitation, fear, aggressiveness, etc. Anxiety reactions caused by stressed conditions, anxiety states with somatic expression, acute alcohol withdrawal, status epilepticus, premedication for surgical procedures, febrile convulsions, insomnia of hospitalized patients.\n\nDiazepam nasal spray is indicated for the acute treatment of intermittent, stereotypic episodes of frequent seizure activity (i.e., seizure clusters, acute repetitive seizures) that are distinct from a patient’s usual seizure pattern in patients with epilepsy 6 years of age and older.",
+    "description": "Diazepam is a benzodiazepine derivative and is a safe tranquillizer with anxiolytic, anticonvulsant and central muscle relaxant actions. Intravenous Diazepam injection is widely used in obstetrics and control of status epilepticus.",
+    "mode_of_action": "Diazepam attaches to the specific site on the GABA receptor and potentiates the effect of GABA, which acts by opening chloride ion channels into cells.\n\nDiazepam is absorbed rapidly and completely after oral administration. Peak Plasma concentration reaches within 15-90 minutes. Mean plasma half-life is 30 hours. Plasma protein binding is 98-99%. Diazepam is metabolized in the liver with only traces of the unchanged drug excreted in urine. A very small proportion of the metabolites is excreted through the bile into the intestine and eliminated with the feces. After rectal administration in suppository form diazepam is significantly absorbed and peak concentration reaches within 1.5-2 hours.",
+    "dosage": "**Oral**: \n\n- Anxiety: 2 mg thrice daily, increased if necessary to 15-30 mg daily in divided doses. Elderly (or debilitated), half of the adult dose.\n- Insomnia associated with anxiety: 5-15 mg at bedtime.\n- Night terrors and somnambulism in Child: 1-5 mg at bedtime.\n\n**Injection** (large vein, a rate below 5 mg/minute): \n\n- For severe acute anxiety, control of acute panic attacks, and acute alcohol withdrawal: 10 mg repeated if necessary after not less than 4 hours.\n- Febrile convulsion in children: Slow IV in a dose of 250 mcg/kg.\n\n**Rectal**: In case of children- A dose of 500 mcg/kg (maximum 10 mg), repeated if necessary.\n\n**Nasal spray**: The recommended dose of Diazepam nasal spray is 0.2 mg/kg or 0.3 mg/kg, depending on the patient’s age and weight. A second dose, when required, may be administered after at least 4 hours after the initial dose. Do not use more than 2 doses to treat a single episode. It is recommended that Diazepam nasal spray be used to treat no more than one episode every five days and no more than five episodes per month.",
+    "interaction": "Concomitant intake with alcohol is not recommended. Sedation may be increased due to concomitant use of neuroleptics (antipsychotics), hypnotics, sedative antihistamines and CNS depressants e.g., general anesthetics, narcotic analgesics or antidepressants. Diazepam clearance is increased by concomitant administration of phonobarbitone and is decreased by administration of cimetidine. Omeprazole and isoniazide inhibit diazepam metabolism.",
+    "contraindications": "Diazepam is contraindicated in myasthenia gravis, pulmonary insufficiency, respiratory depression and hypersensitivity to bezodiazepine.",
+    "side_effects": "Diazepam is generally well tolerated. Higher doses may cause somnolence, dizziness, light headedness, confusion and ataxia.",
+    "pregnancy_cat": "Diazepam and its active metabolites cross the placental barrier and also pass into breast milk. So, it should be avoided if possible during pregnancy and lactation. US FDA pregnancy category D.",
+    "precautions": "Prolonged use and abrupt withdrawal should be avoided. Diazepam should be used with caution in respiratory disease, muscle weakness, history of drug or alcohol abuse, in hepatic or renal impairment.",
+    "overdose_effects": "Sedation, muscle weakness, profound sleep or paradoxical excitation. In more severe cases symptoms may include ataxia, hypotonia, hypotension, respiratory depression and rarely coma and death.",
+    "drug_classes": "Benzodiazepine sedatives, Centrally acting Skeletal Muscle Relaxants, Primary anti-epileptic drugs",
+    "storage_conditions": "Store in a cool (below 25˚C temperature) and dry place protected from light."
+  },
+  "source_url_en": "https://medex.com.bd/generics/355/diclofenac-sodium",
+  "source_url_bn": "https://medex.com.bd/generics/355/diclofenac-sodium/bn",
+  "scraped_at": "2026-10-10T18:14:05+00:00"
+}

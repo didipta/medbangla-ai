@@ -1,0 +1,756 @@
+{
+  "slug": "baclofen",
+  "name_en": "Baclofen",
+  "name_bn": "ব্যাক্লোফেন",
+  "therapeutic_class": "Centrally acting Skeletal Muscle Relaxants",
+  "dosage_forms": [
+    "Tablets",
+    "Oral Solution"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Albafen",
+      "strength": "10 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18066/albafen-10-mg-tablet"
+    },
+    {
+      "name": "Axant",
+      "strength": "10 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/11764/axant-10-mg-tablet"
+    },
+    {
+      "name": "Axant",
+      "strength": "25 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11765/axant-25-mg-tablet"
+    },
+    {
+      "name": "Bacaid",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/11707/bacaid-10-mg-tablet"
+    },
+    {
+      "name": "Bacaid",
+      "strength": "5 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/26950/bacaid-5-mg-tablet"
+    },
+    {
+      "name": "Bacben",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18072/bacben-10-mg-tablet"
+    },
+    {
+      "name": "Bacifen",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/11708/bacifen-10-mg-tablet"
+    },
+    {
+      "name": "Backtone",
+      "strength": "10 mg",
+      "manufacturer": "Pharmacil Limited",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/27603/backtone-10-mg-tablet"
+    },
+    {
+      "name": "Backtone",
+      "strength": "5 mg",
+      "manufacturer": "Pharmacil Limited",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/30873/backtone-5-mg-tablet"
+    },
+    {
+      "name": "Baclax",
+      "strength": "10 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31453/baclax-10-mg-tablet"
+    },
+    {
+      "name": "Baclium",
+      "strength": "10 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11709/baclium-10-mg-tablet"
+    },
+    {
+      "name": "Baclobac",
+      "strength": "5 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 4.52",
+      "url": "https://medex.com.bd/brands/11710/baclobac-5-mg-tablet"
+    },
+    {
+      "name": "Baclobac",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/11711/baclobac-10-mg-tablet"
+    },
+    {
+      "name": "Baclodol",
+      "strength": "10 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/18070/baclodol-10-mg-tablet"
+    },
+    {
+      "name": "Baclof",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/28508/baclof-10-mg-tablet"
+    },
+    {
+      "name": "Baclof",
+      "strength": "5 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/35309/baclof-5-mg-tablet"
+    },
+    {
+      "name": "Baclofen",
+      "strength": "10 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11770/baclofen-10-mg-tablet"
+    },
+    {
+      "name": "Bacloflex",
+      "strength": "10 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11714/bacloflex-10-mg-tablet"
+    },
+    {
+      "name": "Baclomark",
+      "strength": "10 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/11715/baclomark-10-mg-tablet"
+    },
+    {
+      "name": "Baclomax",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/18089/baclomax-10-mg-tablet"
+    },
+    {
+      "name": "Baclon",
+      "strength": "5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11716/baclon-5-mg-tablet"
+    },
+    {
+      "name": "Baclon",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/11717/baclon-10-mg-tablet"
+    },
+    {
+      "name": "Baclosic",
+      "strength": "10 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37790/baclosic-10-mg-tablet"
+    },
+    {
+      "name": "Bacmax",
+      "strength": "5 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/11771/bacmax-5-mg-tablet"
+    },
+    {
+      "name": "Bacmax",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11772/bacmax-10-mg-tablet"
+    },
+    {
+      "name": "Bacofen",
+      "strength": "5 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/11718/bacofen-5-mg-tablet"
+    },
+    {
+      "name": "Bacofen",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/11719/bacofen-10-mg-tablet"
+    },
+    {
+      "name": "Bacspa",
+      "strength": "10 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/23125/bacspa-10-mg-tablet"
+    },
+    {
+      "name": "Bactab",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/11774/bactab-10-mg-tablet"
+    },
+    {
+      "name": "Balo",
+      "strength": "10 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18079/balo-10-mg-tablet"
+    },
+    {
+      "name": "Beclovan",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11720/beclovan-10-mg-tablet"
+    },
+    {
+      "name": "Beclovan",
+      "strength": "5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/26413/beclovan-5-mg-tablet"
+    },
+    {
+      "name": "Beklo",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11721/beklo-5-mg-tablet"
+    },
+    {
+      "name": "Beklo",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11722/beklo-10-mg-tablet"
+    },
+    {
+      "name": "Beklo",
+      "strength": "25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.14",
+      "url": "https://medex.com.bd/brands/11723/beklo-25-mg-tablet"
+    },
+    {
+      "name": "Beklo",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18083/beklo-5-mg-oral-solution"
+    },
+    {
+      "name": "Bfen",
+      "strength": "5 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/38980/bfen-5-mg-tablet"
+    },
+    {
+      "name": "Bfen",
+      "strength": "10 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38981/bfen-10-mg-tablet"
+    },
+    {
+      "name": "Easybak",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29073/easybak-10-mg-tablet"
+    },
+    {
+      "name": "Felo",
+      "strength": "5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/11776/felo-5-mg-tablet"
+    },
+    {
+      "name": "Felo",
+      "strength": "10 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11777/felo-10-mg-tablet"
+    },
+    {
+      "name": "Fenobac",
+      "strength": "5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11724/fenobac-5-mg-tablet"
+    },
+    {
+      "name": "Fenobac",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11725/fenobac-10-mg-tablet"
+    },
+    {
+      "name": "Fenobac",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/11779/fenobac-5-mg-oral-solution"
+    },
+    {
+      "name": "Flexibac",
+      "strength": "5 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11726/flexibac-5-mg-tablet"
+    },
+    {
+      "name": "Flexibac",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/11727/flexibac-10-mg-tablet"
+    },
+    {
+      "name": "Flexibac",
+      "strength": "25 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/11728/flexibac-25-mg-tablet"
+    },
+    {
+      "name": "Flexibac",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18071/flexibac-5-mg-oral-solution"
+    },
+    {
+      "name": "Flexifen",
+      "strength": "5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11729/flexifen-5-mg-tablet"
+    },
+    {
+      "name": "Flexifen",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11730/flexifen-10-mg-tablet"
+    },
+    {
+      "name": "Flexilax",
+      "strength": "5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11732/flexilax-5-mg-tablet"
+    },
+    {
+      "name": "Flexilax",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11733/flexilax-10-mg-tablet"
+    },
+    {
+      "name": "Flexiril",
+      "strength": "10 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/29861/flexiril-10-mg-tablet"
+    },
+    {
+      "name": "Flexiril",
+      "strength": "5 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/29862/flexiril-5-mg-tablet"
+    },
+    {
+      "name": "Getease",
+      "strength": "5 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/36803/getease-5-mg-tablet"
+    },
+    {
+      "name": "Getease",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36804/getease-10-mg-tablet"
+    },
+    {
+      "name": "Laxifen",
+      "strength": "10 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/39316/laxifen-10-mg-tablet"
+    },
+    {
+      "name": "Liofen",
+      "strength": "5 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/11780/liofen-5-mg-tablet"
+    },
+    {
+      "name": "Liofen",
+      "strength": "10 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/11781/liofen-10-mg-tablet"
+    },
+    {
+      "name": "Liorel",
+      "strength": "5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 4.53",
+      "url": "https://medex.com.bd/brands/11734/liorel-5-mg-tablet"
+    },
+    {
+      "name": "Liorel",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/11735/liorel-10-mg-tablet"
+    },
+    {
+      "name": "Lioresal",
+      "strength": "10 mg",
+      "manufacturer": "Nevian Lifescience PLC",
+      "price": "Unit Price : ৳ 12.96",
+      "url": "https://medex.com.bd/brands/11736/lioresal-10-mg-tablet"
+    },
+    {
+      "name": "Liosal",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11738/liosal-10-mg-tablet"
+    },
+    {
+      "name": "Lirosal",
+      "strength": "10 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11739/lirosal-10-mg-tablet"
+    },
+    {
+      "name": "Lospan",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11740/lospan-10-mg-tablet"
+    },
+    {
+      "name": "Lospan",
+      "strength": "25 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/31912/lospan-25-mg-tablet"
+    },
+    {
+      "name": "Maxolax",
+      "strength": "5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/11742/maxolax-5-mg-tablet"
+    },
+    {
+      "name": "Maxolax",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11743/maxolax-10-mg-tablet"
+    },
+    {
+      "name": "Movibac",
+      "strength": "5 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/38587/movibac-5-mg-tablet"
+    },
+    {
+      "name": "Movibac",
+      "strength": "10 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/38588/movibac-10-mg-tablet"
+    },
+    {
+      "name": "Muslofen",
+      "strength": "10 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34467/muslofen-10-mg-tablet"
+    },
+    {
+      "name": "Mylofen",
+      "strength": "5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/11744/mylofen-5-mg-tablet"
+    },
+    {
+      "name": "Mylofen",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11745/mylofen-10-mg-tablet"
+    },
+    {
+      "name": "Myobac",
+      "strength": "5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11746/myobac-5-mg-tablet"
+    },
+    {
+      "name": "Myobac",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.20",
+      "url": "https://medex.com.bd/brands/11747/myobac-10-mg-tablet"
+    },
+    {
+      "name": "Myorel",
+      "strength": "5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11748/myorel-5-mg-tablet"
+    },
+    {
+      "name": "Myorel",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/11749/myorel-10-mg-tablet"
+    },
+    {
+      "name": "Myorel",
+      "strength": "25 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/33639/myorel-25-mg-tablet"
+    },
+    {
+      "name": "Myospa",
+      "strength": "10 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27164/myospa-10-mg-tablet"
+    },
+    {
+      "name": "Reflexen",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/17181/reflexen-10-mg-tablet"
+    },
+    {
+      "name": "Reflexen",
+      "strength": "25 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/17182/reflexen-25-mg-tablet"
+    },
+    {
+      "name": "Relmas",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27339/relmas-10-mg-tablet"
+    },
+    {
+      "name": "Relofen",
+      "strength": "10 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11753/relofen-10-mg-tablet"
+    },
+    {
+      "name": "Rembac",
+      "strength": "10 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11754/rembac-10-mg-tablet"
+    },
+    {
+      "name": "Restobac",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/11755/restobac-10-mg-tablet"
+    },
+    {
+      "name": "Restobac",
+      "strength": "5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/33243/restobac-5-mg-tablet"
+    },
+    {
+      "name": "Restobac",
+      "strength": "25 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/33385/restobac-25-mg-tablet"
+    },
+    {
+      "name": "Skelofen",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/11756/skelofen-5-mg-tablet"
+    },
+    {
+      "name": "Skelofen",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/11757/skelofen-10-mg-tablet"
+    },
+    {
+      "name": "SMR",
+      "strength": "10 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/18067/smr-10-mg-tablet"
+    },
+    {
+      "name": "Spaflex",
+      "strength": "5 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/18081/spaflex-5-mg-tablet"
+    },
+    {
+      "name": "Spaflex",
+      "strength": "10 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18082/spaflex-10-mg-tablet"
+    },
+    {
+      "name": "Spakem",
+      "strength": "5 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/11759/spakem-5-mg-tablet"
+    },
+    {
+      "name": "Spakem",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11760/spakem-10-mg-tablet"
+    },
+    {
+      "name": "Spinafen",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11761/spinafen-10-mg-tablet"
+    },
+    {
+      "name": "Spinax",
+      "strength": "10 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/18073/spinax-10-mg-tablet"
+    },
+    {
+      "name": "Spinofen",
+      "strength": "10 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/11762/spinofen-10-mg-tablet"
+    },
+    {
+      "name": "Spinolex",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27941/spinolex-10-mg-tablet"
+    },
+    {
+      "name": "Starbac",
+      "strength": "5 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/11783/starbac-5-mg-tablet"
+    },
+    {
+      "name": "Starbac",
+      "strength": "10 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11784/starbac-10-mg-tablet"
+    },
+    {
+      "name": "Xanbac",
+      "strength": "10 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11763/xanbac-10-mg-tablet"
+    },
+    {
+      "name": "Zerolent",
+      "strength": "10 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29271/zerolent-10-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Baclofen is indicated in-\n\n- spasticity resulting from multiple sclerosis\n- flexor spasms and concomitant pain, clonus and muscular rigidity\n- skeletal muscle spasm resulting from rheumatic disorders\n- spinal cord injuries and other spinal cord diseases\n- cerebrovascular accidents or neoplastic or degenerative brain disease",
+    "mode_of_action": "Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level by stimulating the GABAB receptors, which inhibits the release of glutamate and aspartate. It may also act at intraspinal sites producing CNS depression. Baclofen also exerts an antinociceptive effect.",
+    "dosage": "**Adult & children over 10 years**: 5 mg 3 times daily, preferably with or after food, gradually increased; max. 100 mg daily.\n**Children <10 years**: Treatment is usually started with 2.5 mg (2.5 ml) given 4 times daily then raised according to requirement. Daily maintenance dose-\n\n- 12 month-2 years: 10-20 mg (10-20 ml)\n- 2 years-6 years: 20-30 mg (20-30 ml)\n- 6 years-10 years: 30-60 mg (30-60 ml)",
+    "interaction": "- Increased sedation may occur if Baclofen is taken with agents acting on the central nervous system, alcohol or synthetic opiates. The risk of respiratory depression is also increased.\n- Combined treatment with Baclofen and antihypertensives is likely to increase the fall in blood pressure; therefore the dosage of antihypertensive medication should be adjusted accordingly.\n- The concomitant administration of Baclofen and tricyclic antidepressants may potentiate the pharmacological effects of Baclofen resulting in pronounced muscular hypotonia.\n- In patients with Parkinsons disease receiving treatment with Baclofen and levodopa and carbidopa, there have been several reports of mental confusion, hallucinations, headaches, nausea and agitation.\n- The concurrent use of MAO inhibitors and Baclofen may result in increased CNS depressant effects. Caution is advised and the dosage of one or both agents should be adjusted accordingly.\n- Caution should be exercised when administering Baclofen and magnesium sulphate or other neuromuscular blocking agents since a synergistic effect may theoretically occur.",
+    "contraindications": "Baclofen is contraindicated in patients with hypersensitivity to any component of this product.",
+    "side_effects": "The most common adverse reactions associated with Baclofen are transient drowsiness, daytime sedation, dizziness, weakness and fatigue.\n\n- **Central Nervous System**: Headache (<10%), insomnia (<10%), and rarely, euphoria, excitement, depression, confusion, hallucinations, paraesthesia, nightmares, muscle pain, tinnitus, slurred speech, co-ordination disorder, tremor, rigidity, dystonia, ataxia, blurred vision, nystagmus, strabismus, miosis, mydriasis, diplopia, dysarthria, epileptic seizures, respiratory depression.\n- **Cardiovascular:** Hypotension (<10%), rare instances of dyspnoea, palpitation, chest pain, syncope.\n- **Gastrointestinal**: Nausea (approximately 10%), constipation (<10%) and rarely, dry mouth, anorexia, taste disorder, abdominal pain, vomiting, diarrhoea and positive test for occult blood in stool.\n- **Genitourinary**: Urinary frequency (<10%) and rarely, enuresis, urinary retention, dysuria, impotence, inability to ejaculate, nocturia, haematuria.\n- **Other**: Instances of rash, pruritus, ankle oedema, excessive perspiration, weight gain, nasal congestion, visual disturbances, hepatic function disorders and paradoxical increase in spasticity. Muscular hypotonia of a degree sufficient to make walking or movement difficult may occur but is usually relieved by readjusting the dosage. For this purpose, the daytime dosage may be reduced and the evening dosage increased.",
+    "pregnancy_cat": "Pregnancy category B3. Safe use of Baclofen during pregnancy has not been established. Baclofen crosses the placental barrier. Baclofen should only be administered to pregnant women when in the judgement of the physician concludes that the potential benefits outweigh the possible hazards. Baclofen is excreted in breast milk however evidence to date suggests that the quantities are so small that no undesirable effects on the infant would be expected.",
+    "precautions": "- Lower doses (approximately 5 mg per day) should be used for patients with impaired renal function or those undergoing chronic haemodialysis.\n- Patients suffering not only from spasticity but also from psychotic disorders, schizophrenia, depressive or manic disorders or confusional states should be treated cautiously and closely monitored as exacerbations of these disorders may occur.\n- In patients with epilepsy and muscle spasticity, Baclofen may be used under appropriate supervision and provided that adequate anticonvulsive therapy is continued. Lowering of the convulsion threshold may occur and seizures have been reported after the cessation of Baclofen therapy or with overdose.\n- Baclofen should be used with caution in patients with or with a history of peptic ulcers, cerebrovascular diseases, or hepatic, renal or respiratory failure.\n- Careful monitoring of respiratory and cardiovascular function is essential especially in patients with cardiopulmonary disease and respiratory muscle weakness.\n- During treatment with Baclofen, neurogenic disturbances affecting emptying of the bladder may improve. However in patients with preexisting sphincter hypertonia, acute retention of urine may occur. Baclofen should be used with caution in these circumstances.\n- Baclofen has not significantly benefited patients with stroke. These patients have also shown poor tolerance to the medicine.\n- Appropriate laboratory tests should be performed periodically in patients with hepatic diseases or diabetes mellitus to ensure that no medicine induced changes in these underlying diseases have occurred.",
+    "overdose_effects": "Gastric lavage is important in case of severe overdose.",
+    "drug_classes": "Centrally acting Skeletal Muscle Relaxants",
+    "storage_conditions": "Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "ব্যাক্লোফেন নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- মাল্টিপোল স্ক্লেরোসিস দ্বারা সৃষ্ট স্পাসটিসিটি\n- ফ্লেক্সর স্পাজম এবং এর পাশাপাশি ব্যথা, ক্লোনাস এবং মাসকিউলার রিজিডিটি\n- রিউমাটিক ডিজঅর্ডার দ্বারা সৃষ্ট স্কেলেটাল মাসল স্পাজম\n- কশেরুকাতে আঘাত এবং কশেরুকার অন্যান্য সমস্যা\n- সেরেব্রোভাসকিউলার দূর্ঘটনা অথবা নিওপ্লাসটিক অথবা ব্রেনের অন্যান্য সমস্যা।",
+    "mode_of_action": "গাবা-বি রিসেপ্টরকে উদ্দীপ্ত করার মাধ্যমে ব্যাক্লোফেন সাধারণত মনোসিনেপটিক ও পলিসিনেপটিক রিফ্লেক্সকে প্রতিহত করে যা গ্লুটামেট ও এসপারটেট এর সংশ্লেষণে বাধা দান করে। উপরন্তু ব্যাক্লোফেন কশেরুকার মধ্যবর্তী স্থানে কাজ করার মাধ্যমে কেন্দ্রীয় স্নায়ুতন্ত্রকে অবসাদ করে দেয়। ব্যাক্লোফেন নসিসেপটিভ উদ্দীপনাকেও প্রতিহত করে।",
+    "dosage": "**পূর্ণ বয়স্ক ও ১০ বছরের ঊর্ধ্বে**: ৫ মিগ্রা দিনে তিন বার খাবার আগে বা পরে, ধীরে ধীরে মাত্রা বাড়িয়ে সর্বোচ্চ ১০০ মিগ্রা করা যায়।\n\n**১০ বছরের নীচের শিশু**: প্রাথমিকভাবে ২.৫ মিগ্রা (২.৫ মিলি) দিনে ৪ বার এবং পরবর্তীতে প্রয়োজন অনুযায়ী মাত্রা বৃদ্ধি করতে হবে। দৈনিক রক্ষনাবেক্ষন মাত্রা-\n\n- ১২ মাস-২ বছর: ১০-২০ মিগ্রা (১০-২০ মিলি)\n- ২ বছর-৬ বছর: ২০-৩০ মিগ্রা (২০-৩০ মিলি)\n- ৬ বছর- ১০ বছর: ৩০-৬০ মিগ্রা (৩০-৬০ মিলি)",
+    "interaction": "- স্নায়ূতন্ত্রের উপর কাজ করে এমন কোন কিছু যেমন- অ্যালকোহল, অপিয়েট ইত্যাদির সাথে বেকলোফেন ঘুম আরো বাড়ায়। এতে শ্বাসনালীর সমস্যা বেড়ে যেতে পারে।\n- এন্টিহাইপারটেনসিভ ওষুধের সাথে গ্রহণ করলে রক্তচাপ কমে যেতে পারে। সেক্ষেত্রে এন্টিহাইপারটেনসিভ ওষুধের মাত্রা পুননির্ধারণ করা উচিত।\n- বেকলোফেন এবং ট্রাইসাইক্লিক এন্টিডিপ্রেসেন্ট এক সাথে খেলে বেকলোফেনের কার্যকারিতা বেড়ে যায় যার ফলে মাসকুলার হাইপারটোনিয়া হতে পারে।\n- পার্কিনসনের রোগীদের ক্ষেত্রে বেকলোফেন এবং লেভোডোপা বা কার্বিডোপা একসাথে দিলে মানসিক বিভ্রান্তি, ভুল বুঝা, মাথাব্যথা,ক্ষুধামন্দা ও উত্তেজনা হতে পারে।\n- মনো অ্যামাইনো অক্সিডেজের সাথে বেকলোফেন স্নায়ুর নিস্তেজতা ঘটায়। এক্ষেত্রে সতর্কতা সহ মাত্রা পুননির্ধারণ করা উচিত ।\n- বেকলোফেন ম্যাগনেসিয়ামের সাথে বা অন্য কোন পদার্থ যা নিউরোমাস্‌কুলার ব্লকিং এজেন্ট হিসেবে কাজ করে, একসাথে খেলে কার্যকারিতা বেড়ে যাওয়ার কথা।",
+    "contraindications": "ব্যাক্লোফেনের প্রতি সংবেদনশীল রোগীদের জন্য এটা প্রতিনির্দেশিত।",
+    "side_effects": "সাধারণ পার্শ্ব প্রতিক্রিয়ার মধ্যে রয়েছে তন্দ্রালুতা, ঘুমঘুম ভাব, ঝিমুনি, দূর্বলতা ও অবসাদ।\r\n\n- **স্নায়ু**: মাথাব্যথা, নিদ্রাহীনতা এবং সামান্য উত্তেজনা, হতাশা, বিভ্রান্তি, পেশীর ব্যথা, খিঁচুনি ইত্যাদি।\n- **রক্ত সঞ্চালন**: হাইপোটেনশন এবং খুব কম ক্ষেত্রে ঘন ঘন শ্বাস নেয়া, বুক ধড়ফড় করা, বুকে ব্যথা ও মুর্ছা যাওয়া।\n- **পরিপাক তন্ত্র**: ক্ষুধামন্দা, কোষ্ঠকাঠিন্য, মুখের শুষ্কতা, স্বাদহীনতা, অ্যাবডোমিনাল ব্যথা, বমিবমি ভাব, ডায়রিয়া, স্টোলে অকাল্টবাড থাকা।\n- **মূত্রথলি**: বার বার প্রস্রাবভাব হওয়া, মূত্র না বের হওয়া, যৌন সমস্যা, ইজাকুলেশন না হওয়া, রাত্রে বার বার প্রস্রাব হওয়া এবং প্রস্রাবে রক্ত আসা।\n- **অন্যান্য**: র‍্যাশ, চুলকানি, ফোলা, ওজনবৃদ্ধি, নাক বদ্ধতা, চোখে ঝাঁপসা দেখা, হেপাটিক সমস্যা ইত্যাদি। পেশীর টান এমন হতে পারে যে হাঁটা চলায় সমস্যা হয় তখন মাত্রা পুনঃনির্ধারণ করা উচিত। এজন্য দিনের বেলায় কম মাত্রা দিয়ে রাত্রে বেশী মাত্রা দেয়া উচিত।",
+    "pregnancy_cat": "প্রেগন্যান্সি ক্যাটাগরি বি৩। গর্ভাবস্থায় বেকলোফেনের নিরাপদ ব্যবহার প্রতিষ্ঠিত নয়। বেকলোফেন প্লাসেন্টা অতিক্রম করে। ঝুকির চেয়ে উপকারিতা বেশী হলেই কেবল গর্ভাবস্থায় ব্যবহার করা যায় যা অবশ্যই ডাক্তারের পরামর্শে হতে হবে। মাতৃদুগ্ধে এত সামান্য নিঃসরিত হয় যে তা কোন ধরনের অপ্রত্যাশিত ঘটনা ঘটার জন্য যথেষ্ট নয়।",
+    "precautions": "- রেনাল ইমপেয়ারমেন্টের রোগীদের এবং যারা দীর্ঘদিন হিমোডায়ালাইসিস নিচ্ছে তাদেরকে সতর্কতার সাথে দিনে ৫ মি.গ্রা. দেয়া উচিত।\n- যারা স্পাজম ছাড়াও অন্যান্য মানসিক সমস্যা, পাগলামি, হতাশা, অস্থিরতায় ভূগছে তাদেরকে সতর্কতার সাথে ওষুধটি দেয়া উচিত যেহেতু তাদের ক্ষেত্রে এই সমস্যাগুলির অবনতি হতে পারে।\n- খিঁচুনির রোগীদের ক্ষেত্রে বেকলোফেনের সাথে পর্যাপ্ত খিঁচুনির ওষুধ দিতে হবে এবং বিশেষ সতর্কতার সাথে অবস্থা পর্যালোচনা করতে হবে। বেকলোফেন দিয়ে চিকিৎসার পর সহজেই খিঁচুনি হতে পারে যা বেকলোফেন দিয়ে চিকিৎসার পর আরও অবনতি হতে পারে।\n- যাদের আলসার, সেরেব্রোভাসকুলার ডিজিজ, হেপাটিক বা রেনাল বা শ্বাস নালীর সমস্যা আছে তাদেরকে সতর্কতার সাথে বেকলোফেন দিতে হবে।\n- যাদের কার্ডিওপালমোনারী বা শ্বাসনালীর পেশীর দূর্বলতা রয়েছে তাদেরও সতর্কতার সাথে দিতে হবে।\n- বেকলোফেন দিয়ে চিকিৎসার সময় স্নায়ূতন্ত্রের সমস্যার উন্নতি হতে পারে যা মূত্রথলির নিঃসরণ সহজ করে। তারপরও এটা স্ফিংটারে বেশী চাপ এবং হঠাৎ মূত্রথলিতে মূত্রাধিক্য ঘটাতে পারে। এসব ক্ষেত্রে বেকলোফেন সতর্কতার সাথে ব্যবহার করা উচিত।\n- স্ট্রোকের রোগীদের জন্য বেকলোফেন খুব বেশি উপকারী নয়। এসব রোগীরা সাধারণত এই ওষুধে কম সহনীয় হয়।\n- হেপাটিক ও ডায়াবেটিসের রোগীদের সঠিক ল্যাবরেটরী পরীক্ষার মাধ্যমে দেখা উচিত যে বেকলোফেন এসব রোগের অবনতি ঘটাচ্ছে না।",
+    "overdose_effects": "অতিমাত্রায় গ্যাসট্রিক লিভেজ খুবই গুরুত্বপূর্ন।",
+    "drug_classes": "Centrally acting Skeletal Muscle Relaxants",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০ ডিগ্রী সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/105/baclofen",
+  "source_url_bn": "https://medex.com.bd/generics/105/baclofen/bn",
+  "scraped_at": "2026-10-10T18:30:50+00:00"
+}

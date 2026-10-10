@@ -1,0 +1,710 @@
+{
+  "slug": "albendazole",
+  "name_en": "Albendazole",
+  "name_bn": "এ্যালবেনডাজল",
+  "therapeutic_class": "Anthelmintic",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "AB-DS",
+      "strength": "400 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/25481/ab-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Aben-DS",
+      "strength": "400 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/25489/aben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "ABZ",
+      "strength": "400 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/34002/abz-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Adze",
+      "strength": "400 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/248/adze-400-mg-chewable-tablet"
+    },
+    {
+      "name": "AH",
+      "strength": "400 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 5.05",
+      "url": "https://medex.com.bd/brands/25460/ah-400-mg-chewable-tablet"
+    },
+    {
+      "name": "AH",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "10 ml bottle : ৳ 20.10",
+      "url": "https://medex.com.bd/brands/25461/ah-200-mg-oral-suspension"
+    },
+    {
+      "name": "AL-DS",
+      "strength": "400 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/250/al-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alba",
+      "strength": "400 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/252/alba-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albamax DS",
+      "strength": "400 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/253/albamax-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albazol DS",
+      "strength": "400 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/254/albazol-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/255/alben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Alben-DS",
+      "strength": "400 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/256/alben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albenda DS",
+      "strength": "400 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.40",
+      "url": "https://medex.com.bd/brands/257/albenda-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albendol",
+      "strength": "400 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/260/albendol-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albendol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/261/albendol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Albendox",
+      "strength": "400 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/262/albendox-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albengen DS",
+      "strength": "400 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/35864/albengen-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albentas",
+      "strength": "400 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/25491/albentas-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albezen",
+      "strength": "400 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/263/albezen-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albezole",
+      "strength": "400 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.80",
+      "url": "https://medex.com.bd/brands/10347/albezole-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albicon",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/38744/albicon-200-mg-oral-suspension"
+    },
+    {
+      "name": "Albicon DS",
+      "strength": "400 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/33927/albicon-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albol-DS",
+      "strength": "400 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/25465/albol-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Albrex",
+      "strength": "400 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/268/albrex-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alda",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/269/alda-200-mg-oral-suspension"
+    },
+    {
+      "name": "Alda DS",
+      "strength": "400 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/270/alda-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Aldaben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/271/aldaben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Aldaben-DS",
+      "strength": "400 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/272/aldaben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Aldes DS",
+      "strength": "400 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/274/aldes-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Aldin DS",
+      "strength": "400 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/278/aldin-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Aldoben DS",
+      "strength": "400 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/25456/aldoben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Ale DS",
+      "strength": "400 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/25455/ale-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Almex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "10 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/281/almex-200-mg-oral-suspension"
+    },
+    {
+      "name": "Almex",
+      "strength": "400 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/282/almex-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Almin",
+      "strength": "400 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/284/almin-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Almin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/283/almin-200-mg-oral-suspension"
+    },
+    {
+      "name": "Alphin DS",
+      "strength": "400 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/286/alphin-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alpro",
+      "strength": "400 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/288/alpro-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alzed",
+      "strength": "400 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.32",
+      "url": "https://medex.com.bd/brands/289/alzed-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Alzolux DS",
+      "strength": "400 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/25479/alzolux-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Anthel DS",
+      "strength": "400 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.20",
+      "url": "https://medex.com.bd/brands/292/anthel-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Asiben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "10 ml bottle : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/38039/asiben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Asiben",
+      "strength": "400 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.80",
+      "url": "https://medex.com.bd/brands/38038/asiben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Autoben",
+      "strength": "400 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32493/autoben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Azole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "10 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/295/azole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Azole",
+      "strength": "400 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/296/azole-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Ben-A",
+      "strength": "400 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.01",
+      "url": "https://medex.com.bd/brands/297/ben-a-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Ben-A",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "10 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/298/ben-a-200-mg-oral-suspension"
+    },
+    {
+      "name": "Benda DS",
+      "strength": "400 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/299/benda-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Benfast",
+      "strength": "400 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/300/benfast-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Benz",
+      "strength": "400 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.20",
+      "url": "https://medex.com.bd/brands/301/benz-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Chir DS",
+      "strength": "400 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.14",
+      "url": "https://medex.com.bd/brands/302/chir-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Chuben DS",
+      "strength": "400 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/303/chuben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Colaz",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "10 ml bottle : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/304/colaz-200-mg-oral-suspension"
+    },
+    {
+      "name": "Colaz",
+      "strength": "400 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/305/colaz-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Cosben",
+      "strength": "400 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/306/cosben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Durazol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/307/durazol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Durazol",
+      "strength": "400 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/308/durazol-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Eben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/311/eben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Eben-DS",
+      "strength": "400 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/310/eben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Elmin",
+      "strength": "400 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/312/elmin-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Estazol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "10 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/313/estazol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Estazol",
+      "strength": "400 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/314/estazol-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Exworm",
+      "strength": "400 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/315/exworm-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Exworm",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/316/exworm-200-mg-oral-suspension"
+    },
+    {
+      "name": "G-Albendazole",
+      "strength": "400 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.45",
+      "url": "https://medex.com.bd/brands/27114/g-albendazole-400-mg-chewable-tablet"
+    },
+    {
+      "name": "H Ben",
+      "strength": "400 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.60",
+      "url": "https://medex.com.bd/brands/318/h-ben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Helben DS",
+      "strength": "400 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/319/helben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Krimizole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/322/krimizole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Krimizole DS",
+      "strength": "400 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.25",
+      "url": "https://medex.com.bd/brands/323/krimizole-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Laben DS",
+      "strength": "400 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.52",
+      "url": "https://medex.com.bd/brands/25480/laben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Luban DS",
+      "strength": "400 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/25482/luban-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Mebel",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/324/mebel-200-mg-oral-suspension"
+    },
+    {
+      "name": "Mebel DS",
+      "strength": "400 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/325/mebel-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Micro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "Price not available",
+      "url": "https://medex.com.bd/brands/25451/micro-200-mg-oral-suspension"
+    },
+    {
+      "name": "Nematox DS",
+      "strength": "400 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/328/nematox-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Parnil DS",
+      "strength": "400 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/330/parnil-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Q Ben DS",
+      "strength": "400 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/331/q-ben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Qben DS",
+      "strength": "400 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/37426/qben-ds-400-mg-tablet"
+    },
+    {
+      "name": "R-Zol",
+      "strength": "400 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/332/r-zol-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Silben",
+      "strength": "400 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/31561/silben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Sintel",
+      "strength": "400 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/25449/sintel-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Sintel",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "10 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/333/sintel-200-mg-oral-suspension"
+    },
+    {
+      "name": "Triben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 13.97",
+      "url": "https://medex.com.bd/brands/335/triben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Triben DS",
+      "strength": "400 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.35",
+      "url": "https://medex.com.bd/brands/28059/triben-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Unizole-DS",
+      "strength": "400 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/34990/unizole-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Verben",
+      "strength": "400 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/338/verben-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Verben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/25454/verben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Vermid",
+      "strength": "400 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/339/vermid-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Vermikil",
+      "strength": "400 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.53",
+      "url": "https://medex.com.bd/brands/341/vermikil-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Vermikil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "10 ml bottle : ৳ 15.11",
+      "url": "https://medex.com.bd/brands/340/vermikil-200-mg-oral-suspension"
+    },
+    {
+      "name": "Vermin-DS",
+      "strength": "400 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/25477/vermin-ds-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Wormex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "10 ml bottle : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/342/wormex-200-mg-oral-suspension"
+    },
+    {
+      "name": "Wormex",
+      "strength": "400 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/343/wormex-400-mg-chewable-tablet"
+    },
+    {
+      "name": "Zoben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "10 ml bottle : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/345/zoben-200-mg-oral-suspension"
+    },
+    {
+      "name": "Zoben",
+      "strength": "400 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/346/zoben-400-mg-chewable-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Albendazole is indicated in single and mixed infestations of-\n\n- Hookworm (Ancylostoma, Necator)\n- Roundworm (Ascaris)\n- Threadworm (Enterobius)\n- Whipworm (Trichuris)\n- Strongyloides\n- Tapeworm\n- Opisthorchi\n- Hydatid.",
+    "description": "Albendazole is a benzimidazole anthelmintic, active against most nematodes and some cestodes. It is used in the treatment of intestinal nematode infections and in higher doses in the treatment of hydatid disease. Albendazole exhibits vermicidal, ovicidal, and larvicidal activity. The principal mode of action of Albendazole is its inhibitory effect on tubulin polymerization, which results in the loss of cytoplasmic microtubules.",
+    "mode_of_action": "Albendazole is a broad spectrum anthelmintic. Albendazole exhibits vermicidal, ovicidal and larvicidal activities. The drug is thought to exert its anthelmintic effect by blocking glucose uptake in the susceptible helminths, thereby depleting the energy level until it becomes inadequate for survival. Immobilization is followed by the parasite. These events may be a consequence of the binding and subsequent inhibition of parasite tubulin polymerization by Albendazole and its metabolites, although the drug also binds to human tubulin. Albendazole is extensively metabolized, probably in the liver. Albendazole is poorly absorbed from the gastrointestinal tract but rapidly undergoes extensive first-pass metabolism. The principal metabolite albendazole sulphoxide has anthelmintic activity and a plasma half-life of about 8.5 hrs. It is excreted in the urine together with other metabolites.",
+    "dosage": "**Adults & children over 2 years**: \n\n- 400 mg (1 tablet or 10 ml suspension) as a single dose in cases of Enterobius vermicularis, Trichuris trichiura, Ascaris lumbricoides, Ancylostoma duodenale and Necator americanus.\n- In cases of strongyloidiasis or taeniasis, 400 mg (1 tablet or 10 ml suspension) daily should be given for 3 consecutive days. If the patient is not cured on follow-up after three weeks, a second course of treatment is indicated.\n\n**Children of 1-2 years**: Recommended dose is a single dose of 200 mg (5 ml suspension).\n\n**Children under 1 year**: Not recommended.\n\n**In Hydatid disease (Echinococcosis)**: \n\n- Albendazole is given by mouth with meals in a dose of 400 mg twice daily for 28 days for patients weighing over 60 kg.\n- A dose of 15 mg/kg body weight daily in two divided doses (to a maximum total daily dose of 800 mg) is used for patients weighing less than 60 kg.\n- For cystic echinococcosis, the 28 days course may be repeated after 14 days without treatment, to a total of 3 treatment cycles.\n- For alveolar echinococcosis, cycles of 28 days of treatment followed by 14 days without treatment, may need to continue for months or years.\n- In giardiasis, 400 mg (1 tablet or 10 ml suspension) once daily for five days is used.",
+    "interaction": "No interaction involving Albendazole, either pharmacodynamic or pharmacokinetic, has been reported.",
+    "contraindications": "**Neonates**: Albendazole is not normally used in neonates.\n\n**Children**: Reduction of the dose from 400 mg to 200 mg may be indicated in children weighing less than 10 kg but there are no grounds for a general reduction in dosage to children.\n\n**Pregnant woman**: Albendazole should not be given during pregnancy or women thought to be pregnant. No information is available on placental transfer.\n\n**Concurrent disease**: There is no evidence to suggest that dose should be altered in renal, hepatic or cardiac failure.",
+    "side_effects": "Gastrointestinal disturbances, headache, dizziness, changes in liver enzymes, rarely reversible alopecia; rash, fever, blood disorders including leucopenia and pancytopenia reported; allergic shock if cyst leakage; convulsion and meningism in cerebral disease.",
+    "pregnancy_cat": "US FDA Pregnancy category of Albendazole is C. So, Albendazole should be avoided in pregnancy and lactation unless the potential benefits to the other outweigh the possible risks to the fetus.",
+    "precautions": "Blood counts and liver function tests before treatment and twice during each cycle; breastfeeding; exclude pregnancy before starting treatment. Albendazole should only be used in the treatment of Echinococcosis if there is constant medical supervision with regular monitoring of serum-transaminase concentrations and of leucocyte and platelet counts",
+    "drug_classes": "Anthelmintic",
+    "storage_conditions": "Keep in a dry place, away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "এ্যালবেনডাজল নিম্নোক্ত একক বা মিশ্র ইনফেস্টেশনে নির্দেশিত-\n\n- হুকওয়ার্ম (এনকাইলোষ্টোমা, নেকাটর)\n- কেঁচোকৃমি (এসকারিস)\n- সূতাকৃমি (এন্টারোবিয়াস)\n- হুইপওয়ার্ম (ট্রাইচুরিস)\n- গোলকৃমি\n- ফিতাকৃমি\n- ওপিসথর্কি\n- স্থূলকোষ কৃমি বিশেষ (হাইডাটিড)।",
+    "mode_of_action": "এ্যালবেনডাজল একটি বিস্তৃত বর্ণালীর কৃমিনাশক ঔষধ। এ্যালবেনডাজল আন্ত্রিক পরজীবীনাশক, ডিম্বনাশক ও শুকনাশক কার্যকারিতা প্রদর্শন করে। ঔষধটি সংবেদনশীল কৃমির গ্লুকোজ গ্রহণে বাধা দিয়ে এর শক্তিস্তরকে কমিয়ে ফেলে জীবন ধারণে অক্ষম করে তুলে, ফলে পরজীবি নিশ্চল হয়ে যায় বা মারা যায়। এ্যালবেনডাজল এবং এর বিপাকীয় দ্রব্য, কৃমির টিউবিউলিন পলিমারাইজেশনে বাঁধা প্রদানের ফলেই গ্লুকোজ গ্রহণ কমে যায় বলে মনে করা হয়। এ্যালবেনডাজল সাধারণতঃ যকৃতে বিপাক হয়। এ্যালবেনডাজল পরিপাকতন্ত্র হতে খুবই অল্প পরিমাণে শোষিত হয়, কিন্তু সিস্টেমিক সারকুলেশনে যাওয়ার পূর্বে যকৃতে দ্রুত ব্যাপকভাবে বিপাকে অংশ নেয়। এ্যালবেনডাজলের প্রধান বিপাকীয় অংশ সালফোক্সাইড যার কৃমিনাশক কার্যকারিতা আছে এবং এর প্লাজমা হাফ লাইফ প্রায় ৮.৫ ঘন্টা। এ্যালবেনডাজল অন্যান্য বিপাকীয় অংশের সাথে মূত্রের মাধ্যমে নির্গত হয়।",
+    "dosage": "**প্রাপ্তবয়স্ক ও ২ বৎসরের উপরের বাচ্চা**:\n\n- এন্টারোবিয়াস ভার্মিকিউলারিস, ট্রাইচুরিস ট্রাইচুরিয়া, এসকারিস ল্যাম্ব্রিকয়েডস, এনসাইলোস্টোমা ডিওডেনালে এবং নেকাটার এমেরিক্যানাস দ্বারা সৃষ্ট ইনফেস্টেশন এর ক্ষেত্রে ৪০০ মিঃগ্রাঃ (১ টি ট্যাবলেট বা ১০ মিঃলিঃ সাস্পেনশন) এর একক মাত্রা।\n- স্ট্রংগাইলোয়ডিয়াসিস বা টেনিয়াসিস এর ক্ষেত্রে দৈনিক ৪০০ মিঃগ্রাঃ (১ টি ট্যাবলেট বা ১০ মিঃলিঃ সাস্পেনশন) করে পরপর ৩ দিন। ৩ সপ্তাহের মধ্যে যদি নিরাময় না হয় তবে দ্বিতীয়বার একই চিকিৎসা নিতে হবে।\n\n**১-২ বৎসরের বাচ্চা**: ২০০ মিঃগ্রাঃ (৫ মিঃলিঃ সাস্পেনশন) এর একক মাত্রা। \n\n**১ বৎসরের নীচের বাচ্চা**: অনুমোদিত নয়।\n\n**হাইডাটিড ডিজিজ (একিনোকক্কোসিস)**:\n\n- দৈহিক ওজন ৬০ কেজির বেশি হলে ৪০০ মিঃগ্রাঃ (খাবারের সাথে) করে দিনে ২ বার ২৮ দিন।\n- দৈহিক ওজন ৬০ কেজির কম হলে, দৈনিক ১৫ মিঃগ্রাঃ/কেজি দৈহিক ওজন হিসেবে ২ টি বিভক্ত মাত্রায় (দৈনিক সর্বোচ্চ মাত্রা ৮০০ মিঃগ্রাঃ)।\n- সিস্টিক একিনোকক্কোসিস এর ক্ষেত্রে ২৮ দিনের এ চিকিৎসা ১৪ দিন পরপর ৩ বার নিতে হবে\n- অ্যালভিওলার একিনোকক্কোসিস এর ক্ষেত্রে ২৮ দিনের এ চিকিৎসা ১৪ দিন পরপর কয়েক মাস বা কয়েক বৎসর নিতে হবে।\n- জিয়ারডিয়াসিসের ক্ষেত্রে দৈনিক ৪০০ মিঃগ্রাঃ (১ টি ট্যাবলেট বা ১০ মিঃলিঃ সাস্পেনশন) ৫ দিন ব্যবহৃত হয়।",
+    "interaction": "এ্যালবেনডাজলের অন্যান্য ঔষধের সাথে বিক্রিয়ার ক্ষেত্রে কোন তথ্য পাওয়া যায় নাই।",
+    "contraindications": "**নবজাত শিশু**: এ্যালবেনডাজল সাধারণত নবজাতকের ক্ষেত্রে ব্যবহার করা উচিত নয়।\n\n**শিশুদের ক্ষেত্রে**: দশ কেজির কম ওজনের শিশুদের ক্ষেত্রে ৪০০ মি.গ্রা. ট্যাবলেট এর পরিবর্তে ২০০ মি.গ্রা. ট্যাবলেট নির্দেশিত, কিন্তু এই ধরনের পরিবর্তিত সেবনমাত্রার প্রসঙ্গে কোন ব্যাখ্যা নাই৷ \n\n**গর্ভবতী মহিলা**: এ্যালবেনডাজল গর্ভবতী মহিলাদের ক্ষেত্রে নির্দেশিত নয়। কিন্তু এ্যালবেনডাজলের জন্য গর্ভপরিস্রাব স্থানাস্তর এর কোন তথ্য পাওয়া যায় নাই।\n\n**অন্যান্য অসুস্থতার ক্ষেত্রে**: রেনাল, হেপাটিক অথবা কার্ডিয়াক ফেইলিওর-এ এ্যালবেনডাজল সেবনমাত্রা পরিবর্তন প্রমাণিত নয়।",
+    "side_effects": "সাধারণত পরিপাকতন্ত্রের গোলযোগ, মাথাব্যাথা, মাথাঘোরা, যকৃতে এনজাইমের পরিবর্তন, রক্তস্ফোট, ফসকুড়ি, জ্বর, শ্বেতকনিকা স্বল্পতা, পেনসাইটোপেনিয়া, পেশী সংকোচন, এলার্জিকশক, মস্তিষ্ক ঝিল্লীর প্রদাহ বা প্রদাহ ছাড়াই শুষ্কাবস্থা।",
+    "pregnancy_cat": "US FDA প্রেগনেন্সি ক্যাটাগরী অনুযায়ী এলবেনডাজল 'C' শ্রেণীভূক্ত ঔষধ। সুতরাং, প্রত্যাশিত সুবিধা, Fetue এর ঝুঁকির চেয়ে বেশি না হলে গর্ভাবস্থায় ও স্তন্যদানকালে এলবেনডাজল ব্যবহারে বিরত থাকা উচিত।",
+    "precautions": "চিকিৎসার পূর্বে রক্ত কণিকার পরিমাণ এবং যকৃতের কার্যকারিতা পরীক্ষা করতে হবে এবং প্রতি চিকিৎসাকালীন এই পরীক্ষা দুই বার করতে হবে। গর্ভাবস্থা ও দুগ্ধবতী মায়েদের ক্ষেত্রে ব্যবহার করবেন না। ইকিনোকক্‌কোসিসে ব্যবহারের ক্ষেত্রে সার্বক্ষনিক ডাক্তারের তত্ত্বাবধানে থাকা প্রয়োজন। রক্তে ট্রান্সঅ্যামাইনেজ এর পরিমাণ ও লিউকোসাইট ও প্লাটিলেটের পরিমাণ নিয়মিত পর্যবেক্ষন করতে হবে।",
+    "drug_classes": "Anthelmintic",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে, শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/16/albendazole",
+  "source_url_bn": "https://medex.com.bd/generics/16/albendazole/bn",
+  "scraped_at": "2026-10-10T18:29:04+00:00"
+}

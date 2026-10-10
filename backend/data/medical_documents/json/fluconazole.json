@@ -1,0 +1,1534 @@
+{
+  "slug": "fluconazole",
+  "name_en": "Fluconazole",
+  "name_bn": "ফ্লুকোনাজল",
+  "therapeutic_class": "Drugs for subcutaneous and mycoses",
+  "dosage_forms": [
+    "Gelatin Capsules",
+    "Hard Capsules",
+    "Tablets, Injection & Oral Suspension"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Afluzole",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.30",
+      "url": "https://medex.com.bd/brands/28035/afluzole-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Afluzole",
+      "strength": "150 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.08",
+      "url": "https://medex.com.bd/brands/28038/afluzole-150-mg-capsule"
+    },
+    {
+      "name": "Afluzole",
+      "strength": "50 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/28039/afluzole-50-mg-capsule"
+    },
+    {
+      "name": "Anfasil",
+      "strength": "50 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/9819/anfasil-50-mg-tablet"
+    },
+    {
+      "name": "Anfasil",
+      "strength": "150 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9820/anfasil-150-mg-tablet"
+    },
+    {
+      "name": "Anfasil",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 75.28",
+      "url": "https://medex.com.bd/brands/9821/anfasil-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Canazole",
+      "strength": "50 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/9823/canazole-50-mg-tablet"
+    },
+    {
+      "name": "Canazole",
+      "strength": "150 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 22.15",
+      "url": "https://medex.com.bd/brands/9824/canazole-150-mg-tablet"
+    },
+    {
+      "name": "Canazole",
+      "strength": "200 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/9825/canazole-200-mg-tablet"
+    },
+    {
+      "name": "Canazole",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "35 ml bottle : ৳ 78.53",
+      "url": "https://medex.com.bd/brands/9826/canazole-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Candid",
+      "strength": "50 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9827/candid-50-mg-tablet"
+    },
+    {
+      "name": "Candid",
+      "strength": "150 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9828/candid-150-mg-tablet"
+    },
+    {
+      "name": "Candiflu",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/9971/candiflu-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Candiflu",
+      "strength": "50 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/28199/candiflu-50-mg-capsule"
+    },
+    {
+      "name": "Candifun",
+      "strength": "150 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/39258/candifun-150-mg-capsule"
+    },
+    {
+      "name": "Candifun",
+      "strength": "50 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/39259/candifun-50-mg-capsule"
+    },
+    {
+      "name": "Candinil",
+      "strength": "50 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9831/candinil-50-mg-capsule"
+    },
+    {
+      "name": "Candinil",
+      "strength": "150 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9832/candinil-150-mg-capsule"
+    },
+    {
+      "name": "Candinil",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9833/candinil-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Candinil",
+      "strength": "200 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26095/candinil-200-mg-capsule"
+    },
+    {
+      "name": "Candiver",
+      "strength": "50 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29570/candiver-50-mg-capsule"
+    },
+    {
+      "name": "Candiver",
+      "strength": "150 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/37168/candiver-150-mg-capsule"
+    },
+    {
+      "name": "Candizol",
+      "strength": "50 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/9972/candizol-50-mg-capsule"
+    },
+    {
+      "name": "Con",
+      "strength": "50 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9834/con-50-mg-tablet"
+    },
+    {
+      "name": "Conaz",
+      "strength": "50 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/9835/conaz-50-mg-capsule"
+    },
+    {
+      "name": "Conaz",
+      "strength": "150 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.14",
+      "url": "https://medex.com.bd/brands/9836/conaz-150-mg-capsule"
+    },
+    {
+      "name": "Conazole",
+      "strength": "50 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9837/conazole-50-mg-capsule"
+    },
+    {
+      "name": "Cosflu",
+      "strength": "50 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9838/cosflu-50-mg-tablet"
+    },
+    {
+      "name": "Darmy",
+      "strength": "50 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/39328/darmy-50-mg-capsule"
+    },
+    {
+      "name": "Defungi",
+      "strength": "50 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/9839/defungi-50-mg-capsule"
+    },
+    {
+      "name": "Derma",
+      "strength": "50 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/9841/derma-50-mg-capsule"
+    },
+    {
+      "name": "Derma",
+      "strength": "150 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/9842/derma-150-mg-capsule"
+    },
+    {
+      "name": "Dermicon",
+      "strength": "150 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9973/dermicon-150-mg-capsule"
+    },
+    {
+      "name": "Dermicon",
+      "strength": "50 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9974/dermicon-50-mg-capsule"
+    },
+    {
+      "name": "Diflu",
+      "strength": "50 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9843/diflu-50-mg-capsule"
+    },
+    {
+      "name": "Diflu",
+      "strength": "150 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9844/diflu-150-mg-capsule"
+    },
+    {
+      "name": "Diflu",
+      "strength": "200 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9845/diflu-200-mg-capsule"
+    },
+    {
+      "name": "Diflu",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9846/diflu-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Diflucon",
+      "strength": "50 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/9847/diflucon-50-mg-capsule"
+    },
+    {
+      "name": "F-Zol",
+      "strength": "50 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9924/f-zol-50-mg-capsule"
+    },
+    {
+      "name": "F-Zol",
+      "strength": "150 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.08",
+      "url": "https://medex.com.bd/brands/9925/f-zol-150-mg-capsule"
+    },
+    {
+      "name": "F-Zol",
+      "strength": "200 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9926/f-zol-200-mg-capsule"
+    },
+    {
+      "name": "F-Zol",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "20 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/9927/f-zol-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "F-Zol",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/9928/f-zol-200-mg-iv-infusion"
+    },
+    {
+      "name": "Falcon",
+      "strength": "50 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28088/falcon-50-mg-capsule"
+    },
+    {
+      "name": "Falcon",
+      "strength": "150 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/28089/falcon-150-mg-capsule"
+    },
+    {
+      "name": "Falcon",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/39281/falcon-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Farlan",
+      "strength": "50 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27769/farlan-50-mg-tablet"
+    },
+    {
+      "name": "Farlan",
+      "strength": "150 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27770/farlan-150-mg-tablet"
+    },
+    {
+      "name": "Flavona",
+      "strength": "50 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28208/flavona-50-mg-capsule"
+    },
+    {
+      "name": "Fluact",
+      "strength": "50 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9976/fluact-50-mg-capsule"
+    },
+    {
+      "name": "Fluact",
+      "strength": "150 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9977/fluact-150-mg-capsule"
+    },
+    {
+      "name": "Fluact",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9978/fluact-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flubest",
+      "strength": "150 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 22.07",
+      "url": "https://medex.com.bd/brands/27141/flubest-150-mg-capsule"
+    },
+    {
+      "name": "Flubest",
+      "strength": "50 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/27142/flubest-50-mg-capsule"
+    },
+    {
+      "name": "Flubest",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "35 ml bottle : ৳ 78.23",
+      "url": "https://medex.com.bd/brands/27415/flubest-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucanex",
+      "strength": "50 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9850/flucanex-50-mg-capsule"
+    },
+    {
+      "name": "Flucanex",
+      "strength": "150 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9851/flucanex-150-mg-capsule"
+    },
+    {
+      "name": "Flucid",
+      "strength": "50 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9910/flucid-50-mg-capsule"
+    },
+    {
+      "name": "Fluco-S",
+      "strength": "50 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9866/fluco-s-50-mg-capsule"
+    },
+    {
+      "name": "Fluco-S",
+      "strength": "150 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9867/fluco-s-150-mg-capsule"
+    },
+    {
+      "name": "Flucoder",
+      "strength": "50 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.10",
+      "url": "https://medex.com.bd/brands/9852/flucoder-50-mg-capsule"
+    },
+    {
+      "name": "Flucoder",
+      "strength": "150 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9853/flucoder-150-mg-capsule"
+    },
+    {
+      "name": "Flucoder",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9854/flucoder-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucoder",
+      "strength": "200 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26753/flucoder-200-mg-capsule"
+    },
+    {
+      "name": "Flucolet",
+      "strength": "50 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9855/flucolet-50-mg-capsule"
+    },
+    {
+      "name": "Flucolet",
+      "strength": "150 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9856/flucolet-150-mg-capsule"
+    },
+    {
+      "name": "Flucolet",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/9857/flucolet-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flucon",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/9858/flucon-50-mg-capsule"
+    },
+    {
+      "name": "Flucon",
+      "strength": "150 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.08",
+      "url": "https://medex.com.bd/brands/9859/flucon-150-mg-capsule"
+    },
+    {
+      "name": "Flucon",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9860/flucon-200-mg-capsule"
+    },
+    {
+      "name": "Flucon",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "35 ml bottle : ৳ 78.52",
+      "url": "https://medex.com.bd/brands/27047/flucon-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluconaaf",
+      "strength": "50 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/28791/fluconaaf-50-mg-capsule"
+    },
+    {
+      "name": "Fluconaaf",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "35 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/36802/fluconaaf-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluconal",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.07",
+      "url": "https://medex.com.bd/brands/9861/fluconal-50-mg-tablet"
+    },
+    {
+      "name": "Fluconal",
+      "strength": "150 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 22.15",
+      "url": "https://medex.com.bd/brands/9862/fluconal-150-mg-tablet"
+    },
+    {
+      "name": "Fluconal",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "35 ml bottle : ৳ 78.53",
+      "url": "https://medex.com.bd/brands/9863/fluconal-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "50 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9864/fluconazole-50-mg-capsule"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "150 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9865/fluconazole-150-mg-capsule"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "50 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/9955/fluconazole-50-mg-tablet"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/9956/fluconazole-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "50 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/30320/fluconazole-50-mg-capsule"
+    },
+    {
+      "name": "Fluconazole",
+      "strength": "150 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/35878/fluconazole-150-mg-capsule"
+    },
+    {
+      "name": "Flucoron",
+      "strength": "50 mg",
+      "manufacturer": "RN Pharmaceuticals",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/28214/flucoron-50-mg-capsule"
+    },
+    {
+      "name": "Flucostan",
+      "strength": "50 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/9868/flucostan-50-mg-capsule"
+    },
+    {
+      "name": "Flucostin",
+      "strength": "50 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27388/flucostin-50-mg-tablet"
+    },
+    {
+      "name": "Flucovax",
+      "strength": "50 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37853/flucovax-50-mg-capsule"
+    },
+    {
+      "name": "Flucovax",
+      "strength": "150 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/37854/flucovax-150-mg-capsule"
+    },
+    {
+      "name": "Fluda",
+      "strength": "50 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/9869/fluda-50-mg-capsule"
+    },
+    {
+      "name": "Fluda",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "35 ml bottle : ৳ 78.24",
+      "url": "https://medex.com.bd/brands/9870/fluda-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fluderm",
+      "strength": "50 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27473/fluderm-50-mg-tablet"
+    },
+    {
+      "name": "Fluderm",
+      "strength": "150 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27474/fluderm-150-mg-tablet"
+    },
+    {
+      "name": "Fludex",
+      "strength": "50 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9871/fludex-50-mg-capsule"
+    },
+    {
+      "name": "Fludex",
+      "strength": "150 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 21.00",
+      "url": "https://medex.com.bd/brands/27261/fludex-150-mg-capsule"
+    },
+    {
+      "name": "Flufun",
+      "strength": "50 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9872/flufun-50-mg-capsule"
+    },
+    {
+      "name": "Flufun",
+      "strength": "150 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9873/flufun-150-mg-capsule"
+    },
+    {
+      "name": "Flugal",
+      "strength": "50 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.07",
+      "url": "https://medex.com.bd/brands/9874/flugal-50-mg-capsule"
+    },
+    {
+      "name": "Flugal",
+      "strength": "150 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.14",
+      "url": "https://medex.com.bd/brands/9875/flugal-150-mg-capsule"
+    },
+    {
+      "name": "Flugal",
+      "strength": "200 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.17",
+      "url": "https://medex.com.bd/brands/9876/flugal-200-mg-capsule"
+    },
+    {
+      "name": "Flugal",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "35 ml bottle : ৳ 78.53",
+      "url": "https://medex.com.bd/brands/9877/flugal-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flugal",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/27505/flugal-200-mg-iv-infusion"
+    },
+    {
+      "name": "Flugard",
+      "strength": "50 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9878/flugard-50-mg-capsule"
+    },
+    {
+      "name": "Flugard",
+      "strength": "150 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9879/flugard-150-mg-capsule"
+    },
+    {
+      "name": "Flujale",
+      "strength": "50 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9881/flujale-50-mg-capsule"
+    },
+    {
+      "name": "Flukzol",
+      "strength": "50 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9882/flukzol-50-mg-capsule"
+    },
+    {
+      "name": "Flukzol",
+      "strength": "150 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/34350/flukzol-150-mg-capsule"
+    },
+    {
+      "name": "Fluma",
+      "strength": "50 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9883/fluma-50-mg-capsule"
+    },
+    {
+      "name": "Fluma",
+      "strength": "150 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9884/fluma-150-mg-capsule"
+    },
+    {
+      "name": "Flumart",
+      "strength": "50 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/9885/flumart-50-mg-capsule"
+    },
+    {
+      "name": "Flumart",
+      "strength": "150 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9886/flumart-150-mg-capsule"
+    },
+    {
+      "name": "Flumazole",
+      "strength": "50 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.75",
+      "url": "https://medex.com.bd/brands/29254/flumazole-50-mg-capsule"
+    },
+    {
+      "name": "Flumazole",
+      "strength": "150 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/32326/flumazole-150-mg-capsule"
+    },
+    {
+      "name": "Flumyc",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9887/flumyc-50-mg-capsule"
+    },
+    {
+      "name": "Flumyc",
+      "strength": "150 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9888/flumyc-150-mg-capsule"
+    },
+    {
+      "name": "Flumyc",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "35 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/27239/flumyc-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flunac",
+      "strength": "50 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/9889/flunac-50-mg-capsule"
+    },
+    {
+      "name": "Flunac",
+      "strength": "150 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9890/flunac-150-mg-capsule"
+    },
+    {
+      "name": "Flunac",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9891/flunac-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flunapen",
+      "strength": "50 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/9892/flunapen-50-mg-capsule"
+    },
+    {
+      "name": "Flunapen",
+      "strength": "150 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.07",
+      "url": "https://medex.com.bd/brands/9893/flunapen-150-mg-capsule"
+    },
+    {
+      "name": "Flunazol",
+      "strength": "50 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/9894/flunazol-50-mg-capsule"
+    },
+    {
+      "name": "Flunazol",
+      "strength": "150 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9895/flunazol-150-mg-capsule"
+    },
+    {
+      "name": "Flunazol",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "35 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/9896/flunazol-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flunol",
+      "strength": "50 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9897/flunol-50-mg-capsule"
+    },
+    {
+      "name": "Flunol",
+      "strength": "150 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9898/flunol-150-mg-capsule"
+    },
+    {
+      "name": "Flunol",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.30",
+      "url": "https://medex.com.bd/brands/9899/flunol-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flunova",
+      "strength": "50 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38721/flunova-50-mg-capsule"
+    },
+    {
+      "name": "Flunova",
+      "strength": "150 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/38722/flunova-150-mg-capsule"
+    },
+    {
+      "name": "Flusaf",
+      "strength": "50 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9900/flusaf-50-mg-capsule"
+    },
+    {
+      "name": "Flusaf",
+      "strength": "150 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27917/flusaf-150-mg-capsule"
+    },
+    {
+      "name": "Fluxagal",
+      "strength": "150 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/35674/fluxagal-150-mg-capsule"
+    },
+    {
+      "name": "Fluxagal",
+      "strength": "50 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/35675/fluxagal-50-mg-capsule"
+    },
+    {
+      "name": "Fluzo",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9906/fluzo-50-mg-tablet"
+    },
+    {
+      "name": "Fluzo",
+      "strength": "150 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9907/fluzo-150-mg-tablet"
+    },
+    {
+      "name": "Fluzole",
+      "strength": "50 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9908/fluzole-50-mg-tablet"
+    },
+    {
+      "name": "Fluzole",
+      "strength": "150 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9909/fluzole-150-mg-tablet"
+    },
+    {
+      "name": "Funga",
+      "strength": "50 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/9984/funga-50-mg-capsule"
+    },
+    {
+      "name": "Funga",
+      "strength": "150 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9985/funga-150-mg-capsule"
+    },
+    {
+      "name": "Fungard",
+      "strength": "50 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.23",
+      "url": "https://medex.com.bd/brands/9913/fungard-50-mg-capsule"
+    },
+    {
+      "name": "Fungard",
+      "strength": "150 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/29530/fungard-150-mg-capsule"
+    },
+    {
+      "name": "Fungata",
+      "strength": "50 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9914/fungata-50-mg-capsule"
+    },
+    {
+      "name": "Fungata",
+      "strength": "150 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9915/fungata-150-mg-capsule"
+    },
+    {
+      "name": "Fungata",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "35 ml bottle : ৳ 78.29",
+      "url": "https://medex.com.bd/brands/9916/fungata-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fungi-F",
+      "strength": "50 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9917/fungi-f-50-mg-capsule"
+    },
+    {
+      "name": "Fungicap",
+      "strength": "50 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37413/fungicap-50-mg-capsule"
+    },
+    {
+      "name": "Fungicap",
+      "strength": "150 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/37414/fungicap-150-mg-capsule"
+    },
+    {
+      "name": "Fungifix",
+      "strength": "50 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32514/fungifix-50-mg-capsule"
+    },
+    {
+      "name": "Funginil",
+      "strength": "150 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/27405/funginil-150-mg-capsule"
+    },
+    {
+      "name": "Funginil",
+      "strength": "50 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27406/funginil-50-mg-capsule"
+    },
+    {
+      "name": "Fungitrol",
+      "strength": "50 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9918/fungitrol-50-mg-capsule"
+    },
+    {
+      "name": "Fungitrol",
+      "strength": "150 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.06",
+      "url": "https://medex.com.bd/brands/9919/fungitrol-150-mg-capsule"
+    },
+    {
+      "name": "Fungitrol",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.24",
+      "url": "https://medex.com.bd/brands/9920/fungitrol-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Funzole",
+      "strength": "50 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9921/funzole-50-mg-capsule"
+    },
+    {
+      "name": "Funzole",
+      "strength": "150 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9922/funzole-150-mg-capsule"
+    },
+    {
+      "name": "Funzole",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9923/funzole-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fuze",
+      "strength": "50 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38161/fuze-50-mg-capsule"
+    },
+    {
+      "name": "Galfin",
+      "strength": "50 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/9929/galfin-50-mg-capsule"
+    },
+    {
+      "name": "Galfin",
+      "strength": "150 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.15",
+      "url": "https://medex.com.bd/brands/9930/galfin-150-mg-capsule"
+    },
+    {
+      "name": "Iluca",
+      "strength": "50 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/9931/iluca-50-mg-capsule"
+    },
+    {
+      "name": "Iluca",
+      "strength": "150 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/9932/iluca-150-mg-capsule"
+    },
+    {
+      "name": "Iluca",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/26599/iluca-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Innocan",
+      "strength": "50 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27611/innocan-50-mg-capsule"
+    },
+    {
+      "name": "Innocan",
+      "strength": "150 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27612/innocan-150-mg-capsule"
+    },
+    {
+      "name": "Leucodar",
+      "strength": "50 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9933/leucodar-50-mg-tablet"
+    },
+    {
+      "name": "Limastin",
+      "strength": "50 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9987/limastin-50-mg-capsule"
+    },
+    {
+      "name": "Lucan-R",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9934/lucan-r-50-mg-capsule"
+    },
+    {
+      "name": "Lucan-R",
+      "strength": "150 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 22.08",
+      "url": "https://medex.com.bd/brands/9935/lucan-r-150-mg-capsule"
+    },
+    {
+      "name": "Lucan-R",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "35 ml bottle : ৳ 78.30",
+      "url": "https://medex.com.bd/brands/9936/lucan-r-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Lucan-R",
+      "strength": "200 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26638/lucan-r-200-mg-capsule"
+    },
+    {
+      "name": "Lucon",
+      "strength": "50 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/9937/lucon-50-mg-capsule"
+    },
+    {
+      "name": "Lucon",
+      "strength": "150 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.15",
+      "url": "https://medex.com.bd/brands/9938/lucon-150-mg-capsule"
+    },
+    {
+      "name": "Lucza",
+      "strength": "50 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/9967/lucza-50-mg-capsule"
+    },
+    {
+      "name": "Lucza",
+      "strength": "150 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.15",
+      "url": "https://medex.com.bd/brands/26398/lucza-150-mg-capsule"
+    },
+    {
+      "name": "Mycoder",
+      "strength": "50 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9939/mycoder-50-mg-tablet"
+    },
+    {
+      "name": "Mycoder",
+      "strength": "150 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9940/mycoder-150-mg-tablet"
+    },
+    {
+      "name": "Mycorest",
+      "strength": "50 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/9988/mycorest-50-mg-capsule"
+    },
+    {
+      "name": "Nispore",
+      "strength": "50 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9942/nispore-50-mg-capsule"
+    },
+    {
+      "name": "Nispore",
+      "strength": "150 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9943/nispore-150-mg-capsule"
+    },
+    {
+      "name": "Nispore",
+      "strength": "200 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9944/nispore-200-mg-capsule"
+    },
+    {
+      "name": "Nispore",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9945/nispore-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nogal",
+      "strength": "50 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9946/nogal-50-mg-tablet"
+    },
+    {
+      "name": "Nogal",
+      "strength": "150 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9947/nogal-150-mg-tablet"
+    },
+    {
+      "name": "Olif",
+      "strength": "50 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/9948/olif-50-mg-capsule"
+    },
+    {
+      "name": "Olif",
+      "strength": "150 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.06",
+      "url": "https://medex.com.bd/brands/9949/olif-150-mg-capsule"
+    },
+    {
+      "name": "Omastin",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9950/omastin-50-mg-capsule"
+    },
+    {
+      "name": "Omastin",
+      "strength": "150 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9951/omastin-150-mg-capsule"
+    },
+    {
+      "name": "Omastin",
+      "strength": "200 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9952/omastin-200-mg-capsule"
+    },
+    {
+      "name": "Omastin",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9953/omastin-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Omastin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/9954/omastin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Oraf",
+      "strength": "50 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/9957/oraf-50-mg-capsule"
+    },
+    {
+      "name": "Oraf",
+      "strength": "150 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/9958/oraf-150-mg-capsule"
+    },
+    {
+      "name": "Oraf",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 70.21",
+      "url": "https://medex.com.bd/brands/9959/oraf-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orcon",
+      "strength": "50 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/27336/orcon-50-mg-capsule"
+    },
+    {
+      "name": "Orcon",
+      "strength": "150 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27337/orcon-150-mg-capsule"
+    },
+    {
+      "name": "Pileus",
+      "strength": "50 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27094/pileus-50-mg-capsule"
+    },
+    {
+      "name": "Pileus",
+      "strength": "150 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/27095/pileus-150-mg-capsule"
+    },
+    {
+      "name": "Richcon",
+      "strength": "50 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9902/richcon-50-mg-capsule"
+    },
+    {
+      "name": "Richcon",
+      "strength": "150 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.06",
+      "url": "https://medex.com.bd/brands/9903/richcon-150-mg-capsule"
+    },
+    {
+      "name": "Richcon",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 78.24",
+      "url": "https://medex.com.bd/brands/27215/richcon-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Richcon",
+      "strength": "200 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/39428/richcon-200-mg-capsule"
+    },
+    {
+      "name": "Sacona",
+      "strength": "50 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9960/sacona-50-mg-capsule"
+    },
+    {
+      "name": "Sacona",
+      "strength": "150 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.05",
+      "url": "https://medex.com.bd/brands/9961/sacona-150-mg-capsule"
+    },
+    {
+      "name": "Segal",
+      "strength": "50 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9962/segal-50-mg-capsule"
+    },
+    {
+      "name": "Segal",
+      "strength": "150 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/9963/segal-150-mg-capsule"
+    },
+    {
+      "name": "Segal",
+      "strength": "50 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "35 ml bottle : ৳ 78.00",
+      "url": "https://medex.com.bd/brands/9964/segal-50-mg-powder-for-suspension"
+    },
+    {
+      "name": "Silcona",
+      "strength": "50 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31567/silcona-50-mg-capsule"
+    },
+    {
+      "name": "Silcona",
+      "strength": "150 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/31568/silcona-150-mg-capsule"
+    },
+    {
+      "name": "Techonazol",
+      "strength": "50 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 7.94",
+      "url": "https://medex.com.bd/brands/27355/techonazol-50-mg-capsule"
+    },
+    {
+      "name": "Techonazol",
+      "strength": "150 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 21.83",
+      "url": "https://medex.com.bd/brands/27356/techonazol-150-mg-capsule"
+    },
+    {
+      "name": "Trigal",
+      "strength": "50 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/9965/trigal-50-mg-capsule"
+    },
+    {
+      "name": "Trigal",
+      "strength": "150 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9966/trigal-150-mg-capsule"
+    },
+    {
+      "name": "Zolen",
+      "strength": "50 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9969/zolen-50-mg-capsule"
+    },
+    {
+      "name": "Zolen",
+      "strength": "150 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9970/zolen-150-mg-capsule"
+    }
+  ],
+  "sections_en": {
+    "indications": "Fluconazole is indicated in-\n\n- Vaginal Candidiasis\n- Oropharyngeal Candidiasis\n- Esophageal Candidiasis\n- Tinea corporis/Tinea cruris/Tinea pedis/Other Tinea\n- Kerion\n- Pityriasis versicolor\n- Onychomycosis\n- Invasive candidal infections and cryptococcal infections (including meningitis)\nFluconazole is indicated in-\n\n- Vaginal Candidiasis\n- Oropharyngeal Candidiasis\n- Esophageal Candidiasis\n- Tinea corporis/Tinea cruris/Tinea pedis/Other Tinea\n- Kerion\n- Pityriasis versicolor\n- Onychomycosis\n- Invasive candidal infections and cryptococcal infections (including meningitis)\n- Prevention of cryptococcal meningitis\n- Prevention of fungal infections in immunocompromised patients\n- Systemic Candidiasis and Cryptococcal infection\n- In Superficial Candidiasis\n- In Systemic Candidiasis & Cryptococcal infection\n\r\nOther indications-\n\n- Fungal urinary tract infections\n- Disseminated candidiasis\n- Prophylaxis for fungal infection in neutropenic cancer patients.\n- Acute treatment of other systemic fungal infections such as coccidioidomycosis and histoplasmosis.",
+    "mode_of_action": "Fluconazole is a triazole antifungal agent. It is a potent inhibitor of fungal cytochrome P-450 dependent enzymes. Cytochrome P-450 enzyme system is essential component of fungal cell membrane which is responsible for the synthesis of ergosterol.",
+    "dosage": "Adults:\n\n- **Vaginal Candidiasis**: 150 mg as a single dose.\n- **Oropharyngeal Candidiasis**: 200 mg in 1st day followed by 100 mg daily for 14 days.\n- **Oesophageal Candidiasis**: 200 mg in 1st day followed by 100 mg daily for 14-30 days.\n- **Tinea corporis/Tinea cruris/Tinea pedis/Other Tinea**: 150 mg weekly for 4-6 weeks.\n- **Kerion**: 50 mg daily for 20 days.\n- **Pityriasis versicolor**: 400 mg as a single dose.\n- **Onychomycosis**: 150 mg weekly for 12 months.\n- **Invasive candidal infections and cryptococcal infections (including meningitis)**: Orally or by IV infusion, 400 mg on first day then 200-400 mg daily.\n- **Prevention of cryptococcal meningitis**: Orally or by IV infusion 200 mg daily.\n- **Prevention of fungal infections in immunocompromised patients**: Orally or by IV infusion, 50-400 mg daily.\n\nChild over 1 year-\n\n- **In Superficial Candidiasis**: 1-2 mg/kg daily.\n- **In Systemic Candidiasis & Cryptococcal infection**:3-6 mg/kg daily.\n\r\nIn serious life threatening infections upto 12 mg/kg daily has been given to children aged 5-13 years (Maximum 400 mg daily)\n\n- **1 year: 9 kg**: 1/2 measuring spoonful\n- **1-2 years: 12 kg**: 1 measuring spoonful\n- **2-3 years: 14 kg**: 1½ measuring spoonful\n- **3-4 years: 16 kg**: 2 measuring spoonful\n- **4-6 years: 20 kg**: 2½ measuring spoonful\n\nUse in Specific Population-\n\n**Elderly patient**: The normal dose should be used if there is no evidence of renal impairment. \n\n**Renal Impairment**: No adjustment in single dose therapy is required. In multiple dose therapy of patients with renal impairment, normal doses should be given on days 1 and 2 of treatment and there after the dosage intervals should be modified as follows:\n\n- Creatinine clearance (>41 ml/min): Dosage interval (hours) 24\n- Creatinine clearance (21-40 ml/min): Dosage interval (hours) 48\n- Creatinine clearance (10-20 ml/min): Dosage interval (hours) 72\n- Patients receiving regular dialysis: One dose after every dialysis session\n\n**Children**: Renal clearance in children may be proportionately more rapid than in adults and doses up to 12 mg/kg is recommended.",
+    "interaction": "In an interaction study, fuconazole increased the prothombin time after warfarin administration in healthy males. Though the magnitude of change was small (12%) careful monitoring of prothombin time in patients receiving coumarin type anticoagulants is recommended.\n\nFluconazole has been shown to prolong the serum half-life of concomitantly administed oral sulphonyl ureas (chlorpropamide, gilbenclamide, glipizide and tolbutamide) in healthy volunteers. Fluconazole and oral sulphonylureas may be co-administered to diabetic patients, but the possibility of a hypoglycemic episode should be borne in mind.\n\nIn a kinetic interaction study, co-administration of multiple-dose hydrochlorothiazide to healthy volunteers receiving fuconazole increased plasma concentrations of fuconazole by 40%. An efect of this magnitude should not necessitate a change in the fuconazole dose regimen in subjects recieving concomitant diureties, although the prescribers should bear it in mind.\n\nConcomitant administration of fuconazole and phenytoin may increase the level of phenytoin to a clinically signifcant degree. Administration of fuconazole and rifampicin has resulted in a 25% decrease in the AUC and 20% shorter half-life of fuconazole. Patients recieving concomitant rifampicin, an increase in the fuconazole dose should be considered.\n\nTwo kinetic studies with combined oral contraceptive have been performed using muitiple dose of fuconazole. There were no relevant efects on either hormone level in the 50 mg fuconazole study, while at 200 mg daily the AUCs of ethinyl estradiol and levonorgestrel were increased 40% and 4% respectively. Thus multipule dose use of fuconazole at these dose is unlikely to have an efect on the efcacy of the combined oral contraceptives. Fluconazole 50 mg daily does not afect endogenous steroid levels in females. 200-400 mg daily has no clinically singnifcant efect on endogenous steroid levels or on ACTH stimulated response in healthy male volunteers.\n\nA kinetic study in renal transplant patients found fuconazole 200 mg daily to slowly increase cyclosporin concentrations. However, in another multiple dose study with 100 mg daily, fuconazole did not afect cyclosporin levels in patients with bone marrow transplants. Cyclosporin plasma concentration monitoring in patients receiving fuconazole is recommended.\n\nInteraction studies have shown that when oral fuconazole is co-administered with food. cemetidine, antacids or following total body irradiation for bone marrow transplantation, no clinically signifcant impairment of fuconazole absorption occurs.\n\nIn placebo-controlled interaction study, the administration of fuconazole 200mg for 14 days resulted in an 18% decrease, in the mean plasma clearance of theophyline, Patients who are receiving dose of theophyline or who are otherwise at increased risk for theophyline toxicity should be observed for sign of toxicity while receiving fuconazole, and the therapy modifed appropriately if sign of toxicity while receiving fuconazole, and the therapy modifed appropriately if sign of toxicity develop.\n\nPhysicians should be aware that drug-drug interaction studies with other medications have not been conducted, but that such interactions may occur.",
+    "contraindications": "Fluconazole should not be used in patients with known hypersensitivity to Fluconazole or to related triazole compounds.",
+    "side_effects": "Fluconazole is generally well tolerated. The commonest side-efects associated Fluconazole are symptoms associated with the gastrointestinal tract; these include nausea, abdominal discomfort, diarrhoea and fatulence. Other adverse events such as rash are rarely encountered (Incidence less than 1%). In rare cases, as with other azoles, anaphylaxis has been reported.",
+    "pregnancy_cat": "Fluconazole adverse fetal efects have been seen in animals only at dose levels associated with maternal toxicity. These levels are many times in excess of those recommended for therapeutic use. There has been little use during human pregnancy. Accordingly, fuconazole should not be used in pregnancy or in women of child bearing potential unless adequate contraception is employed.",
+    "precautions": "in some patients, particularly those with serious underlying diseases such as AIDS and cancer, abnormalities of hepatic, renal, haematological and other biochemical function tests have been observed during treatment with fuconazole, but the clinical signifcance and relationship to treatment is uncertain. \n\nVery rarely. patients who died with severe underlying disease and who had received multiple dose fuconazole, had post-mortem fndings which included hapatic necrosis. These patients were receiving multiple concomitant medications, some known to be potentially hepatotoxic, and/or had underlying diseases, which could have caused the hepatic necrosis. Consequently, because a causal relationship with fuconazole cannot be excluded, the risk-beneft ratio of continued fuconazole treatment should be assessed in those patients in whom a signifcant rise of liver enzymes occurs.\n\nPatients have rarely developed exfoliative cutaneous reactions, such pa Stevens Johnson Syndrome and toxic epidermal necrolysis, during treatment with fuconazole. AIDS patients are more prone to the development of severe cutaneous reactions to many drugs. \n\nIf a rash develops in a patients treated for a superfaclal fungal infection which is considered attributable to fuconazole further therapy with this agent should be discontinued. In patients with invasive/ systemic fungal infections who develop rashes, they should be monitored closely and fuconazole should be discontinued if bolbous lesions or erythema multiform develop.\n\nUse during lactation: Fluconazole is found in human breast milk at concentrations similar to plasma. hence its use in nursing mothers is not recommended.\n\nDriving/Use of machinery: Experience with fuconazole indicates that therapy a unlikely to impair a patient's ability to drive or use machinery.",
+    "pediatric_uses": "Use in the elderly: The normal dose should be used if there is no evidence of renal impairment. In patients with renal impairment, (creatinine clearance less than 40 ml/min) the dosage intervales or orally dosage should be adjusted as described below.\n\nUse in renal impairment: Fluconazole is excreted predominantly in the urine as unchanged drug. No adjustments in single dose therapy are required. In multiple dose therapy of patients with renal impairment, normal dose should be given on days 1 and 2 of treatment and thereafter the dosage intervals or daily dosage should be modifed in accordance with creatinine clearance as follows.\n\n- CrCl >40: Dosage interval 24 hours (normal dosage regimen)\n- CrCl 21-40: Dosage interval 48 hours or half normal daily dose\n- CrCl 10-20: Dosage interval 72 hours or one-third normal daily dose\n- Patients receiving regular haemodialysis: One dose after every dialysis session",
+    "overdose_effects": "In the event of overdosage, supportive measures and symptomatic treatment with gastric lavage if necessary may be adequate. As fuconazole is excreted largely in the urine, forced volume diuresis would probably increase the elimination rate. A three hour session of haemodialysis decreases plasma levels by approximately 50%",
+    "drug_classes": "Drugs for subcutaneous and mycoses",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "ফ্লুকোনাজল নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- ভ্যাজাইনাল ক্যান্ডিডিয়াসিস\n- অবোফ্যারিজিয়ান ক্যান্ডিডিয়াসিস\n- ইসোফ্যাজিয়াল ক্যান্ডিডিয়াসিস\n- টিনিয়া কর্পোরিস/টিনিয়া ক্রুরিস/টিনিয়া পেডিস/অন্যান্য টিনিয়া\n- কেরিয়ন\n- পিটাইরিয়াসিস ভার্সিকলার\n- অন্যইকোমাইকোসিস\n- ইনভেসিভ ক্যান্ডিডাল ইনফেকশন এবং ক্রিপ্টোকক্কাল ইনফেকশন (মেনিঞ্জাইটিস সহ)\n- ক্রিপ্টোকক্কাল মেনিঞ্জাইটিস প্রিভেনশন\n- ইমিউনোকম্প্রেমাইজড ছত্রাক সংক্রমণ প্রতিরোধ রোগীদের\n- সুপারফিশিয়াল ক্যান্ডিডিয়াসিস\n- সিস্টেমিক ক্যান্ডিডিয়াসিস এবং ক্রিপ্টোকক্কাল সংক্রমণে",
+    "mode_of_action": "ফ্লুকোনাজল একটি ট্রাইএজল জাতীয় এন্টিফাংগাল এজেন্ট। এটি ফাংগাসের সাইটোক্রোম-এনজাইম সিস্টেমের একটি শক্তিশালী প্রতিবন্ধক। সাইটোক্রোম P-450 এনজাইম সিস্টেম ফাংগাসের সেল মেমব্রেনের জন্য অত্যন্ত প্রয়োজনীয় একটি উপাদান যা আরগোস্টেরল সংশ্লেষণের জন্য দায়ী।",
+    "dosage": "প্রাপ্তবয়স্ক-\n\n- **ভ্যাজাইনাল ক্যান্ডিডিয়াসিস**: একক ডোজ ১৫০ মিগ্রা।\n- **অবোফ্যারিজিয়ান ক্যান্ডিডিয়াসিস**: ১ম দিনে ২০০ মি.গ্রা. তারপর প্রতিদিন ১০০ মি.গ্রা. করে ১৪ দিন পর্যন্ত।\n- **ইসোফ্যাজিয়াল ক্যান্ডিডিয়াসিস**: ১ম দিনে ২০০ মি.গ্রা, তারাপর প্রতিদিন ১০০ মি.গ্রা, করে ১৪-৩০ দিন পর্যন্ত।\n- **টিনিয়া কর্পোরিস/টিনিয়া ক্রুরিস/টিনিয়া পেডিস/অন্যান্য টিনিয়া**: সাপ্তাহিক ১৫০ মি.গ্রা. করে ৪-৬ সপ্তাহ।\n- **কেরিয়ন**: প্রতিদিন ৫০ মি.গ্রা. করে ২০ দিন পর্যন্ত।\n- **পিটাইরিয়াসিস ভার্সিকলার**: একক ডোজ ৪০০ মি.গ্রা.।\n- **অন্যইকোমাইকোসিস**: সাপ্তাহিক ১৫০ মি.গ্রা. করে ১২ মাস।\n- **ইনভেসিভ ক্যান্ডিডাল ইনফেকশন এবং ক্রিপ্টোকক্কাল ইনফেকশন (মেনিঞ্জাইটিস সহ)**: ওরালি বা আইভি ইনফিউশন দ্বারা, প্রথম দিনে ৪০০ মি.গ্রা. তারপর দৈনিক ২০০-৪০০ মি.গ্রা.।\n- **ক্রিপ্টোকক্কাল মেনিঞ্জাইটিস প্রিভেনশন**: ওরালি বা আইভি ইনফিউশন দ্বারা দৈনিক ২০০ মি.গ্রা.।\n- **ইমিউনোকম্প্রেমাইজড ছত্রাক সংক্রমণ প্রতিরোধ রোগীদের**: ওরালি বা আইভি ইনফিউশন দ্বারা দৈনিক ৫০-৪০০ মি.গ্রা.।\n\n১ বছরের বেশি বয়সী শিশু-\n\n- **সুপারফিশিয়াল ক্যান্ডিডিয়াসিস**: প্রতিদিন ১-২ মি.গ্রা./কেজি।\n- **সিস্টেমিক ক্যান্ডিডিয়াসিস এবং ক্রিপ্টোকক্কাল সংক্রমণে**: প্রতিদিন ৩-৬ মি.গ্রা./কেজি।\n\r\nমারাত্মক জীবন-হুমকির সংক্রমণে ৫-১৩ বছর বয়সী শিশুদের দৈনিক ১২ মি.গ্রা./কেজি পর্যন্ত দেওয়া হয়েছে (সর্বোচ্চ ৪০০ মি.গ্রা. দৈনিক)\n\n- **১ বছর: ৯ কেজি**: দৈনিক নির্দেশিত ডোজ ১/২ চামচ\n- **১-২ বছর: ১২ কেজি**: দৈনিক নির্দেশিত ডোজ ১ চামচ\n- **২-৩ বছর: ১৪ কেজি**: দৈনিক নির্দেশিত ডোজ ১.৫ চামচ\n- **৩-৪ বছর: ১৬ কেজি**: দৈনিক নির্দেশিত ডোজ ২ চামচ\n- **৪-৬ বছর: ২০ কেজি**: দৈনিক নির্দেশিত ডোজ ২.৫ চামচ\n\nবিশেষ জনগোষ্ঠীতে ব্যাবহার-**বয়ষ্ক রোগী**: রেনাল ইম্পেয়ারমেন্ট না থাকলে স্বাভাবিক ডোজ ব্যবহার করা উচিত।\n\n**রেনাল ইস্পেয়ারড রোগী**: একক ডোজ থেরাপিতে কোন সমন্বয় প্রয়োজন হয় না। রেনাল ইস্পেয়ার্ড রোগীদের একাধিক ডোজ থেরাপিতে, চিকিৎসার ১ম এবং ২য় দিনে স্বাভাবিক ডোজ দেওয়া উচিত এবং পরবর্তী ডোজগুলো নিম্নরুপ পরিবর্তন করা উচিত।\n\n- ক্রিয়েটিনিন ক্লিয়ারেন্স (>৪১ মি.লি/মিনিট): ডোজ ব্যবধান ২৪ ঘন্টা\n- ক্রিয়েটিনিন ক্লিয়ারেন্স (২১-৪০ মি.লি/মিনিট): ডোজ ব্যবধান ৪৮ ঘন্টা\n- ক্রিয়েটিনিন ক্লিয়ারেন্স (১০-২০ মি.লি/মিনিট): ডোজ ব্যবধান ৭২ ঘন্টা\n- নিয়মিত ডায়ালাইসিস গ্রহণকারী রোগীরা: প্রতিটি ডায়ালাইসিস সেশনের পরে একটি ডোজ\n\n**শিশু**: বাচ্চাদের রেনাল ক্লিয়ারেন্স প্রাপ্তবয়ষদের তুলনায় আনুপাতিকভাবে বেশি দ্রুত হতে পারে এবং ১২ মি.গ্রা./কেজি পর্যন্ত ডোজ সুপারিশ করা হয়।",
+    "interaction": "সাইক্লোস্পোরিন বা ফিনায়টোয়েন-এর সাথে ফ্লুকোনাজলের যুগপৎ ব্যবহারে সাইক্লোস্পোরিন বা ফিনায়টোয়েনের প্লাজমা ঘনত্ব বৃদ্ধি পায়। ওয়ারফেরিনের সাথে যুগপৎ ব্যবহারে প্রোথ্রম্বিন সময় বৃদ্ধি পায়। রিফামপিসিনের সাথে যুগপৎ ব্যবহারে রিফামপিসিনের প্লাজমা ঘনত্ব হ্রাস পায়।",
+    "contraindications": "ফ্লুকোনাজল বা অন্যান্য ট্রাইএজল জাতীয় ঔষধের-এর প্রতি অতিসংবেদনশীলতায় এটি প্রতিনির্দেশিত।",
+    "side_effects": "ফ্লুকোনাজল অত্যন্ত সুসহনীয়। এটি ব্যবহার জনিত পার্শ প্রতিক্রিয়াগুলো হচ্ছে- বমিবমি ভাব, বমি, পেট ব্যথা, ডায়রিয়া, মাথা ব্যথা ও ত্বকীয় রেশ ।",
+    "pregnancy_cat": "US FDA প্রেগনেন্সি ক্যাটাগরী অনুযায়ী ফ্লুকোনাজল 'C' শ্রেনীভূক্ত ঔষধ। সুতরাং, প্রত্যাশিত সুবিধা, Fetus এর ঝুঁকির চেয়ে বেশী না হলে গর্ভাবস্থায় ও স্তন্যদানকালে ফ্লুকোনাজল ব্যবহারে বিরত থাকা উচিত।",
+    "precautions": "প্রো-এরিদমিক রোগীদের ক্ষেত্রে ফ্লুকোনাজল ব্যবহারে সতর্কতা অবলম্বন করতে হবে।",
+    "drug_classes": "Drugs for subcutaneous and mycoses",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/474/fluconazole",
+  "source_url_bn": "https://medex.com.bd/generics/474/fluconazole/bn",
+  "scraped_at": "2026-10-10T18:28:51+00:00"
+}

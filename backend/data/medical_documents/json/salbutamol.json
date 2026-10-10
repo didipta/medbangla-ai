@@ -1,0 +1,703 @@
+{
+  "slug": "salbutamol",
+  "name_en": "Salbutamol",
+  "name_bn": "সালবিউটামল",
+  "therapeutic_class": "Short-acting selective & β2-adrenoceptor stimulants",
+  "dosage_forms": [
+    "Tablet & Syrup",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Actolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3425/actolin-2-mg-syrup"
+    },
+    {
+      "name": "Actolin",
+      "strength": "4 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.40",
+      "url": "https://medex.com.bd/brands/29168/actolin-4-mg-tablet"
+    },
+    {
+      "name": "Alvolex",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 16.06",
+      "url": "https://medex.com.bd/brands/3426/alvolex-2-mg-syrup"
+    },
+    {
+      "name": "Asmatol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 14.45",
+      "url": "https://medex.com.bd/brands/3429/asmatol-2-mg-syrup"
+    },
+    {
+      "name": "Asmolex",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3430/asmolex-2-mg-syrup"
+    },
+    {
+      "name": "Asthmolin",
+      "strength": "2 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.28",
+      "url": "https://medex.com.bd/brands/3432/asthmolin-2-mg-tablet"
+    },
+    {
+      "name": "Asthmolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 11.38",
+      "url": "https://medex.com.bd/brands/3433/asthmolin-2-mg-syrup"
+    },
+    {
+      "name": "Asthmolin",
+      "strength": "2 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.28",
+      "url": "https://medex.com.bd/brands/21638/asthmolin-2-mg-tablet"
+    },
+    {
+      "name": "Asul",
+      "strength": "4 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/38045/asul-4-mg-tablet"
+    },
+    {
+      "name": "Asul",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 22.92",
+      "url": "https://medex.com.bd/brands/3436/asul-2-mg-syrup"
+    },
+    {
+      "name": "Azmasol",
+      "strength": "5 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "20 ml pack : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/3448/azmasol-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Azmasol",
+      "strength": "2.5 mg/3 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "3 ml ampoule : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3447/azmasol-25-mg-nebuliser-solution"
+    },
+    {
+      "name": "Azmasol",
+      "strength": "200 mcg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/34862/azmasol-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Azmet",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3449/azmet-2-mg-syrup"
+    },
+    {
+      "name": "Brodil",
+      "strength": "2 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 0.26",
+      "url": "https://medex.com.bd/brands/3452/brodil-2-mg-tablet"
+    },
+    {
+      "name": "Brodil",
+      "strength": "4 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/3453/brodil-4-mg-tablet"
+    },
+    {
+      "name": "Brodil",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3455/brodil-2-mg-syrup"
+    },
+    {
+      "name": "Brodil",
+      "strength": "200 mcg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/3456/brodil-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Brodil",
+      "strength": "5 mg/ml",
+      "manufacturer": "ACI Limited",
+      "price": "20 ml pack : ৳ 120.36",
+      "url": "https://medex.com.bd/brands/3459/brodil-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Brodil SR",
+      "strength": "8 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 2.41",
+      "url": "https://medex.com.bd/brands/32219/brodil-sr-8-mg-sr-capsule"
+    },
+    {
+      "name": "Broncotrol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 0.11",
+      "url": "https://medex.com.bd/brands/3461/broncotrol-2-mg-syrup"
+    },
+    {
+      "name": "Broncotrol",
+      "strength": "4 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.45",
+      "url": "https://medex.com.bd/brands/28509/broncotrol-4-mg-tablet"
+    },
+    {
+      "name": "Brondyl",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 22.80",
+      "url": "https://medex.com.bd/brands/3462/brondyl-2-mg-syrup"
+    },
+    {
+      "name": "Bronil-S",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3463/bronil-s-2-mg-syrup"
+    },
+    {
+      "name": "Bronkolax",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3464/bronkolax-2-mg-syrup"
+    },
+    {
+      "name": "Buta",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "60 ml bottle : ৳ 13.30",
+      "url": "https://medex.com.bd/brands/21593/buta-2-mg-syrup"
+    },
+    {
+      "name": "Butalin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/21659/butalin-2-mg-syrup"
+    },
+    {
+      "name": "Decabutamol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 21.83",
+      "url": "https://medex.com.bd/brands/3466/decabutamol-2-mg-syrup"
+    },
+    {
+      "name": "Etol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 22.98",
+      "url": "https://medex.com.bd/brands/3469/etol-2-mg-syrup"
+    },
+    {
+      "name": "G-Salbutamol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/3471/g-salbutamol-2-mg-syrup"
+    },
+    {
+      "name": "G-Salbutamol",
+      "strength": "4 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/3470/g-salbutamol-4-mg-tablet"
+    },
+    {
+      "name": "G-Salbutamol",
+      "strength": "5 mg/ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "20 ml pack : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/21665/g-salbutamol-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "H-Selax",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 10.80",
+      "url": "https://medex.com.bd/brands/3474/h-selax-2-mg-syrup"
+    },
+    {
+      "name": "H-Selax",
+      "strength": "4 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3473/h-selax-4-mg-tablet"
+    },
+    {
+      "name": "Orsal",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 22.92",
+      "url": "https://medex.com.bd/brands/3476/orsal-2-mg-syrup"
+    },
+    {
+      "name": "Proventa",
+      "strength": "200 mcg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/32026/proventa-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "PulmoCare",
+      "strength": "200 mcg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/26109/pulmocare-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "PulmoCare (with device)",
+      "strength": "200 mcg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/26110/pulmocare-with-device-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Pulmolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 10.49",
+      "url": "https://medex.com.bd/brands/3478/pulmolin-2-mg-syrup"
+    },
+    {
+      "name": "Pulmolin",
+      "strength": "4 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/3477/pulmolin-4-mg-tablet"
+    },
+    {
+      "name": "Respolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3482/respolin-2-mg-syrup"
+    },
+    {
+      "name": "Respolin",
+      "strength": "4 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.45",
+      "url": "https://medex.com.bd/brands/3481/respolin-4-mg-tablet"
+    },
+    {
+      "name": "Sabutanol",
+      "strength": "2 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.26",
+      "url": "https://medex.com.bd/brands/3493/sabutanol-2-mg-tablet"
+    },
+    {
+      "name": "Sabutanol",
+      "strength": "4 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3494/sabutanol-4-mg-tablet"
+    },
+    {
+      "name": "Salbu",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3486/salbu-2-mg-syrup"
+    },
+    {
+      "name": "Salbu",
+      "strength": "4 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3485/salbu-4-mg-tablet"
+    },
+    {
+      "name": "Salbumol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "100 ml bottle : ৳ 16.12",
+      "url": "https://medex.com.bd/brands/21623/salbumol-2-mg-syrup"
+    },
+    {
+      "name": "Salbusol",
+      "strength": "2 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.26",
+      "url": "https://medex.com.bd/brands/31556/salbusol-2-mg-tablet"
+    },
+    {
+      "name": "Salbusol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 22.84",
+      "url": "https://medex.com.bd/brands/31555/salbusol-2-mg-syrup"
+    },
+    {
+      "name": "Salbut",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 22.90",
+      "url": "https://medex.com.bd/brands/3488/salbut-2-mg-syrup"
+    },
+    {
+      "name": "Salbutal",
+      "strength": "4 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/3490/salbutal-4-mg-tablet"
+    },
+    {
+      "name": "Salbutal",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 22.96",
+      "url": "https://medex.com.bd/brands/3491/salbutal-2-mg-syrup"
+    },
+    {
+      "name": "Salbutal",
+      "strength": "2 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 0.26",
+      "url": "https://medex.com.bd/brands/3489/salbutal-2-mg-tablet"
+    },
+    {
+      "name": "Salbutamol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3492/salbutamol-2-mg-syrup"
+    },
+    {
+      "name": "Salbutex",
+      "strength": "2 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.25",
+      "url": "https://medex.com.bd/brands/21641/salbutex-2-mg-tablet"
+    },
+    {
+      "name": "Salbutex",
+      "strength": "4 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.44",
+      "url": "https://medex.com.bd/brands/21642/salbutex-4-mg-tablet"
+    },
+    {
+      "name": "Salix",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 14.47",
+      "url": "https://medex.com.bd/brands/3496/salix-2-mg-syrup"
+    },
+    {
+      "name": "Salix",
+      "strength": "4 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3495/salix-4-mg-tablet"
+    },
+    {
+      "name": "Salmol",
+      "strength": "4 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.40",
+      "url": "https://medex.com.bd/brands/3498/salmol-4-mg-tablet"
+    },
+    {
+      "name": "Salmol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/3499/salmol-2-mg-syrup"
+    },
+    {
+      "name": "Salmolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 14.52",
+      "url": "https://medex.com.bd/brands/3502/salmolin-2-mg-syrup"
+    },
+    {
+      "name": "Salmolin",
+      "strength": "200 mcg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.75",
+      "url": "https://medex.com.bd/brands/3504/salmolin-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Salmolin",
+      "strength": "5 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "20 ml pack : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/3506/salmolin-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Salol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/3507/salol-2-mg-syrup"
+    },
+    {
+      "name": "Salomax",
+      "strength": "4 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/26794/salomax-4-mg-tablet"
+    },
+    {
+      "name": "Salomax",
+      "strength": "200 mcg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/32442/salomax-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Saltamol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/21627/saltamol-2-mg-syrup"
+    },
+    {
+      "name": "Saltide",
+      "strength": "2.5 mg/3 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "3 ml ampoule : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/30104/saltide-25-mg-nebuliser-solution"
+    },
+    {
+      "name": "Sulbion",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3509/sulbion-2-mg-syrup"
+    },
+    {
+      "name": "Sulbulin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "100 ml bottle : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/34952/sulbulin-2-mg-syrup"
+    },
+    {
+      "name": "Sultolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3512/sultolin-2-mg-syrup"
+    },
+    {
+      "name": "Sultolin",
+      "strength": "200 mcg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.51",
+      "url": "https://medex.com.bd/brands/3516/sultolin-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Sultolin",
+      "strength": "5 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "20 ml pack : ৳ 120.82",
+      "url": "https://medex.com.bd/brands/3518/sultolin-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Sultolin SR",
+      "strength": "8 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 0.92",
+      "url": "https://medex.com.bd/brands/3511/sultolin-sr-8-mg-sr-tablet"
+    },
+    {
+      "name": "Tolin",
+      "strength": "4 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3519/tolin-4-mg-tablet"
+    },
+    {
+      "name": "Tolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3520/tolin-2-mg-syrup"
+    },
+    {
+      "name": "Venlin",
+      "strength": "4 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/33358/venlin-4-mg-tablet"
+    },
+    {
+      "name": "Ventel",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 22.75",
+      "url": "https://medex.com.bd/brands/3521/ventel-2-mg-syrup"
+    },
+    {
+      "name": "Ventisal",
+      "strength": "200 mcg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/39570/ventisal-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Ventisal",
+      "strength": "4 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3523/ventisal-4-mg-tablet"
+    },
+    {
+      "name": "Ventisal",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3524/ventisal-2-mg-syrup"
+    },
+    {
+      "name": "Ventol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/3525/ventol-2-mg-syrup"
+    },
+    {
+      "name": "Ventolex",
+      "strength": "4 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.34",
+      "url": "https://medex.com.bd/brands/3526/ventolex-4-mg-tablet"
+    },
+    {
+      "name": "Ventolex",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/3527/ventolex-2-mg-syrup"
+    },
+    {
+      "name": "Ventosol",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3534/ventosol-2-mg-syrup"
+    },
+    {
+      "name": "Windel",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "5 ml ampoule : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/21620/windel-5-mg-injection"
+    },
+    {
+      "name": "Windel",
+      "strength": "2.5 mg/3 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "3 ml ampoule : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27648/windel-25-mg-nebuliser-solution"
+    },
+    {
+      "name": "Windel",
+      "strength": "5 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "20 ml pack : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/27646/windel-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Windel",
+      "strength": "0.5 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/26250/windel-05-mg-injection"
+    },
+    {
+      "name": "Windel",
+      "strength": "2 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.31",
+      "url": "https://medex.com.bd/brands/3535/windel-2-mg-tablet"
+    },
+    {
+      "name": "Windel",
+      "strength": "4 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.46",
+      "url": "https://medex.com.bd/brands/3536/windel-4-mg-tablet"
+    },
+    {
+      "name": "Windel",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 22.90",
+      "url": "https://medex.com.bd/brands/3537/windel-2-mg-syrup"
+    },
+    {
+      "name": "Windel",
+      "strength": "200 mcg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/3538/windel-200-mcg-inhalation-capsule"
+    },
+    {
+      "name": "Windel DS",
+      "strength": "5 mg/2.5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "2.5 ml ampoule : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/27647/windel-ds-5-mg-nebuliser-solution"
+    },
+    {
+      "name": "Zentolin",
+      "strength": "2 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 14.52",
+      "url": "https://medex.com.bd/brands/3540/zentolin-2-mg-syrup"
+    }
+  ],
+  "sections_en": {
+    "indications": "Salbutamol is indicated as a bronchodilator for use in-\n\n- Asthma\n- Chronic Bronchitis\n- Emphysema and\n- Other conditions associated with airways obstruction.",
+    "mode_of_action": "Salbutamol is a synthetic sympathomimetic agent with predominant beta-2 adrenergic activity. Salbutamol produces bronchodilatation through stimulation of beta-2-adrenergic receptors in bronchial smooth muscles, thereby causing relaxation of bronchial muscle fibers. This action is manifested by an improvement in pulmonary function as demonstrated by spirometric measurements.",
+    "dosage": "**Salbutamol tablet or syrup-**\nChildren:\n\n- 2-6 years: 2.5 ml syrup, 3-4 times daily\n- 6-12 years: 5 ml syrup, 3-4 times daily\n- Over 12 years: 5-10 ml syrup, 3-4 times daily (2-4 mg tablet, 3-4 times daily)\n\r\nAdults: 2-4 mg tablet, 3-4 times daily. Maximum single dose is 8 mg tablet.\n\n**Salbutamol Respirator Solution**: To be used with a suitable nebulizer device under the direction of a physician. The solution must not be injected or ingested.\n\nMethod-1 (Intermittent Administration):\n\n- Adults (and the elderly): 0.5 ml-1.0 ml salbutamol up to four times a day. Up to 40mg per day can be given under strict medical direction in the hospital. 0.5-1 ml solution should be diluted to final volume of 2-4 ml with sterile normal saline solution. It will take time about 10 minutes.\n- Salbutamol respiratory solution may be used undiluted for intermittent administration. For this 2.0 ml of the solution is placed in the nebulizer and the patient allowed to inhale until bronchodilation is achieved. This usually takes 3-5 minutes.\n- Children under 12 years of age: 0.5 ml of the solution diluted to 2.0-4.0 ml with normal saline. Some children may however require higher doses of up to 1.0 ml of the solution. Intermittent treatment may be repeated four times a day.\n\r\nMethod-2 (Continuous administration): 1-2 ml solution is diluted to make up to 100 ml with normal saline solution. The diluted solution is administered by a suitable nebulizer devise. When there is risk of anoxia through hypoventilation, oxygen should be added to the inspired air.\n\n**Salbutamol nebulizer solution**: To be used with a suitable nebulizer device under the direction of a physician. The solution must not be injected or ingested.\n\n- Adults & Elderly: 2.5 mg to 5 mg Salbutamol up to 4 times a day. Up to 40 mg/day may be given under strict medical direction in the hospital.\n- Children under 12 years: 2.5 mg up to 4 times a day. A higher dose up to 5 mg four times a day may be used if required.\n\n**Salbutamol injection**:\nAdults:\n\n- Salbutamol I.V. infusion solution is used to prepare a solution for continuous intravenous infusion. It should not be injected undiluted. A suitable solution for infusion may be prepared by diluting 5 mL of Salbutamol I.V. infusion solution (1000 mcg/mL) in 500 mL of a chosen i.v. solution to provide a salbutamol concentration of 10 mcg/mL.\n- The only recommended diluents are Sodium Chloride Injection, or Sodium Chloride and Dextrose Injection.\n- Infusion rates providing 3 to 20 micrograms salbutamol/minute (0.3 to 2ml/minute of the above infusion solution) are usually adequate. Infusion rates can be started at 5 mcg of salbutamol/min., and can be increased to 10 mcg/min., and 20 mcg/min. at 15 - 30 minute intervals, if necessary.\n- As with all parenteral drug products, intravenous admixtures should be inspected visually for clarity, particulate matter, precipitate, discoloration and leakage prior to administration.\n- All unused admixtures of Salbutamol infusion solution with infusion fluids should be discarded 24 hours after preparation.\n\r\nChildren and Adolescents (<18 years of age): The dosage of Salbutamol infusion solution in the pediatric age group has not been established. At present, there are insufficient data to recommend a dosage regimen for children.\n\n**Salbutamol Inhalation Capsule**:\n\n- Adults: For the relief of bronchospasm and for managing intermittent episodes of asthma, one or two inhalation capsule may be administered as a single dose. The usual recommended dosage of Salbutamol inhalation capsule for inhalation for adults for maintenance or prophylactic therapy is the contents of one 200 microgram capsule every 4 to 6 hours using a device. In some patients, the contents of two 200 microgram capsules inhaled every 4 to 6 hours may be required. Large doses or more frequent administration is not recommended. The use of salbutamol powder for inhalation can be continued as medically indicated to control recurring/intermittent episodes of bronchospasm.\n- Children: One Salbutamol inhalation capsule is the recommended dose for relief of acute bronchospasm in the maintenance of episodic asthma or before exercise of children 4 years of age and older. One inhalation should be administered for three or four times a day for routine maintenance or prophylactic therapy. This dosage may be increased to inhalation of two inhalation capsule, if necessary. The bronchodilator effect of each administration of inhaled Salbutamol inhalation capsule lasts for at least four hours. Such patients should be warned not to increase the dose of inhaler, but should seek medical advice immediately.\n\r\nExcercise-induced Asthma: \n\n- Adults: 400 microgram\n- Child: 200 microgram, 15-30 minutes prior to any physical exertion.",
+    "side_effects": "Salbutamol may cause fine tremor of skeletal muscles (particularly the hands), palpitations and muscle cramps. Tachycardia, tenseness, headaches and peripheral vasodilatation have been reported after large doses.",
+    "pregnancy_cat": "The drug should be used during pregnancy only if the potential benefit justifies the potential risk of the fetus. It is not known whether this drug is excreted in human milk. Because of the potential of tumorigenecity shown for Salbutamol in some animal studies, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+    "precautions": "Salbutamol should be used with caution in patients with hyperthyroidism, cardiovascular disease, occlusive vascular disorders, hypertension and aneurysms. Hypokalaemia associated with high doses of Salbutamol may result in increased susceptibility to digitalis-induced cardiac arrhythmia. Tachyphylaxis with resistance may occur with prolonged use of high dosage. Care is necessary when treating patients with diabetes mellitus or closed angle glaucoma, and in those receiving antihypertensive therapy.",
+    "overdose_effects": "The symptoms with overdosage are angina, headache, nausea, vomiting, tremor etc. The preferred antidote for overdosage with Salbutamol is a cardio-selective beta-blocking agent but beta-blocking drugs should be used with caution in patients with a history of bronchospasm.",
+    "drug_classes": "Short-acting selective & β2-adrenoceptor stimulants",
+    "storage_conditions": "Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "সালবিউটামল ব্রঙ্কোডাইলেটর (শ্বাসনালী প্রসারক) হিসেবে নিম্নলিখিত ক্ষেত্রে নির্দেশিত-\r\n\n- অ্যাজমা বা হাঁপানি\n- ক্রনিক ব্রঙ্কাইটিস\n- এমফাইসেমা এবং\n- শ্বাসনালীর বাধা বা ব্লকেজ জনিত অন্যান্য জটিলতায়।",
+    "mode_of_action": "সালবিউটামল একটি কৃত্রিম সিম্পাথোমিমেটিক এজেন্ট, যা মূলত বিটা-২ অ্যাড্রেনার্জিক উদ্দীপক হিসেবে কাজ করে। এটি ব্রঙ্কিয়াল মসৃণ পেশির বিটা-২-অ্যাড্রেনার্জিক রিসেপ্টরকে উদ্দীপিত করার মাধ্যমে শ্বাসনালী প্রসারিত (ব্রঙ্কোডাইলেটেশন) করে, যার ফলে ব্রঙ্কিয়াল পেশিতন্তু শিথিল হয়। স্পাইরোমেট্রিক পরিমাপের মাধ্যমে ফুসফুসের কার্যকারিতার উন্নতি দ্বারা এই কার্যকারিতা প্রমাণিত হয়।",
+    "dosage": "**সালবিউটামল ট্যাবলেট বা সিরাপ**-\r\n\n- শিশু (২-৬ বছর): ২.৫ মিলি সিরাপ, দৈনিক ৩-৪ বার।\n- শিশু (৬-১২ বছর): ৫ মিলি সিরাপ, দৈনিক ৩-৪ বার।\n- ১২ বছরের বেশি বয়সী শিশু: ৫-১০ মিলি সিরাপ, দৈনিক ৩-৪ বার (অথবা ২-৪ মিলিগ্রাম ট্যাবলেট, দৈনিক ৩-৪ বার)।\n- প্রাপ্তবয়স্ক: ২-৪ মিলিগ্রাম ট্যাবলেট, দৈনিক ৩-৪ বার। সর্বোচ্চ একক মাত্রা হলো ৮ মিলিগ্রাম ট্যাবলেট।\n\n**সালবিউটামল রেসপিরেটর সলিউশন**-\nএটি চিকিৎসকের পরামর্শ অনুযায়ী একটি উপযুক্ত নেবুলাইজার ডিভাইসের মাধ্যমে ব্যবহার করতে হবে। এই সলিউশনটি কোনোভাবেই ইনজেকশন হিসেবে শরীরে প্রবেশ করানো বা গিলে খাওয়া যাবে না।\n\nপদ্ধতি-১ (মাঝে মাঝে ব্যবহার):\r\n\n- প্রাপ্তবয়স্ক (এবং বয়স্ক ব্যক্তি): ০.৫ মিলি-১.০ মিলি সালবিউটামল দৈনিক সর্বোচ্চ চার বার। হাসপাতালে কঠোর চিকিৎসকের তত্ত্বাবধানে দৈনিক সর্বোচ্চ ৪০ মিলিগ্রাম পর্যন্ত দেওয়া যেতে পারে। ০.৫-১ মিলি সলিউশনকে স্টেরাইল নরমাল স্যালাইন দিয়ে মোট ২-৪ মিলি পর্যন্ত মিশ্রিত (ডাইলুট) করতে হবে। এটি প্রয়োগ করতে প্রায় ১০ মিনিট সময় লাগবে।\n- মাঝে মাঝে ব্যবহারের জন্য সালবিউটামল রেসপিরেটরি সলিউশনটি মিশ্রিত না করেও ব্যবহার করা যেতে পারে। এজন্য ২.০ মিলি সলিউশন নেবুলাইজারে নিয়ে রোগীকে ততক্ষণ পর্যন্ত শ্বাস নিতে দিতে হবে যতক্ষণ না শ্বাসনালী প্রসারিত হয়। এতে সাধারণত ৩-৫ মিনিট সময় লাগে।\n- ১২ বছরের কম বয়সী শিশু: ০.৫ মিলি সলিউশন নরমাল স্যালাইন দিয়ে ২.০-৪.০ মিলি পর্যন্ত মিশ্রিত করতে হবে। তবে কিছু শিশুর ক্ষেত্রে ১.০ মিলি পর্যন্ত উচ্চ মাত্রার প্রয়োজন হতে পারে। এই স্বল্পবিরাম চিকিৎসা দৈনিক চার বার পর্যন্ত পুনরাবৃত্তি করা যেতে পারে।\n\r\nপদ্ধতি-২ (ক্রমাগত বা অবিরাম ব্যবহার): ১-২ মিলি সলিউশন নরমাল স্যালাইন দিয়ে মিশ্রিত করে মোট ১০০ মিলি করতে হবে। এই মিশ্রিত সলিউশনটি একটি উপযুক্ত নেবুলাইজার ডিভাইসের সাহায্যে প্রয়োগ করা হয়। হাইপোভেন্টিলেশনের (কম শ্বাস নেওয়া) কারণে যখন অ্যানোক্সিয়া (অক্সিজেনের অভাব) হওয়ার ঝুঁকি থাকে, তখন শ্বাস নেওয়ার বাতাসের সাথে অক্সিজেন যোগ করতে হবে।\n\n**সালবিউটামল ইনজেকশন**-\nপ্রাপ্তবয়স্ক:\r\n\n- সালবিউটামল আই.ভি. ইনফিউশন সলিউশনটি ক্রমাগত শিরার মাধ্যমে দেওয়ার সলিউশন তৈরি করতে ব্যবহৃত হয়। এটি মিশ্রিত না করে সরাসরি ইনজেক্ট করা যাবে না। ইনফিউশনের জন্য একটি উপযুক্ত সলিউশন তৈরি করতে ৫ মিলি সালবিউটামল আই.ভি. ইনফিউশন সলিউশনকে (১০০০ মাইক্রোগ্রাম/মিলি) ৫০০ মিলি পছন্দসই আই.ভি. সলিউশনে মিশ্রিত করতে হবে, যাতে সালবুটামলের ঘনত্ব ১০ মাইক্রোগ্রাম/মিলি হয়।\n- মিশ্রণের জন্য একমাত্র অনুমোদিত তরল হলো সোডিয়াম ক্লোরাইড ইনজেকশন, অথবা সোডিয়াম ক্লোরাইড এবং ডেক্সট্রোজ ইনজেকশন।\n- প্রতি মিনিটে ৩ থেকে ২০ মাইক্রোগ্রাম সালবিউটামল প্রদানের ইনফিউশন রেট (উপরের ইনফিউশন সলিউশনের ০.৩ থেকে ২ মিলি/মিনিট) সাধারণত পর্যাপ্ত। ইনফিউশন রেট প্রতি মিনিটে ৫ মাইক্রোগ্রাম দিয়ে শুরু করা যেতে পারে এবং প্রয়োজন অনুযায়ী ১৫-৩০ মিনিটের ব্যবধানে বাড়িয়ে প্রতি মিনিটে ১০ মাইক্রোগ্রাম এবং ২০ মাইক্রোগ্রাম করা যেতে পারে।\n- অন্যান্য সকল ইনজেকশনযোগ্য ওষুধের মতো, শিরায় প্রয়োগের পূর্বে মিশ্রণটিতে কোনো ঘোলাটে ভাব, কণা, অধঃক্ষেপ, বিবর্ণতা বা লিকেজ আছে কিনা তা চাক্ষুষভাবে পরীক্ষা করে নিতে হবে।\n- সালবিউটামল ইনফিউশন সলিউশনের মিশ্রণ তৈরির ২৪ ঘণ্টা পর অবব্যবহৃত অংশ ফেলে দিতে হবে।\n\r\nশিশু ও কিশোর-কিশোরী (<১৮ বছর বয়স): শিশুদের ক্ষেত্রে সালবিউটামল ইনফিউশন সলিউশনের মাত্রা এখনো নির্ধারিত হয়নি। বর্তমানে শিশুদের জন্য কোনো নির্দিষ্ট মাত্রা সুপারিশ করার মতো পর্যাপ্ত তথ্য নেই।\n\n**সালবিউটামল ইনহেলেশন ক্যাপসুল**-\n\n- প্রাপ্তবয়স্ক: ব্রঙ্কোস্পাজম (শ্বাসনালীর সংকোচন) থেকে মুক্তি পেতে এবং অ্যাজমার সাময়িক এপিসোডগুলো নিয়ন্ত্রণে একক মাত্রা হিসেবে এক বা দুটি ইনহেলেশন ক্যাপসুল ব্যবহার করা যেতে পারে। নিয়মিত রক্ষণাবেক্ষণ বা প্রতিরোধমূলক চিকিৎসার জন্য সাধারণত সুপারিশকৃত মাত্রা হলো একটি ডিভাইসের সাহায্যে প্রতি ৪ থেকে ৬ ঘণ্টা পরপর একটি ২০০ মাইক্রোগ্রামের ক্যাপসুলের উপাদান ইনহেল করা। কিছু রোগীর ক্ষেত্রে প্রতি ৪ থেকে ৬ ঘণ্টা পরপর দুটি ২০০ মাইক্রোগ্রামের ক্যাপসুলের উপাদান ইনহেল করার প্রয়োজন হতে পারে। উচ্চ মাত্রা বা ঘন ঘন ব্যবহার সুপারিশ করা হয় না। বারবার হওয়া বা সাময়িক ব্রঙ্কোস্পাজমের এপিসোডগুলো নিয়ন্ত্রণে চিকিৎসকের নির্দেশনা অনুযায়ী সালবিউটামল পাউডার ইনহেলেশন চালু রাখা যেতে পারে।\n- শিশু: ৪ বছর বা তার বেশি বয়সী শিশুদের এপিসোডিক অ্যাজমার রক্ষণাবেক্ষণে তীব্র ব্রঙ্কোস্পাজম থেকে মুক্তি পেতে অথবা ব্যায়ামের পূর্বে একটি সালবিউটামল ইনহেলেশন ক্যাপসুল ব্যবহার করার পরামর্শ দেওয়া হয়। নিয়মিত রক্ষণাবেক্ষণ বা প্রতিরোধমূলক চিকিৎসার জন্য দৈনিক তিন বা চার বার একটি করে ইনহেলেশন নেওয়া উচিত। প্রয়োজন হলে এই মাত্রা বাড়িয়ে দুটি ইনহেলেশন ক্যাপসুল পর্যন্ত করা যেতে পারে। ইনহেলকৃত প্রতিটি সালবিউটামল ইনহেলেশন ক্যাপসুলের শ্বাসনালী প্রসারণের কার্যকারিতা অন্তত চার ঘণ্টা স্থায়ী হয়। রোগীদের ইনহেলারের মাত্রা নিজে থেকে না বাড়িয়ে, প্রয়োজনে অবিলম্বে চিকিৎসকের পরামর্শ নেওয়ার জন্য সতর্ক করা উচিত।\n\r\nব্যায়াম-জনিত অ্যাজমা-\n\n- প্রাপ্তবয়স্ক: ৪০০ মাইক্রোগ্রাম।\n- শিশু: ২০০ মাইক্রোগ্রাম, যেকোনো শারীরিক পরিশ্রম বা ব্যায়ামের ১৫-৩০ মিনিট পূর্বে।",
+    "side_effects": "সালবুটামল কঙ্কাল পেশিতে মৃদু কাঁপুনি (বিশেষ করে হাতে), বুক ধড়ফড় করা এবং পেশির টান বা ক্র্যাম্প তৈরি করতে পারে। উচ্চ মাত্রায় ব্যবহারের পর ট্যাকিকার্ডিয়া (দ্রুত হৃদস্পন্দন), মানসিক উত্তেজনা বা টানটান ভাব, মাথাব্যহা এবং প্রান্তীয় রক্তনালী প্রসারণ দেখা দেওয়ার রিপোর্ট পাওয়া গেছে।",
+    "pregnancy_cat": "গর্ভাবস্থায় ওষুধটি কেবল তখনই ব্যবহার করা উচিত যখন ভ্রূণের সম্ভাব্য ঝুঁকির তুলনায় মায়ের সম্ভাব্য উপকারিতা বেশি গুরুত্বপূর্ণ বলে বিবেচিত হয়। এই ওষুধটি মাতৃদুগ্ধে নিঃসৃত হয় কিনা তা জানা যায়নি। কিছু প্রাণীর ওপর গবেষণায় সালবুটামলের টিউমার তৈরির সম্ভাব্য ঝুঁকি দেখা দেওয়ায়, মায়ের জন্য ওষুধের প্রয়োজনীয়তা বিবেচনা করে স্তন্যদান বন্ধ করা হবে নাকি ওষুধ খাওয়া বন্ধ করা হবে, সে বিষয়ে সিদ্ধান্ত নেওয়া উচিত।",
+    "precautions": "হাইপারথাইরয়েডিজম, হৃদরোগ, রক্তনালী বন্ধ হয়ে যাওয়ার রোগ, উচ্চ রক্তচাপ এবং অ্যানিউরিজম (রক্তনালীর অস্বাভাবিক স্ফীতি) থাকা রোগীদের ক্ষেত্রে সালবুটামল সতর্কতার সাথে ব্যবহার করা উচিত। সালবুটামলের উচ্চ মাত্রার কারণে সৃষ্ট হাইপোক্যালেমিয়া (রক্তে পটাশিয়ামের স্বল্পতা), ডিজিটালিস-জনিত কার্ডিয়াক অ্যারিদমিয়ার (অস্বাভাবিক হৃদস্পন্দন) ঝুঁকি বাড়িয়ে দিতে পারে। দীর্ঘদিন ধরে উচ্চ মাত্রায় ব্যবহারের ফলে ওষুধটির প্রতি সহনশীলতা বা প্রতিরোধ ক্ষমতা তৈরি হতে পারে। ডায়াবেটিস মেলিটাস বা ক্লোজড অ্যাঙ্গেল গ্লুকোমা আক্রান্ত রোগীদের এবং যারা উচ্চ রক্তচাপের ওষুধ নিচ্ছেন, তাদের ক্ষেত্রে চিকিৎসার সময় বিশেষ সতর্কতা অবলম্বন করা প্রয়োজন।",
+    "overdose_effects": "অতিরিক্ত মাত্রার লক্ষণগুলোর মধ্যে রয়েছে অ্যানজাইনা (বুকে ব্যথা), মাথাব্যহা, বমি বমি ভাব, বমি, কাঁপুনি ইত্যাদি। সালবুটামলের ওভারডোজের ক্ষেত্রে পছন্দের অ্যান্টিডোট হলো একটি কার্ডিও-সিলেক্টিভ বিটা-ব্লকিং এজেন্ট; তবে ব্রঙ্কোস্পাজমের ইতিহাস থাকা রোগীদের ক্ষেত্রে বিটা-ব্লকার ওষুধ অত্যন্ত সতর্কতার সাথে ব্যবহার করা উচিত।",
+    "drug_classes": "Short-acting selective & β2-adrenoceptor stimulants",
+    "storage_conditions": "৩০°সে. তাপমাত্রার নিচে, আলো ও আর্দ্রতা থেকে দূরে শুকনো স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/1318/salbutamol",
+  "source_url_bn": "https://medex.com.bd/generics/1318/salbutamol/bn",
+  "scraped_at": "2026-10-10T18:30:23+00:00"
+}

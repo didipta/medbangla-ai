@@ -4,7 +4,7 @@
 - থেরাপিউটিক ক্লাস: Amoebicides, Anti-diarrhoeal antiprotozoal
 - সহজলভ্য ডোজ ফর্ম: Vaginal Gel, Tablet, Intravenous Infusion
 - উৎস লিংক: https://medex.com.bd/generics/751/metronidazole/bn
-- সংগৃহীত সময় (UTC): 2026-10-10T15:48:12+00:00
+- সংগৃহীত সময় (UTC): 2026-10-10T18:16:33+00:00
 
 > সতর্কতা: এই তথ্য শুধুমাত্র রেফারেন্স ও গবেষণার উদ্দেশ্যে প্রস্তুত করা হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
 

@@ -1,0 +1,1256 @@
+{
+  "slug": "etoricoxib",
+  "name_en": "Etoricoxib",
+  "name_bn": "ইটোরিকক্সিব",
+  "therapeutic_class": "Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Alcox",
+      "strength": "90 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/39485/alcox-90-mg-tablet"
+    },
+    {
+      "name": "Algirex",
+      "strength": "60 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11150/algirex-60-mg-tablet"
+    },
+    {
+      "name": "Algirex",
+      "strength": "90 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11151/algirex-90-mg-tablet"
+    },
+    {
+      "name": "Algirex",
+      "strength": "120 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 14.25",
+      "url": "https://medex.com.bd/brands/11152/algirex-120-mg-tablet"
+    },
+    {
+      "name": "AmiCoxib",
+      "strength": "90 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20098/amicoxib-90-mg-tablet"
+    },
+    {
+      "name": "AmiCoxib",
+      "strength": "120 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/20099/amicoxib-120-mg-tablet"
+    },
+    {
+      "name": "Aroxia",
+      "strength": "60 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11153/aroxia-60-mg-tablet"
+    },
+    {
+      "name": "Aroxia",
+      "strength": "90 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11154/aroxia-90-mg-tablet"
+    },
+    {
+      "name": "Aroxia",
+      "strength": "120 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/11155/aroxia-120-mg-tablet"
+    },
+    {
+      "name": "Artorix",
+      "strength": "60 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11156/artorix-60-mg-tablet"
+    },
+    {
+      "name": "Artorix",
+      "strength": "90 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11157/artorix-90-mg-tablet"
+    },
+    {
+      "name": "Artorix",
+      "strength": "120 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27122/artorix-120-mg-tablet"
+    },
+    {
+      "name": "Biocox",
+      "strength": "90 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 12.03",
+      "url": "https://medex.com.bd/brands/11235/biocox-90-mg-tablet"
+    },
+    {
+      "name": "Cox-E",
+      "strength": "60 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11159/cox-e-60-mg-tablet"
+    },
+    {
+      "name": "Cox-E",
+      "strength": "90 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11160/cox-e-90-mg-tablet"
+    },
+    {
+      "name": "Cox-E",
+      "strength": "120 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11161/cox-e-120-mg-tablet"
+    },
+    {
+      "name": "Coxbest",
+      "strength": "120 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/39326/coxbest-120-mg-tablet"
+    },
+    {
+      "name": "Coxbest",
+      "strength": "90 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/39327/coxbest-90-mg-tablet"
+    },
+    {
+      "name": "Coxet",
+      "strength": "90 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11162/coxet-90-mg-tablet"
+    },
+    {
+      "name": "Coxet",
+      "strength": "120 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11163/coxet-120-mg-tablet"
+    },
+    {
+      "name": "Coxetori",
+      "strength": "60 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11164/coxetori-60-mg-tablet"
+    },
+    {
+      "name": "Coxetori",
+      "strength": "120 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11165/coxetori-120-mg-tablet"
+    },
+    {
+      "name": "Coxfree",
+      "strength": "60 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/11166/coxfree-60-mg-tablet"
+    },
+    {
+      "name": "Coxfree",
+      "strength": "90 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.03",
+      "url": "https://medex.com.bd/brands/11167/coxfree-90-mg-tablet"
+    },
+    {
+      "name": "Coxfree",
+      "strength": "120 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.04",
+      "url": "https://medex.com.bd/brands/11168/coxfree-120-mg-tablet"
+    },
+    {
+      "name": "Coxia",
+      "strength": "60 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 7.05",
+      "url": "https://medex.com.bd/brands/11169/coxia-60-mg-tablet"
+    },
+    {
+      "name": "Coxia",
+      "strength": "90 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 12.09",
+      "url": "https://medex.com.bd/brands/11170/coxia-90-mg-tablet"
+    },
+    {
+      "name": "Coxia",
+      "strength": "120 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 14.09",
+      "url": "https://medex.com.bd/brands/11171/coxia-120-mg-tablet"
+    },
+    {
+      "name": "Coxitor",
+      "strength": "60 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.05",
+      "url": "https://medex.com.bd/brands/11172/coxitor-60-mg-tablet"
+    },
+    {
+      "name": "Coxitor",
+      "strength": "90 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.08",
+      "url": "https://medex.com.bd/brands/11173/coxitor-90-mg-tablet"
+    },
+    {
+      "name": "Coxitor",
+      "strength": "120 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27271/coxitor-120-mg-tablet"
+    },
+    {
+      "name": "Coxitor",
+      "strength": "30 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/39391/coxitor-30-mg-tablet"
+    },
+    {
+      "name": "Coxpain",
+      "strength": "60 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/11174/coxpain-60-mg-tablet"
+    },
+    {
+      "name": "Coxpain",
+      "strength": "90 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11175/coxpain-90-mg-tablet"
+    },
+    {
+      "name": "Coxpain",
+      "strength": "120 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 21.06",
+      "url": "https://medex.com.bd/brands/11176/coxpain-120-mg-tablet"
+    },
+    {
+      "name": "Coxsafe",
+      "strength": "60 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11236/coxsafe-60-mg-tablet"
+    },
+    {
+      "name": "Coxsafe",
+      "strength": "90 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11237/coxsafe-90-mg-tablet"
+    },
+    {
+      "name": "Coxsafe",
+      "strength": "120 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11238/coxsafe-120-mg-tablet"
+    },
+    {
+      "name": "CoxTop",
+      "strength": "60 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32313/coxtop-60-mg-tablet"
+    },
+    {
+      "name": "CoxTop",
+      "strength": "90 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/32314/coxtop-90-mg-tablet"
+    },
+    {
+      "name": "CoxTop",
+      "strength": "120 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32315/coxtop-120-mg-tablet"
+    },
+    {
+      "name": "Danilo",
+      "strength": "120 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/29148/danilo-120-mg-tablet"
+    },
+    {
+      "name": "Danilo",
+      "strength": "90 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29149/danilo-90-mg-tablet"
+    },
+    {
+      "name": "Danilo",
+      "strength": "60 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36960/danilo-60-mg-tablet"
+    },
+    {
+      "name": "E-coxib",
+      "strength": "90 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/33565/e-coxib-90-mg-tablet"
+    },
+    {
+      "name": "E-coxib",
+      "strength": "60 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33566/e-coxib-60-mg-tablet"
+    },
+    {
+      "name": "E-coxib",
+      "strength": "120 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/35650/e-coxib-120-mg-tablet"
+    },
+    {
+      "name": "Ecox",
+      "strength": "60 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/11177/ecox-60-mg-tablet"
+    },
+    {
+      "name": "Ecox",
+      "strength": "90 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11178/ecox-90-mg-tablet"
+    },
+    {
+      "name": "Ecox",
+      "strength": "120 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.07",
+      "url": "https://medex.com.bd/brands/27849/ecox-120-mg-tablet"
+    },
+    {
+      "name": "Eflam",
+      "strength": "60 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11180/eflam-60-mg-tablet"
+    },
+    {
+      "name": "Eflam",
+      "strength": "90 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11181/eflam-90-mg-tablet"
+    },
+    {
+      "name": "Eflam",
+      "strength": "120 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11182/eflam-120-mg-tablet"
+    },
+    {
+      "name": "Eroflam",
+      "strength": "60 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/11183/eroflam-60-mg-tablet"
+    },
+    {
+      "name": "Eroflam",
+      "strength": "90 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11184/eroflam-90-mg-tablet"
+    },
+    {
+      "name": "Eroflam",
+      "strength": "120 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/34156/eroflam-120-mg-tablet"
+    },
+    {
+      "name": "Espana",
+      "strength": "120 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/20135/espana-120-mg-tablet"
+    },
+    {
+      "name": "Espana",
+      "strength": "90 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/20136/espana-90-mg-tablet"
+    },
+    {
+      "name": "Etnaaf",
+      "strength": "120 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/36486/etnaaf-120-mg-tablet"
+    },
+    {
+      "name": "Etnaaf",
+      "strength": "90 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/36487/etnaaf-90-mg-tablet"
+    },
+    {
+      "name": "Eto",
+      "strength": "60 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11185/eto-60-mg-tablet"
+    },
+    {
+      "name": "Eto",
+      "strength": "90 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/11186/eto-90-mg-tablet"
+    },
+    {
+      "name": "Eto",
+      "strength": "120 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11187/eto-120-mg-tablet"
+    },
+    {
+      "name": "Etoben",
+      "strength": "90 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11242/etoben-90-mg-tablet"
+    },
+    {
+      "name": "Etoben",
+      "strength": "120 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/11243/etoben-120-mg-tablet"
+    },
+    {
+      "name": "Etocox",
+      "strength": "60 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.05",
+      "url": "https://medex.com.bd/brands/11188/etocox-60-mg-tablet"
+    },
+    {
+      "name": "Etocox",
+      "strength": "90 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.09",
+      "url": "https://medex.com.bd/brands/11189/etocox-90-mg-tablet"
+    },
+    {
+      "name": "Etocox",
+      "strength": "120 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/11190/etocox-120-mg-tablet"
+    },
+    {
+      "name": "Etofax",
+      "strength": "60 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/20123/etofax-60-mg-tablet"
+    },
+    {
+      "name": "Etofax",
+      "strength": "90 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/20124/etofax-90-mg-tablet"
+    },
+    {
+      "name": "Etofax",
+      "strength": "120 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/20125/etofax-120-mg-tablet"
+    },
+    {
+      "name": "Etoflam",
+      "strength": "90 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11192/etoflam-90-mg-tablet"
+    },
+    {
+      "name": "Etoflam",
+      "strength": "120 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/11193/etoflam-120-mg-tablet"
+    },
+    {
+      "name": "Etonil",
+      "strength": "60 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11244/etonil-60-mg-tablet"
+    },
+    {
+      "name": "Etonil",
+      "strength": "90 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11245/etonil-90-mg-tablet"
+    },
+    {
+      "name": "Etonil",
+      "strength": "120 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11246/etonil-120-mg-tablet"
+    },
+    {
+      "name": "Etonov",
+      "strength": "60 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11247/etonov-60-mg-tablet"
+    },
+    {
+      "name": "Etonov",
+      "strength": "90 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11248/etonov-90-mg-tablet"
+    },
+    {
+      "name": "Etorgin",
+      "strength": "90 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11194/etorgin-90-mg-tablet"
+    },
+    {
+      "name": "Etorgin",
+      "strength": "120 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11195/etorgin-120-mg-tablet"
+    },
+    {
+      "name": "Etorica",
+      "strength": "60 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20112/etorica-60-mg-tablet"
+    },
+    {
+      "name": "Etorica",
+      "strength": "90 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20113/etorica-90-mg-tablet"
+    },
+    {
+      "name": "Etorica",
+      "strength": "120 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/20114/etorica-120-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "60 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/20102/etoricoxib-60-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "90 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/20103/etoricoxib-90-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "120 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/20104/etoricoxib-120-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "90 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/20126/etoricoxib-90-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "120 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/28753/etoricoxib-120-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "60 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28754/etoricoxib-60-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "90 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/28755/etoricoxib-90-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "60 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35683/etoricoxib-60-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "90 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/35684/etoricoxib-90-mg-tablet"
+    },
+    {
+      "name": "Etoricoxib",
+      "strength": "120 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/35685/etoricoxib-120-mg-tablet"
+    },
+    {
+      "name": "Etoriflex",
+      "strength": "60 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11196/etoriflex-60-mg-tablet"
+    },
+    {
+      "name": "Etoriflex",
+      "strength": "90 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11197/etoriflex-90-mg-tablet"
+    },
+    {
+      "name": "Etorix",
+      "strength": "60 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11198/etorix-60-mg-tablet"
+    },
+    {
+      "name": "Etorix",
+      "strength": "90 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11199/etorix-90-mg-tablet"
+    },
+    {
+      "name": "Etorix",
+      "strength": "120 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/11200/etorix-120-mg-tablet"
+    },
+    {
+      "name": "Etoshine",
+      "strength": "60 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/31940/etoshine-60-mg-tablet"
+    },
+    {
+      "name": "Etoshine",
+      "strength": "90 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/31956/etoshine-90-mg-tablet"
+    },
+    {
+      "name": "Etoshine",
+      "strength": "120 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/31957/etoshine-120-mg-tablet"
+    },
+    {
+      "name": "Etosis",
+      "strength": "90 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.03",
+      "url": "https://medex.com.bd/brands/11253/etosis-90-mg-tablet"
+    },
+    {
+      "name": "Etosis",
+      "strength": "120 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/11254/etosis-120-mg-tablet"
+    },
+    {
+      "name": "Etostar",
+      "strength": "90 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27994/etostar-90-mg-tablet"
+    },
+    {
+      "name": "Etostar",
+      "strength": "120 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27995/etostar-120-mg-tablet"
+    },
+    {
+      "name": "Etovan",
+      "strength": "60 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/11255/etovan-60-mg-tablet"
+    },
+    {
+      "name": "Etovan",
+      "strength": "90 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/11256/etovan-90-mg-tablet"
+    },
+    {
+      "name": "Etovan",
+      "strength": "120 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/11257/etovan-120-mg-tablet"
+    },
+    {
+      "name": "Etox",
+      "strength": "60 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/11201/etox-60-mg-tablet"
+    },
+    {
+      "name": "Etox",
+      "strength": "90 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11202/etox-90-mg-tablet"
+    },
+    {
+      "name": "Etoxib",
+      "strength": "60 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11203/etoxib-60-mg-tablet"
+    },
+    {
+      "name": "Etoxib",
+      "strength": "90 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11204/etoxib-90-mg-tablet"
+    },
+    {
+      "name": "Etrib",
+      "strength": "60 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11205/etrib-60-mg-tablet"
+    },
+    {
+      "name": "Etrib",
+      "strength": "90 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11206/etrib-90-mg-tablet"
+    },
+    {
+      "name": "Exib",
+      "strength": "60 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20127/exib-60-mg-tablet"
+    },
+    {
+      "name": "Ezepain",
+      "strength": "90 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37417/ezepain-90-mg-tablet"
+    },
+    {
+      "name": "Ezepain",
+      "strength": "120 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/37418/ezepain-120-mg-tablet"
+    },
+    {
+      "name": "Fabetor",
+      "strength": "120 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/26439/fabetor-120-mg-tablet"
+    },
+    {
+      "name": "Fabetor",
+      "strength": "90 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/26440/fabetor-90-mg-tablet"
+    },
+    {
+      "name": "Fabetor",
+      "strength": "60 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28697/fabetor-60-mg-tablet"
+    },
+    {
+      "name": "G-Cox",
+      "strength": "90 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35510/g-cox-90-mg-tablet"
+    },
+    {
+      "name": "G-Cox",
+      "strength": "120 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/35511/g-cox-120-mg-tablet"
+    },
+    {
+      "name": "Kingcox",
+      "strength": "60 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11207/kingcox-60-mg-tablet"
+    },
+    {
+      "name": "Kingcox",
+      "strength": "90 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11208/kingcox-90-mg-tablet"
+    },
+    {
+      "name": "Medricox",
+      "strength": "90 mg",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20116/medricox-90-mg-tablet"
+    },
+    {
+      "name": "Medricox",
+      "strength": "120 mg",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/20117/medricox-120-mg-tablet"
+    },
+    {
+      "name": "Neocox",
+      "strength": "60 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27930/neocox-60-mg-tablet"
+    },
+    {
+      "name": "Neocox",
+      "strength": "90 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27931/neocox-90-mg-tablet"
+    },
+    {
+      "name": "Oricox",
+      "strength": "60 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11209/oricox-60-mg-tablet"
+    },
+    {
+      "name": "Oricox",
+      "strength": "90 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11210/oricox-90-mg-tablet"
+    },
+    {
+      "name": "Oricox",
+      "strength": "120 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11211/oricox-120-mg-tablet"
+    },
+    {
+      "name": "Oricox",
+      "strength": "30 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/39529/oricox-30-mg-tablet"
+    },
+    {
+      "name": "Powercox",
+      "strength": "90 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34579/powercox-90-mg-tablet"
+    },
+    {
+      "name": "Ratirex",
+      "strength": "90 mg",
+      "manufacturer": "Radius Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/31114/ratirex-90-mg-tablet"
+    },
+    {
+      "name": "Recox",
+      "strength": "60 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/11258/recox-60-mg-tablet"
+    },
+    {
+      "name": "Recox",
+      "strength": "90 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11259/recox-90-mg-tablet"
+    },
+    {
+      "name": "Recox",
+      "strength": "120 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/11260/recox-120-mg-tablet"
+    },
+    {
+      "name": "Ribox",
+      "strength": "60 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/11212/ribox-60-mg-tablet"
+    },
+    {
+      "name": "Ribox",
+      "strength": "90 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/11213/ribox-90-mg-tablet"
+    },
+    {
+      "name": "Ribox",
+      "strength": "120 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/11214/ribox-120-mg-tablet"
+    },
+    {
+      "name": "Riox",
+      "strength": "60 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/20132/riox-60-mg-tablet"
+    },
+    {
+      "name": "Riox",
+      "strength": "90 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20133/riox-90-mg-tablet"
+    },
+    {
+      "name": "Riox",
+      "strength": "120 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/20134/riox-120-mg-tablet"
+    },
+    {
+      "name": "Rito",
+      "strength": "60 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.03",
+      "url": "https://medex.com.bd/brands/11215/rito-60-mg-tablet"
+    },
+    {
+      "name": "Rito",
+      "strength": "90 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/11216/rito-90-mg-tablet"
+    },
+    {
+      "name": "Rito",
+      "strength": "120 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/11217/rito-120-mg-tablet"
+    },
+    {
+      "name": "Rofin",
+      "strength": "90 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/20105/rofin-90-mg-tablet"
+    },
+    {
+      "name": "Rofin",
+      "strength": "120 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20106/rofin-120-mg-tablet"
+    },
+    {
+      "name": "SB-Eto",
+      "strength": "60 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/27367/sb-eto-60-mg-tablet"
+    },
+    {
+      "name": "SB-Eto",
+      "strength": "120 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/27368/sb-eto-120-mg-tablet"
+    },
+    {
+      "name": "Setorib",
+      "strength": "60 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.04",
+      "url": "https://medex.com.bd/brands/11218/setorib-60-mg-tablet"
+    },
+    {
+      "name": "Setorib",
+      "strength": "90 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.09",
+      "url": "https://medex.com.bd/brands/11219/setorib-90-mg-tablet"
+    },
+    {
+      "name": "Setorib",
+      "strength": "120 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.10",
+      "url": "https://medex.com.bd/brands/11220/setorib-120-mg-tablet"
+    },
+    {
+      "name": "Starcox",
+      "strength": "60 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27167/starcox-60-mg-tablet"
+    },
+    {
+      "name": "Starcox",
+      "strength": "90 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27168/starcox-90-mg-tablet"
+    },
+    {
+      "name": "Temcox",
+      "strength": "60 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/20129/temcox-60-mg-tablet"
+    },
+    {
+      "name": "Temcox",
+      "strength": "90 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/20130/temcox-90-mg-tablet"
+    },
+    {
+      "name": "Temcox",
+      "strength": "120 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/20131/temcox-120-mg-tablet"
+    },
+    {
+      "name": "Torbi",
+      "strength": "90 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/20107/torbi-90-mg-tablet"
+    },
+    {
+      "name": "Torbi",
+      "strength": "120 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/20108/torbi-120-mg-tablet"
+    },
+    {
+      "name": "Torcox",
+      "strength": "60 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28496/torcox-60-mg-tablet"
+    },
+    {
+      "name": "Torcox",
+      "strength": "90 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/28497/torcox-90-mg-tablet"
+    },
+    {
+      "name": "Torcox",
+      "strength": "120 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28498/torcox-120-mg-tablet"
+    },
+    {
+      "name": "Torimon",
+      "strength": "90 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11221/torimon-90-mg-tablet"
+    },
+    {
+      "name": "Torimon",
+      "strength": "120 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.04",
+      "url": "https://medex.com.bd/brands/11222/torimon-120-mg-tablet"
+    },
+    {
+      "name": "Tory",
+      "strength": "60 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/11223/tory-60-mg-tablet"
+    },
+    {
+      "name": "Tory",
+      "strength": "90 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.09",
+      "url": "https://medex.com.bd/brands/11224/tory-90-mg-tablet"
+    },
+    {
+      "name": "Tory",
+      "strength": "120 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/11225/tory-120-mg-tablet"
+    },
+    {
+      "name": "Vericox",
+      "strength": "60 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29014/vericox-60-mg-tablet"
+    },
+    {
+      "name": "Vericox",
+      "strength": "90 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29015/vericox-90-mg-tablet"
+    },
+    {
+      "name": "Vericox",
+      "strength": "120 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/29016/vericox-120-mg-tablet"
+    },
+    {
+      "name": "X Dol",
+      "strength": "60 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/11232/x-dol-60-mg-tablet"
+    },
+    {
+      "name": "X Dol",
+      "strength": "90 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/11233/x-dol-90-mg-tablet"
+    },
+    {
+      "name": "X Dol",
+      "strength": "120 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.04",
+      "url": "https://medex.com.bd/brands/11234/x-dol-120-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Etoricoxib tablet is indicated for the symptomatic relief of-\n\n- Osteoarthritis (OA)\n- Rheumatoid arthritis (RA)\n- Ankylosing spondylitis, and\n- The pain and signs of inflammation associated with acute gouty arthritis.\n- For the short-term treatment of moderate pain associated with dental surgery.",
+    "mode_of_action": "Etoricoxib is a potent, orally active cyclooxygenase-2 (COX-2) specific inhibitor within, and significantly above, the clinical dose range. Two isoforms of cyclooxygenase have been identified: cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2). COX-1 is responsible for prostaglandin-mediated normal physiologic functions such as gastric cytoprotection and platelet aggregation. Inhibition of COX-1 by nonselective NSAIDs has been associated with gastric damage and inhibition of platelet aggregation. COX-2 has been shown to be primarily responsible for the synthesis of prostanoid mediators of pain, inflammation, and fever. Selective inhibition of COX-2 by etoricoxib (within the clinical dose range) decreases these clinical signs and symptoms with decreased potential for Gl toxicity and effects on platelet aggregation. Etoricoxib produced dose-dependent inhibition of COX-2 without inhibition of COX-1 at doses up to 150 mg daily. Etoricoxib did not inhibit gastric prostaglandin synthesis.",
+    "dosage": "Adult and adolescent over 16 years: \n\n- **Osteoarthritis**: The recommended dose is 30 mg once daily. In some patients with insufficient relief from symptoms, an increased dose of 60 mg once daily may increase efficacy.\n- **Rheumatoid arthritis**: The recommended dose is 90 mg once daily.\n- **Ankylosing spondylitis**: The recommended dose is 90 mg once daily.\n- **Acute gouty arthritis**: The recommended dose is 120 mg once daily. In clinical trials for acute gouty arthritis, Etoricoxib was given for 8 days.\n- **Postoperative dental surgery pain**: The recommended dose is 90 mg once daily, limited to a maximum of 3 days.\n\r\nSome patients may require additional postoperative analgesia. As the cardiovascular risks of Etoricoxib may increase with dose and duration of exposure, the shortest duration possible and the lowest effective daily dose should be used. The patient's need for symptomatic relief and response to therapy should be re-evaluated periodically, especially in patients with osteoarthritis.",
+    "interaction": "With medicine:\n\n- **Oral anticoagulants**: In subjects stabilized on chronic warfarin therapy, the administration of Etoricoxib was associated with an increase in prothrombin time.\n- **Diuretics, ACE inhibitors and Angiotensin II Antagonists**: NSAIDs may reduce the effect of diuretics and other antihypertensive drugs.\n- **Acetylsalicylic Acid**: Etoricoxib can be used concomitantly with acetylsalicylic acid at doses used for cardiovascular prophylaxis (low-dose acetylsalicylic acid).\n- **Ciclosporin and tacrolimus**: Although this interaction has not been studied with Etoricoxib, coadministration of ciclosporin or tacrolimus with any NSAID may increase the nephrotoxic effect of ciclosporin or tacrolimus.\n- **Lithium**: NSAIDs decrease lithium renal excretion and therefore increase lithium plasma levels.\n\r\nWith food & others: Take without regards to meals.",
+    "contraindications": "- Hypersensitivity to the active substance or to any of the excipients.\n- Active peptic ulceration or active gastro-intestinai (Gl) bleeding.\n- Patients who have experienced bronchospasm, acute rhinitis, nasal polyps, angioneurotic oedema, urticaria, or allergic-type reactions after taking acetylsalicylic acid or NSAIDs including COX-2 (cyclooxygenase-2) inhibitors.\n- Pregnancy and lactation.\n- Severe hepatic dysfunction (serum albumin <25 g/l or Child-Pugh score 10).\n- Estimated renal creatinine clearance <30 ml/min.\n- Children and adolescents under 16 years of age.\n- Inflammatory bowel disease.\n- Congestive heart failure (NYHA ll-IV).\n- Patients with hypertension whose blood pressure is persistently elevated above 140/90 mmHg and has not been adequately controlled.\n- Established ischaemic heart disease, peripheral arterial disease, and/or cerebrovascular disease.",
+    "side_effects": "Side-effects may include palpitation, fatigue, influenza-like symptoms, ecchymosis; less commonly dry mouth, taste disturbance, mouth ulcer, appetite and weight change, atrial fibrillation, transient ischaemic attack, chest pain, flushing, cough, dyspnoea, epistaxis, anxiety, mental acuity impaired, paraesthesia, electrolyte disturbance, myalgia and arthralgia; very rarely confusion and hallucinations.",
+    "pregnancy_cat": "The use of Etoricoxib, as with any drug substance known to inhibit COX-2, is not recommended in women attempting to conceive. It is not known whether Etoricoxib is excreted in human milk. Etoricoxib is excreted in the milk of lactating rats. Women who use Etoricoxib must not breastfeed.",
+    "precautions": "- Caution is advised with treatment of patients most at risk of developing a gastrointestinal complication with NSAIDs; the elderly, patients using any other NSAID or acetylsalicylic acid concomitantly or patients with a prior history of gastrointestinal disease, such as ulceration and Gl bleeding.\n- Patients with significant risk factors for cardiovascular events (e.g. hypertension, hyperlipidaemia, diabetes mellitus, smoking) should only be treated with Etoricoxib after careful consideration.\n- Administration of Etoricoxib may cause a reduction in prostaglandin formation and, secondarily, in renal blood flow, and thereby impair renal function. Monitoring of renal function in such patients should be considered.\n- Caution should be exercised in patients with a history of cardiac failure, left ventricular dysfunction, or hypertension and in patients with pre-existing edema from any other reason.\n- Any patients with symptoms and/or signs suggesting liver dysfunction, or in whom an abnormalliver function test has occurred, should be monitored. If signs of hepatic insufficiency occur, or if persistently abnormal liver function tests (three times the upper limit of normal) are detected, Etoricoxib should be discontinued.\n- Etoricoxib should be discontinued at the first appearance of skin rash, mucosal lesions, or any other sign of hypersensitivity.\n- Etoricoxib may mask fever and other signs of inflammation. Caution should be exercised when co-administering Etoricoxib with warfarin or other oral anticoagulants.",
+    "overdose_effects": "Administration of single doses of Etoricoxib up to 500 mg and multiple doses up to 150 mg/day for 21 days did not result in significant toxicity. In the event of overdose, it is reasonable to employ the usual supportive measures, e.g., remove unabsorbed material from the Gl tract, employ clinical monitoring, and institute supportive therapy, if required.",
+    "drug_classes": "Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "Store at a temperature of below 30°C, protect from light & moisture. Keep out of reach of children.",
+    "compound_summary": "| Molecular Formula : | C 18 H 15 ClN 2 O 2 S |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Etoricoxib?\n\nEtoricoxib is a selective COX-2 inhibitor. COX-2 has been shown to be primarily responsible for the synthesis of prostanoid mediators of pain, inflammation, and fever. Etoricoxib produced dose-dependent inhibition of COX-2 without inhibition of COX-1 at doses up to 150 mg daily.\n\n#### What are the uses of Etoricoxib?\n\nEtoricoxib is indicated for the symptomatic relief of Osteoarthritis (OA), Rheumatoid arthritis (RA), Ankylosing spondylitis.\n\n#### How long is the duration of effect of Etoricoxib?\n\nThe effect of Etoricoxib lasts for an average duration of 20-24 hours.\n\n#### What is the onset of action of Etoricoxib?\n\nThe effect of Etoricoxib can be observed within 1-2 hours of administration. The onset is faster if the medicine is taken without food.\n\n#### Are there any pregnancy warnings of Etoricoxib?\n\nWomen who are pregnant should consult doctor before using Etoricoxib.\n\n#### Is it habit forming of Etoricoxib?\n\nNo habit forming tendencies were reported.\n\n#### Are there any breast-feeding warnings of Etoricoxib?\n\nEtoricoxib is not recommended for use by mothers who are breastfeeding. It should be used only when the potential benefits outweigh the risks associated with usage. Consult your doctor before taking this medicine.\n\n#### Is Etoricoxib safe with alcohol?\n\nEtoricoxib is found to be unsafe to consume this medicine with alcohol.\n\n#### Is Etoricoxib safe to drive while on this medicine?\n\nEtoricoxib may affect alertness of the patient taking it. Thus patient must avoid driving.\n\n#### Does Etoricoxib affect kidney function?\n\nCaution must be taken in patient with kidney disease. Adjustment of dose might be needed. Consult your doctor before taking Etoricoxib. use of this medicine is strictly not recommended in patients with severe kidney disease.\n\n#### Does Etoricoxib affect liver function?\n\nCaution must be taken in patient with liver disease. Adjustment of dose might be needed. Consult your doctor before taking Etoricoxib. use of this medicine is strictly not recommended in patients with severe liver disease.\n\n#### Quick Tips\n\n- Etoricoxib helps relieve pain and inflammation.\n- Etoricoxib may cause fewer stomach problems as compared to other NSAIDs like Ibuprofen or Naproxen.\n- Etoricoxib may cause dizziness and fatigue. Do not drive or do anything requiring concentration until you know how it affects you.\n- Do not consume alcohol while on treatment with Etoricoxib as it may cause excessive drowsiness.\n- Regularly monitor your blood pressure while taking this medicine, particularly in the first two weeks after starting treatment.\n- Inform your doctor if you have a history of stomach ulcers, heart diseases, high blood pressure, and liver or kidney disease.\n- During long-term treatment, your doctor may want to take regular blood tests to monitor your liver function.\n- Do not take Etoricoxib if you are pregnant, planning to conceive, or breastfeeding."
+  },
+  "sections_bn": {
+    "indications": "ইটোরিকক্সিব নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- অস্টিওআর্থ্রাইটিস\n- রিওমাটরয়েড আর্থ্রাইটিস\n- এঙ্কাইলোজিং স্পনডাইলাইটিস, এবং\n- একিউট গাউটিআথ্রাইটিস সহ বিভিন্ন রোগের বেদনাদায়ক এবং জ্বালাপোড়া উপসর্গে।\n- সার্জারী পরবর্তী দাঁতের ব্যথায় স্বল্প সময়ের জন্য নির্দেশিত।",
+    "dosage": "প্রাপ্ত বয়স্ক ও ১৬ বছরের ঊর্ধ্বে-\n\n**অস্টিওআথ্রাইটিস**: নির্দেশিত মাত্রা ৩০ মিগ্রা দিনে এক বার। পর্যাপ্ত ফলাফল পাওয়া না গেলে কিছু কিছু রোগীদের বেলায় মাত্রা বৃদ্ধি করে ৬০ মি.গ্রা. দিনে এক বার গ্রহণে কাঙ্খিত ফলাফল পাওয়া যায়।\n\n**রিউমাটয়েড অস্টিওআথ্রাইটিস**: নির্দেশিত মাত্রা ৯০ মিগ্রা দিনে এক বার।\n\n**এঙ্কাইলোটিজং স্পনডাইলাইটিস**: নির্দেশিত মাত্রা ৯০ মিগ্রা দিনে এক বার।\n\n**একিউট গাউটিআথ্রাইটিস**: নির্দেশিত মাত্রা ১২০ মিগ্রা দিনে এক বার। \n\n**সার্জারী পরবর্তী দাঁতের ব্যাথা**: নির্দেশিত মাত্রা ৯০ মিগ্রা দিনে এক বার যা সবোর্চ্চ ৩ দিনের মধ্যে সীমাবদ্ধ রাখা উচিত ।",
+    "contraindications": "যে সমস্ত রোগী ইটোরিকক্সিবের প্রতি অতিসংবেদনশীল তাদের ক্ষেত্রে পরিপাকতান্ত্রিক ক্ষত কিংবা রক্তক্ষরনের ইতিহাস থাকলে, হাঁপানীর পূর্ব ইতিহাস থাকলে; একিউট রাইনাইটিস, নাজাল পলিপ্‌স, এনজিওনিউরেটিক ইডিমা, আর্টিকারিয়া, এসিটাইলসেলিসাইলিক এসিড বা ককস্-২ সহ যে কোন এনএসআইডি গ্রহণে এলার্জি পরিলক্ষিত হলে; গর্ভাবস্থায় এবং স্তন্যদানকালে; যকৃত ও বৃক্কের অসমকার্যকারিতায়; শিশু ও ১৬ বছরের নীচের কৈশোর; অন্ত্রের ইনফ্লাম্যাটরি ডিজিসে; কনজেসটিভ হার্ট ফেইলিওর; অতিরিক্ত উচ্চরক্তচাপ যাদের সার্বক্ষনিক ১৪০/৯০ এমএম পারদ থাকে এবং নিয়ন্ত্রন করতে সমস্যা হয়; প্রতিষ্ঠিত ইসকিমিক হার্ট ডিজিস, পেরিফেরাল আর্টারিয়াল ডিজিস, এবং সেরিব্রোভাসকুলার ডিজিসে ইটোরিকক্সিব প্রতিনির্দেশিত।",
+    "pregnancy_cat": "ইটোরিকক্সিব গর্ভাবস্থায় এবং স্তন্যদানকালে নির্দেশিত নয়।",
+    "pediatric_uses": "ইটোরিকক্সিব যকৃত ও বৃক্কের অসমকার্যকারিতায় নির্দেশিত নয়\nইটোরিকক্সিব শিশু ও ১৬ বছরের নীচের কৈশোরদের ক্ষেত্রে নির্দেশিত নয়",
+    "drug_classes": "Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "৩০° সেন্টিগ্রেড তাপমাত্রার নিচে আলো ও আর্দ্রতা থেকে দূরে, ঠাণ্ডা ও শুষ্ক স্থানে রাখুন। সকল প্রকার ওষুধ শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 18 H 15 ClN 2 O 2 S |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/446/etoricoxib",
+  "source_url_bn": "https://medex.com.bd/generics/446/etoricoxib/bn",
+  "scraped_at": "2026-10-10T18:14:11+00:00"
+}

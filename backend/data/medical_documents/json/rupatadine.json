@@ -1,0 +1,536 @@
+{
+  "slug": "rupatadine",
+  "name_en": "Rupatadine Fumarate",
+  "name_bn": "রুপাটাডিন ফিউমারেট",
+  "therapeutic_class": "Anti-histamine",
+  "dosage_forms": [
+    "Tablet",
+    "Oral Solution"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Aladin",
+      "strength": "10 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/34731/aladin-10-mg-tablet"
+    },
+    {
+      "name": "Alarup",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12905/alarup-10-mg-tablet"
+    },
+    {
+      "name": "Dipa",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/12280/dipa-10-mg-tablet"
+    },
+    {
+      "name": "Duvent",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/12906/duvent-5-mg-oral-solution"
+    },
+    {
+      "name": "Duvent",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12907/duvent-10-mg-tablet"
+    },
+    {
+      "name": "Exalin",
+      "strength": "10 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/26980/exalin-10-mg-tablet"
+    },
+    {
+      "name": "Exalin OS",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/32041/exalin-os-5-mg-oral-solution"
+    },
+    {
+      "name": "Largix",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24378/largix-10-mg-tablet"
+    },
+    {
+      "name": "Largix",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/24379/largix-5-mg-oral-solution"
+    },
+    {
+      "name": "Lerupa",
+      "strength": "10 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/24380/lerupa-10-mg-tablet"
+    },
+    {
+      "name": "Minista",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/12908/minista-10-mg-tablet"
+    },
+    {
+      "name": "Nerupa",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/24399/nerupa-10-mg-tablet"
+    },
+    {
+      "name": "Nerupa",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/34610/nerupa-5-mg-oral-solution"
+    },
+    {
+      "name": "Orup",
+      "strength": "10 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34577/orup-10-mg-tablet"
+    },
+    {
+      "name": "Paftrol",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/24395/paftrol-5-mg-oral-solution"
+    },
+    {
+      "name": "Paftrol",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12281/paftrol-10-mg-tablet"
+    },
+    {
+      "name": "Rata",
+      "strength": "10 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/13608/rata-10-mg-tablet"
+    },
+    {
+      "name": "Rosela",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12909/rosela-10-mg-tablet"
+    },
+    {
+      "name": "Rosela",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/29225/rosela-5-mg-oral-solution"
+    },
+    {
+      "name": "Rubest",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24383/rubest-10-mg-tablet"
+    },
+    {
+      "name": "Rudine",
+      "strength": "10 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/33964/rudine-10-mg-tablet"
+    },
+    {
+      "name": "Rufast",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/24397/rufast-5-mg-oral-solution"
+    },
+    {
+      "name": "Rufast",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/12910/rufast-10-mg-tablet"
+    },
+    {
+      "name": "Rufecta",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/28914/rufecta-5-mg-oral-solution"
+    },
+    {
+      "name": "Rufecta",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12911/rufecta-10-mg-tablet"
+    },
+    {
+      "name": "Rumar",
+      "strength": "10 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/34333/rumar-10-mg-tablet"
+    },
+    {
+      "name": "Runar",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12912/runar-10-mg-tablet"
+    },
+    {
+      "name": "Rupa",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12282/rupa-10-mg-tablet"
+    },
+    {
+      "name": "Rupa",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/24381/rupa-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupa-Aid",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/28693/rupa-aid-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupa-Aid",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24394/rupa-aid-10-mg-tablet"
+    },
+    {
+      "name": "Rupaday",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/12913/rupaday-10-mg-tablet"
+    },
+    {
+      "name": "Rupadin",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/24382/rupadin-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupadin",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12283/rupadin-10-mg-tablet"
+    },
+    {
+      "name": "Rupafen",
+      "strength": "10 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12284/rupafen-10-mg-tablet"
+    },
+    {
+      "name": "Rupahist",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29163/rupahist-10-mg-tablet"
+    },
+    {
+      "name": "Rupaler",
+      "strength": "10 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12914/rupaler-10-mg-tablet"
+    },
+    {
+      "name": "Rupali",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 72.00",
+      "url": "https://medex.com.bd/brands/33905/rupali-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupali",
+      "strength": "10 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/33906/rupali-10-mg-tablet"
+    },
+    {
+      "name": "Rupamax",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38170/rupamax-10-mg-tablet"
+    },
+    {
+      "name": "Rupamax",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "60 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/38614/rupamax-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupamine",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12915/rupamine-10-mg-tablet"
+    },
+    {
+      "name": "Rupamine",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/28728/rupamine-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupana",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24390/rupana-10-mg-tablet"
+    },
+    {
+      "name": "Rupana",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/24389/rupana-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupanex",
+      "strength": "10 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/12285/rupanex-10-mg-tablet"
+    },
+    {
+      "name": "Rupanil",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/39659/rupanil-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupanil",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27829/rupanil-10-mg-tablet"
+    },
+    {
+      "name": "Rupaqure",
+      "strength": "10 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35692/rupaqure-10-mg-tablet"
+    },
+    {
+      "name": "Rupasal",
+      "strength": "10 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/39346/rupasal-10-mg-tablet"
+    },
+    {
+      "name": "Rupaset",
+      "strength": "10 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35887/rupaset-10-mg-tablet"
+    },
+    {
+      "name": "Rupastar",
+      "strength": "10 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12916/rupastar-10-mg-tablet"
+    },
+    {
+      "name": "Rupastin",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/12917/rupastin-10-mg-tablet"
+    },
+    {
+      "name": "Rupatan",
+      "strength": "10 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24396/rupatan-10-mg-tablet"
+    },
+    {
+      "name": "Rupatid",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12286/rupatid-10-mg-tablet"
+    },
+    {
+      "name": "Rupatrol",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12287/rupatrol-10-mg-tablet"
+    },
+    {
+      "name": "Rupaver",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/31599/rupaver-10-mg-tablet"
+    },
+    {
+      "name": "Rupaxen",
+      "strength": "10 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34473/rupaxen-10-mg-tablet"
+    },
+    {
+      "name": "Rupenta",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/12918/rupenta-10-mg-tablet"
+    },
+    {
+      "name": "Rupex",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/12919/rupex-10-mg-tablet"
+    },
+    {
+      "name": "Rupex",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/24393/rupex-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupin",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/12920/rupin-5-mg-oral-solution"
+    },
+    {
+      "name": "Rupin",
+      "strength": "10 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/12288/rupin-10-mg-tablet"
+    },
+    {
+      "name": "Rupita",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/27245/rupita-10-mg-tablet"
+    },
+    {
+      "name": "Rupoma",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24387/rupoma-10-mg-tablet"
+    },
+    {
+      "name": "Rupoma",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/24388/rupoma-5-mg-oral-solution"
+    },
+    {
+      "name": "Stark",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/30935/stark-5-mg-oral-solution"
+    },
+    {
+      "name": "Stark",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29993/stark-10-mg-tablet"
+    },
+    {
+      "name": "Urtinex",
+      "strength": "5 mg/5 ml",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/28823/urtinex-5-mg-oral-solution"
+    },
+    {
+      "name": "Urtinex",
+      "strength": "10 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/28822/urtinex-10-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Rupatadine is indicated for the symptomatic treatment of Seasonal & Perennial Allergic Rhinitis and Urticaria.",
+    "mode_of_action": "Rupatadine is a long-acting, non-sedative antagonist of histamine H1-receptors. It also antagonizes the platelet activating factor (PAF). Both histamine and PAF cause broncho constriction which leads to an increase in the vascular permeability and act as a mediator in the inflammatory process. With the dual mode of action, Rupatadine shows better therapeutic effect than an isolated antihistamine. Rupatadine possesses other anti allergic properties such as the inhibition of the degranulation of mast cells induced by immunological and non immunological stimuli and inhibition of the release of cytokines, particularly of the tumor necrosis factor alpha (TNF α) in human mastocytes and monocytes.",
+    "dosage": "**Adults and adolescents (over 12 years)**: The recommended dose is 10 mg once a day. Rupatadine may be taken with or without food.\n\nChildren aged 2 to 11 years: \n\n- **Children weighing 25 kg or more**: 1 teaspoonful (5 ml) of the oral solution once daily with or without food.\n- **Children weighing equal or more than 10 kg to less than 25 kg**: 1/2 teaspoonful (2.5 ml) oral solution once daily with or without food.",
+    "interaction": "With medicine: The concomitant administration of Rupatadine 20 mg and ketoconazole or erythromycin increases the systemic exposure. Rupatadine should be used with caution when it is administered concomitantly with these drug substances and other inhibitors of the isozyme CYP3A4. Rupatadine should be used with caution when it is co-administered with statins, CNS depressants or alcohol.\n\nWith food: Grapefruit and Grapefruit juice should not be taken simultaneously with Rupatadine",
+    "contraindications": "Hypersensitivity to Rupatadine or to any of the excipients.",
+    "side_effects": "Common: Asthenia, dizziness, drowsiness. Uncommon: Appetite increased, arthralgia, back pain, concentration impaired, constipation, cough, diarrhea, dry throat, epistaxis, fever, gastrointestinal discomfort, increased risk of infection, irritability, malaise, myalgia, nasal dryness, nausea, oropharyngeal pain, rash, thirst, vomiting, weight increased. Rare: Palpitations, tachycardia.",
+    "pregnancy_cat": "There is no clinical data available on the exposure of Rupatadine during pregnancy. Pregnant women should therefore not use Rupatadine unless the potential benefit outweighs the potential risk for the infant. No information is available, whether Rupatadine is excreted in the mother's milk. Therefore, it should not be used during lactation, unless the potential benefits for the mother justify the potential risk to the infant.",
+    "precautions": "Rupatadine should be used with caution in patients with known prolongation of the QT interval, patients with uncorrected hypokalemia, and patients with ongoing proarrhythmic conditions, such as clinically significant bradycardia or acute myocardial ischemia. Rupatadine should be used with caution in elderly patients (65 years and older). As there is no clinical experience in patients with impaired kidney or liver function, the use of Rupatadine 10 mg tablets is at present not recommended in these patients.",
+    "pediatric_uses": "**Elderly:** Rupatadine should be used with caution in elderly. No information is available that indicates the requirement of any dose adjustment in this population.\n\n**Children:** Neither the safety nor the efficacy of Rupatadine has been established in patients less than 12 years of age.\n\n**Patients with renal or hepatic insufficiency:** Use of Rupatadine is not recommended in patients with renal or hepatic insufficiency. As no relevant clinical data is available.",
+    "overdose_effects": "The most common adverse reaction was somnolence. If accidental ingestion of very high doses occurs, symptomatic treatment together with the required supportive measures should be given.",
+    "drug_classes": "Anti-histamine",
+    "storage_conditions": "Store in cool & dry place below 30°C, protect from light & moisture. Keep out of reach of children.",
+    "compound_summary": "| Molecular Formula : | C 26 H 26 ClN 3 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Rupatadine Fumarate?\n\nRupatadine Fumarate is H1-receptors antagonist. It also antagonizes the platelet activating factor (PAF).\n\n#### What is Rupatadine Fumarate used for?\n\nRupatadine Fumarate is commonly used to treat seasonal & perennial allergic rhinitis and urticaria.\n\n#### Are there any pregnancy warnings?\n\nRupatadine is maybe unsafe to use during pregnancy.\n\n#### Are there any breast-feeding warnings?\n\nUnknown. Human and animal studies are not available. Please consult your doctor.\n\n#### Is it safe to drive while on Rupatadine?\n\nThere is no data available. Please consult doctor before consuming the drug.\n\n#### Does this affect kidney function?\n\nCaution should be advised in patients with renal impairment.\n\n#### Does Rupatadine affect liver function?\n\nThere is no data available. Please consult doctor before consuming Rupatadine.\n\n#### What is the onset of action of Rupatadine?\n\nThe action is initiated in the first 75 minutes after administration.\n\n#### How long is the duration of effect?\n\nThe duration of action of Rupatadine is in between 8 to 10 hrs.\n\n#### Quick Tips\n\n- Your doctor has prescribed Rupatadine to help relieve allergy symptoms such as itching, swelling, and rashes.\n- As compared to other similar medications, it is much less likely to make you feel sleepy.\n- Be cautious while driving or doing anything that requires concentration as it can cause dizziness and sleepiness.\n- Do not drink alcohol while taking this medication as it may cause increased sleepiness.\n- Stop taking Rupa at least three days before taking an allergy test as it can affect the test results."
+  },
+  "sections_bn": {
+    "indications": "রুপাটাডিন সিজনাল এবং পেরিনিয়াল এলার্জিক রাইনাইটি এবং আর্টিকারিয়া এর জন্য নির্দেশিত।",
+    "mode_of_action": "রুপাটাডিন একটি দীর্ঘমেয়াদী কার্যকরী, ননসিডেটিভ হিস্টামিন H1 রিসেপ্টর এন্টাগােনিস্ট। এটি প্লাটিলেট অ্যাক্টিভেটিং ফ্যাক্টরকেও (PAF) বাধা প্রদান করে। হিস্টামিন এবং PAF উভয়ই ব্রঙ্কোকনস্ট্রিকশন করে যা ভাস্কুলার পারমিয়াবিলিটি বাড়ায় এবং প্রদাহ সৃষ্টি করে। দ্বৈত কার্যপ্রণালীর মাধ্যমে রুপাটাডিন অন্যান্য এন্টিহিস্টামিন থেকে ভালাে কার্যকারিতা দেখায়। এছাড়াও রুপাটাডিনের অন্যান্য এন্টিএলার্জিক বৈশিষ্ট্য আছে। যেমন- ইমিউনােলজিক্যাল এবং নন-ইমিউনােলজিক্যাল স্টিমুলাই দ্বারা মাস্ট সেলের ডিগ্রানুলেশন প্রতিরােধ, সাইটোকাইনের নিঃসরণ প্রতিরােধ, বিশেষভাবে মাস্ট সেল এবং মনােসাইট হতে TNF- এর নিঃসরণ প্রতিরােধ করে।",
+    "dosage": "**প্রাপ্তবয়স্ক এবং ১২ বছর এর উর্ধ্বে**: ১০ মিগ্রা দিনে ১ বার। সেবন করার পদ্ধতি: মুখে সেবন যােগ্য। রুপাটাডিন খাবার আগে বা পরে যেকোন সময় খাওয়া যায় অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।\n\n২ থেকে ১১ বছর বয়সী শিশু:\n\n- **২৫ কেজি বা তার বেশি ওজনের শিশুরা**: প্রতিদিন ১ বার খাবারের সাথে বা খাবার ছাড়াই ওরাল সল্যুসন ১ চা চামচ (৫ মিলি) গ্রহন করতে হবে।\n- **১০ কেজি থেকে বেশি ওজন ২৫ কেজি থেকে কম ওজনের বাচ্চাদের**: প্রতিদিন একবার খাবারের সাথে বা খাবার ছাড়াই ১/২ চা-চামচ (২.৫ মিলি) ওরাল সল্যুসন গ্রহন করতে হবে।",
+    "interaction": "ওষুধের সাথে: কিটোকোনাজল/ইরাইথ্রোমাইসিনের সাথে রুপাটাডিন খেলে সিস্টেমিক এক্সপােজার বৃদ্ধি পায়, এ সকল ওষুধ ও অন্যান্য আইসাে-এনজাইম CYP3A4 ইনহিবিটর এর সাথে রুপাটাডিন সতর্কতার সাথে খেতে হবে। স্ট্যাটিন, সিএনএস ডিপ্রেসেন্ট অথবা অ্যালকোহলের সাথে রুপাটাডিন সতর্কতার সাথে ব্যবহার করা উচিত।\n\nখাদ্য ও অন্যান্য: জাম্বুরা, জাম্বুরার জুস ও রুপাটাডিন এক সাথে খাওয়া থেকে বিরত থাকা উচিত।",
+    "contraindications": "রুপাটাডিন অথবা এতে ব্যবহৃত অন্য যে কোন উপাদানের প্রতি অতিসংবেদনশীলতা।",
+    "side_effects": "সাধারণ: দুর্বলতা, মাথা ঘােরা, তন্দ্রাচ্ছন্নভাব। অস্বাভাবিক: ক্ষুধা বৃদ্ধি, জয়েন্ট এ ব্যথা, পিঠে ব্যথা, মনােযােগহীনতা, কোষ্ঠকাঠিন্য, কাশি, ডায়রিয়া, গলা শুষ্কতা, নাক হইতে রক্ত-ক্ষরণ, জ্বর, পরিপাকতন্ত্রের অস্বস্তি, সংক্রমণের ঝুঁকি, বিরক্তি, অসুস্থতাবােধ, পেশীর ব্যথা, নাকের শুষ্কতা, বমিবমি ভাব, ওরােফেরেঞ্জিয়াল ব্যথা, ফুসকুড়ি, তৃষ্ণা, বমি, ওজন বৃদ্ধি। বিরল: বুক ধড়ফড় করা, হৃদস্পন্দন বেড়ে যাওয়া। সুপরিচিত পার্শ্ব প্রতিক্রিয়া এর মধ্যে তন্দ্রাচ্ছনতা অন্যতম। দুর্ঘটনাবশত অতিমাত্রায় সেবন করে ফেললে প্রতিক্রিয়া অনুযায়ী চিকিৎসা ও আনুষাঙ্গিক ব্যবস্থা গ্রহণ করা উচিত।",
+    "pregnancy_cat": "গর্ভবতী মহিলাদের ক্ষেত্রে পর্যাপ্ত এবং সুনিয়ন্ত্রিত তথ্য নেই। ভ্রণের ক্ষতির চেয়ে ঔষধ সেবনে উপকার বেশি হলে গর্ভাবস্থায় ব্যবহার করা যাবে। রুপাটাডিন মাতৃদুন্ধে নিঃসৃত হয় কিনা তা জানা যায়নি। তাই মাতৃদুগ্ধদানকালে রুপাটাডিন সাবধানতার সাথে ব্যবহার করতে হবে।",
+    "precautions": "যাদের QT ইন্টারভ্যাল বেড়ে যায় তাদের ক্ষেত্রে রুপাটাডিন ব্যবহার করার ক্ষেত্রে সতর্কতা অবলম্বন করতে হবে। যে সকল রােগীর অসংশােধিত হাইপােক্যালামিয়া, নিরবিচ্ছিন্ন প্রােএরিদমেটিক অবস্থা যথা ক্লিনিক্যালি ব্রাডিকার্ডিয়া অথবা একিউট মায়ােকার্ডিয়াল ইস্কেমিয়া আছে তাদের ক্ষেত্রে রুপাটাডিন সেবন করার ক্ষেত্রে সতর্কতা নিতে হবে। বৃদ্ধ রােগীদের (৬৫ বছর এবং তার চেয়ে বেশী) ক্ষেত্রে রুপাটাডিন সেবন করার ক্ষেত্রে সতর্কতা নিতে হবে। যে সকল রােগীর কিডনি অথবা যকৃত কার্যক্রমে সমস্যা আছে তাদের ক্ষেত্রে এটি প্রযােজ্য নয়।",
+    "pediatric_uses": "বয়স্কদের ক্ষেত্রে ও বয়স্ক রােগীদের ক্ষেত্রে সাবধানতা অবলম্বন করতে হবে। মাত্রা পুনঃনির্ধারণের কোন তথ্য বয়স্কদের ক্ষেত্রে পাওয়া যায়নি।\n\nশিশুদের ক্ষেত্রে: রুপাটাডিন এর নিরাপত্তা এবং কার্যকারিতা ১২ বছরের কম বয়সী শিশুদের ক্ষেত্রে প্রতিষ্ঠিত নয়।\n\nলিভার ও কিডনি অকার্যকর রােগীদের ক্ষেত্রে: লিভার ও কিডনি অকার্যকর রােগীদের ব্যবহারের ক্ষেত্রে তথ্য পাওয়া যায়নি তাই এটি ব্যবহার করা উচতি নয়।",
+    "drug_classes": "Anti-histamine",
+    "storage_conditions": "৩০° সেন্টিগ্রেড তাপমাত্রার নিচে আলাে ও আর্দ্রতা থেকে দূরে, ঠাণ্ডা ও শুষ্ক স্থানে রাখুন। সকল ওষুধ শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 26 H 26 ClN 3 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/972/rupatadine-fumarate",
+  "source_url_bn": "https://medex.com.bd/generics/972/rupatadine-fumarate/bn",
+  "scraped_at": "2026-10-10T18:30:06+00:00"
+}

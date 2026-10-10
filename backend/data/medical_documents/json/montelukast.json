@@ -1,0 +1,1653 @@
+{
+  "slug": "montelukast",
+  "name_en": "Montelukast Sodium",
+  "name_bn": "মন্টিলুকাস্ট সোডিয়াম",
+  "therapeutic_class": "Leukotriene receptor antagonists",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Aeron",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3761/aeron-10-mg-tablet"
+    },
+    {
+      "name": "Aeron",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "3.5 gm sachet : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34617/aeron-4-mg-oral-granules"
+    },
+    {
+      "name": "Aeron FT",
+      "strength": "4 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3759/aeron-ft-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Aeron FT",
+      "strength": "5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3760/aeron-ft-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Aircast",
+      "strength": "10 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/37838/aircast-10-mg-tablet"
+    },
+    {
+      "name": "AirFlow",
+      "strength": "10 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/32793/airflow-10-mg-tablet"
+    },
+    {
+      "name": "AirFlow",
+      "strength": "4 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35971/airflow-4-mg-chewable-tablet"
+    },
+    {
+      "name": "AirFlow",
+      "strength": "5 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35972/airflow-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Airmont",
+      "strength": "10 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/33582/airmont-10-mg-tablet"
+    },
+    {
+      "name": "Airup",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3804/airup-10-mg-tablet"
+    },
+    {
+      "name": "Airup",
+      "strength": "5 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26990/airup-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Airup",
+      "strength": "4 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34684/airup-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Airway",
+      "strength": "5 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22627/airway-5-mg-tablet"
+    },
+    {
+      "name": "Airway",
+      "strength": "10 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/22628/airway-10-mg-tablet"
+    },
+    {
+      "name": "Airway",
+      "strength": "4 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27988/airway-4-mg-tablet"
+    },
+    {
+      "name": "Ambkust",
+      "strength": "10 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/38332/ambkust-10-mg-tablet"
+    },
+    {
+      "name": "Amikast",
+      "strength": "5 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22585/amikast-5-mg-tablet"
+    },
+    {
+      "name": "Amikast",
+      "strength": "10 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22586/amikast-10-mg-tablet"
+    },
+    {
+      "name": "Antaluk",
+      "strength": "10 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22650/antaluk-10-mg-tablet"
+    },
+    {
+      "name": "Arokast",
+      "strength": "4 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/3765/arokast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Arokast",
+      "strength": "5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3766/arokast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Arokast",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3767/arokast-10-mg-tablet"
+    },
+    {
+      "name": "Arokast FT",
+      "strength": "4 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26901/arokast-ft-4-mg-flash-tablet"
+    },
+    {
+      "name": "Arokast FT",
+      "strength": "5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26902/arokast-ft-5-mg-flash-tablet"
+    },
+    {
+      "name": "Arovent",
+      "strength": "5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3768/arovent-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Arovent",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3769/arovent-10-mg-tablet"
+    },
+    {
+      "name": "Arovent ODT",
+      "strength": "4 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32466/arovent-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Asmatab",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/22651/asmatab-10-mg-tablet"
+    },
+    {
+      "name": "Asmatab",
+      "strength": "5 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29568/asmatab-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Asmont",
+      "strength": "4 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/3770/asmont-4-mg-tablet"
+    },
+    {
+      "name": "Asmont",
+      "strength": "5 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3771/asmont-5-mg-tablet"
+    },
+    {
+      "name": "Asmont",
+      "strength": "10 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/3772/asmont-10-mg-tablet"
+    },
+    {
+      "name": "Asthmacare",
+      "strength": "10 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/32540/asthmacare-10-mg-tablet"
+    },
+    {
+      "name": "Asthmacare",
+      "strength": "5 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32541/asthmacare-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "B Easy",
+      "strength": "10 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/32930/b-easy-10-mg-tablet"
+    },
+    {
+      "name": "B Easy",
+      "strength": "5 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.33",
+      "url": "https://medex.com.bd/brands/37916/b-easy-5-mg-tablet"
+    },
+    {
+      "name": "BioMonas",
+      "strength": "10 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/30323/biomonas-10-mg-tablet"
+    },
+    {
+      "name": "Breasy",
+      "strength": "10 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22596/breasy-10-mg-tablet"
+    },
+    {
+      "name": "Breasy",
+      "strength": "5 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.75",
+      "url": "https://medex.com.bd/brands/29527/breasy-5-mg-tablet"
+    },
+    {
+      "name": "Breathair",
+      "strength": "10 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/4248/breathair-10-mg-tablet"
+    },
+    {
+      "name": "Brocast",
+      "strength": "10 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/22595/brocast-10-mg-tablet"
+    },
+    {
+      "name": "Brocast",
+      "strength": "5 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31816/brocast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Centokast",
+      "strength": "10 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22594/centokast-10-mg-tablet"
+    },
+    {
+      "name": "Croma",
+      "strength": "4 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3773/croma-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Croma",
+      "strength": "5 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/3774/croma-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Croma",
+      "strength": "10 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3775/croma-10-mg-tablet"
+    },
+    {
+      "name": "Edron",
+      "strength": "10 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3776/edron-10-mg-tablet"
+    },
+    {
+      "name": "Ezair",
+      "strength": "10 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/29276/ezair-10-mg-tablet"
+    },
+    {
+      "name": "Ezevent",
+      "strength": "10 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/22644/ezevent-10-mg-tablet"
+    },
+    {
+      "name": "Flomont",
+      "strength": "10 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.80",
+      "url": "https://medex.com.bd/brands/22623/flomont-10-mg-tablet"
+    },
+    {
+      "name": "Freegest",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/26867/freegest-10-mg-tablet"
+    },
+    {
+      "name": "Freegest",
+      "strength": "4 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/26868/freegest-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Freegest",
+      "strength": "5 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26869/freegest-5-mg-chewable-tablet"
+    },
+    {
+      "name": "G-Montelukast",
+      "strength": "5 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/35239/g-montelukast-5-mg-tablet"
+    },
+    {
+      "name": "G-Montelukast",
+      "strength": "10 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35240/g-montelukast-10-mg-tablet"
+    },
+    {
+      "name": "Leokast",
+      "strength": "10 mg",
+      "manufacturer": "Royal Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32184/leokast-10-mg-tablet"
+    },
+    {
+      "name": "Liam",
+      "strength": "10 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/3780/liam-10-mg-tablet"
+    },
+    {
+      "name": "Liam",
+      "strength": "5 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22588/liam-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Loctril",
+      "strength": "10 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/27733/loctril-10-mg-tablet"
+    },
+    {
+      "name": "Loctril",
+      "strength": "4 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/33887/loctril-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Loctril",
+      "strength": "5 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/33888/loctril-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Loctril",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "3.5 gm sachet : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/33889/loctril-4-mg-oral-granules"
+    },
+    {
+      "name": "Lotem",
+      "strength": "4 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/30430/lotem-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Lotem",
+      "strength": "5 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/30431/lotem-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Lotem",
+      "strength": "10 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/30432/lotem-10-mg-tablet"
+    },
+    {
+      "name": "Lukas",
+      "strength": "10 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/22635/lukas-10-mg-tablet"
+    },
+    {
+      "name": "Lumenta",
+      "strength": "10 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3782/lumenta-10-mg-tablet"
+    },
+    {
+      "name": "Luminus",
+      "strength": "10 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/32709/luminus-10-mg-tablet"
+    },
+    {
+      "name": "Luminus",
+      "strength": "5 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/36957/luminus-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Luminus",
+      "strength": "4 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/36958/luminus-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Lumona",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3784/lumona-10-mg-tablet"
+    },
+    {
+      "name": "Lumona",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "3.5 gm sachet : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26776/lumona-4-mg-oral-granules"
+    },
+    {
+      "name": "Lumona FT",
+      "strength": "4 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/3785/lumona-ft-4-mg-flash-tablet"
+    },
+    {
+      "name": "Lumona FT",
+      "strength": "5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26775/lumona-ft-5-mg-flash-tablet"
+    },
+    {
+      "name": "Lungair",
+      "strength": "10 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/39467/lungair-10-mg-tablet"
+    },
+    {
+      "name": "Luxem",
+      "strength": "10 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/36616/luxem-10-mg-tablet"
+    },
+    {
+      "name": "M-K",
+      "strength": "10 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/35567/m-k-10-mg-tablet"
+    },
+    {
+      "name": "M-Kast",
+      "strength": "4 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/3788/m-kast-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "M-Kast",
+      "strength": "5 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3789/m-kast-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "M-Kast",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3790/m-kast-10-mg-tablet"
+    },
+    {
+      "name": "M-lucas",
+      "strength": "4 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3791/m-lucas-4-mg-chewable-tablet"
+    },
+    {
+      "name": "M-lucas",
+      "strength": "5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3792/m-lucas-5-mg-chewable-tablet"
+    },
+    {
+      "name": "M-lucas",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3793/m-lucas-10-mg-tablet"
+    },
+    {
+      "name": "Maxair",
+      "strength": "5 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/3786/maxair-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Maxair",
+      "strength": "10 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3787/maxair-10-mg-tablet"
+    },
+    {
+      "name": "Medikast",
+      "strength": "4 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22613/medikast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Medikast",
+      "strength": "5 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22614/medikast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Medikast",
+      "strength": "10 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22615/medikast-10-mg-tablet"
+    },
+    {
+      "name": "Mokast",
+      "strength": "10 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/3795/mokast-10-mg-tablet"
+    },
+    {
+      "name": "Molicust",
+      "strength": "10 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/22634/molicust-10-mg-tablet"
+    },
+    {
+      "name": "Molly",
+      "strength": "10 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/37497/molly-10-mg-tablet"
+    },
+    {
+      "name": "Molukat",
+      "strength": "4 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/3796/molukat-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Molukat",
+      "strength": "5 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/3797/molukat-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Molukat",
+      "strength": "10 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3798/molukat-10-mg-tablet"
+    },
+    {
+      "name": "Mon",
+      "strength": "5 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22592/mon-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Mon",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.50",
+      "url": "https://medex.com.bd/brands/22593/mon-10-mg-tablet"
+    },
+    {
+      "name": "Mon-X",
+      "strength": "10 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22599/mon-x-10-mg-tablet"
+    },
+    {
+      "name": "Monalast",
+      "strength": "10 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22652/monalast-10-mg-tablet"
+    },
+    {
+      "name": "Monalast",
+      "strength": "5 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22653/monalast-5-mg-tablet"
+    },
+    {
+      "name": "Monalast ODT",
+      "strength": "4 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/31083/monalast-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Monark",
+      "strength": "10 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.10",
+      "url": "https://medex.com.bd/brands/3799/monark-10-mg-tablet"
+    },
+    {
+      "name": "Monas",
+      "strength": "4 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3800/monas-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Monas",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3801/monas-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Monas",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3802/monas-10-mg-tablet"
+    },
+    {
+      "name": "Monas OFT",
+      "strength": "4 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/26522/monas-oft-4-mg-flash-tablet"
+    },
+    {
+      "name": "Monas OFT",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/26523/monas-oft-5-mg-flash-tablet"
+    },
+    {
+      "name": "Monasic",
+      "strength": "10 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/37805/monasic-10-mg-tablet"
+    },
+    {
+      "name": "Monasic",
+      "strength": "4 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37806/monasic-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Monasic",
+      "strength": "5 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/37807/monasic-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Moneka",
+      "strength": "5 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31483/moneka-5-mg-tablet"
+    },
+    {
+      "name": "Moneka",
+      "strength": "10 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/31484/moneka-10-mg-tablet"
+    },
+    {
+      "name": "Monfast",
+      "strength": "10 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/36406/monfast-10-mg-tablet"
+    },
+    {
+      "name": "Monfast ODT",
+      "strength": "4 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36407/monfast-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Monfast ODT",
+      "strength": "5 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/36408/monfast-odt-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Monkon",
+      "strength": "4 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22581/monkon-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Monkon",
+      "strength": "5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22582/monkon-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Monkon",
+      "strength": "10 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 19.20",
+      "url": "https://medex.com.bd/brands/22583/monkon-10-mg-tablet"
+    },
+    {
+      "name": "Monocast",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3807/monocast-10-mg-tablet"
+    },
+    {
+      "name": "Monocast",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "3.5 gm sachet : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3808/monocast-4-mg-oral-granules"
+    },
+    {
+      "name": "Monocast",
+      "strength": "4 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/26307/monocast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Monocast",
+      "strength": "5 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26308/monocast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Monofast",
+      "strength": "10 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27568/monofast-10-mg-tablet"
+    },
+    {
+      "name": "Monofast",
+      "strength": "5 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27569/monofast-5-mg-tablet"
+    },
+    {
+      "name": "Monovas",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3809/monovas-10-mg-tablet"
+    },
+    {
+      "name": "Monprox",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/3810/monprox-10-mg-tablet"
+    },
+    {
+      "name": "Monprox OFT",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/37360/monprox-oft-10-mg-flash-tablet"
+    },
+    {
+      "name": "Monprox OFT",
+      "strength": "5 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37361/monprox-oft-5-mg-flash-tablet"
+    },
+    {
+      "name": "Mont-R",
+      "strength": "4 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/3837/mont-r-4-mg-tablet"
+    },
+    {
+      "name": "Mont-R",
+      "strength": "10 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3839/mont-r-10-mg-tablet"
+    },
+    {
+      "name": "Montair",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3813/montair-10-mg-tablet"
+    },
+    {
+      "name": "Montair ODT",
+      "strength": "4 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26231/montair-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Montair ODT",
+      "strength": "5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26232/montair-odt-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Montek",
+      "strength": "10 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3817/montek-10-mg-tablet"
+    },
+    {
+      "name": "Montek",
+      "strength": "4 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/31094/montek-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montek",
+      "strength": "5 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31946/montek-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montekast",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3815/montekast-10-mg-tablet"
+    },
+    {
+      "name": "Montekast",
+      "strength": "4 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28563/montekast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montela",
+      "strength": "5 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/3818/montela-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montela",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/3819/montela-10-mg-tablet"
+    },
+    {
+      "name": "Montela",
+      "strength": "4 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27776/montela-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montelon",
+      "strength": "10 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3820/montelon-10-mg-tablet"
+    },
+    {
+      "name": "Montelon",
+      "strength": "5 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34048/montelon-5-mg-tablet"
+    },
+    {
+      "name": "Montelon Kidz",
+      "strength": "4 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22587/montelon-kidz-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Monteluk",
+      "strength": "5 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3821/monteluk-5-mg-tablet"
+    },
+    {
+      "name": "Monteluk",
+      "strength": "10 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3822/monteluk-10-mg-tablet"
+    },
+    {
+      "name": "Montenaaf",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/22622/montenaaf-10-mg-tablet"
+    },
+    {
+      "name": "Montenaaf ODT",
+      "strength": "5 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36805/montenaaf-odt-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Montene",
+      "strength": "4 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3823/montene-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Montene",
+      "strength": "5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3824/montene-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Montene",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3825/montene-10-mg-tablet"
+    },
+    {
+      "name": "Montex",
+      "strength": "5 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3826/montex-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montex",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3827/montex-10-mg-tablet"
+    },
+    {
+      "name": "Montex",
+      "strength": "4 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22608/montex-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montezen",
+      "strength": "10 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/28762/montezen-10-mg-tablet"
+    },
+    {
+      "name": "Montezen",
+      "strength": "5 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28763/montezen-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montica",
+      "strength": "4 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22604/montica-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montica",
+      "strength": "5 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22605/montica-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montica",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/22606/montica-10-mg-tablet"
+    },
+    {
+      "name": "MontiFast",
+      "strength": "4 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3828/montifast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "MontiFast",
+      "strength": "5 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/3829/montifast-5-mg-tablet"
+    },
+    {
+      "name": "MontiFast",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3830/montifast-10-mg-tablet"
+    },
+    {
+      "name": "Montilab",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3831/montilab-10-mg-tablet"
+    },
+    {
+      "name": "Montilab",
+      "strength": "5 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22611/montilab-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montilab",
+      "strength": "4 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22612/montilab-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montilet",
+      "strength": "10 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/3832/montilet-10-mg-tablet"
+    },
+    {
+      "name": "Montinex",
+      "strength": "4 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3762/montinex-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Montinex",
+      "strength": "5 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3763/montinex-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montinex",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3764/montinex-10-mg-tablet"
+    },
+    {
+      "name": "Montinex Fast",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/37244/montinex-fast-10-mg-chewable-tablet"
+    },
+    {
+      "name": "Montinex R",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/38497/montinex-r-10-mg-tablet"
+    },
+    {
+      "name": "Montison",
+      "strength": "10 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/35377/montison-10-mg-tablet"
+    },
+    {
+      "name": "Montium",
+      "strength": "10 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/34888/montium-10-mg-tablet"
+    },
+    {
+      "name": "Montiva",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3833/montiva-10-mg-tablet"
+    },
+    {
+      "name": "Montiva",
+      "strength": "4 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17183/montiva-4-mg-flash-tablet"
+    },
+    {
+      "name": "Montiva",
+      "strength": "5 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/17184/montiva-5-mg-flash-tablet"
+    },
+    {
+      "name": "Montoz",
+      "strength": "10 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/38276/montoz-10-mg-tablet"
+    },
+    {
+      "name": "Montril",
+      "strength": "4 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3834/montril-4-mg-flash-tablet"
+    },
+    {
+      "name": "Montril",
+      "strength": "5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3835/montril-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Montril",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3836/montril-10-mg-tablet"
+    },
+    {
+      "name": "MTS",
+      "strength": "10 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/22616/mts-10-mg-tablet"
+    },
+    {
+      "name": "Nozma",
+      "strength": "10 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27221/nozma-10-mg-tablet"
+    },
+    {
+      "name": "Nozma ODT",
+      "strength": "4 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/33284/nozma-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Nozma ODT",
+      "strength": "5 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.75",
+      "url": "https://medex.com.bd/brands/33285/nozma-odt-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Odmon",
+      "strength": "5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3840/odmon-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Odmon",
+      "strength": "4 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3841/odmon-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Odmon",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/3842/odmon-10-mg-tablet"
+    },
+    {
+      "name": "Prikast",
+      "strength": "10 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/35691/prikast-10-mg-tablet"
+    },
+    {
+      "name": "Proair",
+      "strength": "10 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32918/proair-10-mg-tablet"
+    },
+    {
+      "name": "Proair",
+      "strength": "5 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32919/proair-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Provair",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3845/provair-10-mg-tablet"
+    },
+    {
+      "name": "Provair",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "3.5 gm sachet : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/28296/provair-4-mg-oral-granules"
+    },
+    {
+      "name": "Provair ODT",
+      "strength": "4 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/30101/provair-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Provair ODT",
+      "strength": "5 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/30102/provair-odt-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Proximont",
+      "strength": "10 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38728/proximont-10-mg-tablet"
+    },
+    {
+      "name": "Pulmokast",
+      "strength": "4 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/22609/pulmokast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Pulmokast",
+      "strength": "10 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22610/pulmokast-10-mg-tablet"
+    },
+    {
+      "name": "Pulmont",
+      "strength": "10 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/22625/pulmont-10-mg-tablet"
+    },
+    {
+      "name": "Pulmont",
+      "strength": "5 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22626/pulmont-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Recast",
+      "strength": "10 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22618/recast-10-mg-tablet"
+    },
+    {
+      "name": "Recast",
+      "strength": "4 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/22619/recast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Recast",
+      "strength": "5 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22620/recast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Reversair",
+      "strength": "4 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 7.05",
+      "url": "https://medex.com.bd/brands/3846/reversair-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Reversair",
+      "strength": "5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3847/reversair-5-mg-dispersible-tablet"
+    },
+    {
+      "name": "Reversair",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/3848/reversair-10-mg-tablet"
+    },
+    {
+      "name": "Reversair CT",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/34017/reversair-ct-10-mg-chewable-tablet"
+    },
+    {
+      "name": "Salkast",
+      "strength": "10 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/39350/salkast-10-mg-tablet"
+    },
+    {
+      "name": "SB-Monec",
+      "strength": "10 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22646/sb-monec-10-mg-tablet"
+    },
+    {
+      "name": "Silmon",
+      "strength": "10 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/22643/silmon-10-mg-tablet"
+    },
+    {
+      "name": "Sinlair",
+      "strength": "10 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/30896/sinlair-10-mg-tablet"
+    },
+    {
+      "name": "Tekast",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/22647/tekast-10-mg-tablet"
+    },
+    {
+      "name": "Tekast",
+      "strength": "5 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/22648/tekast-5-mg-tablet"
+    },
+    {
+      "name": "Tekast ODT",
+      "strength": "4 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/39227/tekast-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Telukast",
+      "strength": "4 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/3849/telukast-4-mg-chewable-tablet"
+    },
+    {
+      "name": "Telukast",
+      "strength": "5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/3850/telukast-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Telukast",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/26582/telukast-10-mg-tablet"
+    },
+    {
+      "name": "Telukast CT",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/34904/telukast-ct-10-mg-chewable-tablet"
+    },
+    {
+      "name": "Tmon",
+      "strength": "10 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/38503/tmon-10-mg-tablet"
+    },
+    {
+      "name": "Trilock",
+      "strength": "4 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.04",
+      "url": "https://medex.com.bd/brands/3852/trilock-4-mg-tablet"
+    },
+    {
+      "name": "Trilock",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/3853/trilock-5-mg-tablet"
+    },
+    {
+      "name": "Trilock",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/3854/trilock-10-mg-tablet"
+    },
+    {
+      "name": "Trilock",
+      "strength": "4 mg/3.5 gm",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "3.5 gm sachet : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/3855/trilock-4-mg-oral-granules"
+    },
+    {
+      "name": "Trilock CT",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/34723/trilock-ct-10-mg-chewable-tablet"
+    },
+    {
+      "name": "Trilock OFT",
+      "strength": "4 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/29564/trilock-oft-4-mg-flash-tablet"
+    },
+    {
+      "name": "Trilock OFT",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/30858/trilock-oft-5-mg-flash-tablet"
+    },
+    {
+      "name": "Ventair",
+      "strength": "10 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/22602/ventair-10-mg-tablet"
+    },
+    {
+      "name": "Ventair",
+      "strength": "5 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/22603/ventair-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Ventilast",
+      "strength": "10 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.50",
+      "url": "https://medex.com.bd/brands/29266/ventilast-10-mg-tablet"
+    },
+    {
+      "name": "Xyflo",
+      "strength": "5 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/22638/xyflo-5-mg-chewable-tablet"
+    },
+    {
+      "name": "Xyflo",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/22639/xyflo-10-mg-tablet"
+    },
+    {
+      "name": "Xyflo",
+      "strength": "4 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/30026/xyflo-4-mg-chewable-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Montelukast Sodium is indicated for:\n\n- Prophylaxis and chronic treatment of asthma\n- Acute prevention of Exercise-Induced Bronchoconstriction (EIB)\n- Relief of symptoms of Allergic Rhinitis (AR): Seasonal & Perennial Allergic Rhinitis",
+    "mode_of_action": "Montelukast is a selective and orally active leukotriene receptor antagonist that inhibits the cysteinyl leukotriene receptor (CysLT1). The cysteinyl leukotrienes (LTC4, LTD4, LTE4) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. Cysteinyl leukotrienes and leukotriene receptor occupation have been correlated with the pathophysiology of asthma & allergic rhinitis, including airway edema, smooth muscle contraction, and altered cellular activity associated with the inflammatory process, which contribute to the signs and symptoms of asthma.",
+    "dosage": "Adults and adolescents with asthma or seasonal allergic rhinitis: \n\n- **The dosage for adults and adolescents 15 years of age and older**: Montelukast 10 mg tablet once daily.\n\r\nPediatric patients with asthma or seasonal allergic rhinitis: \n\n- **The dosage for pediatric patients 6 to 14 years of age**: Montelukast 5 mg tablet once daily.\n- **The dosage for pediatric patients 2 years to 5 years of age**: Montelukast 4 mg tablet once daily.\n- **The dosage for pediatric patients 6 months to 5 years of age**: Montelukast 4 mg oral granules once daily. This can be administered either directly in the mouth, or mixed with a spoonful of cold water or soft food at room temperature\n\n**Use in the pediatric patient**: The safety and efficacy of Montelukast have been established in adequate and well-controlled studies in pediatric patients with asthma 6 months to 14 years of age. Safety and efficacy profiles in this age group are similar to those seen in adults.\n\n**Hepatic Insufficiency**: No dosage adjustment is required in patients with mild-to-moderate hepatic insufficiency.\n\n**Renal Insufficiency**: No dosage adjustment is recommended in patients with renal insufficiency.\n\n**Elderly use**: The pharmacokinetic profile and the oral bioavailability of a single 10-mg oral dose of montelukast are similar in elderly and younger adults. The plasma half-life of montelukast is slightly longer in the elderly. No dosage adjustment in the elderly is required.",
+    "interaction": "Montelukast has been administered with other therapies routinely used in the prophylaxis and chronic treatment of asthma with no apparent increase in adverse reactions. In drug interaction studies, the recommended clinical dose of Montelukast did not have clinically important effects on the pharmacokinetics of the following drugs: theophylline, prednisone, prednisolone, oral contraceptives (norethindrone 1mg/ethinyl estradiol 35mcg), terfenadine, digoxin, and warfarin. Although additional specific interaction studies were not performed, Montelukast was used concomitantly with a wide range of commonly prescribed drugs in clinical studies without evidence of clinical adverse interactions. These medications included thyroid hormones, sedative hypnotics, non-steroidal anti-inflammatory agents, benzodiazepines and decongestants. Phenobarbital, which induces hepatic metabolism, decreased the AUC of Montelukast approximately 40% following a single 10mg dose of Montelukast. No dosage adjustment for Montelukast is recommended. It is reasonable to employ appropriate clinical monitoring when potent cytochrome P450 enzyme inducers, such as phenobarbital or rifampin, are co-administered with Montelukast.",
+    "contraindications": "Montelukast is contraindicated in patients who are hypersensitive to any component of this product.",
+    "side_effects": "**Common**: Diarrhoea, fever, gastrointestinal discomfort, headache, nausea, vomiting, skin reactions, upper respiratory tract infection.\n\n**Uncommon**: Akathisia, anxiety, arthralgia, asthenia, abnormal behavior, depression, dizziness, drowsiness, dry mouth, haemorrhage, irritability, malaise, muscle complaints, oedema, seizure, abnormal sensation, sleep disorders.\n\n**Rare**: Angioedema, concentration impaired, disorientation, eosinophilic granulomatosis with polyangiitis, erythema nodosum, hallucination, hepatic disorders, memory loss, palpitations, pulmonary eosinophilia, suicidal tendencies, tremor.",
+    "pregnancy_cat": "Montelukast crosses the placenta following oral dosing in rats and rabbits. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, Montelukast should be used during pregnancy only if clearly needed. Because many drugs are excreted in human milk, caution should be exercised when Montelukast  is given to a nursing mother.",
+    "precautions": "Montelukast is not indicated for use in the reversal of bronchospasm in acute asthma attacks, including status asthmaticus. Patients should be advised to have appropriate rescue medication available. Therapy with Montelukast can be continued during acute exacerbations of asthma. While the dose of inhaled corticosteroid may be reduced gradually under medical supervision, Montelukast should not be abruptly substituted for inhaled or oral corticosteroids. Montelukast should not be used as monotherapy for the treatment and management of exercise induced bronchospasm. Patients with known aspirin sensitivity should continue avoidance of aspirin or non-steroidal anti-inflammatory agents while taking Montelukast. Although Montelukast is effective in improving airway function in asthmatics with documented aspirin sensitivity, it has not been shown to truncate bronchoconstrictor response to aspirin and other non-steroidal anti-inflammatory drugs in aspirin-sensitive asthmatic patients.",
+    "overdose_effects": "There were no adverse experiences in the majority of overdosage reports. The most frequently occurring adverse experiences were consistent with the safety profile of Montelukast and included abdominal pain, somnolence, thirst, headache, vomiting and psychomotor hyperactivity. In the event of overdose, it is reasonable to employ the usual supportive measures; e.g., remove unabsorbed material from the gastrointestinal tract, employ clinical monitoring, and institute supportive therapy, if required.",
+    "drug_classes": "Leukotriene receptor antagonists",
+    "storage_conditions": "Store in cool & dry place below 30°C, protect from light & moisture. Keep out of reach of children.",
+    "compound_summary": "| Molecular Formula : | C 35 H 36 ClNO 3 S |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Montelukast?\n\nMontelukast is a selective and orally active leukotriene receptor antagonist.\n\n#### What is Montelukast used for?\n\nMontelukast is commonly used to treat asthma or allergic rhinitis. It helps keep airways open and easy breathing by blocking leukotrienes.\n\n#### How soon can the effect of Montelukast be observed?\n\nThe effect of Montelukast can be observed after 1-3 hours of administration. Montelukast is not a fast-acting rescue medicine for asthma attacks and needs to be taken daily to work properly.\n\n#### How long does the effect of Montelukast last?\n\nThe effect of Montelukast lasts for an average duration of 24 hours.\n\n#### Should I use Montelukast empty stomach?\n\nMontelukast may be taken with or without food as prescribed by your doctor.\n\n#### What if I miss a dose of Montelukast?\n\nIf you miss a dose, you may take it as soon as possible. But if it is almost time for your next dose, just skip that dose. Do not double up on doses.\n\n#### Are there any pregnancy warnings for Montelukast?\n\nUse of Montelukast in pregnant women should be avoided unless clearly needed.\n\n#### General Instructions\n\n- Take Montelukast exactly as prescribed by your doctor.\n- Do not change your Montelukast dose or stop using asthma medication without your doctor's advice.\n- Montelukast is not a fast-acting rescue medicine for asthma attacks. Seek medical attention if your breathing problems get worse quickly, or if you think your medications are not working.\n- Avoid situations or activities that may trigger an asthma attack.\n- Talk to your doctor before using Montelukast if you're pregnant or breastfeeding. They can help you decide if it's the right choice for you."
+  },
+  "sections_bn": {
+    "indications": "মন্টিলুকাস্ট সোডিয়াম নিম্নলিখিত ক্ষেত্রে নির্দেশিত-\n\n- এ্যাজমার আক্রমণ প্রতিরোধে এবং এ্যাজমার ক্রনিক চিকিৎসায়\n- ব্যায়াম জনিত শ্বাসনালীর সংকোচন ও প্রতিরোধে\n- এ্যালার্জিক রাইনাইটিস্ এর উপসর্গ নিরাময়ে: মৌসুমী এ্যালার্জিক রাইনাইটিস্ এবং পেরিনিয়াল এ্যালার্জিক রাইনাইটিস্ রোধে",
+    "mode_of_action": "মন্টিলুকাস্ট মুখে সেবনযোগ্য সিলেকটিভ লিউকোট্রাইন রিসেপ্টর এন্টাগনিস্ট যা সিস্টেইনাইল লিউকোট্রাইন রিসেপ্টরকে প্রতিহত করে। এরাকিডোনিক এসিডের বিপাকীয় দ্রব্য হলো সিস্টেইনাইল লিউকোট্রাইন (এলটিসি৪, এলটিডি৪, এলটিই৪) যা মাস্ট সেল এবং ইয়োসিনোফিল্‌স  সহ বিভিন্ন ধরনের লিউকোট্রাইনের সেল থেকে নির্গত হয়। সিস্টেইনাইল লিউকোট্রাইনের উৎপাদন এবং রিসেপ্টরের সাথে বন্ধন এ্যাজমা এবং এ্যালার্জিক রাইনাইটিস্ এর প্যাথো-ফিজিওলজির সাথে জড়িত (যেমন শ্বাসতন্ত্রের ইডিমা, অনৈচ্ছিক পেশীর সংকোচন) এবং এটি কোষের কার্যকারিতার পরিবর্তন করে, যার ফলে এ্যাজমার লক্ষণ ও উপসর্গ দেখা দেয়।",
+    "dosage": "প্রাপ্ত বয়স্ক এবং কিশোর (১৫ বছর এবং এর উর্দ্ধে)\n\n- এ্যাজমা এবং এ্যালার্জিক রাইনাইটিস্ঃ ১০ মিগ্রা দৈনিক ১ বার\n- ব্যায়াম জনিত শ্বাসনালীর সংকোচনঃ ১০ মিগ্রা দৈনিক ১ বার\n\r\nশিশু (৬ বছর- ১৪ বছর)\n\n- এ্যাজমা এবং এ্যালার্জিক রাইনাইটিস্ঃ ৫ মিগ্রা দৈনিক ১ বার\n- ব্যায়াম জনিত শ্বাসনালীর সংকোচনঃ ৫ মিগ্রা দৈনিক ১ বার\n\r\nশিশু (৬ মাস ৫ বছর)\n\n- এ্যাজমা এবং এ্যালার্জিক রাইনাইটিস্ঃ ৪ মিগ্রা দৈনিক ১ বার\n- ব্যায়াম জনিত শ্বাসনালীর সংকোচনঃ ৪ মিগ্রা দৈনিক ১ বার\n\r\nএ্যাজমা এবং এ্যালার্জিক রাইনাইটিস্ এ আক্রান্ত রোগীদের জন্য প্রতিদিন রাতে ১ টি এবং ব্যায়াম জনিত শ্বাসনালীর সংকোচন প্রতিরোধে ব্যায়ামের কমপক্ষে ২ ঘন্টা আগে ১ টি করে ট্যাবলেট সেবন করা উচিত।\n\nসেবন করার পদ্ধতিঃ মুখে সেবন যোগ্য। মন্টিলুকাস্ট খাবার আগে বা পরে যেকোন সময় খাওয়া যায় অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+    "interaction": "**ওষুধের সাথে**: অন্যান্য ওষুধ যেমন-থিওফাইলিন, প্রেডনিসোলন, প্রেডনিসন, টারফিনাডিন, ওরাল কন্ট্রাসেপটিভস্, জেমফাইব্রোজিল, ইট্রাকোনাজল, ডিগক্সিন, ওয়ারফেরিন, ডিকনজেসটেন্ট, থাইরয়েড হরমোন, সিডেটিভ-হিপনোটিক, নন-স্টেরয়ডাল এন্টি-ইনফ্লামেটরি এজেন্ট, বেনজোডায়াজেপিন, এবং সাইটক্রোম P450 এনজাইম ইনডিউসার এর ক্ষেত্রে মাত্রা সমন্বয়ের প্রয়োজন নেই।\n\n**খাদ্য ও অন্যান্য**: খাদ্য ও অন্যান্য কিছুর সাথে বায়োএভেইলিবিলিটি এর উল্লেখযোগ্য কোন পরিবর্তন হয় না।",
+    "contraindications": "মন্টিলুকাস্ট কিংবা এর যে কোন উপাদানের প্রতি অতিসংবেদনশীল রোগীদের জন্য এটি প্রতিনির্দেশিত।",
+    "side_effects": "**সাধারণ**: ডায়রিয়া, জ্বর, পরিপাকতন্ত্রের অস্বস্তি, মাথাব্যথা, বমিবমি ভাব, বমি, ত্বকের বিরুপ প্রতিক্রিয়া, উর্ধ্ব শ্বাসতন্ত্রের সংক্রমণ।\n\n**অস্বাভাবিক**: স্নায়ুবিক যন্ত্রণা, দুশ্চিন্তা, পেশীর বেদনা, দুর্বলতা, অস্বাভাবিক আচরণ, হতাশা, মাথা ঘোরা, তন্দ্রাচ্ছন্নতা, মুখ শুষ্কতা,\nরক্তক্ষরণ, বিরক্তিভাব, অসুস্থতাবোধ, মাংস পেশীর বেদনা, ফুলেওঠা, খিঁচুনি, অস্বাভাবিক অনুভূতি, ঘুমের সমস্যা।\n\n**বিরল**: এনজিওডিমা, মনোযোগহীনতা, ফ্যাকাশে ভাব, ইয়োসিনোফিলিক গ্রানুলোমেটোসিস্ এবং পলিঙ্গাইটিস্, ইরিথেমা নোডাসাম, হ্যালুসিনেশন, লিভারের সমস্যা, সৃত্মিলোপ, বুক ধড়ফড় করা, পালমোনারী ইউওসিনোফেলিয়া, আত্মহত্যার প্রবণতা, শারীরিক কম্পন।",
+    "pregnancy_cat": "গর্ভবতী মহিলাদের ক্ষেত্রে পর্যাপ্ত এবং সুনিয়ন্ত্রিত পরীক্ষা-নিরীক্ষা করা হয়নি। একান্ত প্রয়োজনীয় বিবেচিত হলে গর্ভাবস্থায় মন্টিলুকাস্ট ব্যবহার করা যেতে পারে। মন্টিলুকাস্ট মাতৃদুগ্ধে নিঃসরিত হয়। দুগ্ধদানকারী মায়েদের ক্ষেত্রে মন্টিলুকাস্ট সেবনে সাবধানতা অবলম্বন করতে হবে।",
+    "precautions": "মন্টিলুকাস্ট স্টেটাস এ্যাজমাটিকাসসহ তীব্র এ্যাজমা সংক্রমণে ব্যবহার করা যায় না। নিউরো-সাইকিয়াট্রিক ঘটনাগুলোর মধ্যে উত্তেজনা, বৈরীতা, উদ্বিগ্নতা, হতাশা, বিভ্রান্তি, মনোযোগহীনতা, দুঃস্বপ্ন, হ্যালুসিনেশন, অনিদ্রা, বিরক্তি, স্মৃতিলোপ, অস্থিরতা, স্বপ্নচারিতা, আত্মঘাতি চিন্তা ও আচরণ (আত্মহত্যা) এবং কম্পন পরিলক্ষিত হয়।",
+    "overdose_effects": "অধিকাংশ ক্ষেত্রে মাত্রাধিক্যের নির্দিষ্ট তথ্য ও উপাত্ত পাওয়া যায়নি। প্রায়ই ঘটে, এমন বিরূপ অভিজ্ঞতাগুলি মন্টিলুকাস্টের নিরাপত্তা চিত্রের সাথে সামঞ্জস্যপূর্ণ এবং এতে পেট ব্যথা, তন্দ্রাচ্ছন্নতা, তৃষ্ণা, মাথা ব্যথা, বমি বমি ভাব এবং সাইকোমোটর হাইপার একটিভিটি পরিলক্ষিত হয়। মাত্রাধিক্যের ক্ষেত্রে, প্রয়োজন হলে সাধারণ সহায়ক ব্যবস্থাসমূহ, যেমন-পরিপাকতন্ত্র থেকে অশোধিত পদার্থ অপসারণ, ক্লিনিক্যাল পর্যবেক্ষণ এবং সহায়ক চিকিৎসা প্রয়োগ করা উচিত।",
+    "drug_classes": "Leukotriene receptor antagonists",
+    "storage_conditions": "৩০° সেন্টিগ্রেড তাপমাত্রার নিচে আলো ও আর্দ্রতা থেকে দূরে, ঠাণ্ডা ও শুষ্ক স্থানে রাখুন। সকল ওষুধ শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 35 H 36 ClNO 3 S |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### মন্টিলুকাস্ট কী?\n\nমন্টিলুকাস্ট সাধারণত হাঁপানি বা এলার্জিক রাইনাইটিস চিকিৎসায় ব্যবহৃত হয়। এটি শরীরে লিউকোট্রিন নামক পদার্থের কার্যকলাপে বাধা প্রদান করে শ্বাসনালীতে শ্বাস চলাচল স্বাভাবিক রাখে এবং শ্বাস নিতে সহায়তা করে।\n\n#### মন্টিলুকাস্ট এর সাধারণ ব্যবহারগুলি কি কি?\n\n- হাঁপানি: এটি প্রাপ্তবয়স্ক এবং ২ বছরের অধিক বয়সী শিশুদের হাঁপানির আক্রমণ প্রতিরোধ করে এবং দীর্ঘস্থায়ী লক্ষণ নিয়ন্ত্রণ করে।\n- এলার্জি: মৌসুমী বা সাধারন এলার্জির লক্ষণ উপশম করে।\n- ব্যায়ামের ফলে শ্বাসকষ্টের সমস্যা: ব্যায়ামের ফলে ঘটিত শ্বাসকষ্ট লাঘব করে।\n\n#### মন্টিলুকাস্ট এর কার্যকারিতা কত তাড়াতাড়ি অনুভূত হয়?\n\nএই ঔষধ খাওয়ার ১-৩ ঘণ্টার পরে এর কার্যকারিতা অনুভূত হতে পারে।\n\n#### মন্টিলুকাস্ট এর কার্যকারিতা কতক্ষণ স্থায়ী হয়?\n\nএই ঔষধের কার্যকারিতা গড়ে ২৪ ঘণ্টা স্থায়ী হয়।\n\n#### মন্টিলুকাস্ট কি খালি পেটে সেবন করা যাবে?\n\nডাক্তারের পরামর্শ অনুযায়ী, এই ঔষধ খাবার আগে বা পরে খাওয়া যেতে পারে।\n\n#### মন্টিলুকাস্ট এর ডোজ মিস হয়ে গেলে কি করব?\n\nযদি কোনো ডোজ মিস করেন, তাহলে যত তাড়াতাড়ি সম্ভব খেয়ে নিন। তবে যদি পরবর্তী ডোজ এর সময় প্রায় হয়ে যায়, তাহলে সেই ডোজটি না নিয়ে পরের ডোজ সেবন করুন। দুই ডোজ একসাথে খাবেন না।\n\n#### গর্ভবতী অবস্থায় মন্টিলুকাস্ট সেবনে কোনো সতর্কতা আছে কি?\n\nঅত্যন্ত প্রয়োজন ছাড়া গর্ভবতী মায়েদের এই ঔষধ এড়িয়ে চলা উচিত।\n\n#### সাধারণ নির্দেশাবলি\n\n- ডাক্তার এর নির্দেশ মেনে মন্টিলুকাস্ট সেবন করুন।\n- আপনার ডাক্তারের পরামর্শ ছাড়া ডোজ পরিবর্তন করবেন না বা হাঁপানির ঔষধ সেবন বন্ধ করবেন না।\n- মন্টিলুকাস্ট হাঁপানি আক্রমণের জন্য দ্রুত কার্যকারী ঔষধ নয়। যদি আপনার শ্বাসকষ্টের সমস্যা দ্রুত খারাপ হয় বা মনে হয় আপনার ঔষধ কাজ করছে না, তাহলে দ্রুত চিকিৎসা সহায়তা নিন।\n- এমন পরিস্থিতি বা কার্যকলাপ এড়িয়ে চলুন যা হাঁপানি আক্রমণের সূত্রপাত করতে পারে।\n- গর্ভবতী অবস্থায় বা স্তন্যপান করানো মায়েরা মন্টিলুকাস্ট সেবন করার আগে ডাক্তারের সাথে কথা বলুন। আপনার জন্য এটি নিরাপদ কিনা তা নির্ধারণে আপনাকে সাহায্য করতে পারবেন ডাক্তার।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/768/montelukast-sodium",
+  "source_url_bn": "https://medex.com.bd/generics/768/montelukast-sodium/bn",
+  "scraped_at": "2026-10-10T18:30:17+00:00"
+}

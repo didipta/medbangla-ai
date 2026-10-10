@@ -1,0 +1,935 @@
+{
+  "slug": "calcium_vitamin_d3",
+  "name_en": "Conventional Calcium + Vitamin D3",
+  "name_bn": "কনভেনশনাল ক্যালসিয়াম + ভিটামিন ডি৩",
+  "therapeutic_class": "Specific mineral & vitamin combined preparations",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-Cal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14399/a-cal-d-500-mg-tablet"
+    },
+    {
+      "name": "A-Cal DX",
+      "strength": "500 mg+400 IU",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/14480/a-cal-dx-500-mg-tablet"
+    },
+    {
+      "name": "Acical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14400/acical-d-500-mg-tablet"
+    },
+    {
+      "name": "Acical-DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/26322/acical-dx-600-mg-eff-tablet"
+    },
+    {
+      "name": "Adcal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/14401/adcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Ambeecal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.31",
+      "url": "https://medex.com.bd/brands/28014/ambeecal-d-500-mg-tablet"
+    },
+    {
+      "name": "Apocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14403/apocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Aristocal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14404/aristocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Beucal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14405/beucal-d-500-mg-tablet"
+    },
+    {
+      "name": "Bonex-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35559/bonex-d-500-mg-tablet"
+    },
+    {
+      "name": "Boni D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14406/boni-d-500-mg-tablet"
+    },
+    {
+      "name": "Bonmax D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14407/bonmax-d-500-mg-tablet"
+    },
+    {
+      "name": "Bonwell-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29242/bonwell-d-500-mg-tablet"
+    },
+    {
+      "name": "Bpcal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/14408/bpcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Cadiar D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38488/cadiar-d-500-mg-tablet"
+    },
+    {
+      "name": "Cadiar DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/38489/cadiar-dx-600-mg-tablet"
+    },
+    {
+      "name": "Cadmin-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34592/cadmin-d-500-mg-tablet"
+    },
+    {
+      "name": "Cadolin",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14410/cadolin-500-mg-tablet"
+    },
+    {
+      "name": "Cal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14420/cal-d-500-mg-tablet"
+    },
+    {
+      "name": "Cal-D Zen",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/14424/cal-d-zen-500-mg-tablet"
+    },
+    {
+      "name": "Calbo-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14411/calbo-d-500-mg-tablet"
+    },
+    {
+      "name": "Calbon D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14412/calbon-d-500-mg-tablet"
+    },
+    {
+      "name": "Calci-D Plus",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.30",
+      "url": "https://medex.com.bd/brands/14416/calci-d-plus-500-mg-tablet"
+    },
+    {
+      "name": "Calcibo D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14413/calcibo-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcibost-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14414/calcibost-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 4.94",
+      "url": "https://medex.com.bd/brands/14415/calcical-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcifil D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.60",
+      "url": "https://medex.com.bd/brands/14417/calcifil-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcin-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14418/calcin-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcin-DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29294/calcin-dx-600-mg-tablet"
+    },
+    {
+      "name": "Calcium A & D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14419/calcium-a-d-500-mg-tablet"
+    },
+    {
+      "name": "Calcium D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37648/calcium-d-500-mg-tablet"
+    },
+    {
+      "name": "Caldibon-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/39325/caldibon-d-500-mg-tablet"
+    },
+    {
+      "name": "Caldical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14421/caldical-d-500-mg-tablet"
+    },
+    {
+      "name": "Caldil-Plus",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14422/caldil-plus-500-mg-tablet"
+    },
+    {
+      "name": "Caldolin",
+      "strength": "500 mg+400 IU",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27563/caldolin-500-mg-tablet"
+    },
+    {
+      "name": "Caletal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/27381/caletal-d-500-mg-tablet"
+    },
+    {
+      "name": "Calex-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32025/calex-d-500-mg-tablet"
+    },
+    {
+      "name": "Calfast DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.60",
+      "url": "https://medex.com.bd/brands/33326/calfast-dx-600-mg-tablet"
+    },
+    {
+      "name": "Calfeed-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.83",
+      "url": "https://medex.com.bd/brands/28127/calfeed-d-500-mg-tablet"
+    },
+    {
+      "name": "Calfix-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36323/calfix-d-500-mg-tablet"
+    },
+    {
+      "name": "Calfix-Dx",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/36324/calfix-dx-600-mg-tablet"
+    },
+    {
+      "name": "Calfor-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14426/calfor-d-500-mg-tablet"
+    },
+    {
+      "name": "Calium Plus",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14427/calium-plus-500-mg-tablet"
+    },
+    {
+      "name": "Calmax-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14428/calmax-d-500-mg-tablet"
+    },
+    {
+      "name": "Calmet-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14429/calmet-d-500-mg-tablet"
+    },
+    {
+      "name": "Calmi-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/27844/calmi-d-500-mg-tablet"
+    },
+    {
+      "name": "Calos-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14430/calos-d-500-mg-tablet"
+    },
+    {
+      "name": "Calpo-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.67",
+      "url": "https://medex.com.bd/brands/14431/calpo-d-500-mg-tablet"
+    },
+    {
+      "name": "Calsil Plus",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/14432/calsil-plus-500-mg-tablet"
+    },
+    {
+      "name": "Calsto D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14433/calsto-d-500-mg-tablet"
+    },
+    {
+      "name": "Caltonic-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28198/caltonic-d-500-mg-tablet"
+    },
+    {
+      "name": "Calvimax D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14434/calvimax-d-500-mg-tablet"
+    },
+    {
+      "name": "Carben D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14485/carben-d-500-mg-tablet"
+    },
+    {
+      "name": "Carben DS",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27463/carben-ds-600-mg-tablet"
+    },
+    {
+      "name": "Carbocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14435/carbocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Cardiben-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14436/cardiben-d-500-mg-tablet"
+    },
+    {
+      "name": "Carmo D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/14486/carmo-d-500-mg-tablet"
+    },
+    {
+      "name": "Casalt-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14392/casalt-d-500-mg-tablet"
+    },
+    {
+      "name": "Debocal",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34547/debocal-500-mg-tablet"
+    },
+    {
+      "name": "Dos",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14440/dos-500-mg-tablet"
+    },
+    {
+      "name": "Ecal-D3",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28071/ecal-d3-500-mg-tablet"
+    },
+    {
+      "name": "Edical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14441/edical-d-500-mg-tablet"
+    },
+    {
+      "name": "Eurocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/14439/eurocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Eurocal-DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36681/eurocal-dx-600-mg-tablet"
+    },
+    {
+      "name": "G-Cal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27118/g-cal-d-500-mg-tablet"
+    },
+    {
+      "name": "Har D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32517/har-d-500-mg-tablet"
+    },
+    {
+      "name": "Ipical DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18447/ipical-dx-600-mg-tablet"
+    },
+    {
+      "name": "Ipical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14443/ipical-d-500-mg-tablet"
+    },
+    {
+      "name": "Isocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14444/isocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Labcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14445/labcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Lybon-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Radius Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/33213/lybon-d-500-mg-tablet"
+    },
+    {
+      "name": "Maxcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14492/maxcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Maxical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14446/maxical-d-500-mg-tablet"
+    },
+    {
+      "name": "Maxical-DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18450/maxical-dx-600-mg-tablet"
+    },
+    {
+      "name": "Medcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38022/medcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Miracal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14448/miracal-d-500-mg-tablet"
+    },
+    {
+      "name": "Monocal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14449/monocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Mycal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.80",
+      "url": "https://medex.com.bd/brands/14450/mycal-d-500-mg-tablet"
+    },
+    {
+      "name": "Myocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14315/myocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Naafcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/25752/naafcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Naafcal-DS",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/18449/naafcal-ds-600-mg-tablet"
+    },
+    {
+      "name": "Neocal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14451/neocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Nescal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36987/nescal-d-500-mg-tablet"
+    },
+    {
+      "name": "Nescal DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37842/nescal-dx-600-mg-tablet"
+    },
+    {
+      "name": "Novacal DX",
+      "strength": "500 mg+400 IU",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/14495/novacal-dx-500-mg-tablet"
+    },
+    {
+      "name": "Novacal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14494/novacal-d-500-mg-tablet"
+    },
+    {
+      "name": "Nutribon",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.01",
+      "url": "https://medex.com.bd/brands/14496/nutribon-500-mg-tablet"
+    },
+    {
+      "name": "Onecal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14497/onecal-d-500-mg-tablet"
+    },
+    {
+      "name": "Oracal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14452/oracal-d-500-mg-tablet"
+    },
+    {
+      "name": "Orbical D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/25756/orbical-d-500-mg-tablet"
+    },
+    {
+      "name": "Orthocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14453/orthocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Oscal-D Forte",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/18452/oscal-d-forte-600-mg-tablet"
+    },
+    {
+      "name": "Osmin-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.33",
+      "url": "https://medex.com.bd/brands/14456/osmin-d-500-mg-tablet"
+    },
+    {
+      "name": "Ossi-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14457/ossi-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostacid-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14458/ostacid-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostelin-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/28818/ostelin-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostim-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14459/ostim-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostimet-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14460/ostimet-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostocal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14462/ostocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostocal DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/18445/ostocal-dx-600-mg-tablet"
+    },
+    {
+      "name": "Ostogen D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14463/ostogen-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostogen D Forte",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27063/ostogen-d-forte-600-mg-tablet"
+    },
+    {
+      "name": "Ostoplus-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/14464/ostoplus-d-500-mg-tablet"
+    },
+    {
+      "name": "Ostoplus-DX",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/39549/ostoplus-dx-600-mg-tablet"
+    },
+    {
+      "name": "Paracal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35673/paracal-d-500-mg-tablet"
+    },
+    {
+      "name": "Peocal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/14465/peocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Precal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27438/precal-d-500-mg-tablet"
+    },
+    {
+      "name": "Protebon-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/14466/protebon-d-500-mg-tablet"
+    },
+    {
+      "name": "Rejuven-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/14467/rejuven-d-500-mg-tablet"
+    },
+    {
+      "name": "RN-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "RN Pharmaceuticals",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/28213/rn-d-500-mg-tablet"
+    },
+    {
+      "name": "Rocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26116/rocal-d-500-mg-tablet"
+    },
+    {
+      "name": "Rocal-D Vita",
+      "strength": "600 mg+400 IU",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/18446/rocal-d-vita-600-mg-eff-tablet"
+    },
+    {
+      "name": "Sancal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14500/sancal-d-500-mg-tablet"
+    },
+    {
+      "name": "Sandocal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/14470/sandocal-d-500-mg-tablet"
+    },
+    {
+      "name": "SB-Cal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27363/sb-cal-d-500-mg-tablet"
+    },
+    {
+      "name": "Seecal Plus",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14471/seecal-plus-500-mg-tablet"
+    },
+    {
+      "name": "Silcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/31563/silcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Starcal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/14472/starcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Starcal D Forte",
+      "strength": "500 mg+400 IU",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/14473/starcal-d-forte-500-mg-tablet"
+    },
+    {
+      "name": "Sucal D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14474/sucal-d-500-mg-tablet"
+    },
+    {
+      "name": "Suplical-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/14475/suplical-d-500-mg-tablet"
+    },
+    {
+      "name": "Sycal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/14476/sycal-d-500-mg-tablet"
+    },
+    {
+      "name": "Temcal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27341/temcal-d-500-mg-tablet"
+    },
+    {
+      "name": "Ultracal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26481/ultracal-d-500-mg-tablet"
+    },
+    {
+      "name": "Unate-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34989/unate-d-500-mg-tablet"
+    },
+    {
+      "name": "VD-Cal",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27257/vd-cal-500-mg-tablet"
+    },
+    {
+      "name": "Xtracal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/14478/xtracal-d-500-mg-tablet"
+    },
+    {
+      "name": "Zencal-D",
+      "strength": "500 mg+200 IU",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/28394/zencal-d-500-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "This combination tablet is used for treatment of osteoporosis, osteomalacia, rickets, tetany and in parathyroid disease. Calcium supplements are often used to ensure adequate dietary intake in conditions such as pregnancy & lactation, osteogenesis and tooth formation (adjunct with definite treatment) and therapy with anti-seizure medications. It is also used as routine supplement and phosphate binder in chronic renal failure.",
+    "mode_of_action": "This is the preparation of Calcium Carbonate and Vitamin D3 (Cholecalciferol). Calcium is necessary for many normal functions of our body, especially bone formation and maintenance. Vitamin D3 helps for the absorption & reabsorption of Calcium. Vitamin D3 also stimulates bone formation. Clinical studies showed that Calcium and Vitamin D3 all together helps in bone growth, and in prevention of osteoporosis & bone fracture.",
+    "dosage": "**Calcium 500 mg and Vitamin D3 200 IU Tablet**: 2 tablets daily or 1 tablet twice daily. It is best taken with or just after a meal to improve absorption. \n\n**Calcium 500 mg and Vitamin D3 400 IU Tablet**: 1 tablet twice daily. It is best taken with or just after a meal to improve absorption.",
+    "interaction": "It has possible interaction with calcium, aluminium or magnesium containing antacids &  other calcium supplements, calcitriol & other vitamin D3 supplements; digoxin, tetracycline, doxycycline, minocycline or oxytetracycline.",
+    "contraindications": "It is contraindicated in case of hypercalcaemia, hyperthyroidism, renal calculi & nephrolithiasis and Zollinger-Ellison Syndrome.",
+    "side_effects": "It is generally well tolerated. If there is experience like nausea, vomiting, stomach cramps, dry mouth, increased thirst, increased urination while taking, noticed to physicians. Constipation may occur.",
+    "pregnancy_cat": "This combination should be used as directed by physician during pregnancy or while breast-feeding.",
+    "precautions": "If there is any pre-existing heart disease or kidney disease, precautions should be taken.",
+    "overdose_effects": "Symptoms of overdosage may include nausea and vomiting, severe drowsiness, dry mouth, loss of appetite, metallic taste, stomach cramps, diarrhea, headache, constipation.",
+    "drug_classes": "Specific mineral & vitamin combined preparations",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "এই সমন্বিত প্রিপারেশনটি অস্টিওপরোসিস, অস্টিওমেলাসিয়া, রিকেট্স, টিটানি এবং প্যারাথাইরয়েডের চিকিৎসায় ব্যবহৃত হয়। সাপ্লিমেন্ট হিসেবে, পুষ্টির পর্যাপ্ততা নিশ্চিত করার জন্য প্রায়শই কিছু কিছু অবস্থায় যেমন- গর্ভাবস্থা ও স্তন্যদানকালে, অস্টিওজেনেসিস ও দাঁতের গঠনে (সুনির্দিষ্ট চিকিৎসার পাশাপাশি) এবং এন্টি-সিজার থেরাপির সাথে ব্যবহৃত হয়। এটি ক্রনিক রেনাল ফেইলিউরের ক্ষেত্রে রুটিন সাপ্লিমেন্ট হিসাবে এবং ফসফেট বাইন্ডার হিসেবে ব্যবহৃত হয়।",
+    "mode_of_action": "ইহা ক্যালসিয়াম কার্বোনেট ও ভিটামিন ডি৩ (কোলিক্যালসিফেরল)-এর একটি প্রিপারেশন। ক্যালসিয়াম আমাদের শরীরের অনেক স্বাভাবিক কাজের জন্য প্রয়োজনীয়, তবে হাড়ের গঠন ও মেইনটেনেন্সের জন্য এটি বিশেষভাবে দরকারি। ভিটমিন ডি৩ ক্যালসিয়ামের পরিশোষণ ও পূণঃপরিশোষণে সহায়তা করে। এছাড়াও ভিটামিন ডি৩ হাড় গঠনে উদ্দীপনা তৈরী করে। ক্লিনিক্যাল স্টাডিতে দেখা যায় যে, ক্যালসিয়াম ও ভিটামিন ডি৩ হাড়ের বৃদ্ধিতে এবং অস্টিওপরোসিস ও হাড় ভেঙ্গে যাওয়া প্রতিরোধে যুগপৎভাবে সহায়তা করে।",
+    "dosage": "**ক্যালসিয়াম ৫০০ মি:গ্রা: এবং ভিটামিন ডি৩ ২০০ আইইউ ট্যাবলেট:** দৈনিক ২ টি ট্যাবলেট বা ১ টি ট্যাবলেট, দিনে ২ বার। ভালভাবে পরিশোষিত হওয়ার জন্য এটি খাবারের সাথে বা খাবারের পরপর গ্রহণ করা উচিত।\n\n**ক্যালসিয়াম ৫০০ মি:গ্রা: এবং ভিটামিন ডি৩ ৪০০ আইইউ ট্যাবলেট:** ১ টি ট্যাবলেট, দিনে ২ বার। ভালভাবে পরিশোষিত হওয়ার জন্য এটি খাবারের সাথে বা খাবারের পরপর গ্রহণ করা উচিত।",
+    "interaction": "ক্যালসিয়াম, এলুমিনিয়াম বা ম্যাগনেসিয়াম-সমৃদ্ধ এন্টাসিড ও অন্যান্য ক্যালসিয়াম সাপ্লিমেন্ট, ক্যালসিট্রিওল ও অন্যান্য ভিটামিন ডি৩ সাপ্লিমেন্ট, ডিগক্সিন, টেট্রাসাইক্লিন, ডক্সিসাইক্লিন, মিনোসাইক্লিন বা অক্সিটেট্রাসাইক্লিনের সাথে এটির মিথস্ক্রিয়তার সম্ভাবনা আছে।",
+    "contraindications": "এটি হাইপারক্যালসেমিয়া, হাইপারথাইরয়ডিজম, রেনাল ক্যালকুলি, নেফ্রোলিথিয়াসিস এবং জলিন্জার-ইলিসন সিনড্রোম-এর ক্ষেত্রে প্রতিনির্দেশিত।",
+    "side_effects": "এটি সাধারণত সুসহনীয়। বমিবমি ভাব বা বমি, পাকস্থলীর মোচড়ানো, মুখ শুকিয়ে যাওয়া, তৃষ্ণা বৃদ্ধি পাওয়া অথবা যদি মূত্রের পরিমাণ বৃদ্ধি পায় তবে চিকিৎসককে জানাতে হবে। কোষ্ঠকাঠিন্য মাঝে মাঝে হতে পারে।",
+    "precautions": "হৃদযন্ত্রের সমস্যা বা বৃক্কীয় সমস্যা থাকলে এটির ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "pediatric_uses": "গর্ভাবস্থায় ও স্তন্যদানকালে এই সমন্বিত প্রিপারেশনটি চিকিৎসকের পরামর্শ অনুযায়ী ব্যবহার করা উচিত।",
+    "overdose_effects": "মাত্রাধিক্যতার লক্ষণগুলো হচ্ছে বমিবমি ভাব বা বমি, তীব্র তন্দ্রাচ্ছন্নতা, মুখ শুকিয়ে যাওয়া, ক্ষুধা হ্রাস পাওয়া, ধাতব স্বাদ, পাকস্থলীর মোচড়ানো, ডায়রিয়া, মাথাব্যথা, কোষ্ঠকাঠিন্য ইত্যাদি।",
+    "drug_classes": "Specific mineral & vitamin combined preparations",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/169/conventional-calcium-vitamin-d3",
+  "source_url_bn": "https://medex.com.bd/generics/169/conventional-calcium-vitamin-d3/bn",
+  "scraped_at": "2026-10-10T18:31:04+00:00"
+}
