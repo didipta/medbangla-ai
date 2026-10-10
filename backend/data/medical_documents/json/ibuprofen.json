@@ -1,0 +1,313 @@
+{
+  "slug": "ibuprofen",
+  "name_en": "Ibuprofen (Oral)",
+  "name_bn": "আইবুপ্রােফেন",
+  "therapeutic_class": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+  "dosage_forms": [
+    "Ref-01",
+    "Ref-02"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Advel",
+      "strength": "400 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/11262/advel-400-mg-tablet"
+    },
+    {
+      "name": "Advel",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 33.71",
+      "url": "https://medex.com.bd/brands/11263/advel-100-mg-oral-suspension"
+    },
+    {
+      "name": "Advel",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.88",
+      "url": "https://medex.com.bd/brands/11261/advel-200-mg-tablet"
+    },
+    {
+      "name": "Alflam",
+      "strength": "400 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 1.42",
+      "url": "https://medex.com.bd/brands/33316/alflam-400-mg-tablet"
+    },
+    {
+      "name": "Anaflam",
+      "strength": "400 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/38032/anaflam-400-mg-tablet"
+    },
+    {
+      "name": "Arafa",
+      "strength": "400 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/11265/arafa-400-mg-tablet"
+    },
+    {
+      "name": "Beflam",
+      "strength": "400 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 1.82",
+      "url": "https://medex.com.bd/brands/11266/beflam-400-mg-tablet"
+    },
+    {
+      "name": "Brofen",
+      "strength": "400 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.40",
+      "url": "https://medex.com.bd/brands/20963/brofen-400-mg-tablet"
+    },
+    {
+      "name": "Bufen-SR",
+      "strength": "300 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.10",
+      "url": "https://medex.com.bd/brands/11267/bufen-sr-300-mg-sr-capsule"
+    },
+    {
+      "name": "Deflam",
+      "strength": "400 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/11269/deflam-400-mg-tablet"
+    },
+    {
+      "name": "Erofen",
+      "strength": "400 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 1.35",
+      "url": "https://medex.com.bd/brands/11270/erofen-400-mg-tablet"
+    },
+    {
+      "name": "Flam",
+      "strength": "400 mg",
+      "manufacturer": "Skylab Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.40",
+      "url": "https://medex.com.bd/brands/11305/flam-400-mg-tablet"
+    },
+    {
+      "name": "Flamex",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 56.00",
+      "url": "https://medex.com.bd/brands/11273/flamex-100-mg-oral-suspension"
+    },
+    {
+      "name": "Flamex",
+      "strength": "200 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 0.88",
+      "url": "https://medex.com.bd/brands/11271/flamex-200-mg-tablet"
+    },
+    {
+      "name": "Flamex",
+      "strength": "400 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/11272/flamex-400-mg-tablet"
+    },
+    {
+      "name": "G-Ibuprofen",
+      "strength": "400 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/11275/g-ibuprofen-400-mg-tablet"
+    },
+    {
+      "name": "Iben",
+      "strength": "400 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/11276/iben-400-mg-tablet"
+    },
+    {
+      "name": "Iben",
+      "strength": "400 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/11306/iben-400-mg-tablet"
+    },
+    {
+      "name": "IBF",
+      "strength": "400 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/11277/ibf-400-mg-tablet"
+    },
+    {
+      "name": "Iburex",
+      "strength": "200 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/11278/iburex-200-mg-tablet"
+    },
+    {
+      "name": "Iburex",
+      "strength": "400 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/11279/iburex-400-mg-tablet"
+    },
+    {
+      "name": "Indoflam",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "100 ml bottle : ৳ 18.58",
+      "url": "https://medex.com.bd/brands/11300/indoflam-100-mg-oral-suspension"
+    },
+    {
+      "name": "Inflam",
+      "strength": "400 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/11282/inflam-400-mg-tablet"
+    },
+    {
+      "name": "Inflam",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 33.80",
+      "url": "https://medex.com.bd/brands/11283/inflam-100-mg-oral-suspension"
+    },
+    {
+      "name": "Inflam",
+      "strength": "200 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 0.88",
+      "url": "https://medex.com.bd/brands/11281/inflam-200-mg-tablet"
+    },
+    {
+      "name": "Intaflam",
+      "strength": "400 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/20978/intaflam-400-mg-tablet"
+    },
+    {
+      "name": "Neoflam",
+      "strength": "400 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.40",
+      "url": "https://medex.com.bd/brands/11301/neoflam-400-mg-tablet"
+    },
+    {
+      "name": "Neurofen",
+      "strength": "400 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.42",
+      "url": "https://medex.com.bd/brands/11285/neurofen-400-mg-tablet"
+    },
+    {
+      "name": "Profen",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 37.00",
+      "url": "https://medex.com.bd/brands/11287/profen-100-mg-oral-suspension"
+    },
+    {
+      "name": "Profen",
+      "strength": "400 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/11286/profen-400-mg-tablet"
+    },
+    {
+      "name": "Rapofen",
+      "strength": "400 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.33",
+      "url": "https://medex.com.bd/brands/11288/rapofen-400-mg-tablet"
+    },
+    {
+      "name": "Rebufen",
+      "strength": "400 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/11312/rebufen-400-mg-tablet"
+    },
+    {
+      "name": "Reumafen",
+      "strength": "200 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.88",
+      "url": "https://medex.com.bd/brands/31913/reumafen-200-mg-tablet"
+    },
+    {
+      "name": "Reumafen",
+      "strength": "400 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/31914/reumafen-400-mg-tablet"
+    },
+    {
+      "name": "Reumafen",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 33.82",
+      "url": "https://medex.com.bd/brands/11292/reumafen-100-mg-oral-suspension"
+    },
+    {
+      "name": "Serviprofen",
+      "strength": "400 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/11302/serviprofen-400-mg-tablet"
+    },
+    {
+      "name": "Siflam",
+      "strength": "400 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/11293/siflam-400-mg-tablet"
+    },
+    {
+      "name": "Trufen",
+      "strength": "400 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.26",
+      "url": "https://medex.com.bd/brands/11294/trufen-400-mg-tablet"
+    },
+    {
+      "name": "Uniflam 400",
+      "strength": "400 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/11295/uniflam-400-400-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ibuprofen is indicated in-\n\n- Relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis\n- Treatment of primary dysmenorrhea\n- Control of mild to moderate pain generally and particularly when pain is associated with inflammation\n- Reduction of fever\n- Dental and period pain\n- Relief of backache\n- Rheumatic pain\n- Muscular pain",
+    "mode_of_action": "Ibuprofen has a high level of anti-inflammatory, anti-pyretic, and analgesic activity. The analgesic effects of Ibuprofen are due to both a peripheral and a central effect. Ibuprofen is a potent inhibitor of the enzyme cyclooxygenase, which thus results in a marked reduction in prostaglandin synthesis. Ibuprofen also inhibits the synthesis of some lipo-oxygenase products. Ibuprofen thus quickly relieves pain and stiffness, reduces swelling, and improves the movement of different joints of arthritis sufferers.",
+    "dosage": "**Ibuprofen Tablet**-\n1. Mild to moderate pain and fever: \nAdults and adolescents >40 kg body weight (12 years and above):\n\n- 200-400 mg given as a single dose or 3-4 times a day with an interval of 6 hours as required.\n- In migraine headache, 400 mg should be given as a single dose, if necessary 400 mg with intervals up to 6 hours.\n- The maximum daily dose should not exceed 1200 mg.\n\r\nChildren 20 kg body weight (6-11 years)\n\n- Children 20-29 kg (6-9 years): 200 mg 1-3 times a day with intervals of 6 hours as required.\n- The maximum daily dose should not exceed 600 mg.\n- Children 30-90 kg (10-11 years): 200 mg 1-4 times a day with intervals of 6 hours as required.\n- The maximum daily dose should not exceed 800 mg.\n- Ibuprofen tablet is contraindicated in children below 20 kg body weight or younger than 6 years of age.\n\r\n2. Primary dysmenorrhoea:\n\n- Adults and adolescents 40 kg body weight (12 years of age and above) 200-400 mg 1-3 times a day, with an interval up to 6 hours, as needed. The maximum daily dose should not exceed 1200 mg.\n\r\n3. Rheumatic diseases:\n\n- Adults: The recommended dose is 1200-1800 mg daily in divided doses. Maintenance doses of 600-1200 mg daily may be effective in some patients. In acute and severe conditions the dose may be (temporarily) increased to a maximum of 2400 mg in 3 or 4 divided doses.\n- Adolescents from 15 to 17 years of age: The recommended dose should be adjusted by weight: 20 mg/kg to a maximum of 40 mg/kg body weight daily (max 2400 mg daily) in 3 to 4 divided doses.\n\n**Ibuprofen SR Capsule**-\n\n- Adults, the elderly and children & adolescents between 12 and 18 years\n- Initially one (300 mg) or two (600 mg) Ibuprofen SR capsules should be taken twice daily. Not more than 4 capsules are to be taken in 24 hours.\n- Ibuprofen SR capsule is not recommended for children below 12 years of age.\n\n**Ibuprofen Suspension**: Children-\n\n- 3-6 months (body-weight over 5 kg): 1/2 tsp (2.5 ml) 3 times daily\n- 6 months-1 year: 0.5 tsp (2.5 ml) 3-4 times daily\n- 1-4 years: 1 tsp (5 ml) 3 times daily\n- 4-7 years: 1.5 tsp (7.5 ml) 3 times daily\n- 7-10 years: 2 tsp (10 ml) 3 times daily\n- 10-12 years: 3 tsp (15 ml) 3 times daily\n- Not recommended for children weighing less than 5 kg.\n- In juvenile rheumatoid arthritis; up to 30-40 mg/kg of body weight daily in 3-4 divided doses may be taken.",
+    "interaction": "Caution should be taken in concomitant use with the medications which could increase the risk of ulceration or bleeding. Concomitant use with acetylsalicylic acid is not recommended. Co-administration with other NSAIDs and high doses of methotrexate should be avoided. Caution should be taken in concomitant use with ACE inhibitors, diuretics, lithium, anti-platelet agents, warfarin, aminoglycosides, corticosteroids, cyclosporin, tacrolimus, mifepristone, quinolone, zidovudine, voriconazole and fluconazole.",
+    "contraindications": "It is contraindicated in patients with known hypersensitivity to ibuprofen or any other components of this product. It is also contraindicated in patients with history of gastrointestinal bleeding or perforation, related to previous NSAIDs therapy, active or history of recurrent peptic ulcer/haemorrhage, severe renal failure or severe hepatic failure, severe heart failure (NYHA Class IV), last trimester of pregnancy, significant dehydration and cerebrovascular or other active bleeding.",
+    "side_effects": "The most common side effects are headache, somnolence, vertigo, fatigue, agitation, dizziness, insomnia, irritability and gastrointestinal ulcer.",
+    "pregnancy_cat": "**Pregnancy**: During the first and second trimester of pregnancy, ibuprofen should not be given unless clearly necessary. Ibuprofen is contraindicated during the last trimester of pregnancy.\n\n**Lactation**: Ibuprofen is excreted in the breast milk in very low concentration and is unlikely to affect the breastfed infant adversely.",
+    "precautions": "Patients on long term therapy with ibuprofen require ocular monitoring at regular intervals, as changes in ocular function have been reported. Patients with SLE are more likely than others to develop hypersensitivity to ibuprofen. Ibuprofen should be prescribed with caution in patients with asthma.",
+    "overdose_effects": "In case of overdose, gastric lavage and if necessary, correction of serum electrolytes have been recommended. There is no specific antidote for ibuprofen.",
+    "drug_classes": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "Store below 30°C in a dry place, protected from light. Keep away from the reach of children."
+  },
+  "sections_bn": {
+    "indications": "আইবুপ্রােফেন নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- রিউমাটয়েড আর্থাইটিস\n- অস্টিওআথ্রাইটিস\n- গাউটি আর্থ্রাইটিস\n- জুভেনাইল পলিআর্গ্রাইটিস\n- এনকাইলজিং স্পন্ডিলাইটিস\n- সাইনােভাইটিস\n- কোমর ব্যথা\n- ডিসমেনােরিয়া\n- জ্বর\n- মাইগ্রেন\n- নরম কোষ কলার আঘাত এবং\n- দাঁত ও পেশীর প্রদাহ ও ব্যথা ইত্যাদি ক্ষেত্রে নির্দেশিত।",
+    "mode_of_action": "আইবুপ্রােফেন এর উচ্চ মাত্রার প্রদাহরােধী, জ্বর নিবারক ও বেদনানাশক কার্যকারিতা রয়েছে। বেদনানাশক কার্যাবলী প্রান্তীয় ও কেন্দ্রীয় দুই ভাবেই হয়ে থাকে। আইবুপ্রােফেন সাইক্লোঅক্সিজিনেজ এনজাইমের একটি শক্তিশালী প্রতিবন্ধক। তাই ইহা প্রােস্টাগ্ল্যান্ডিন এর সংশ্লেষণ উল্লেখযােগ্য পরিমাণে কমিয়ে দেয়। আইবুপ্রােফেন লাইপােঅক্সিজিনেজ দ্বারা উৎপন্ন যৌগ সংশ্লেষণে বাঁধা প্রদান করে। সুতরাং আইবুপ্রােফেন ব্যথা এবং অসাড়তা দ্রুত উপশম করে, ফোলা কমায় এবং আথ্রাইটিস রােগীদের বিভিন্ন অস্থিসন্ধির সচলতার উন্নতি ঘটায়।",
+    "dosage": "**প্রাপ্তবয়স্ক**: ৪০০ মি.গ্রা. দৈনিক ৩ বার। দৈনিক মাত্রা সর্বোচ্চ ২৪০০ মি.গ্রা. এর বেশি দেওয়া উচিত নয়।\n\n**শিশু**:\n\n- **৩-৬ মাস (ওজন ৫ কেজি বা তার বেশী)**: ১/২ চামচ (২.৫ মি.লি.) দৈনিক ৩ বার দৈনিক সর্বোচ্চ ৩০ মি.গ্রা./কেজি ৩-৪ মাত্রায়।\n- **৬ মাস-১বছর**: ১/২ চামচ (২.৫ মি.লি.) দৈনিক ৩-৪ বার; দৈনিক সর্বোচ্চ ৩০ মি.গ্রা./কেজি ৩-৪ বিভক্ত মাত্রায়।\n- **১-৪ বছর**: ১ চামচ (৫ মি.লি.) দৈনিক ৩ বার; দৈনিক সর্বোচ্চ ৩০ মি.গ্রা./কেজি ৩-৪ বিভক্ত মাত্রায়।\n- **৪-৭ বছর**: ১.৫ চামচ (৭.৫ মি.লি.) দৈনিক ৩ বার; দৈনিক সর্বোচ্চ ৩০ মি.গ্রা./কেজি ৩-৪ বিভক্ত মাত্রায়।\n- **৭-১০ বছর**: ২ চামচ (১০ মি.লি.) দৈনিক ৩ বার: দৈনিক ৩০ মি.গ্রা./কেজি পর্যন্ত (সর্বোচ্চ ২.৪ গ্রাম) ৩-৪ বিভক্ত মাত্রায়। শারীরিক ওজন হিসাবে দৈনিক ৩-৪ বিভক্ত মাত্রায় দেয়া যেতে পারে।\n- **১০-১২ বছর**: ৩ চামচ (১৫ মি.লি.) দৈনিক ৩ বার; দৈনিক ৩০ মি.গ্রা./কেজি পর্যন্ত (সর্বোচ্চ ২.৪ গ্রাম) ৩-৪ বিভক্ত মাত্রায়।\n\n**৫ কেজির কম ওজনের শিশুদের জন্য**: নির্দেশিত নয়। \n\n**জুভেনাইল রিউমাটয়েড আর্ত্রাইটিসের ক্ষেত্রে**: সর্বোচ্চ ৩০-৪০ মি.গ্রা./কেজি অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+    "contraindications": "আইবুপ্রােফেন এর প্রতি অতিসংবেদনশীল রােগীদের ক্ষেত্রে আইবুপ্রােফেন প্রতিনির্দেশিত। এছাড়া যাদের সক্রিয় বা মারাত্মক পেপটিক আলসার রয়েছে, তাদের ক্ষেত্রে আইবুপ্রােফেন প্রতিনির্দেশিত।",
+    "side_effects": "পাকস্থলীর গােলযােগ, বমি, বুক জ্বালা, বমি বমি ভাব দেখা দিতে পারে।",
+    "pregnancy_cat": "বর্ধিষ্ণু গর্ভজাত সন্তানের উপর বিরূপ প্রতিক্রিয়ার সম্ভাবনা সর্বোতভাবে বাতিল করা যায় না। আইবুপ্রােফেন গর্ভাবস্থায় এবং স্তন্যদানকারী মহিলাদের দেওয়া উচিত নয়, যদি না ঝুঁকি অপেক্ষা মায়েদের সুবিধাসমূহ অধিক হয়।",
+    "precautions": "আইবুপ্রোফেন পরিপাকান্ত্রের রক্তক্ষরণ অথবা আলসার এর পূর্ব-ইতিহাস আছে এমন রােগীদের ক্ষেত্রে সর্বোচ্চ সতর্কতার সাথে এবং কার্যকর সর্বনিম্ন মাত্রায় প্রয়োগ করতে হবে। আইবুপ্রােফেন দ্বারা দীর্ঘকালীন চিকিৎসার সময় চোখের অবস্থা পর্যবেক্ষণ করতে হবে, কারণ এক্ষেত্রে চোখের কার্যাবলীতে পরিবর্তন দেখা যায়। সিস্টেমিক লুপাস ইরাইথেমাটোসাস রোগীদের আইবুপ্রােফেন এর প্রতি অতিসংবেদনশীলতা তৈরীর সম্ভাবনা বেশী। এ্যাজমা ও অন্যান্য ননস্টেরয়ডাল এন্টিইনফ্লামেটরী ঔষধের প্রতি অতিসংবেদনশীল রােগীদের ক্ষেত্রে ইহা সতর্কতার সাথে প্রয়ােগ করতে হবে।",
+    "drug_classes": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "সকল ঔষধ শিশুদের নাগালের বাইরে রাখুন। আলাে হতে দূরে, ঠান্ডা ও শুদ্ধ স্থানে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/593/ibuprofen-oral",
+  "source_url_bn": "https://medex.com.bd/generics/593/ibuprofen-oral/bn",
+  "scraped_at": "2026-10-10T15:00:00+00:00"
+}

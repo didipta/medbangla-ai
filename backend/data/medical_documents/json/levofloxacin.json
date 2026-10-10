@@ -1,0 +1,888 @@
+{
+  "slug": "levofloxacin",
+  "name_en": "Levofloxacin Hemihydrate",
+  "name_bn": "লিভোফ্লক্সাসিন হেমিহাইড্রেট",
+  "therapeutic_class": "4-Quinolone preparations",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "3-F",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9538/3-f-500-mg-tablet"
+    },
+    {
+      "name": "Asilee",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9418/asilee-500-mg-tablet"
+    },
+    {
+      "name": "Avelox",
+      "strength": "500 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9419/avelox-500-mg-tablet"
+    },
+    {
+      "name": "Bacnil",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9420/bacnil-500-mg-tablet"
+    },
+    {
+      "name": "Beloxin",
+      "strength": "500 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9540/beloxin-500-mg-tablet"
+    },
+    {
+      "name": "Benfloxin",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/9541/benfloxin-500-mg-tablet"
+    },
+    {
+      "name": "Corbic",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9421/corbic-500-mg-tablet"
+    },
+    {
+      "name": "Coslev",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9422/coslev-500-mg-tablet"
+    },
+    {
+      "name": "Evo",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/9423/evo-250-mg-tablet"
+    },
+    {
+      "name": "Evo",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9424/evo-500-mg-tablet"
+    },
+    {
+      "name": "Evo",
+      "strength": "750 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9425/evo-750-mg-tablet"
+    },
+    {
+      "name": "Evo",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/9426/evo-125-mg-oral-solution"
+    },
+    {
+      "name": "Evo",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9427/evo-500-mg-iv-infusion"
+    },
+    {
+      "name": "Evocin",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9428/evocin-500-mg-tablet"
+    },
+    {
+      "name": "Evoloxin",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.09",
+      "url": "https://medex.com.bd/brands/9429/evoloxin-500-mg-tablet"
+    },
+    {
+      "name": "Evonex",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 13.09",
+      "url": "https://medex.com.bd/brands/9431/evonex-500-mg-tablet"
+    },
+    {
+      "name": "Exolev",
+      "strength": "250 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/9542/exolev-250-mg-tablet"
+    },
+    {
+      "name": "Exolev",
+      "strength": "500 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9543/exolev-500-mg-tablet"
+    },
+    {
+      "name": "Flovo",
+      "strength": "500 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9433/flovo-500-mg-tablet"
+    },
+    {
+      "name": "G-Levofloxacin",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/35238/g-levofloxacin-500-mg-iv-infusion"
+    },
+    {
+      "name": "Genolev",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.11",
+      "url": "https://medex.com.bd/brands/9459/genolev-500-mg-tablet"
+    },
+    {
+      "name": "Isovox",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/29256/isovox-500-mg-tablet"
+    },
+    {
+      "name": "Laxod",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9434/laxod-500-mg-tablet"
+    },
+    {
+      "name": "Lecocin",
+      "strength": "500 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9545/lecocin-500-mg-tablet"
+    },
+    {
+      "name": "Leevotin",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9435/leevotin-500-mg-tablet"
+    },
+    {
+      "name": "Leevotin",
+      "strength": "500 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9547/leevotin-500-mg-tablet"
+    },
+    {
+      "name": "Lefex",
+      "strength": "500 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9436/lefex-500-mg-tablet"
+    },
+    {
+      "name": "Leflox",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 15.11",
+      "url": "https://medex.com.bd/brands/9437/leflox-500-mg-tablet"
+    },
+    {
+      "name": "Leflox",
+      "strength": "750 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 20.13",
+      "url": "https://medex.com.bd/brands/9438/leflox-750-mg-tablet"
+    },
+    {
+      "name": "Leo",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9440/leo-500-mg-tablet"
+    },
+    {
+      "name": "Leoflox",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9444/leoflox-500-mg-tablet"
+    },
+    {
+      "name": "Leoflox",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/27860/leoflox-250-mg-tablet"
+    },
+    {
+      "name": "Leosil",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/31478/leosil-500-mg-tablet"
+    },
+    {
+      "name": "Lequin",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36499/lequin-500-mg-tablet"
+    },
+    {
+      "name": "Lerof",
+      "strength": "500 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.10",
+      "url": "https://medex.com.bd/brands/21541/lerof-500-mg-tablet"
+    },
+    {
+      "name": "Letab",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/34562/letab-500-mg-tablet"
+    },
+    {
+      "name": "Lethiquin",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9447/lethiquin-500-mg-tablet"
+    },
+    {
+      "name": "Levin",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9448/levin-500-mg-tablet"
+    },
+    {
+      "name": "Levo",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 33.33",
+      "url": "https://medex.com.bd/brands/21499/levo-500-mg-tablet"
+    },
+    {
+      "name": "Levobac",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.04",
+      "url": "https://medex.com.bd/brands/9449/levobac-500-mg-tablet"
+    },
+    {
+      "name": "Levobac",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9451/levobac-500-mg-iv-infusion"
+    },
+    {
+      "name": "Levocare",
+      "strength": "500 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/32537/levocare-500-mg-tablet"
+    },
+    {
+      "name": "Levocin",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/9452/levocin-500-mg-tablet"
+    },
+    {
+      "name": "Levocos",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.40",
+      "url": "https://medex.com.bd/brands/9453/levocos-500-mg-tablet"
+    },
+    {
+      "name": "Levoday",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9548/levoday-500-mg-tablet"
+    },
+    {
+      "name": "Levodon",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9454/levodon-500-mg-tablet"
+    },
+    {
+      "name": "Levoflox",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9455/levoflox-500-mg-tablet"
+    },
+    {
+      "name": "Levoflox",
+      "strength": "750 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9456/levoflox-750-mg-tablet"
+    },
+    {
+      "name": "Levofloxacin",
+      "strength": "500 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/35682/levofloxacin-500-mg-tablet"
+    },
+    {
+      "name": "Levoking",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 15.06",
+      "url": "https://medex.com.bd/brands/9461/levoking-500-mg-tablet"
+    },
+    {
+      "name": "Levoking",
+      "strength": "750 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 20.07",
+      "url": "https://medex.com.bd/brands/9462/levoking-750-mg-tablet"
+    },
+    {
+      "name": "Levoking",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/21530/levoking-125-mg-oral-solution"
+    },
+    {
+      "name": "Levolex",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9463/levolex-500-mg-tablet"
+    },
+    {
+      "name": "Levolo",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9464/levolo-500-mg-tablet"
+    },
+    {
+      "name": "Levolon",
+      "strength": "500 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9465/levolon-500-mg-tablet"
+    },
+    {
+      "name": "Levolon",
+      "strength": "250 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/21524/levolon-250-mg-tablet"
+    },
+    {
+      "name": "Levomax",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9466/levomax-500-mg-tablet"
+    },
+    {
+      "name": "Levomax",
+      "strength": "750 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9467/levomax-750-mg-tablet"
+    },
+    {
+      "name": "Levomet",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9550/levomet-250-mg-tablet"
+    },
+    {
+      "name": "Levonal",
+      "strength": "500 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/36994/levonal-500-mg-tablet"
+    },
+    {
+      "name": "Levonce",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9468/levonce-500-mg-tablet"
+    },
+    {
+      "name": "Levonix",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9469/levonix-500-mg-tablet"
+    },
+    {
+      "name": "Levonor",
+      "strength": "500 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9470/levonor-500-mg-tablet"
+    },
+    {
+      "name": "Levonor",
+      "strength": "750 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/9471/levonor-750-mg-tablet"
+    },
+    {
+      "name": "Levora",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9474/levora-500-mg-tablet"
+    },
+    {
+      "name": "Levosafe",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28095/levosafe-500-mg-tablet"
+    },
+    {
+      "name": "Levoseem",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9476/levoseem-500-mg-tablet"
+    },
+    {
+      "name": "Levosina",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 15.50",
+      "url": "https://medex.com.bd/brands/9478/levosina-500-mg-tablet"
+    },
+    {
+      "name": "Levosina",
+      "strength": "750 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 21.00",
+      "url": "https://medex.com.bd/brands/9479/levosina-750-mg-tablet"
+    },
+    {
+      "name": "Levostin",
+      "strength": "500 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/9480/levostin-500-mg-tablet"
+    },
+    {
+      "name": "Levox",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/9481/levox-250-mg-tablet"
+    },
+    {
+      "name": "Levox",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9482/levox-500-mg-tablet"
+    },
+    {
+      "name": "Levox",
+      "strength": "750 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.08",
+      "url": "https://medex.com.bd/brands/9483/levox-750-mg-tablet"
+    },
+    {
+      "name": "Levox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 75.50",
+      "url": "https://medex.com.bd/brands/9484/levox-125-mg-oral-solution"
+    },
+    {
+      "name": "Levox",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 100.63",
+      "url": "https://medex.com.bd/brands/9485/levox-500-mg-iv-infusion"
+    },
+    {
+      "name": "Levoxin",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9486/levoxin-250-mg-tablet"
+    },
+    {
+      "name": "Levoxin",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/9487/levoxin-500-mg-tablet"
+    },
+    {
+      "name": "Levoxin",
+      "strength": "750 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/9488/levoxin-750-mg-tablet"
+    },
+    {
+      "name": "Levoxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9489/levoxin-125-mg-oral-solution"
+    },
+    {
+      "name": "Levoxin",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9490/levoxin-500-mg-iv-infusion"
+    },
+    {
+      "name": "Lexa",
+      "strength": "500 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9552/lexa-500-mg-tablet"
+    },
+    {
+      "name": "Lexazen",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9553/lexazen-250-mg-tablet"
+    },
+    {
+      "name": "Lexazen",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9554/lexazen-500-mg-tablet"
+    },
+    {
+      "name": "Lexlo",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.05",
+      "url": "https://medex.com.bd/brands/9494/lexlo-500-mg-tablet"
+    },
+    {
+      "name": "Lexlo",
+      "strength": "250 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/28043/lexlo-250-mg-tablet"
+    },
+    {
+      "name": "Lezon",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9496/lezon-500-mg-tablet"
+    },
+    {
+      "name": "Lifcin",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 15.06",
+      "url": "https://medex.com.bd/brands/9497/lifcin-500-mg-tablet"
+    },
+    {
+      "name": "Lifcin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 75.28",
+      "url": "https://medex.com.bd/brands/9499/lifcin-125-mg-oral-solution"
+    },
+    {
+      "name": "Lin",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9502/lin-500-mg-tablet"
+    },
+    {
+      "name": "Livacin",
+      "strength": "500 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9503/livacin-500-mg-tablet"
+    },
+    {
+      "name": "Locin",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9507/locin-500-mg-tablet"
+    },
+    {
+      "name": "Lotor",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9555/lotor-500-mg-tablet"
+    },
+    {
+      "name": "Lovicin",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9508/lovicin-500-mg-tablet"
+    },
+    {
+      "name": "Loxin",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9509/loxin-500-mg-tablet"
+    },
+    {
+      "name": "Maxlev",
+      "strength": "500 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9510/maxlev-500-mg-tablet"
+    },
+    {
+      "name": "Neolev",
+      "strength": "500 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9556/neolev-500-mg-tablet"
+    },
+    {
+      "name": "Neovox",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9511/neovox-500-mg-tablet"
+    },
+    {
+      "name": "Nivoloc",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9512/nivoloc-500-mg-tablet"
+    },
+    {
+      "name": "Olcin",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9513/olcin-500-mg-tablet"
+    },
+    {
+      "name": "Orgalev",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9514/orgalev-500-mg-tablet"
+    },
+    {
+      "name": "Orlev",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "100 ml bottle : ৳ 100.68",
+      "url": "https://medex.com.bd/brands/9516/orlev-500-mg-iv-infusion"
+    },
+    {
+      "name": "Orlev",
+      "strength": "250 mg",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "Unit Price : ৳ 7.99",
+      "url": "https://medex.com.bd/brands/26897/orlev-250-mg-tablet"
+    },
+    {
+      "name": "Orlev",
+      "strength": "500 mg",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "Unit Price : ৳ 15.01",
+      "url": "https://medex.com.bd/brands/26898/orlev-500-mg-tablet"
+    },
+    {
+      "name": "Orlev",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.10",
+      "url": "https://medex.com.bd/brands/27754/orlev-500-mg-tablet"
+    },
+    {
+      "name": "Ovel",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/9517/ovel-500-mg-tablet"
+    },
+    {
+      "name": "Prevo",
+      "strength": "500 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/21528/prevo-500-mg-tablet"
+    },
+    {
+      "name": "Quilev",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9518/quilev-500-mg-tablet"
+    },
+    {
+      "name": "Quixin",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.10",
+      "url": "https://medex.com.bd/brands/9520/quixin-500-mg-tablet"
+    },
+    {
+      "name": "Radibac",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9521/radibac-500-mg-tablet"
+    },
+    {
+      "name": "Resquin",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9523/resquin-500-mg-tablet"
+    },
+    {
+      "name": "Teriflox",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34972/teriflox-500-mg-tablet"
+    },
+    {
+      "name": "Tivanik",
+      "strength": "250 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9525/tivanik-250-mg-tablet"
+    },
+    {
+      "name": "Tivanik",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.06",
+      "url": "https://medex.com.bd/brands/9526/tivanik-500-mg-tablet"
+    },
+    {
+      "name": "Toplevo",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9527/toplevo-500-mg-tablet"
+    },
+    {
+      "name": "Trevox",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/9528/trevox-500-mg-tablet"
+    },
+    {
+      "name": "Trevox",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/9531/trevox-500-mg-iv-infusion"
+    },
+    {
+      "name": "Trilon",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9532/trilon-500-mg-tablet"
+    },
+    {
+      "name": "Urilev",
+      "strength": "500 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 14.93",
+      "url": "https://medex.com.bd/brands/9533/urilev-500-mg-tablet"
+    },
+    {
+      "name": "Urilev",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9535/urilev-500-mg-iv-infusion"
+    },
+    {
+      "name": "Xelevo",
+      "strength": "500 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28741/xelevo-500-mg-tablet"
+    },
+    {
+      "name": "Xenolev",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9537/xenolev-500-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Levofloxacin is indicated for the treatment of mild, moderate and severe infections caused by susceptible strains of the designated micro-organisms in the condition listed below:\n\n- Acute maxillary sinusitis due to Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella catarrhalis.\nLevofloxacin is indicated for the treatment of mild, moderate and severe infections caused by susceptible strains of the designated micro-organisms in the condition listed below:\n\n- Acute maxillary sinusitis due to Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella catarrhalis.\n- Acute bacterial exacerbation of chronic bronchitis due to Staphylococcus aureus, Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella catarrhalis.\n- Community-acquired pneumonia due to Staphylococcus aureus, Streptococcus pneumoniae, Haemophilus influenzae, Klebsiella pneumoniae, Moraxella catarrhalis, Chlamydia pneumoniae, Legionella pneumophila, or Mycoplasma pneumoniae.\n- Uncomplicated & complicated urinary tract infections due to Escherichia coli, Klebsiella pneumoniae, or Staphylococcus saprophyticus.\n- Acute pyelonephritis caused by Escherichia coli.\n- Uncomplicated & complicated skin and soft tissue infections including abscesses, cellulitis, furuncles, impetigo, pyoderma, wound infections, due to Staphylococcus aureus, Streptococcus pyogenes, Proteus mirabilis or Enterococcus faecalis.\n- Enteric infections caused by Enterobacter sp., Escherichia coli, Campylobacter sp., Vibrio cholerae, Shigella sp., Salmonella sp.",
+    "description": "Levofloxacin is a synthetic, broad-spectrum, third-generation fluoroquinolone derivative antibacterial agent for oral administration. Chemically levofloxacin is a chiral fluorinated carboxyquinolone.",
+    "mode_of_action": "Levofloxacin is a synthetic, broad-spectrum, third generation fluoroquinolone antibiotic. Chemically, Levofloxacin is a chiral fluorinated carboxyquinolone. Levofloxacin exerts antibacterial action by inhibiting bacterial topoisomerase IV and DNA gyrase, the enzymes required for DNA replication, transcription repair and recombination. It has in vitro activity against a wide range of gm-ve and gm+ve microorganisms.",
+    "dosage": "The usual dose of Levofloxacin Tablets is 250 mg or 500 mg or 750 mg administered orally every 24 hours. Levofloxacin tablets can be administered without regard to food. Levofloxacin oral solution should be taken 1 hour before, or  2 hours after eating.\n\nLevofloxacin injection should only be administered by intravenous infusion. It is not for intramuscular, intrathecal, intraperitoneal, or subcutaneous administration. The usual dose of Levofloxacin injection is 250 mg or 500 mg administered by slow infusion over 60 minutes every 24 hours or 750 mg administered by slow infusion over 90 minutes every 24 hours. Since the Levofloxacin injections are for single-use only, any unused portion should be discarded. Additives or other medications should not be added to Levofloxacin Injection or infused simultaneously through the same intravenous line.\n\nAdults:\n\n- **Acute sinusitis**: 500 mg once daily for 10-14 days, or 750 mg once daily for 5 days\n- **Exacerbation of chronic bronchitis**: 500 mg once daily for 7 days, or 750 mg once daily for 3 days (Uncomplicated), 750 mg once daily for 5 days (Complicated)\n- **Community-acquired pneumonia**: 500 mg once daily for 7-14 days, or 750 mg once daily for 5 days\n- **Uncomplicated urinary-tract infections**: 250 mg once daily for 3 days\n- **Complicated urinary-tract infections and acute pyelonephritis**: 250 mg once daily for 7-10 days\n- **Uncomplicated skin and soft-tissue infections**: 500 mg once daily for 7-10 days.\n- **Complicated skin and soft-tissue infections**: 750 mg once daily for 7-14 days.\n- **Enteric fever**: 500 mg once daily for 7-14 days.\n- **Diarrhea, cholera, shigellosis & enteritis**: Mild to moderate case: 500 mg (single dose). Moderate to sever case: 500 mg once daily for 3 days\n\r\nChildren:\n\n- **Children 6 months to <5 years**: 10 mg/kg every 12 hours.\n- **Children >5 years**: 10 mg/kg every 24 hours\n\r\nIn each case, sequential therapy (intravenous to oral) may be instituted at the discretion of the physician.",
+    "administration": "Instructions for the Use of Levofloxacin Infusion-\n\n- Check the container for minute leaks by squeezing the inner bag firmly. If leaks are found, or if the seal is not intact, discard the solution.\n- Do not use if the solution is cloudy or a precipitate is present.\n- Do not use flexible containers in series connections.\n- Close flow control clamp of administration set.\n- Remove cover from port at bottom of container.\n- Insert piercing pin of administration set into port with a twisting motion until the pin is firmly seated.\n- Suspend container from hanger.\n- Squeeze and release drip chamber to establish proper fluid level in chamber during infusion of Levoxin Injection.\n- Open flow control clamp to expel air from set. Close clamp.\n- Regulate rate of administration with flow control clamp.",
+    "interaction": "No quinolone should be co-administered with any solution containing multivalent cations, e.g., magnesium, through the same intravenous line. Antacids, Iron and Adsorbents reduce absorption of Levofloxacin. NSAID may increase the risk of CNS stimulation. Warfarin may increase the risk of bleeding.",
+    "contraindications": "Levofloxacin is contraindicated in patients with a history of hypersensitivity to levofloxacin, quinolone antimicrobial agents, or any other components of this product.",
+    "side_effects": "Levofloxacin is generally well tolerated. However, a few side-effects can usually be seen. There is a risk of retinal detachment. Other side-effects include: nausea, vomiting, diarrhea, abdominal pain, flatulence and rare occurrence of phototoxicity (0.1%). Side-effects that may be seen very rarely include tremors, depression, anxiety, confusion etc.",
+    "pregnancy_cat": "Levofloxacin is not recommended for use during pregnancy or nursing, as the effects on the unborn child or nursing infant are unknown.",
+    "precautions": "The following measures should be taken during administration of Levofloxacin:\n\n- Levofloxacin Injection should only be administered by slow intravenous infusion over a period of 60 or 90 minutes depending on the dosage.\n- While administrating Levofloxacin, adequate amount of water should be taken to avoid concentrated form of urine.\n- Dose adjustment should be exercised during Levofloxacin administration in presence of renal insufficiency.",
+    "overdose_effects": "Levofloxacin exhibits a low potential for acute toxicity. However, in the events of an acute overdosage, the stomach should be emptied. The patients should be kept under observation and appropriate hydration should be maintained.",
+    "drug_classes": "4-Quinolone preparations",
+    "storage_conditions": "Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "লিভোফ্লক্সাসিন মৃদু, মাঝারি এবং মারাত্মক সংক্রমন ঘটাতে পারে এমন অবস্থাগুলোর জন্য দায়ী নিম্নলিখিত সংবেদনশীল অনুজীবগুলোর বিরুদ্ধে চিকিৎসায় নির্দেশিত-\n\n- স্ট্রেপটোকক্কাস নিউমোনি, হেমোফিলাস ইনফ্লুয়েনজি অথবা মোরাক্সিলা ক্যাটারালিস এর কারণে তীব্র ম্যাক্সিলারি সাইনুসাইটিস।\n- ষ্ট্যাফাইলোকক্কাস অরিয়াস, স্ট্রেপটোকক্কাস নিউমোনি, হিমোফিলাস ইনফ্লুয়েনজি অথবা মোরাক্সিলা ক্যাটারালিস এর কারণে দীর্ঘদিনের ব্রংকাইটিসের হঠাৎ বৃদ্ধি।\n- ষ্ট্যাফাইলোকক্কাস অরিয়াস, স্ট্রেপটোকক্কাস নিউমোনি, হিমোফিলাস ইনফ্লুয়েনজি, ক্লেবসিয়েলা নিউমোনি, মোরাক্সিলা ক্যাটারালিস, ক্ল্যামাইডিয়া নিউমোনি, লেজিওনেলা নিউমোফিলা, অথবা মাইকোপাজমা নিউমোনি এর কারণে কমিউনিটি এ্যাকুয়ার্ড নিউমোনিয়া।\n- ইসচেরিসিয়া কোলাই, কেবসিয়েলা নিউমোনি অথবা স্ট্যাফাইলোকক্কাস স্যাফরোফাইটিকাস এর কারণে মূত্রনালীর জটিল এবং অজটিল সংক্রমন।\n- ইসচেরিসিয়া কোলাই এর কারনে বৃক্কের তীব্র প্রদাহ।\n- সাধারণতঃ ষ্ট্যাফাইলোকক্কাস অরিয়াস, স্ট্রেপটোকক্কাস পয়োজিনেস অথবা এনটারোকক্কাস ফিকালিস-এর কারণে ত্বক এবং নরম কলার জটিল এবং অজটিল সংক্রমনে (যেমনঃ এ্যাবসেস, সেলুলাইটিস, ফুরুনকুলস, ইমপেটিগো, পায়োডারমা, ক্ষতের সংক্রামন)।\n- এন্টারোব্যাক্টার এসপি, ইসচেরিসিয়া কোলাই, ক্যাম্পাইলোব্যাক্টর এসপি, ভিবরিও কলেরা, সিগেলা এসপি, সালমোনেলা এসপি দ্বারা আন্ত্রিক সংক্রমনে।",
+    "dosage": "লিভোফ্লক্সাসিন ট্যাবলেটের সাধারণ মাত্রা হলো ২৪ ঘণ্টায় ২৫০ মি.গ্রা. অথবা ৫০০ মি.গ্রা. অথবা ৭৫০ মি.গ্রা. মুখে সেবনের জন্য। লিভোফ্লক্সাসিন ট্যাবলেট খাবার গ্রহণের সাথে কোন সম্পর্ক নেই। লিভোফ্লক্সাসিন ওরাল সলিউশন খাবার খাওয়ার কমপক্ষে ১ ঘন্টা আগে অথবা ২ ঘন্টা পরে খেতে হবে।\n\nলিভোফ্লক্সাসিন ইনজেকশন শুধুমাত্র ইন্ট্রাভেনাস ইনফিউশনের মাধ্যমে দিতে হবে। এটি ইন্ট্রাথেকাল, ইন্ট্রামাসকুলার, ইন্ট্রাপেরিটোনিয়াল অথবা সাবকিউটেনিয়াস পথে দেয়া যাবে না। লিভোফ্লক্সাসিন ইনজেকশনের সাধারণ মাত্রা হলো প্রতি ২৪ ঘন্টায় ২৫০ মি.গ্রা. অথবা ৫০০ মি.গ্রা. যা ৬০ মিনিট ধরে অথবা ৭৫০ মি.গ্রা. যা ৯০ মিনিট ধরে ধীরে ধীরে ইনফিউশনের মাধ্যমে দিতে হবে। যেহেতু লিভোফ্লক্সাসিন ইনজেকশন শুধুমাত্র একবার ব্যবহারের জন্য, সুতরাং যেকোন অব্যবহৃত অংশ ফেলে দিতে হবে। অন্য যেকোন উপাদান অথবা ওষুধ লিভোফ্লক্সাসিন ইনজেকশনে যোগ করা যাবে না অথবা একই ইন্ট্রাভেনাস পথে দেয়া যাবে না।\n\nপ্রাপ্ত বয়ষ্কঃ\n\n- **তীব্র সাইনুসাইটিসে**: দৈনিক ৫০০ মি.গ্রা. করে ১০ থেকে ১৪ দিন অথবা দৈনিক ৭৫০ মি.গ্রা. করে ৫ দিন।\n- **পুরানো ব্রোংকাইটিসের হঠাৎ বৃদ্ধিতে**: দৈনিক ৫০০ মি.গ্রা. করে ৭ দিন, অথবা দৈনিক ৭৫০ মি.গ্রা. করে ৩ দিন (অজটিল ক্ষেত্রে), দৈনিক ৭৫০ মি.গ্রা. করে ৫ দিন (জটিল ক্ষেত্রে)।\n- **কমিউনিটি এ্যাকুয়ার্ড নিউমোনিয়াতে**: দৈনিক একবার ৫০০ মি.গ্রা. করে ৭ থেকে ১৪ দিন অথবা দৈনিক ৭৫০ মি.গ্রা. করে ৫ দিন।\n- **মূত্রনালীর অজটিল সংক্রমনে**: দৈনিক ২৫০ মি.গ্রা. করে ৩ দিন।\n- **মূত্রনালীর জটিল সংক্রমনে এবং একিউট পাইলোনেফ্রাইটিসে**: দৈনিক ২৫০ মি.গ্রা. করে ৭ থেকে ১০ দিন।\n- **ত্বক এবং নরম কলার অজটিল সংক্রমনে**: দৈনিক ৫০০ মি.গ্রা. করে ৭ থেকে ১০ দিন।\n- **ত্বক এবং নরম কলার জটিল সংক্রমনে**: দৈনিক ৭৫০ মি.গ্রা. করে ৭ থেকে ১৪ দিন।\n- **আন্ত্রিক জ্বরে**: দৈনিক ৫০০ মি.গ্রা. করে ৭ থেকে ১৪ দিন।\n- **ডায়রিয়া, কলেরা, সিগোলোসিস্‌ ও এন্টারাইটিস**: মৃদু থেকে মাঝারি- ৫০০ মি.গ্রা. (একক মাত্রা)। মাঝারি থেকে তীব্র- দৈনিক ৫০০ মি.গ্রা করে ৩ দিন।\n\r\nশিশুঃ \n\n- **৬ মাস থেকে ৫ বছরের নীচে**: ১০ মি.গ্রা./কেজি প্রতি ১২ ঘন্টা পর পর\n- **৫ বছরের উপরে**: ১০ মি.গ্রা./কেজি প্রতি ২৪ ঘন্টায়।\n\r\nপ্রতিটি ক্ষেত্রে চিকিৎসকের পরামর্শ অনুযায়ী ধারাবাহিক চিকিৎসা (ইন্ট্রাভেনাস থেকে মুখে) দেয়া যেতে পারে।",
+    "administration": "লিভোফ্লক্সাসিন ইনজেকশন ব্যবহারের নিয়মাবলী-\n\n- ভিতরের ব্যাগটি জোরে চাপ দিয়ে পরীক্ষা করতে হবে পাত্রটির কোথাও কোন ক্ষুদ্র ছিদ্র আছে কিনা। যদি কোন ছিদ্র পাওয়া যায় অথবা অক্ষত না থাকে তবে সলিউশনটি ফেলে দিতে হবে।\n- যদি সলিউশনটি ঘোলাটে অথবা কোন অধঃক্ষেপ থাকে তাহলে এটি ব্যবহার করা যাবে না।\n- অন্য কোন সলিউশনের সাথে একই পথে দেয়া যাবে না।\n- প্রয়োগ যন্ত্রটির প্রবাহ নিয়ন্ত্রণের ক্লাম্পটি বন্ধ করতে হবে।\n- পাত্রটির নিচে মুখটির খোলকটি খুলে ফেলতে হবে।\n- প্রয়োগ যন্ত্রটিতে যে ছিদ্র করার পিন আছে সেটি পেঁচিয় পেঁচিয় পাত্রটির নীচের মুখে ভালোভাবে প্রবেশ করিয়ে দিতে হবে।\n- পাত্রটি হ্যাংগার দিয়ে ঝুলিয়ে দিতে হবে।\n- লিভোফ্লক্সাসিন ইনজেকশন ইনফিউশনের সময় ড্রিপ চেম্বারের ভিতরে তরলের সঠিক মাত্রা পাওয়ার জন্য চেম্বারটি চাপ দিয়ে ছেড়ে দিতে হবে।\n- প্রয়োগ যন্ত্র থেকে বাতাস বের করার জন্য প্রবাহ নিয়ন্ত্রণের ক্লাম্পটি খুলে দিতে হবে। এরপর ক্লাম্পটি বন্ধ করে দিতে হবে।\n- প্রবাহ নিয়ন্ত্রণের ক্লাম্প দিয়ে ইনজেকশনের প্রবাহ নিয়ন্ত্রণ করতে হবে।",
+    "interaction": "কোন কুইনোলোনই মাল্টিভ্যালেন্ট ক্যাটায়ন যেমন, ম্যাগনেসিয়াম এর যেকোন দ্রবণের সাথে একই ইন্ট্রাভেনাস পথে নেয়া যাবে না। এন্টাসিড, আয়রন এবং এডজরবেন্টসঃ লিভোফ্লক্সাসিনের শোষন কমায়। এনএসএআইডি কেন্দ্রীয় স্নায়ুতন্ত্রের উত্তেজনা বৃদ্ধি করতে পারে। ওয়ারফারিন রক্তপাতের আশংকা বৃদ্ধি করতে পারে।",
+    "contraindications": "যে সমস্ত রোগীদের লিভোফ্লক্সাসিন, ব্যাকটেরিয়া বিরোধী কুইনোলোন এজেন্ট অথবা লিভোফ্লক্সাসিন এর যে কোন উপাদানের প্রতি সংবেদনশীলতার ইতিহাস আছে তাদের প্রতি ইহা প্রতিনির্দেশিত।",
+    "side_effects": "লিভোফ্লক্সাসিন সাধারণতঃ বেশ সহনীয়। তদুপরি ইহা দেয়ার ফলে কিছু পার্শ্ব প্রতিক্রিয়া দেখা যেতে পারে। রেটিনার বিচ্যুতি ঝুঁকি আছে। অন্যান্য পার্শ্ব প্রতিক্রিয়াগুলোর ভিতর বমি-বমি ভাব, বমি, ডায়রিয়া, পেটে ব্যথা, পেট ফাঁপা এবং বিরল ক্ষেত্রে আলোক সংবেদনশীলতা (০.১%)। খুবই বিরল কিছু পার্শ্ব প্রতিক্রিয়ার ভিতর কাঁপুনি, বিষন্নতা, অস্থিরতা, মানসিক বিভ্রম।",
+    "pregnancy_cat": "গর্ভাবস্থায় এবং দুগ্ধদান উভয় অবস্থাতেই লিভোফ্লক্সাসিন নির্দেশিত নয় কেননা গর্ভস্থ সন্তান অথবা দুগ্ধসেব্য নবজাতকের উপর ইহার কার্যকারিতা জানা নাই।",
+    "precautions": "লিভোফ্লক্সাসিন দেয়ার সময় নিম্নলিখিত সতর্কতা অবলম্বন করা উচিত-\n\n- লিভোফ্লক্সাসিন ইনজেকশন শুধুমাত্র ইন্ট্রাভেনাস ইনফিউশনের মাধ্যমে মাত্রা অনুযায়ী ৬০ অথবা ৯০ মিনিট ধরে ধীরে ধীরে দিতে হবে।\n- লিভোফ্লক্সাসিন দেয়ার সময় মূত্রের ঘনত্ব কমানোর জন্য যথেষ্ট পরিমাণে পানি পান করা উচিত।\n- বৃক্কের অসমকার্যকারিতা থাকিলে লিভোফ্লক্সাসিন এর মাত্রা পুনঃনির্ধারন করা উচিত।",
+    "overdose_effects": "লিভোফ্লক্সাসিন-এর হঠাৎ বিষক্রিয়া হওয়ার সম্ভাবনা কম। তদুপরি মাত্রাধিক্যের ক্ষেত্রে পাকস্থলী ধৌত করা উচিত। রোগীকে পর্যবেক্ষণে রাখতে হবে এবং সঠিক হাইড্রেশন নিশ্চিত করা উচিত।",
+    "drug_classes": "4-Quinolone preparations",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০ ডিগ্রী সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/680/levofloxacin-hemihydrate",
+  "source_url_bn": "https://medex.com.bd/generics/680/levofloxacin-hemihydrate/bn",
+  "scraped_at": "2026-10-10T15:02:59+00:00"
+}

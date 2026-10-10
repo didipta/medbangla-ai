@@ -1,0 +1,1694 @@
+{
+  "slug": "ketorolac",
+  "name_en": "Ketorolac Tromethamine",
+  "name_bn": "কিটোরোলাক ট্রোমেথামিন",
+  "therapeutic_class": "Drugs used for Rheumatoid Arthritis, Non-Opioid Analgesics",
+  "dosage_forms": [
+    "Nasal Spray",
+    "Injection",
+    "Tablets"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Actifast",
+      "strength": "10 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21287/actifast-10-mg-tablet"
+    },
+    {
+      "name": "Acupain",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15299/acupain-10-mg-tablet"
+    },
+    {
+      "name": "Acupain",
+      "strength": "30 mg/ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15300/acupain-30-mg-imiv-injection"
+    },
+    {
+      "name": "Altorec",
+      "strength": "10 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15416/altorec-10-mg-tablet"
+    },
+    {
+      "name": "Analac",
+      "strength": "10 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15301/analac-10-mg-tablet"
+    },
+    {
+      "name": "Analac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15302/analac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Analac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/26720/analac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Angesic",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/15303/angesic-10-mg-tablet"
+    },
+    {
+      "name": "Apilac",
+      "strength": "10 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.67",
+      "url": "https://medex.com.bd/brands/15304/apilac-10-mg-tablet"
+    },
+    {
+      "name": "Apoket",
+      "strength": "10 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15305/apoket-10-mg-tablet"
+    },
+    {
+      "name": "Arolak",
+      "strength": "10 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.04",
+      "url": "https://medex.com.bd/brands/15306/arolak-10-mg-tablet"
+    },
+    {
+      "name": "Arolak",
+      "strength": "30 mg/ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.20",
+      "url": "https://medex.com.bd/brands/15308/arolak-30-mg-imiv-injection"
+    },
+    {
+      "name": "Arolak",
+      "strength": "10 mg/ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 30.12",
+      "url": "https://medex.com.bd/brands/28021/arolak-10-mg-imiv-injection"
+    },
+    {
+      "name": "Deltora",
+      "strength": "10 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/32080/deltora-10-mg-tablet"
+    },
+    {
+      "name": "Detolac",
+      "strength": "10 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/15309/detolac-10-mg-tablet"
+    },
+    {
+      "name": "Ditrolac",
+      "strength": "10 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/13121/ditrolac-10-mg-tablet"
+    },
+    {
+      "name": "Dolgenal",
+      "strength": "10 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/33250/dolgenal-10-mg-tablet"
+    },
+    {
+      "name": "Doloket",
+      "strength": "10 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/15310/doloket-10-mg-tablet"
+    },
+    {
+      "name": "Doloket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/21262/doloket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Doltro",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15417/doltro-10-mg-tablet"
+    },
+    {
+      "name": "Doltro",
+      "strength": "30 mg/ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/35736/doltro-30-mg-imiv-injection"
+    },
+    {
+      "name": "Doltro",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/35737/doltro-60-mg-imiv-injection"
+    },
+    {
+      "name": "Eket",
+      "strength": "10 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15312/eket-10-mg-tablet"
+    },
+    {
+      "name": "Eket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Edruc Limited",
+      "price": "1 ml ampoule : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/15313/eket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Emodol",
+      "strength": "10 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/15314/emodol-10-mg-tablet"
+    },
+    {
+      "name": "Emodol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "1 ml ampoule : ৳ 58.00",
+      "url": "https://medex.com.bd/brands/15316/emodol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Emodol",
+      "strength": "0.5%",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "5 ml drop : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/15443/emodol-05-eye-drop"
+    },
+    {
+      "name": "Etolac",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15317/etolac-10-mg-tablet"
+    },
+    {
+      "name": "Etolac",
+      "strength": "30 mg/ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15318/etolac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Etolac",
+      "strength": "0.5%",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "5 ml drop : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/15444/etolac-05-eye-drop"
+    },
+    {
+      "name": "Etolac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26598/etolac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Etorac",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15319/etorac-10-mg-tablet"
+    },
+    {
+      "name": "Etorac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15320/etorac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Etorac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/26206/etorac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Etorac MDT",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/37445/etorac-mdt-10-mg-dispersible-tablet"
+    },
+    {
+      "name": "Eurolac",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/15321/eurolac-10-mg-tablet"
+    },
+    {
+      "name": "Eurolac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21253/eurolac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Eurolac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/27237/eurolac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Hi-Lac",
+      "strength": "10 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21257/hi-lac-10-mg-tablet"
+    },
+    {
+      "name": "Inket",
+      "strength": "10 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15418/inket-10-mg-tablet"
+    },
+    {
+      "name": "ISP",
+      "strength": "10 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/38972/isp-10-mg-tablet"
+    },
+    {
+      "name": "K-Lac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/21250/k-lac-60-mg-imiv-injection"
+    },
+    {
+      "name": "K-Lac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21251/k-lac-30-mg-imiv-injection"
+    },
+    {
+      "name": "K-Lac",
+      "strength": "10 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/21252/k-lac-10-mg-tablet"
+    },
+    {
+      "name": "Kelac",
+      "strength": "10 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15322/kelac-10-mg-tablet"
+    },
+    {
+      "name": "Kelac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/21240/kelac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Kelac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/34566/kelac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Kelorac",
+      "strength": "10 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15420/kelorac-10-mg-tablet"
+    },
+    {
+      "name": "Kelorac",
+      "strength": "30 mg/ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21272/kelorac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Kenodol",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.03",
+      "url": "https://medex.com.bd/brands/15323/kenodol-10-mg-tablet"
+    },
+    {
+      "name": "Kenodol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15324/kenodol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Kenodol",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/27806/kenodol-60-mg-imiv-injection"
+    },
+    {
+      "name": "Kepronol",
+      "strength": "0.5%",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "5 ml drop : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/15446/kepronol-05-eye-drop"
+    },
+    {
+      "name": "Kepros",
+      "strength": "10 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15325/kepros-10-mg-tablet"
+    },
+    {
+      "name": "Kepros",
+      "strength": "30 mg/ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15326/kepros-30-mg-imiv-injection"
+    },
+    {
+      "name": "Kerol",
+      "strength": "10 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21283/kerol-10-mg-tablet"
+    },
+    {
+      "name": "Kerolac",
+      "strength": "10 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/15327/kerolac-10-mg-tablet"
+    },
+    {
+      "name": "Ket",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/15328/ket-10-mg-tablet"
+    },
+    {
+      "name": "Ket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21243/ket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Keteks",
+      "strength": "10 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/15329/keteks-10-mg-tablet"
+    },
+    {
+      "name": "Keteks",
+      "strength": "30 mg/ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15330/keteks-30-mg-imiv-injection"
+    },
+    {
+      "name": "Keteks",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/27575/keteks-60-mg-imiv-injection"
+    },
+    {
+      "name": "Ketoact",
+      "strength": "10 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15421/ketoact-10-mg-tablet"
+    },
+    {
+      "name": "Ketobe",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15423/ketobe-10-mg-tablet"
+    },
+    {
+      "name": "Ketobe",
+      "strength": "30 mg/ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/35363/ketobe-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketofast",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/15424/ketofast-10-mg-tablet"
+    },
+    {
+      "name": "Ketofast",
+      "strength": "30 mg/ml",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.16",
+      "url": "https://medex.com.bd/brands/15425/ketofast-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketoflex",
+      "strength": "10 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15331/ketoflex-10-mg-tablet"
+    },
+    {
+      "name": "Ketogate",
+      "strength": "30 mg/ml",
+      "manufacturer": "Pharmacil Limited",
+      "price": "1 ml ampoule : ৳ 75.23",
+      "url": "https://medex.com.bd/brands/15427/ketogate-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketolab",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/15332/ketolab-10-mg-tablet"
+    },
+    {
+      "name": "Ketolab",
+      "strength": "30 mg/ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/15428/ketolab-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketolab",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 115.00",
+      "url": "https://medex.com.bd/brands/15429/ketolab-60-mg-imiv-injection"
+    },
+    {
+      "name": "Ketolac",
+      "strength": "10 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15347/ketolac-10-mg-tablet"
+    },
+    {
+      "name": "Ketolac",
+      "strength": "0.5%",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "5 ml drop : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/21225/ketolac-05-eye-drop"
+    },
+    {
+      "name": "Ketonaaf",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/21265/ketonaaf-10-mg-tablet"
+    },
+    {
+      "name": "Ketonic",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15333/ketonic-10-mg-tablet"
+    },
+    {
+      "name": "Ketonic",
+      "strength": "30 mg/ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15334/ketonic-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketonic",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/26764/ketonic-60-mg-imiv-injection"
+    },
+    {
+      "name": "Ketoplex",
+      "strength": "10 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/21239/ketoplex-10-mg-tablet"
+    },
+    {
+      "name": "Ketoprix",
+      "strength": "10 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15335/ketoprix-10-mg-tablet"
+    },
+    {
+      "name": "Ketoprix",
+      "strength": "30 mg/ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.17",
+      "url": "https://medex.com.bd/brands/21285/ketoprix-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketoprix",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/27576/ketoprix-60-mg-imiv-injection"
+    },
+    {
+      "name": "Ketora",
+      "strength": "10 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15336/ketora-10-mg-tablet"
+    },
+    {
+      "name": "Ketorin",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/15337/ketorin-10-mg-tablet"
+    },
+    {
+      "name": "Ketorin",
+      "strength": "30 mg/ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.16",
+      "url": "https://medex.com.bd/brands/15338/ketorin-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketorolac",
+      "strength": "10 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15339/ketorolac-10-mg-tablet"
+    },
+    {
+      "name": "Ketorolac",
+      "strength": "10 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35667/ketorolac-10-mg-tablet"
+    },
+    {
+      "name": "Ketoropack",
+      "strength": "10 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21263/ketoropack-10-mg-tablet"
+    },
+    {
+      "name": "Ketoroz",
+      "strength": "10 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15340/ketoroz-10-mg-tablet"
+    },
+    {
+      "name": "Ketoroz",
+      "strength": "30 mg/ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15341/ketoroz-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketosav",
+      "strength": "10 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37855/ketosav-10-mg-tablet"
+    },
+    {
+      "name": "Ketoshot",
+      "strength": "30 mg/ml",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21269/ketoshot-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketoshot",
+      "strength": "10 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21271/ketoshot-10-mg-tablet"
+    },
+    {
+      "name": "Ketostar",
+      "strength": "10 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/33605/ketostar-10-mg-tablet"
+    },
+    {
+      "name": "Ketovalor",
+      "strength": "30 mg/ml",
+      "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/37083/ketovalor-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketovir",
+      "strength": "10 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15342/ketovir-10-mg-tablet"
+    },
+    {
+      "name": "Ketowell",
+      "strength": "10 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/39315/ketowell-10-mg-tablet"
+    },
+    {
+      "name": "Ketromin",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15343/ketromin-10-mg-tablet"
+    },
+    {
+      "name": "Ketromin",
+      "strength": "0.5%",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "5 ml drop : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/28544/ketromin-05-eye-drop"
+    },
+    {
+      "name": "Ketromin",
+      "strength": "30 mg/ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/28545/ketromin-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ketromin",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/28546/ketromin-60-mg-imiv-injection"
+    },
+    {
+      "name": "Kevan",
+      "strength": "10 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35112/kevan-10-mg-tablet"
+    },
+    {
+      "name": "Kflam",
+      "strength": "10 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/15344/kflam-10-mg-tablet"
+    },
+    {
+      "name": "Kflam",
+      "strength": "30 mg/ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15345/kflam-30-mg-imiv-injection"
+    },
+    {
+      "name": "Kflam",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 95.33",
+      "url": "https://medex.com.bd/brands/27177/kflam-60-mg-imiv-injection"
+    },
+    {
+      "name": "Kilpan",
+      "strength": "10 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15346/kilpan-10-mg-tablet"
+    },
+    {
+      "name": "Kitocos",
+      "strength": "10 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/35566/kitocos-10-mg-tablet"
+    },
+    {
+      "name": "Kitorex",
+      "strength": "10 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15434/kitorex-10-mg-tablet"
+    },
+    {
+      "name": "Knil",
+      "strength": "10 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15348/knil-10-mg-tablet"
+    },
+    {
+      "name": "Knil",
+      "strength": "30 mg/ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15349/knil-30-mg-imiv-injection"
+    },
+    {
+      "name": "Knil",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/27577/knil-60-mg-imiv-injection"
+    },
+    {
+      "name": "Korac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/36385/korac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Korola",
+      "strength": "10 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32534/korola-10-mg-tablet"
+    },
+    {
+      "name": "Korola",
+      "strength": "30 mg/ml",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/32535/korola-30-mg-imiv-injection"
+    },
+    {
+      "name": "KPR",
+      "strength": "10 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15350/kpr-10-mg-tablet"
+    },
+    {
+      "name": "KTL",
+      "strength": "10 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/21233/ktl-10-mg-tablet"
+    },
+    {
+      "name": "KTM",
+      "strength": "10 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31477/ktm-10-mg-tablet"
+    },
+    {
+      "name": "Lacor",
+      "strength": "10 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/15351/lacor-10-mg-tablet"
+    },
+    {
+      "name": "Lacor",
+      "strength": "30 mg/ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/36645/lacor-30-mg-imiv-injection"
+    },
+    {
+      "name": "Lactro",
+      "strength": "10 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15352/lactro-10-mg-tablet"
+    },
+    {
+      "name": "Lixidol",
+      "strength": "10 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15353/lixidol-10-mg-tablet"
+    },
+    {
+      "name": "Lopadol",
+      "strength": "0.5%",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "5 ml drop : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/15448/lopadol-05-eye-drop"
+    },
+    {
+      "name": "Lupelac",
+      "strength": "10 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15356/lupelac-10-mg-tablet"
+    },
+    {
+      "name": "Maxdol",
+      "strength": "10 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15357/maxdol-10-mg-tablet"
+    },
+    {
+      "name": "Maxdol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/21242/maxdol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Maxdol",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28176/maxdol-60-mg-imiv-injection"
+    },
+    {
+      "name": "Minolac",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15358/minolac-10-mg-tablet"
+    },
+    {
+      "name": "Minolac",
+      "strength": "30 mg/ml",
+      "manufacturer": "ACI Limited",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15359/minolac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Minolac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "ACI Limited",
+      "price": "2 ml ampoule : ৳ 95.65",
+      "url": "https://medex.com.bd/brands/21227/minolac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Nouranz",
+      "strength": "10 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32913/nouranz-10-mg-tablet"
+    },
+    {
+      "name": "Ofpain",
+      "strength": "10 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15360/ofpain-10-mg-tablet"
+    },
+    {
+      "name": "Ofpain",
+      "strength": "30 mg/ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.16",
+      "url": "https://medex.com.bd/brands/15361/ofpain-30-mg-imiv-injection"
+    },
+    {
+      "name": "Ofpain",
+      "strength": "0.5%",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "5 ml drop : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/15449/ofpain-05-eye-drop"
+    },
+    {
+      "name": "Ofpain",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/21261/ofpain-60-mg-imiv-injection"
+    },
+    {
+      "name": "Oradol",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15362/oradol-10-mg-tablet"
+    },
+    {
+      "name": "Oradol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15363/oradol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Oradol",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/27579/oradol-60-mg-imiv-injection"
+    },
+    {
+      "name": "Orc",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.60",
+      "url": "https://medex.com.bd/brands/15364/orc-10-mg-tablet"
+    },
+    {
+      "name": "Ostelac",
+      "strength": "10 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15366/ostelac-10-mg-tablet"
+    },
+    {
+      "name": "Painfree",
+      "strength": "10 mg",
+      "manufacturer": "Quality Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21284/painfree-10-mg-tablet"
+    },
+    {
+      "name": "Painlok",
+      "strength": "10 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15436/painlok-10-mg-tablet"
+    },
+    {
+      "name": "Painrel",
+      "strength": "10 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/21255/painrel-10-mg-tablet"
+    },
+    {
+      "name": "Pair",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15367/pair-10-mg-tablet"
+    },
+    {
+      "name": "Pair",
+      "strength": "30 mg/ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15368/pair-30-mg-imiv-injection"
+    },
+    {
+      "name": "Pair",
+      "strength": "0.5%",
+      "manufacturer": "Drug International Ltd.",
+      "price": "5 ml drop : ৳ 70.25",
+      "url": "https://medex.com.bd/brands/15451/pair-05-eye-drop"
+    },
+    {
+      "name": "Perilac",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15369/perilac-10-mg-tablet"
+    },
+    {
+      "name": "Perilac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15371/perilac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Perilac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/28910/perilac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Petorolac",
+      "strength": "10 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21280/petorolac-10-mg-tablet"
+    },
+    {
+      "name": "Petrolac",
+      "strength": "10 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15437/petrolac-10-mg-tablet"
+    },
+    {
+      "name": "Recular",
+      "strength": "0.5%",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "5 ml drop : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/15452/recular-05-eye-drop"
+    },
+    {
+      "name": "Repopain",
+      "strength": "10 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15372/repopain-10-mg-tablet"
+    },
+    {
+      "name": "Repopain",
+      "strength": "30 mg/ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/27222/repopain-30-mg-imiv-injection"
+    },
+    {
+      "name": "Repopain",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/39427/repopain-60-mg-imiv-injection"
+    },
+    {
+      "name": "Roket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15374/roket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Roket",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/21224/roket-60-mg-imiv-injection"
+    },
+    {
+      "name": "Roket",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21254/roket-10-mg-tablet"
+    },
+    {
+      "name": "Rolac",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15375/rolac-10-mg-tablet"
+    },
+    {
+      "name": "Rolac",
+      "strength": "10 mg/ml",
+      "manufacturer": "Renata PLC",
+      "price": "1 ml ampoule : ৳ 32.13",
+      "url": "https://medex.com.bd/brands/15376/rolac-10-mg-imiv-injection"
+    },
+    {
+      "name": "Rolac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Renata PLC",
+      "price": "1 ml ampoule : ৳ 55.21",
+      "url": "https://medex.com.bd/brands/15377/rolac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Rolac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Renata PLC",
+      "price": "2 ml ampoule : ৳ 95.36",
+      "url": "https://medex.com.bd/brands/26645/rolac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Rolac MDT",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/31424/rolac-mdt-10-mg-dispersible-tablet"
+    },
+    {
+      "name": "Rolac NS",
+      "strength": "15.75 mg/actuation",
+      "manufacturer": "Renata PLC",
+      "price": "5 ml nasal spray : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/33831/rolac-ns-1575-mg-nasal-spray"
+    },
+    {
+      "name": "Rolacton",
+      "strength": "10 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/39345/rolacton-10-mg-tablet"
+    },
+    {
+      "name": "Rolafen",
+      "strength": "10 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15378/rolafen-10-mg-tablet"
+    },
+    {
+      "name": "Rolamax",
+      "strength": "10 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/31111/rolamax-10-mg-tablet"
+    },
+    {
+      "name": "Romilac",
+      "strength": "10 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/15379/romilac-10-mg-tablet"
+    },
+    {
+      "name": "Romilac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "1 ml syringe : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/15380/romilac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Romilac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "2 ml syringe : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/33289/romilac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Rotalac",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15381/rotalac-10-mg-tablet"
+    },
+    {
+      "name": "Rotalac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15382/rotalac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Rotalac",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/26991/rotalac-60-mg-imiv-injection"
+    },
+    {
+      "name": "Rotek",
+      "strength": "10 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15383/rotek-10-mg-tablet"
+    },
+    {
+      "name": "Rotek",
+      "strength": "30 mg/ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/21267/rotek-30-mg-imiv-injection"
+    },
+    {
+      "name": "Sanoket",
+      "strength": "10 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15385/sanoket-10-mg-tablet"
+    },
+    {
+      "name": "Sanoket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "1 ml ampoule : ৳ 55.38",
+      "url": "https://medex.com.bd/brands/28349/sanoket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Sanoket",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "2 ml ampoule : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/28350/sanoket-60-mg-imiv-injection"
+    },
+    {
+      "name": "SB-Ketor",
+      "strength": "10 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21289/sb-ketor-10-mg-tablet"
+    },
+    {
+      "name": "Surgidol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/15439/surgidol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Surgin",
+      "strength": "10 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/15440/surgin-10-mg-tablet"
+    },
+    {
+      "name": "Surpim",
+      "strength": "10 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15387/surpim-10-mg-tablet"
+    },
+    {
+      "name": "Surpim",
+      "strength": "0.5%",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "5 ml drop : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/15453/surpim-05-eye-drop"
+    },
+    {
+      "name": "Surpim",
+      "strength": "30 mg/ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "1 ml ampoule : ৳ 54.00",
+      "url": "https://medex.com.bd/brands/21232/surpim-30-mg-imiv-injection"
+    },
+    {
+      "name": "Surpim",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/38084/surpim-60-mg-imiv-injection"
+    },
+    {
+      "name": "Temoket",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/21290/temoket-10-mg-tablet"
+    },
+    {
+      "name": "Temoket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/27342/temoket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Todol",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15388/todol-10-mg-tablet"
+    },
+    {
+      "name": "Todol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15389/todol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Todol",
+      "strength": "0.5%",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "5 ml drop : ৳ 80.30",
+      "url": "https://medex.com.bd/brands/15454/todol-05-eye-drop"
+    },
+    {
+      "name": "Todol",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27077/todol-60-mg-imiv-injection"
+    },
+    {
+      "name": "Todol",
+      "strength": "30 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 ml syringe : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/37126/todol-30-mg-imiv-injection"
+    },
+    {
+      "name": "Tolec",
+      "strength": "10 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/15391/tolec-10-mg-tablet"
+    },
+    {
+      "name": "Tolec",
+      "strength": "30 mg/ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.17",
+      "url": "https://medex.com.bd/brands/27882/tolec-30-mg-imiv-injection"
+    },
+    {
+      "name": "Tolec",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/27883/tolec-60-mg-imiv-injection"
+    },
+    {
+      "name": "Toradolin",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/15392/toradolin-10-mg-tablet"
+    },
+    {
+      "name": "Toradolin",
+      "strength": "30 mg/ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/15393/toradolin-30-mg-imiv-injection"
+    },
+    {
+      "name": "Torafix",
+      "strength": "10 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/38479/torafix-10-mg-tablet"
+    },
+    {
+      "name": "Torafix",
+      "strength": "30 mg/ml",
+      "manufacturer": "Maks Drug Limited",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/38480/torafix-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toralin",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/15390/toralin-10-mg-tablet"
+    },
+    {
+      "name": "Toralin",
+      "strength": "30 mg/ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/38565/toralin-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toralin",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/38566/toralin-60-mg-imiv-injection"
+    },
+    {
+      "name": "Toramax",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/15354/toramax-10-mg-tablet"
+    },
+    {
+      "name": "Toramax",
+      "strength": "30 mg/ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "1 ml ampoule : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/15355/toramax-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toramax",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "2 ml ampoule : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/27580/toramax-60-mg-imiv-injection"
+    },
+    {
+      "name": "Torax",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/15394/torax-10-mg-tablet"
+    },
+    {
+      "name": "Torax",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/15395/torax-60-mg-imiv-injection"
+    },
+    {
+      "name": "Torax",
+      "strength": "30 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15396/torax-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toro",
+      "strength": "10 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15397/toro-10-mg-tablet"
+    },
+    {
+      "name": "Toro",
+      "strength": "30 mg/ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/21231/toro-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toroaid",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15398/toroaid-10-mg-tablet"
+    },
+    {
+      "name": "Toroaid",
+      "strength": "30 mg/ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.23",
+      "url": "https://medex.com.bd/brands/15399/toroaid-30-mg-imiv-injection"
+    },
+    {
+      "name": "Toroaid",
+      "strength": "0.5%",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "5 ml drop : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/15455/toroaid-05-eye-drop"
+    },
+    {
+      "name": "Toroaid",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 95.25",
+      "url": "https://medex.com.bd/brands/26583/toroaid-60-mg-imiv-injection"
+    },
+    {
+      "name": "Torolac",
+      "strength": "10 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15400/torolac-10-mg-tablet"
+    },
+    {
+      "name": "Torosic",
+      "strength": "10 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15441/torosic-10-mg-tablet"
+    },
+    {
+      "name": "Torosic",
+      "strength": "30 mg/ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15442/torosic-30-mg-imiv-injection"
+    },
+    {
+      "name": "Torosic",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26986/torosic-60-mg-imiv-injection"
+    },
+    {
+      "name": "Tram-K",
+      "strength": "10 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15401/tram-k-10-mg-tablet"
+    },
+    {
+      "name": "Troket",
+      "strength": "10 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/21275/troket-10-mg-tablet"
+    },
+    {
+      "name": "Tromark",
+      "strength": "10 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/15402/tromark-10-mg-tablet"
+    },
+    {
+      "name": "Troy",
+      "strength": "10 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15403/troy-10-mg-tablet"
+    },
+    {
+      "name": "Veslac",
+      "strength": "10 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.30",
+      "url": "https://medex.com.bd/brands/15404/veslac-10-mg-tablet"
+    },
+    {
+      "name": "Winop",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15405/winop-10-mg-tablet"
+    },
+    {
+      "name": "Winop",
+      "strength": "30 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 55.37",
+      "url": "https://medex.com.bd/brands/15406/winop-30-mg-imiv-injection"
+    },
+    {
+      "name": "Winop",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "2 ml ampoule : ৳ 95.65",
+      "url": "https://medex.com.bd/brands/26534/winop-60-mg-imiv-injection"
+    },
+    {
+      "name": "Xenolac",
+      "strength": "10 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15407/xenolac-10-mg-tablet"
+    },
+    {
+      "name": "Xidolac",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15408/xidolac-10-mg-tablet"
+    },
+    {
+      "name": "Xidolac",
+      "strength": "10 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/15409/xidolac-10-mg-imiv-injection"
+    },
+    {
+      "name": "Xidolac",
+      "strength": "30 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/15410/xidolac-30-mg-imiv-injection"
+    },
+    {
+      "name": "Xidolac Meltab",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/21237/xidolac-meltab-10-mg-dispersible-tablet"
+    },
+    {
+      "name": "Xiroket",
+      "strength": "10 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29267/xiroket-10-mg-tablet"
+    },
+    {
+      "name": "Xiroket",
+      "strength": "30 mg/ml",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/29268/xiroket-30-mg-imiv-injection"
+    },
+    {
+      "name": "Zepac",
+      "strength": "10 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/15411/zepac-10-mg-tablet"
+    },
+    {
+      "name": "Zeropain",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/15414/zeropain-10-mg-tablet"
+    },
+    {
+      "name": "Zeropain",
+      "strength": "30 mg/ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/15415/zeropain-30-mg-imiv-injection"
+    },
+    {
+      "name": "Zeropain",
+      "strength": "60 mg/2 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "2 ml ampoule : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26860/zeropain-60-mg-imiv-injection"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ketorolac Tromethamine is indicated for the short-term management of moderate to severe acute post-operative pain. Ketorolac ophthalmic solution helps relieve pain, inflammation, and light sensitivity after ocular surgery. It may also be used to decrease eye inflammation or redness caused by seasonal allergies.",
+    "description": "Ketorolac Tromethamine is a drug of pyrrolo-pyrrole group of nonsteroidal anti-inflammatory drug (NSAID). Chemically it is known as 5 benzoyle-2,3-dihydro-1H-pyrroligine-1-carboxylic acid, compound with 2 - amino-2-(hydroxymethyl)-1,3-propanediol (1:1). Ketorolac Tromethamine inhibits synthesis of prostaglandins and may be considered as a peripherally acting analgesic. The biological activity of Ketorolac Tromethamine is associated with the S-form. Pharmacokinetic property of Ketorolac Tromethamine is linear. It is highly protein bound and is largely metabolized in liver. The products of metabolism and some unchanged drugs are excreted in the urine.",
+    "mode_of_action": "Ketorolac Tromethamine is a potent analgesic of the non-steroidal anti-inflammatory drugs (NSAIDs). It acts by inhibiting the cyclooxygenase enzyme system and hence inhibits the prostaglandin synthesis. It demonstrates a minimal anti-inflammatory effect at its analgesic dose.",
+    "dosage": "**Tablet**: Recommended dose is 10 mg every 4-6 hours. It should be used short-term only (up to 7 days) and are not recommended for chronic use. Doses exceeding 40 mg/day is not recommended.\n\n**Injection**: Ketorolac injection may be used as a single or multiple doses, on a regular or when necessary schedule for the management of moderately severe, acute pain that requires analgesia at the opioid level, usually in a postoperative setting. When administering Ketorolac injection, the IV bolus must be given over no less than 15 seconds. The IM administration should be given slowly and deeply into the muscle. The analgesic effect begins within 30 minutes with maximum effect in 1 to 2 hours after dosing IV or IM. Duration of analgesic effect is usually 4 to 6 hours.\n\n\r\nSingle-Dose Treatment-\nIM Dosing (Adult):\n\n- **Patients <65 years of age**: One dose of 60 mg.\n- **Patients >65 years of age, renally impaired and/or less than 50 kg of body weight**: One dose of 30 mg.\n\r\nIV Dosing (Adult):\n\n- **Patients <65 years of age**: One dose of 30 mg.\n- **Patients >65 years of age, renally impaired and/or less than 50 kg of body weight**: One dose of 15 mg.\n\r\nIV or IM Dosing (2 to 16 years of age):\n\n- **IM Dosing**: One dose of 1 mg/kg up to a maximum of 30 mg.\n- **IV Dosing**: One dose of 0.5 mg/kg up to a maximum of 15 mg.\n\r\nMultiple-Dose Treatment (IV or IM)-\n\n- **Patients <65 years of age**: The recommended dose is 30 mg Ketorolac injection every 6 hours. The maximum daily dose should not exceed 120 mg. Patients >65 years of age, renally impaired patients and patients less than 50 kg: The recommended dose is 15 mg Ketorolac injection every 6 hours. The maximum daily dose for these populations should not exceed 60 mg. For breakthrough pain, do not increase the dose or the frequency of Ketorolac Tromethamine.\n- **Conversion from Parenteral to Oral Therapy**: Ketorolac tablets may be used either as monotherapy or as follow-on therapy to parenteral Ketorolac. When Ketorolac tablets are used as a follow-on therapy to parenteral Ketorolac, the total combined daily dose of ketorolac (oral + parenteral) should not exceed 120 mg in younger adult patients or 60 mg in elderly patients on the day the change of formulation is made. On subsequent days, oral dosing should not exceed the recommended daily maximum of 40 mg. Ketorolac IM should be replaced by Ketorolac tablet as soon as feasible. The total duration of combined parenteral and oral treatment should not exceed 5 days.\n\n**Eye Drops**: Adults: 1 drop in each eye 4 times daily.",
+    "interaction": "Other NSAIDs or aspirin: Increase the side effects of ketorolac Tromethamine.\nAnti-coagulants: Enhance anti-coagulant effect. \nBeta Blocker: Reduce the anti-hypertensive effect . \nACE Inhibitors: Increase the risk of renal impairment. \nMethotrexate: Enhance the toxicity of methotrexate.",
+    "contraindications": "Ketorolac is contraindicated in patients having hypersensitivity to this drug or other NSAIDs. It should not be used in children under 16 years of age. lt is also contraindicated as prophylactic analgesic before surgery.",
+    "side_effects": "Commonly occurring side effects are nausea, vomiting, gastro-intestinal bleeding, melana, peptic ulcer, pancreatitis, anxiety, drowsiness, headache, excessive thirst, fatigue, bradycardia, hypertension, palpitation, chest pain, infertility in female and pulmonary edema.",
+    "pregnancy_cat": "US FDA Pregnancy category of Ketorolac Tromethamine is C. So, Ketorolac Tromethamine should be avoided in pregnancy and lactation unless the potential benefits to the other outweigh the possible risks to the fetus.",
+    "precautions": "Caution should be exercised in patients over the age of 65 years. Caution should also be taken in patients with active or suspected peptic ulcer or gastrointestinal bleeding or asthma and liver dysfunction. \n\nEye Drops: Patients with evidence of corneal epithelial breakdown should immediately discontinue use of topical NSAIDs and should be closely monitored for corneal health. Lopadol ophthalmic solution should not be administered while wearing contact lenses.",
+    "drug_classes": "Drugs used for Rheumatoid Arthritis, Non-Opioid Analgesics",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "কিটোরোলাক ট্রোমেথামিন অস্ত্রোপচার পরবর্তী মাঝারি থেকে তীব্র মাত্রার ব্যথা নিরাময়ে স্বল্প সময়ের জন্য ব্যবহৃত হয়।",
+    "mode_of_action": "কিটোরোলাক ট্রোমেথামিন একটি নন-স্টেরয়ডাল এন্টিইনফ্লামেটরী শ্রেণীর শক্তিশালী ব্যথানাশক। এটি সাইক্লোঅক্সিজিনেজ এনজাইম সিস্টেমকে বন্ধ করার মাধ্যমে প্রোস্টাগ্ল্যান্ডিন তৈরীতে বাঁধা প্রদানের মাধ্যমে কাজ করে। ব্যথানাশক মাত্রায় এটি সামান্য পরিমাণ প্রদাহবিরোধী কার্যকারিতা দেখায়।",
+    "dosage": "**ট্যাবলেট**: অনুমোদিত মাত্রা হচ্ছে ১০ মিঃগ্রাঃ করে ৪-৬ ঘন্টা পরপর। এটি কেবল স্বল্প সময়ের (সর্বোচ্চ ৭ দিন) চিকিৎসা হিসেবে ব্যবহৃত হয় এবং দীর্ঘদিনের চিকিৎসা হিসেবে এটি অনুমোদিত নয়। দৈনিক ৪০ মিঃগ্রাঃ-এর বেশি ব্যবহার অনুমোদিত নয়।",
+    "interaction": "অন্যান্য NSAID বা এসপিরিন: কেটোরোলাক ট্রোমেথামিন পার্শ্ব প্রতিক্রিয়া বৃদ্ধি পায়।\nএন্টিকোয়াগোলেন্ট: এন্টিকোয়াগোলেন্টের কার্যকারিতা বৃদ্ধি পায়। \nবিটা-ব্লকার: এন্টিহাইপারটেনসিভের এর কার্যকারিতা বৃদ্ধি পায়।\nACE ইনহিবিটর: বৃক্কীয় বৈকল্যের ঝুঁকি বৃদ্ধি করে।\nমিথোট্রিক্সেট: মিথোট্রিক্সেটের বিষাক্ততা বৃদ্ধি করে।",
+    "contraindications": "কেটোরোলাক বা অন্যান্য NSAIDs-এর প্রতি অতিসংবেদনশীলতায় এটি প্রতিনির্দেশিত। ১৬ বৎসরের নিচের বাচ্চাদের ক্ষেত্রে এটি ব্যবহার করা উচিত নয়। অস্ত্রোপচারের পূর্বে ব্যথানাশক প্রতিষেধক হিসেবে এটির ব্যবহার প্রতিনির্দেশিত।",
+    "side_effects": "সাধারণ পার্শ্ব প্রতিক্রিয়াগুলো হচ্ছে- বমিবমি ভাব বা বমি, গ্যাস্ট্রোইনটেস্টাইনাল ব্লিডিং, মেলেনা, পেপটিক আলসার, প্যানক্রিয়েটাইটিস, দুশ্চিন্তা, ঝিমুনি, মাথা ব্যথা, অতিরিক্ত তৃষ্ণা পাওয়া, ক্লান্তিবোধ, ব্র্যাডিকার্ডিয়া, উচ্চরক্তচাপ, পালপিটিশন, বুক ব্যথা, মেয়েদের বন্ধাত্ব এবং পালমোনারি এডেমা।",
+    "pregnancy_cat": "USFDA প্রেগনেন্সি ক্যাটাগরী অনুযায়ী কেটোরোলাক ট্রোমেথামিন 'C' শ্রেণীভূক্ত ঔষধ। সুতরাং, প্রত্যাশিত সুবিধা ভ্রুনের ঝুঁকির চেয়ে বেশী না হলে গর্ভাবস্থায় ও স্তন্যদানকালে ব্যবহারে বিরত থাকা উচিত।",
+    "precautions": "৬৫ বৎসরের বেশী বয়সের রোগীদের ক্ষেত্রে এটি ব্যবহারে সতর্ক থাকা উচিত। পেপটিক আলসার বা গ্যাস্ট্রোইনটেস্টিনাল ব্লিডিং বা এ্যাজমা আছে এমন সব রোগীদের ক্ষেত্রে এবং বৃক্কীয় বৈকল্যতার ক্ষেত্রে এটি ব্যবহারে সতর্কতা অবলম্বন করতে হবে।",
+    "drug_classes": "Drugs used for Rheumatoid Arthritis, Non-Opioid Analgesics",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/648/ketorolac-tromethamine",
+  "source_url_bn": "https://medex.com.bd/generics/648/ketorolac-tromethamine/bn",
+  "scraped_at": "2026-10-10T15:00:13+00:00"
+}

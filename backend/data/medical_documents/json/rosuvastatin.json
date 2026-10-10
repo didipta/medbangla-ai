@@ -1,0 +1,932 @@
+{
+  "slug": "rosuvastatin",
+  "name_en": "Rosuvastatin Calcium",
+  "name_bn": "রসুভাস্টাটিন ক্যালসিয়াম",
+  "therapeutic_class": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Amber",
+      "strength": "10 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/32896/amber-10-mg-tablet"
+    },
+    {
+      "name": "Amber",
+      "strength": "5 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32897/amber-5-mg-tablet"
+    },
+    {
+      "name": "Bestcol",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/24331/bestcol-10-mg-tablet"
+    },
+    {
+      "name": "Bestcol",
+      "strength": "5 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 9.20",
+      "url": "https://medex.com.bd/brands/31966/bestcol-5-mg-tablet"
+    },
+    {
+      "name": "Bestcol",
+      "strength": "20 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/32898/bestcol-20-mg-tablet"
+    },
+    {
+      "name": "Cholcut",
+      "strength": "10 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24368/cholcut-10-mg-tablet"
+    },
+    {
+      "name": "Cholcut",
+      "strength": "5 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24369/cholcut-5-mg-tablet"
+    },
+    {
+      "name": "Cholcut",
+      "strength": "20 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/31059/cholcut-20-mg-tablet"
+    },
+    {
+      "name": "Corestin",
+      "strength": "5 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/3384/corestin-5-mg-tablet"
+    },
+    {
+      "name": "Corestin",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/3385/corestin-10-mg-tablet"
+    },
+    {
+      "name": "Corestin",
+      "strength": "20 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/24365/corestin-20-mg-tablet"
+    },
+    {
+      "name": "Corovas",
+      "strength": "5 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32899/corovas-5-mg-tablet"
+    },
+    {
+      "name": "Corovas",
+      "strength": "10 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/32900/corovas-10-mg-tablet"
+    },
+    {
+      "name": "Corovas",
+      "strength": "20 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/32901/corovas-20-mg-tablet"
+    },
+    {
+      "name": "Corvastin",
+      "strength": "10 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24333/corvastin-10-mg-tablet"
+    },
+    {
+      "name": "Corvastin",
+      "strength": "20 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24334/corvastin-20-mg-tablet"
+    },
+    {
+      "name": "Creston",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/3386/creston-10-mg-tablet"
+    },
+    {
+      "name": "Creston",
+      "strength": "5 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26750/creston-5-mg-tablet"
+    },
+    {
+      "name": "Creston",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/29931/creston-20-mg-tablet"
+    },
+    {
+      "name": "Creva",
+      "strength": "5 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/24355/creva-5-mg-tablet"
+    },
+    {
+      "name": "Creva",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/24356/creva-10-mg-tablet"
+    },
+    {
+      "name": "Creva",
+      "strength": "20 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/39910/creva-20-mg-tablet"
+    },
+    {
+      "name": "Esuvast",
+      "strength": "10 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/36511/esuvast-10-mg-tablet"
+    },
+    {
+      "name": "Esuvast",
+      "strength": "20 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/36512/esuvast-20-mg-tablet"
+    },
+    {
+      "name": "Esuvast",
+      "strength": "5 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36513/esuvast-5-mg-tablet"
+    },
+    {
+      "name": "Lipiros",
+      "strength": "5 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/30307/lipiros-5-mg-tablet"
+    },
+    {
+      "name": "Lipiros",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/30308/lipiros-10-mg-tablet"
+    },
+    {
+      "name": "Nestor",
+      "strength": "5 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/3387/nestor-5-mg-tablet"
+    },
+    {
+      "name": "Nestor",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/3388/nestor-10-mg-tablet"
+    },
+    {
+      "name": "Osovast",
+      "strength": "10 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/28156/osovast-10-mg-tablet"
+    },
+    {
+      "name": "Prestorin",
+      "strength": "5 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/35413/prestorin-5-mg-tablet"
+    },
+    {
+      "name": "Prestorin",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/35414/prestorin-10-mg-tablet"
+    },
+    {
+      "name": "R-Vtin",
+      "strength": "10 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/39501/r-vtin-10-mg-tablet"
+    },
+    {
+      "name": "Rauto",
+      "strength": "5 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/36325/rauto-5-mg-tablet"
+    },
+    {
+      "name": "Rauto",
+      "strength": "10 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 20.50",
+      "url": "https://medex.com.bd/brands/36326/rauto-10-mg-tablet"
+    },
+    {
+      "name": "Restat",
+      "strength": "5 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24343/restat-5-mg-tablet"
+    },
+    {
+      "name": "Restat",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/24344/restat-10-mg-tablet"
+    },
+    {
+      "name": "Resva",
+      "strength": "5 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32071/resva-5-mg-tablet"
+    },
+    {
+      "name": "Resva",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/32072/resva-10-mg-tablet"
+    },
+    {
+      "name": "Resva",
+      "strength": "20 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/32073/resva-20-mg-tablet"
+    },
+    {
+      "name": "Rocovas",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/3389/rocovas-10-mg-tablet"
+    },
+    {
+      "name": "Rocovas",
+      "strength": "5 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24345/rocovas-5-mg-tablet"
+    },
+    {
+      "name": "Rocovas",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24346/rocovas-20-mg-tablet"
+    },
+    {
+      "name": "Rolip",
+      "strength": "5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24357/rolip-5-mg-tablet"
+    },
+    {
+      "name": "Rolip",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/24358/rolip-10-mg-tablet"
+    },
+    {
+      "name": "Rolip",
+      "strength": "20 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/30790/rolip-20-mg-tablet"
+    },
+    {
+      "name": "Rolip",
+      "strength": "5 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/39250/rolip-5-mg-sprinkle-capsule"
+    },
+    {
+      "name": "Rolip",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 24.50",
+      "url": "https://medex.com.bd/brands/39251/rolip-10-mg-sprinkle-capsule"
+    },
+    {
+      "name": "Rolip",
+      "strength": "20 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 30.50",
+      "url": "https://medex.com.bd/brands/39252/rolip-20-mg-sprinkle-capsule"
+    },
+    {
+      "name": "Rolip",
+      "strength": "40 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 50.50",
+      "url": "https://medex.com.bd/brands/39253/rolip-40-mg-sprinkle-capsule"
+    },
+    {
+      "name": "Ropitor",
+      "strength": "5 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/3390/ropitor-5-mg-tablet"
+    },
+    {
+      "name": "Ropitor",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/3391/ropitor-10-mg-tablet"
+    },
+    {
+      "name": "Ropitor",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/3392/ropitor-20-mg-tablet"
+    },
+    {
+      "name": "Ropitor",
+      "strength": "40 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38207/ropitor-40-mg-tablet"
+    },
+    {
+      "name": "Rosetor",
+      "strength": "5 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3393/rosetor-5-mg-tablet"
+    },
+    {
+      "name": "Rosetor",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/3394/rosetor-10-mg-tablet"
+    },
+    {
+      "name": "Rosetor",
+      "strength": "20 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24317/rosetor-20-mg-tablet"
+    },
+    {
+      "name": "Rosicard",
+      "strength": "5 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27933/rosicard-5-mg-tablet"
+    },
+    {
+      "name": "Rosicard",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/27934/rosicard-10-mg-tablet"
+    },
+    {
+      "name": "Rostab",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 26.00",
+      "url": "https://medex.com.bd/brands/3395/rostab-10-mg-tablet"
+    },
+    {
+      "name": "Rostab",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/3396/rostab-20-mg-tablet"
+    },
+    {
+      "name": "Rostab",
+      "strength": "5 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24319/rostab-5-mg-tablet"
+    },
+    {
+      "name": "Rostatin",
+      "strength": "5 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/3397/rostatin-5-mg-tablet"
+    },
+    {
+      "name": "Rostatin",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/3398/rostatin-10-mg-tablet"
+    },
+    {
+      "name": "Rostatin",
+      "strength": "20 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/3399/rostatin-20-mg-tablet"
+    },
+    {
+      "name": "Rosterol",
+      "strength": "10 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.08",
+      "url": "https://medex.com.bd/brands/24366/rosterol-10-mg-tablet"
+    },
+    {
+      "name": "Rosu",
+      "strength": "5 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/3400/rosu-5-mg-tablet"
+    },
+    {
+      "name": "Rosu",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/3401/rosu-10-mg-tablet"
+    },
+    {
+      "name": "Rosu",
+      "strength": "20 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/3402/rosu-20-mg-tablet"
+    },
+    {
+      "name": "Rosu",
+      "strength": "40 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36830/rosu-40-mg-tablet"
+    },
+    {
+      "name": "Rosubest",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/38701/rosubest-10-mg-tablet"
+    },
+    {
+      "name": "Rosucard",
+      "strength": "10 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/24335/rosucard-10-mg-tablet"
+    },
+    {
+      "name": "Rosufast",
+      "strength": "5 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30236/rosufast-5-mg-tablet"
+    },
+    {
+      "name": "Rosufast",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/30237/rosufast-10-mg-tablet"
+    },
+    {
+      "name": "Rosugen",
+      "strength": "5 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/3403/rosugen-5-mg-tablet"
+    },
+    {
+      "name": "Rosugen",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/3404/rosugen-10-mg-tablet"
+    },
+    {
+      "name": "Rosugen",
+      "strength": "20 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/32902/rosugen-20-mg-tablet"
+    },
+    {
+      "name": "Rosulip",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/24338/rosulip-10-mg-tablet"
+    },
+    {
+      "name": "Rosulux",
+      "strength": "5 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34220/rosulux-5-mg-tablet"
+    },
+    {
+      "name": "Rosulux",
+      "strength": "10 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/34221/rosulux-10-mg-tablet"
+    },
+    {
+      "name": "Rosumax",
+      "strength": "5 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/29336/rosumax-5-mg-tablet"
+    },
+    {
+      "name": "Rosumax",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/29337/rosumax-10-mg-tablet"
+    },
+    {
+      "name": "Rosumax",
+      "strength": "20 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/29338/rosumax-20-mg-tablet"
+    },
+    {
+      "name": "Rosunaaf",
+      "strength": "10 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/36495/rosunaaf-10-mg-tablet"
+    },
+    {
+      "name": "Rosunaaf",
+      "strength": "5 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/36496/rosunaaf-5-mg-tablet"
+    },
+    {
+      "name": "Rosunor",
+      "strength": "10 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24326/rosunor-10-mg-tablet"
+    },
+    {
+      "name": "Rosunor",
+      "strength": "5 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24327/rosunor-5-mg-tablet"
+    },
+    {
+      "name": "Rosustat",
+      "strength": "5 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35800/rosustat-5-mg-tablet"
+    },
+    {
+      "name": "Rosustat",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/35801/rosustat-10-mg-tablet"
+    },
+    {
+      "name": "Rosutin",
+      "strength": "5 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3405/rosutin-5-mg-tablet"
+    },
+    {
+      "name": "Rosutin",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/3406/rosutin-10-mg-tablet"
+    },
+    {
+      "name": "Rosutin",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/24328/rosutin-20-mg-tablet"
+    },
+    {
+      "name": "Rosutin",
+      "strength": "40 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38946/rosutin-40-mg-tablet"
+    },
+    {
+      "name": "Rosuva",
+      "strength": "5 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3407/rosuva-5-mg-tablet"
+    },
+    {
+      "name": "Rosuva",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/3408/rosuva-10-mg-tablet"
+    },
+    {
+      "name": "Rosuva",
+      "strength": "20 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/3409/rosuva-20-mg-tablet"
+    },
+    {
+      "name": "Rosvin",
+      "strength": "10 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/27876/rosvin-10-mg-tablet"
+    },
+    {
+      "name": "Rovast",
+      "strength": "5 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/24340/rovast-5-mg-tablet"
+    },
+    {
+      "name": "Rovast",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24341/rovast-10-mg-tablet"
+    },
+    {
+      "name": "Rovast",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24342/rovast-20-mg-tablet"
+    },
+    {
+      "name": "Rovator",
+      "strength": "5 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/26006/rovator-5-mg-tablet"
+    },
+    {
+      "name": "Rovator",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/26007/rovator-10-mg-tablet"
+    },
+    {
+      "name": "Rovex",
+      "strength": "5 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24353/rovex-5-mg-tablet"
+    },
+    {
+      "name": "Rovex",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/24354/rovex-10-mg-tablet"
+    },
+    {
+      "name": "Rovius",
+      "strength": "5 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/33270/rovius-5-mg-tablet"
+    },
+    {
+      "name": "Rovius",
+      "strength": "10 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/33271/rovius-10-mg-tablet"
+    },
+    {
+      "name": "Rovius",
+      "strength": "20 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/39151/rovius-20-mg-tablet"
+    },
+    {
+      "name": "Rozavas",
+      "strength": "10 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/24321/rozavas-10-mg-tablet"
+    },
+    {
+      "name": "Rozavas",
+      "strength": "5 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/24322/rozavas-5-mg-tablet"
+    },
+    {
+      "name": "Rozavel",
+      "strength": "10 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/3410/rozavel-10-mg-tablet"
+    },
+    {
+      "name": "Rozavel",
+      "strength": "5 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 13.25",
+      "url": "https://medex.com.bd/brands/24361/rozavel-5-mg-tablet"
+    },
+    {
+      "name": "Rozavel",
+      "strength": "20 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/31951/rozavel-20-mg-tablet"
+    },
+    {
+      "name": "RoZenon",
+      "strength": "10 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/33155/rozenon-10-mg-tablet"
+    },
+    {
+      "name": "RoZenon",
+      "strength": "5 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/33156/rozenon-5-mg-tablet"
+    },
+    {
+      "name": "RoZenon",
+      "strength": "20 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/37357/rozenon-20-mg-tablet"
+    },
+    {
+      "name": "RTV",
+      "strength": "5 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/24336/rtv-5-mg-tablet"
+    },
+    {
+      "name": "RTV",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/24337/rtv-10-mg-tablet"
+    },
+    {
+      "name": "RTV",
+      "strength": "20 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31928/rtv-20-mg-tablet"
+    },
+    {
+      "name": "RTV",
+      "strength": "40 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/37211/rtv-40-mg-tablet"
+    },
+    {
+      "name": "Ruvastin",
+      "strength": "5 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3411/ruvastin-5-mg-tablet"
+    },
+    {
+      "name": "Ruvastin",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/3412/ruvastin-10-mg-tablet"
+    },
+    {
+      "name": "Ruvastin",
+      "strength": "20 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/26430/ruvastin-20-mg-tablet"
+    },
+    {
+      "name": "RVN",
+      "strength": "5 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36304/rvn-5-mg-tablet"
+    },
+    {
+      "name": "RVN",
+      "strength": "10 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/36305/rvn-10-mg-tablet"
+    },
+    {
+      "name": "RVN",
+      "strength": "20 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/36306/rvn-20-mg-tablet"
+    },
+    {
+      "name": "SB-Rostin",
+      "strength": "20 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/24363/sb-rostin-20-mg-tablet"
+    },
+    {
+      "name": "SB-Rostin",
+      "strength": "10 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/24364/sb-rostin-10-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Rosuvastatin tablet is indicated for:\n\n- Patients with primary hyperlipidemia and mixed dyslipidemia as an adjunct to diet to reduce elevated total-C, LDL-C, ApoB, non HDL-C and TG levels and to increase HDL-C.\n- Patients with hypertriglyceredemia as an adjunct to diet.\n- Patients with primary dysbetalipoproteinemia (Type III hyperlipoproteinemia) as an adjunct to diet.\nRosuvastatin tablet is indicated for:\n\n- Patients with primary hyperlipidemia and mixed dyslipidemia as an adjunct to diet to reduce elevated total-C, LDL-C, ApoB, non HDL-C and TG levels and to increase HDL-C.\n- Patients with hypertriglyceredemia as an adjunct to diet.\n- Patients with primary dysbetalipoproteinemia (Type III hyperlipoproteinemia) as an adjunct to diet.\n- Patients with homozygous familial hypercholesterolemia (HoFH) to reduce LDL-C, total-C, and ApoB.\n- Slowing the progression of atherosclerosis as part of a treatment strategy to lower total-C and LDL-C as an adjunct to diet.\n- Pediatric patients 10 to 17 years of age with heterozygous familial hypercholesterolemia (HeFH) to reduce elevated total-C, LDL-C and ApoB after failing an adequate trial of diet therapy.\n- Risk reduction of Myocardial Infarction (MI), stroke and arterial revascularization procedures in patients without clinically evident CHD, but with multiple risk factors.",
+    "mode_of_action": "Rosuvastatin is a selective and competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methyl glutaryl coenzyme A to mevalonate, a precursor of cholesterol. Rosuvastatin produces its lipid-modifying effects in two ways. First, it increases the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL. Second, Rosuvastatin inhibits hepatic synthesis of VLDL, which reduces the total number of VLDL and LDL particles.",
+    "dosage": "**Heterozygous Familial Hypercholesterolemia in Pediatric Patients (10 to 17 years of age)**: The usual dose range of Rosuvastatin is 5-20 mg/day; the maximum recommended dose is 20 mg/day (doses greater than 20 mg have not been studied in this patient population). Doses should be individualized according to the recommended goal of therapy. Adjustments should be made at intervals of 4 weeks or more.\n\n**Very High Cholesterol and High Risk of Ml or Stroke**: 40 mg once daily.\n\n**Homozygous Familial Hypercholesterolemia**: The recommended starting dose of Rosuvastatin is 20 mg once daily. Response to therapy should be estimated from preapheresis LDL-C levels.\n\n**Dosage in Asian Patients**: Initiation of Rosuvastatin therapy with 5 mg once daily should be considered for Asian patients\n\n**Use with Cyclosporine, Lopinavir/Ritonavir or Atazanavir/Ritonavir**: In patients taking Cyclosporine, the dose of Rosuvastatin should be limited to 5 mg once daily. In patients taking a combination of Lopinavir and Ritonavir or Atazanavir and Ritonavir, the dose of Rosuvastatin should be limited to 10 mg once daily.\n\n**Concomitant Lipid-Lowering Therapy**: The risk of skeletal muscle effects may be enhanced when Rosuvastatin is used in combination with Niacin or Fenofibrate; a reduction in Rosuvastatin dosage should be considered in this setting. Combination therapy with Gemfibrozil should be avoided because of an increase in Rosuvastatin exposure with concomitant use; if Rosuvastatin is used in combination with Gemfibrozil, the dose of Rosuvastatin should be limited to 10 mg once daily.\n\n**Dosage in Patients with Severe Renal Impairment**: For patients with severe renal impairment (ClCr<30 mL/min/1.73 m²) not on hemodialysis, dosing of Rosuvastatin should be started at 5 mg once daily and not exceed 10 mg once daily.",
+    "interaction": "Remarkable drug interactions of Rosuvastatin are-\n\n- **Cyclosporine**: Combination increases Rosuvastatin exposure. Rosuvastatin dose should be limited to 5 mg once daily.\n- **Gemfibrosil**: Combination should be avoided. If used together, Rosuvastatin dose should be limited to 10 mg once daily.\n- **Lopinavir/Ritonavir or atazanavir/ritonavir**: Combination increases Rosuvastatin exposure. Rosuvastatin dose should be to 10 mg once daily.\n- **Coumarin anticoagulants**: Combination prolongs international normalized ratio (INR). Stable INR should be achieved prior to starting Rosuvastatin. INR should be monitored frequently until stable upon initiation or alteration of Rosuvastatin therapy.\n- **Concomitant lipid-lowering therapies**: Use with fibrates and niacin products may increase the risk of skeletal muscle effects.",
+    "contraindications": "Rosuvastatin is contraindicated if-\n\n- Known hypersensitivity to product components\n- Liver disease, which may include unexplained persistent elevations in hepatic transaminase levels\n- Pregnant women and women who may become pregnant\n- Nursing mothers",
+    "side_effects": "Rosuvastatin is generally well tolerated. The most frequent adverse events thought to be related to Rosuvastatin were headache, myalgia, constipation, asthenia, abdominal pain and nausea.",
+    "pregnancy_cat": "Rosuvastatin should be administered to women of childbearing age only when such patients are highly unlikely to conceive and have been informed of the potential hazards. If the patient becomes pregnant while taking this drug, therapy should be discontinued immediately. It is not known whether Rosuvastatin is excreted in human milk, but a small amount of another drug in this class does pass into breast milk.",
+    "precautions": "Rosuvastatin should be prescribed with caution in patients with predisposing factors for myopathy (e.g., age >65 years, inadequately treated hypothyroidism, renal impairment). The risk of myopathy during treatment with Rosuvastatin may be increased with concurrent administration of some other lipid-lowering therapies (Fibrates or Niacin), Gemfibrozil, Cyclosporine, Lopinavir/Ritonavir, or Atazanavir/Ritonavir. Rosuvastatin therapy should be discontinued if markedly elevated creatinine kinase levels occur or myopathy is diagnosed or suspected. Rosuvastatin therapy should also be temporarily withheld in any patient with an acute, serious condition suggestive of myopathy or predisposing to the development of renal failure secondary to rhabdomyolysis (e.g., sepsis, hypotension, dehydration, major surgery, trauma, severe metabolic, endocrine, and electrolyte disorders, or uncontrolled seizures). It is recommended that liver enzyme tests be performed before and at 12 weeks following both the initiation of therapy and any elevation of dose, and periodically (e.g., semiannually) thereafter.",
+    "overdose_effects": "There is no specific treatment in the event of overdose. In the event of overdose, the patient should be treated symptomatically and supportive measures instituted as required. Hemodialysis does not significantly enhance clearance of Rosuvastatin.",
+    "drug_classes": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+    "storage_conditions": "Keep below 30oC temperature, protected from light & moisture. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 22 H 28 FN 3 O 6 S |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Rosuvastatin?\n\nRosuvastatin is a HMG-CoA reductase inhibitor drug which is helpful in lowering the cholesterol level and triglycerides in the body.\n\n#### What are the uses of Rosuvastatin?\n\nRosuvastatin is useful against the conditions like Hyperlipidemia, Hypertriglyceridemia, Type 3 Hyperlipoproteinemia and Stroke.\n\n#### What are the side effects of Rosuvastatin?\n\nSide effects of Rosuvastatin include Muscle pain, Weakness, Headache and Abdominal pain.\n\n#### For how long should I take Rosuvastatin?\n\nRosuvastatin should be taken till you see improvement in your medical condition. Follow your doctor’s instructions to know the duration for this drug.\n\n#### Does Rosuvastatin cause weight gain?\n\nWeight gain is a very rare side effect of Rosuvastatin. This medication does not lead to weight gain and in case you are observing this symptom, please consult a doctor for diagnosis.\n\n#### Does Rosuvastatin make you tired?\n\nTiredness and fatigue is a common side effect of Rosuvastatin however, the exact reason behind it is still not known. Consult a doctor if it persists for a longer duration of time.\n\n#### Should Rosuvastatin be taken at night?\n\nRosuvastatin is not mandatory to take this drug at night. You can take it in the morning too, however, it should be consumed once a day only. Ideally, you must follow your doctor’s instructions regarding the dosage.\n\n#### What foods should be avoided when taking Rosuvastatin?\n\nAvoid eating junk food and foods that are high in calories as they can increase the cholesterol levels. You must eat only a low-cholesterol diet during the course of Rosuvastatin treatment.\n\n#### How do I know whether Rosuvastatin is beneficial for me or not?\n\nIf you start noticing improvement in your condition, then Rosuvastatin is beneficial for you. In case, you do not see any positive effects of this drug or experience adverse side effects after consuming this medicine, then consult a doctor to know a safer substitute of this drug.\n\n#### Can Rosuvastatin cause memory loss?\n\nMemory loss is a very unusual side effect that can occur. If this symptom occurs, stop taking this medicine and consult a doctor immediately.\n\n#### Is it true that Rosuvastatin can cause diabetes?\n\nThis medicine does not cause diabetes, however, if you already are at higher risk of having this disorder, then this medicine can enhance the risk factor by increasing the blood sugar levels. In such a case, regular monitoring of blood sugar level is mandatory.\n\n#### Can I take alcohol with Rosuvastatin?\n\nDo not take alcohol during the course of treatment with this medicine as it can increase the risk of having liver problems. Also, alcohol can increase the levels of triglyceride levels in the body.\n\n#### Can Rosuvastatin cause muscle problems or muscle injury?\n\nMuscle pain or any other problem associated with muscles is the most common side effect of this medicine. Consult your doctor if this side effect is causing discomfort in doing day to day activities.\n\n#### Quick Tips\n\n- Rosuvastatin treats high cholesterol by lowering \"bad\" cholesterol (LDL) and triglycerides (fats). It should be taken in addition to regular exercise and low-fat diet.\n- In general, Rosuvastatin is safe. It may cause diarrhea, gas or an upset stomach. If any of these happen to you, take it with food.\n- Inform your doctor if you experience fatigue, muscle weakness or muscle pain.\n- Your doctor may check your liver function before starting the treatment and regularly thereafter. Inform your doctor if you notice signs of liver problems such as stomach pains, unusually dark urine or yellowing of skin or eyes.\n- Inform your doctor if you have kidney disease, liver disease or diabetes before starting treatment with this medicine. If you are diabetic, monitor your blood sugar level regularly as Rosuvastatin may cause an increase in your blood sugar level.\n- Do not take Rosuvastatin if you are pregnant, planning a pregnancy or breastfeeding."
+  },
+  "sections_bn": {
+    "indications": "রসুভাস্টাটিন ক্যালসিয়াম ট্যাবলেট ক্যালসিয়াম নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- হেটেরোজাইগাস হাইপারকোলেস্টেরোলেমিয়া (ফ্যামিলিয়াল এবং নন-ফ্যামিলিয়াল)\n- হোমোজাইগাস হাইপারকোলেস্টেরোলেমিয়া (ফ্যামিলিয়াল)\n- মিক্সড ডিসলিপিডেমিয়া (ফেডরিকসন টাইপ ষষধ এবং ষষন)\n- প্রাথমিক হৃদরোগ প্রতিরোধে",
+    "mode_of_action": "রসুভাসটাটিন HMG-CoA রিডাক্টেজ এনজাইমের সিলেকটিভ ও কমপিটিটিভ ইনহিবিটর। HMG-CoA রিডাক্টেজ একটি গতি নির্দেশক এনজাইম যা ৩-হাইড্রোক্সি ৩-মিথাইল Glutaryl কো-এনজাইম-এ এর মেভালোনেট এ পরিবর্তন ত্বরান্বিত করে। মেভালোনেট কোলেস্টেরলের একটি প্রাথমিক উপাদান। রসুভাসটাটিন দুই ভাবে লিপিড পরিবর্তন করে। প্রথমত, এটি কোষপ্রান্তে হেপাটিক এলডিএল রিসেপ্টরের সংখ্যা বৃদ্ধি করে LDL এর শোষণ ও বিয়োজন ত্বরান্বিত করে। দ্বিতীয়ত, রসুভাসটাটিন যকৃতে VLDL এর সংশ্লেষণ প্রতিরোধ করে যা VLDL ও LDL কণিকার পরিমাণ হ্রাস করে।",
+    "dosage": "**সেবন সীমা**: ৫-৪০ মিঃগ্রাঃ দৈনিক একবার। ৪০ মিঃগ্রাঃ শুধু সেসব রোগীর ক্ষেত্রেই ব্যবহার করা যেতে পারে যাদের কাঙ্খিত LDL-C লেভেল ২০ মিঃগ্রাঃ দিয়ে অর্জিত হচ্ছে না।\n**HoFH**: প্রারম্ভিক মাত্রা দৈনিক ২০ মিঃগ্রাঃ।\n**শিশু HeFH রোগীদের ক্ষেত্রে**: ৮ থেকে ১০ বছরের কম বয়সের রোগীর ক্ষেত্রে দৈনিক মাত্রা ৫-১০ মিঃগ্রাঃ এবং ১০ থেকে ১৭ বছর বয়সের রোগীদের ক্ষেত্রে দৈনিক মাত্রা ৫-২০ মিঃগ্রাঃ।\n**শিশু HeFH রোগীদের ক্ষেত্রে**: ৭ থেকে ১৭ বছর বয়েসের রোগীদের ক্ষেত্রে দৈনিক মাত্রা ২০ মিঃগ্রাঃ।",
+    "administration": "রসুভাসটাটিন দিনের যে কোন সময় খাদ্য গ্রহণের আগে বা পরে গ্রহন করা যেতে পারে।",
+    "interaction": "রসুভাসটাটিন এর উল্লেখযোগ্য ড্রাগ ইন্টার‌্যাকশন হল-\n\n- সাইক্লোস্পোরিন: এক সাথে ব্যবহারে রসুভাসটাটিনের পরিমাণ বৃদ্ধি করে । রসুভাসটাটিনের মাত্রা দৈনিক ৫ মিঃগ্রাঃ একক মাত্রায় সীমিত রাখা উচিত।\n- জেমফাইব্রোজিল: এক সাথে ব্যবহার এড়িয়ে চলা উচিত। যদি ব্যবহার করা হয়, রসুভাসটাটিনের দৈনিক ১০ মিঃগ্রাঃ একক মাত্রায় সীমিত রাখা উচিত।\n- লাপিনাভির/রিটোনাভির বা এটাজানাভির/রিটোনাভির: এর সাথে ব্যবহার রসুভাসটাটিনের পরিমাণ বৃদ্ধি করে রসুভাসটাটিন দৈনিক ১০ মিঃগ্রাঃ একক মাত্রায় সীমিত রাখা উচিত।\n- কুমারিন এন্টিকোয়াগুলেন্টস: এক সাথে ব্যবহার ইন্টারন্যশনাল নরমালাইজড রেসিও (INR) বাড়িয়ে দেয়। রসুভাসটাটিন শুরু করার আগে স্থিতিশীল আই এন আর অর্জন করা উচিত। রসুভাসটাটিন শুরু বা পরিবর্তন করায় স্থিতিশীল আই এন আর অর্জিত না হওয়া পর্যন্ত নিয়মিত যাচাই করা উচিত।\n- সমসাময়িক লিপিড কমানোর চিকিৎসা নেয়ার ক্ষেত্রে: ফাইব্রেট এবং নিয়াসিন এর সাথে ব্যবহার করার ক্ষেত্রে স্কেলেটাল মাংস পেশীতে প্রভাব বাড়িয়ে দিতে পারে।",
+    "contraindications": "রসুভাসটাটিন নিম্নলিখিত ক্ষেত্রে প্রতিনির্দেশিত-\n\n- যদি এর কোন উপাদানের প্রতি সংবেদনশীলতা থাকে।\n- যকৃত রোগ যার অন্তর্ভূক্ত হল ব্যাখ্যাতীত হেপাটিক ট্রান্সঅ্যামিনেজ লেভেল বৃদ্ধি।\n- গর্ভবতী মহিলা ও গর্ভবতী হতে পারে এমন মহিলা।\n- স্তন্যদানকালে।",
+    "side_effects": "রসুভাসটাটিন সাধারণত সুসহনীয়। রসুভাসটাটিন সংশ্লিষ্ট উল্লেখযোগ্য পার্শ্ব প্রতিক্রিয়া সমূহ হল- মাথা ব্যথা, মায়েলজিয়া, কোষ্ঠকাঠিন্য, এসথেনিয়া, পেটে ব্যথা এবং বমি বমি ভাব।",
+    "pregnancy_cat": "গর্ভাবস্থায় রসুভাসটাটিনের নিরাপত্তা এখনও প্রমাণিত হয়নি। রসুভাসটাটিন মাতৃদুগ্ধে নিঃসৃত হয় কিনা এখনো জানা যায়নি।",
+    "precautions": "স্কেলেটাল পেশীতে প্রভাব (যেমন- মায়োপ্যাথি ও র‌্যাবডোমায়োলাইসিস): ৪০ মিঃগ্রাঃ মাত্রা, অধিক বয়স (>৬৫ বছর) হাইপোথাইরয়েডিজম, কিডনী সমস্যা এবং সাইক্লোস্পরিন, লোপিনাভির/রিটোনাভির, এটাজানাভির/রিটোনাভির অথবা কিছু অন্যান্য লিপিড কমানোর ঔষুধের সাথে যৌথ ব্যবহারে ঝুঁকি বাড়িয়ে দিতে পারে। ব্যাখ্যাতীত পেশীতে ব্যথা, নাজুকতা বা দুর্বলতা দেখা দিলে দ্রুত চিকিৎসকের পরামর্শ নেয়া উচিত এবং এসব লক্ষণ দেখা দিলে রসুভাসটাটিন সেবন বন্ধ করা উচিত।\n\nলিভার এনজাইম সমস্যা এবং পর্যবেক্ষণ: হেপাটিক ট্রান্সঅ্যামিনেজ এনজাইমের পরিমান বেড়ে যেতে পারে।\n\nচিকিৎসা গ্রহনের আগে এবং চিকিৎসা গ্রহনের সময় লিভার এনজাইমের পরিমাণ পর্যবেক্ষণ করতে হবে।",
+    "pediatric_uses": "শিশুদের ক্ষেত্রে নিরাপত্তা ও কার্যকারিতা এখনও প্রতিষ্ঠিত হয়নি।",
+    "drug_classes": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০o সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 22 H 28 FN 3 O 6 S |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/970/rosuvastatin-calcium",
+  "source_url_bn": "https://medex.com.bd/generics/970/rosuvastatin-calcium/bn",
+  "scraped_at": "2026-10-10T15:04:01+00:00"
+}

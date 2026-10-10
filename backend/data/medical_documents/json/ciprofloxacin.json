@@ -1,0 +1,1886 @@
+{
+  "slug": "ciprofloxacin",
+  "name_en": "Ciprofloxacin",
+  "name_bn": "সিপ্রোফ্লক্সাসিন",
+  "therapeutic_class": "4-Quinolone preparations, Anti-diarrhoeal antimicrobial drugs",
+  "dosage_forms": [
+    "Tablet & Oral Suspension",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adecin",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9102/adecin-500-mg-tablet"
+    },
+    {
+      "name": "Amiflox",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/9132/amiflox-250-mg-tablet"
+    },
+    {
+      "name": "Amiflox",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9133/amiflox-500-mg-tablet"
+    },
+    {
+      "name": "Amiflox",
+      "strength": "750 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9134/amiflox-750-mg-tablet"
+    },
+    {
+      "name": "Amiflox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/9135/amiflox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ancipro",
+      "strength": "250 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9136/ancipro-250-mg-tablet"
+    },
+    {
+      "name": "Ancipro",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9137/ancipro-500-mg-tablet"
+    },
+    {
+      "name": "Ancipro",
+      "strength": "750 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9138/ancipro-750-mg-tablet"
+    },
+    {
+      "name": "Aprocin",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9142/aprocin-500-mg-tablet"
+    },
+    {
+      "name": "Aprocin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9144/aprocin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Armycin",
+      "strength": "500 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38976/armycin-500-mg-tablet"
+    },
+    {
+      "name": "Bactin",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9145/bactin-250-mg-tablet"
+    },
+    {
+      "name": "Bactin",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/9146/bactin-500-mg-tablet"
+    },
+    {
+      "name": "Bactin",
+      "strength": "750 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 18.06",
+      "url": "https://medex.com.bd/brands/9147/bactin-750-mg-tablet"
+    },
+    {
+      "name": "Bactin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/26589/bactin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Bactin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "60 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/26590/bactin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Benprox",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27441/benprox-500-mg-tablet"
+    },
+    {
+      "name": "Benprox",
+      "strength": "750 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/27442/benprox-750-mg-tablet"
+    },
+    {
+      "name": "Benprox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27443/benprox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Beuflox",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9148/beuflox-250-mg-tablet"
+    },
+    {
+      "name": "Beuflox",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9149/beuflox-500-mg-tablet"
+    },
+    {
+      "name": "Beuflox",
+      "strength": "750 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9150/beuflox-750-mg-tablet"
+    },
+    {
+      "name": "Beuflox",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 146.00",
+      "url": "https://medex.com.bd/brands/9153/beuflox-200-mg-iv-infusion"
+    },
+    {
+      "name": "Beuflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26190/beuflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Captiva",
+      "strength": "500 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/32908/captiva-500-mg-tablet"
+    },
+    {
+      "name": "Captiva",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/32909/captiva-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceprocon",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9155/ceprocon-500-mg-tablet"
+    },
+    {
+      "name": "Ceprocon",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 98.00",
+      "url": "https://medex.com.bd/brands/9156/ceprocon-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cero",
+      "strength": "500 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9157/cero-500-mg-tablet"
+    },
+    {
+      "name": "Cibact",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9158/cibact-500-mg-tablet"
+    },
+    {
+      "name": "Cibact",
+      "strength": "750 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/27225/cibact-750-mg-tablet"
+    },
+    {
+      "name": "Cibact",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27226/cibact-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciflocin",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9159/ciflocin-500-mg-tablet"
+    },
+    {
+      "name": "Ciflox",
+      "strength": "500 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/9160/ciflox-500-mg-tablet"
+    },
+    {
+      "name": "Cilocin",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9161/cilocin-500-mg-tablet"
+    },
+    {
+      "name": "Cilocin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9163/cilocin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cip",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27103/cip-500-mg-tablet"
+    },
+    {
+      "name": "Cip",
+      "strength": "750 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/27134/cip-750-mg-tablet"
+    },
+    {
+      "name": "Cipcin",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 8.52",
+      "url": "https://medex.com.bd/brands/9166/cipcin-250-mg-tablet"
+    },
+    {
+      "name": "Cipcin",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 15.06",
+      "url": "https://medex.com.bd/brands/9167/cipcin-500-mg-tablet"
+    },
+    {
+      "name": "Cipcin",
+      "strength": "750 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 18.08",
+      "url": "https://medex.com.bd/brands/9168/cipcin-750-mg-tablet"
+    },
+    {
+      "name": "Cipcin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9169/cipcin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipcin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/28889/cipcin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Cipex",
+      "strength": "250 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29244/cipex-250-mg-tablet"
+    },
+    {
+      "name": "Cipex",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29245/cipex-500-mg-tablet"
+    },
+    {
+      "name": "Cipex",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/29246/cipex-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipex",
+      "strength": "750 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.00",
+      "url": "https://medex.com.bd/brands/32331/cipex-750-mg-tablet"
+    },
+    {
+      "name": "Ciplon",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/9173/ciplon-200-mg-iv-infusion"
+    },
+    {
+      "name": "Ciplon DS",
+      "strength": "400 mg/100 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 144.32",
+      "url": "https://medex.com.bd/brands/9174/ciplon-ds-400-mg-iv-infusion"
+    },
+    {
+      "name": "Ciprin",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9177/ciprin-500-mg-tablet"
+    },
+    {
+      "name": "Cipro",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9178/cipro-500-mg-tablet"
+    },
+    {
+      "name": "Cipro",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9179/cipro-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipro-A",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.56",
+      "url": "https://medex.com.bd/brands/9180/cipro-a-250-mg-tablet"
+    },
+    {
+      "name": "Cipro-A",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 16.50",
+      "url": "https://medex.com.bd/brands/9181/cipro-a-500-mg-tablet"
+    },
+    {
+      "name": "Cipro-A",
+      "strength": "750 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 18.11",
+      "url": "https://medex.com.bd/brands/9182/cipro-a-750-mg-tablet"
+    },
+    {
+      "name": "Cipro-A",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/9183/cipro-a-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipro-A",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 146.94",
+      "url": "https://medex.com.bd/brands/9184/cipro-a-200-mg-iv-infusion"
+    },
+    {
+      "name": "Cipro-C",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9188/cipro-c-500-mg-tablet"
+    },
+    {
+      "name": "Cipro-C",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/27564/cipro-c-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipro-M",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.06",
+      "url": "https://medex.com.bd/brands/9206/cipro-m-500-mg-tablet"
+    },
+    {
+      "name": "Cipro-M",
+      "strength": "750 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.06",
+      "url": "https://medex.com.bd/brands/9207/cipro-m-750-mg-tablet"
+    },
+    {
+      "name": "Cipro-P",
+      "strength": "500 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/35664/cipro-p-500-mg-tablet"
+    },
+    {
+      "name": "Cipro-S",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9216/cipro-s-500-mg-tablet"
+    },
+    {
+      "name": "Cipro-S",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/9217/cipro-s-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciproaid",
+      "strength": "500 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/9185/ciproaid-500-mg-tablet"
+    },
+    {
+      "name": "Ciprobac 500",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9186/ciprobac-500-500-mg-tablet"
+    },
+    {
+      "name": "Ciprobac DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9187/ciprobac-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprobey",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.04",
+      "url": "https://medex.com.bd/brands/27005/ciprobey-500-mg-tablet"
+    },
+    {
+      "name": "Ciprobey",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27006/ciprobey-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprocap",
+      "strength": "250 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.71",
+      "url": "https://medex.com.bd/brands/9189/ciprocap-250-mg-tablet"
+    },
+    {
+      "name": "Ciprocap",
+      "strength": "500 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 14.35",
+      "url": "https://medex.com.bd/brands/9190/ciprocap-500-mg-tablet"
+    },
+    {
+      "name": "Ciprocin",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.56",
+      "url": "https://medex.com.bd/brands/9191/ciprocin-250-mg-tablet"
+    },
+    {
+      "name": "Ciprocin",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9192/ciprocin-500-mg-tablet"
+    },
+    {
+      "name": "Ciprocin",
+      "strength": "750 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.12",
+      "url": "https://medex.com.bd/brands/9193/ciprocin-750-mg-tablet"
+    },
+    {
+      "name": "Ciprocin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/9195/ciprocin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprocin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml vial : ৳ 146.00",
+      "url": "https://medex.com.bd/brands/26178/ciprocin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Ciprodyl",
+      "strength": "500 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/37404/ciprodyl-500-mg-tablet"
+    },
+    {
+      "name": "Ciprofloxacin",
+      "strength": "250 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/37645/ciprofloxacin-250-mg-tablet"
+    },
+    {
+      "name": "Ciprofloxacin",
+      "strength": "500 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/37646/ciprofloxacin-500-mg-tablet"
+    },
+    {
+      "name": "Ciprogerm",
+      "strength": "500 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/28390/ciprogerm-500-mg-tablet"
+    },
+    {
+      "name": "Ciproguard",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/28202/ciproguard-500-mg-tablet"
+    },
+    {
+      "name": "Ciprol",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9196/ciprol-500-mg-tablet"
+    },
+    {
+      "name": "Ciprol DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/9197/ciprol-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprolyn",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/9201/ciprolyn-500-mg-tablet"
+    },
+    {
+      "name": "Ciprolyn",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/9202/ciprolyn-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprom",
+      "strength": "250 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/9203/ciprom-250-mg-tablet"
+    },
+    {
+      "name": "Ciprom",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9204/ciprom-500-mg-tablet"
+    },
+    {
+      "name": "Ciprom DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9205/ciprom-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipromet",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/9208/cipromet-250-mg-tablet"
+    },
+    {
+      "name": "Cipromet",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9209/cipromet-500-mg-tablet"
+    },
+    {
+      "name": "Cipron",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9210/cipron-500-mg-tablet"
+    },
+    {
+      "name": "Cipron",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "60 ml bottle : ৳ 90.01",
+      "url": "https://medex.com.bd/brands/9211/cipron-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipronaaf",
+      "strength": "500 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28785/cipronaaf-500-mg-tablet"
+    },
+    {
+      "name": "Cipronil",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9212/cipronil-500-mg-tablet"
+    },
+    {
+      "name": "Cipronil",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/9213/cipronil-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cipronil",
+      "strength": "750 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.12",
+      "url": "https://medex.com.bd/brands/27398/cipronil-750-mg-tablet"
+    },
+    {
+      "name": "Cipronor",
+      "strength": "500 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9214/cipronor-500-mg-tablet"
+    },
+    {
+      "name": "Cipronor",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9215/cipronor-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprosic",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "60 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/37796/ciprosic-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprosic",
+      "strength": "500 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 14.50",
+      "url": "https://medex.com.bd/brands/37797/ciprosic-500-mg-tablet"
+    },
+    {
+      "name": "Ciprosic",
+      "strength": "750 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/37798/ciprosic-750-mg-tablet"
+    },
+    {
+      "name": "Ciprotec",
+      "strength": "500 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9218/ciprotec-500-mg-tablet"
+    },
+    {
+      "name": "Ciprotec",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9219/ciprotec-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprotim",
+      "strength": "500 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32500/ciprotim-500-mg-tablet"
+    },
+    {
+      "name": "Ciproton",
+      "strength": "500 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27252/ciproton-500-mg-tablet"
+    },
+    {
+      "name": "Ciprox",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.53",
+      "url": "https://medex.com.bd/brands/9220/ciprox-250-mg-tablet"
+    },
+    {
+      "name": "Ciprox",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9221/ciprox-500-mg-tablet"
+    },
+    {
+      "name": "Ciprox",
+      "strength": "750 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.07",
+      "url": "https://medex.com.bd/brands/9222/ciprox-750-mg-tablet"
+    },
+    {
+      "name": "Ciprox",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9225/ciprox-200-mg-iv-infusion"
+    },
+    {
+      "name": "Ciprox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9224/ciprox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprox XR",
+      "strength": "1000 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.08",
+      "url": "https://medex.com.bd/brands/9223/ciprox-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Ciproxen",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9226/ciproxen-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciproxen",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9227/ciproxen-500-mg-tablet"
+    },
+    {
+      "name": "Ciproxim",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27908/ciproxim-500-mg-tablet"
+    },
+    {
+      "name": "Ciprozen",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/9230/ciprozen-250-mg-tablet"
+    },
+    {
+      "name": "Ciprozen",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/9232/ciprozen-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprozen DS",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9231/ciprozen-ds-500-mg-tablet"
+    },
+    {
+      "name": "Ciprozid",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9233/ciprozid-250-mg-tablet"
+    },
+    {
+      "name": "Ciprozid",
+      "strength": "750 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9235/ciprozid-750-mg-tablet"
+    },
+    {
+      "name": "Ciprozid",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9237/ciprozid-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ciprozid",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/9238/ciprozid-200-mg-iv-infusion"
+    },
+    {
+      "name": "Ciprozid-DS",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9234/ciprozid-ds-500-mg-tablet"
+    },
+    {
+      "name": "Ciprozid-XR",
+      "strength": "1000 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9236/ciprozid-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Civox",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9242/civox-500-mg-tablet"
+    },
+    {
+      "name": "Civox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 90.35",
+      "url": "https://medex.com.bd/brands/9243/civox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Civox",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml vial : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/9244/civox-200-mg-iv-infusion"
+    },
+    {
+      "name": "Cpflox",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/9245/cpflox-500-mg-tablet"
+    },
+    {
+      "name": "Cyrus",
+      "strength": "500 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/37101/cyrus-500-mg-tablet"
+    },
+    {
+      "name": "D-Floxin",
+      "strength": "500 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9250/d-floxin-500-mg-tablet"
+    },
+    {
+      "name": "Deflox",
+      "strength": "250 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.50",
+      "url": "https://medex.com.bd/brands/9246/deflox-250-mg-tablet"
+    },
+    {
+      "name": "Deflox",
+      "strength": "750 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9247/deflox-750-mg-tablet"
+    },
+    {
+      "name": "Deflox",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34771/deflox-500-mg-tablet"
+    },
+    {
+      "name": "Deflox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9248/deflox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "DFX",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9251/dfx-500-mg-tablet"
+    },
+    {
+      "name": "DFX",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "60 ml bottle : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/9252/dfx-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Doquin",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.09",
+      "url": "https://medex.com.bd/brands/9253/doquin-500-mg-tablet"
+    },
+    {
+      "name": "Dumaflox",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.52",
+      "url": "https://medex.com.bd/brands/9254/dumaflox-250-mg-tablet"
+    },
+    {
+      "name": "Dumaflox",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/9255/dumaflox-500-mg-tablet"
+    },
+    {
+      "name": "Dumaflox",
+      "strength": "750 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/9256/dumaflox-750-mg-tablet"
+    },
+    {
+      "name": "Dumaflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9257/dumaflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Efloxin",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28072/efloxin-500-mg-tablet"
+    },
+    {
+      "name": "Efloxin",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/28073/efloxin-250-mg-tablet"
+    },
+    {
+      "name": "Efloxin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/28074/efloxin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eliprox",
+      "strength": "500 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9258/eliprox-500-mg-tablet"
+    },
+    {
+      "name": "Entiflox",
+      "strength": "500 mg",
+      "manufacturer": "Royal Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32180/entiflox-500-mg-tablet"
+    },
+    {
+      "name": "Fiprox",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 14.09",
+      "url": "https://medex.com.bd/brands/28336/fiprox-500-mg-tablet"
+    },
+    {
+      "name": "Fiprox",
+      "strength": "250 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 8.53",
+      "url": "https://medex.com.bd/brands/28337/fiprox-250-mg-tablet"
+    },
+    {
+      "name": "Fiprox",
+      "strength": "750 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 18.07",
+      "url": "https://medex.com.bd/brands/28338/fiprox-750-mg-tablet"
+    },
+    {
+      "name": "Flocip",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9262/flocip-500-mg-tablet"
+    },
+    {
+      "name": "Flocip",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/9263/flocip-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flontin",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 8.53",
+      "url": "https://medex.com.bd/brands/9264/flontin-250-mg-tablet"
+    },
+    {
+      "name": "Flontin",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9265/flontin-500-mg-tablet"
+    },
+    {
+      "name": "Flontin",
+      "strength": "750 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 18.06",
+      "url": "https://medex.com.bd/brands/9266/flontin-750-mg-tablet"
+    },
+    {
+      "name": "Flontin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9267/flontin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Flontin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 145.54",
+      "url": "https://medex.com.bd/brands/9268/flontin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Florocin",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9269/florocin-500-mg-tablet"
+    },
+    {
+      "name": "Florocin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9270/florocin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Floxabid",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.56",
+      "url": "https://medex.com.bd/brands/9271/floxabid-250-mg-tablet"
+    },
+    {
+      "name": "Floxabid",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/9272/floxabid-500-mg-tablet"
+    },
+    {
+      "name": "Floxabid",
+      "strength": "750 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 18.12",
+      "url": "https://medex.com.bd/brands/9273/floxabid-750-mg-tablet"
+    },
+    {
+      "name": "Floxabid",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 146.44",
+      "url": "https://medex.com.bd/brands/26354/floxabid-200-mg-iv-infusion"
+    },
+    {
+      "name": "Floxabid DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "60 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/9275/floxabid-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Floxacin",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9277/floxacin-500-mg-tablet"
+    },
+    {
+      "name": "Floxin",
+      "strength": "250 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/9278/floxin-250-mg-tablet"
+    },
+    {
+      "name": "Floxin",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9279/floxin-500-mg-tablet"
+    },
+    {
+      "name": "Floxin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/9280/floxin-ds-250-mg-tablet"
+    },
+    {
+      "name": "Floxy",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27335/floxy-500-mg-tablet"
+    },
+    {
+      "name": "G-Cipro",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9281/g-cipro-500-mg-tablet"
+    },
+    {
+      "name": "G-Cipro",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/9282/g-cipro-200-mg-iv-infusion"
+    },
+    {
+      "name": "Geflox",
+      "strength": "250 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.49",
+      "url": "https://medex.com.bd/brands/9283/geflox-250-mg-tablet"
+    },
+    {
+      "name": "Geflox",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9284/geflox-500-mg-tablet"
+    },
+    {
+      "name": "Geflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9286/geflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Geflox",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.21",
+      "url": "https://medex.com.bd/brands/9287/geflox-200-mg-iv-infusion"
+    },
+    {
+      "name": "Hi-Floxin",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9293/hi-floxin-500-mg-tablet"
+    },
+    {
+      "name": "Hiflox",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.70",
+      "url": "https://medex.com.bd/brands/9289/hiflox-500-mg-tablet"
+    },
+    {
+      "name": "Hiflox",
+      "strength": "750 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/9290/hiflox-750-mg-tablet"
+    },
+    {
+      "name": "Hiflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 70.26",
+      "url": "https://medex.com.bd/brands/28037/hiflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hiflox-XR",
+      "strength": "1000 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/28036/hiflox-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Kapron",
+      "strength": "250 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9294/kapron-250-mg-tablet"
+    },
+    {
+      "name": "Kapron",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9295/kapron-500-mg-tablet"
+    },
+    {
+      "name": "Kapron",
+      "strength": "750 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9296/kapron-750-mg-tablet"
+    },
+    {
+      "name": "Kapron",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/9297/kapron-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kapron",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/29169/kapron-200-mg-iv-infusion"
+    },
+    {
+      "name": "Libracin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Libra Infusions Ltd.",
+      "price": "100 ml bottle : ৳ 70.48",
+      "url": "https://medex.com.bd/brands/9298/libracin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Libracin",
+      "strength": "400 mg/100 ml",
+      "manufacturer": "Libra Infusions Ltd.",
+      "price": "100 ml bottle : ৳ 146.74",
+      "url": "https://medex.com.bd/brands/9299/libracin-400-mg-iv-infusion"
+    },
+    {
+      "name": "Lox",
+      "strength": "500 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/28153/lox-500-mg-tablet"
+    },
+    {
+      "name": "Maprocin",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9300/maprocin-500-mg-tablet"
+    },
+    {
+      "name": "Maprocin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9302/maprocin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Maprocin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "100 ml bottle : ৳ 70.47",
+      "url": "https://medex.com.bd/brands/9303/maprocin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Maprocin",
+      "strength": "750 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.16",
+      "url": "https://medex.com.bd/brands/37013/maprocin-750-mg-tablet"
+    },
+    {
+      "name": "Maprocin DS",
+      "strength": "400 mg/100 ml",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "100 ml bottle : ৳ 130.88",
+      "url": "https://medex.com.bd/brands/9304/maprocin-ds-400-mg-iv-infusion"
+    },
+    {
+      "name": "Monipro",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9305/monipro-500-mg-tablet"
+    },
+    {
+      "name": "Monipro",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/9306/monipro-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Neoflox",
+      "strength": "500 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9307/neoflox-500-mg-tablet"
+    },
+    {
+      "name": "Neofloxin",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9308/neofloxin-250-mg-tablet"
+    },
+    {
+      "name": "Neofloxin",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9309/neofloxin-500-mg-tablet"
+    },
+    {
+      "name": "Neofloxin",
+      "strength": "750 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9310/neofloxin-750-mg-tablet"
+    },
+    {
+      "name": "Neofloxin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9313/neofloxin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Neofloxin",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 146.50",
+      "url": "https://medex.com.bd/brands/9314/neofloxin-200-mg-iv-infusion"
+    },
+    {
+      "name": "Newcip",
+      "strength": "500 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9315/newcip-500-mg-tablet"
+    },
+    {
+      "name": "Novacin",
+      "strength": "500 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9316/novacin-500-mg-tablet"
+    },
+    {
+      "name": "Novaflox",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/27189/novaflox-500-mg-tablet"
+    },
+    {
+      "name": "Novaflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/27190/novaflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Nucip",
+      "strength": "500 mg",
+      "manufacturer": "FnF Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/32927/nucip-500-mg-tablet"
+    },
+    {
+      "name": "Ocimax",
+      "strength": "500 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27089/ocimax-500-mg-tablet"
+    },
+    {
+      "name": "Ocimax",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27090/ocimax-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Octabid",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/9317/octabid-500-mg-tablet"
+    },
+    {
+      "name": "Orcipro",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9318/orcipro-500-mg-tablet"
+    },
+    {
+      "name": "Oxpro",
+      "strength": "250 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27392/oxpro-250-mg-tablet"
+    },
+    {
+      "name": "Oxpro",
+      "strength": "500 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27393/oxpro-500-mg-tablet"
+    },
+    {
+      "name": "Peoflox",
+      "strength": "500 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/28148/peoflox-500-mg-tablet"
+    },
+    {
+      "name": "Preofloxin",
+      "strength": "500 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27409/preofloxin-500-mg-tablet"
+    },
+    {
+      "name": "Preofloxin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27410/preofloxin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Procin",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.52",
+      "url": "https://medex.com.bd/brands/9319/procin-250-mg-tablet"
+    },
+    {
+      "name": "Procin",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9320/procin-500-mg-tablet"
+    },
+    {
+      "name": "Procin",
+      "strength": "750 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/9321/procin-750-mg-tablet"
+    },
+    {
+      "name": "Procin",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/9322/procin-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Proflox",
+      "strength": "250 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/9323/proflox-250-mg-tablet"
+    },
+    {
+      "name": "Proflox",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9324/proflox-500-mg-tablet"
+    },
+    {
+      "name": "Profloxin",
+      "strength": "500 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/36989/profloxin-500-mg-tablet"
+    },
+    {
+      "name": "QNOL",
+      "strength": "500 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/29467/qnol-500-mg-tablet"
+    },
+    {
+      "name": "Quinobid",
+      "strength": "500 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 16.05",
+      "url": "https://medex.com.bd/brands/9328/quinobid-500-mg-tablet"
+    },
+    {
+      "name": "Quinocin",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/29583/quinocin-500-mg-tablet"
+    },
+    {
+      "name": "Quinocin",
+      "strength": "750 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/37922/quinocin-750-mg-tablet"
+    },
+    {
+      "name": "Quinox",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/9329/quinox-250-mg-tablet"
+    },
+    {
+      "name": "Quinox",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9330/quinox-500-mg-tablet"
+    },
+    {
+      "name": "Quinox",
+      "strength": "750 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9331/quinox-750-mg-tablet"
+    },
+    {
+      "name": "Quinox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9332/quinox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Quintor",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/9334/quintor-500-mg-tablet"
+    },
+    {
+      "name": "Quintor",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/9336/quintor-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Raciprox",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9337/raciprox-500-mg-tablet"
+    },
+    {
+      "name": "Raciprox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9338/raciprox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ranflox",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9339/ranflox-500-mg-tablet"
+    },
+    {
+      "name": "Ranflox",
+      "strength": "750 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9340/ranflox-750-mg-tablet"
+    },
+    {
+      "name": "Rocipro",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/9341/rocipro-500-mg-tablet"
+    },
+    {
+      "name": "Rocipro",
+      "strength": "750 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/9342/rocipro-750-mg-tablet"
+    },
+    {
+      "name": "Saflox",
+      "strength": "500 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/39347/saflox-500-mg-tablet"
+    },
+    {
+      "name": "Savcin",
+      "strength": "500 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/37858/savcin-500-mg-tablet"
+    },
+    {
+      "name": "SB-Quik",
+      "strength": "500 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/27375/sb-quik-500-mg-tablet"
+    },
+    {
+      "name": "Serviflox",
+      "strength": "500 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 14.05",
+      "url": "https://medex.com.bd/brands/9343/serviflox-500-mg-tablet"
+    },
+    {
+      "name": "Silflox",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/31570/silflox-500-mg-tablet"
+    },
+    {
+      "name": "Spectra",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.19",
+      "url": "https://medex.com.bd/brands/9345/spectra-500-mg-tablet"
+    },
+    {
+      "name": "Sypron",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 12.50",
+      "url": "https://medex.com.bd/brands/9346/sypron-500-mg-tablet"
+    },
+    {
+      "name": "Tyfinor",
+      "strength": "500 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/33629/tyfinor-500-mg-tablet"
+    },
+    {
+      "name": "Tyflox",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9348/tyflox-500-mg-tablet"
+    },
+    {
+      "name": "Tyflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9350/tyflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Uniflox",
+      "strength": "500 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/9351/uniflox-500-mg-tablet"
+    },
+    {
+      "name": "Uprocin",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/34992/uprocin-500-mg-tablet"
+    },
+    {
+      "name": "Virflox",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 14.00",
+      "url": "https://medex.com.bd/brands/9352/virflox-500-mg-tablet"
+    },
+    {
+      "name": "Virflox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/9353/virflox-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Virflox",
+      "strength": "750 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/28215/virflox-750-mg-tablet"
+    },
+    {
+      "name": "Winbac",
+      "strength": "500 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 17.50",
+      "url": "https://medex.com.bd/brands/9354/winbac-500-mg-tablet"
+    },
+    {
+      "name": "Xbac",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 14.09",
+      "url": "https://medex.com.bd/brands/9355/xbac-500-mg-tablet"
+    },
+    {
+      "name": "Xbac",
+      "strength": "750 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.11",
+      "url": "https://medex.com.bd/brands/9356/xbac-750-mg-tablet"
+    },
+    {
+      "name": "Xbac",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 90.60",
+      "url": "https://medex.com.bd/brands/9357/xbac-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xerox",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/9229/xerox-200-mg-iv-infusion"
+    },
+    {
+      "name": "Xerox",
+      "strength": "500 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/32473/xerox-500-mg-tablet"
+    },
+    {
+      "name": "Xerox Ds",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "600 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/39557/xerox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xirocip",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.04",
+      "url": "https://medex.com.bd/brands/9359/xirocip-500-mg-tablet"
+    },
+    {
+      "name": "Xirocip",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/9361/xirocip-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xirocip",
+      "strength": "200 mg/100 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.21",
+      "url": "https://medex.com.bd/brands/9362/xirocip-200-mg-iv-infusion"
+    },
+    {
+      "name": "Xirocip XR",
+      "strength": "1000 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/9360/xirocip-xr-1000-mg-xr-tablet"
+    },
+    {
+      "name": "Zeprox",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "60 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/36403/zeprox-250-mg-powder-for-suspension"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ciprofloxacin is indicated for the treatment of single infection or mixed infections caused by two or more susceptible organisms. It can also be used for infections caused by organisms resistant to other antibiotics including Aminoglycosides, Penicillins and Cephalosporins.\n\nAs antibacterial ... Read moreCiprofloxacin is indicated for the treatment of single infection or mixed infections caused by two or more susceptible organisms. It can also be used for infections caused by organisms resistant to other antibiotics including Aminoglycosides, Penicillins and Cephalosporins.\n\nAs antibacterial concentrations of Ciprofloxacin are obtained in serum and body tissues as well as in the urine following administration by mouth, Ciprofloxacin has been suggested for use in the treatment of a wide range of infections caused by susceptible organisms including infections of the urinary, respiratory and gastrointestinal tracts, gonorrhoea and septicaemia. The extensive tissue penetration of Ciprofloxacin combined with its enhanced antibacterial activity (including antipseudomonal activity), enables Ciprofloxacin to be used alone (pending sensitivity results) or in combination with an Aminoglycoside or with beta lactam antibiotics for instance when severe neutropenia is present or with an antibiotic active against anaerobes where the presence of bacteroides fragilis is suspected. Ciprofloxacin is indicated for the treatment of the following infections caused by sensitive bacteria:\n\n- Severe systemic infections: e.g. septicaemia, bacteraemia, peritionitis, infections in immunosuppressed patients with haematological or solid tumors and in patients in intensive care unit with specific problems such as infected burns.\n- Respiratory tract infections: Lobar and bronchopneumonia, acute and chronic bronchitis, acute exacerbation of cystic fibrosis, bronchiectasis, empyema.\n- Urinary tract infections: Uncomplicated and complicated urethritis, cystitis, pyelonephritis, prostatitis, epididymitis.\n- Skin and soft tissue infections: e.g. infected ulcers, wound infections, abscesses, cellulitis, otitis externa, erysipelas, infected burns.\n- Gastro-intestinal infections: e.g. enteric fever, infective diarrhea.\n- Infection of the biliary tract: e.g. cholangitis, cholecystitis, empyema of the gall bladder.\n- Intra abdominal infections: e.g. peritonitis, intra abdominal abscesses.\n- Bone and joint infection: Osteomyelitis, septic arthritis.\n- Pelvic infections: e.g. salpingitis, endometritis, pelvic inflammatory diseases.\n- Eye, ear, nose and throat infections: e.g. otitis media, sinusitis, mastoiditis, tonsillitis.\n- Gonorrhoea: Including urethral, rectal and pharyngeal gonorrhoea caused by beta-lactamase producing organisms or organisms moderately sensitive to penicillin.",
+    "mode_of_action": "Ciprofloxacin is a synthetic quinolone anti-infective agent. Ciprofloxacion has broad spectrum of activity. It is active against most gram negative aerobic bacteria including Enterobacteriaceae and Pseudomonas aeruginosa. Ciprofloxacin is also active against gram-positive aerobic bacteria including penicillinase producing, non penicillinase producing, and methicillin resistant staphylococci, although many strains of streptococci are relatively resistant to the drug. The bactericidal action of Ciprofloxacin results from interference with the enzyme DNA gyrase needed for the synthesis of bacterial DNA. Following oral administration it is rapidly and well absorbed from the G.I. tract. It is widely distributed into the body tissues and fluids. The half life is about 3.5 hours. About 30% to 50% of an oral dose of Ciprofloxacin is excreted in the urine within 24 hours as unchanged drug and biologically active metabolites.",
+    "dosage": "General dosage recommendations: The dosage of the Ciprofloxacin is determined by the severity and type of infection, the sensitivity of the causative organism(s) and the age, weight and renal function of the patient.\n\n**Adults**: The dosage range for adults is 100-750 mg twice daily. \n\n**In infections of the lower and upper urinary tract (depending on severity)**: 250-500 mg twice daily.\n\n**In respiratory tract infections**: 250-500mg twice daily for both upper and lower respiratory tract infections, depending on the severity. For the treatment of known Streptococcus pneumonia infection, the recommended dosage is 750 mg twice daily.\n\n**In gonorrhea**: A single dose of 250 or 500 mg.\n\n**In the majority other infections**: 500-750 mg twice daily should be administered.\n\n**Cystic fibrosis**: In adults with pseudomonal infections of the lower respiratory tract , the normal dose is 750 mg twice daily. As the pharmacokinetics of Ciprofloxacin remain unchanged in patients with cystic fibrosis, the low body weight of these patients would be fallen into consideration when determining dosage.\n\n**Impaired renal function**: Dosage adjustment is not usually required except in patients with several renal impairment. (serum creatinine >265 micro mol/l or creatinine clearance <20 ml/minute). If adjustment is necessary, this may be achieved by reducing the total daily dose by half, although monitoring of drug serum levels provide the most reliable basis for dose adjustment.\n\n**Elderly**: Although higher Ciprofloxacin serum levels are found in the elderly, no adjustment of dosage is necessary.\n\n**Adeloscents and children**: As with other drugs in its class, Ciprofloxacin has been shown to cause arthropathy in weight bearing joints of immature animals. Although the relevance of this to man is unknown, its use in children, growing children and growing adolescents is not recommended. However, where the benefit of using Ciprofloxacin is considered to outweigh the potential risk, the dosage should be 7.5-15 mg/kg/day depending upon the severity of infection, administered in two divided doses.\n\n**Duration of treatment**: The duration of treatment depends upon the severity of infection, clinical response and bacteriological findings.\n\n**For acute infections**: The usual treatment period is 5 to 10 days with Ciprofloxacin tablets. Generally treatment should be continued for three days after the signs and symptoms of the infection have disappeared.\n\nExtended-release tablet: \n\n- In uncomplicated urinary tract infection (acute cystitis), the recommended dose of extended-release tablet is 1000 mg tablet once daily for three days.\n\r\nFor IV infusion:\n\n- **Urinary Tract Infection**: Mild to Moderate: 200 mg 12 hourly for 7-14 days; Severe or Complicated: 400 mg 12 hourly for 7-14 days\n- **Lower Respiratory Tract infection**: Mild to Moderate: 400 mg 12 hourly for 7-14 days; Severe or Complicated: 400 mg 8 hourly for 7-14 days\n- **Nosocomial Pneumonia**: Mild/Moderate/Severe: 400 mg 8 hourly for 10-14 days\n- **Skin and Skin Structure**: Mild to Moderate: 400 mg 12 hourly for 7-14 days; Severe or Complicated: 400 mg 8 hourly for 7-14 days\n- **Bone and Joint Infection**: Mild to Moderate: 400 mg 12 hourly for more than 4-6 weeks; Severe/Complicated: 400 mg 8 hourly for more than 4-6weeks\n- **Intraabdominal (Acute abdomen)**: Complicated: 400 mg 12 hourly for 7-14 days\n- **Acute Sinusitis**: Mild/Moderate: 400 mg 12 hourly for 10 days\n- **Chronic Bacterial Prostatitis**: Mild/Moderate: 400 mg 12 hourly for 28 Days.",
+    "administration": "Instruction for the use of Ciprofloxacin IV infusion-\n\n- Check the bag for minute leaks by squeezing the inner bag firmly. If leaks are found, or if seal is not intact, discard the solution.\n- Do not use if the solution is cloudy or a precipitate is present.\n- Do not use flexible bags in series connections.\n- Close flow control clamp of administration set.\n- Remove cover from port at bottom of bag.\n- Insert piercing pin of administration set into port with a twisting motion until the pin is firmly seated.\n- Suspend bag from hanger.\n- Squeeze and release drip chamber to establish proper fluid level in chamber during infusion of Ciprofloxacin IV infusion.\n- Open flow control clamp to expel air from set.Close clamp.\n- Regulate rate of administration with flow control clamp.",
+    "interaction": "Concurrent administration of Ciprofloxacin should be avoided with Magnesium or Aluminum containing antacids or sucralfate or with other products containing Calcium, Iron or Zinc. These products may be taken two hours after or six hours before Ciprofloxacin. Ciprofloxacin should not be taken concurrently with milk or other dairy products, since absorption of Ciprofloxacin may be significantly reduced. Dietary calcium is a part of a meal, however, does not significantly affect the absorption of Ciprofloxacin.",
+    "contraindications": "Patients with a history of hypersensitivity to Ciprofloxacin or to other quinolones.",
+    "side_effects": "Gastrointestinal disturbances e.g. nausea, diarrhoea, vomiting, dyspepsia, abdominal pain. Disturbances of the central nervous system e.g. headache, dizziness, tiredness, confusion, convulsion & risk of retinal detachment. Hypersensitivity reactions e.g. skin rash (very rarely Stevens-Johnson syndrome and toxic epidermal necrolysis), pruritus and possible systemic reactions. The other less reported reactions are joint pain, mild photosensitivity and transient increase in liver enzymes (particularly in patients with previous liver damage), serum bilirubin, urea or creatinine levels. Risk of hypoglycemia & mental health adverse effects.",
+    "pregnancy_cat": "Reproduction studies performed in mice, rats and rabbits using parenteral and oral administration did not reveal any evidence of teratogenicity, impairment of fertility or impairment of peri/post natal development. However as with other quinolones, Ciprofloxacin has been shown to cause arthropathy in immature animals and therefore its use during pregnancy is not recommended. Studies in rats have indicated that Ciprofloxacin is secreted in milk, administration to nursing mothers is thus not recommended.",
+    "precautions": "It should be used with caution in patients with suspected or known CNS disorders such as arteriosclerosis or epilepsy or other factors which predispose to seizures and convulsion.\n\n- Ciprofloxacin may be taken with or without meals and to drink fluids liberally.\n- Concurrent administration of Ciprofloxacin should be avoided with magnesium / aluminium antacids, or sucralfate or with other products containing calcium, iron and zinc. These products may be taken two hours after or six hours before Ciprofloxacin.\n- Ciprofloxacin should not be taken concurrently with milk or yogurt alone, since absorption of Ciprofloxacin may be significantly reduced. Dietary calcium is a part of a meal, however, does not significantly affect the Ciprofloxacin absorption.",
+    "pediatric_uses": "Although effective in clinical trials, Ciprofloxacin is not a drug of first choice in pediatric population.",
+    "overdose_effects": "Overdose following Ciprofloxacin administration may lead to seizures, hallucinations, confusion, abdominal discomfort, renal and hepatic impairment as well as crystalluria, haematuria, & reversible renal toxicity.",
+    "drug_classes": "4-Quinolone preparations, Anti-diarrhoeal antimicrobial drugs",
+    "storage_conditions": "Keep below 30°C temperature, protected from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "সিপ্রোফ্লক্সাসিন একক সংক্রমণ এবং দুই বা ততোধিক সংবেদনশীল অনুজীব দ্বারা সৃষ্ট মিশ্র সংক্রমণে নির্দেশিত। এ্যামাইনোগ্লাইকোসাইড, পেনিসিলিনসমূহ এবং সেফালোসপরিনসহ অন্য এন্টিবায়োটিকে রেজিস্ট্যান্ট অনুজীব দ্বারা সৃষ্ট সংক্রমণেও এর ব্যবহার হয়ে থাকে। যেহেতু মুখে সেবনের পর ... Read moreসিপ্রোফ্লক্সাসিন একক সংক্রমণ এবং দুই বা ততোধিক সংবেদনশীল অনুজীব দ্বারা সৃষ্ট মিশ্র সংক্রমণে নির্দেশিত। এ্যামাইনোগ্লাইকোসাইড, পেনিসিলিনসমূহ এবং সেফালোসপরিনসহ অন্য এন্টিবায়োটিকে রেজিস্ট্যান্ট অনুজীব দ্বারা সৃষ্ট সংক্রমণেও এর ব্যবহার হয়ে থাকে। যেহেতু মুখে সেবনের পর সিপ্রোফ্লক্সাসিন সেরামে, টিস্যুতে এবং মুত্রে ব্যাকটেরিয়া বিরোধী ঘনত্বে উপস্থিত থাকে, সেহেতু সংবেদশীল অনুজীব দ্বারা সৃষ্ট বহুবিধ সংক্রমণের চিকিৎসায় যথা মুত্রতন্ত্র ও শ্বাসতন্ত্রের সংক্রমণ, গণোরিয়া, সেপটিসেমিয়া ইত্যাদিতে সিপ্রোফ্লক্সাসিন নির্দেশিত হয়। টিস্যুতে ব্যাপক অন্তর্ভেদ এবং অধিকতর ব্যকটেরিয়া বিরোধী কার্যক্ষমতার জন্যে (সিডোমোনাস বিরোধী কার্যক্ষমতাসহ) সিপ্রোফ্লক্সাসিনকে সেনসিটিভিটি পরীক্ষা ব্যাতিরেকেই এককভাবে বা এ্যামাইনোগ্লাইকোসাইড/বিটা ল্যাকটাম এন্টিবায়োটিক সহযোগে, তীব্র নিউট্রোপেনিয়ায় ব্যবহার করা যায় অথবা ব্যাকটেরয়েডস ফ্রাজিলিস এর উপস্থিতি ধারণা করা হলে এ্যানারোব এর বিরুদ্ধে কার্যকরী এন্টিবায়োটিকের সাথেও সিপ্রোফ্লক্সাসিন ব্যবহার করা হয়। সিপ্রোফ্লক্সাসিন সংবেদশীল ব্যাকটেরিয়া দ্বারা সৃষ্ট নিম্নলিখিত সংক্রমণ সমূহে নির্দেশিত হয়ঃ\n\n**তীব্র সিসটেমিক সংক্রমণ**: সেপটিসেনিয়া, ব্যাকটেরিমিয়া, পেরিটোনাইটিস, হেমাটোলজিক্যাল অথবা কঠিন টিউমার সম্বলিত ইমিউনো সাপ্রেসড রোগীদের সংক্রমণে এবং ইনটেনসিভ কেয়ার ইউনিটে অবস্থিত রোগী যাদের নির্দিষ্ট কোন জটিলতা যথা সংক্রমিত ক্ষত রয়েছে এদের ক্ষেত্রে। \n\n**শ্বাসতন্ত্র সংক্রমণ**: লোবার নিউমোনিয়া, ব্রঙ্কোনিউমোনিয়া, তীব্র ও জটিল ব্রঙ্কাইটিস, সিসটিক ফাইব্রোসিসের জটিলতা, ব্রঙ্কিয়েকটেসিস এবং এমপায়িমা।\n\n**মূত্রতন্ত্র সংক্রমণ**: জটিল এবং জটিল নয় এরূপ মূত্রনালীর সংক্রমণ, সিসটাইটিস, পাইলোনেফ্রাইটিস, প্রস্টেটাইটিস, ইপিডিডাইমিটিস। \n\n**ত্বক ও কোমল কোষ কলার সংক্রমণ**: সংক্রমণযুক্ত আলসার, ক্ষতের সংক্রমণ, এ্যাবসেস, সেলুলাইটিস, ওটাইটিস এক্সটারনা, ইরিসিপেলাস, সংক্রমিত ক্ষত। \n\n**পাকান্ত্রিক সংক্রমণ**: আন্ত্রিক জ্বর সংক্রমনজনিত ডায়ারিয়া। \n\n**বিলিয়ারীপথের সংক্রমণ**: কলানজাইটিস, কলেসিসটাইটিস, গলব্লাডারে পুজসঞ্চায়ন। \n\n**অন্ত:উদরীয় সংক্রমন**: পেরিটোনাইটিস, অন্ত: উদরীয় এ্যাবসেস। \n\n**অস্থি ও অস্থিসন্ধির সংক্রমণ**: অষ্টিওমাইলাইটিস, সেপটিক আর্থ্রাইটিস।\n\n**পেলভিক সংক্রমণ**: স্যালপিনজাইটিস, এন্ডোমেট্রাইটিস, পেলভিক ইনফ্লামেটরী ব্যাধি।\n\n**চোখ, নাক, কান ও গলার সংক্রমণ**: ওটাইটিস মিডিয়া, সাইনুসাইটিস ম্যাসটয়ডাইটিস, টনসিলাইটিস। \n\n**গনোরিয়া**: ইউরেথ্রাল, রেকটাল এবং ফ্যারিঞ্জিয়াল গনোরিয়াসহ বিটা ল্যাকটামেজ নি:সরণকারী জীবাণু বা পেনিসিলিনে মাঝারী ধরনের সংবেদনশীল জীবাণু দ্বারা সৃষ্ট গনোরিয়া\n\n**মাইক্রোবায়োলজি**: দেহ বহির্ভূত পরীক্ষায় দেখা গেছে যে সিপ্রোফ্লক্সাসিনের বাকটেরিয়া বিরোধী কার্যকারিতা, ব্যাকটেরিয়ার ডি.এন.এ জাইরেজ এর প্রশমনের দরুন হয়ে থাকে। সিপ্রোফ্লক্সাসিনের কার্যকারিতার এই পদ্ধতি অন্যান্য এন্টিবায়োটিক যথা পেনিসিলিন, সেফালোসপরিন, এ্যামাইনোগ্লাইকোসাইড এবং টেট্রাসাইক্লিনের তুলনায় ভিন্ন সুতরাং এসব এন্টিবায়োটিকে রেজিস্ট্যান্ট অনুজীব সমূহ সাধারনত: সিপ্রোফ্লক্সাসিনের প্রতি সংবেদনশীল হয়ে থাকে।",
+    "mode_of_action": "সিপ্রোফ্লক্সাসিন একটি কুইনোলোন গ্রুপের একটি সংক্রমণ রোধী ওষুধ। সিপ্রোফ্লক্সাসিন একটি প্রশস্ত বর্ণালীর এন্টিবায়োটিক। ইহা বেশীর ভাগ গ্রাম-নেগেটিভ এরোবিক ব্যাকটেরিয়া যেমন এন্টারোব্যাকটেরিয়েসি, স্যুডোমোনাস এরোজিনোসা এর বিরুদ্ধে কার্যকরী। সিপ্রোফ্লক্সাসিন গ্রাম-পজেটিভ ব্যাকটেরিয়া যেমন পেনিসিলিনেজ উৎপাদনকারী ব্যাকটেরিয়া, যে সমস্ত ব্যাকটেরিয়া পেনিসিলিনেজ তৈরী করতে পারে না এবং মেথিসিলিন রেজিস্ট্যান্ট স্ট্যাফাইলোকক্কাই এর বিরুদ্ধে কার্যকরী, যদিও সিপ্রোফ্লক্সাসিন স্ট্যাফাইলোকক্কাই এর অনেক স্ট্রেইন এর বিরুদ্ধে রেজিস্ট্যান্ট। সিপ্রোফ্লক্সাসিন ডিএনএ জাইরেজ এনজাইমের সাথে যুক্ত হয়ে ব্যাকটেরিয়ার ডিএনএ সংশ্লেষনে বাধা দান করে।\n\nমুখে খাবার পর সিপ্রোফ্লক্সাসিন দ্রুত ভালভাবে পরিপাকনালী থেকে বিশোষিত হয় এবং দেহ তন্ত্র ও দেহ রসে খুব ভাল ভাবে বিস্তৃত হয়। ইহার হাফ-লাইফ ৩.৫ ঘন্টা। মুখে খাওয়ার পর ৩০%-৫০% সিপ্রোফ্লক্সাসিন মুত্রের সাথে অপরিবর্তিত এবং কার্যকরী মেটাবোলাইট হিসাবে ২৪ ঘণ্টায় দেহ থেকে নিঃসরিত হয়।",
+    "dosage": "প্রচলিত সেবন মাত্রা: সংক্রমণের ধরন, তীব্রতা, রোগ সৃষ্টিকারী জীবাণুর সংবেদনশীলতা এবং রোগীর বয়স, ওজন ও বৃক্কীয় কার্যকারিতার উপর নির্ভর করেই সাধারণত সিপ্রোফ্লক্সাসিনের সেবন মাত্রা নির্ধারণ করা হয় ।\n\n**প্রাপ্ত বয়স্ক**: এসব রোগীদের ক্ষেত্রে সাধারণ সেবন মাত্রা ১০০-৭৫০ মি.গ্রা. দৈনিক ২ বার।\n\n**উর্দ্ধ ও নিম্ন শ্বাসতন্ত্রের সংক্রমণ**: উর্দ্ধ ও নিম্ন শ্বাসতন্ত্রের সংক্রমণে তীব্রতা অনুযায়ী ২৫০-৭৫০ মি.গ্রা. দৈনিক ২ বার।\n\n**স্ট্রেপটোকক্কাস নিউমোনি দ্বারা সৃষ্ট সংক্রমনের চিকিৎসায়**: ৭৫০ মি.গ্রা. দৈনিক ২ বার করে দেয়ার জন্য পরামর্শ দেয়া হয়। \n\n**গনোরিয়া**: ২৫০ বা ৫০০ মি.গ্রা. এর একটি এককমাত্রা দেওয়া হয়। অন্যান্য অধিকাংশ সংক্রমণে ৫০০-৭৫০ মি.গ্রা. দৈনিক ২ বার সেব্য।\n\n**সিসটিক ফাইব্রোসিস**: নিম্ন শ্বাসনালীর সিডোমোনাস জনিত সংক্রমণে সাধারণ মাত্রা ৭৫০ মি.গ্রা. দৈনিক ২ বার। যেহেতু সিসটিক ফাইব্রোসিসে রোগীদের ক্ষেত্রে সিপ্রোফ্লক্সাসিনের ফার্মাকোকাইনেটিক্স অপরিবর্তিত থাকে সেহেতু সেবন মাত্রা নির্ধারণ করার আগে এসব রোগীদের স্বল্প দৈহিক ওজনের কথা বিবেচনা করা উচিত।\n\n**অপ্রতুল বৃক্কীয় কার্যকারিতার ক্ষেত্রে**: তীব্র বৃক্কীয় অপ্রতুলতা ব্যতীত (যখন সেরাম ক্রিয়েটিনিন>২৬৫ মাইক্রোমোল/লিটার অথবা ক্রিয়েটিনিনের ক্লিয়ারেন্স <২০ মি.লি./মিনিট) মাত্রা পুন:নির্ধারণের তেমন প্রয়োজন হয় না। যদি মাত্রা নির্ধারণের প্রয়োজন হয় তা দৈনিক মোট মাত্রা অর্ধেক করার মাধ্যমেই সম্ভব হতে পারে যদিও ওষুধের সেরাম পর্যবেক্ষণ করাই মাত্রা নির্ধারণের সবচেয়ে নির্ভরযোগ্য উপায়। \n\n**বয়ো:বৃদ্ধি**: যদিও এসব রোগীদের সেরামে সিপ্রোফ্লক্সাসিন অধিকতর পরিমাণে উপস্থিত থাকে তথাপি মাত্রা নির্ধারণের কোন প্রয়োজন হয় না।\n\n**শিশু ও কিশোর**: এই শ্রেণীর অন্যান্য ওষুধের মত সিপ্রোফ্লক্সাসিনও অপরিণত জীবের ক্ষেত্রে ভারবহনকারী অস্থিসন্ধিতে অর্থোপ্যাথি সৃষ্টি করতে পারে। যদিও মানুষের ক্ষেত্রে এর প্রাসঙ্গিকতা জানা নাই তা স্বত্ত্বেও শিশু, বাড়ন্ত শিশু ও কিশোরদের ক্ষেত্রে এর ব্যবহার সুপারিশযোগ্য নয়। যদি সিপ্রোফ্লক্সাসিন ব্যবহারের প্রয়োজনীয়তা উপরোক্ত সম্ভাব্য ঝুঁকির তুলনায় বেশী গুরুত্ববাহী হয় তবেই এ ধরনের রোগীদেরকে এ ওষুধ দেয়া যেতে পারে এক্ষেত্রে রোগের তীব্রতা অনুযায়ী ৭.৫-১৫ মি.গ্রা./কেজি/দিন ২টি বিভক্ত মাত্রায় দেয়া যেতে পারে।\n\n**চিকিৎসা মেয়াদকাল**: চিকিৎসার স্থায়িত্বকাল সংক্রমন জনিত রেসপন্স এবং ব্যাকটেরিওলজিক্যাল পরীক্ষালব্ধ ফলের উপর নির্ভর করে। মাত্রাতিরিক্ত সংক্রমণের ক্ষেত্রে সিপ্রোফ্লক্সাসিন দ্বারা চিকিৎসার মেয়াদকাল সাধারণত ৫ থেকে ১০ দিন। সংক্রমণের চিহ্ন বা লক্ষণ দূর হবার পর আরও ৩ দিন পর্যন্ত সিপ্রোফ্লক্সাসিন দ্বারা চিকিৎসা চালিয়ে যাওয়া উচিত।",
+    "interaction": "ম্যাগনেসিয়াম/এ্যালুমিনিয়াম জাতীয় এন্টাসিড, সুক্রালফেট অথবা ক্যালসিয়াম, আয়রন এবং জিংক এর উপস্থিতি আছে এমন কোন ঔষধ সিপ্রোফ্লক্সাসিনের সাথে সেবনযোগ্য নয়। এগুলো সেবনের ছয় ঘন্টা পূর্বে অথবা দুই ঘন্টা পর সিপ্রোফ্লক্সাসিন সেবনযোগ্য। দুধ অথবা দুগ্ধজাত খাবারের সাথে সিপ্রোফ্লক্সাসিন সেবনযোগ্য নয়। কারণ এতে করে সিপ্রোফ্লক্সাসিন এর পরিশোষণ দারুণভাবে কমে যায়। খাদ্যের ক্যালসিয়াম সিপ্রোফ্লক্সাসিনের পরিশোষণকে প্রভাবিত করে না।",
+    "contraindications": "সিপ্রোফ্লক্সাসিন এবং অন্যান্য কুইনোলোন গ্রুপের ওষুধের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে এই ওষুধ দেয়া যাবে না।",
+    "side_effects": "পরিপাকতান্ত্রিক অসুবিধা যেমন- বমিভাব, ডায়রিয়া, বমি, হজমক্রিয়ায় গোলযোগ, তলপেটে ব্যথা। কেন্দ্রীয় স্নায়ুতন্ত্রের অসুবিধা যেমন- মাথা ব্যথা, ঝিমুনি, বিভ্রান্তি, খিচুনি এবং রেটিনাল বিচ্ছিন্নতার ঝুঁকি। অতিসংবেদনশীলতা যেমন- গায়ে ফুসকুড়ি (কদাচিৎ স্টিভেন-জনসন সিনড্রোম এবং টক্সিক এপিডারমাল নেক্রোলাইসিস), প্রুরাইটিস এবং সম্ভাব্য সিস্টেমিক বিক্রিয়া। অন্যান্য বিরল পার্শ্বপ্রতিক্রিয়াগুলো হলো- অস্থিসন্ধিতে ব্যথা, যকৃত এনজাইম, বিলিরুবিন, ইউরিয়া অথবা ক্রিয়েটিনাইন-এর সাময়িক বৃদ্ধি। হাইপোগ্লাইসেমিয়া ও মানসিক স্বাস্থ্যের উপর বিরুপ প্রতিক্রিয়ার ঝুঁকি। টেনডিনাইটিস ও টেনডন রাপচার এর ঝুঁকি বৃদ্ধি করতে পারে।",
+    "pregnancy_cat": "ইঁদুর, খরগোশ ইত্যাদির ক্ষেত্রে সিপ্রোফ্লক্সাসিন মুখে সেবনের পর এবং ইনজেকশন দেবার পর বংশ বৃদ্ধির প্রক্রিয়া পর্যবেক্ষণ করে ভ্রুণের গঠন বিকৃতি, বংশ বিস্তার ক্ষমতার ক্ষতি হওয়া, প্রসবপূর্ব বা প্রসবোত্তর কালীন সময়ে বৃদ্ধির উপর এর কোন প্রভাব দেখা যায় নি। তবে অন্যান্য কুইনোলোনের মত সিপ্রোফ্লক্সাসিন অপরিণত জীবের ক্ষেত্রে আর্থোপ্যাথি সৃষ্টি করতে পারে এবং সে কারণে গর্ভকালীন অবস্থায় এর ব্যবহার নিদের্শিত নয়। ইঁদুরের উপর পরীক্ষায় দেখা গেছে যে সিপ্রোফ্লক্সাসিন দুগ্ধে নিঃসৃত হয় কাজেই স্তন্যদানরত মায়েদের ক্ষেত্রে এর ব্যবহার সুপারিশ করা হয় না।",
+    "precautions": "যে সমস্ত রোগীর স্নায়ুতন্ত্রীয় অসুস্থতা যেমন: আর্টারিওসক্লেরোসিস অথবা এপিলেপসি অথবা সেইজর এবং খিঁচুনী হওয়ার সম্ভাবনা আছে এমন রোগীদের ক্ষেত্রে সিপ্রোফ্লক্সাসিন সাবধানতার সাথে দিতে হবে।\n\nসিপ্রোফ্লক্সাসিন আহারের পূর্বে অথবা পরে খাওয়া যায়, সাথে প্রচুর পানীয় নেয়া প্রয়োজন।\n\nম্যাগনেসিয়াম / এলুমিনিয়াম এন্টাসিড, সুক্রালফেট অথবা ক্যালসিয়াম, আয়রণ এবং জিংক এর উপস্থিতি আছে এমন কোন ওষুধ সিপ্রোফ্লক্সাসিনের সাথে সেবনযোগ্য নয়। এগুলো সেবনের ছয় ঘন্টা পূর্বে অথবা দুই ঘন্টা পর সেবনযোগ্য।\n\nদুধ এবং দুগ্ধজাত পণ্য এর সাথে সিপ্রোফ্লক্সাসিন সেবনযোগ্য নয়। কারণ এতে করে সিপ্রোফ্লক্সাসিন এর শোষণ দারুণভাবে কমে যায়। খাদ্যের ক্যালসিয়াম সিপ্রোফ্লক্সাসিন এর শোষণকে প্রভাবিত করে না।",
+    "pediatric_uses": "ক্লিনিক্যাল ট্রায়ালগুলিতে কার্যকর হলেও সিপ্রোফ্লক্সাসিন পেডিয়াট্রিক পপুলেশনে প্রথম পছন্দনীয় ঔষধ হিসেবে বিবেচিত নয়।",
+    "overdose_effects": "সিপ্রোফ্লক্সাসিন এর মাত্রাধিক ব্যবহারে খিঁচুনী, মতিভ্রম, তলপেটের অস্বস্তি, বৃক্ক ও যকৃতের অকার্যকারীতা পাশাপাশি ক্রিষ্টালইউরিয়া, হেমাচুরিয়া এবং রিভারসিবল কিডনি বিষক্রিয়া ইত্যাদি।",
+    "drug_classes": "4-Quinolone preparations, Anti-diarrhoeal antimicrobial drugs",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০°সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/263/ciprofloxacin",
+  "source_url_bn": "https://medex.com.bd/generics/263/ciprofloxacin/bn",
+  "scraped_at": "2026-10-10T15:02:22+00:00"
+}

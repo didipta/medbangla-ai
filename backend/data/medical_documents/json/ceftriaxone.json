@@ -1,0 +1,2171 @@
+{
+  "slug": "ceftriaxone",
+  "name_en": "Ceftriaxone Sodium",
+  "name_bn": "সেফট্রায়াক্সন সোডিয়াম",
+  "therapeutic_class": "Third generation cephalosporins",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Aciphin",
+      "strength": "250 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/7910/aciphin-250-mg-im-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "500 mg vial : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7911/aciphin-500-mg-im-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "1 gm/vial",
+      "manufacturer": "ACI Limited",
+      "price": "1 gm vial : ৳ 191.29",
+      "url": "https://medex.com.bd/brands/7912/aciphin-1-gm-im-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "250 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/7913/aciphin-250-mg-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "500 mg vial : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7914/aciphin-500-mg-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "1 gm/vial",
+      "manufacturer": "ACI Limited",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7915/aciphin-1-gm-injection"
+    },
+    {
+      "name": "Aciphin",
+      "strength": "2 gm/vial",
+      "manufacturer": "ACI Limited",
+      "price": "2 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7916/aciphin-2-gm-injection"
+    },
+    {
+      "name": "Amiphin",
+      "strength": "2 gm/vial",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/32329/amiphin-2-gm-injection"
+    },
+    {
+      "name": "Amiphin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/34003/amiphin-1-gm-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7917/arixon-250-mg-im-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7918/arixon-500-mg-im-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7919/arixon-1-gm-im-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7920/arixon-250-mg-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7921/arixon-500-mg-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7922/arixon-1-gm-injection"
+    },
+    {
+      "name": "Arixon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/26293/arixon-2-gm-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/27123/asixone-2-gm-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/27124/asixone-1-gm-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "250 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27125/asixone-250-mg-im-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "250 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27126/asixone-250-mg-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/27127/asixone-500-mg-injection"
+    },
+    {
+      "name": "Asixone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/27128/asixone-500-mg-im-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7923/axon-250-mg-im-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7924/axon-500-mg-im-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7925/axon-1-gm-im-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7926/axon-250-mg-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7927/axon-500-mg-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7928/axon-1-gm-injection"
+    },
+    {
+      "name": "Axon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/7929/axon-2-gm-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "250 mg/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/7930/axosin-250-mg-im-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "500 mg/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "500 mg vial : ৳ 120.46",
+      "url": "https://medex.com.bd/brands/7931/axosin-500-mg-im-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "1 gm/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "1 gm vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/7932/axosin-1-gm-im-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "500 mg/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "500 mg vial : ৳ 120.46",
+      "url": "https://medex.com.bd/brands/7934/axosin-500-mg-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "1 gm/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "1 gm vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/7935/axosin-1-gm-injection"
+    },
+    {
+      "name": "Axosin",
+      "strength": "2 gm/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "2 gm vial : ৳ 290.00",
+      "url": "https://medex.com.bd/brands/7936/axosin-2-gm-injection"
+    },
+    {
+      "name": "Bakticef",
+      "strength": "500 mg/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "500 mg vial : ৳ 155.00",
+      "url": "https://medex.com.bd/brands/27704/bakticef-500-mg-im-injection"
+    },
+    {
+      "name": "Bakticef",
+      "strength": "1 gm/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "1 gm vial : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/27705/bakticef-1-gm-injection"
+    },
+    {
+      "name": "Bakticef",
+      "strength": "2 gm/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "2 gm vial : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/27706/bakticef-2-gm-injection"
+    },
+    {
+      "name": "Bioxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/27457/bioxon-500-mg-im-injection"
+    },
+    {
+      "name": "Bioxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 185.00",
+      "url": "https://medex.com.bd/brands/27459/bioxon-1-gm-injection"
+    },
+    {
+      "name": "Bioxon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 290.00",
+      "url": "https://medex.com.bd/brands/27460/bioxon-2-gm-injection"
+    },
+    {
+      "name": "Cefaz",
+      "strength": "1 gm/vial",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/35465/cefaz-1-gm-injection"
+    },
+    {
+      "name": "Cefaz",
+      "strength": "2 gm/vial",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/35466/cefaz-2-gm-injection"
+    },
+    {
+      "name": "Cefixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/7941/cefixon-500-mg-injection"
+    },
+    {
+      "name": "Cefixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7942/cefixon-1-gm-injection"
+    },
+    {
+      "name": "Cefixon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/7943/cefixon-2-gm-injection"
+    },
+    {
+      "name": "Cefone",
+      "strength": "250 mg/vial",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.28",
+      "url": "https://medex.com.bd/brands/27955/cefone-250-mg-im-injection"
+    },
+    {
+      "name": "Cefone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/27956/cefone-500-mg-im-injection"
+    },
+    {
+      "name": "Cefone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 180.54",
+      "url": "https://medex.com.bd/brands/27957/cefone-1-gm-injection"
+    },
+    {
+      "name": "Cefone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 260.79",
+      "url": "https://medex.com.bd/brands/27958/cefone-2-gm-injection"
+    },
+    {
+      "name": "Cefoxguard",
+      "strength": "500 mg/vial",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/28203/cefoxguard-500-mg-im-injection"
+    },
+    {
+      "name": "Cefoxguard",
+      "strength": "2 gm/vial",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/28204/cefoxguard-2-gm-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "250 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "250 mg vial : ৳ 100.38",
+      "url": "https://medex.com.bd/brands/7944/ceftizone-250-mg-im-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "500 mg vial : ৳ 140.53",
+      "url": "https://medex.com.bd/brands/7945/ceftizone-500-mg-im-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7946/ceftizone-1-gm-im-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "250 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "250 mg vial : ৳ 100.38",
+      "url": "https://medex.com.bd/brands/7947/ceftizone-250-mg-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "500 mg vial : ৳ 140.53",
+      "url": "https://medex.com.bd/brands/7948/ceftizone-500-mg-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7949/ceftizone-1-gm-injection"
+    },
+    {
+      "name": "Ceftizone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "2 gm vial : ৳ 400.00",
+      "url": "https://medex.com.bd/brands/7950/ceftizone-2-gm-injection"
+    },
+    {
+      "name": "Ceftobac",
+      "strength": "1 gm/vial",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/27218/ceftobac-1-gm-injection"
+    },
+    {
+      "name": "Ceftobac",
+      "strength": "2 gm/vial",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/27219/ceftobac-2-gm-injection"
+    },
+    {
+      "name": "Ceftriaid",
+      "strength": "500 mg/vial",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/26953/ceftriaid-500-mg-im-injection"
+    },
+    {
+      "name": "Ceftriaid",
+      "strength": "1 gm/vial",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/26954/ceftriaid-1-gm-injection"
+    },
+    {
+      "name": "Ceftriaid",
+      "strength": "2 gm/vial",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "2 gm vial : ৳ 490.00",
+      "url": "https://medex.com.bd/brands/26955/ceftriaid-2-gm-injection"
+    },
+    {
+      "name": "Ceftriaid",
+      "strength": "500 mg/vial",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/26956/ceftriaid-500-mg-injection"
+    },
+    {
+      "name": "Ceftrimax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/29571/ceftrimax-500-mg-im-injection"
+    },
+    {
+      "name": "Ceftrimax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.57",
+      "url": "https://medex.com.bd/brands/29572/ceftrimax-1-gm-im-injection"
+    },
+    {
+      "name": "Ceftrimax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.57",
+      "url": "https://medex.com.bd/brands/29573/ceftrimax-1-gm-injection"
+    },
+    {
+      "name": "Ceftrimax",
+      "strength": "2 gm/vial",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.90",
+      "url": "https://medex.com.bd/brands/29574/ceftrimax-2-gm-injection"
+    },
+    {
+      "name": "Ceftrimax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/29575/ceftrimax-500-mg-injection"
+    },
+    {
+      "name": "Ceftrix",
+      "strength": "250 mg/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "250 mg vial : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/7951/ceftrix-250-mg-im-injection"
+    },
+    {
+      "name": "Ceftrix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/7952/ceftrix-500-mg-im-injection"
+    },
+    {
+      "name": "Ceftrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "1 gm vial : ৳ 160.48",
+      "url": "https://medex.com.bd/brands/7953/ceftrix-1-gm-injection"
+    },
+    {
+      "name": "Ceftrix",
+      "strength": "2 gm/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "2 gm vial : ৳ 300.90",
+      "url": "https://medex.com.bd/brands/7954/ceftrix-2-gm-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "250 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "250 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7955/ceftron-250-mg-im-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "500 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7956/ceftron-500-mg-im-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "1 gm/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "1 gm vial : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/7957/ceftron-1-gm-im-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "250 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "250 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7958/ceftron-250-mg-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "500 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7959/ceftron-500-mg-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "1 gm/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "1 gm vial : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/7960/ceftron-1-gm-injection"
+    },
+    {
+      "name": "Ceftron",
+      "strength": "2 gm/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "2 gm vial : ৳ 400.00",
+      "url": "https://medex.com.bd/brands/7961/ceftron-2-gm-injection"
+    },
+    {
+      "name": "Cetaxone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/27228/cetaxone-1-gm-injection"
+    },
+    {
+      "name": "Cetaxone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/27229/cetaxone-2-gm-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/7962/dicephin-250-mg-im-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "500 mg vial : ৳ 130.45",
+      "url": "https://medex.com.bd/brands/7963/dicephin-500-mg-im-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "1 gm vial : ৳ 190.60",
+      "url": "https://medex.com.bd/brands/7964/dicephin-1-gm-im-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/7965/dicephin-250-mg-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "500 mg vial : ৳ 130.45",
+      "url": "https://medex.com.bd/brands/7966/dicephin-500-mg-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "1 gm vial : ৳ 190.60",
+      "url": "https://medex.com.bd/brands/7967/dicephin-1-gm-injection"
+    },
+    {
+      "name": "Dicephin",
+      "strength": "2 gm/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "2 gm vial : ৳ 301.00",
+      "url": "https://medex.com.bd/brands/7968/dicephin-2-gm-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "1 gm vial : ৳ 201.35",
+      "url": "https://medex.com.bd/brands/28330/enocef-1-gm-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "1 gm vial : ৳ 201.35",
+      "url": "https://medex.com.bd/brands/28331/enocef-1-gm-im-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "250 mg vial : ৳ 100.38",
+      "url": "https://medex.com.bd/brands/28332/enocef-250-mg-im-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "250 mg vial : ৳ 100.38",
+      "url": "https://medex.com.bd/brands/28333/enocef-250-mg-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "500 mg vial : ৳ 150.57",
+      "url": "https://medex.com.bd/brands/28334/enocef-500-mg-injection"
+    },
+    {
+      "name": "Enocef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "500 mg vial : ৳ 150.57",
+      "url": "https://medex.com.bd/brands/28335/enocef-500-mg-im-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7975/eracef-250-mg-im-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7976/eracef-500-mg-im-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7977/eracef-1-gm-im-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7979/eracef-500-mg-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7980/eracef-1-gm-injection"
+    },
+    {
+      "name": "Eracef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "2 gm vial : ৳ 301.14",
+      "url": "https://medex.com.bd/brands/7981/eracef-2-gm-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 115.00",
+      "url": "https://medex.com.bd/brands/7982/exephin-250-mg-im-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 149.00",
+      "url": "https://medex.com.bd/brands/7983/exephin-500-mg-im-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 215.00",
+      "url": "https://medex.com.bd/brands/7984/exephin-1-gm-im-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 115.00",
+      "url": "https://medex.com.bd/brands/7985/exephin-250-mg-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 149.00",
+      "url": "https://medex.com.bd/brands/7986/exephin-500-mg-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 215.00",
+      "url": "https://medex.com.bd/brands/7987/exephin-1-gm-injection"
+    },
+    {
+      "name": "Exephin",
+      "strength": "2 gm/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 340.00",
+      "url": "https://medex.com.bd/brands/7988/exephin-2-gm-injection"
+    },
+    {
+      "name": "Forticef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "1 gm vial : ৳ 216.00",
+      "url": "https://medex.com.bd/brands/33346/forticef-1-gm-injection"
+    },
+    {
+      "name": "Frixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "500 mg vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/38481/frixon-500-mg-im-injection"
+    },
+    {
+      "name": "Frixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "500 mg vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/38482/frixon-500-mg-injection"
+    },
+    {
+      "name": "Frixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "1 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/38483/frixon-1-gm-injection"
+    },
+    {
+      "name": "Frixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "1 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/38484/frixon-1-gm-im-injection"
+    },
+    {
+      "name": "Frixon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "2 gm vial : ৳ 450.00",
+      "url": "https://medex.com.bd/brands/38485/frixon-2-gm-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "250 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "250 mg vial : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7989/g-ceftriax-250-mg-im-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "500 mg vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7990/g-ceftriax-500-mg-im-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "1 gm vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7991/g-ceftriax-1-gm-im-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "250 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "250 mg vial : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7992/g-ceftriax-250-mg-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "500 mg vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/7993/g-ceftriax-500-mg-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "1 gm vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7994/g-ceftriax-1-gm-injection"
+    },
+    {
+      "name": "G-Ceftriax",
+      "strength": "2 gm/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "2 gm vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/27707/g-ceftriax-2-gm-injection"
+    },
+    {
+      "name": "Herculix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/27157/herculix-500-mg-injection"
+    },
+    {
+      "name": "Herculix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/27158/herculix-500-mg-im-injection"
+    },
+    {
+      "name": "Herculix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/27159/herculix-1-gm-im-injection"
+    },
+    {
+      "name": "Herculix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/27160/herculix-1-gm-injection"
+    },
+    {
+      "name": "Herculix",
+      "strength": "2 gm/vial",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "2 gm vial : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/27161/herculix-2-gm-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/28170/holicef-1-gm-im-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 185.00",
+      "url": "https://medex.com.bd/brands/28171/holicef-1-gm-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 295.00",
+      "url": "https://medex.com.bd/brands/28172/holicef-2-gm-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/28174/holicef-500-mg-im-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/37423/holicef-250-mg-im-injection"
+    },
+    {
+      "name": "Holicef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/37424/holicef-500-mg-injection"
+    },
+    {
+      "name": "Imacef",
+      "strength": "500 mg/vial",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7997/imacef-500-mg-im-injection"
+    },
+    {
+      "name": "Imacef",
+      "strength": "1 gm/vial",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7999/imacef-1-gm-injection"
+    },
+    {
+      "name": "Imacef",
+      "strength": "2 gm/vial",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 400.00",
+      "url": "https://medex.com.bd/brands/8000/imacef-2-gm-injection"
+    },
+    {
+      "name": "Infecef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "250 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/27877/infecef-250-mg-im-injection"
+    },
+    {
+      "name": "Infecef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/27878/infecef-500-mg-im-injection"
+    },
+    {
+      "name": "Infecef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "1 gm vial : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/27879/infecef-1-gm-im-injection"
+    },
+    {
+      "name": "Infecef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "1 gm vial : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/27880/infecef-1-gm-injection"
+    },
+    {
+      "name": "Infecef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "2 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/27881/infecef-2-gm-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/8001/inoxon-250-mg-im-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8002/inoxon-500-mg-im-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8003/inoxon-1-gm-im-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/8004/inoxon-250-mg-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8005/inoxon-500-mg-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8006/inoxon-1-gm-injection"
+    },
+    {
+      "name": "Inoxon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8007/inoxon-2-gm-injection"
+    },
+    {
+      "name": "Keptrix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "500 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8009/keptrix-500-mg-im-injection"
+    },
+    {
+      "name": "Keptrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "1 gm vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/8012/keptrix-1-gm-injection"
+    },
+    {
+      "name": "Keptrix",
+      "strength": "2 gm/vial",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "2 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/8013/keptrix-2-gm-injection"
+    },
+    {
+      "name": "Keptrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "1 gm vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/38215/keptrix-1-gm-im-injection"
+    },
+    {
+      "name": "Maxzon",
+      "strength": "1 gm/vial",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "1 gm vial : ৳ 215.00",
+      "url": "https://medex.com.bd/brands/27084/maxzon-1-gm-injection"
+    },
+    {
+      "name": "Maxzon",
+      "strength": "2 gm/vial",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/27085/maxzon-2-gm-injection"
+    },
+    {
+      "name": "Maxzon",
+      "strength": "500 mg/vial",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/37190/maxzon-500-mg-im-injection"
+    },
+    {
+      "name": "Newxone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/36777/newxone-1-gm-injection"
+    },
+    {
+      "name": "Newxone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 650.00",
+      "url": "https://medex.com.bd/brands/36778/newxone-2-gm-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/28100/nilicon-2-gm-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "1 gm vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/28101/nilicon-1-gm-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/28102/nilicon-500-mg-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28103/nilicon-250-mg-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28104/nilicon-250-mg-im-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/32701/nilicon-500-mg-im-injection"
+    },
+    {
+      "name": "Nilicon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "1 gm vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/32702/nilicon-1-gm-im-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "250 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "250 mg vial : ৳ 110.33",
+      "url": "https://medex.com.bd/brands/17171/nixon-250-mg-im-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "250 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "250 mg vial : ৳ 110.33",
+      "url": "https://medex.com.bd/brands/17172/nixon-250-mg-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.45",
+      "url": "https://medex.com.bd/brands/17173/nixon-500-mg-im-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "500 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.45",
+      "url": "https://medex.com.bd/brands/17174/nixon-500-mg-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "1 gm vial : ৳ 220.66",
+      "url": "https://medex.com.bd/brands/17175/nixon-1-gm-im-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "1 gm/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "1 gm vial : ৳ 220.66",
+      "url": "https://medex.com.bd/brands/17176/nixon-1-gm-injection"
+    },
+    {
+      "name": "Nixon",
+      "strength": "2 gm/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "2 gm vial : ৳ 320.96",
+      "url": "https://medex.com.bd/brands/17177/nixon-2-gm-injection"
+    },
+    {
+      "name": "Odatrix",
+      "strength": "500 mg/vial",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8021/odatrix-500-mg-im-injection"
+    },
+    {
+      "name": "Odatrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8025/odatrix-1-gm-injection"
+    },
+    {
+      "name": "Odatrix",
+      "strength": "2 gm/vial",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8026/odatrix-2-gm-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8027/oricef-250-mg-im-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/8028/oricef-500-mg-im-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/8029/oricef-1-gm-im-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8030/oricef-250-mg-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/8031/oricef-500-mg-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/8032/oricef-1-gm-injection"
+    },
+    {
+      "name": "Oricef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 490.00",
+      "url": "https://medex.com.bd/brands/26107/oricef-2-gm-injection"
+    },
+    {
+      "name": "Orizone",
+      "strength": "500 mg/vial",
+      "manufacturer": "Pharmacil Limited",
+      "price": "500 mg vial : ৳ 200.60",
+      "url": "https://medex.com.bd/brands/27614/orizone-500-mg-injection"
+    },
+    {
+      "name": "Orizone",
+      "strength": "1 gm/vial",
+      "manufacturer": "Pharmacil Limited",
+      "price": "1 gm vial : ৳ 290.87",
+      "url": "https://medex.com.bd/brands/27615/orizone-1-gm-injection"
+    },
+    {
+      "name": "Orizone",
+      "strength": "2 gm/vial",
+      "manufacturer": "Pharmacil Limited",
+      "price": "2 gm vial : ৳ 501.50",
+      "url": "https://medex.com.bd/brands/27616/orizone-2-gm-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "250 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8033/oryx-250-mg-im-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "500 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/8034/oryx-500-mg-im-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "1 gm/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/8035/oryx-1-gm-im-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "250 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8036/oryx-250-mg-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "500 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/8037/oryx-500-mg-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "1 gm/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/8038/oryx-1-gm-injection"
+    },
+    {
+      "name": "Oryx",
+      "strength": "2 gm/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 351.00",
+      "url": "https://medex.com.bd/brands/27816/oryx-2-gm-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "250 mg vial : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/8040/parcef-250-mg-im-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "500 mg vial : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/8041/parcef-500-mg-im-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "1 gm vial : ৳ 160.48",
+      "url": "https://medex.com.bd/brands/8042/parcef-1-gm-im-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "250 mg vial : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/8043/parcef-250-mg-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "500 mg vial : ৳ 120.36",
+      "url": "https://medex.com.bd/brands/8044/parcef-500-mg-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "1 gm vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/8045/parcef-1-gm-injection"
+    },
+    {
+      "name": "Parcef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "2 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/27424/parcef-2-gm-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "250 mg/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8046/perix-250-mg-im-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8047/perix-500-mg-im-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8048/perix-1-gm-im-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "250 mg/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8049/perix-250-mg-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "500 mg/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8050/perix-500-mg-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8051/perix-1-gm-injection"
+    },
+    {
+      "name": "Perix",
+      "strength": "2 gm/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8052/perix-2-gm-injection"
+    },
+    {
+      "name": "Powercef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8053/powercef-250-mg-im-injection"
+    },
+    {
+      "name": "Powercef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8054/powercef-500-mg-im-injection"
+    },
+    {
+      "name": "Powercef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 187.00",
+      "url": "https://medex.com.bd/brands/8055/powercef-1-gm-im-injection"
+    },
+    {
+      "name": "Powercef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8056/powercef-2-gm-injection"
+    },
+    {
+      "name": "Powercef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 187.00",
+      "url": "https://medex.com.bd/brands/8057/powercef-1-gm-injection"
+    },
+    {
+      "name": "Prioxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/37223/prioxon-500-mg-im-injection"
+    },
+    {
+      "name": "Prioxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/37224/prioxon-500-mg-injection"
+    },
+    {
+      "name": "Prioxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/37225/prioxon-1-gm-injection"
+    },
+    {
+      "name": "Prioxon",
+      "strength": "2 gm/vial",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 500.00",
+      "url": "https://medex.com.bd/brands/37226/prioxon-2-gm-injection"
+    },
+    {
+      "name": "Prioxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/37565/prioxon-1-gm-im-injection"
+    },
+    {
+      "name": "Rakxon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "2 gm vial : ৳ 500.00",
+      "url": "https://medex.com.bd/brands/8062/rakxon-2-gm-injection"
+    },
+    {
+      "name": "Rakxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/27708/rakxon-1-gm-injection"
+    },
+    {
+      "name": "Rit",
+      "strength": "250 mg/vial",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/8063/rit-250-mg-im-injection"
+    },
+    {
+      "name": "Rit",
+      "strength": "500 mg/vial",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.35",
+      "url": "https://medex.com.bd/brands/8064/rit-500-mg-im-injection"
+    },
+    {
+      "name": "Rit",
+      "strength": "1 gm/vial",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/8065/rit-1-gm-im-injection"
+    },
+    {
+      "name": "Rit",
+      "strength": "1 gm/vial",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/8068/rit-1-gm-injection"
+    },
+    {
+      "name": "Rit",
+      "strength": "2 gm/vial",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.90",
+      "url": "https://medex.com.bd/brands/8069/rit-2-gm-injection"
+    },
+    {
+      "name": "Rofecin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 220.66",
+      "url": "https://medex.com.bd/brands/8071/rofecin-500-mg-im-injection"
+    },
+    {
+      "name": "Rofecin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 361.08",
+      "url": "https://medex.com.bd/brands/8072/rofecin-1-gm-im-injection"
+    },
+    {
+      "name": "Rofecin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 220.66",
+      "url": "https://medex.com.bd/brands/8074/rofecin-500-mg-injection"
+    },
+    {
+      "name": "Rofecin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 361.08",
+      "url": "https://medex.com.bd/brands/8075/rofecin-1-gm-injection"
+    },
+    {
+      "name": "Rofecin",
+      "strength": "2 gm/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 682.05",
+      "url": "https://medex.com.bd/brands/8076/rofecin-2-gm-injection"
+    },
+    {
+      "name": "Temtrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/27344/temtrix-1-gm-im-injection"
+    },
+    {
+      "name": "Temtrix",
+      "strength": "1 gm/vial",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/27345/temtrix-1-gm-injection"
+    },
+    {
+      "name": "Temtrix",
+      "strength": "2 gm/vial",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/27346/temtrix-2-gm-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8077/topcef-250-mg-im-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8078/topcef-500-mg-im-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/8079/topcef-1-gm-im-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8081/topcef-500-mg-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/8082/topcef-1-gm-injection"
+    },
+    {
+      "name": "Topcef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 301.00",
+      "url": "https://medex.com.bd/brands/8083/topcef-2-gm-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "250 mg/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8084/trax-250-mg-im-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8085/trax-500-mg-im-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8086/trax-1-gm-im-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "250 mg/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8087/trax-250-mg-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8088/trax-500-mg-injection"
+    },
+    {
+      "name": "Trax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8089/trax-1-gm-injection"
+    },
+    {
+      "name": "Traxef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "250 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/26397/traxef-250-mg-im-injection"
+    },
+    {
+      "name": "Traxef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "1 gm vial : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/27709/traxef-1-gm-injection"
+    },
+    {
+      "name": "Traxef",
+      "strength": "2 gm/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "2 gm vial : ৳ 490.00",
+      "url": "https://medex.com.bd/brands/31056/traxef-2-gm-injection"
+    },
+    {
+      "name": "Traxef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/36798/traxef-500-mg-im-injection"
+    },
+    {
+      "name": "Traxef",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/36799/traxef-500-mg-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "250 mg vial : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/8090/traxon-250-mg-im-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/8091/traxon-500-mg-im-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 gm vial : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/8092/traxon-1-gm-im-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "250 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "250 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8093/traxon-250-mg-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "500 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/8094/traxon-500-mg-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "1 gm/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/8095/traxon-1-gm-injection"
+    },
+    {
+      "name": "Traxon",
+      "strength": "2 gm/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "2 gm vial : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/8096/traxon-2-gm-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "250 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8097/tribac-250-mg-im-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "500 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8098/tribac-500-mg-im-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "250 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8100/tribac-250-mg-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "500 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8101/tribac-500-mg-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "1 gm/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/8102/tribac-1-gm-injection"
+    },
+    {
+      "name": "Tribac",
+      "strength": "2 gm/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8103/tribac-2-gm-injection"
+    },
+    {
+      "name": "Triforce",
+      "strength": "1 gm/vial",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/35710/triforce-1-gm-im-injection"
+    },
+    {
+      "name": "Triforce",
+      "strength": "1 gm/vial",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/37408/triforce-1-gm-iv-infusion"
+    },
+    {
+      "name": "Triject",
+      "strength": "250 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8104/triject-250-mg-im-injection"
+    },
+    {
+      "name": "Triject",
+      "strength": "500 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/8105/triject-500-mg-im-injection"
+    },
+    {
+      "name": "Triject",
+      "strength": "1 gm/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/8106/triject-1-gm-im-injection"
+    },
+    {
+      "name": "Triject",
+      "strength": "500 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/8108/triject-500-mg-injection"
+    },
+    {
+      "name": "Triject",
+      "strength": "1 gm/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/8109/triject-1-gm-injection"
+    },
+    {
+      "name": "Triject",
+      "strength": "2 gm/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/8110/triject-2-gm-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "250 mg/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "250 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8111/trimax-250-mg-im-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8112/trimax-500-mg-im-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8113/trimax-1-gm-im-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "500 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/8115/trimax-500-mg-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "1 gm/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8116/trimax-1-gm-injection"
+    },
+    {
+      "name": "Trimax",
+      "strength": "2 gm/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8117/trimax-2-gm-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/8118/triphin-250-mg-im-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/8119/triphin-500-mg-im-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.48",
+      "url": "https://medex.com.bd/brands/8120/triphin-1-gm-im-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/8121/triphin-250-mg-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/8122/triphin-500-mg-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "1 gm/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 160.48",
+      "url": "https://medex.com.bd/brands/8123/triphin-1-gm-injection"
+    },
+    {
+      "name": "Triphin",
+      "strength": "2 gm/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "2 gm vial : ৳ 250.75",
+      "url": "https://medex.com.bd/brands/8124/triphin-2-gm-injection"
+    },
+    {
+      "name": "Trixotim",
+      "strength": "1 gm/vial",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/32564/trixotim-1-gm-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "250 mg/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/8125/trizon-250-mg-im-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/8126/trizon-500-mg-im-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "1 gm/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/8127/trizon-1-gm-im-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/8129/trizon-500-mg-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "1 gm/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/8130/trizon-1-gm-injection"
+    },
+    {
+      "name": "Trizon",
+      "strength": "2 gm/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "2 gm vial : ৳ 300.90",
+      "url": "https://medex.com.bd/brands/8131/trizon-2-gm-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "250 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/8135/vertex-250-mg-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "500 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/8136/vertex-500-mg-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "1 gm/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "1 gm vial : ৳ 190.21",
+      "url": "https://medex.com.bd/brands/8137/vertex-1-gm-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "2 gm/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "2 gm vial : ৳ 302.04",
+      "url": "https://medex.com.bd/brands/8138/vertex-2-gm-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "1 gm/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "1 gm vial : ৳ 190.21",
+      "url": "https://medex.com.bd/brands/26892/vertex-1-gm-im-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "250 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "250 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/26893/vertex-250-mg-im-injection"
+    },
+    {
+      "name": "Vertex",
+      "strength": "500 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "500 mg vial : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/26894/vertex-500-mg-im-injection"
+    },
+    {
+      "name": "Winner",
+      "strength": "500 mg/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "500 mg vial : ৳ 120.45",
+      "url": "https://medex.com.bd/brands/8140/winner-500-mg-im-injection"
+    },
+    {
+      "name": "Winner",
+      "strength": "1 gm/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "1 gm vial : ৳ 180.68",
+      "url": "https://medex.com.bd/brands/8141/winner-1-gm-im-injection"
+    },
+    {
+      "name": "Winner",
+      "strength": "500 mg/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "500 mg vial : ৳ 120.45",
+      "url": "https://medex.com.bd/brands/8143/winner-500-mg-injection"
+    },
+    {
+      "name": "Winner",
+      "strength": "1 gm/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "1 gm vial : ৳ 180.68",
+      "url": "https://medex.com.bd/brands/8144/winner-1-gm-injection"
+    },
+    {
+      "name": "Winner",
+      "strength": "2 gm/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/8145/winner-2-gm-injection"
+    },
+    {
+      "name": "Xone-3",
+      "strength": "1 gm/vial",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "1 gm vial : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/26977/xone-3-1-gm-injection"
+    },
+    {
+      "name": "Xone-3",
+      "strength": "2 gm/vial",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "2 gm vial : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/26978/xone-3-2-gm-injection"
+    },
+    {
+      "name": "Xone-3",
+      "strength": "500 mg/vial",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "500 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/35900/xone-3-500-mg-im-injection"
+    },
+    {
+      "name": "Xone-3",
+      "strength": "500 mg/vial",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "500 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/35901/xone-3-500-mg-injection"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ceftriaxone injection is indicated for the treatment of the following major infections:\n\n- Lower respiratory tract infections\n- Acute Bacterial Otitis Media\n- Skin and skin structure infections\n- Urinary tract infections\n- Gonorrhea\n- Bacterial Septicemia\n- Bone and joint infections\n- Meningitis\n- Prevention of postoperative infections\n- Perioperative prophylaxis of infections associated with surgery",
+    "mode_of_action": "Ceftriaxone is a 3rd generation broad-spectrum parenteral cephalosporin antibiotic. It has potent bactericidal activity against a wide range of Gram-positive and Gram-negative organisms. Like other cephalosporins and penicillins, Ceftriaxone kills bacteria by interfering with the synthesis of the bacterial cell wall. Ceftriaxone has a high degree of stability in the presence of beta lactamases. A remarkable feature of Ceftriaxone is its relatively long plasma elimination half-life of about 6 to 9 hours, which makes single or once-daily dosage of the drug appropriate for most patients. Ceftriaxone is not metabolized in the body. About 40-65% of a dose of Ceftriaxone is excreted unchanged in the urine; the remainder is excreted in the bile and ultimately found in the feces as unchanged drug and microbiologically inactive compound. The drug is highly protein bound (95%).",
+    "dosage": "**Adult**: The usual dose is 1 to 2 gm by intravenous or intramuscular administration once a day (or in equally divided doses twice a day).\n\n- **Pneumonia, Bronchitis, Acute bacterial otitis media, Skin and skin structure infection, Urinary tract infections, Bacterial Septicemia, Bone and joint infections, Meningitis**: 1 to 2 g IV or IM once a day (or in equally divided doses twice a day); Maximum dose: 4 gm/day\n- **Uncomplicated gonococcal infections**: 250 mg IM as a single dose\n- **Surgical prophylaxis**: 1 g IV as a single dose 30 to 120 minutes before surgery\n\n**Infants and Children (01 month or older)**: The usual dose is 50 to 75 mg/kg intravenous or intramuscular administration once a day (or in equally divided doses twice a day).\n\n- **Pneumonia, Bronchitis, Skin and skin structure infection, Urinary tract infections, Bacterial Septicemia, Bone and joint infections**: 50 to 75 mg/kg IV or IM once a day (or in equally divided doses twice a day); Maximum dose: 2 gm/day\n- **Acute bacterial otitis media**: 50 mg/kg IM in single dose; Maximum dose: 1 gm/day\n- **Meningitis**: 100 mg/kg IV or IM in single daily dose or (or in equally divided doses twice a day); Maximum dose: 4 gm/day\n\n**Duration of therapy**: Continue for more than 2 days after signs and symptoms of infection have disappeared. Usual duration is 4 to 14 days; in complicated infections, longer therapy may be required.",
+    "administration": "Preparation of Solutions for Intramuscular / Intravenous Injections:\n\n- **For Intramuscular Injection**: 250 mg or 500 mg Ceftriaxone should be dissolved in 2 ml Lidocaine HCI 1% injection or 1 g Ceftriaxone in 3.5 ml of Lidocaine HCI 1% injection.\n- **For Intravenous Injection**: 250 mg or 500 mg Ceftriaxone should be dissolved in 5 ml of Water for injection or 1 g Ceftriaxone in 10 ml of Water for injection USP or 2 g Ceftriaxone in 20 ml of Water for injection.\n\r\nThe injection should be administered over 2-4 minutes, by Intramuscular or Intravenous injection or by tubing infusion over a period of 30 minutes at concentration between 10 mg/mL and 40 mg/mL. Before starting treatment through Ceftriaxone injection, patient tolerance test should be checked by administration of a test dose. (The use of freshly reconstituted solution is recommended. However, it maintains potency for at least 6 hours at room temperature or 24 hours at 5°C).",
+    "interaction": "No drug interactions have been reported.",
+    "contraindications": "Ceftriaxone should not be given to patients with a history of hypersensitivity to cephalosporin antibiotics.",
+    "side_effects": "Ceftriaxone is generally well tolerated. A few side effects such as gastro-intestinal effects including diarrhea, nausea and vomiting, stomatitis and glossitis; cutaneous reactions including rash, pruritus, urticaria, edema and erythema multiforme; hematologic reactions including eosinophilia, thrombocytopenia, leucopenia, anemia and neutropenia; hepatic reactions including elevations of SGOT or SGPT, bilirubinemia; CNS reactions including nervousness, confusion, sleep disturbances, headache, hyperactivity, convulsion, hypertonia and dizziness were reported. Local phlebitis occurs rarely following intravenous administration but can be minimized by slow injections over 2-4 minutes.",
+    "pregnancy_cat": "Its safety in human pregnancy has not been established. Therefore, it should not be used in pregnancy unless absolutely indicated. Low concentrations of Ceftriaxone are excreted in human milk. Caution should be exercised when Ceftriaxone is administered to a lactating mother.",
+    "precautions": "As with other cephalosporins, anaphylactic shock cannot be ruled out even if a thorough patient history is taken. Anaphylactic shock requires immediate countermeasures such as intravenous epinephrine followed by a glucocorticoid. In rare cases, shadows suggesting sludge have been detected by sonograms of the gallbladder. This condition was reversible on discontinuation or completion of Ceftriaxone therapy. Even if such findings are associated with pain, conservative, nonsurgical management is recommended. During prolonged treatment the blood picture should be checked at regular intervals.",
+    "pediatric_uses": "Ceftriaxone must not be given to neonates if the neonates is premature and newborn (up to 28 days of age).",
+    "overdose_effects": "There is no specific antidote. Treatment of overdosage should be symptomatic.",
+    "drug_classes": "Third generation cephalosporins",
+    "storage_conditions": "Vial store in a cool, dry place (below 30° C), away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "নীচের ইনফেকশনগুলোর জন্য সেফট্রায়াক্সন নির্দেশিত হয়ঃ\n\n- নিম্ন শ্বসনতন্ত্রের সংক্রমন\n- একিউট ব্যাকটেরিয়াল ওটাইটিস মিডিয়া\n- চর্ম ও চর্ম সংক্রান্ত সংক্রমণ\n- মূত্রতন্ত্রের সংক্রমন\n- গনোরিয়া\n- ব্যাকটেরিয়াল সেপটিসেমিয়া\n- অস্থি ও অস্থিসন্ধির সংক্রমন\n- মেনিনজাইটিস\n- অপারেশন পরবর্তী সংক্রমন প্রতিরোধে\n- অপারেশন পূর্ব ও পরবর্তী সংক্রমনে প্রতিরোধক হিসেবে",
+    "mode_of_action": "সেফট্রায়াক্সন একটি তৃৃতীয় জেনারেশনের ব্রড স্পেকট্রাম পেরেন্টেরাল সেফালোস্পোরিন এন্টিবায়োটিক। বিস্তৃত পরিধির গ্রাম-পজেটিভ ও বিশেষভাবে গ্রাম-নেগেটিভ জীবাণুর বিরুদ্ধে এর ব্যাকটেরিয়ানাশক কার্যকারিতা রয়েছে। অন্যান্য সেফালোস্পোরিন ও পেনিসিলিনের মতো সেফট্রায়াক্সন ও ব্যাকটেরিয়ার কোষ প্রাচীর সংশ্লেষণে বাঁধা দেয়। সেফট্রায়াক্সন বিটা ল্যাকটামেজ এর বিরুদ্ধে উচ্চ মাত্রায় স্থায়ী। ইহার প্লাজমা নিঃসরণ অর্ধায়ু (half-life) হচ্ছে প্রায় ৬-৯ ঘন্টা যার কারণে অধিকাংশ রোগীর ক্ষেত্রে এই ঔষধ দৈনিক একবার হিসেবে ব্যবহার করা যায়। মানুষের শরীরে সেফট্রায়াক্সন মেটাবলিজম হয় না। প্রায় ৪০-৬৫% সেফট্রায়াক্সন অপরিবর্তিত অবস্থায় মূত্রের মাধ্যমে নিস্কাশিত হয়। অবশিষ্ট অংশ পিত্ত দ্বারা নিষ্কাশিত হয় এবং মলের ভিতর অপরিবর্তিত অবস্থায় একে পাওয়া যায়। প্লাজমা প্রোটিনের সাথে এই ঔষধ ৯৫% যুক্ত থাকে।",
+    "dosage": "**প্রাপ্ত বয়স্ক**: সাধারণ মাত্রায় দৈনিক ১-২ গ্রাম শিরায়/মাংসপেশীতে ইনজেকশনের মাধ্যমে (অথবা দৈনিক দুইবার সমবিভক্ত মাত্রায়) \n\n- নিউমোনিয়া, ব্রংকাইটিস, একিউট ব্যাকটেরিয়াল ওটাইটিস মিডিয়া, চর্ম ও চর্ম সংক্রান্ত সংক্রমন, মূত্রতন্ত্রের সংক্রমন, ব্যাকটেরিয়াল সেপটিসেমিয়া, অস্থি ও অস্থিসন্ধির সংক্রমন, মেনিনজাইটিস: ১-২ গ্রাম আইভি বা আইএম দৈনিক ১ বার (অথবা দৈনিক দুইবার সমবিভক্ত মাত্রায়); দৈনিক সর্বোচ্চ মাত্রা ৪ গ্রাম\n- সাধারণ গনোরিয়া সংক্রমণ: একক মাত্রায় ২৫০ মিলি গ্রাম আইএম\n- সার্জিক্যাল প্রোফাইল্যাক্সিস: সার্জারীর ৩০-১২০ মিনিট পূর্বে একক মাত্রায় ১ গ্রাম আইভি\n\n**নবজাতক ও শিশু (১ মাস অথবা তদুর্ধ)**: সাধারণ মাত্রায় দৈনিক ৫০-৭৫ মিঃগ্রাঃ/কেজি দেহ ওজনে শিরায়/মাংসপেশীতে ইনজেকশনের মাধ্যমে (অথবা দৈনিক দুইবার সমবিভক্ত মাত্রায়)\n\n- নিউমোনিয়া, ব্রংকাইটিস, চর্ম ও চর্ম সংক্রান্ত সংক্রমন, মুত্রতন্ত্রের সংক্রমন, ব্যাকটেরিয়াল সেপটিসেমিয়া, অস্থি ও অস্থিসন্ধির সংক্রমন নিউমোনিয়া, ব্রংকাইটিস, চর্ম ও চর্ম সংক্রান্ত সংক্রমন, মুত্রতন্ত্রের সংক্রমন, ব্যাকটেরিয়াল সেপটিসেমিয়া, অস্থি ও অস্থিসন্ধির সংক্রমন: ৫০-৭৫ মিঃগ্রাঃ/কেজি আইভি বা আইএম দৈনিক ১ বার (অথবা দৈনিক দুইবার সমবিভক্ত মাত্রায়); দৈনিক সর্বোচ্চ মাত্রা ২ গ্রাম\n- একিউট ব্যাকটেরিয়াল ওটাইটিস মিডিয়া: একক মাত্রায় ৫০ মিঃগ্রাঃ/কেজি আইএম; দৈনিক সর্বোচ্চ মাত্রা ১ গ্রাম\n- মেনিনজাইটিস: ১০০ মিঃগ্রাঃ/কেজি আইভি বা আইএম দৈনিক ১ বার (অথবা দৈনিক দুইবার সমবিভক্ত মাত্রায়); দৈনিক সর্বোচ্চ মাত্রা ৪ গ্রাম\n\n**চিকিৎসার মেয়াদকাল**: সংক্রমণের লক্ষণ ও উপসর্গসমূহ উপশম হওয়ারও ২ দিন বা অধিককাল ব্যবহার করতে হবে। চিকিৎসার স্বাভাবিক মেয়াদকাল ৪ থেকে ১৪ দিন। জটিল সংক্রমণের চিকিৎসায় আরও বেশী সময় ব্যবহার করতে হবে।",
+    "administration": "মাংসপেশী/শিরায় ইনজেকশনের জন্য দ্রবণের প্রস্তুতকরণঃ \n\n- **মাংসপেশীতে ইনজেকশনের জন্য**: ২৫০ মিঃগ্রাঃ বা ৫০০ মিঃগ্রাঃ সেফট্রায়াক্সন ২ মিঃলিঃ লিডোকেইন হাইড্রোক্লোরাইড ১% ইনজেকশনে দ্রবীভূত করতে হবে। আবার ১ গ্রাম সেফট্রায়াক্সন ৩.৫ মিঃলিঃ লিডোকেইন হাইড্রোক্লোরাইড ১% ইনজেকশনে দ্রবীভূত করতে হবে।\n- **শিরায় ইনজেকশনের জন্য**: ২৫০ মিঃগ্রাঃ বা ৫০০ মিঃগ্রাঃ সেফট্রায়াক্সন ৫ মিঃলিঃ ওয়াটার ফর ইনজেকশনে অথবা ১ গ্রাম সেফট্রায়াক্সন ১০ মিঃলিঃ অথবা ২ গ্রাম সেফট্রায়াক্সন ২০ মিঃলিঃ ওয়াটার ফর ইনজেকশনে দ্রবীভূত করতে হবে।\n\r\nইনজেকশন সরাসরি মাংসপেশী/শিরাতে ২-৪ মিনিট ধরে অথবা আন্তঃশিরা ইনফিউশন টিউবিং এর মাধ্যমে ৩০ মিনিট ধরে প্রয়োগ করতে হবে ১০-৪০ মিঃগ্রাঃ/মিঃলিঃ মাত্রায়। সেফট্রায়াক্সন ইনজেকশন দিয়ে চিকিৎসা শুরু করার পূর্বে টেস্ট ডোজ দিয়ে রোগীর সহনীয়তা পরীক্ষা করে নিতে হবে। (সদ্য প্রস্তুতকৃত ইনজেকশন ব্যবহার করতে হবে তবে ঔষধের কার্যকারিতা সাধারণ তাপমাত্রায় ৬ ঘন্টা ও ৫° সেঃ তাপমাত্রায় ২৪ ঘন্টা বজায় থাকে)।",
+    "interaction": "ড্রাগ ইন্টার‌্যাকশনের কোন তথ্য পাওয়া যায়নি।",
+    "contraindications": "সেফালোস্পোরিন এন্টিবায়োটিকের প্রতি সংবেদনশীল রোগীদের ক্ষেত্রে সেফট্রায়াক্সন প্রয়োগ করা উচিৎ নয়।",
+    "side_effects": "সেফট্রায়াক্সন সাধারনতঃ সুসহনীয়। অল্প কিংবা পার্শ্ব প্রতিক্রিয়া হলোঃ গ্যাষ্ট্রোইন্টেসটাইনাল সমস্যা যেমন ডায়রিয়া, বমি বমি ভাব, বমি হওয়া, স্টমাটাইটিস, গ্লসাইটিস; কিউটেনিয়াস প্রতিক্রিয়া যেমন ত্বকের লালচে ভাব, pruritus (চুলকানী), আরটিকেরিয়া, ইডিমা ও ইরাইথেমা মাল্টিফর্ম; হিমাটোলজিক প্রতিক্রিয়া যেমনঃ ইওসিনোফিলিয়া, থ্রম্বোসাইটোপেনিয়া, লিউকোপেনিয়া, অ্যানিমিয়া ও নিউট্রোপেনিয়া; যকৃতের প্রতিক্রিয়া যেমন SGOT ও SGPT এর মাত্রা বৃদ্ধি, বিলিরুবনেমিয়া; কেন্দ্রীয় স্নায়ুতন্ত্রের প্রতিক্রিয়া যেমন, স্নায়ু দূর্বলতা, দ্বিধা গ্রস্থতা, ঘুমের সমস্যা, মাথা ব্যথা, হাইপার অ্যাকটিভিটি, খিঁচুনি, হাইপারটনিয়া এবং ঝিঁমুনী ভাবের তথ্য পাওয়া গিয়েছে। শিরায় ইনজেকশনের কারণে স্থানীয় ফ্লেবাইটিস কদাচিৎ হতে পারে কিন্তু ধীরগতিতে ২-৪ মিনিট ধরে ইনজেকশন প্রয়োগ করলে এই সমস্যা কমে যায়।",
+    "pregnancy_cat": "গর্ভাবস্থায় মানবদেহে সেফট্রায়াক্সনের নিরাপত্তা এখনো প্রমাণিত হয়নি। সুতরাং সম্পূণরুপে নির্দেশিত না হলে গর্ভাবস্থায় এটি ব্যবহার করা যাবেনা। যেহেতু মাতৃদুগ্ধে সেফট্রায়াক্সন অল্পমাত্রায় নিঃসরিত হয় সুতরাং স্তন্যদানকারী মায়েদের ক্ষেত্রে ইহা সাবধানতা ও সতর্কতার সাথে ব্যবহার করা উচিৎ।",
+    "precautions": "অন্যান্য সেফালোস্পরিন এন্টিবায়োটিকের ন্যায় সেফট্রায়াক্সন ব্যবহারের ফলে এনাফাইলেটিক শক হতে পারে। এনাফাইলেটিক শকের ক্ষেত্রে শিরাপথে এপিনেফ্রিন ও Glucocorticoid ক্রমান্বয়ে প্রয়োগ করতে হবে। কিছু কিছু বিরল ক্ষেত্রে সেফট্রায়াক্সন ব্যবহারকারীদের পিত্তথলি সনোগ্রাম করে \"Shadows Suggesting Sludge\" এর উপস্থিতি পাওয়া গেছে। কিন্তু উক্ত অবস্থায় সেফট্রায়াক্সন দ্বারা চিকিৎসা বন্ধ করে দেয়ার পর বা সেফট্রায়াক্সন দ্বারা চিকিৎসা শেষ হওয়ার পর স্বাভাবিক হয়ে যায়। উক্ত অবস্থার সাথে যদি ব্যথা হয় তবে কনজারভেটিভ ননসার্জিক্যাল ম্যানেজমেন্ট প্রয়োজন হবে। দীর্ঘদিন ধরে সেফট্রায়াক্সন দ্বারা চিকিৎসার সময় নিয়মিত ভাবে রক্তরসে সেফট্রায়াক্সনের ঘনত্ব পর্যবেক্ষেন করতে হবে ।",
+    "pediatric_uses": "অপূর্ণকালিক শিশু এবং নবজাতক (২৮ দিন বয়স পর্যন্ত) এর ক্ষেত্রে সেফট্রায়াক্সন প্রয়োগ করা উচিৎ নয়।",
+    "overdose_effects": "কোন নির্দিষ্ট এন্টিডট নাই। মাত্রাধিক্যের ক্ষেত্রে উপসর্গ অনুযায়ী চিকিৎসা দিতে হবে ।",
+    "drug_classes": "Third generation cephalosporins",
+    "storage_conditions": "ভায়াল আলো ও আর্দ্রতা থেকে দূরে ঠান্ডা ও শুষ্ক স্থানে (৩০° সেঃ তাপমাত্রার নিচে) রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/225/ceftriaxone-sodium",
+  "source_url_bn": "https://medex.com.bd/generics/225/ceftriaxone-sodium/bn",
+  "scraped_at": "2026-10-10T15:02:53+00:00"
+}

@@ -1,0 +1,2794 @@
+{
+  "slug": "cefixime",
+  "name_en": "Cefixime Trihydrate",
+  "name_bn": "সেফিক্সিম ট্রাইহাড্রেট",
+  "therapeutic_class": "Third generation cephalosporins",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "3-C",
+      "strength": "200 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7695/3-c-200-mg-capsule"
+    },
+    {
+      "name": "3-C",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7696/3-c-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "3-C",
+      "strength": "400 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/18731/3-c-400-mg-capsule"
+    },
+    {
+      "name": "3-Geocef",
+      "strength": "200 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7697/3-geocef-200-mg-capsule"
+    },
+    {
+      "name": "3-Geocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/7698/3-geocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "3RD Cef",
+      "strength": "200 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/7699/3rd-cef-200-mg-tablet"
+    },
+    {
+      "name": "3RD Cef",
+      "strength": "400 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7700/3rd-cef-400-mg-tablet"
+    },
+    {
+      "name": "3RD Cef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7701/3rd-cef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Adexim",
+      "strength": "200 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7461/adexim-200-mg-capsule"
+    },
+    {
+      "name": "Adexim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7462/adexim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aegis",
+      "strength": "200 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/37102/aegis-200-mg-capsule"
+    },
+    {
+      "name": "Aegis",
+      "strength": "400 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/37103/aegis-400-mg-capsule"
+    },
+    {
+      "name": "Afix",
+      "strength": "200 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7463/afix-200-mg-capsule"
+    },
+    {
+      "name": "Afix",
+      "strength": "400 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7464/afix-400-mg-capsule"
+    },
+    {
+      "name": "Afix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7465/afix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Afix",
+      "strength": "200 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/26403/afix-200-mg-tablet"
+    },
+    {
+      "name": "Afix",
+      "strength": "400 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/26404/afix-400-mg-tablet"
+    },
+    {
+      "name": "Afix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "30 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7466/afix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Afixime",
+      "strength": "200 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/7467/afixime-200-mg-capsule"
+    },
+    {
+      "name": "Afixime",
+      "strength": "400 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7468/afixime-400-mg-capsule"
+    },
+    {
+      "name": "Afixime",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "37.5 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7469/afixime-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Afixime",
+      "strength": "25 mg/ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/29363/afixime-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Alfixim",
+      "strength": "200 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/17140/alfixim-200-mg-capsule"
+    },
+    {
+      "name": "Alfixim",
+      "strength": "400 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/17141/alfixim-400-mg-capsule"
+    },
+    {
+      "name": "Alfixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/17142/alfixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amucef",
+      "strength": "200 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7470/amucef-200-mg-capsule"
+    },
+    {
+      "name": "Amucef",
+      "strength": "400 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7471/amucef-400-mg-capsule"
+    },
+    {
+      "name": "Amucef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.60",
+      "url": "https://medex.com.bd/brands/7472/amucef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Antima",
+      "strength": "200 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7473/antima-200-mg-capsule"
+    },
+    {
+      "name": "Antima",
+      "strength": "400 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/7474/antima-400-mg-capsule"
+    },
+    {
+      "name": "Antima",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "50 ml bottle : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/7475/antima-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactazim",
+      "strength": "200 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/31457/bactazim-200-mg-capsule"
+    },
+    {
+      "name": "Bactazim",
+      "strength": "400 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/31458/bactazim-400-mg-capsule"
+    },
+    {
+      "name": "Bactazim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/31459/bactazim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bestcef",
+      "strength": "200 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7478/bestcef-200-mg-capsule"
+    },
+    {
+      "name": "Bestcef",
+      "strength": "400 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 50.25",
+      "url": "https://medex.com.bd/brands/7479/bestcef-400-mg-capsule"
+    },
+    {
+      "name": "Bestcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "37.5 ml bottle : ৳ 130.50",
+      "url": "https://medex.com.bd/brands/7480/bestcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bestcef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "21 ml bottle : ৳ 98.00",
+      "url": "https://medex.com.bd/brands/33973/bestcef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Bestcef Forte",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/28884/bestcef-forte-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bestcef Max",
+      "strength": "100 mg/ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "20 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/37900/bestcef-max-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Bioxim",
+      "strength": "200 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7481/bioxim-200-mg-capsule"
+    },
+    {
+      "name": "Bioxim",
+      "strength": "400 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.14",
+      "url": "https://medex.com.bd/brands/7482/bioxim-400-mg-capsule"
+    },
+    {
+      "name": "Bioxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 120.37",
+      "url": "https://medex.com.bd/brands/7483/bioxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bioxim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/27953/bioxim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "C-3",
+      "strength": "400 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7487/c-3-400-mg-capsule"
+    },
+    {
+      "name": "C-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7488/c-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "C-3",
+      "strength": "200 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/35464/c-3-200-mg-capsule"
+    },
+    {
+      "name": "Cebex",
+      "strength": "200 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7484/cebex-200-mg-capsule"
+    },
+    {
+      "name": "Cebex",
+      "strength": "400 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 52.50",
+      "url": "https://medex.com.bd/brands/7485/cebex-400-mg-capsule"
+    },
+    {
+      "name": "Cebex",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 166.60",
+      "url": "https://medex.com.bd/brands/7486/cebex-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cef-3",
+      "strength": "200 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7491/cef-3-200-mg-capsule"
+    },
+    {
+      "name": "Cef-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7493/cef-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cef-3",
+      "strength": "25 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "21 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/18808/cef-3-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Cef-3 DS",
+      "strength": "400 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7492/cef-3-ds-400-mg-capsule"
+    },
+    {
+      "name": "Cef-3 Forte",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/7494/cef-3-forte-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cef-3 Max",
+      "strength": "100 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "20 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/30264/cef-3-max-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Cef-Plus",
+      "strength": "200 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/7522/cef-plus-200-mg-capsule"
+    },
+    {
+      "name": "Cef-Plus",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/7523/cef-plus-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefadyl",
+      "strength": "200 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7495/cefadyl-200-mg-capsule"
+    },
+    {
+      "name": "Cefadyl",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7496/cefadyl-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefadyl",
+      "strength": "400 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/27149/cefadyl-400-mg-capsule"
+    },
+    {
+      "name": "Cefadyl DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/34517/cefadyl-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceferon",
+      "strength": "200 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7497/ceferon-200-mg-capsule"
+    },
+    {
+      "name": "Ceferon",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7498/ceferon-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefesta",
+      "strength": "200 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7499/cefesta-200-mg-capsule"
+    },
+    {
+      "name": "Cefesta",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "25 ml bottle : ৳ 86.00",
+      "url": "https://medex.com.bd/brands/7500/cefesta-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceficap",
+      "strength": "200 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7501/ceficap-200-mg-capsule"
+    },
+    {
+      "name": "Ceficap",
+      "strength": "400 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7502/ceficap-400-mg-capsule"
+    },
+    {
+      "name": "Ceficap",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7503/ceficap-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefiget",
+      "strength": "200 mg",
+      "manufacturer": "Get Well Limited",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/18739/cefiget-200-mg-capsule"
+    },
+    {
+      "name": "Cefiget",
+      "strength": "400 mg",
+      "manufacturer": "Get Well Limited",
+      "price": "Unit Price : ৳ 49.00",
+      "url": "https://medex.com.bd/brands/18740/cefiget-400-mg-capsule"
+    },
+    {
+      "name": "Cefiget",
+      "strength": "25 mg/ml",
+      "manufacturer": "Get Well Limited",
+      "price": "21 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/18741/cefiget-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Cefiget",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Get Well Limited",
+      "price": "50 ml bottle : ৳ 205.00",
+      "url": "https://medex.com.bd/brands/18742/cefiget-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefim-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7506/cefim-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefim-3",
+      "strength": "25 mg/ml",
+      "manufacturer": "ACI Limited",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18709/cefim-3-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Cefim-3",
+      "strength": "200 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/26337/cefim-3-200-mg-tablet"
+    },
+    {
+      "name": "Cefim-3 DS",
+      "strength": "200 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7504/cefim-3-ds-200-mg-capsule"
+    },
+    {
+      "name": "Cefim-3 DS",
+      "strength": "400 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7505/cefim-3-ds-400-mg-capsule"
+    },
+    {
+      "name": "Cefim-3 DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7507/cefim-3-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefim-3 DS",
+      "strength": "400 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/26338/cefim-3-ds-400-mg-tablet"
+    },
+    {
+      "name": "Cefimax",
+      "strength": "200 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/37401/cefimax-200-mg-capsule"
+    },
+    {
+      "name": "Cefimax",
+      "strength": "400 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/37402/cefimax-400-mg-capsule"
+    },
+    {
+      "name": "Cefimax",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "50 ml bottle : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/37403/cefimax-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefinaaf",
+      "strength": "200 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 38.00",
+      "url": "https://medex.com.bd/brands/28794/cefinaaf-200-mg-capsule"
+    },
+    {
+      "name": "Cefinaaf",
+      "strength": "400 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/28795/cefinaaf-400-mg-capsule"
+    },
+    {
+      "name": "Cefinaaf",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/28796/cefinaaf-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefivic",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/18745/cefivic-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefivic",
+      "strength": "200 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/33589/cefivic-200-mg-capsule"
+    },
+    {
+      "name": "Cefivic",
+      "strength": "400 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33590/cefivic-400-mg-capsule"
+    },
+    {
+      "name": "Cefivic DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/33591/cefivic-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefiwell",
+      "strength": "200 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/39310/cefiwell-200-mg-capsule"
+    },
+    {
+      "name": "Cefiwell",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/39311/cefiwell-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefiwell",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "50 ml bottle : ৳ 350.00",
+      "url": "https://medex.com.bd/brands/39312/cefiwell-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/33784/cefix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefix",
+      "strength": "200 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33785/cefix-200-mg-capsule"
+    },
+    {
+      "name": "Cefix",
+      "strength": "400 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33786/cefix-400-mg-capsule"
+    },
+    {
+      "name": "Cefix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/33783/cefix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefixic",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "50 ml bottle : ৳ 221.00",
+      "url": "https://medex.com.bd/brands/37791/cefixic-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefixic",
+      "strength": "200 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37792/cefixic-200-mg-capsule"
+    },
+    {
+      "name": "Cefixic",
+      "strength": "400 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/37793/cefixic-400-mg-capsule"
+    },
+    {
+      "name": "Cefixim",
+      "strength": "200 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/18749/cefixim-200-mg-capsule"
+    },
+    {
+      "name": "Cefixim",
+      "strength": "400 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/18750/cefixim-400-mg-capsule"
+    },
+    {
+      "name": "Cefixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/18751/cefixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefixim",
+      "strength": "25 mg/ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18753/cefixim-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Cefixim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/18752/cefixim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefixime-A",
+      "strength": "200 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7514/cefixime-a-200-mg-capsule"
+    },
+    {
+      "name": "Cefixime-A",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7515/cefixime-a-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefixime-A",
+      "strength": "400 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/36546/cefixime-a-400-mg-capsule"
+    },
+    {
+      "name": "Cefmix",
+      "strength": "200 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7516/cefmix-200-mg-capsule"
+    },
+    {
+      "name": "Cefmix",
+      "strength": "400 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7517/cefmix-400-mg-capsule"
+    },
+    {
+      "name": "Cefmix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7518/cefmix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefocef",
+      "strength": "200 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.09",
+      "url": "https://medex.com.bd/brands/7519/cefocef-200-mg-capsule"
+    },
+    {
+      "name": "Cefocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/7521/cefocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefocef DS",
+      "strength": "400 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 45.16",
+      "url": "https://medex.com.bd/brands/7520/cefocef-ds-400-mg-capsule"
+    },
+    {
+      "name": "Ceftem",
+      "strength": "200 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/27322/ceftem-200-mg-capsule"
+    },
+    {
+      "name": "Ceftem",
+      "strength": "400 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/27323/ceftem-400-mg-capsule"
+    },
+    {
+      "name": "Ceftem",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/27324/ceftem-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceftem-DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/37871/ceftem-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7526/ceftid-200-mg-capsule"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "400 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7527/ceftid-400-mg-capsule"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "37.5 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/7528/ceftid-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "25 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/7530/ceftid-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/28314/ceftid-200-mg-tablet"
+    },
+    {
+      "name": "Ceftid",
+      "strength": "400 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.35",
+      "url": "https://medex.com.bd/brands/28315/ceftid-400-mg-tablet"
+    },
+    {
+      "name": "Ceftid DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 321.21",
+      "url": "https://medex.com.bd/brands/7529/ceftid-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceftid QS",
+      "strength": "100 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "11 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/29612/ceftid-qs-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Cemaxi",
+      "strength": "200 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/18747/cemaxi-200-mg-capsule"
+    },
+    {
+      "name": "Cemaxi",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "30 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/18748/cemaxi-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cemix-3",
+      "strength": "200 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7531/cemix-3-200-mg-capsule"
+    },
+    {
+      "name": "Cemix-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7532/cemix-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephoral",
+      "strength": "200 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7533/cephoral-200-mg-capsule"
+    },
+    {
+      "name": "Cephoral",
+      "strength": "400 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7534/cephoral-400-mg-capsule"
+    },
+    {
+      "name": "Cephoral",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "37.5 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7535/cephoral-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cephoral",
+      "strength": "25 mg/ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18758/cephoral-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Cephoral DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 450.00",
+      "url": "https://medex.com.bd/brands/18757/cephoral-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cosgen-3",
+      "strength": "200 mg",
+      "manufacturer": "Albion Specialized Pharma Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37440/cosgen-3-200-mg-capsule"
+    },
+    {
+      "name": "Cosgen-3",
+      "strength": "400 mg",
+      "manufacturer": "Albion Specialized Pharma Limited",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/37441/cosgen-3-400-mg-capsule"
+    },
+    {
+      "name": "Cosgen-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Albion Specialized Pharma Limited",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/37442/cosgen-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cosmoxim",
+      "strength": "200 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 33.00",
+      "url": "https://medex.com.bd/brands/35561/cosmoxim-200-mg-capsule"
+    },
+    {
+      "name": "Cosmoxim",
+      "strength": "200 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/35562/cosmoxim-200-mg-capsule"
+    },
+    {
+      "name": "D-Fix",
+      "strength": "200 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7545/d-fix-200-mg-capsule"
+    },
+    {
+      "name": "D-Fix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7546/d-fix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "D-Fix",
+      "strength": "400 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34767/d-fix-400-mg-capsule"
+    },
+    {
+      "name": "Denvar",
+      "strength": "200 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7541/denvar-200-mg-capsule"
+    },
+    {
+      "name": "Denvar",
+      "strength": "400 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7542/denvar-400-mg-capsule"
+    },
+    {
+      "name": "Denvar",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7543/denvar-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Denvar",
+      "strength": "25 mg/ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/37834/denvar-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Denvar DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 240.00",
+      "url": "https://medex.com.bd/brands/7544/denvar-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Duracef",
+      "strength": "200 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7547/duracef-200-mg-capsule"
+    },
+    {
+      "name": "Duracef",
+      "strength": "400 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7548/duracef-400-mg-capsule"
+    },
+    {
+      "name": "Duracef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7549/duracef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Duracef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/18774/duracef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Duracef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/18773/duracef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Duracef Max",
+      "strength": "500 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "10 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/29785/duracef-max-500-mg-powder-for-suspension"
+    },
+    {
+      "name": "Elexime",
+      "strength": "200 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7550/elexime-200-mg-capsule"
+    },
+    {
+      "name": "Elexime",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7551/elexime-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Emixef",
+      "strength": "200 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7552/emixef-200-mg-capsule"
+    },
+    {
+      "name": "Emixef",
+      "strength": "400 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7553/emixef-400-mg-capsule"
+    },
+    {
+      "name": "Emixef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7554/emixef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Emixef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26201/emixef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Emixef",
+      "strength": "200 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/30161/emixef-200-mg-tablet"
+    },
+    {
+      "name": "Emixef",
+      "strength": "400 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33408/emixef-400-mg-tablet"
+    },
+    {
+      "name": "Emixef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7555/emixef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Emixef Max",
+      "strength": "100 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/39521/emixef-max-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Erafix",
+      "strength": "200 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7556/erafix-200-mg-capsule"
+    },
+    {
+      "name": "Erafix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7557/erafix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Erafix",
+      "strength": "400 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/18815/erafix-400-mg-capsule"
+    },
+    {
+      "name": "Evofix",
+      "strength": "200 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/28815/evofix-200-mg-capsule"
+    },
+    {
+      "name": "Evofix",
+      "strength": "400 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/28816/evofix-400-mg-capsule"
+    },
+    {
+      "name": "Evofix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/28817/evofix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Excef",
+      "strength": "200 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7561/excef-200-mg-capsule"
+    },
+    {
+      "name": "Excef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/7562/excef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Excef",
+      "strength": "400 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/18724/excef-400-mg-capsule"
+    },
+    {
+      "name": "Exiben",
+      "strength": "200 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/18719/exiben-200-mg-capsule"
+    },
+    {
+      "name": "Exiben",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/18720/exiben-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Exiben",
+      "strength": "400 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/27472/exiben-400-mg-capsule"
+    },
+    {
+      "name": "Fix-A",
+      "strength": "200 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7566/fix-a-200-mg-capsule"
+    },
+    {
+      "name": "Fix-A",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "37.5 ml bottle : ৳ 155.00",
+      "url": "https://medex.com.bd/brands/7568/fix-a-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fix-A",
+      "strength": "25 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "21 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/18710/fix-a-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Fix-A DS",
+      "strength": "400 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7567/fix-a-ds-400-mg-capsule"
+    },
+    {
+      "name": "Fix-A DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7569/fix-a-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fix-A Max",
+      "strength": "100 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "20 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/35171/fix-a-max-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Fixbac",
+      "strength": "200 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7570/fixbac-200-mg-capsule"
+    },
+    {
+      "name": "Fixbac",
+      "strength": "400 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7571/fixbac-400-mg-capsule"
+    },
+    {
+      "name": "Fixbac",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "50 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7572/fixbac-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fixbac",
+      "strength": "25 mg/ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27980/fixbac-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Fixbac DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/27979/fixbac-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fixim",
+      "strength": "200 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.20",
+      "url": "https://medex.com.bd/brands/18796/fixim-200-mg-capsule"
+    },
+    {
+      "name": "Fixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/28119/fixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fixotim",
+      "strength": "200 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32510/fixotim-200-mg-capsule"
+    },
+    {
+      "name": "Fixotim",
+      "strength": "400 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/32511/fixotim-400-mg-capsule"
+    },
+    {
+      "name": "Fixotim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/32512/fixotim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fixpro",
+      "strength": "200 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7563/fixpro-200-mg-capsule"
+    },
+    {
+      "name": "Fixpro",
+      "strength": "400 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7564/fixpro-400-mg-capsule"
+    },
+    {
+      "name": "Fixpro",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7565/fixpro-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fixpro DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/26174/fixpro-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Cefixime",
+      "strength": "200 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/7573/g-cefixime-200-mg-capsule"
+    },
+    {
+      "name": "G-Cefixime",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 138.00",
+      "url": "https://medex.com.bd/brands/7574/g-cefixime-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Cefixime",
+      "strength": "400 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/35224/g-cefixime-400-mg-capsule"
+    },
+    {
+      "name": "G-Fix",
+      "strength": "200 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7577/g-fix-200-mg-capsule"
+    },
+    {
+      "name": "G-Fix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7578/g-fix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Fix",
+      "strength": "400 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/32934/g-fix-400-mg-capsule"
+    },
+    {
+      "name": "Gen-3",
+      "strength": "200 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7575/gen-3-200-mg-capsule"
+    },
+    {
+      "name": "Gen-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/7576/gen-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Globexim",
+      "strength": "200 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/18743/globexim-200-mg-capsule"
+    },
+    {
+      "name": "Globexim",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/18744/globexim-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hyxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7580/hyxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hyxim",
+      "strength": "200 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28142/hyxim-200-mg-capsule"
+    },
+    {
+      "name": "Infa-3",
+      "strength": "200 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/7581/infa-3-200-mg-capsule"
+    },
+    {
+      "name": "Infa-3",
+      "strength": "400 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/7582/infa-3-400-mg-capsule"
+    },
+    {
+      "name": "Infa-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 195.60",
+      "url": "https://medex.com.bd/brands/7583/infa-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kefim",
+      "strength": "200 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.09",
+      "url": "https://medex.com.bd/brands/7584/kefim-200-mg-capsule"
+    },
+    {
+      "name": "Kefim",
+      "strength": "400 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.16",
+      "url": "https://medex.com.bd/brands/7585/kefim-400-mg-capsule"
+    },
+    {
+      "name": "Kefim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/7586/kefim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Keor",
+      "strength": "200 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7587/keor-200-mg-capsule"
+    },
+    {
+      "name": "Keor",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7589/keor-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Keor DS",
+      "strength": "400 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7588/keor-ds-400-mg-capsule"
+    },
+    {
+      "name": "Kuracef",
+      "strength": "200 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7590/kuracef-200-mg-tablet"
+    },
+    {
+      "name": "Kuracef",
+      "strength": "400 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7591/kuracef-400-mg-tablet"
+    },
+    {
+      "name": "Kuracef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "30 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/7592/kuracef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Masil",
+      "strength": "200 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34969/masil-200-mg-capsule"
+    },
+    {
+      "name": "Microcef",
+      "strength": "200 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/7596/microcef-200-mg-capsule"
+    },
+    {
+      "name": "Microcef",
+      "strength": "400 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7597/microcef-400-mg-capsule"
+    },
+    {
+      "name": "Microcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/7598/microcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Microcef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/31822/microcef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Neofexim",
+      "strength": "200 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7599/neofexim-200-mg-capsule"
+    },
+    {
+      "name": "Neofexim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7600/neofexim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Neofix",
+      "strength": "200 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7601/neofix-200-mg-capsule"
+    },
+    {
+      "name": "Neofix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/7602/neofix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ngcef",
+      "strength": "200 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/7603/ngcef-200-mg-capsule"
+    },
+    {
+      "name": "Ngcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/7604/ngcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ngcef",
+      "strength": "400 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 58.00",
+      "url": "https://medex.com.bd/brands/27813/ngcef-400-mg-capsule"
+    },
+    {
+      "name": "Ngcef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 319.00",
+      "url": "https://medex.com.bd/brands/27814/ngcef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Novacef",
+      "strength": "200 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7605/novacef-200-mg-capsule"
+    },
+    {
+      "name": "Novacef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7606/novacef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Odacef",
+      "strength": "200 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7607/odacef-200-mg-capsule"
+    },
+    {
+      "name": "Odacef",
+      "strength": "400 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7608/odacef-400-mg-capsule"
+    },
+    {
+      "name": "Odacef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/7609/odacef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Odacef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/36204/odacef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ofex",
+      "strength": "200 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7610/ofex-200-mg-capsule"
+    },
+    {
+      "name": "Ofex",
+      "strength": "400 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7611/ofex-400-mg-capsule"
+    },
+    {
+      "name": "Ofex",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7612/ofex-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ofex DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/34416/ofex-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Onefix",
+      "strength": "200 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/18777/onefix-200-mg-capsule"
+    },
+    {
+      "name": "Onefix",
+      "strength": "400 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/18778/onefix-400-mg-capsule"
+    },
+    {
+      "name": "Onefix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/18779/onefix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Onefix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/37177/onefix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Onefix PD",
+      "strength": "25 mg/ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "21 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/38860/onefix-pd-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Orcef",
+      "strength": "200 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7613/orcef-200-mg-tablet"
+    },
+    {
+      "name": "Orcef",
+      "strength": "400 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 50.19",
+      "url": "https://medex.com.bd/brands/7614/orcef-400-mg-tablet"
+    },
+    {
+      "name": "Orcef",
+      "strength": "200 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7615/orcef-200-mg-capsule"
+    },
+    {
+      "name": "Orcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "30 ml bottle : ৳ 135.51",
+      "url": "https://medex.com.bd/brands/7616/orcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orcef",
+      "strength": "400 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18797/orcef-400-mg-capsule"
+    },
+    {
+      "name": "Orcef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Renata PLC",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/31420/orcef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Orcef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/18798/orcef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orfix",
+      "strength": "200 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7617/orfix-200-mg-capsule"
+    },
+    {
+      "name": "Orfix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/18772/orfix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orgaxim",
+      "strength": "200 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 38.00",
+      "url": "https://medex.com.bd/brands/7619/orgaxim-200-mg-capsule"
+    },
+    {
+      "name": "Orgaxim",
+      "strength": "400 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7620/orgaxim-400-mg-capsule"
+    },
+    {
+      "name": "Orgaxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7621/orgaxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Polyxim",
+      "strength": "200 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/18759/polyxim-200-mg-capsule"
+    },
+    {
+      "name": "Polyxim",
+      "strength": "400 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18760/polyxim-400-mg-capsule"
+    },
+    {
+      "name": "Polyxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/18761/polyxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Polyxim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/18762/polyxim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Prex-3",
+      "strength": "200 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/29237/prex-3-200-mg-capsule"
+    },
+    {
+      "name": "Prex-3",
+      "strength": "400 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/29238/prex-3-400-mg-capsule"
+    },
+    {
+      "name": "Prex-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/29239/prex-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Prexim",
+      "strength": "200 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7623/prexim-200-mg-capsule"
+    },
+    {
+      "name": "Prexim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/7624/prexim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Prexim",
+      "strength": "400 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18816/prexim-400-mg-capsule"
+    },
+    {
+      "name": "Prexim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/31086/prexim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Prioxim",
+      "strength": "200 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/33567/prioxim-200-mg-tablet"
+    },
+    {
+      "name": "Prioxim",
+      "strength": "400 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/33568/prioxim-400-mg-tablet"
+    },
+    {
+      "name": "Prioxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/33569/prioxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Prioxim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 400.00",
+      "url": "https://medex.com.bd/brands/38510/prioxim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Profix",
+      "strength": "200 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7625/profix-200-mg-capsule"
+    },
+    {
+      "name": "Profix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7626/profix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rescure",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 165.00",
+      "url": "https://medex.com.bd/brands/18768/rescure-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rescure",
+      "strength": "200 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/18769/rescure-200-mg-capsule"
+    },
+    {
+      "name": "Rofixim",
+      "strength": "200 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 52.00",
+      "url": "https://medex.com.bd/brands/7627/rofixim-200-mg-capsule"
+    },
+    {
+      "name": "Rofixim",
+      "strength": "400 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 72.00",
+      "url": "https://medex.com.bd/brands/7628/rofixim-400-mg-capsule"
+    },
+    {
+      "name": "Rofixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/7629/rofixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rofixim-DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 450.00",
+      "url": "https://medex.com.bd/brands/18793/rofixim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Roxim",
+      "strength": "200 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7630/roxim-200-mg-capsule"
+    },
+    {
+      "name": "Roxim",
+      "strength": "400 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7631/roxim-400-mg-capsule"
+    },
+    {
+      "name": "Roxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7632/roxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Roxim",
+      "strength": "25 mg/ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/18732/roxim-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Roxim XL",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7633/roxim-xl-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Salfix-3",
+      "strength": "200 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/39765/salfix-3-200-mg-capsule"
+    },
+    {
+      "name": "Salfix-3",
+      "strength": "400 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/39766/salfix-3-400-mg-capsule"
+    },
+    {
+      "name": "Salfix-3",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "50 ml bottel : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/39767/salfix-3-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sanfix",
+      "strength": "200 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/7634/sanfix-200-mg-capsule"
+    },
+    {
+      "name": "Sanfix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7635/sanfix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sanfix",
+      "strength": "400 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18775/sanfix-400-mg-capsule"
+    },
+    {
+      "name": "Sanfix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 280.00",
+      "url": "https://medex.com.bd/brands/18776/sanfix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Saver",
+      "strength": "200 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 34.50",
+      "url": "https://medex.com.bd/brands/7636/saver-200-mg-capsule"
+    },
+    {
+      "name": "Saver",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7638/saver-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Saver",
+      "strength": "400 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.15",
+      "url": "https://medex.com.bd/brands/27885/saver-400-mg-capsule"
+    },
+    {
+      "name": "Setic",
+      "strength": "200 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 35.25",
+      "url": "https://medex.com.bd/brands/7639/setic-200-mg-capsule"
+    },
+    {
+      "name": "Setic",
+      "strength": "400 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 55.25",
+      "url": "https://medex.com.bd/brands/7640/setic-400-mg-capsule"
+    },
+    {
+      "name": "Setic",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7641/setic-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sonexim",
+      "strength": "200 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/18799/sonexim-200-mg-capsule"
+    },
+    {
+      "name": "Sonexim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "50 ml bottle : ৳ 160.60",
+      "url": "https://medex.com.bd/brands/18800/sonexim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Starcef",
+      "strength": "200 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7642/starcef-200-mg-capsule"
+    },
+    {
+      "name": "Starcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7643/starcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Starcef",
+      "strength": "400 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/18718/starcef-400-mg-capsule"
+    },
+    {
+      "name": "Starcef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 370.00",
+      "url": "https://medex.com.bd/brands/35844/starcef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Suffix",
+      "strength": "200 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7644/suffix-200-mg-capsule"
+    },
+    {
+      "name": "Suffix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7645/suffix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Suprax",
+      "strength": "200 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/7646/suprax-200-mg-capsule"
+    },
+    {
+      "name": "Suprax",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7648/suprax-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Suprax DS",
+      "strength": "400 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7647/suprax-ds-400-mg-capsule"
+    },
+    {
+      "name": "Supraxim",
+      "strength": "200 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7649/supraxim-200-mg-capsule"
+    },
+    {
+      "name": "Supraxim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7650/supraxim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "T-Cef",
+      "strength": "200 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7651/t-cef-200-mg-capsule"
+    },
+    {
+      "name": "T-Cef",
+      "strength": "400 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7652/t-cef-400-mg-capsule"
+    },
+    {
+      "name": "T-Cef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "30 ml bottle : ৳ 135.45",
+      "url": "https://medex.com.bd/brands/7653/t-cef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "T-Cef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "21 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/18727/t-cef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "T-Cef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "50 ml bottle : ৳ 310.00",
+      "url": "https://medex.com.bd/brands/7654/t-cef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tdcef",
+      "strength": "200 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7593/tdcef-200-mg-tablet"
+    },
+    {
+      "name": "Tdcef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7595/tdcef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tdcef",
+      "strength": "400 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30437/tdcef-400-mg-tablet"
+    },
+    {
+      "name": "Tdcef",
+      "strength": "200 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/30438/tdcef-200-mg-capsule"
+    },
+    {
+      "name": "Tdcef",
+      "strength": "400 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30439/tdcef-400-mg-capsule"
+    },
+    {
+      "name": "Tdcef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/7594/tdcef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Texit",
+      "strength": "200 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7655/texit-200-mg-capsule"
+    },
+    {
+      "name": "Texit",
+      "strength": "400 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7656/texit-400-mg-capsule"
+    },
+    {
+      "name": "Texit",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7657/texit-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Texit DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 321.21",
+      "url": "https://medex.com.bd/brands/34052/texit-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Texit Junior",
+      "strength": "25 mg/ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/34053/texit-junior-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Tgocef",
+      "strength": "200 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7658/tgocef-200-mg-capsule"
+    },
+    {
+      "name": "Tgocef",
+      "strength": "400 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7659/tgocef-400-mg-capsule"
+    },
+    {
+      "name": "Tgocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7660/tgocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tgocef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/27795/tgocef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tinfix",
+      "strength": "200 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32922/tinfix-200-mg-capsule"
+    },
+    {
+      "name": "Tinfix",
+      "strength": "400 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/32923/tinfix-400-mg-capsule"
+    },
+    {
+      "name": "Tinfix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/32924/tinfix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tocef",
+      "strength": "200 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7661/tocef-200-mg-capsule"
+    },
+    {
+      "name": "Tocef",
+      "strength": "400 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7662/tocef-400-mg-capsule"
+    },
+    {
+      "name": "Tocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 155.00",
+      "url": "https://medex.com.bd/brands/7663/tocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tocef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/18738/tocef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tricef",
+      "strength": "200 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/7664/tricef-200-mg-capsule"
+    },
+    {
+      "name": "Tricef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 160.61",
+      "url": "https://medex.com.bd/brands/7665/tricef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Trifix",
+      "strength": "200 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7666/trifix-200-mg-capsule"
+    },
+    {
+      "name": "Trifix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7667/trifix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Trifix",
+      "strength": "400 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/18785/trifix-400-mg-capsule"
+    },
+    {
+      "name": "Trifix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/18786/trifix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Triocef",
+      "strength": "200 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7668/triocef-200-mg-capsule"
+    },
+    {
+      "name": "Triocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "37.5 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7669/triocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Triocim",
+      "strength": "200 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7670/triocim-200-mg-capsule"
+    },
+    {
+      "name": "Triocim",
+      "strength": "400 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7671/triocim-400-mg-capsule"
+    },
+    {
+      "name": "Triocim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7672/triocim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Triocim DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7673/triocim-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Trixim",
+      "strength": "200 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/18733/trixim-200-mg-capsule"
+    },
+    {
+      "name": "Trixim",
+      "strength": "400 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18734/trixim-400-mg-capsule"
+    },
+    {
+      "name": "Trixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/18735/trixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Truso",
+      "strength": "200 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7674/truso-200-mg-capsule"
+    },
+    {
+      "name": "Truso",
+      "strength": "400 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7675/truso-400-mg-capsule"
+    },
+    {
+      "name": "Truso",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "37.5 ml bottle : ৳ 135.00",
+      "url": "https://medex.com.bd/brands/7676/truso-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Truso DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 280.84",
+      "url": "https://medex.com.bd/brands/7677/truso-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Truso PD",
+      "strength": "25 mg/ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/18784/truso-pd-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Tyfax",
+      "strength": "200 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/7678/tyfax-200-mg-capsule"
+    },
+    {
+      "name": "Tyfax",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7680/tyfax-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tyfax DS",
+      "strength": "400 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/27942/tyfax-ds-400-mg-capsule"
+    },
+    {
+      "name": "Unibac",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "50 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/31427/unibac-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Unibac",
+      "strength": "200 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/31428/unibac-200-mg-capsule"
+    },
+    {
+      "name": "Unibac",
+      "strength": "400 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/31429/unibac-400-mg-capsule"
+    },
+    {
+      "name": "Unibac",
+      "strength": "25 mg/ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "21 ml bottle : ৳ 98.00",
+      "url": "https://medex.com.bd/brands/33900/unibac-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Unibac DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "50 ml bottle : ৳ 322.00",
+      "url": "https://medex.com.bd/brands/33901/unibac-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Unibac QS",
+      "strength": "100 mg/ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "20 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/38168/unibac-qs-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Unifix",
+      "strength": "200 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7681/unifix-200-mg-capsule"
+    },
+    {
+      "name": "Unifix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "MST Pharma",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7682/unifix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Velofix",
+      "strength": "200 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7683/velofix-200-mg-capsule"
+    },
+    {
+      "name": "Velofix",
+      "strength": "400 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7684/velofix-400-mg-capsule"
+    },
+    {
+      "name": "Velofix",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7685/velofix-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Velofix DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/7686/velofix-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Verixim",
+      "strength": "200 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/18812/verixim-200-mg-capsule"
+    },
+    {
+      "name": "Verixim",
+      "strength": "400 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/18813/verixim-400-mg-capsule"
+    },
+    {
+      "name": "Verixim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 195.58",
+      "url": "https://medex.com.bd/brands/18814/verixim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Vixim",
+      "strength": "200 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37861/vixim-200-mg-capsule"
+    },
+    {
+      "name": "Vixim",
+      "strength": "400 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/37862/vixim-400-mg-capsule"
+    },
+    {
+      "name": "Xifim",
+      "strength": "200 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7687/xifim-200-mg-capsule"
+    },
+    {
+      "name": "Xifim",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7688/xifim-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xylocef",
+      "strength": "200 mg",
+      "manufacturer": "Libra Pharmaceuticls Ltd.",
+      "price": "Unit Price : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/18763/xylocef-200-mg-capsule"
+    },
+    {
+      "name": "Xylocef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Libra Pharmaceuticls Ltd.",
+      "price": "50 ml bottle : ৳ 160.61",
+      "url": "https://medex.com.bd/brands/18764/xylocef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zemicef",
+      "strength": "200 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7689/zemicef-200-mg-capsule"
+    },
+    {
+      "name": "Zemicef",
+      "strength": "400 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/7690/zemicef-400-mg-capsule"
+    },
+    {
+      "name": "Zemicef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/7691/zemicef-100-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zemicef",
+      "strength": "25 mg/ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "21 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/39102/zemicef-25-mg-pediatric-drop"
+    },
+    {
+      "name": "Zemicef DS",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 321.22",
+      "url": "https://medex.com.bd/brands/7692/zemicef-ds-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zemicef Max",
+      "strength": "100 mg/ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "20 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/32212/zemicef-max-100-mg-pediatric-drop"
+    },
+    {
+      "name": "Zenicef",
+      "strength": "200 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7693/zenicef-200-mg-capsule"
+    },
+    {
+      "name": "Zenicef",
+      "strength": "100 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/7694/zenicef-100-mg-powder-for-suspension"
+    }
+  ],
+  "sections_en": {
+    "indications": "Cefixime Trihydrate is an orally active cephalosporin antibiotic which has marked in-vitro bactericidal activity against a wide variety of Gram-positive and Gram-negative organism. It is indicated for the treatment of the following acute infections when caused by susceptible microorganisms.\n\n**Upper Respiratory Tract Infections (URTI)**: e.g. otitis media; and other URTI where the causative organism is known or suspected to be resistant to other commonly used antibiotics, or where treatment failure may carry significant risk. Lower Respiratory Tract Infections-e.g. bronchitis.\n\n**Urinary Tract Infections**: e.g. cystitis, cystourethritis, pyelonephritis. Clinical efficacy has been demonstrated in infections caused by commonly occurring pathogens including Streptococcus pneumonia, Streptococcus pyogenes, Escherichia coli, Proteus mirabilis, Klebsiella species, Haemophilus influenzae (beta-lactamase positive and negative), Moraxella catarrhalis (beta-lactamase positive and negative) and Enterobacter species. Cefixime is highly stable in the presence of beta-lactamase enzymes.",
+    "mode_of_action": "Cefixime is a third generation semisynthetic cephalosporin antibiotic for oral administration. It is bactericidal against a broad spectrum of gram positive and gram negative bacteria at easily achievable plasma concentrations. It kills bacteria by interfering in the synthesis of bacterial cell wall. It is highly stable in the presence of Beta-lactamase enzyme. As a result, many organisms resistant to penicillins and some cephalsporins due to the presence of beta-lactamases, may be susceptible to Cefixime. Absorption of it is about 40% to 50% whether administered with or without food.",
+    "dosage": "Absorption of Cefixime is not significantly modified by the presence of food. The usual course of treatment is 7 days. This may be continued for up to 14 days if required. \n\n**Adults and children over 10 years**: The recommended adult dosage is 200-400 mg daily according to the severity of the infection, given either as a single dose or in two divided doses. \n\n**Elderly**: Elderly patients may be given the same dose as recommended for adults. Renal function should be assessed and dosage should be adjusted in severe renal impairment. \n\n**Children**: The recommended dosage for children is 8 mg/kg/day administered as a single dose or in two divided doses. As a general guide for prescribing in children the following daily doses in terms of volume of suspension are suggested: \n\n- 6 months up to 1 year: 3.75 ml daily\n- Children 1-4 years: 5 ml daily\n- Children 5-10 years: 10 ml daily\n\n**In typhoid**: the recommended children dose is 5 mg/kg body weight twice daily for 10-14 days. \n\n**Children weighing more than 50 kg or older than 10 years**: Should be treated with the recommended adult dose 200-400 mg daily depending on the severity of infection. \n\n**Children aged less than 6 months**: The safety and efficacy of Cefixime has not been established in children aged less than 6 months.\n\n**Dosage in Renal Impairment**: Cefixime may be administered in the presence of impaired renal function. Normal dose and schedule may be given in patients with creatinine clearances of 20 ml/min or greater. In patients whose creatinine clearance is less than 20 ml/min, it is recommended that a dose of 200 mg once daily should not be exceeded. The dose and regimen for patients who are maintained on chronic ambulatory peritoneal dialysis or haemodialysis should follow the same recommendation as that for patients with creatinine clearances of less than 20 ml/min.",
+    "interaction": "In common with other cephalosporins, increases in prothrombin times have been noted in a few patients. Care should therefore be taken in patients receiving anticoagulant therapy.",
+    "contraindications": "Patients with known hypersensitivity to cephalosporin antibiotics.",
+    "side_effects": "Cefixime is generally well tolerated. The majority of adverse reactions observed in clinical trials were mild and self limiting in nature. Gastrointestinal disturbances: The most frequent side-effects seen with Cefixime are diarrhoea and stool changes; diarrhoea has been more commonly associated with higher doses. Other gastrointestinal side-effects seen less frequently are nausea, abdominal pain, dyspepsia, vomiting and flatulence. Pseudomembraneous colitis has been reported. Central nervous system: headache and dizziness. Hypersensitivity reactions: allergies in the form of rash, pruritis, urticaria, drug fever and arthralgia have been observed. These reactions usually subsided upon discontinuation of therapy. Hematological and clinical chemistry: thrombocytopenia, leukopenia and eosinophilia have been reported. These reactions were infrequent and reversible. Mild transient change in liver and renal function tests have been observed. Miscellaneous: other possible reactions include genital pruritis and vaginitis.",
+    "pregnancy_cat": "There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. It is not known that Cefixime is excreted in human milk. So, caution should be exercised when Cefixime is administered to a nursing woman.",
+    "precautions": "Cefixime should be given with caution to patients who have shown hypersensitivity to other drugs. Cephalosporin should be given with caution to penicillin-sensitive patients, as there is some evidence of partial cross-allergenicity between the penicillins and the cephalosporins. Patients have had severe reactions (including anaphylaxis) to both classes of drugs. If an allergic effect occurs with Cefixime, the drug should be discontinued and the patient treated with appropriate agents if necessary. Cefixime should be administered with caution in patients with markedly impaired renal function. Treatment with broad spectrum antibiotics alters the normal flora of the colon and may permit overgrowth of clostridia. Studies indicate that a toxin produced by Clostridium difficile is a primary cause of antibiotic-associated diarrhoea. Use in pregnancy and lactation: There are no adequate and well-controlled studies in pregnant women. Cefixime should therefore not be used in pregnancy or in nursing mothers unless considered essential by the physician.",
+    "overdose_effects": "Gastric Lavage may be indicated; otherwise, no specific antidote exists. Cefixime is not removed in significant quantities from the circulation by hemodialysis or peritoneal dialysis. Adverse reactions in small numbers of healthy adult volunteers receiving single doses up to 2 g of Cefixime did not differ from the profile seen in patients treated at the recommended doses.",
+    "drug_classes": "Third generation cephalosporins",
+    "storage_conditions": "Keep below 30ºC temperature, protected from light & moisture. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 16 H 15 N 5 O 7 S 2 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Cefixime?\n\nCefixime is an antibiotic used to treat bacterial infection. This medicine does not work for viral infections like flu. It works by preventing them from forming the bacterial protective covering (cell wall) which is essential for their development.\n\n#### What are the uses of Cefixime?\n\nCefixime is used for the treatment and prevention from conditions such as Urinary Tract Infection, Tonsillitis, Pharyngitis, and Bronchitis. Apart from these, it can also be used to treat conditions of Fungal and Gonococcal Infections.\n\n#### What are the Side Effects of Cefixime?\n\nCefixime has some commonly reported side effects. Some of these side-effects may be serious. These are Diarrhea, Abdominal pain, Dark or clay-colored stools, Swelling of the face, lips, eyelids, tongue, hands, and feet, Dizziness, Acid or sour stomach, excessive gas in the stomach, Heartburn, Indigestion, Redness of the skin, Chest pain, Sore throat, and Unusual tiredness.\n\n#### What are the instructions for storage and disposal Cefixime?\n\nThis medication should be kept in a cool dry place and in its original pack. Make sure Cefixime remains unreachable to children and pets. Proper disposal of the expired and unused medications is important to avoid health problems.\n\n#### Will Cefixime work for treating cold and flu?\n\nThis medication belongs to an antibiotic class of drugs, hence Cefixime won't work for colds, flu, or other viral infections. If you use antibiotics when they are not needed, it increases your risk of getting an infection later that resists antibiotic treatment.\n\n#### Is there any special dietary instruction which I should follow?\n\nContinue your normal diet unless your doctor asks you to change.\n\n#### Is Cefixime can be used to treat diarrhoea?\n\nNo, Cefixime is not prescribed to treat diarrhoea.\n\n#### Is it safe to give Cefixime to infants?\n\nThe safety of Cefixime, in case of newborns or infants aging less than 6 months, has not been positively established. Thus you need to consult a doctor before administering this medicine to an infant.\n\n#### Does Cefixime is a penicillin variant?\n\nNo, Cefixime is not a penicillin variant. This medication belongs to cephalosporin antibiotic and functions in a similar way to that of penicillin. Concurrent use of these two must be discussed with a doctor.\n\n#### Does Cefixime cause loose-motion?\n\nDiarrhoea is a known side effect of Cefixime although it has been associated with higher doses only.\n\n#### Is constipation associated with Cefixime?\n\nConstipation is an unusual side effect of Cefixime. In case, it causes persistent constipation and seems circumstantially related to the ingestion of this medication, must consult a doctor.\n\n#### Does Cefixime interact with contraception?\n\nNo such evidence suggested the effect of Cefixime on contraceptive medications.\n\n#### Can I take acetaminophen along with Cefixime?\n\nNo interactions have been clinically proven between Cefixime and Acetaminophen (Paracetamol). It is advisable to consult a doctor before concurrent use of these two medicines.\n\n#### How long does Cefixime take to work?\n\nCefixime start working as soon after you ingest it. However, it may take a few days to kill the harmful bacteria and relieve the symptoms completely. It is advised to complete the medication course for the suggested days.\n\n#### What if I do not get better after using Cefixime?\n\nInform your doctor if you do not feel better even after finishing the full course of treatment. You must also inform your doctor if the symptoms get worse while using this medicine.\n\n#### Quick Tips\n\n- Your doctor has prescribed Cefixime to cure your infection and improve your symptoms.\n- Do not skip any doses and finish the full course of treatment even if you feel better. Stopping it early may make the infection harder to treat.\n- Take it with food to avoid an upset stomach.\n- Diarrhea may occur as a side effect but should stop when your course is complete. Inform your doctor if it does not stop or if you find blood in your stools.\n- Avoid consuming alcohol while taking Cefixime as it may cause increased side effects.\n- Discontinue Cefixime and inform your doctor immediately if you get a rash, itchy skin, swelling of face and mouth, or have difficulty in breathing."
+  },
+  "sections_bn": {
+    "indications": "সংবেদনশীল জীবাণুগুচ্ছের দ্বারা সৃষ্ট নিম্নলিখিত সংক্রমণসমূহে সেফিক্সিম ট্রাইহাড্রেট নির্দেশিতঃ \n\n- অজটিল মুত্রনালীর সংক্রমণ যা ই. কলাই ও প্রোটিয়াস মিরাবিলিস দ্বারা হয়ে থাকে।\n- ওটাইটিস মিডিয়া যা হিমোফিলাস ইনফ্লুয়েঞ্জি, মোরাক্সেলা ক্যাটারালিস ও স্ট্রেপ্টোকক্কাস পায়োজেনস দ্বারা হয়ে থাকে।\n- ফ্যারিনজাইটিস এবং টনসিলাইটিস যা স্ট্রেপ্টোকক্কাস পায়োজেনস দ্বারা হয়ে থাকে।\n- একিউট ব্রংকাইটিস এবং একিউট এক্সাসারবেশন অব ক্রনিক ব্রংকাইটিস যা স্ট্রেপ্টোকক্কাস নিউমোনি এবং হিমোফিলাস ইনফ্লুয়েঞ্জি দ্বারা হয়ে থাকে।\n- অজটিল গনেরিয়া (সার্ভিক্যাল/ইউরেথ্রাল) যা নেইসিরিয়া গনেরি দ্বারা হয়ে থাকে।",
+    "mode_of_action": "সেফিক্সিম একটি তৃতীয় প্রজন্মের সেফালোস্পোরিন জাতীয় এবং মুখে সেবনযোগ্য সেমিসিনথেটিক এন্টিবায়োটিক। এটি সহজেই অর্জিত প্লাজমা ঘনত্বে বহুবিধ গ্রাম পজিটিভ ও গ্রাম নেগেটিভ ব্যাকটেরিয়াকে ধ্বংস করে থাকে। এটি ব্যাকটেরিয়ার কোষ প্রাচীর গঠনে বাধা প্রদান করে ব্যাকটেরিয়াকে মেরে ফেলে। বিটা-ল্যাকটামেজ এনজাইমের উপস্থিতিতেও সেফিক্সিম সুস্থিত। ফলে বিটা-ল্যাকটামেজ উপস্থিতির কারণে যে সকল জীবাণু পেনিসিলিন ও কিছু কিছু সেফালোস্পোরিনের প্রতি রেজিস্ট্যান্ট, সে সকল জীবাণুর বিরুদ্ধের সেফিক্সিম কার্যকরী। খাদ্যের সাথে অথবা খাদ্য ছাড়া যে কোন ভাবে সেবন করলে এটি প্রায় ৪০% থেকে ৫০% বিশোষিত হয়।",
+    "dosage": "সাধারনত চিকিৎসার সময়কাল ৭ দিন। তবে রোগের তীব্রতা অনুযায়ী ১৪ দিন পর্যন্ত দেয়া যেতে পারে।\n\n**প্রাপ্ত বয়স্ক এবং ১২ বছরের ঊর্ধ্বে শিশুদের ক্ষেত্রে**: প্রাপ্ত বয়স্কদের বেলায় নির্দেশিত মাত্রা হচ্ছে প্রতিদিন ২০০-৪০০ মিঃগ্রাঃ (১ থেকে ২ টি ক্যাপসুল) একত্রে অথবা দু’টি বিভক্ত মাত্রায় সেবন করতে হবে। অজটিল সার্ভিক্যাল/ইউরেথ্রাল গনোকক্কাল সংক্রমণের চিকিৎসায় একক মাত্রায় সেফিক্সিম ৪০০ মিঃগ্রাঃ নির্দেশিত।\n\n**শিশু (৬ মাস অথবা তার ঊর্ধ্বে) এর ক্ষেত্রে**: সাধারণত ৮ মিঃগ্রাঃ/কেজি/দিনে দৈহিক একক মাত্রায় অথবা দু’টি বিভক্ত মাত্রায় অথবা শিশুর বয়স অনুসারে সেবন করতে হবেঃ\n\n- ১/২ থেকে ১ বছর: ৭৫ মিঃগ্রাঃ।\n- ১ থেকে ৪ বছর: ১০০ মিঃগ্রাঃ।\n- ৫ থেকে ১০ বছর: ২০০ মিঃগ্রাঃ।\n- ১১ থেকে ১২ বছর: ৩০০ মিঃগ্রাঃ।\n- টাইফয়েড জ্বরের ক্ষেত্রে মাত্রা ১০ মিঃগ্রাঃ/কেজি/দিনে হিসাবে ১৪ দিন পর্যন্ত।\n\n**শিশু (৬ মাসের নীচে) এর ক্ষেত্রে**: ৬ মাসের নীচের বয়সের শিশুদের ক্ষেত্রে সেফিক্সিম ব্যবহারের নিরাপত্তা এবং কার্যকারিতা প্রতিষ্ঠিত হয়নি।",
+    "interaction": "কার্বামাজেপিন: যুগপৎ ব্যবহার কার্বামাজেপিন-এর প্লাজমা ঘনত্ব বৃদ্ধি করে। ওয়ারফেরিন এবং অন্যান্য এণ্টিকোয়াগোলেণ্ট: যুগপৎ ব্যবহার প্রোথ্রোম্বিন সময় বৃদ্ধি করে।",
+    "contraindications": "সেফিক্সিম বা অন্য কোন সেফালোস্পোরিন এন্টিবায়োটিকের প্রতি অতিসংবেদনশীলতায় এটি প্রতিনির্দেশিত।",
+    "side_effects": "ঔষধটি সাধারণত সুসহনীয়। সচরাচর দৃষ্ট পার্শ্ব প্রতিক্রিয়া গুলো হচ্ছে- ডায়রিয়া এবং মলের ধরণ পরিবর্তন যা সাধারণত উচ্চ মাত্রায় ঔষধ সেবনের কারণে হয়ে থাকে। ডায়রিয়া গুরুতর হলে ঔষধ সেবন বন্ধ করতে হবে। স্বল্প পরিলক্ষিত অন্যান্য পার্শ্ব প্রতিক্রিয়া সমূহ হচ্ছে বমি বমি ভাব, পেট ব্যথা, বদহজম, বমি, পেট ফাঁপা, মাথাব্যথা এবং মাথাঘোরা বিভিন্ন ধরনের এলার্জি যেমন ফুঁসকুড়ি, চুলকানি, আমবাত, ঔষধ জনিত জ্বর এবং সন্ধি ব্যথা পরিলক্ষিত হয়। এই প্রতিক্রিয়া সমূহ খুব কম ক্ষেত্রেই দেখা যায় যা চিকিৎসা বন্ধ করার সাথে সাথে স্বাভাবিক অবস্থায় ফিরে আসে।",
+    "pregnancy_cat": "গর্ভাবস্থায় ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহে কার্যকারিতা সম্বন্ধে পূর্ব ধারণা দেয় না, সেহেতু এই ঔষধটি গর্ভাবস্থায় সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। সেফিক্সিম মাতৃদুগ্ধে নিঃসৃত হয় কিনা তা এখনও জানা যায় নাই। সুতরাং মাতৃদাত্রী মায়েদের ক্ষেত্রে সেফিক্সিম ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "যাদের অন্ত্রনালীর রোগ, বিশেষ করে বৃহদন্ত্রে প্রদাহ রয়েছে তাদের ক্ষেত্রে বিশেষ সতর্কতা অবলম্বন করতে হবে। ঝুঁকিপূর্ণ বৃক্কীয় অকার্যকারিতায় এবং যাদের অবিরাম এম্বুলেটরী পেরিটোনিয়াল ডায়ালাইসিস এবং হিমোডায়ালাইসিস করতে হয় তাদের ক্ষেত্রে ঔষধটি সতর্কতার সাথে ব্যবহার করতে হয়। শুধুমাত্র গুরুতর বৃক্কীয় অকার্যকারিতায় (ক্রিয়েটিনিন ক্লিয়ারেন্স <২০ মিঃলিঃ/মিঃ) মাত্রা পরিবর্তন করতে হয়, এ ক্ষেত্রে দৈনিক একক মাত্রা ২০০ মিঃগ্রাঃ এর অধিক অতিক্রম করা উচিৎ নয়।",
+    "overdose_effects": "মাত্রাধিক্যে গ্যাস্ট্রিক ল্যাভেজ নির্দেশিত। সেফিক্সিম এর কোন এন্টিডোট নেই। হিমোডায়ালাইসিস বা পেরিটোনিয়াল ডায়ালাইসিস দ্বারা রক্তপ্রবাহ হতে তেমন বিশেষ পরিমান সেফিক্সিম অপসারন করা যায় না। প্রাপ্ত বয়স্ক স্বাস্থ্যবান সেচ্ছাকর্মীদের কিছু সংখ্যক এর ক্ষেত্রে একক মাত্রায় ২ গ্রাম পর্যন্ত সেফিক্সিম সেবনে যে পার্শ্ব প্রতিক্রিয়া দেখা গেছে, তা সাধারন মাত্রা সেবনে যে পার্শ্ব প্রতিক্রিয়া হয় তা থেকে আলাদা নয়।",
+    "drug_classes": "Third generation cephalosporins",
+    "reconstitution": "সাস্পেনশন তৈরীর নিয়ম: পানি মেশানোর পূর্বে বোতলটি ভালভাবে ঝাঁকিয়ে পাউডারগুলো আলগা করে নিন। তারপর সাস্পেনশনে ফুটানো পানি ঠান্ডা করে দু’বারে বোতলে ঢালুন এবং পাউডার সম্পূর্ণ মিশে না যাওয়া পর্যন্ত ঝাঁকিয়ে নিন।",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০°সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 16 H 15 N 5 O 7 S 2 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/217/cefixime-trihydrate",
+  "source_url_bn": "https://medex.com.bd/generics/217/cefixime-trihydrate/bn",
+  "scraped_at": "2026-10-10T15:02:34+00:00"
+}

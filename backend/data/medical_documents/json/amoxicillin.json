@@ -1,0 +1,1541 @@
+{
+  "slug": "amoxicillin",
+  "name_en": "Amoxicillin Trihydrate",
+  "name_bn": "এমোক্সিসিলিন ট্রাইহাইড্রেট",
+  "therapeutic_class": "Broad spectrum penicillins",
+  "dosage_forms": [
+    "Ref-01",
+    "Ref-02"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Admox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/19612/admox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Admox DS",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/27318/admox-ds-500-mg-capsule"
+    },
+    {
+      "name": "Almoxil",
+      "strength": "500 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.60",
+      "url": "https://medex.com.bd/brands/6419/almoxil-500-mg-capsule"
+    },
+    {
+      "name": "Almoxil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6420/almoxil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Almoxil",
+      "strength": "250 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/28134/almoxil-250-mg-capsule"
+    },
+    {
+      "name": "Ambeexin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 46.55",
+      "url": "https://medex.com.bd/brands/6422/ambeexin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ambeexin",
+      "strength": "250 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.55",
+      "url": "https://medex.com.bd/brands/28016/ambeexin-250-mg-capsule"
+    },
+    {
+      "name": "Ambeexin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 28.42",
+      "url": "https://medex.com.bd/brands/28020/ambeexin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Amocap",
+      "strength": "250 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.59",
+      "url": "https://medex.com.bd/brands/6424/amocap-250-mg-capsule"
+    },
+    {
+      "name": "Amocap",
+      "strength": "500 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.15",
+      "url": "https://medex.com.bd/brands/6425/amocap-500-mg-capsule"
+    },
+    {
+      "name": "Amocil",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6426/amocil-500-mg-capsule"
+    },
+    {
+      "name": "Amocil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "MST Pharma",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/6427/amocil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amocil",
+      "strength": "250 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/28206/amocil-250-mg-capsule"
+    },
+    {
+      "name": "Amocin",
+      "strength": "250 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/6428/amocin-250-mg-capsule"
+    },
+    {
+      "name": "Amocin",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.70",
+      "url": "https://medex.com.bd/brands/6429/amocin-500-mg-capsule"
+    },
+    {
+      "name": "Amocin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.50",
+      "url": "https://medex.com.bd/brands/6430/amocin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amotid",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6431/amotid-250-mg-capsule"
+    },
+    {
+      "name": "Amotid",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6432/amotid-500-mg-capsule"
+    },
+    {
+      "name": "Amotid",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6433/amotid-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amotid",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6435/amotid-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Amotid-F",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6434/amotid-f-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxic",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6442/amoxic-500-mg-capsule"
+    },
+    {
+      "name": "Amoxic",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/6443/amoxic-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxicon",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6447/amoxicon-500-mg-capsule"
+    },
+    {
+      "name": "Amoxicon",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6448/amoxicon-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxikil",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/29569/amoxikil-500-mg-capsule"
+    },
+    {
+      "name": "Amoxima",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.65",
+      "url": "https://medex.com.bd/brands/6450/amoxima-500-mg-capsule"
+    },
+    {
+      "name": "Amoxima",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.29",
+      "url": "https://medex.com.bd/brands/6451/amoxima-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxizen",
+      "strength": "250 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6454/amoxizen-250-mg-capsule"
+    },
+    {
+      "name": "Amoxizen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6456/amoxizen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxizen DS",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6455/amoxizen-ds-500-mg-capsule"
+    },
+    {
+      "name": "Amoxon",
+      "strength": "250 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.62",
+      "url": "https://medex.com.bd/brands/6457/amoxon-250-mg-capsule"
+    },
+    {
+      "name": "Amoxon",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.78",
+      "url": "https://medex.com.bd/brands/6458/amoxon-500-mg-capsule"
+    },
+    {
+      "name": "Amoxon",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 47.60",
+      "url": "https://medex.com.bd/brands/6459/amoxon-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amoxon",
+      "strength": "500 mg/vial",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "500 mg vial : ৳ 24.67",
+      "url": "https://medex.com.bd/brands/6462/amoxon-500-mg-imiv-injection"
+    },
+    {
+      "name": "Amoxycillin",
+      "strength": "500 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/37362/amoxycillin-500-mg-capsule"
+    },
+    {
+      "name": "AMX",
+      "strength": "250 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6463/amx-250-mg-capsule"
+    },
+    {
+      "name": "AMX",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6464/amx-500-mg-capsule"
+    },
+    {
+      "name": "AMX",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6465/amx-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Antif",
+      "strength": "250 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.62",
+      "url": "https://medex.com.bd/brands/6466/antif-250-mg-capsule"
+    },
+    {
+      "name": "Antif",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.78",
+      "url": "https://medex.com.bd/brands/6467/antif-500-mg-capsule"
+    },
+    {
+      "name": "Antif",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.60",
+      "url": "https://medex.com.bd/brands/27796/antif-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Antif",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/27798/antif-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Antif DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.20",
+      "url": "https://medex.com.bd/brands/27797/antif-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Apimox",
+      "strength": "250 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.45",
+      "url": "https://medex.com.bd/brands/6471/apimox-250-mg-capsule"
+    },
+    {
+      "name": "Apimox",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.80",
+      "url": "https://medex.com.bd/brands/6472/apimox-500-mg-capsule"
+    },
+    {
+      "name": "Apimox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 38.44",
+      "url": "https://medex.com.bd/brands/6473/apimox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Apimox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/6474/apimox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Apoxy",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6475/apoxy-500-mg-capsule"
+    },
+    {
+      "name": "Apoxy",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6476/apoxy-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aristomox",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6477/aristomox-250-mg-capsule"
+    },
+    {
+      "name": "Aristomox",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6478/aristomox-500-mg-capsule"
+    },
+    {
+      "name": "Aristomox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6479/aristomox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Avlomox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "ACI Limited",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6484/avlomox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Avlomox",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6485/avlomox-500-mg-capsule"
+    },
+    {
+      "name": "Avlomox",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/26329/avlomox-250-mg-capsule"
+    },
+    {
+      "name": "Avlomox",
+      "strength": "500 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "500 mg vial : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/26330/avlomox-500-mg-imiv-injection"
+    },
+    {
+      "name": "Avlomox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/26331/avlomox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Avlomox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26332/avlomox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactamox",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6486/bactamox-250-mg-tablet"
+    },
+    {
+      "name": "Bactamox",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6487/bactamox-500-mg-tablet"
+    },
+    {
+      "name": "Bactamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6488/bactamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bactamox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Renata PLC",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/30353/bactamox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Bpmox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6494/bpmox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Bpmox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 28.40",
+      "url": "https://medex.com.bd/brands/6495/bpmox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Brodamox DS",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.75",
+      "url": "https://medex.com.bd/brands/6497/brodamox-ds-500-mg-capsule"
+    },
+    {
+      "name": "Cemoxin",
+      "strength": "250 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.40",
+      "url": "https://medex.com.bd/brands/6499/cemoxin-250-mg-capsule"
+    },
+    {
+      "name": "Cemoxin",
+      "strength": "500 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6500/cemoxin-500-mg-capsule"
+    },
+    {
+      "name": "Cemoxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6501/cemoxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Demox",
+      "strength": "250 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/6502/demox-250-mg-capsule"
+    },
+    {
+      "name": "Demox",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/6503/demox-500-mg-capsule"
+    },
+    {
+      "name": "Demox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/6504/demox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Demox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/6505/demox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Demoxil",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6506/demoxil-250-mg-capsule"
+    },
+    {
+      "name": "Demoxil",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6507/demoxil-500-mg-capsule"
+    },
+    {
+      "name": "Demoxil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6508/demoxil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Demoxil DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6509/demoxil-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Dopen",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.70",
+      "url": "https://medex.com.bd/brands/6513/dopen-500-mg-capsule"
+    },
+    {
+      "name": "Dopen",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.80",
+      "url": "https://medex.com.bd/brands/6514/dopen-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "E-mox",
+      "strength": "250 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 3.39",
+      "url": "https://medex.com.bd/brands/6515/e-mox-250-mg-capsule"
+    },
+    {
+      "name": "E-mox",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 6.07",
+      "url": "https://medex.com.bd/brands/6516/e-mox-500-mg-capsule"
+    },
+    {
+      "name": "E-mox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/6517/e-mox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "E-mox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/6518/e-mox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Emoxil",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/28076/emoxil-250-mg-capsule"
+    },
+    {
+      "name": "Emoxil",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/28077/emoxil-500-mg-capsule"
+    },
+    {
+      "name": "Emoxil",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/28078/emoxil-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Emoxil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/28079/emoxil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fimoxyl",
+      "strength": "250 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6519/fimoxyl-250-mg-capsule"
+    },
+    {
+      "name": "Fimoxyl",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6520/fimoxyl-500-mg-capsule"
+    },
+    {
+      "name": "Fimoxyl",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6522/fimoxyl-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Fimoxyl",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6523/fimoxyl-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fimoxyl DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6524/fimoxyl-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Amoxicillin",
+      "strength": "250 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/6526/g-amoxicillin-250-mg-capsule"
+    },
+    {
+      "name": "G-Amoxicillin",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6527/g-amoxicillin-500-mg-capsule"
+    },
+    {
+      "name": "G-Amoxicillin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/6528/g-amoxicillin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "G-Amoxicillin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/6529/g-amoxicillin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "G-Amoxicillin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "500 mg vial : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/6530/g-amoxicillin-500-mg-imiv-injection"
+    },
+    {
+      "name": "Genamox",
+      "strength": "250 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.61",
+      "url": "https://medex.com.bd/brands/6531/genamox-250-mg-capsule"
+    },
+    {
+      "name": "Genamox",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.76",
+      "url": "https://medex.com.bd/brands/6532/genamox-500-mg-capsule"
+    },
+    {
+      "name": "Genamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.45",
+      "url": "https://medex.com.bd/brands/6533/genamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Genamox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.11",
+      "url": "https://medex.com.bd/brands/6534/genamox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Hectamox",
+      "strength": "250 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.60",
+      "url": "https://medex.com.bd/brands/6535/hectamox-250-mg-capsule"
+    },
+    {
+      "name": "Hectamox",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.70",
+      "url": "https://medex.com.bd/brands/6536/hectamox-500-mg-capsule"
+    },
+    {
+      "name": "Hectamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/6537/hectamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hectamox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/6539/hectamox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Hectamox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6538/hectamox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hi-mox",
+      "strength": "250 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/6543/hi-mox-250-mg-capsule"
+    },
+    {
+      "name": "Hi-mox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6545/hi-mox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Hi-mox DS",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6544/hi-mox-ds-500-mg-capsule"
+    },
+    {
+      "name": "Hiconcil",
+      "strength": "250 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.45",
+      "url": "https://medex.com.bd/brands/6540/hiconcil-250-mg-capsule"
+    },
+    {
+      "name": "Hiconcil",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6541/hiconcil-500-mg-capsule"
+    },
+    {
+      "name": "Hiconcil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/6542/hiconcil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kamoxy",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.61",
+      "url": "https://medex.com.bd/brands/6550/kamoxy-250-mg-capsule"
+    },
+    {
+      "name": "Kamoxy",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.78",
+      "url": "https://medex.com.bd/brands/6551/kamoxy-500-mg-capsule"
+    },
+    {
+      "name": "Kamoxy",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.60",
+      "url": "https://medex.com.bd/brands/6552/kamoxy-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kamoxy",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/6553/kamoxy-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Kumumox",
+      "strength": "250 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.60",
+      "url": "https://medex.com.bd/brands/6554/kumumox-250-mg-capsule"
+    },
+    {
+      "name": "Kumumox",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6555/kumumox-500-mg-capsule"
+    },
+    {
+      "name": "Kumumox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6556/kumumox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Loxyl",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.76",
+      "url": "https://medex.com.bd/brands/6558/loxyl-500-mg-capsule"
+    },
+    {
+      "name": "Loxyl",
+      "strength": "250 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.61",
+      "url": "https://medex.com.bd/brands/38059/loxyl-250-mg-capsule"
+    },
+    {
+      "name": "Loxyl",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 47.46",
+      "url": "https://medex.com.bd/brands/38060/loxyl-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Monamox",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/6560/monamox-250-mg-capsule"
+    },
+    {
+      "name": "Monamox",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6561/monamox-500-mg-capsule"
+    },
+    {
+      "name": "Monamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 47.40",
+      "url": "https://medex.com.bd/brands/6562/monamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Monamox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/6564/monamox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Mox",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6565/mox-500-mg-capsule"
+    },
+    {
+      "name": "Mox",
+      "strength": "250 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.62",
+      "url": "https://medex.com.bd/brands/28163/mox-250-mg-capsule"
+    },
+    {
+      "name": "Mox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/28164/mox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mox-plus",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6600/mox-plus-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxacil",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6569/moxacil-250-mg-capsule"
+    },
+    {
+      "name": "Moxacil",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6570/moxacil-500-mg-capsule"
+    },
+    {
+      "name": "Moxacil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6573/moxacil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxacil",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6575/moxacil-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Moxapen",
+      "strength": "250 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/6577/moxapen-250-mg-capsule"
+    },
+    {
+      "name": "Moxapen",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6578/moxapen-500-mg-capsule"
+    },
+    {
+      "name": "Moxarif",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/27971/moxarif-500-mg-capsule"
+    },
+    {
+      "name": "Moxico",
+      "strength": "250 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.60",
+      "url": "https://medex.com.bd/brands/6581/moxico-250-mg-capsule"
+    },
+    {
+      "name": "Moxico",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6582/moxico-500-mg-capsule"
+    },
+    {
+      "name": "Moxico",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/6583/moxico-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxico DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "100 ml bottle : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/6584/moxico-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxilin",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6585/moxilin-250-mg-capsule"
+    },
+    {
+      "name": "Moxilin",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6586/moxilin-500-mg-capsule"
+    },
+    {
+      "name": "Moxilin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6587/moxilin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxin",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6592/moxin-500-mg-capsule"
+    },
+    {
+      "name": "Moxin",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/6593/moxin-250-mg-tablet"
+    },
+    {
+      "name": "Moxin",
+      "strength": "875 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.64",
+      "url": "https://medex.com.bd/brands/6594/moxin-875-mg-tablet"
+    },
+    {
+      "name": "Moxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6595/moxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Moxin",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6597/moxin-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Moxin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "500 mg vial : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/6599/moxin-500-mg-imiv-injection"
+    },
+    {
+      "name": "Moxin",
+      "strength": "250 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "250 mg vial : ৳ 19.13",
+      "url": "https://medex.com.bd/brands/34718/moxin-250-mg-imiv-injection"
+    },
+    {
+      "name": "Moxin DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6596/moxin-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mumox",
+      "strength": "250 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/6601/mumox-250-mg-capsule"
+    },
+    {
+      "name": "Mumox",
+      "strength": "500 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6602/mumox-500-mg-capsule"
+    },
+    {
+      "name": "Mumox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6603/mumox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Navamox",
+      "strength": "250 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.52",
+      "url": "https://medex.com.bd/brands/6607/navamox-250-mg-capsule"
+    },
+    {
+      "name": "Navamox",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.78",
+      "url": "https://medex.com.bd/brands/6608/navamox-500-mg-capsule"
+    },
+    {
+      "name": "Navamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.14",
+      "url": "https://medex.com.bd/brands/6609/navamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orgamox",
+      "strength": "250 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.54",
+      "url": "https://medex.com.bd/brands/6610/orgamox-250-mg-capsule"
+    },
+    {
+      "name": "Orgamox",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.76",
+      "url": "https://medex.com.bd/brands/6611/orgamox-500-mg-capsule"
+    },
+    {
+      "name": "Pemox",
+      "strength": "500 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6614/pemox-500-mg-capsule"
+    },
+    {
+      "name": "Pemox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6615/pemox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Pemox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/6616/pemox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Penmox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 47.50",
+      "url": "https://medex.com.bd/brands/6618/penmox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Penmox",
+      "strength": "500 mg/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "500 mg vial : ৳ 162.50",
+      "url": "https://medex.com.bd/brands/30435/penmox-500-mg-imiv-injection"
+    },
+    {
+      "name": "Pharmoxyl",
+      "strength": "250 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.25",
+      "url": "https://medex.com.bd/brands/6621/pharmoxyl-250-mg-capsule"
+    },
+    {
+      "name": "Pharmoxyl",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.86",
+      "url": "https://medex.com.bd/brands/6622/pharmoxyl-500-mg-capsule"
+    },
+    {
+      "name": "Pharmoxyl",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 47.43",
+      "url": "https://medex.com.bd/brands/6623/pharmoxyl-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Pharmoxyl",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 30.11",
+      "url": "https://medex.com.bd/brands/6624/pharmoxyl-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Promox",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/34581/promox-500-mg-capsule"
+    },
+    {
+      "name": "Promox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/34582/promox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Remamox",
+      "strength": "250 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/6625/remamox-250-mg-capsule"
+    },
+    {
+      "name": "Remamox",
+      "strength": "500 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/6626/remamox-500-mg-capsule"
+    },
+    {
+      "name": "Remamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 45.50",
+      "url": "https://medex.com.bd/brands/6627/remamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Remoxin",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/6628/remoxin-500-mg-capsule"
+    },
+    {
+      "name": "Remoxin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/6629/remoxin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sapox",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.78",
+      "url": "https://medex.com.bd/brands/6631/sapox-500-mg-capsule"
+    },
+    {
+      "name": "Sapox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6632/sapox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Seemaxyl",
+      "strength": "250 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.60",
+      "url": "https://medex.com.bd/brands/6635/seemaxyl-250-mg-capsule"
+    },
+    {
+      "name": "Seemaxyl",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/6637/seemaxyl-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Seemaxyl DS",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.76",
+      "url": "https://medex.com.bd/brands/6636/seemaxyl-ds-500-mg-capsule"
+    },
+    {
+      "name": "Simox",
+      "strength": "250 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/6638/simox-250-mg-capsule"
+    },
+    {
+      "name": "Simox",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/6639/simox-500-mg-capsule"
+    },
+    {
+      "name": "Simox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/6640/simox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Simox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 27.11",
+      "url": "https://medex.com.bd/brands/6642/simox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Simox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 65.25",
+      "url": "https://medex.com.bd/brands/6641/simox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sinamox",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6643/sinamox-250-mg-capsule"
+    },
+    {
+      "name": "Sinamox",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6644/sinamox-500-mg-capsule"
+    },
+    {
+      "name": "Sinamox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6645/sinamox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sinamox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6647/sinamox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Sinamox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6646/sinamox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "SK-mox",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6648/sk-mox-250-mg-capsule"
+    },
+    {
+      "name": "SK-mox",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6649/sk-mox-500-mg-capsule"
+    },
+    {
+      "name": "SK-mox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6650/sk-mox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "SK-mox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6652/sk-mox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "SK-mox DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6651/sk-mox-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tycil",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6653/tycil-250-mg-capsule"
+    },
+    {
+      "name": "Tycil",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6654/tycil-500-mg-capsule"
+    },
+    {
+      "name": "Tycil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6655/tycil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tycil",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/6657/tycil-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Tycil DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/6656/tycil-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tymox",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.84",
+      "url": "https://medex.com.bd/brands/6659/tymox-500-mg-capsule"
+    },
+    {
+      "name": "Tymox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 47.14",
+      "url": "https://medex.com.bd/brands/6660/tymox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tymox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 30.20",
+      "url": "https://medex.com.bd/brands/6661/tymox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Ultramox",
+      "strength": "250 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6662/ultramox-250-mg-capsule"
+    },
+    {
+      "name": "Ultramox",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/6663/ultramox-500-mg-capsule"
+    },
+    {
+      "name": "Ultramox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/6664/ultramox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Umox",
+      "strength": "250 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 3.30",
+      "url": "https://medex.com.bd/brands/34984/umox-250-mg-capsule"
+    },
+    {
+      "name": "Umox",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/34985/umox-500-mg-capsule"
+    },
+    {
+      "name": "Umox",
+      "strength": "125 mg/1.25 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "15 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/34986/umox-125-mg-pediatric-drop"
+    },
+    {
+      "name": "Umox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "100 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/34987/umox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xtramox",
+      "strength": "250 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/6669/xtramox-250-mg-capsule"
+    },
+    {
+      "name": "Xtramox",
+      "strength": "500 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/6670/xtramox-500-mg-capsule"
+    },
+    {
+      "name": "Xtramox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "100 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/6671/xtramox-125-mg-powder-for-suspension"
+    }
+  ],
+  "sections_en": {
+    "indications": "Amoxicillin Trihydrate is indicated in the treatment of infections due to susceptible ß-lactamase negative strains of microorganisms. These infections include \n\n- Ear, nose and throat infections (i.e. otitis media, sinusitis, tonsillitis, pharyngitis, laryngitis)\n- Lower respiratory tract infections (i.e. pneumonia, acute and chronic bronchitis lung abscess, empyema, bronchiectasis)\nAmoxicillin Trihydrate is indicated in the treatment of infections due to susceptible ß-lactamase negative strains of microorganisms. These infections include \n\n- Ear, nose and throat infections (i.e. otitis media, sinusitis, tonsillitis, pharyngitis, laryngitis)\n- Lower respiratory tract infections (i.e. pneumonia, acute and chronic bronchitis lung abscess, empyema, bronchiectasis)\n- Skin and soft tissue infections (i.e. cellulitis, carbuncles, furunculosis, infected wounds, abscess)\n- Genito-urinary tract infections (i.e. pyelonephritis, cystitis and urethritis)\n- Venereal disease (i.e. acute uncomplicated gonorrhoea)\n- In dental abscess, it is used as short-term therapy.\n- It is also indicated in combination with Clarithromycin and Lansoprazole (as triple therapy), for the treatment of patients with H. pylori infection and duodenal ulcer disease and to reduce the risk of duodenal ulcer recurrence.",
+    "mode_of_action": "Amoxicillin is a broad spectrum penicillin. It is effective against a wide range of Gram-positive and Gram-negative bacteria. It acts through the inhibition of biosynthesis of cell wall. Amoxicillin is stable in the presence of gastric acid and is rapidly absorbed after oral administration. After an oral dose, peak plasma concentration of Amoxicillin is reached within 1 to 2 hours. Amoxicillin is widely distributed at varying concentration in body tissues and fluids.",
+    "dosage": "**Adult**: 250 mg three times daily, increasing up to 500 mg three times daily for severe infections.\n\n**Children** (up to 10 years of age) : 125 mg three times daily, increasing up to 250 mg three times daily for severe infections. \n\n- **Severe or recurrent purulent respiratory infection**: 3 gm every 12 hours.\n- **Otitis media**: Recommended dose is 1 g three times daily for adult and 40 mg/kg body weight daily in 3 divided doses for children (max. 3 g daily).\n- **Pneumonia**: Recommended dose is 500-1000 mg three times daily.\n- **Dental abscess**: Recommended dose is 3 gm, repeated after 10-12 hours.\n- **Urinary tract infections**: Recommended dose is 3 gm, repeated after 10-12 hours.\n- **Gonorrhoea**: Single dose of 2-3 gm with Probenecid 1 gm is recommended (Probenecid is contraindicated in children under 2 years).\n- **In renal impairment**: it may be necessary to reduce the total daily dosage.",
+    "administration": "Reconstituted suspension can be administered by adding the required amount of suspension to milk, fruit juice, water. These preparations should then be taken immediately.",
+    "interaction": "Concurrent use of Amoxicillin and Probenecid may result in increased and prolonged blood levels of Amoxicillin. Amoxicillin may affect the gut flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives.",
+    "contraindications": "Amoxicillin is contraindicated in penicillin hypersensitive patients.",
+    "side_effects": "Side effects are mild and transient in nature. This may include diarrhoea, indigestion or occasionally rash. Pseudo-membranous colitis has been reported rarely.",
+    "pregnancy_cat": "US FDA pregnancy category of Amoxicillin is B. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Amoxicillin has been shown to be excreted in human milk. So, caution should be exercised when Amoxicillin is administered to a lactating mother.",
+    "precautions": "The possibility of superinfections with mycotic or bacterial pathogens should be kept in mind during therapy. If superinfections occur, Amoxicillin should be discontinued and appropriate therapy should be instituted.",
+    "drug_classes": "Broad spectrum penicillins",
+    "reconstitution": "Amoxycillin 500 mg Injection:\n\n- Intramuscular: Add 2.5 ml water for injection to Amoxycillin 500 mg injection vial.\n- Intravenous: Dissolve Amoxycillin 500 mg injection in 10 ml water for injection.",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "এমোক্সিসিলিন, ß-ল্যাকটামেজ তৈরী করে না এমন সব সংবেদনশীল বিভিন্ন প্রজাতির ব্যাকটেরিয়া দ্বারা সৃষ্ট সংক্রমণের চিকিৎসায় ব্যবহৃত হয়। এ জাতীয় সংক্রমণগুলো হচ্ছে- \n\n- কান, নাক ও গলার সংক্রমণ (যেমন-ওটাইটিস মিডিয়া, সাইনুসাইটিস, টনসিলাইটিস, ফ্যারিনজাইটিস, ল্যারিনজাইটিস)\n- নিম্ন শ্বাসনালীর সংক্রমণ (যেমন-নিউমোনিয়া, একিউট এবং ক্রনিক ব্রংকাইটিস, লাং এব্সেস, এমপায়েমা, ব্রংকিএকটাসিস)\n- ত্বক ও নরম কলার সংক্রমণ (যেমন-সেলুলাইটিস, কার্বাংক্যালস, ফুরাংকিউলোসিস, সংক্রমিত ক্ষত, এব্সেস)\n- জেনিটো-ইউরেনারি ট্রাক্ট সংক্রমণ (যেমন- পায়েলোনেফ্রাইটিস, সিস্টাইটিস এবং ইউরেথ্রাইটিস)\n- ভেনেরাল ডিজিজ (যেমন-একিউট আনকমপ্লিকেটেড গণোরিয়া)।\n- দাঁতের এব্সেস-এর ক্ষেত্রে, এটি শর্ট-টার্ম থেরাপি হিসেবে ব্যবহৃত হয়।\n- H. pylori-জনিত ডিওডেনাল আলসার বা এর ঝুঁকি কমাতে এটি ক্লারিথ্রোমাইসিন ও ল্যান্সোপ্রাজোলের সাথে (ট্রিপল থেরাপি হিসেবে) ব্যবহৃত হয়।",
+    "mode_of_action": "এমোক্সিসিলিন একটি ব্রড স্পেক্ট্রাম পেনিসিলিন। এটি বিভিন্ন ধরনের গ্রাম-পজিটিভ ও গ্রাম-নেগেটিভ ব্যাকটেরিয়ার বিরুদ্ধে কার্যকরী। ইহা cell wall synthesis কে Inhibit করার মাধ্যমে কাজ করে। মুখে সেবনের পর এটি দ্রূত পরিশোষিত হয়; এটি গ্যাস্ট্রিক এসিডে সুস্থিত। মুখে সেবনের ১-২ ঘন্টার মধ্যে এটি সর্বোচ্চ প্লাজমা ঘনত্বে পৌঁছায়। এমোক্সিসিলিন শরীরের বিভিন্ন টিস্যু ও ফ্লুইডে বিভিন্ন ঘনমাত্রায় বিস্তৃতভাবে ছড়িয়ে পড়ে।",
+    "dosage": "**প্রাপ্ত বয়স্ক**: ২৫০ মিঃগ্রাঃ করে দিনে ৩ বার, তীব্র সংক্রমণের ক্ষেত্রে সর্বোচ্চ ৫০০ মিঃগ্রাঃ করে দিনে ৩ বার ।\n**বাচ্চা (১০ বৎসর পর্যন্ত)**: ১২৫ মিঃগ্রাঃ করে দিনে ৩ বার তীব্র সংক্রমণের ক্ষেত্রে সর্বোচ্চ ২৫০ মিঃগ্রাঃ করে দিনে ৩ বার। \n\n- তীব্র বা বারবার হয় এমন ধরনের শ্বাসতন্ত্রীয় সংক্রমণ (পুরুলেন্ট)-এর ক্ষেত্রে ৩ গ্রাম করে ১২ ঘন্টা পরপর।\n- মধ্যকর্ণের সংক্রমণ: প্রাপ্ত বয়স্কদের জন্য ১ গ্রাম করে দিনে ৩ বার প্রতি চার ঘন্টা পরপর এবং বাচ্চাদের ক্ষেত্রে দৈনিক ৪০ মিঃগ্রাঃ/কেজি দৈহিক ওজন হিসেবে ৩ টি বিভক্ত মাত্রায় (সর্বোচ্চ মাত্রা দৈনিক ৩ গ্রাম)।\n- নিউমোনিয়া: ৫০০-১০০০ মিঃগ্রাঃ করে দিনে ৩ বার ।\n- ডেন্টাল এব্সেস: ৩ গ্রাম করে ১০-১২ ঘন্টা পরপর।\n- মূত্রনালীর সংক্রমণ: ৩ গ্রাম করে ১০-১২ ঘন্টা পরপর।\n- গণোরিয়া: ১ গ্রাম প্রোবেনেসিড-এর সাথে ২-৩ গ্রামের এককমাত্রা (প্রোবেনেসিড ২ বৎসরের নিচের বাচ্চাদের ক্ষেত্রে প্রতিনির্দেশিত)।\n- বৃক্কীয় বৈকল্যের ক্ষেত্রে দৈনিক মাত্রা কমানোর প্রয়োজন হতে পারে।",
+    "administration": "সংমিশ্রিত সাস্পেনশনের প্রয়োজনীয় পরিমাণ, দুধ, ফলের রস বা পানির সাথে মিশিয়ে তৎক্ষণাৎ গ্রহণ করা যেতে পারে।",
+    "interaction": "এমোক্সিসিলিন ও প্রোবেনেসিডের সাথে যুগপৎ ব্যবহারে এমোক্সিসিলিনের প্লাজমা ঘনত্ব বৃদ্ধি ও দীর্ঘস্থায়ী হতে পারে। এমোক্সিসিলিন, আন্ত্রিক ফ্লোরা নষ্ট করতে পারে যা ইস্ট্রোজেনের পূণঃশোষণ কমিয়ে ফেলে এবং মুখে সেবনযোগ্য ইস্ট্রোজেন-প্রোজেস্টেরন সংবলিত জন্মপ্রতিরোধক জাতীয় ঔষধের কার্যকারিতা হ্রাস করতে পারে।",
+    "contraindications": "পেনিসিলিন জাতীয় ঔষধের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে এমোক্সিসিলিন প্রতিনির্দেশিত।",
+    "side_effects": "পার্শ্ব প্রতিক্রিয়াগুলো মৃদুমাত্রার এবং ক্ষণস্থায়ী। এগুলো হলো-ডায়রিয়া, বদহজম এবং কদাচিৎ র‌্যাশ। সিউডোমেমব্রেনাস কলাইটিস্ এর মত ঘটনা কদাচিৎ লক্ষ্য করা যায়।",
+    "pregnancy_cat": "US FDA-এর প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী এমোক্সিসিলিন 'B' শ্রেণীভূক্ত ঔষধ। তাছাড়া, গর্ভাবস্থায় এটি ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহে কার্যকারিতা সন্বন্ধে পূর্ব ধারণা দেয় না, সেহেতু এই ঔষধটি গর্ভাবস্থায় কেবল সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। এমোক্সিসিলিন স্তন্যদুগ্ধে নিঃসৃত হয়। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে এমোক্সিসিলিন ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "চিকিৎসা চলাকালে ব্যাকটেরিয়া বা ছত্রাকজনিত সুপারইনফেকশন হওয়ার সম্ভাবনার বিষয়টি বিবেচনায় রাখতে হবে। সুপারইনফেকশন হলে এমোক্সিসিলিন গ্রহণ বন্ধ করতে হবে এবং যথোপযুক্ত চিকিৎসা নিতে হবে।",
+    "drug_classes": "Broad spectrum penicillins",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/69/amoxicillin-trihydrate",
+  "source_url_bn": "https://medex.com.bd/generics/69/amoxicillin-trihydrate/bn",
+  "scraped_at": "2026-10-10T15:02:01+00:00"
+}

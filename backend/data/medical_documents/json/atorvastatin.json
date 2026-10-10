@@ -1,0 +1,1045 @@
+{
+  "slug": "atorvastatin",
+  "name_en": "Atorvastatin Calcium",
+  "name_bn": "এ্যাটোরভাস্টাটিন ক্যালসিয়াম",
+  "therapeutic_class": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-Statin",
+      "strength": "10 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32492/a-statin-10-mg-tablet"
+    },
+    {
+      "name": "Ajwa",
+      "strength": "10 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/34763/ajwa-10-mg-tablet"
+    },
+    {
+      "name": "Altovas",
+      "strength": "10 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/25540/altovas-10-mg-tablet"
+    },
+    {
+      "name": "Altovas",
+      "strength": "20 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/25541/altovas-20-mg-tablet"
+    },
+    {
+      "name": "Anzitor",
+      "strength": "10 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1118/anzitor-10-mg-tablet"
+    },
+    {
+      "name": "Anzitor",
+      "strength": "40 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1120/anzitor-40-mg-tablet"
+    },
+    {
+      "name": "Anzitor",
+      "strength": "20 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/27525/anzitor-20-mg-tablet"
+    },
+    {
+      "name": "Astatin",
+      "strength": "10 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27378/astatin-10-mg-tablet"
+    },
+    {
+      "name": "Aster",
+      "strength": "10 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/25549/aster-10-mg-tablet"
+    },
+    {
+      "name": "Aster",
+      "strength": "20 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/25550/aster-20-mg-tablet"
+    },
+    {
+      "name": "Astin",
+      "strength": "10 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/1121/astin-10-mg-tablet"
+    },
+    {
+      "name": "Astin",
+      "strength": "20 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 15.10",
+      "url": "https://medex.com.bd/brands/1122/astin-20-mg-tablet"
+    },
+    {
+      "name": "Astiva",
+      "strength": "10 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/1123/astiva-10-mg-tablet"
+    },
+    {
+      "name": "Asvast",
+      "strength": "10 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37629/asvast-10-mg-tablet"
+    },
+    {
+      "name": "Atasin",
+      "strength": "40 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1126/atasin-40-mg-tablet"
+    },
+    {
+      "name": "Atasin",
+      "strength": "10 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/3371/atasin-10-mg-tablet"
+    },
+    {
+      "name": "Atasin",
+      "strength": "20 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/3373/atasin-20-mg-tablet"
+    },
+    {
+      "name": "Atasin",
+      "strength": "80 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 40.12",
+      "url": "https://medex.com.bd/brands/32200/atasin-80-mg-tablet"
+    },
+    {
+      "name": "Atomax",
+      "strength": "10 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32338/atomax-10-mg-tablet"
+    },
+    {
+      "name": "Atomax",
+      "strength": "20 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/32339/atomax-20-mg-tablet"
+    },
+    {
+      "name": "Atonor",
+      "strength": "10 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1128/atonor-10-mg-tablet"
+    },
+    {
+      "name": "Atonor",
+      "strength": "20 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1129/atonor-20-mg-tablet"
+    },
+    {
+      "name": "Atorvast",
+      "strength": "10 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1130/atorvast-10-mg-tablet"
+    },
+    {
+      "name": "Atostin",
+      "strength": "10 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/27780/atostin-10-mg-tablet"
+    },
+    {
+      "name": "Atostin",
+      "strength": "20 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/28149/atostin-20-mg-tablet"
+    },
+    {
+      "name": "Atova",
+      "strength": "10 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1133/atova-10-mg-tablet"
+    },
+    {
+      "name": "Atova",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1134/atova-20-mg-tablet"
+    },
+    {
+      "name": "Atova",
+      "strength": "40 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1135/atova-40-mg-tablet"
+    },
+    {
+      "name": "Atovex",
+      "strength": "10 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1136/atovex-10-mg-tablet"
+    },
+    {
+      "name": "Atovex",
+      "strength": "20 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/1137/atovex-20-mg-tablet"
+    },
+    {
+      "name": "Atovin",
+      "strength": "10 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1139/atovin-10-mg-tablet"
+    },
+    {
+      "name": "Atovin",
+      "strength": "20 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/27841/atovin-20-mg-tablet"
+    },
+    {
+      "name": "Atrovast",
+      "strength": "10 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/1140/atrovast-10-mg-tablet"
+    },
+    {
+      "name": "Atrovast",
+      "strength": "20 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/1141/atrovast-20-mg-tablet"
+    },
+    {
+      "name": "ATV",
+      "strength": "10 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1113/atv-10-mg-tablet"
+    },
+    {
+      "name": "ATV",
+      "strength": "20 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1114/atv-20-mg-tablet"
+    },
+    {
+      "name": "ATV",
+      "strength": "40 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/3374/atv-40-mg-tablet"
+    },
+    {
+      "name": "Avas",
+      "strength": "10 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1165/avas-10-mg-tablet"
+    },
+    {
+      "name": "Avas",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1166/avas-20-mg-tablet"
+    },
+    {
+      "name": "Avas",
+      "strength": "40 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1167/avas-40-mg-tablet"
+    },
+    {
+      "name": "Avastatin",
+      "strength": "10 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1168/avastatin-10-mg-tablet"
+    },
+    {
+      "name": "Avastrol",
+      "strength": "10 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/27255/avastrol-10-mg-tablet"
+    },
+    {
+      "name": "Avastrol",
+      "strength": "20 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/27256/avastrol-20-mg-tablet"
+    },
+    {
+      "name": "Avator",
+      "strength": "10 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1169/avator-10-mg-tablet"
+    },
+    {
+      "name": "Avator",
+      "strength": "20 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1170/avator-20-mg-tablet"
+    },
+    {
+      "name": "Avocard",
+      "strength": "10 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1171/avocard-10-mg-tablet"
+    },
+    {
+      "name": "Avocard",
+      "strength": "20 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1172/avocard-20-mg-tablet"
+    },
+    {
+      "name": "Aztor",
+      "strength": "10 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 11.60",
+      "url": "https://medex.com.bd/brands/1174/aztor-10-mg-tablet"
+    },
+    {
+      "name": "Aztor",
+      "strength": "40 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 26.00",
+      "url": "https://medex.com.bd/brands/1175/aztor-40-mg-tablet"
+    },
+    {
+      "name": "Aztor",
+      "strength": "20 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1176/aztor-20-mg-tablet"
+    },
+    {
+      "name": "Cloles",
+      "strength": "10 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1177/cloles-10-mg-tablet"
+    },
+    {
+      "name": "Colostat",
+      "strength": "10 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1178/colostat-10-mg-tablet"
+    },
+    {
+      "name": "Colostat",
+      "strength": "20 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/30246/colostat-20-mg-tablet"
+    },
+    {
+      "name": "Colostat",
+      "strength": "40 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/38948/colostat-40-mg-tablet"
+    },
+    {
+      "name": "Divastin",
+      "strength": "10 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1180/divastin-10-mg-tablet"
+    },
+    {
+      "name": "Divastin",
+      "strength": "20 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1181/divastin-20-mg-tablet"
+    },
+    {
+      "name": "Divastin",
+      "strength": "40 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/1182/divastin-40-mg-tablet"
+    },
+    {
+      "name": "Frenvas",
+      "strength": "10 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/1183/frenvas-10-mg-tablet"
+    },
+    {
+      "name": "Frenvas",
+      "strength": "20 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/26442/frenvas-20-mg-tablet"
+    },
+    {
+      "name": "Frenvas",
+      "strength": "40 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/31989/frenvas-40-mg-tablet"
+    },
+    {
+      "name": "G-Atorvast",
+      "strength": "10 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/1185/g-atorvast-10-mg-tablet"
+    },
+    {
+      "name": "G-Atorvast",
+      "strength": "20 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 14.40",
+      "url": "https://medex.com.bd/brands/1186/g-atorvast-20-mg-tablet"
+    },
+    {
+      "name": "Lipex",
+      "strength": "10 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1187/lipex-10-mg-tablet"
+    },
+    {
+      "name": "Lipex",
+      "strength": "20 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1188/lipex-20-mg-tablet"
+    },
+    {
+      "name": "Lipicon",
+      "strength": "10 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1189/lipicon-10-mg-tablet"
+    },
+    {
+      "name": "Lipicon",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1190/lipicon-20-mg-tablet"
+    },
+    {
+      "name": "Lipicon",
+      "strength": "40 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/29951/lipicon-40-mg-tablet"
+    },
+    {
+      "name": "Lipicut",
+      "strength": "10 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1192/lipicut-10-mg-tablet"
+    },
+    {
+      "name": "Lipicut",
+      "strength": "20 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/1193/lipicut-20-mg-tablet"
+    },
+    {
+      "name": "Lipigent",
+      "strength": "10 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1194/lipigent-10-mg-tablet"
+    },
+    {
+      "name": "Lipigent",
+      "strength": "20 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/28553/lipigent-20-mg-tablet"
+    },
+    {
+      "name": "Lipiles",
+      "strength": "10 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1196/lipiles-10-mg-tablet"
+    },
+    {
+      "name": "Lipiles",
+      "strength": "20 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1197/lipiles-20-mg-tablet"
+    },
+    {
+      "name": "Lipinor",
+      "strength": "10 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1198/lipinor-10-mg-tablet"
+    },
+    {
+      "name": "Lipistat",
+      "strength": "10 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1199/lipistat-10-mg-tablet"
+    },
+    {
+      "name": "Lipitin",
+      "strength": "10 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/1201/lipitin-10-mg-tablet"
+    },
+    {
+      "name": "Lipitin",
+      "strength": "20 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1202/lipitin-20-mg-tablet"
+    },
+    {
+      "name": "Lipitin",
+      "strength": "40 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 24.07",
+      "url": "https://medex.com.bd/brands/34386/lipitin-40-mg-tablet"
+    },
+    {
+      "name": "Lipiva",
+      "strength": "10 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/25557/lipiva-10-mg-tablet"
+    },
+    {
+      "name": "Lipiva",
+      "strength": "20 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/25558/lipiva-20-mg-tablet"
+    },
+    {
+      "name": "Liplo",
+      "strength": "10 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.33",
+      "url": "https://medex.com.bd/brands/1210/liplo-10-mg-tablet"
+    },
+    {
+      "name": "Liplo",
+      "strength": "20 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1211/liplo-20-mg-tablet"
+    },
+    {
+      "name": "Lipobi",
+      "strength": "10 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1212/lipobi-10-mg-tablet"
+    },
+    {
+      "name": "Lipostat",
+      "strength": "10 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1213/lipostat-10-mg-tablet"
+    },
+    {
+      "name": "Lipostat",
+      "strength": "20 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/1214/lipostat-20-mg-tablet"
+    },
+    {
+      "name": "Lipovast",
+      "strength": "10 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1215/lipovast-10-mg-tablet"
+    },
+    {
+      "name": "Liptor",
+      "strength": "10 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1204/liptor-10-mg-tablet"
+    },
+    {
+      "name": "Liptor",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1205/liptor-20-mg-tablet"
+    },
+    {
+      "name": "Liptor",
+      "strength": "40 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/25575/liptor-40-mg-tablet"
+    },
+    {
+      "name": "Livas",
+      "strength": "10 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1206/livas-10-mg-tablet"
+    },
+    {
+      "name": "Livas",
+      "strength": "20 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/1207/livas-20-mg-tablet"
+    },
+    {
+      "name": "Locol",
+      "strength": "10 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.04",
+      "url": "https://medex.com.bd/brands/1219/locol-10-mg-tablet"
+    },
+    {
+      "name": "Locol",
+      "strength": "20 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 18.07",
+      "url": "https://medex.com.bd/brands/1220/locol-20-mg-tablet"
+    },
+    {
+      "name": "Onvas",
+      "strength": "10 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/25564/onvas-10-mg-tablet"
+    },
+    {
+      "name": "Onvas",
+      "strength": "20 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/25565/onvas-20-mg-tablet"
+    },
+    {
+      "name": "Optivas",
+      "strength": "10 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/25546/optivas-10-mg-tablet"
+    },
+    {
+      "name": "Optivas",
+      "strength": "20 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/25547/optivas-20-mg-tablet"
+    },
+    {
+      "name": "Orva",
+      "strength": "10 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/1224/orva-10-mg-tablet"
+    },
+    {
+      "name": "Orva",
+      "strength": "20 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 20.01",
+      "url": "https://medex.com.bd/brands/1225/orva-20-mg-tablet"
+    },
+    {
+      "name": "Orvatin",
+      "strength": "10 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1227/orvatin-10-mg-tablet"
+    },
+    {
+      "name": "Orvatin",
+      "strength": "20 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1228/orvatin-20-mg-tablet"
+    },
+    {
+      "name": "SB-Ator",
+      "strength": "10 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/25571/sb-ator-10-mg-tablet"
+    },
+    {
+      "name": "SB-Ator",
+      "strength": "20 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/25572/sb-ator-20-mg-tablet"
+    },
+    {
+      "name": "Sitova",
+      "strength": "10 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/31576/sitova-10-mg-tablet"
+    },
+    {
+      "name": "Sitova",
+      "strength": "20 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/31577/sitova-20-mg-tablet"
+    },
+    {
+      "name": "Stacor",
+      "strength": "10 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1229/stacor-10-mg-tablet"
+    },
+    {
+      "name": "Stacor",
+      "strength": "20 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1230/stacor-20-mg-tablet"
+    },
+    {
+      "name": "Stacor",
+      "strength": "40 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/1231/stacor-40-mg-tablet"
+    },
+    {
+      "name": "Taven",
+      "strength": "10 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1234/taven-10-mg-tablet"
+    },
+    {
+      "name": "Taven",
+      "strength": "20 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1235/taven-20-mg-tablet"
+    },
+    {
+      "name": "Taven",
+      "strength": "40 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/1236/taven-40-mg-tablet"
+    },
+    {
+      "name": "TCL-R",
+      "strength": "20 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1232/tcl-r-20-mg-tablet"
+    },
+    {
+      "name": "TCL-R",
+      "strength": "10 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1233/tcl-r-10-mg-tablet"
+    },
+    {
+      "name": "TCL-R",
+      "strength": "40 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/25544/tcl-r-40-mg-tablet"
+    },
+    {
+      "name": "Temvas",
+      "strength": "10 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29214/temvas-10-mg-tablet"
+    },
+    {
+      "name": "Tigilow",
+      "strength": "10 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.04",
+      "url": "https://medex.com.bd/brands/1237/tigilow-10-mg-tablet"
+    },
+    {
+      "name": "Tigilow",
+      "strength": "20 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/1238/tigilow-20-mg-tablet"
+    },
+    {
+      "name": "Tiginor",
+      "strength": "10 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/1239/tiginor-10-mg-tablet"
+    },
+    {
+      "name": "Tiginor",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1240/tiginor-20-mg-tablet"
+    },
+    {
+      "name": "Tiginor",
+      "strength": "40 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.50",
+      "url": "https://medex.com.bd/brands/1241/tiginor-40-mg-tablet"
+    },
+    {
+      "name": "Torva",
+      "strength": "10 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1242/torva-10-mg-tablet"
+    },
+    {
+      "name": "Torvas",
+      "strength": "10 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1243/torvas-10-mg-tablet"
+    },
+    {
+      "name": "Trova",
+      "strength": "10 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/1244/trova-10-mg-tablet"
+    },
+    {
+      "name": "Trova",
+      "strength": "20 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1245/trova-20-mg-tablet"
+    },
+    {
+      "name": "U-Tovas",
+      "strength": "10 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/35001/u-tovas-10-mg-tablet"
+    },
+    {
+      "name": "Vass",
+      "strength": "10 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 12.10",
+      "url": "https://medex.com.bd/brands/1246/vass-10-mg-tablet"
+    },
+    {
+      "name": "Vass",
+      "strength": "20 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 20.10",
+      "url": "https://medex.com.bd/brands/1247/vass-20-mg-tablet"
+    },
+    {
+      "name": "Vastin",
+      "strength": "10 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/1249/vastin-10-mg-tablet"
+    },
+    {
+      "name": "Vastin",
+      "strength": "10 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/24501/vastin-10-mg-tablet"
+    },
+    {
+      "name": "Vastor",
+      "strength": "10 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/25539/vastor-10-mg-tablet"
+    },
+    {
+      "name": "Xelitor",
+      "strength": "10 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/1251/xelitor-10-mg-tablet"
+    },
+    {
+      "name": "Xelitor",
+      "strength": "20 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 18.05",
+      "url": "https://medex.com.bd/brands/1252/xelitor-20-mg-tablet"
+    },
+    {
+      "name": "Xelpid",
+      "strength": "10 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1253/xelpid-10-mg-tablet"
+    },
+    {
+      "name": "Xelpid",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/1254/xelpid-20-mg-tablet"
+    },
+    {
+      "name": "Xelpid",
+      "strength": "40 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/1255/xelpid-40-mg-tablet"
+    },
+    {
+      "name": "Xerova",
+      "strength": "10 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 13.00",
+      "url": "https://medex.com.bd/brands/1256/xerova-10-mg-tablet"
+    },
+    {
+      "name": "Xerova",
+      "strength": "20 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/1257/xerova-20-mg-tablet"
+    },
+    {
+      "name": "Xerova",
+      "strength": "40 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/34529/xerova-40-mg-tablet"
+    },
+    {
+      "name": "Zapitor",
+      "strength": "10 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/1258/zapitor-10-mg-tablet"
+    },
+    {
+      "name": "Zapitor",
+      "strength": "20 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/1259/zapitor-20-mg-tablet"
+    },
+    {
+      "name": "Zerolip",
+      "strength": "10 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/33633/zerolip-10-mg-tablet"
+    },
+    {
+      "name": "Zerolip",
+      "strength": "20 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 16.00",
+      "url": "https://medex.com.bd/brands/33634/zerolip-20-mg-tablet"
+    },
+    {
+      "name": "Zuvas",
+      "strength": "10 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/1260/zuvas-10-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Atorvastatin is indicated as an adjunct to diet to reduce elevated total cholesterol, LDL cholesterol, apolipoprotein B (Apo-B) and triglycerides levels in following diseases when response to diet and other non-pharmacological measures is inadequate. \n\n- To reduce total cholesterol and LDL cholesterol in patients with heterozygous and homozygous familial hypercholesterolemia.\nAtorvastatin is indicated as an adjunct to diet to reduce elevated total cholesterol, LDL cholesterol, apolipoprotein B (Apo-B) and triglycerides levels in following diseases when response to diet and other non-pharmacological measures is inadequate. \n\n- To reduce total cholesterol and LDL cholesterol in patients with heterozygous and homozygous familial hypercholesterolemia.\n- To reduce elevated cholesterol and triglycerides in patient with mixed dyslipidemia (Fredrickson Type Ia and Ib).\n- For the treatment of patients with elevated serum triglyceride levels in hypertriglyceridaemia (Fredrickson Type IV).\n- For the treatment of patients with dysbetalipoproteinaemia (Fredrickson Type III).\n- To reduce cardiac ischaemic events in patients with asymptomatic or mild to moderate symptomatic coronary artery disease with elevated LDL-cholesterol level.\n- To reduce total and LDL-cholesterol concentrations patients with hypercholesterolemia associated with or exacerbated by diabetes mellitus or renal transplantation.",
+    "mode_of_action": "Atorvastatin is a selective inhibitor of HMG-CoA reductase. This enzyme is the rate-limiting enzyme responsible for the conversion of HMG-CoA to mevalonate, a precursor of sterols, including cholesterol. Atorvastatin lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and increases the number of hepatic LDL receptors on the cell surface for enhanced uptake and catabolism of LDL.\n\n**Absorption**: Atorvastatin is rapidly absorbed after oral administration; maximum plasma concentrations occur within 1 to 2 hours. Extent of absorption increases in proportion to Atorvastatin dose. The absolute bioavailability of Atorvastatin (parent drug) is approximately 14% and the systemic availability of HMG-CoA reductase inhibitory activity is approximately 30%.\n\n**Distribution**: Mean volume of distribution of Atorvastatin is approximately 381 liters. Atorvastatin is 98% bound to plasma proteins. A blood/plasma ratio of approximately 0.25 indicates poor drug penetration into red blood cells. Based on observations in rats, Atorvastatin is likely to be secreted in human milk.\n\n**Metabolism**: Atorvastatin is extensively metabolized to ortho- and parahydroxylated derivatives and various beta-oxidation products. In vitro inhibition of HMG-CoA reductase by ortho- and parahydroxylated metabolites is equivalent to that of Atorvastatin. Approximately 70% of circulating inhibitory activity for HMG-CoA reductase is attributed to active metabolites. In vitro studies suggest the importance of Atorvastatin metabolism by cytochrome P450 3A4, consistent with increased plasma concentrations of Atorvastatin in humans following coadministration with erythromycin, a known inhibitor of this isozymes. In animals, the ortho-hydroxy metabolite undergoes further glucuronidation.\n\n**Excretion**: Atorvastatin and its metabolites are eliminated primarily in bile following hepatic and/or extra-hepatic metabolism; however, the drug does not appear to undergo enterohepatic recirculation. Mean plasma elimination half-life of Atorvastatin in humans is approximately 14 hours, but the half-life of inhibitory activity for HMG-CoA reductase is 20 to 30 hours due to the contribution of active metabolites. Less than 2% of a dose of Atorvastatin is recovered in urine following oral administration.",
+    "dosage": "Primary hypercholesterolaemia and combined hyperlipidaemia-\n\n- **Adults**: Usually 10 mg once daily; if necessary, may be increased at intervals of at least 4 weeks to max. 80 mg once daily.\n- **Child (10-18 years)**: Initially 10 mg once daily, increased if necessary at intervals of at least 4 weeks to usual max. 20 mg once daily.\n\r\nFamilial hypercholesterolaemia-\n\n- **Adults**: Initially 10 mg daily, increased at intervals of at least 4 weeks to 40 mg once daily; if necessary, further increased to max. 80 mg once daily (or 40 mg once daily combined with anion-exchange resin in heterozygous familial hypercholesterolaemia).\n- **Child (10-18 years)**: Initially 10 mg once daily, increased if necessary at intervals of at least 4 weeks to usual max. 80 mg once daily.\n\r\nPrevention of cardiovascular events-\n\n- **Adults**: Initially 10 mg once daily adjusted according to response.\n\n**Another guideline**: The patient should be placed on a standard cholesterol-lowering diet before receiving Atorvastatin and should continue on this diet during treatment with Atorvastatin. The recommended starting dose of Atorvastatin is 10 or 20 mg once daily. Patients who require a large reduction in LDL-C (more than 45%) may be started at 40 mg once daily. The dosage range of Atorvastatin is 10 to 80 mg once daily. Atorvastatin can be administered as a single dose at any time of the day, with or without food. After initiation of Atorvastatin lipid levels should be analyzed within 2 to 4 weeks and dosage adjusted accordingly.\n\nIn hypercholesterolemia in Pediatric Patients (10-17 years of age) the recommended starting dose of Atorvastatin is 10 mg/day; the maximum recommended dose is 20 mg/day (doses greater than 20 mg have not been studied in this patient population). Doses should be individualized according to the recommended goal of therapy. Adjustments should be made at intervals of 4 weeks or more.",
+    "interaction": "The risk of myopathy during treatment with drugs of this class is increased with concurrent administration of cyclosporine, fibric acid derivatives, niacin (nicotinic acid), erythromycin, azole antifungals.\n\n**Antacid**: When atorvastatin and antacid suspension were coadministered, plasma concentrations of atorvastatin decreased approximately 35%. However, LDL-C reduction was not altered.\n\n**Colestipol**: Plasma concentrations of atorvastatin decreased approximately 25% when colestipol and atorvastatin were coadministered. However, LDL-C reduction was greater when atorvastatin and colestipol were coadministered than when either drug was given alone.\n\n**Digoxin**: When multiple doses of atorvastatin and digoxin were coadministered, steady-state plasma digoxin concentrations increased by approximately 20%. Patients taking digoxin should be monitored appropriately.\n\n**Erythromycin**: In healthy individuals, plasma concentrations of atorvastatin increased approximately 40% with coadministration of atorvastatin and erythromycin, a known inhibitor of cytochrome P450 3A4.\n\n**Oral Contraceptives**: Coadministration of atorvastatin and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol by approximately 30% and 20%. These increases should be considered when selecting an oral contraceptive for a woman taking atorvastatin.\n\n**Warfarin**: Atorvastatin had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment.",
+    "contraindications": "Atorvastatin should not be used in patient with hypersensitivity to any component of this medication. Atorvastatin is contraindicated in active liver disease or unexplained persistent elevations of serum transaminases. It is also contraindicated in patient with history of serious adverse reaction to prior administration of HMG-CoA reductase inhibitors.",
+    "side_effects": "Atorvastatin is generally well-tolerated. The most frequent side effects related to Atorvastatin are constipation, flatulence, dyspepsia, abdominal pain. Other side effects includes infection, headache, back pain, rash, asthenia, arthralgia, myalgia.",
+    "pregnancy_cat": "**Pregnancy**: Atorvastatin is contraindicated during pregnancy. Safety in pregnant women has not been established. No controlled clinical trials with atorvastatin have been conducted in pregnant women. Rare reports of congenital anomalies following intrauterine exposure to HMG-CoA reductase inhibitors have been received. Animal studies have shown toxicity to reproduction. Maternal treatment with atorvastatin may reduce the fetal levels of mevalonate which is a precursor of cholesterol biosynthesis. Atorvastatin should not be used in women who are pregnant, trying to become pregnant or suspect they are pregnant. Treatment with atorvastatin should be suspended for the duration of pregnancy or until it has been determined that the woman is not pregnant\n\n**Lactation**: It is not known whether atorvastatin or its metabolites are excreted in human milk. In rats, plasma concentrations of atorvastatin and its active metabolites are similar to those in milk. Because of the potential for serious adverse reactions, women taking atorvastatin should not breastfeed their infants. Atorvastatin is contraindicated during breastfeeding.",
+    "precautions": "Liver effects: Liver function tests should be performed before the initiation of treatment and periodically thereafter. Atorvastatin should be used with caution in patients who consume substantial quantities of alcohol or have a history of liver disease. Atorvastatin therapy should be discontinued if markedly elevated CPK levels occur or myopathy is diagnosed or suspected.",
+    "pediatric_uses": "**Geriatric**: Plasma concentrations of Atorvastatin are higher (approximately 40% for Cmax and 30% for AUC) in healthy elderly subjects (age 65 years) than in young adults. Clinical data suggest a greater degree of LDL-lowering at any dose of drug in the elderly patient population compared to younger adults.\n\n**Pediatric**: Pharmacokinetic data in the pediatric population are not available.\n\n**Gender**: There is no clinically significant difference in LDL-C reduction with Atorvastatin between men and women.\n\n**Renal Insufficiency**: Renal disease has no influence on the plasma concentrations or LDL-C reduction of Atorvastatin; thus, dose adjustment in patients with renal dysfunction is not necessary.\n\n**Hemodialysis**: Hemodialysis is not expected to significantly enhance clearance of Atorvastatin since the drug is extensively bound to plasma proteins.\n\n**Hepatic Insufficiency**: In patients with chronic alcoholic liver disease, plasma concentrations of Atorvastatin are markedly increased.",
+    "overdose_effects": "Specific treatment is not available for atorvastatin overdose. The patient should be treated symptomatically and supportive measures instituted, as required. Liver function tests should be performed and serum CK levels should be monitored. Due to extensive atorvastatin binding to plasma proteins, hemodialysis is not expected to significantly enhance atorvastatin clearance.",
+    "drug_classes": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 33 H 35 FN 2 O 5 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Atorvastatin?\n\nAtorvastatin is a selective inhibitor of HMG-CoA reductase. It is used to avoid heart attacks and Primary Hypercholesterolemia. It is also used to treat conditions such as Mixed Dyslipidemia and Hypertriglyceridemia.\n\n#### How should I take Atorvastatin?\n\nAtorvastatin should be taken by mouth once daily, at the same time each day. It can be taken with or without food.\n\n#### What are the uses of Atorvastatin?\n\nAtorvastatin is used for the treatment of diseases like Mixed Dyslipidemia and Hypertriglyceridemia. Besides these, it can also be used to treat conditions like heart attacks and Primary Hypercholesterolemia.\n\n#### What are the Side Effects of Atorvastatin?\n\nThis is a list of possible side-effects which may occur due to the constituting ingredients of Atorvastatin. These side-effects have been observed and not necessarily occur. Some of these side-effects may be serious. These include cough, muscle pain, breathing difficulty and running nose.\n\n#### What are the instructions for storage and disposal Atorvastatin?\n\nAtorvastatin should be stored at room temperature, away from heat and direct light. Keep it away from the reach of children and pets.\n\n#### Is Atorvastatin used for lowering cholesterol?\n\nAtorvastatin comes under the class of drugs termed as statins and helps in decreasing the level of lipids or fats. It is used to lower cholesterol and triglycerides present in the blood. However, you must take a cholesterol-lowering diet during the course of treatment.\n\n#### Will taking Atorvastatin increase my risk of diabetes?\n\nIf you have type 2 diabetes, then consuming Atorvastatin can slightly affect your health as this drug is known to increase the blood sugar levels. In such a case, regular monitoring of blood sugar level during the course of treatment is important.\n\n#### For how long do I need to take Atorvastatin? Is it safe for long-term use?\n\nThis drug should be taken for a duration that a doctor has prescribed it. If you stop taking this medicine without completing the full course, then it can worsen your condition. This medicine is considered safe for long term use if you take it exactly as directed by the doctor.\n\n#### Does Atorvastatin cause weight loss?\n\nNo studies report that this drug can cause weight loss. This is a very unusual side effect. If you encounter weight loss after the course of medication, then doctor consultation is suggested.\n\n#### Can I stop taking Atorvastatin?\n\nDo not stop taking this drug without informing your doctor. Completing the course of medication is necessary or it can worsen your condition.\n\n#### Does Atorvastatin cause memory loss?\n\nMemory loss is a very rare side effect of this drug. You must consult a doctor if you experience it.\n\n#### Does Atorvastatin make you tired?\n\nAtorvastatin can make you feel tired. Although the exact reason behind this is still not known.\n\n#### Can Atorvastatin be prescribed to children?\n\nThis drug should be used by adults. Children above 10 years of age can also use it however caution must be exercised. This drug should not be given to children who are less than 10 years old.\n\n#### Is Atorvastatin a blood thinner?\n\nAtorvastatin does not cause thinning of the blood. This medication lowers cholesterol and prevents the chances of stroke and heart attack.\n\n#### Quick Tips\n\n- In general, Atorvastatin is safe. It may cause diarrhea, gas or an upset stomach. If any of these happen to you, take it with food.\n- Inform your doctor if you experience fatigue, muscle weakness or muscle pain.\n- Your doctor may check your liver function before starting the treatment and regularly thereafter. Inform your doctor if you notice signs of liver problems such as stomach pains, unusually dark urine or yellowing of skin or eyes.\n- Inform your doctor if you have kidney disease, liver disease or diabetes before starting treatment with this medicine. If you are diabetic, monitor your blood sugar level regularly as Atorvastatin may cause an increase in your blood sugar level.\n- Do not take Atorvastatin if you are pregnant, planning a pregnancy or breastfeeding."
+  },
+  "sections_bn": {
+    "indications": "এটরভাসটাটিন খাদ্যের সাথে সম্পূরক হিসাবে বর্ধিত টোটাল কোলেস্টেরল, LDL কোলেস্টেরল, এপোলিপোপ্রোটিন-বি (এপো-বি) এবং ট্রাইগ্লিসারাইড কমানোর জন্য যেখানে খাদ্য বা ননফার্মাকোলজিক্যাল ব্যবস্থা অপর্যাপ্ত সেখানে নিম্নলিখিত রোগের ক্ষেত্রে ব্যবহৃত হয়।\n\n- হোমোজাইগাস ও হেটারোজাইগাস ফ্যামিলিয়াল হাইপারকোলেস্টেরোলেমিয়া রোগীর টোটাল কোলেস্টেরল ও LDL কোলেস্টেরল কমাতে।\n- মিক্সড ডিসলিপিডেমিয়া (ফ্রেডরিকসন টাইপ-Ia ও Ib) রোগীর বর্ধিত কোলেস্টেরল ও ট্রাইগ্লিসারাইড কমাতে।\n- হাইপারট্রাইগ্লিসারাইডেমিয়া (ফ্রেডরিকসন টাইপ-IV) রোগীর বর্ধিত সিরাম ট্রাইগ্লিসারাইড কমাতে।\n- ডিসবেটালিপোপ্রোটিনেমিয়া (ফ্রেডরিকসন টাইপ-III) রোগীর এপোলিপোপ্রোটিন-বি কমাতে।\n- বর্ধিত LDL কোলেস্টেরল আছে এমন এসিম্পটোম্যাটিক বা মৃদু থেকে মৃদুতর সিম্পটোম্যাটিক করোনারী আর্টারী রোগের কার্ডিয়াক ইস্কেমিক পর্যায় কমাতে।\n- ডায়াবেটিস ম্যালাইটাস এবং রেনাল ট্রান্সপ্লান্ট হয়েছে এমন রোগীর বর্ধিত টোটাল কোলেস্টেরল, LDL কোলেস্টেরল কমাতে।",
+    "mode_of_action": "এটরভাসটাটিন HMG-CoA রিডাকটেজ এর একটি সুনির্দিষ্ট প্রতিবন্ধক। এই এনজাইম বিক্রিয়ার গতি নির্দেশক একটি এনজাইম যা HMG-CoA কে মেভালোনেট-এ রূপান্তর করে। মেভালোনেট কোলেস্টেরল সহ অন্যান্য স্টেরল তৈরীর একটি পূর্ববর্তী উপাদান। এটরভাসটাটিন HMG-CoA রিডাকটেজকে বাধা প্রদান করে কোলেস্টেরল তৈরী হ্রাসের মাধ্যমে এবং যকৃতে LDL এর অধিঃগ্রহণ ও অপচিতিক্রিয়া বৃদ্ধির জন্য যকৃত কোষের পৃষ্টদেশে LDL রিসেপ্টরের সংখ্যা বৃদ্ধির মাধ্যমে রক্তরসে কোলেস্টেরল ও লিপোপ্রোটিনের পরিমাণ কমায়।",
+    "dosage": "প্রাইমারী হাইপারকোলেস্টেরোলেমিয়া ও কম্বাইন্ড হাইপারলিপিডেমিয়া-\n\n- **পূর্ণবয়স্ক**: সাধারণত ১০ মিঃগ্রাঃ দিনে একবার। যদি প্রয়োজন হয়, অন্ততঃ ৪ সপ্তাহ বিরতিতে দৈনিক সর্বোচ্চ ৮০ মিঃগ্রাঃ পর্যন্ত বাড়ানো যেতে পারে।\n- **শিশু (১০-১৮ বছর)**: শুরুতে ১০ মিঃগ্রাঃ দিনে একবার। যদি প্রয়োজন হয়, অন্ততঃ ৪ সপ্তাহ বিরতিতে দৈনিক সর্বোচ্চ ২০ মিঃগ্রাঃ পযন্ত বাড়ানো যেতে পারে।\n\r\nফ্যামিলিয়াল হাইপারকোলেস্টেরোলেমিয়া-\n\n- **পূর্ণবয়স্ক**: প্রাথমিকভাবে ১০ মিঃগ্রাঃ দিনে একবার যা অন্ততঃ ৪ সপ্তাহ বিরতিতে ৪০ মিঃগ্রাঃ দিনে একবার বাড়ানো যাবে। যদি আরো প্রয়োজন হয়, দৈনিক সর্বোচ্চ ৮০ মিঃগ্রাঃ পর্যন্ত বাড়ানো যাবে (অথবা হেটারোজাইগাস হাইপারকোলেস্টেরোলেমিয়ার ক্ষেত্রে ৪০ মিঃগ্রাঃ দিনে একবার এনায়ন এক্সচেঞ্জ রেজিনের সাথে) ।\n- **শিশু (১০-১৮ বছর)**: শুরুতে ১০ মিঃগ্রাঃ দিনে একবার। যদি প্রয়োজন হয়, অন্ততঃ ৪ সপ্তাহ বিরতিতে দৈনিক সর্বোচ্চ ৮০ মিঃগ্রাঃ পর্যন্ত বাড়ানো যেতে পারে।\n\r\nকার্ডিওভাসকুলার ইভেন্ট প্রতিরোধ-\n\n- **পূর্ণবয়স্ক**: শুরুতে ১০ মিঃগ্রাঃ দিনে একবার যা রেসপন্স অনুসারে সমন্বয় করতে হবে।",
+    "interaction": "এটরভাসটাটিনের সাথে সাইক্লোস্পোরিন, ফিব্রিক এসিড ডেরিভেটিভ, এরিথ্রোমাইসিন, এজোল এন্টিফাংগাল এবং নিয়াসিন প্রদান করলে মায়োপ্যাথি হবার ঝুঁকি বেড়ে যায়। উচ্চ রক্তচাপ বিরোধী অথবা হাইপোগ্লাইসেমিক ঔষধের সাথে এটরভাসটাটিনের কোন উল্লেখযোগ্য ক্লিনিক্যাল প্রতিক্রিয়া জানা যায়নি। এটরভাসটাটিনের সাথে ডিগক্সিন, এরিথ্রোমাইসিন, ওরাল কন্ট্রাসেপটিভ, কলেস্টিপল, এন্টাসিড এবং ওয়ারফারিন দেয়া হলে রোগীকে নিবিড় পর্যবেক্ষণে রাখতে হবে।",
+    "contraindications": "যে সমস্ত রোগী এই ঔষধের যে কোন উপাদানের প্রতি অতিসংবেদনশীল তাদের ক্ষেত্রে এটরভাসটাটিন ব্যবহার করা যাবে না। সক্রিয় যকৃতের রোগ, কোন কারণ ছাড়া সিরাম ট্রান্সএমাইনেজ বৃদ্ধি ইত্যাদি ক্ষেত্রে এটরভাসটাটিন প্রতিনির্দেশিত। HMG-CoA রিডাকটেজ প্রতিবন্ধক ব্যবহার করার পর যে সমন্ত রোগীর মারাত্বক বিরূপ প্রতিক্রিয়া পরিলক্ষিত হয় তাদের ক্ষেত্রে এটি প্রতিনির্দেশিত।",
+    "side_effects": "এটরভাসটাটিন সাধারণত সুসহনীয়। এটরভাসটাটিন ব্যবহারের ফলে সর্বাধিক দেখা যায় এমন পার্শ্ব প্রতিক্রিয়াগুলো হলো-কোষ্ঠকাঠিন্য, পেটফাঁপা, বদহজম, পেটব্যথা। অন্যান্য পার্শ্ব প্রতিক্রিয়াগুলো হলো-সংক্রমন, মাথা ব্যথা, পিঠে ব্যথা, রেশ, এসথেনিয়া, হাড়ের ব্যথা, মাংসপেশীর ব্যথা।",
+    "pregnancy_cat": "**গর্ভাবস্থায়**: গর্ভাবস্থায় এ্যাটোরভাস্টাটিন গ্রহন সম্পূর্ণ নিষিদ্ধ। গর্ভবতী মহিলাদের ক্ষেত্রে এটির নিরাপদ ব্যবহার এখনও প্রতিষ্ঠিত হয়নি। গর্ভবতী মহিলাদের উপর এ্যাটোরভাস্টাটিন সম্পর্কিত কোন নিয়ন্ত্রিত ক্লিনিক্যাল ট্রায়েল করা হয় নাই। দুর্লভ ক্ষেত্রে, HMG-CoA রিডাকটেজ ইনহিবিটরের গর্ভকালীন ব্যবহারে জন্মগত ত্রুটি এর সম্পর্ক দেখা যায়। প্রানিদের ক্ষেত্রে প্রজননে বিষক্রিয়া দেখা গিয়েছে। প্রসব কালীন চিকিৎসায় এ্যাটোরভাস্টাটিনের ব্যবহার ভ্রুনের মেভালোনেটের (কোলেস্টেরল উৎপাদনের প্রধান উপাদান) মাত্রা কমিয়ে দেয়। গর্ভবতী, গর্ভধারনের চেষ্টা করছেন এমন অথবা যাদের গর্ভবতী হওয়ার সম্ভাবনা রয়েছে এরূপ মহিলাদের ক্ষেত্রে এ্যাটোরভাস্টাটিন ব্যবহার করা যাবে না। গর্ভাবস্থায় বা যতদিন প্রমানিত না হয় যে রোগী গর্ভবর্তী ততদিন এ্যাটোরভাস্টাটিনের ব্যবহার বন্ধ রাখতে হবে।\n\n**স্তন্যদান**: এ্যাটোরভাস্টাটিন বা এর কোন মেটাবোলাইট মাতৃদুগ্ধ থেকে নিঃসৃত হয় নাকি সেটা এখন জানা যায়নি। ইঁদুরের ক্ষেত্রে, এ্যাটোরভাস্টাটিনের প্লাজমা ঘনত্ব দুগ্ধে নিঃসৃত এ্যাটোরভাস্টাটিনের সমতুল্য। তীব্র পার্শ্বপ্রতিক্রিয়া থাকার কারনে যে সকল মহিলারা তাদের বাচ্চাদের স্তন্যদান করেন তাদের ক্ষেত্রে এ্যাটোরভাস্টাটিন না ব্যবহার করাই উচিত। এ্যাটোরভাস্টাটিন স্তন্যদানকালে সেবনযোগ্য নয়।",
+    "precautions": "যকৃতের উপর প্রভাবঃ চিকিৎসা শুরুর আগে এবং চিকিৎসা শুরুর পরে নির্দিষ্ট সময়ের ব্যবধানে যকৃতের কার্যকারিতার পরীক্ষাগুলো করতে হবে। যাদের যকৃতের রোগ আছে অথবা যারা অতিরিক্ত পরিমাণে এলকোহল সেবন করে তাদের ক্ষেত্রে সতর্কতার সাথে এটরভাসটাটিন ব্যবহার করতে হবে। CPK লেভেল অতিরিক্ত বৃদ্ধি পেলে অথবা মায়োপ্যাথি দেখা দিলে বা দেখা দেওয়ার সম্ভাবনা থাকলে এটরভাসটাটিন থেরাপি বন্ধ করতে হবে।",
+    "pediatric_uses": "**যকৃতের (লিভারের) সমস্যা**: লিভারের সমস্যায় আক্রান্ত রোগীদের ক্ষেত্রে এ্যাটোরভাস্টাটিন সতর্কতার সাথে সেবন করতে হবে।\n\n**শিশুদের ক্ষেত্রে**: ১০ বছর বা তার অধিক বয়সী রোগীদের ক্ষেত্রে এ্যাটোরভাস্টাটিন প্রারম্ভিক দৈনিক মাত্রা ১০মিঃগ্রাঃ থেকে শুরু করে টাইট্রেশনের মাধ্যমে ২০মিঃগ্রাঃ পর্যন্ত দেওয়া যাবে। ১০ বছরের নিচের শিশুদের কে দেওয়া যাবে না।",
+    "overdose_effects": "এ্যাটোরভাস্টাটিনের মাত্রাতিরিক্ততার ক্ষেত্রে কোনো নির্দিষ্ট চিকিৎসা নেই। যদি কোনো রোগী অতিমাত্রায় গ্রহন করে ফেলে তাহলে উপসর্গ অনুযায়ী প্রয়োজনীয় পদক্ষেপ গ্রহন করতে হবে। যকৃতের কার্যক্ষমতা এবং সেরাম ক্রিয়েটিনিন কাইনেজ লেভেল পরীক্ষা করতে হবে। যেহেতু এ্যাটোরভাস্টাটিন ব্যপকভাবে প্লাজমা প্রোটিনের সাথে আবদ্ধ হয় সেজন্য হেমোডায়ালাইসিস সম্পূর্ণরূপে এ্যাটোরভাস্টাটিন কে শরীর থেকে বের করে দিতে পারে না।",
+    "drug_classes": "Other Anti-anginal & Anti-ischaemic drugs, Statins",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে, শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 33 H 35 FN 2 O 5 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/92/atorvastatin-calcium",
+  "source_url_bn": "https://medex.com.bd/generics/92/atorvastatin-calcium/bn",
+  "scraped_at": "2026-10-10T15:03:54+00:00"
+}

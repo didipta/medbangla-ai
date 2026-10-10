@@ -1,0 +1,2081 @@
+{
+  "slug": "azithromycin",
+  "name_en": "Azithromycin Dihydrate",
+  "name_bn": "এজিথ্রোমাইসিন ডাইহাইড্রেট",
+  "therapeutic_class": "Macrolides",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Abacten",
+      "strength": "500 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32905/abacten-500-mg-tablet"
+    },
+    {
+      "name": "Abacten",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/32906/abacten-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Accuzith",
+      "strength": "500 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/32289/accuzith-500-mg-tablet"
+    },
+    {
+      "name": "Accuzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/33078/accuzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Acos",
+      "strength": "500 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.17",
+      "url": "https://medex.com.bd/brands/8540/acos-500-mg-tablet"
+    },
+    {
+      "name": "Acos",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/8541/acos-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Acos",
+      "strength": "250 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/33520/acos-250-mg-tablet"
+    },
+    {
+      "name": "Adiz",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8542/adiz-500-mg-tablet"
+    },
+    {
+      "name": "Adiz",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8543/adiz-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Adiz",
+      "strength": "250 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25615/adiz-250-mg-capsule"
+    },
+    {
+      "name": "AM",
+      "strength": "500 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8544/am-500-mg-tablet"
+    },
+    {
+      "name": "AM",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8545/am-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Amzith",
+      "strength": "250 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/8546/amzith-250-mg-capsule"
+    },
+    {
+      "name": "Amzith",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/8547/amzith-500-mg-tablet"
+    },
+    {
+      "name": "Amzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8548/amzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Apozyth",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8549/apozyth-500-mg-tablet"
+    },
+    {
+      "name": "Apozyth",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "30 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/25587/apozyth-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Arizith",
+      "strength": "500 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25599/arizith-500-mg-tablet"
+    },
+    {
+      "name": "Asizime",
+      "strength": "1 gm/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "1 gm vial : ৳ 240.00",
+      "url": "https://medex.com.bd/brands/27130/asizime-1-gm-iv-infusion"
+    },
+    {
+      "name": "Asizime",
+      "strength": "250 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "250 mg vial : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/27131/asizime-250-mg-iv-infusion"
+    },
+    {
+      "name": "Asizime",
+      "strength": "500 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "500 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/27132/asizime-500-mg-iv-infusion"
+    },
+    {
+      "name": "Asizith",
+      "strength": "250 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/8550/asizith-250-mg-tablet"
+    },
+    {
+      "name": "Asizith",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8551/asizith-500-mg-tablet"
+    },
+    {
+      "name": "Asizith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8552/asizith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Avalon",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "35 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/8556/avalon-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Avalon",
+      "strength": "500 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8557/avalon-500-mg-tablet"
+    },
+    {
+      "name": "AZ",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "50 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/8561/az-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "AZ",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25588/az-250-mg-tablet"
+    },
+    {
+      "name": "AZ",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/25589/az-500-mg-tablet"
+    },
+    {
+      "name": "Azalid",
+      "strength": "250 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8562/azalid-250-mg-capsule"
+    },
+    {
+      "name": "Azalid",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8563/azalid-500-mg-tablet"
+    },
+    {
+      "name": "Azalid",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.58",
+      "url": "https://medex.com.bd/brands/8564/azalid-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azaltic",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8565/azaltic-500-mg-tablet"
+    },
+    {
+      "name": "Azaltic",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8566/azaltic-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azasite",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/8567/azasite-500-mg-tablet"
+    },
+    {
+      "name": "Azasite",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8568/azasite-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azebac",
+      "strength": "500 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25662/azebac-500-mg-tablet"
+    },
+    {
+      "name": "Azee",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25622/azee-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azee",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/25623/azee-500-mg-tablet"
+    },
+    {
+      "name": "Azexia",
+      "strength": "500 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/8569/azexia-500-mg-tablet"
+    },
+    {
+      "name": "Azexia",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "20 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8570/azexia-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azi Mx",
+      "strength": "500 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32543/azi-mx-500-mg-tablet"
+    },
+    {
+      "name": "Azi Mx",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/32544/azi-mx-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azi S",
+      "strength": "500 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8598/azi-s-500-mg-tablet"
+    },
+    {
+      "name": "Azi S",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8599/azi-s-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azibact",
+      "strength": "500 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33583/azibact-500-mg-tablet"
+    },
+    {
+      "name": "Azibact",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/33585/azibact-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azicin",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8571/azicin-250-mg-capsule"
+    },
+    {
+      "name": "Azicin",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8573/azicin-250-mg-tablet"
+    },
+    {
+      "name": "Azicin",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8574/azicin-500-mg-tablet"
+    },
+    {
+      "name": "Azicin",
+      "strength": "1 gm/Sachet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1 gm sachet : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/8575/azicin-1-gm-powder-for-suspension"
+    },
+    {
+      "name": "Azicin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8576/azicin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aziday",
+      "strength": "500 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/33235/aziday-500-mg-tablet"
+    },
+    {
+      "name": "Aziday",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "20 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/33236/aziday-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aziget",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Get Well Limited",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25618/aziget-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Aziget",
+      "strength": "500 mg",
+      "manufacturer": "Get Well Limited",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/25619/aziget-500-mg-tablet"
+    },
+    {
+      "name": "Azikil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/25642/azikil-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azikil",
+      "strength": "500 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25643/azikil-500-mg-tablet"
+    },
+    {
+      "name": "Azilab",
+      "strength": "500 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/8577/azilab-500-mg-tablet"
+    },
+    {
+      "name": "Azilab",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 115.00",
+      "url": "https://medex.com.bd/brands/8578/azilab-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azilit",
+      "strength": "500 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8579/azilit-500-mg-tablet"
+    },
+    {
+      "name": "Azilit",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8580/azilit-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azimete",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8583/azimete-500-mg-tablet"
+    },
+    {
+      "name": "Azimete",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8584/azimete-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azimex",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/8585/azimex-250-mg-tablet"
+    },
+    {
+      "name": "Azimex",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 35.15",
+      "url": "https://medex.com.bd/brands/8586/azimex-500-mg-tablet"
+    },
+    {
+      "name": "Azimex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8587/azimex-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azimon",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8588/azimon-500-mg-tablet"
+    },
+    {
+      "name": "Azimon",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "15 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8589/azimon-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azin",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/8590/azin-500-mg-tablet"
+    },
+    {
+      "name": "Azin",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/8591/azin-250-mg-capsule"
+    },
+    {
+      "name": "Azin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 95.29",
+      "url": "https://medex.com.bd/brands/8592/azin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azinaaf",
+      "strength": "500 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/25638/azinaaf-500-mg-tablet"
+    },
+    {
+      "name": "Azinaaf",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "20 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/25639/azinaaf-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azinil",
+      "strength": "250 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8593/azinil-250-mg-tablet"
+    },
+    {
+      "name": "Azinil",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8594/azinil-500-mg-tablet"
+    },
+    {
+      "name": "Azinil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "20 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8595/azinil-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azirex",
+      "strength": "500 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25593/azirex-500-mg-tablet"
+    },
+    {
+      "name": "Azirox",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/8596/azirox-500-mg-tablet"
+    },
+    {
+      "name": "Azirox",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8597/azirox-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azisol",
+      "strength": "500 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/38968/azisol-500-mg-tablet"
+    },
+    {
+      "name": "Azitac",
+      "strength": "500 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.33",
+      "url": "https://medex.com.bd/brands/27379/azitac-500-mg-tablet"
+    },
+    {
+      "name": "Azitac",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 80.55",
+      "url": "https://medex.com.bd/brands/27380/azitac-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azitel",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8600/azitel-500-mg-capsule"
+    },
+    {
+      "name": "Azitel",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8601/azitel-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithin",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/8602/azithin-500-mg-tablet"
+    },
+    {
+      "name": "Azithin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8603/azithin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithral",
+      "strength": "500 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25620/azithral-500-mg-tablet"
+    },
+    {
+      "name": "Azithral",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25621/azithral-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithro",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8604/azithro-500-mg-tablet"
+    },
+    {
+      "name": "Azithro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8605/azithro-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithrocin",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8607/azithrocin-500-mg-tablet"
+    },
+    {
+      "name": "Azithrocin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8608/azithrocin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithrocin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 460.00",
+      "url": "https://medex.com.bd/brands/8609/azithrocin-500-mg-iv-infusion"
+    },
+    {
+      "name": "Azithrocin",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25596/azithrocin-250-mg-tablet"
+    },
+    {
+      "name": "Azithrogen",
+      "strength": "500 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/25597/azithrogen-500-mg-tablet"
+    },
+    {
+      "name": "Azithrogen",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/35863/azithrogen-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithromax",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8610/azithromax-500-mg-tablet"
+    },
+    {
+      "name": "Azithromax",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8611/azithromax-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithromycin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/27435/azithromycin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azithromycin",
+      "strength": "250 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 24.55",
+      "url": "https://medex.com.bd/brands/37631/azithromycin-250-mg-tablet"
+    },
+    {
+      "name": "Azithromycin",
+      "strength": "500 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37632/azithromycin-500-mg-tablet"
+    },
+    {
+      "name": "Azithron",
+      "strength": "500 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 40.80",
+      "url": "https://medex.com.bd/brands/36378/azithron-500-mg-capsule"
+    },
+    {
+      "name": "Azithron",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "35 ml bottle : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/36379/azithron-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azitor",
+      "strength": "500 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8612/azitor-500-mg-tablet"
+    },
+    {
+      "name": "Azitor",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/8613/azitor-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azitra",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8614/azitra-500-mg-tablet"
+    },
+    {
+      "name": "Aziwell",
+      "strength": "500 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36986/aziwell-500-mg-tablet"
+    },
+    {
+      "name": "Azix",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8615/azix-500-mg-tablet"
+    },
+    {
+      "name": "Azix",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8616/azix-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azmin",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8617/azmin-500-mg-tablet"
+    },
+    {
+      "name": "Azmin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8618/azmin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azo",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8619/azo-500-mg-tablet"
+    },
+    {
+      "name": "Azo",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "15 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8620/azo-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azomac",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8621/azomac-500-mg-tablet"
+    },
+    {
+      "name": "Azomac",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/8622/azomac-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azorta",
+      "strength": "500 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/37099/azorta-500-mg-tablet"
+    },
+    {
+      "name": "Azosil",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/31450/azosil-500-mg-tablet"
+    },
+    {
+      "name": "Azosil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/31452/azosil-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azro",
+      "strength": "500 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/8624/azro-500-mg-tablet"
+    },
+    {
+      "name": "Azro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8625/azro-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azyben",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/35357/azyben-500-mg-tablet"
+    },
+    {
+      "name": "Azyben",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/35358/azyben-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Azyth",
+      "strength": "250 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8626/azyth-250-mg-capsule"
+    },
+    {
+      "name": "Azyth",
+      "strength": "500 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 55.50",
+      "url": "https://medex.com.bd/brands/8627/azyth-500-mg-tablet"
+    },
+    {
+      "name": "Azyth",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "15 ml bottle : ৳ 116.00",
+      "url": "https://medex.com.bd/brands/8628/azyth-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "BP-Z",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8629/bp-z-500-mg-capsule"
+    },
+    {
+      "name": "BP-Z",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8630/bp-z-500-mg-tablet"
+    },
+    {
+      "name": "BP-Z",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8631/bp-z-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cinalid",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8632/cinalid-500-mg-tablet"
+    },
+    {
+      "name": "Cinalid",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "15 ml bottle : ৳ 75.50",
+      "url": "https://medex.com.bd/brands/8633/cinalid-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cpzith",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25601/cpzith-500-mg-tablet"
+    },
+    {
+      "name": "Cpzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "35 ml bottle : ৳ 128.00",
+      "url": "https://medex.com.bd/brands/25602/cpzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Curazith",
+      "strength": "250 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/8634/curazith-250-mg-tablet"
+    },
+    {
+      "name": "Curazith",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/8635/curazith-500-mg-tablet"
+    },
+    {
+      "name": "Curazith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8636/curazith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "D-mycin",
+      "strength": "500 mg",
+      "manufacturer": "Derma Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/39826/d-mycin-500-mg-tablet"
+    },
+    {
+      "name": "Demacro",
+      "strength": "500 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8637/demacro-500-mg-tablet"
+    },
+    {
+      "name": "Demacro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8638/demacro-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ezith",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8639/ezith-500-mg-tablet"
+    },
+    {
+      "name": "Ezith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "15 ml bottle : ৳ 85.01",
+      "url": "https://medex.com.bd/brands/8640/ezith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ezith",
+      "strength": "250 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 29.97",
+      "url": "https://medex.com.bd/brands/25611/ezith-250-mg-tablet"
+    },
+    {
+      "name": "Favozyth",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/38576/favozyth-500-mg-tablet"
+    },
+    {
+      "name": "Favozyth",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/38577/favozyth-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fizyth",
+      "strength": "500 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8641/fizyth-500-mg-tablet"
+    },
+    {
+      "name": "G-Azithromycin",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/35223/g-azithromycin-500-mg-tablet"
+    },
+    {
+      "name": "Hyzith",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8642/hyzith-500-mg-tablet"
+    },
+    {
+      "name": "Hyzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8643/hyzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ilozin",
+      "strength": "500 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8644/ilozin-500-mg-tablet"
+    },
+    {
+      "name": "Ilozin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8645/ilozin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Indozith",
+      "strength": "250 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25625/indozith-250-mg-capsule"
+    },
+    {
+      "name": "Indozith",
+      "strength": "500 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25626/indozith-500-mg-tablet"
+    },
+    {
+      "name": "Indozith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25627/indozith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Macazi",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8646/macazi-500-mg-tablet"
+    },
+    {
+      "name": "Macazi",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8647/macazi-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Maclid",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25614/maclid-250-mg-capsule"
+    },
+    {
+      "name": "Maclid",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28096/maclid-500-mg-capsule"
+    },
+    {
+      "name": "Maclid",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "15 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28097/maclid-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Macrobac",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8648/macrobac-500-mg-tablet"
+    },
+    {
+      "name": "Macrobac",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8649/macrobac-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Macrozith",
+      "strength": "250 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/8650/macrozith-250-mg-capsule"
+    },
+    {
+      "name": "Macrozith",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 34.00",
+      "url": "https://medex.com.bd/brands/8652/macrozith-500-mg-tablet"
+    },
+    {
+      "name": "Macrozith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8653/macrozith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Maczith",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8655/maczith-250-mg-capsule"
+    },
+    {
+      "name": "Maczith",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8656/maczith-500-mg-tablet"
+    },
+    {
+      "name": "Maczith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "35 ml bottle : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/8657/maczith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Makzit",
+      "strength": "500 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/36339/makzit-500-mg-tablet"
+    },
+    {
+      "name": "Makzit",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Maks Drug Limited",
+      "price": "30 ml bottle : ৳ 145.00",
+      "url": "https://medex.com.bd/brands/36340/makzit-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mazith",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.15",
+      "url": "https://medex.com.bd/brands/8658/mazith-500-mg-tablet"
+    },
+    {
+      "name": "Mazith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.39",
+      "url": "https://medex.com.bd/brands/8659/mazith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Medzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "MedRx Life Science Ltd.",
+      "price": "30 ml bottle : ৳ 140.00",
+      "url": "https://medex.com.bd/brands/25635/medzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Myzid",
+      "strength": "250 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/8660/myzid-250-mg-tablet"
+    },
+    {
+      "name": "Myzid",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8661/myzid-500-mg-tablet"
+    },
+    {
+      "name": "N Zith",
+      "strength": "500 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8662/n-zith-500-mg-tablet"
+    },
+    {
+      "name": "Neozith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25632/neozith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Neozith",
+      "strength": "500 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25633/neozith-500-mg-tablet"
+    },
+    {
+      "name": "Novazith",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25629/novazith-500-mg-tablet"
+    },
+    {
+      "name": "Novazith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/25630/novazith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Odaz",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/8663/odaz-500-mg-tablet"
+    },
+    {
+      "name": "Odaz",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8664/odaz-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Odazin",
+      "strength": "500 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8665/odazin-500-mg-tablet"
+    },
+    {
+      "name": "Odazyth",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8666/odazyth-500-mg-tablet"
+    },
+    {
+      "name": "Odazyth",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "15 ml bottle : ৳ 85.58",
+      "url": "https://medex.com.bd/brands/8667/odazyth-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Odazyth",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/25577/odazyth-250-mg-capsule"
+    },
+    {
+      "name": "Orgazith",
+      "strength": "250 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/8668/orgazith-250-mg-capsule"
+    },
+    {
+      "name": "Orgazith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8670/orgazith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orgazith",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25648/orgazith-500-mg-tablet"
+    },
+    {
+      "name": "Parazith",
+      "strength": "500 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/35672/parazith-500-mg-tablet"
+    },
+    {
+      "name": "Penalox",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8671/penalox-500-mg-capsule"
+    },
+    {
+      "name": "Penalox",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8672/penalox-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Phagocin",
+      "strength": "500 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.09",
+      "url": "https://medex.com.bd/brands/8673/phagocin-500-mg-tablet"
+    },
+    {
+      "name": "Phagocin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8674/phagocin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Premier's Azithromycin",
+      "strength": "500 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/27434/premiers-azithromycin-500-mg-tablet"
+    },
+    {
+      "name": "Prizyth",
+      "strength": "500 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25654/prizyth-500-mg-tablet"
+    },
+    {
+      "name": "Prizyth",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 82.00",
+      "url": "https://medex.com.bd/brands/25655/prizyth-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Raicin",
+      "strength": "500 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37857/raicin-500-mg-tablet"
+    },
+    {
+      "name": "Ranzith",
+      "strength": "250 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/8675/ranzith-250-mg-capsule"
+    },
+    {
+      "name": "Ranzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8677/ranzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ranzith",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 42.00",
+      "url": "https://medex.com.bd/brands/25659/ranzith-500-mg-tablet"
+    },
+    {
+      "name": "Razithro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "35 ml bottle : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/8678/razithro-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Razithro",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 55.50",
+      "url": "https://medex.com.bd/brands/27017/razithro-500-mg-tablet"
+    },
+    {
+      "name": "Rema-Zith",
+      "strength": "500 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25660/rema-zith-500-mg-tablet"
+    },
+    {
+      "name": "Rema-Zith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/25661/rema-zith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Respazit",
+      "strength": "250 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/8679/respazit-250-mg-capsule"
+    },
+    {
+      "name": "Respazit",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8680/respazit-500-mg-tablet"
+    },
+    {
+      "name": "Respazit",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8681/respazit-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ribozith",
+      "strength": "500 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8682/ribozith-500-mg-tablet"
+    },
+    {
+      "name": "Ribozith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "25 ml bottle : ৳ 115.00",
+      "url": "https://medex.com.bd/brands/8683/ribozith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Romac",
+      "strength": "500 mg",
+      "manufacturer": "Royal Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32185/romac-500-mg-tablet"
+    },
+    {
+      "name": "Romycin",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8684/romycin-250-mg-capsule"
+    },
+    {
+      "name": "Romycin",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8685/romycin-500-mg-tablet"
+    },
+    {
+      "name": "Romycin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "15 ml bottle : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/8686/romycin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rozith",
+      "strength": "250 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8687/rozith-250-mg-tablet"
+    },
+    {
+      "name": "Rozith",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/8688/rozith-500-mg-tablet"
+    },
+    {
+      "name": "Rozith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8689/rozith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rozith",
+      "strength": "500 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 460.00",
+      "url": "https://medex.com.bd/brands/8691/rozith-500-mg-iv-infusion"
+    },
+    {
+      "name": "Salzith",
+      "strength": "500 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/39352/salzith-500-mg-tablet"
+    },
+    {
+      "name": "Salzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/39353/salzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "SB-Azit",
+      "strength": "500 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25670/sb-azit-500-mg-tablet"
+    },
+    {
+      "name": "Simpli-3",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/8692/simpli-3-500-mg-tablet"
+    },
+    {
+      "name": "Simpli-3",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 216.00",
+      "url": "https://medex.com.bd/brands/8693/simpli-3-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Simpli-3",
+      "strength": "500 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 461.38",
+      "url": "https://medex.com.bd/brands/8694/simpli-3-500-mg-iv-infusion"
+    },
+    {
+      "name": "Soto",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/8695/soto-500-mg-tablet"
+    },
+    {
+      "name": "Soto",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8696/soto-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Soto",
+      "strength": "250 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Price not available",
+      "url": "https://medex.com.bd/brands/25624/soto-250-mg-tablet"
+    },
+    {
+      "name": "Tabrex",
+      "strength": "500 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25592/tabrex-500-mg-tablet"
+    },
+    {
+      "name": "Telide",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25671/telide-500-mg-tablet"
+    },
+    {
+      "name": "Telide",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 83.00",
+      "url": "https://medex.com.bd/brands/25672/telide-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Thiza",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/8697/thiza-500-mg-tablet"
+    },
+    {
+      "name": "Thiza",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8698/thiza-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Thoraz",
+      "strength": "250 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29234/thoraz-250-mg-tablet"
+    },
+    {
+      "name": "Thoraz",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/29236/thoraz-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Thoraz",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/32321/thoraz-500-mg-tablet"
+    },
+    {
+      "name": "Thromax",
+      "strength": "250 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/8699/thromax-250-mg-tablet"
+    },
+    {
+      "name": "Thromax",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8700/thromax-500-mg-tablet"
+    },
+    {
+      "name": "Thromax",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/8701/thromax-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tridosil",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8702/tridosil-250-mg-tablet"
+    },
+    {
+      "name": "Tridosil",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8703/tridosil-500-mg-tablet"
+    },
+    {
+      "name": "Tridosil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/8704/tridosil-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Tridosil",
+      "strength": "500 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "500 mg vial : ৳ 460.00",
+      "url": "https://medex.com.bd/brands/8705/tridosil-500-mg-iv-infusion"
+    },
+    {
+      "name": "Truzith",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8706/truzith-500-mg-tablet"
+    },
+    {
+      "name": "Truzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/25679/truzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Verizith",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.11",
+      "url": "https://medex.com.bd/brands/25677/verizith-500-mg-tablet"
+    },
+    {
+      "name": "Verizith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "25 ml bottle : ৳ 115.35",
+      "url": "https://medex.com.bd/brands/25678/verizith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Verizith",
+      "strength": "250 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.07",
+      "url": "https://medex.com.bd/brands/37813/verizith-250-mg-capsule"
+    },
+    {
+      "name": "Vinzam",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8707/vinzam-500-mg-tablet"
+    },
+    {
+      "name": "Vinzam",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8708/vinzam-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Virzith",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8709/virzith-500-mg-tablet"
+    },
+    {
+      "name": "Virzith",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8710/virzith-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xevlin",
+      "strength": "500 mg",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/28824/xevlin-500-mg-tablet"
+    },
+    {
+      "name": "Xevlin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 180.00",
+      "url": "https://medex.com.bd/brands/28825/xevlin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zemycin",
+      "strength": "500 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8711/zemycin-500-mg-tablet"
+    },
+    {
+      "name": "Zemycin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "35 ml bottle : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/8712/zemycin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zenicin",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8713/zenicin-500-mg-tablet"
+    },
+    {
+      "name": "Zenicin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/8714/zenicin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zibac",
+      "strength": "250 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/8717/zibac-250-mg-tablet"
+    },
+    {
+      "name": "Zibac",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8718/zibac-500-mg-tablet"
+    },
+    {
+      "name": "Zibac",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8719/zibac-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zibac",
+      "strength": "500 mg/ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 461.74",
+      "url": "https://medex.com.bd/brands/8720/zibac-500-mg-iv-infusion"
+    },
+    {
+      "name": "Zimax",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/8721/zimax-250-mg-capsule"
+    },
+    {
+      "name": "Zimax",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8723/zimax-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zimax",
+      "strength": "500 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "500 mg vial : ৳ 461.38",
+      "url": "https://medex.com.bd/brands/8724/zimax-500-mg-iv-infusion"
+    },
+    {
+      "name": "Zimax",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25666/zimax-500-mg-tablet"
+    },
+    {
+      "name": "Zinex",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/8725/zinex-250-mg-tablet"
+    },
+    {
+      "name": "Zinex",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8726/zinex-500-mg-tablet"
+    },
+    {
+      "name": "Zinex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8727/zinex-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zita",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8728/zita-500-mg-tablet"
+    },
+    {
+      "name": "Zita",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/8729/zita-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zithracin",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8730/zithracin-500-mg-tablet"
+    },
+    {
+      "name": "Zithracin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "35 ml bottle : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/8731/zithracin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zithrin",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8732/zithrin-250-mg-tablet"
+    },
+    {
+      "name": "Zithrin",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8733/zithrin-500-mg-tablet"
+    },
+    {
+      "name": "Zithrin",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8734/zithrin-250-mg-capsule"
+    },
+    {
+      "name": "Zithrin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8735/zithrin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zithrin",
+      "strength": "500 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "500 mg vial : ৳ 460.00",
+      "url": "https://medex.com.bd/brands/8736/zithrin-500-mg-iv-infusion"
+    },
+    {
+      "name": "Zithro",
+      "strength": "250 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/8737/zithro-250-mg-capsule"
+    },
+    {
+      "name": "Zithro",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 30.11",
+      "url": "https://medex.com.bd/brands/8738/zithro-500-mg-capsule"
+    },
+    {
+      "name": "Zithro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 86.11",
+      "url": "https://medex.com.bd/brands/8739/zithro-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zithrolex",
+      "strength": "500 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/8741/zithrolex-500-mg-tablet"
+    },
+    {
+      "name": "Zithrox",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/8743/zithrox-250-mg-tablet"
+    },
+    {
+      "name": "Zithrox",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8744/zithrox-500-mg-tablet"
+    },
+    {
+      "name": "Zithrox",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8745/zithrox-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zitrex",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/8746/zitrex-500-mg-tablet"
+    },
+    {
+      "name": "Zitrex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/8747/zitrex-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zixin",
+      "strength": "500 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25644/zixin-500-mg-tablet"
+    },
+    {
+      "name": "Zixin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "20 ml bottle : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27750/zixin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "ZOM",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/35008/zom-500-mg-tablet"
+    },
+    {
+      "name": "Zunami",
+      "strength": "500 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/8748/zunami-500-mg-tablet"
+    },
+    {
+      "name": "Zycin",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/8749/zycin-500-mg-tablet"
+    },
+    {
+      "name": "Zycin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/8750/zycin-200-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zylomax",
+      "strength": "500 mg",
+      "manufacturer": "Alkad Laboratories",
+      "price": "Unit Price : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/25585/zylomax-500-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Azithromycin Dihydrate is indicated for infections (caused by susceptible organisms) in lower respiratory tract infections including bronchitis and pneumonia, in upper respiratory tract infections including sinusitis and pharyngitis/tonsillitis, in otitis media, and in skin and soft tissue infections. In sexually transmitted diseases in men and women, Azithromycin is indicated in the treatment of non-gonococcal urethritis and cervicitis due to Chlamydia trachomatis.",
+    "mode_of_action": "Azithromycin is acid-stable and can therefore be taken orally with no need of protection from gastric acids. It is readily absorbed; its absorption is greater on an empty stomach. Time to peak concentration in adults is 2.1 to 3.2 hours for oral dosage forms. Due to the high concentration in phagocytes, azithromycin is actively transported to the site of infection. During active phagocytosis, large concentrations of azithromycin are released. The concentration of azithromycin in the tissues can be over 50 times higher than in plasma. This is due to ion trapping and the high lipid solubility.\n\nAzithromycin's half-life allows a large single dose to be administered and yet maintain bacteriostatic levels in the infected tissue for several days. Following a single 500 mg dose, plasma concentrations of azithromycin declined in a polyphasic pattern with a mean apparent plasma clearance of 630 mL/min and a terminal elimination half life of 68 hours. The prolonged terminal half-life is thought to be due to extensive uptake and subsequent release of drug from tissues. Biliary excretion of azithromycin, predominantly unchanged, is a major route of elimination. Over the course of a week, approximately 6% of the administered dose appears as unchanged drug in urine.\n\nMicrobiology: Azithromycin acts by binding to the 50S ribosomal subunit of susceptible microorganisms and, thus, interfering with microbial protein synthesis. Nucleic acid synthesis is not affected. Azithromycin has been shown to be active against most isolates of the following microorganisms, both in vitro and in clinical infections:\n\n- **Aerobic and facultative gram-positive microorganisms**: Staphylococcus aureus, Streptococcus agalactiae, Streptococcus pneumoniae, Streptococcus pyogenes\n- **Aerobic and facultative gram-negative microorganisms**: Haemophilus ducreyi, Haemophilus influenzae, Moraxella catarrhalis, Neisseria gonorrhoeae\n- **Other microorganisms**: Chlamydia pneumoniae, Chlamydia trachomatis , Mycoplasma pneumoniae , Betalactamase production should have no effect on azithromycin activity.\n- **Aerobic and facultative gram-positive microorganisms**: Streptococci (Groups C,F,G), Viridans group streptococci\n- **Aerobic and facultative gram-negative microorganisms**: Bordetella pertussis, Legionella pneumophila\n- **Anaerobic microorganisms**: Peptostreptococcus species, Prevotella bivia",
+    "dosage": "**Oral**-\n**Adult**: 500 mg once daily orally for 3 days or 500 mg once on day 1, then 250 mg once on days 2-5 for 4 days. For sexually transmitted diseases caused by Chlamydia trachomatis in adults, the dose is 1 gm given as a single dose or 500 mg once on day 1, followed by 250 mg once daily for next 2 days may also be given.\n\n**Children**:\n\n- 10 mg/kg body weight once daily for 3 days for child over 6 months\n- 200 mg (1 teaspoonful) for 3 days if body weight is 15-25 kg\n- 300 mg (1½ teaspoonfuls) for 3 days if body weight is 26-35 kg; 400 mg (2 teaspoonfuls) for 3 days if body weight is 36-45 kg.\n- In typhoid fever, 500 mg (2½ teaspoonfuls) once daily for 7-10 days is given.\n\n**Azithromycin Injection (For IV Infusion only)**: The recommended dose of Azithromycin for injection for the treatment of adult patients with community-acquired pneumonia due to the indicated organisms is:\n\n- 500 mg as a single daily dose by the intravenous route for at least two days. Intravenous therapy should be followed by Azithromycin by the oral route at a single, daily dose of 500 mg, administered as two 250-mg tablets to complete a 7 to 10-day course of therapy. The timing of the switch to oral therapy should be done at the discretion of the physician and in accordance with clinical response.\n- The recommended dose of Azithromycin for the treatment of adult patients with pelvic inflammatory disease due to the indicated organisms is: 500 mg as a single daily dose by the intravenous route for one or two days. Intravenous therapy should be followed by Azithromycin by the oral route at a single, daily dose of 250 mg to complete a 7-day course of therapy. The timing of the switch to oral therapy should be done at the discretion of the physician and in accordance with clinical response. If anaerobic microorganisms are suspected of contributing to the infection, an antimicrobial agent with anaerobic activity should be administered in combination with Azithromycin.\n- Safety and effectiveness of azithromycin for injection in children or adolescents under 16 years have not been established.",
+    "administration": "Reconstitution procedure of suspension-\n\n- Step 01: Shake the bottle well to loosen the powder.\n- Step 02: Add boiled and cooled water up to the water mark of the bottle label.\n- Step 03: Shake until powder is completely mixed with water.\n\r\nAzithromycin should be taken at least 1 hour before or 2 hours after meal.",
+    "interaction": "**Antacid**: In patients receiving azithromycin and antacids, azithromycin should be taken at least 1 hour before or 2 hours after the antacid. Carbamazepine: In a pharmacokinetic interaction study in healthy volunteers, no significant effect was observed on the plasma levels of carbamazepine or its active metabolite. \n\n**Cyclosporin**: Some of the related macrolide antibiotics interfere with the metabolism of cyclosporin. In the absence of conclusive data from pharmacokinetic studies or clinical data investigating potential interactions between azithromycin and cyclosporine, caution should be exercised before co-administration of these two drugs. If coadministrations is necessary, cyclosporin levels should be monitored and the dose adjusted accordingly. \n\n**Digoxin**: Some of the macrolide antibiotics have been reported to impair the metabolism of digoxin (in the gut) in some patients. Therefore, in patients receiving concomitant azithromycin and digoxin the possibility of raised digoxin levels should be borne in mind and digoxin levels monitored. \n\n**Ergot derivatives**: Because of the theoretical possibility of ergotism, azithromycin and ergot derivatives should not be co-administered. \n\n**Methylprednisolone**: In a pharmacokinetic interaction study in healthy volunteers, azithromycin had no significant effect on the pharmacokinetics of methylprednisolone. \n\n**Theophylline**: There is no evidence of any pharmacokinetic interaction when azithromycin and theophylline are co-administered to healthy volunteers. In general, however, theophylline levels should be monitored. \n\n**Warfarin**: In a pharmacodynamic interaction study, azithromycin did not alter the anticoagulant effect of a single 15 mg dose of warfarin administered to healthy volunteers. Azithromycin and warfarin may be co-administered, but monitoring of the prothrombin time should be continued as routinely performed. \n\n**Terfenadine**: Azithromycin did not affect the pharmacokinetics of terfenadine administered at the recommended dose of 60 mg every 12 hours. Addition of azithromycin did not result in any significant changes in cardiac repolarisation (QTc interval) measured during the steady state dosing of terfenadine.",
+    "contraindications": "Azithromycin Dihydrate is contraindicated in patients hypersensitive to Azithromycin or any other macrolide antibiotic. Co-administration of ergot derivatives and Azithromycin is contraindicated. Azithromycin is contraindicated in patients with hepatic diseases.",
+    "side_effects": "Azithromycin Dihydrate is well tolerated with a low incidence of side-effects. Most side-effects observed were mild to moderate in severity. The majority of side-effects were gastrointestinal in origin with nauseas, abdominal discomfort (pain/cramps), vomiting, flatulence, diarrhoea and loose stools being occasionally observed. Allergic reactions such as rash or photosensitivity have occurred and there have also been rare reports of serious hypersensitivity reactions. Reversible elevations in liver transaminases have been seen with a frequency similar to the comparative macrolides and penicillins used in clinical trials. Rarely, cases of cholestatic jaundice have been observed. Transient mild reductions in neutrofil counts have occasionally been observed in clinical trials, although a causal relationship to azithromycin has not been established. Hearing impairment: In investigational studies where higher doses were used for prolonged periods of time, reversible hearing impairment was seen in some patients.",
+    "pregnancy_cat": "Pregnancy Category of Azithromycin Dihydrate is B. Animal reproduction studies have demonstrated that Azithromycin has no evidence of harm to the fetus. There are no adequate and well controlled studies in pregnant women. Since animal reproduction studies are not always predictive of human response, Azithromycin should be used during pregnancy only if adequate alternatives are not available. It is not known whether Azithromycin is secreted in breast milk. So, caution should be exercised when Azithromycin is administered to nursing women.",
+    "precautions": "As with erythromycin and other macrolides, rare serious allergic reactions, including angioneurotic oedema and anaphylaxis, has been reported. Some of these reactions with azithromycin have resulted in recurrent symptoms and required a long period of observation and treatment.",
+    "pediatric_uses": "**Use in renal impairment**: No dose adjustment is needed in patients with mild renal impairment (creatinine clearance >40 ml/min), but there are no data regarding azithromycin in patients with more severe renal impairment, thus caution should be exercised in using azithromycin in these patients.\n\n**Use in hepatic impairment**: As the liver is the principal route of excretion of azithromycin, it should not be used in patients with hepatic disease.\n\n**Effects on ability to drive and use machines**: There is no evidence to suggest that azithromycin may have an effect on a patient’s ability to drive or operate machinery.",
+    "overdose_effects": "There is no data on overdosage with Azithromycin. Typical symptoms of overdosage with macrolide antibiotics include hearing loss, severe nausea, vomiting and diarrhoea. Gastric lavage and general supportive measures are indicated.",
+    "drug_classes": "Macrolides",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 38 H 72 N 2 O 12 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Azithromycin?\n\nAzithromycin performs its action by preventing the synthesis of essential proteins required by bacteria to carry out vital functions.\n\n#### What are the uses of Azithromycin?\n\nAzithromycin is used for the treatment and prevention of community-acquired pneumonia, pharyngitis/tonsillitis, and skin and soft tissue infections.\n\n#### What are the Side Effects of Azithromycin?\n\nSide effects include diarrhea, dry or scaly skin, abdominal pain, difficult or painful urination, vomiting, fever, acid or sour stomach, aggression or anger, excessive air or gas in the stomach, and heartburn.\n\n#### What are the instructions for storage and disposal Azithromycin?\n\nAzithromycin should be kept in a cool dry place and its original packaging. Make sure this medication remains unreachable to children and pets. The patient should consult a doctor for its further uses.\n\n#### Can the use of Azithromycin cause diarrhea?\n\nYes, the use of Azithromycin can cause diarrhea. It is an antibiotic that kills harmful bacteria. However, it also affects the helpful bacteria in your stomach or intestine and causes diarrhea. If you are experiencing severe diarrhea, consult your doctor immediately.\n\n#### Is Azithromycin safe?\n\nAzithromycin is safe if used at prescribed doses as advised by your doctor.\n\n#### Is Azithromycin an antibiotic?\n\nYes, Azithromycin is an antibiotic that belongs to a class of antibiotics known as macrolides.\n\n#### What if I don't get better even after taking Azithromycin?\n\nYou should inform your doctor if you do not notice any improvement in your symptoms after 3 days of taking Azithromycin and if your symptoms get worse.\n\n#### Quick Tips\n\n- Do not skip any doses of Azithromycin and finish the full course of treatment even if you feel better. Stopping it early may make the infection to come back and harder to treat.\n- Take Azithromycin 1 hour before or two hours after food.\n- Do not take antacids 2 hours before or after taking Azithromycin.\n- Diarrhea may occur as a side effect but should stop when your course is complete. Inform your doctor if it doesn't stop or if you find blood in your stools.\n- Stop taking Azithromycin and inform your doctor immediately if you develop an itchy rash, swelling of the face, throat or tongue or breathing difficulties while taking it."
+  },
+  "sections_bn": {
+    "indications": "এজিথ্রোমাইসিন ডাইহাইড্রেট সংবেদনশীল অনুজীব সমূহের দ্বারা সৃষ্ট সংক্রমণসমূহ যেমনঃ ব্রংকাইটিস ও নিউমোনিয়াসহ নিঃশ্বাসতন্ত্রের সংক্রমণ, ত্বক ও কোমল কোষকলার সংক্রমণ, মধ্যকর্ণের প্রদাহ, সাইনুসাইটিস, ফ্যারিনজাইটিস ও টনসিলাইটিস সহ ঊর্ধ্বশ্বাসতন্ত্রীয় সংক্রমণে নির্দেশিত। এটি ক্ল্যামাইডিয়া ট্রাকোমাটিস জনিত জননাঙ্গের অজটিল সংক্রমণে এবং টাইফয়েড জ্বরেও নির্দেশিত।",
+    "mode_of_action": "এজিথ্রোমাইসিন একটি এজালাইড এন্টিবায়োটিক যা গ্রাম-পজেটিভ ও গ্রাম-নেগেটিভ অনুজীবসমূহের বিরুদ্ধে কার্যকরী। এজিথ্রোমাইসিন সংবেদনশীল জীবাণুসমূহের রাইবোজোমের 50S নামক অংশে সংযুক্ত হয়ে জীবাণুর দেহে প্রোটিন তৈরীতে বাধা প্রদান করে থাকে।",
+    "dosage": "প্রাপ্তবয়স্কদের ক্ষেত্রে: \n\n- ৫০০ মিঃগ্রাঃ দৈনিক একবার করে ৩ দিন অথবা প্রথম দিন ৫০০ মিঃগ্রাঃ এবং পরবর্তীতে দ্বিতীয় থেকে পঞ্চম দিন পর্যন্ত দৈনিক ২৫০ মিঃগ্রাঃ করে ৪ দিন ।\n- ক্ল্যামাইডিয়া ট্রাকোমাটিস জনিত যৌনাচার বাহিত রোগে আক্রান্তদের ক্ষেত্রে: ১ গ্রামের একক মাত্রা অথবা প্রথম দিন ৫০০ মিঃগ্রাঃ ও পরবর্তী দুইদিন ২৫০ মিঃগ্রাঃ করে গ্রহণ করা যেতে পারে।\n\r\nশিশুদের ক্ষেত্রে:\n\n- ৬ মাসের অধিক বয়সের বাচ্চার ক্ষেত্রে (যদি শারীরিক ওজন ১৫-২৫ কেজি হয়): দৈনিক ১০ মিঃগ্রাঃ/কেজি হিসেবে ৩ দিন অথবা দৈনিক ২০০ মিঃগ্রাঃ (১ চা-চামচপূর্ণ) করে ৩ দিন\n- যদি শারীরিক ওজন ২৬-৩৫ কেজি হয়: দৈনিক ৩০০ মিঃগ্রাঃ (১.৫ চা-চামচপূর্ণ) করে ৩ দিন\n- যদি শারীরিক ওজন ৩৬-৪৫ কেজি হয়: দৈনিক ৪০০ মিঃগ্রাঃ (২ চা-চামচপূর্ণ) করে ৩ দিন\n- টাইফয়েড জ্বরের ক্ষেত্রে: দৈনিক ৫০০ মিঃগ্রাঃ (২.৫ চা-চামচপূর্ণ), ৭-১০ দিন",
+    "administration": "এজিথ্রোমাইসিন ডাইহাইড্রেট সাসপেনশন প্রস্তুত প্রণালী-\n\n- ১ম ধাপ: প্রথমে পাউডার আলগা করার জন্য বোতলটি ভালোভাবে ঝাঁকিয়ে নিন।\n- ২য় ধাপ: ঠান্ডা করা ফুটানো পানি দিয়ে বোতল পূর্ণ করুন।\n- ৩য় ধাপ: পাউডার পানির সাথে সম্পূর্ণ মিশে না যাওয়া পর্যন্ত বোতলটি ভালভাবে ঝাঁকিয়ে নিন।\n\r\nএজিথ্রোমাইসিন ডাইহাইড্রেট খাদ্য গ্রহণের ১ ঘন্টা পূর্বে অথবা ২ ঘন্টা পরে সেবন করতে হবে।",
+    "interaction": "খাদ্য অথবা এন্টাসিডের উপস্থিতিতে এজিথ্রোমাইসিনের শোষণ কমে যায়। আরগোট এলকালয়েড গ্রহণকারী রোগীদের ক্ষেত্রে একইসাথে এজিথ্রোমাইসিন ব্যবহার করা উচিত নয়, কারণ এজিথ্রোমাইসিনের সাথে সাইটোক্রোম পি-৪৫০ এর বিক্রিয়ার ফলে আরগোটিজম দেখা দিতে পারে। ম্যাক্রোলাইডসমূহ যেহেতু সাইক্লোস্পোরিন ও ডিজক্সিনের প্লাজমা মাত্রা বাড়িয়ে দেয়, সেহেতু এজিথ্রোমাইসিনের সাথে এদের ব্যবহারের ক্ষেত্রে সতর্কতা অবলম্বন করতে হবে। ওয়ারফারিন, থিওফাইলিন, কার্বামাজিপিন, মিথাইলপ্রেডনিসোলন ও সিমেটিডিনের সাথে এজিথ্রোমাইসিনের কোন মিথষ্ক্রিয়া নেই।",
+    "contraindications": "এজিথ্রোমাইসিন ডাইহাইড্রেট বা অন্য কোন ম্যাক্রোলাইড এন্টিবায়োটিকের অতিসংবেদনশীলতা থাকলে এজিথ্রোমাইসিন প্রতিনির্দেশিত। যকৃতের রোগে আক্রান্ত রোগীদের ক্ষেত্রে এজিথ্রোমাইসিন প্রতিনির্দেশিত।",
+    "side_effects": "এজিথ্রোমাইসিন ডাইহাইড্রেট এর পার্শ্ব প্রতিক্রিয়ার মাত্রা ও পরিধি কম এবং এটি সুসহনীয়। পার্শ্ব প্রতিক্রিয়ার মধ্যে রয়েছে বমি-বমি ভাব, বমি, আন্ত্রিক ব্যথা, উদরীয় অস্বস্তি, বায়ু উদ্গিরণ, ডায়রিয়া, মাথা ব্যথা, ঘুম ঘুম ভাব এবং ত্বকীয় র‌্যাশ যা ঔষধ গ্রহণ বন্ধ করলে বন্ধ হয়ে যায়।",
+    "pregnancy_cat": "প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী এজিথ্রোমাইসিন ডাইহাইড্রেট 'B' শ্রেণীভূক্ত ঔষধ। প্রাণিজ প্রজনন নিরীক্ষায় দেখা গেছে, এজিথ্রোমাইসিন এর Fetus এর উপর কোন ক্ষতিকর প্রভাব নেই। গর্ভবতী মহিলাদের উপর এজিথ্রোমাইসিন ব্যবহারের কোন পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন নিরীক্ষা সর্বদা মানবদেহের ক্ষেত্রে কার্যকরী নয়, সেহেতু এক্ষেত্রে কোন বিকল্প পাওয়া না গেলেই এজিথ্রোমাইসিন ব্যবহার করা যেতে পারে। মাতৃদুগ্ধে এজিথ্রোমাইসিনের নিঃসরণ সংক্রান্ত কোন তথ্য জানা যায়নি। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে এজিথ্রোমাইসিন ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "অন্যান্য এন্টিবায়োটিকের মতোই অসংবেদনশীল অনুজীবঘটিত অতিসংক্রমণ (ফাঙ্গাল অতিসংক্রমণসহ) ঘটনার ব্যাপারে সতর্ক থাকতে হবে। মাত্রাধিক্য বৃক্কীয় বৈকল্যতার ক্ষেত্রে এটির ব্যবহারে সতর্কতা অবলম্বন করতে হবে।",
+    "drug_classes": "Macrolides",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 38 H 72 N 2 O 12 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/100/azithromycin-dihydrate",
+  "source_url_bn": "https://medex.com.bd/generics/100/azithromycin-dihydrate/bn",
+  "scraped_at": "2026-10-10T15:02:12+00:00"
+}

@@ -1,0 +1,1629 @@
+{
+  "slug": "paracetamol",
+  "name_en": "Paracetamol",
+  "name_bn": "প্যারাসিটামল",
+  "therapeutic_class": "Non-Opioid Analgesics",
+  "dosage_forms": [
+    "Tablet",
+    "Suppository",
+    "Suspension"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-One",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/27175/a-one-120-mg-oral-suspension"
+    },
+    {
+      "name": "A-One XR",
+      "strength": "665 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23388/a-one-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Ace",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10377/ace-500-mg-tablet"
+    },
+    {
+      "name": "Ace",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10380/ace-120-mg-oral-suspension"
+    },
+    {
+      "name": "Ace",
+      "strength": "80 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "30 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/10381/ace-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Ace",
+      "strength": "125 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/10383/ace-125-mg-suppository"
+    },
+    {
+      "name": "Ace",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/10384/ace-250-mg-suppository"
+    },
+    {
+      "name": "Ace",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/10385/ace-500-mg-suppository"
+    },
+    {
+      "name": "Ace",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "60 ml bottle (Raspberry) : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/29606/ace-120-mg-syrup"
+    },
+    {
+      "name": "Ace",
+      "strength": "10 mg/ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/33987/ace-10-mg-iv-infusion"
+    },
+    {
+      "name": "Ace Power",
+      "strength": "1000 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/28573/ace-power-1000-mg-tablet"
+    },
+    {
+      "name": "Ace XR",
+      "strength": "665 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10378/ace-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Acep",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10386/acep-500-mg-tablet"
+    },
+    {
+      "name": "Acep",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10387/acep-120-mg-oral-suspension"
+    },
+    {
+      "name": "Acep",
+      "strength": "80 mg/ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/10388/acep-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Aceta",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10389/aceta-500-mg-tablet"
+    },
+    {
+      "name": "Aceta",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10390/aceta-120-mg-oral-suspension"
+    },
+    {
+      "name": "Aceta Extend",
+      "strength": "665 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23437/aceta-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Aceta One",
+      "strength": "1000 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/31963/aceta-one-1000-mg-tablet"
+    },
+    {
+      "name": "Aceta-PD",
+      "strength": "80 mg/ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "30 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/10391/aceta-pd-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Aceto",
+      "strength": "500 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10392/aceto-500-mg-tablet"
+    },
+    {
+      "name": "Act",
+      "strength": "500 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10393/act-500-mg-tablet"
+    },
+    {
+      "name": "Act",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/28017/act-120-mg-oral-suspension"
+    },
+    {
+      "name": "Act",
+      "strength": "80 mg/ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 12.31",
+      "url": "https://medex.com.bd/brands/28018/act-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Action XR",
+      "strength": "665 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/36370/action-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Actol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 20.69",
+      "url": "https://medex.com.bd/brands/10398/actol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Adol",
+      "strength": "500 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/34955/adol-500-mg-tablet"
+    },
+    {
+      "name": "Adol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "60 ml bottle : ৳ 16.25",
+      "url": "https://medex.com.bd/brands/34959/adol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Alkaparol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23386/alkaparol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Ampol",
+      "strength": "500 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/34004/ampol-500-mg-tablet"
+    },
+    {
+      "name": "Ampol XR",
+      "strength": "665 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/32794/ampol-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Analpain",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/10399/analpain-500-mg-tablet"
+    },
+    {
+      "name": "Analpain",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10400/analpain-120-mg-oral-suspension"
+    },
+    {
+      "name": "Analpain",
+      "strength": "80 mg/ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10401/analpain-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Asta",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10404/asta-120-mg-oral-suspension"
+    },
+    {
+      "name": "Asta",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23520/asta-500-mg-tablet"
+    },
+    {
+      "name": "Asta XR",
+      "strength": "665 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33001/asta-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Atopen",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/10405/atopen-500-mg-tablet"
+    },
+    {
+      "name": "Atopen",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10406/atopen-120-mg-oral-suspension"
+    },
+    {
+      "name": "Atopen Extend",
+      "strength": "665 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/28882/atopen-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "ATP",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/37464/atp-120-mg-oral-suspension"
+    },
+    {
+      "name": "ATP XR",
+      "strength": "665 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10407/atp-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Benalgin",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23400/benalgin-120-mg-oral-suspension"
+    },
+    {
+      "name": "Benalgin XR",
+      "strength": "665 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23401/benalgin-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Bepol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10409/bepol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Centamol",
+      "strength": "500 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10410/centamol-500-mg-tablet"
+    },
+    {
+      "name": "Centamol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10411/centamol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Cetal",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10414/cetal-120-mg-oral-suspension"
+    },
+    {
+      "name": "Cetam",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10415/cetam-500-mg-tablet"
+    },
+    {
+      "name": "Cetam",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10416/cetam-120-mg-oral-suspension"
+    },
+    {
+      "name": "Cetol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23393/cetol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Cetol",
+      "strength": "500 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23394/cetol-500-mg-tablet"
+    },
+    {
+      "name": "Cpmol",
+      "strength": "500 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/35564/cpmol-500-mg-tablet"
+    },
+    {
+      "name": "D-Cetamol",
+      "strength": "500 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10418/d-cetamol-500-mg-tablet"
+    },
+    {
+      "name": "D-Cetamol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10419/d-cetamol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Depol Extended",
+      "strength": "665 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10420/depol-extended-665-mg-xr-tablet"
+    },
+    {
+      "name": "Dola",
+      "strength": "500 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10422/dola-500-mg-tablet"
+    },
+    {
+      "name": "Dola",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10423/dola-120-mg-oral-suspension"
+    },
+    {
+      "name": "Enyl",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33933/enyl-120-mg-oral-suspension"
+    },
+    {
+      "name": "Enyl",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/35318/enyl-500-mg-tablet"
+    },
+    {
+      "name": "Enyl Extend",
+      "strength": "665 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33932/enyl-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Fap",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 0.70",
+      "url": "https://medex.com.bd/brands/23396/fap-500-mg-tablet"
+    },
+    {
+      "name": "Fast",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10426/fast-500-mg-tablet"
+    },
+    {
+      "name": "Fast",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10428/fast-120-mg-oral-suspension"
+    },
+    {
+      "name": "Fast",
+      "strength": "80 mg/ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10429/fast-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Fast",
+      "strength": "125 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.03",
+      "url": "https://medex.com.bd/brands/10430/fast-125-mg-suppository"
+    },
+    {
+      "name": "Fast",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.03",
+      "url": "https://medex.com.bd/brands/10431/fast-250-mg-suppository"
+    },
+    {
+      "name": "Fast",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.07",
+      "url": "https://medex.com.bd/brands/10432/fast-500-mg-suppository"
+    },
+    {
+      "name": "Fast One",
+      "strength": "1000 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/36127/fast-one-1000-mg-tablet"
+    },
+    {
+      "name": "Fast XR",
+      "strength": "665 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10427/fast-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Feva",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10436/feva-500-mg-tablet"
+    },
+    {
+      "name": "Feva",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10437/feva-120-mg-oral-suspension"
+    },
+    {
+      "name": "Feva",
+      "strength": "80 mg/ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10438/feva-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Feva Extand",
+      "strength": "665 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/37322/feva-extand-665-mg-xr-tablet"
+    },
+    {
+      "name": "Feva One",
+      "strength": "1000 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/37534/feva-one-1000-mg-tablet"
+    },
+    {
+      "name": "Feva Rapid (Actizorb)",
+      "strength": "500 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/37920/feva-rapid-actizorb-500-mg-tablet"
+    },
+    {
+      "name": "Fevac",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10442/fevac-120-mg-oral-suspension"
+    },
+    {
+      "name": "Fevac",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/29815/fevac-500-mg-tablet"
+    },
+    {
+      "name": "Fevac Extend",
+      "strength": "665 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29816/fevac-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Fevimol",
+      "strength": "500 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/33597/fevimol-500-mg-tablet"
+    },
+    {
+      "name": "Fevnil-P",
+      "strength": "500 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/38187/fevnil-p-500-mg-tablet"
+    },
+    {
+      "name": "Fibi",
+      "strength": "500 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10443/fibi-500-mg-tablet"
+    },
+    {
+      "name": "G-Paracetamol",
+      "strength": "500 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10444/g-paracetamol-500-mg-tablet"
+    },
+    {
+      "name": "G-Paracetamol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/10445/g-paracetamol-120-mg-syrup"
+    },
+    {
+      "name": "G-Paracetamol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/35246/g-paracetamol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Gesic",
+      "strength": "10 mg/ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/38400/gesic-10-mg-iv-infusion"
+    },
+    {
+      "name": "Hepa",
+      "strength": "500 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10447/hepa-500-mg-tablet"
+    },
+    {
+      "name": "Hepa",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10448/hepa-120-mg-oral-suspension"
+    },
+    {
+      "name": "Longpara",
+      "strength": "665 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10449/longpara-665-mg-xr-tablet"
+    },
+    {
+      "name": "M-Pol",
+      "strength": "500 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10450/m-pol-500-mg-tablet"
+    },
+    {
+      "name": "M-Pol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10451/m-pol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Momodol",
+      "strength": "125 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/35266/momodol-125-mg-suppository"
+    },
+    {
+      "name": "Momodol",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/35267/momodol-250-mg-suppository"
+    },
+    {
+      "name": "Momodol",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36711/momodol-500-mg-suppository"
+    },
+    {
+      "name": "Momodol XR",
+      "strength": "665 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/38625/momodol-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Napa",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10452/napa-500-mg-tablet"
+    },
+    {
+      "name": "Napa",
+      "strength": "80 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10457/napa-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Napa",
+      "strength": "125 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/10459/napa-125-mg-suppository"
+    },
+    {
+      "name": "Napa",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/10460/napa-250-mg-suppository"
+    },
+    {
+      "name": "Napa",
+      "strength": "10 mg/ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/10461/napa-10-mg-iv-infusion"
+    },
+    {
+      "name": "Napa",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/23402/napa-500-mg-suppository"
+    },
+    {
+      "name": "Napa",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/28439/napa-120-mg-syrup"
+    },
+    {
+      "name": "Napa Extend",
+      "strength": "665 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10454/napa-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Napa One",
+      "strength": "1000 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/28639/napa-one-1000-mg-tablet"
+    },
+    {
+      "name": "Napa Rapid",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.30",
+      "url": "https://medex.com.bd/brands/23405/napa-rapid-500-mg-tablet"
+    },
+    {
+      "name": "Nebs",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23462/nebs-120-mg-oral-suspension"
+    },
+    {
+      "name": "Neopara",
+      "strength": "500 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10462/neopara-500-mg-tablet"
+    },
+    {
+      "name": "Nofeva",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/34215/nofeva-120-mg-oral-suspension"
+    },
+    {
+      "name": "Nova",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10466/nova-500-mg-tablet"
+    },
+    {
+      "name": "Nova",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10467/nova-120-mg-oral-suspension"
+    },
+    {
+      "name": "Painil",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/10468/painil-500-mg-tablet"
+    },
+    {
+      "name": "Painil",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 20.63",
+      "url": "https://medex.com.bd/brands/10469/painil-120-mg-oral-suspension"
+    },
+    {
+      "name": "Pamix",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/10477/pamix-500-mg-tablet"
+    },
+    {
+      "name": "Pamix",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10478/pamix-120-mg-oral-suspension"
+    },
+    {
+      "name": "Panol",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10470/panol-500-mg-tablet"
+    },
+    {
+      "name": "Panol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10471/panol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Para",
+      "strength": "500 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10472/para-500-mg-tablet"
+    },
+    {
+      "name": "Para",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10473/para-120-mg-oral-suspension"
+    },
+    {
+      "name": "Para",
+      "strength": "80 mg/ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10474/para-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Para-AL",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36392/para-al-120-mg-oral-suspension"
+    },
+    {
+      "name": "Paracetamol",
+      "strength": "500 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/37397/paracetamol-500-mg-tablet"
+    },
+    {
+      "name": "Paraciv",
+      "strength": "10 mg/ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 120.36",
+      "url": "https://medex.com.bd/brands/23377/paraciv-10-mg-iv-infusion"
+    },
+    {
+      "name": "Paradil",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23408/paradil-120-mg-oral-suspension"
+    },
+    {
+      "name": "Parafol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23549/parafol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Paragesic",
+      "strength": "500 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23534/paragesic-500-mg-tablet"
+    },
+    {
+      "name": "Parajor",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10402/parajor-500-mg-tablet"
+    },
+    {
+      "name": "Parajor",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10403/parajor-120-mg-oral-suspension"
+    },
+    {
+      "name": "Parajor XR",
+      "strength": "665 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/38702/parajor-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Paramol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10479/paramol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Parasic XR",
+      "strength": "665 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/37810/parasic-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Paratam Extend",
+      "strength": "665 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/38176/paratam-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Paratop",
+      "strength": "500 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/39890/paratop-500-mg-tablet"
+    },
+    {
+      "name": "Paret",
+      "strength": "500 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23503/paret-500-mg-tablet"
+    },
+    {
+      "name": "PM",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10484/pm-120-mg-oral-suspension"
+    },
+    {
+      "name": "Pol",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10485/pol-500-mg-tablet"
+    },
+    {
+      "name": "Pol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10486/pol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Prefer",
+      "strength": "500 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23481/prefer-500-mg-tablet"
+    },
+    {
+      "name": "Prefer",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23482/prefer-120-mg-oral-suspension"
+    },
+    {
+      "name": "Premol",
+      "strength": "500 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23513/premol-500-mg-tablet"
+    },
+    {
+      "name": "Promel",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10489/promel-120-mg-oral-suspension"
+    },
+    {
+      "name": "Promel",
+      "strength": "500 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23389/promel-500-mg-tablet"
+    },
+    {
+      "name": "Pyrac",
+      "strength": "500 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10490/pyrac-500-mg-tablet"
+    },
+    {
+      "name": "Pyrac",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10491/pyrac-120-mg-oral-suspension"
+    },
+    {
+      "name": "Pyralgin",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/35350/pyralgin-500-mg-tablet"
+    },
+    {
+      "name": "Pyralgin",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/35352/pyralgin-120-mg-oral-suspension"
+    },
+    {
+      "name": "Pyrenol XR",
+      "strength": "665 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10773/pyrenol-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Pyrex",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/23446/pyrex-500-mg-tablet"
+    },
+    {
+      "name": "Pyrex XR",
+      "strength": "665 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33000/pyrex-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Pyrexil",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/37878/pyrexil-500-mg-tablet"
+    },
+    {
+      "name": "Pyrexil Extend",
+      "strength": "665 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/30375/pyrexil-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Pyrin",
+      "strength": "500 mg",
+      "manufacturer": "Quality Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23516/pyrin-500-mg-tablet"
+    },
+    {
+      "name": "Qcet",
+      "strength": "500 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/27743/qcet-500-mg-tablet"
+    },
+    {
+      "name": "Qcet",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/29192/qcet-120-mg-syrup"
+    },
+    {
+      "name": "Qcet",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/29193/qcet-120-mg-oral-suspension"
+    },
+    {
+      "name": "Qcet",
+      "strength": "80 mg/ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/29194/qcet-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Qcet XR",
+      "strength": "665 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29195/qcet-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Reliv",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/23391/reliv-500-mg-tablet"
+    },
+    {
+      "name": "Reliv",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 20.70",
+      "url": "https://medex.com.bd/brands/23392/reliv-120-mg-oral-suspension"
+    },
+    {
+      "name": "Remalgin",
+      "strength": "500 mg",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10494/remalgin-500-mg-tablet"
+    },
+    {
+      "name": "Remalgin",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10495/remalgin-120-mg-oral-suspension"
+    },
+    {
+      "name": "Renova",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10496/renova-500-mg-tablet"
+    },
+    {
+      "name": "Renova",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10499/renova-120-mg-oral-suspension"
+    },
+    {
+      "name": "Renova",
+      "strength": "80 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10500/renova-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Renova",
+      "strength": "10 mg/ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 138.00",
+      "url": "https://medex.com.bd/brands/10501/renova-10-mg-iv-infusion"
+    },
+    {
+      "name": "Renova",
+      "strength": "60 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/10502/renova-60-mg-suppository"
+    },
+    {
+      "name": "Renova",
+      "strength": "125 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/10503/renova-125-mg-suppository"
+    },
+    {
+      "name": "Renova",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/10504/renova-250-mg-suppository"
+    },
+    {
+      "name": "Renova",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/10505/renova-500-mg-suppository"
+    },
+    {
+      "name": "Renova",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/28322/renova-120-mg-syrup"
+    },
+    {
+      "name": "Renova Max",
+      "strength": "1000 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.25",
+      "url": "https://medex.com.bd/brands/31916/renova-max-1000-mg-tablet"
+    },
+    {
+      "name": "Renova XR",
+      "strength": "665 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10497/renova-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Reset",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10506/reset-500-mg-tablet"
+    },
+    {
+      "name": "Reset",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10507/reset-120-mg-oral-suspension"
+    },
+    {
+      "name": "Reset",
+      "strength": "80 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "30 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/10508/reset-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Reset",
+      "strength": "10 mg/ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/10509/reset-10-mg-iv-infusion"
+    },
+    {
+      "name": "Reset ER",
+      "strength": "665 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/26238/reset-er-665-mg-xr-tablet"
+    },
+    {
+      "name": "SB-Opa",
+      "strength": "500 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/27373/sb-opa-500-mg-tablet"
+    },
+    {
+      "name": "Seridol",
+      "strength": "500 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10510/seridol-500-mg-tablet"
+    },
+    {
+      "name": "Silpol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/31574/silpol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Silpol",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/31575/silpol-500-mg-tablet"
+    },
+    {
+      "name": "Sinapol",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10513/sinapol-500-mg-tablet"
+    },
+    {
+      "name": "Sinapol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10514/sinapol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Sinapol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/35302/sinapol-120-mg-syrup"
+    },
+    {
+      "name": "Tamen",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10515/tamen-500-mg-tablet"
+    },
+    {
+      "name": "Tamen",
+      "strength": "10 mg/ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/10518/tamen-10-mg-iv-infusion"
+    },
+    {
+      "name": "Tamen",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/26799/tamen-120-mg-syrup"
+    },
+    {
+      "name": "Tamen XR",
+      "strength": "665 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/23460/tamen-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Tamino",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10519/tamino-500-mg-tablet"
+    },
+    {
+      "name": "Tamino",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10521/tamino-120-mg-oral-suspension"
+    },
+    {
+      "name": "Tamino ER",
+      "strength": "665 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10520/tamino-er-665-mg-xr-tablet"
+    },
+    {
+      "name": "Tandamol",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10524/tandamol-500-mg-tablet"
+    },
+    {
+      "name": "Tandamol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10525/tandamol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Temnor",
+      "strength": "500 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/23440/temnor-500-mg-tablet"
+    },
+    {
+      "name": "Temol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/23538/temol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Temol",
+      "strength": "500 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/23539/temol-500-mg-tablet"
+    },
+    {
+      "name": "Temol XR",
+      "strength": "665 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/37006/temol-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Tempac",
+      "strength": "500 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10526/tempac-500-mg-tablet"
+    },
+    {
+      "name": "Tempac",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10527/tempac-120-mg-oral-suspension"
+    },
+    {
+      "name": "Tempanil",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10528/tempanil-500-mg-tablet"
+    },
+    {
+      "name": "Tempil",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/27890/tempil-500-mg-tablet"
+    },
+    {
+      "name": "Tempol",
+      "strength": "80 mg/ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "15 ml bottle : ৳ 12.31",
+      "url": "https://medex.com.bd/brands/38085/tempol-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Tempol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 16.34",
+      "url": "https://medex.com.bd/brands/38086/tempol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Tempol",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/38087/tempol-500-mg-tablet"
+    },
+    {
+      "name": "Timidal",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 20.06",
+      "url": "https://medex.com.bd/brands/10534/timidal-120-mg-oral-suspension"
+    },
+    {
+      "name": "Tydenol",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10535/tydenol-500-mg-tablet"
+    },
+    {
+      "name": "Tydenol",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10536/tydenol-120-mg-oral-suspension"
+    },
+    {
+      "name": "Tylen",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10538/tylen-120-mg-oral-suspension"
+    },
+    {
+      "name": "Ucet",
+      "strength": "250 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/36970/ucet-250-mg-suppository"
+    },
+    {
+      "name": "Ucet",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/36971/ucet-500-mg-suppository"
+    },
+    {
+      "name": "Ucet Extend",
+      "strength": "665 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/30111/ucet-extend-665-mg-xr-tablet"
+    },
+    {
+      "name": "Windol",
+      "strength": "500 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/37120/windol-500-mg-tablet"
+    },
+    {
+      "name": "X-mol ER",
+      "strength": "665 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/39472/x-mol-er-665-mg-xr-tablet"
+    },
+    {
+      "name": "Xcel",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10539/xcel-500-mg-tablet"
+    },
+    {
+      "name": "Xcel",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10542/xcel-120-mg-syrup"
+    },
+    {
+      "name": "Xcel",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/10543/xcel-120-mg-oral-suspension"
+    },
+    {
+      "name": "Xcel",
+      "strength": "80 mg/ml",
+      "manufacturer": "ACI Limited",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10544/xcel-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Xcel ER",
+      "strength": "665 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10541/xcel-er-665-mg-xr-tablet"
+    },
+    {
+      "name": "Xpa",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10545/xpa-500-mg-tablet"
+    },
+    {
+      "name": "Xpa",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10547/xpa-120-mg-oral-suspension"
+    },
+    {
+      "name": "Xpa",
+      "strength": "80 mg/ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "15 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10548/xpa-80-mg-pediatric-drop"
+    },
+    {
+      "name": "Xpa",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/10550/xpa-250-mg-suppository"
+    },
+    {
+      "name": "Xpa",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/10551/xpa-500-mg-suppository"
+    },
+    {
+      "name": "Xpa XR",
+      "strength": "665 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10546/xpa-xr-665-mg-xr-tablet"
+    },
+    {
+      "name": "Zerin",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10552/zerin-500-mg-tablet"
+    },
+    {
+      "name": "Zerin",
+      "strength": "120 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10553/zerin-120-mg-oral-suspension"
+    },
+    {
+      "name": "Zerin",
+      "strength": "80 mg/ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "15 ml bottle : ৳ 12.34",
+      "url": "https://medex.com.bd/brands/27427/zerin-80-mg-pediatric-drop"
+    }
+  ],
+  "sections_en": {
+    "indications": "Paracetamol is indicated for fever, common cold and influenza, headache, toothache, earache, bodyache, myalgia, neuralgia, dysmenorrhoea, sprains, colic pain, back pain, post-operative pain, postpartum pain, inflammatory pain and post vaccination pain in children. It is also indicated for rheumatic & osteoarthritic pain and stiffness of joints.",
+    "mode_of_action": "Paracetamol exhibits analgesic action by peripheral blockage of pain impulse generation. It produces antipyresis by inhibiting the hypothalamic heat-regulating centre. Its weak anti-inflammatory activity is related to inhibition of prostaglandin synthesis in the CNS.\n\nParacetamol (Acetaminophen) is thought to act primarily in the CNS, increasing the pain threshold by inhibiting both isoforms of cyclooxygenase, COX-1, COX-2, and COX-3 enzymes involved in prostaglandin (PG) synthesis. Unlike NSAIDs, acetaminophen does not inhibit cyclooxygenase in peripheral tissues and, thus, has no peripheral anti-inflammatory affects. While aspirin acts as an irreversible inhibitor of COX and directly blocks the enzyme's active site, studies have found that acetaminophen indirectly blocks COX, and that this blockade is ineffective in the presence of peroxides. This might explain why acetaminophen is effective in the central nervous system and in endothelial cells but not in platelets and immune cells which have high levels of peroxides. Studies also report data suggesting that acetaminophen selectively blocks a variant of the COX enzyme that is different from the known variants COX-1 and COX-2. This enzyme is now referred to as COX-3. Its exact mechanism of action is still poorly understood, but future research may provide further insight into how it works. The antipyretic properties of acetaminophen are likely due to direct effects on the heat-regulating centres of the hypothalamus resulting in peripheral vasodilation, sweating and hence heat",
+    "dosage": "**Tablet**:\n\n- Adult: 1-2 tablets every 4 to 6 hours up to a maximum of 4 gm (8 tablets) daily.\n- Children (6-12 years): ½ to 1 tablet 3 to 4 times daily. For long term treatment it is wise not to exceed the dose beyond 2.6 gm/day.\n\n**Extended Release Tablet**:\n\n- Adults & Children over 12 years: Two tablets, swallowed whole, every 6 to 8 hours (maximum of 6 tablets in any 24 hours).The tablet must not be crushed.\n\n**Syrup/Suspension**:\n\n- Children under 3 months: 10 mg/kg body weight (reduce to 5 mg/kg if jaundiced) 3 to 4 times daily.\n- 3 months to below 1 year: ½ to 1 teaspoonful 3 to 4 times daily.\n- 1-5 years: 1-2 teaspoonful 3 to 4 times daily.\n- 6-12 years: 2-4 teaspoonful 3 to 4 times daily.\n- Adults: 4-8 teaspoonful 3 to 4 times daily.\n\n**Suppository**:\n\n- Children 3-12 months: 60-120 mg,4 times daily.\n- Children 1-5 years: 125-250 mg 4 times daily.\n- Children 6-12 years: 250-500 mg 4 times daily.\n- Adults & children over 12 years: 0.5-1 gm 4 times daily.\n\n**Paediatric Drop**:\n\n- Children Upto 3 months: 0.5 ml (40 mg)\n- 4 to 11 months: 1.0 ml (80 mg)\n- 7 to 2 years: 1.5 ml (120 mg). Do not exceed more than 5 dose daily for a maximum of 5 days.\n\n**Tablet with actizorb technology**: It dissolves up to five times faster than standard Paracetamol tablets. It is a fast acting and safe analgesic with marked antipyretic property. It is specially suitable for patients who, for any reason, can not tolerate aspirin or other analgesics. \n\n- Adults and children (aged 12 years and over): Take 1 to 2 Tablets every four to six hours as needed. Do not take more than 8 caplets in 24 hours.\n- Children (7 to 11 years): Take ½-1 Tablet every four to six hours as needed. Do not take more than 4 caplets in 24 hours. Not recommended in children under 7 years.\n\n**IV Infusion**:\n\n- Adults and adolescents weighing 50 kg and over: the recommended dosage of Paracetamol IV is 1000 mg every 6 hours or 650 mg every 4 hours, with a maximum single dose of Paracetamol IV of 1000 mg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 4000 mg per day.\n- Adults and adolescents weighing under 50 kg: the recommended dosage of Paracetamol IV is 15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours, with a maximum single dose of Paracetamol IV of 15 mg/kg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 75 mg/kg per day.\n- Children >2 to 12 years of age: the recommended dosage of Paracetamol IV is 15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours, with a maximum single dose of Paracetamol IV of 15 mg/kg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 75 mg/kg per day.",
+    "interaction": "Patients who have taken barbiturates, tricyclic antidepressants and alcohol may show diminished ability to metabolise large doses of Paracetamol. Alcohol can increase the hepatotoxicity of Paracetamol overdosage. Chronic ingestion of anticonvulsants or oral steroid contraceptives induce liver enzymes and may prevent attainment of therapeutic Paracetamol levels by increasing first-pass metabolism or clearance.",
+    "contraindications": "It is contraindicated in known hypersensitivity to Paracetamol.",
+    "side_effects": "Side effects of paracetamol are usually mild, though haematological reactions including thrombocytopenia, leucopenia, pancytopenia, neutropenia, and agranulocytosis have been reported. Pancreatitis, skin rashes, and other allergic reactions occur occasionally.",
+    "pregnancy_cat": "Epidemiological studies in human pregnancy have shown no ill effects due to Paracetamol used in the recommended dosage, but patients should follow the advice of their doctor regarding its use. Paracetamol is excreted in breast milk, but not in a clinically significant amount. Available published data do not contraindicate breast feeding.",
+    "precautions": "Care is advised in the administration of Paracetamol to patients with severe renal or severe hepatic impairment. The hazard of overdose is greater in those with non-cirrhotic alcoholic liver disease. Do not exceed the stated dose. Patients should be advised not to take other Paracetamol-containing products concurrently. This product should only be used by the patient for whom it is prescribed when clearly necessary.\n\nAdministration of Paracetamol in doses higher than recommended may result in hepatic injury, including the risk of severe hepatotoxicity and death. Do not exceed the maximum recommended daily dose of Paracetamol. Use caution when administering Paracetamol in patients with the following conditions: hepatic impairment or active hepatic disease, alcoholism, chronic malnutrition, severe hypovolemia (e.g., due to dehydration or blood loss), or severe renal impairment (creatinine clearance < 30 ml/min). There were infrequent reports of life-threatening anaphylaxis requiring emergent medical attention. Discontinue Paracetamol IV immediately if symptoms associated with allergy or hypersensitivity occurs. Do not use Paracetamol IV in patients with Paracetamol allergy.",
+    "pediatric_uses": "**Pediatric Use**: The safety and effectiveness of Paracetamol IV for the treatment of acute pain and fever in pediatric patients ages 2 years and older is supported by evidence from adequate and well-controlled studies of Paracetamol IV in adults.\n\n**Geriatric use**: No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients.\n\n**Patients with Hepatic Impairment**: Paracetamol is contraindicated in patients with severe hepatic impairment or severe active liver disease and should be used with caution in patients with hepatic impairment or active liver disease. A reduced total daily dose of Paracetamol may be warranted.\n\n**Patients with Renal Impairment**: In cases of severe renal impairment (creatinine clearance < 30 ml/min), longer dosing intervals and a reduced total daily dose of Paracetamol may be warranted.",
+    "overdose_effects": "Liver damage is possible in adults who have taken 10 g or more of Paracetamol. Ingestion of 5 g or more of Paracetamol may lead to liver damage if the patient has following risk factors: If the patient is on long term treatment with Carbamazepine, Phenobarbitone, Phenytoin, Primidone, Rifampicin, St John’s Wort or other drugs that induce liver enzymes, or regularly consumes Ethanol in excess of recommended amounts, or is likely to be Glutathione deplete e.g. eating disorders, cystic fibrosis, HIV infection, starvation, cachexia. \n\n**Symptoms**: Symptoms of Paracetamol overdose in the first 24 hours are pallor, nausea, vomiting, anorexia and abdominal pain. Liver damage may become apparent 12 to 48 hours after ingestion. Abnormalities of glucose metabolism and metabolic acidosis may occur. In severe poisoning, hepatic failure may progress to encephalopathy, haemorrhage, hypoglycaemia, cerebral oedema and death. Acute renal failure with acute tubular necrosis, strongly suggested by loin pain, haematuria and proteinuria, may develop even in the absence of severe liver damage. Cardiac arrhythmias and pancreatitis have been reported. Immediate treatment is essential in the management of Paracetamol overdose. Treatment with activated charcoal should be considered if the overdose has been taken within 1 hour. Plasma Paracetamol concentration should be measured at 4 hours or later after ingestion (earlier concentrations are unreliable). Treatment with N-acetylcysteine may be used up to 24 hours after ingestion of Paracetamol. However, the maximum protective effect is obtained up to 8 hours post-ingestion. The effectiveness of the antidote declines sharply after this time. If required the patient should be given intravenous N-acetylcysteine, in line with the established dosage schedule. If vomiting is not a problem, oral Methionine may be a suitable alternative for remote areas, outside hospital. Management of patients who present with serious hepatic dysfunction beyond 24 hours from ingestion should be discussed with the NPIS or a liver unit.",
+    "drug_classes": "Non-Opioid Analgesics",
+    "storage_conditions": "Keep in a dry place away from light and heat. Keep out of the reach of children.",
+    "compound_summary": "| Molecular Formula : | C 8 H 9 NO 2 |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Paracetamol?\n\nParacetamol is a medication that performs its action by obstructing the release of pain and fever chemical messengers.\n\n#### What are the uses of Paracetamol?\n\nParacetamol is used for the treatment and prevention of conditions and symptoms of diseases like Post immunization pyrexia, menstrual cramps and fever.\n\n#### What are the Side Effects of Paracetamol Paracetamol?\n\nAllergic reaction, gastric ulcers, fatigue, anemia, nausea and vomiting are possible side effects.\n\n#### What are the instructions for storage and disposal Paracetamol?\n\nParacetamol should be stored at room temperature, away from heat and direct light. Keep it away from the reach of children and pets.\n\n#### Should I use Paracetamol empty stomach, before food or after food?\n\nIf you take Paracetamol with the food, the reactions that took place in the body carry-outs in a much effective manner.\n\n#### How long do I need to use Paracetamol before I see improvement in my conditions?\n\nParacetamol should be consumed, until the complete eradication of the disease. It is advised to use, till the time directed by your doctor.\n\n#### Is there any food or drink I need to avoid while taking Paracetamol?\n\nYou can follow your normal diet under the usage of Paracetamol.\n\n#### Will Paracetamol be more effective if taken in more than the recommended dose?\n\nThere is no need to take Paracetamol more than its recommended doses.\n\n#### Can I take other medications along with Paracetamol?\n\nDo not use any OTC for cough, cold, allergy, or pain medication without consulting your doctor or pharmacist. Paracetamol contains many combination of medicines. If you use certain products together you may accidentally use too much of Paracetamol.\n\n#### Can I take Paracetamol with antibiotics?\n\nThere are hundreds of antibiotics used to treat infections, so once you receive your prescription, ask your doctor or pharmacist if you can also take Paracetamol at the same time that you take the antibiotic.\n\n#### Is Paracetamol an NSAID drug?\n\nNo, Paracetamol is not classified as an NSAID (nonsteroidal anti-inflammatory drug). It is classified as a miscellaneous analgesic for mild to moderate pain and fever.\n\n#### Quick Tips\n\n- Paracetamol should be taken with food or milk to prevent upset stomach.\n- Take Paracetamol as per the dose and duration prescribed by your doctor. Long term use may lead to serious complications such as stomach bleeding and kidney problems.\n- Do not take indigestion remedies (antacids) within two hours of taking Paracetamol.\n- Avoid consuming alcohol while taking Paracetamol as it can increase your risk of stomach problems.\n- Inform your doctor if you have liver disease as your dose may need to be adjusted.\n- Your doctor may regularly monitor your kidney function, liver function and levels of blood components if you are taking Paracetamol for long-term treatment."
+  },
+  "sections_bn": {
+    "indications": "প্যারাসিটামল জ্বর, সর্দি জ্বর, ইনফ্লুয়েঞ্জা, মাথা ব্যথা, দাঁতে ব্যথা, কানে ব্যথা, শরীর ব্যথা, স্নায়ু প্রদাহজনিত ব্যথা, ঋতুস্রাবজনিত ব্যথা, মচ্কে যাওয়া ব্যথা, অন্ত্রে ব্যথা, পিঠে ব্যথা, অস্ত্রোপচার পরবর্তী ব্যথা, প্রসব পরবর্তী ব্যথা, প্রদাহজনিত ব্যথা এবং শিশুদের টিকা পরবর্তী ব্যথায় কার্যকরী। এটি বাতজনিত ও অস্টিওআর্থ্রাইটিসজনিত ব্যথা এবং অস্থিসংযোগ সমূহের অনমনীয়তায় কার্যকরী।",
+    "mode_of_action": "প্যারাসিটামলের ব্যথানাশক এবং জ্বর উপশমক গুণাবলীর সাথে কিছুটা প্রদাহবিরোধী কার্যকারিতাও রয়েছে। প্যারাসিটামল (অ্যাসিটামিনোফেন) প্রাথমিকভাবে সিএনএসে কাজ করে বলে মনে করা হয়, ইহা প্রোস্টাগ্ল্যান্ডিন এর সিনথেসিস কে ইনহিবিট করার মাধ্যমে COX-1, COX-2, and COX-3 এনজাইম এর সিনথেসিস কে ইনহিবিট করে। প্যারাসিটামল একটি প্যারা এমিনোফেনল ডেরিভেটিভ, যার ব্যথানাশক এবং জ্বর উপশমক গুণাবলীর সাথে কিছুটা প্রদাহ বিরোধী কার্যকারিতা রয়েছে। প্যারাসিটামল সর্বাপেক্ষা বেশি ব্যবহৃত এবং সর্বাপেক্ষা নিরাপদ ও দ্রূত কার্যকরী ব্যথানাশকদের একটি। এটি অধিক সহনশীল ও এসপিরিনজনিত অনেক পার্শ্ব প্রতিক্রিয়ামুক্ত।",
+    "dosage": "ট্যাবলেট :\n\n- **প্রাপ্ত বয়স্ক**: ১-২ টি ট্যাবলেট ৪-৬ ঘন্টা পর পর দিনে সর্বোচ্চ ৮ টি ট্যাবলেট।\n- **শিশু (৬-১২ বছর)**: আধা থেকে ১টি দিনে ৩-৪ বার।\n\r\nসিরাপ এবং সাসপেনশন :\n\n- **শিশু (৩ মাসের নীচে)**: ১০ মি.গ্রা. হিসাবে (জন্ডিস থাকলে ৫ মি.গ্রা. হিসাবে) দিনে ৩-৪ বার।\n- **৩ মাস-১ বছরের নীচে**: ১/২ থেকে ১ চা চামচ দিনে ৩-৪ বার।\n- **১-৫ বছর**: ১-২ চা চামচ দিনে ৩-৪ বার।\n- **৬-১২ বছর**: ২-৪ চা চামচ দিনে ৩-৪ বার।\n- **প্রাপ্তবয়স্ক**: ৪-৮ চা চামচ দিনে ৩-৪ বার।\n\r\nএক্স আর ট্যাবলেট :\n\n- **প্রাপ্ত বয়স্ক এবং ১২ বছরের ঊর্ধ্বে শিশুদের ক্ষেত্রে**: ২টি ট্যাবলেট প্রতি ৮ ঘন্টা পরপর; সর্বোচ্চ মাত্রা দৈনিক ৪ গ্রাম (৬ টি ট্যাবলেট)।\n- **দীর্ঘ মেয়াদী ক্রমাগত চিকিৎসার ক্ষেত্রে**:দিনে ২.৬ গ্রাম (৪টি ট্যাবলেট)-এর বেশি সেবন করা উচিত নয়।\n\r\nসাপোজিটরি :\n\n- **৩ মাস- ১ বছরের নীচে**: ৬০-১২০ মি.গ্রা. দিনে ৪ বার।\n- **১-৫ বছর**: ১২৫-২৫০ মি.গ্রা. দিনে ৪ বার।\n- **৬-১২ বছর বয়সের শিশুদের জন্য**: ২৫০-৫০০ মি.গ্রা. দিনে ৪ বার।\n- **প্রাপ্ত বয়স্ক ও ১২ বছরের বেশী বয়সের শিশুদের জন্য**: ০.৫-১ গ্রাম দিনে ৪ বার।\n\r\nপেডিয়াট্রিক ড্রপস্:\n\n- **৩ মাস বয়স পর্যন্ত**: ০.৫ মি.লি. (৪০ মি.গ্রা.), দিনে ৪ বার।\n- **৪-১১ মাস বয়স পর্যন্ত**: ১ মি.লি. (৮০ মি.গ্রা.), দিনে ৪ বার।\n- **১-২ বছর বয়স পর্যন্ত**: ১.৫ মি.লি. (১২০ মি.গ্রা.), দিনে ৪ বার।",
+    "interaction": "বারবিচুরেট জাতীয় ও বিষন্নতারোধী ট্রাইসাইক্লিক জাতীয় ঔষধ গ্রহণকারী এবং এলকোহল পানকারী রোগীদের ক্ষেত্রে অধিকমাত্রায় সেবন করলে প্যারাসিটামলের বিপাক কমে যেতে পারে। এলকোহল, মাত্রাধিকভাবে সেবন কৃত প্যারাসিটামল দ্বারা সৃষ্ট লিভারের বিষক্রিয়া আরো বাড়িয়ে দিতে পারে। খিচুনিবিরোধী ঔষধ এবং স্টেরয়েডজাতীয় জন্মনিরোধকের দীর্ঘ মেয়াদী ব্যবহার লিভার এনজাইমকে প্রণোদিত করে; ফলে এ জাতীয় ঔষধের সাথে একত্রে গ্রহণে ‘ফার্স্ট-পাস’ বিপাক ত্বরান্বিত হয় এবং প্যারাসিটামলের কার্যকরী মাত্রা অর্জন ব্যহত হয়।",
+    "contraindications": "প্যারাসিটামল বা এটির কোন উপাদানের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে ইহা প্রতিনির্দেশিত।",
+    "side_effects": "রক্তের উপাদানের উপর যৎসামান্য প্রভাব থাকলেও সাধারণত প্যারাসিটামলের পার্শ্ব প্রতিক্রিয়া খুবই কম। কিছু কিছু ক্ষেত্রে অগ্নাশয়ের প্রদাহ, চামড়ায় ফুসকুড়ি ও অন্যান্য এলার্জি দেখা দিতে পারে।",
+    "pregnancy_cat": "মানব গর্ভাবস্থায় এপিডেমিওলজিকাল গবেষণায় প্রস্তাবিত মাত্রায় প্যারাসিটামল ব্যবহার করার কারণে কোনো খারাপ প্রভাব দেখা যায়নি, তবে রোগীদের উচিত তাদের ডাক্তারের পরামর্শ মেনে চলা। প্যারাসিটামল বুকের দুধে নির্গত হয়, কিন্তু চিকিৎসাগতভাবে উল্লেখযোগ্য পরিমাণে নয়। উপলব্ধ প্রকাশিত ডেটা স্তন্যপান করানোর প্রতি বিরোধিতা করে না।",
+    "precautions": "গুরুতর কিডনি বা গুরুতর হেপাটিক বৈকল্যযুক্ত রোগীদের প্যারাসিটামল ব্যবহারে যত্ন নেওয়ার পরামর্শ দেওয়া হয়। যারা নন-সিরোটিক অ্যালকোহলযুক্ত লিভার রোগে আক্রান্ত তাদের ওভারডোজের ঝুঁকি বেশি। নির্ধারিত মাত্রা অতিক্রম করা যাবে না। রোগীদের একই সাথে অন্যান্য প্যারাসিটামলযুক্ত পণ্য বর্জন করা উচিত। প্যারাসিটামল শুধুমাত্র সেই রোগীর দ্বারা ব্যবহার করা উচিত যার জন্য এটি নির্ধারিত হয়।",
+    "overdose_effects": "যারা ১০ গ্রাম বা তার বেশি প্যারাসিটামল গ্রহণ করেছেন তাদের যকৃতের ক্ষতি হতে পারে। ৫ গ্রাম বা তার বেশি প্যারাসিটামল গ্রহণ করলে লিভারের ক্ষতি হতে পারে যদি রোগীর নিম্নোক্ত ঝুঁকির কারণ থাকে: রোগী যদি কার্বামাজেপাইন, ফেনোবারবিটোন, ফেনাইটোইন, প্রিমডোন, রিফাম্পিসিন, সেন্ট জনস ওয়ার্ট বা লিভারের এনজাইমগুলিকে প্ররোচিত করে এমন অন্যান্য ওষুধ দিয়ে দীর্ঘমেয়াদী চিকিত্সা করা হয়, বা নিয়মিতভাবে সুপারিশকৃত পরিমাণের চেয়ে বেশি ইথানল সেবন করলে বা গ্লুটাথিয়নের ক্ষয় হতে পারে যেমন খাওয়ার ব্যাধি, সিস্টিক ফাইব্রোসিস, এইচআইভি সংক্রমণ, অনাহার, ক্যাচেক্সিয়া। \n\nলক্ষণ: প্রথম ২৪ ঘন্টার মধ্যে প্যারাসিটামল ওভারডোজের লক্ষণগুলি হল ফ্যাকাশে, বমি বমি ভাব, বমি, ক্ষুধামন্দা এবং পেটে ব্যথা। খাওয়ার ১২ থেকে ৪৮ ঘন্টা পরে লিভারের ক্ষতি স্পষ্ট হতে পারে। গ্লুকোজ বিপাক এবং বিপাকীয় অ্যাসিডোসিসের অস্বাভাবিকতা ঘটতে পারে। গুরুতর বিষক্রিয়ায়, হেপাটিক ফেইলর এনসেফালোপ্যাথি, রক্তক্ষরণ, হাইপোগ্লাইসেমিয়া, সেরিব্রাল শোথ এবং মৃত্যুর দিকে অগ্রসর হতে পারে। তীব্র টিউবুলার নেক্রোসিসের সাথে তীব্র রেনাল ফেইলর, কটি ব্যথা, হেমাটুরিয়া এবং প্রোটিনুরিয়া দ্বারা জোরালোভাবে প্রস্তাবিত, এমনকি গুরুতর লিভারের ক্ষতির অনুপস্থিতিতেও বিকাশ হতে পারে। কার্ডিয়াক অ্যারিথমিয়াস এবং প্যানক্রিয়াটাইটিস রিপোর্ট করা হয়েছে। প্যারাসিটামল ওভারডোজের ব্যবস্থাপনায় তাৎক্ষণিক চিকিৎসা অপরিহার্য। সক্রিয় কাঠকয়লা দিয়ে চিকিত্সা বিবেচনা করা উচিত যদি ১ ঘন্টার মধ্যে ওভারডোজ নেওয়া হয়। প্লাজমা প্যারাসিটামলের ঘনত্ব পরিমাপ করা উচিত ৪ ঘন্টা বা তার পরে খাওয়ার পরে (আগের ঘনত্ব অবিশ্বস্ত ছিল)। প্যারাসিটামল গ্রহণের ২৪ ঘন্টা পর্যন্ত N-acetylcysteine দিয়ে চিকিত্সা ব্যবহার করা যেতে পারে। যাইহোক, সর্বোচ্চ প্রতিরক্ষামূলক প্রভাব ৪ ঘন্টা পরে খাওয়ার পরে পাওয়া যায়। এই সময়ের পরে প্রতিষেধকের কার্যকারিতা দ্রুত হ্রাস পায়। প্রয়োজনে রোগীকে নির্ধারিত ডোজ সময়সূচীর সাথে সঙ্গতি রেখে শিরায় এন-এসিটাইলসিস্টাইন দেওয়া উচিত। যদি বমি সমস্যা না হয় তবে দুর্গম এলাকায়, হাসপাতালের বাইরে মৌখিক মেথিওনিন একটি উপযুক্ত বিকল্প হতে পারে। ইনজেশনের ২৪ ঘন্টার পরে গুরুতর হেপাটিক ডিসফাংশন সহ রোগীদের পরিচালনার বিষয়ে NPIS বা লিভার ইউনিটের সাথে আলোচনা করা উচিত।",
+    "drug_classes": "Non-Opioid Analgesics",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 8 H 9 NO 2 |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/860/paracetamol",
+  "source_url_bn": "https://medex.com.bd/generics/860/paracetamol/bn",
+  "scraped_at": "2026-10-10T14:59:51+00:00"
+}

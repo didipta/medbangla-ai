@@ -1,0 +1,998 @@
+{
+  "slug": "aceclofenac",
+  "name_en": "Aceclofenac",
+  "name_bn": "এসিক্লোফেনাক",
+  "therapeutic_class": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "A-Pak",
+      "strength": "100 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/38193/a-pak-100-mg-tablet"
+    },
+    {
+      "name": "A-Pak SR",
+      "strength": "200 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/35356/a-pak-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "AC PR",
+      "strength": "100 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/8/ac-pr-100-mg-tablet"
+    },
+    {
+      "name": "AC PR SR",
+      "strength": "200 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35308/ac-pr-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Acebid",
+      "strength": "100 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/9/acebid-100-mg-tablet"
+    },
+    {
+      "name": "Aceclof",
+      "strength": "100 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17361/aceclof-100-mg-tablet"
+    },
+    {
+      "name": "Aceclofen",
+      "strength": "100 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/11/aceclofen-100-mg-tablet"
+    },
+    {
+      "name": "Aceclofenac",
+      "strength": "100 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/35665/aceclofenac-100-mg-tablet"
+    },
+    {
+      "name": "Aceclofenac",
+      "strength": "200 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/37389/aceclofenac-200-mg-sr-tablet"
+    },
+    {
+      "name": "Aceclofenac",
+      "strength": "100 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/37627/aceclofenac-100-mg-tablet"
+    },
+    {
+      "name": "Aceclofenac SR",
+      "strength": "200 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/37628/aceclofenac-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Aceclora",
+      "strength": "100 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.02",
+      "url": "https://medex.com.bd/brands/13/aceclora-100-mg-tablet"
+    },
+    {
+      "name": "Aceclosic",
+      "strength": "100 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/37789/aceclosic-100-mg-tablet"
+    },
+    {
+      "name": "Acecol",
+      "strength": "100 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/14/acecol-100-mg-tablet"
+    },
+    {
+      "name": "Acedol",
+      "strength": "100 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/15/acedol-100-mg-tablet"
+    },
+    {
+      "name": "Acedol SR",
+      "strength": "200 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17364/acedol-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Acefenac",
+      "strength": "100 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/16/acefenac-100-mg-tablet"
+    },
+    {
+      "name": "Aceflex",
+      "strength": "100 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34889/aceflex-100-mg-tablet"
+    },
+    {
+      "name": "Acegic",
+      "strength": "100 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17/acegic-100-mg-tablet"
+    },
+    {
+      "name": "Acelock",
+      "strength": "100 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/18/acelock-100-mg-tablet"
+    },
+    {
+      "name": "Acelon",
+      "strength": "100 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/19/acelon-100-mg-tablet"
+    },
+    {
+      "name": "Acenac",
+      "strength": "100 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/20/acenac-100-mg-tablet"
+    },
+    {
+      "name": "Acenopan",
+      "strength": "100 mg",
+      "manufacturer": "RN Pharmaceuticals",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17365/acenopan-100-mg-tablet"
+    },
+    {
+      "name": "Acepro",
+      "strength": "100 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/21/acepro-100-mg-tablet"
+    },
+    {
+      "name": "Aceron",
+      "strength": "100 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/38718/aceron-100-mg-tablet"
+    },
+    {
+      "name": "ACF",
+      "strength": "100 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/5/acf-100-mg-tablet"
+    },
+    {
+      "name": "Acflam",
+      "strength": "100 mg",
+      "manufacturer": "Apollo Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/22/acflam-100-mg-tablet"
+    },
+    {
+      "name": "Aclo",
+      "strength": "100 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/23/aclo-100-mg-tablet"
+    },
+    {
+      "name": "Aclonac",
+      "strength": "100 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/24/aclonac-100-mg-tablet"
+    },
+    {
+      "name": "Aclopain",
+      "strength": "100 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/25/aclopain-100-mg-tablet"
+    },
+    {
+      "name": "Aclovix",
+      "strength": "100 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/26/aclovix-100-mg-tablet"
+    },
+    {
+      "name": "ACN",
+      "strength": "100 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/6/acn-100-mg-tablet"
+    },
+    {
+      "name": "Acxi",
+      "strength": "100 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/39322/acxi-100-mg-tablet"
+    },
+    {
+      "name": "Alcefen",
+      "strength": "100 mg",
+      "manufacturer": "Allied Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17366/alcefen-100-mg-tablet"
+    },
+    {
+      "name": "Alofen",
+      "strength": "100 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/17367/alofen-100-mg-tablet"
+    },
+    {
+      "name": "Alona",
+      "strength": "100 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.60",
+      "url": "https://medex.com.bd/brands/28/alona-100-mg-tablet"
+    },
+    {
+      "name": "Analgen",
+      "strength": "100 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/29/analgen-100-mg-tablet"
+    },
+    {
+      "name": "Apeclo",
+      "strength": "100 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/30/apeclo-100-mg-tablet"
+    },
+    {
+      "name": "Apeclo SR",
+      "strength": "200 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/31/apeclo-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Apitac",
+      "strength": "100 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/32/apitac-100-mg-tablet"
+    },
+    {
+      "name": "Arnac",
+      "strength": "100 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32907/arnac-100-mg-tablet"
+    },
+    {
+      "name": "Aros",
+      "strength": "100 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/33/aros-100-mg-tablet"
+    },
+    {
+      "name": "ASP",
+      "strength": "100 mg",
+      "manufacturer": "Quality Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17368/asp-100-mg-tablet"
+    },
+    {
+      "name": "Avenac",
+      "strength": "100 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34/avenac-100-mg-tablet"
+    },
+    {
+      "name": "Biofenac",
+      "strength": "100 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/28389/biofenac-100-mg-tablet"
+    },
+    {
+      "name": "Carepain",
+      "strength": "100 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/33586/carepain-100-mg-tablet"
+    },
+    {
+      "name": "Casyn",
+      "strength": "100 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/28084/casyn-100-mg-tablet"
+    },
+    {
+      "name": "Ceclofen",
+      "strength": "100 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/35/ceclofen-100-mg-tablet"
+    },
+    {
+      "name": "Ceclonac",
+      "strength": "100 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/36/ceclonac-100-mg-tablet"
+    },
+    {
+      "name": "Ceconac",
+      "strength": "100 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/37/ceconac-100-mg-tablet"
+    },
+    {
+      "name": "Celofen",
+      "strength": "100 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/1/celofen-100-mg-tablet"
+    },
+    {
+      "name": "Claim",
+      "strength": "100 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/29247/claim-100-mg-tablet"
+    },
+    {
+      "name": "Claim ER",
+      "strength": "200 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32342/claim-er-200-mg-xr-tablet"
+    },
+    {
+      "name": "Clof",
+      "strength": "100 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/40/clof-100-mg-tablet"
+    },
+    {
+      "name": "Dolonac",
+      "strength": "100 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/28124/dolonac-100-mg-tablet"
+    },
+    {
+      "name": "Ecena",
+      "strength": "100 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/43/ecena-100-mg-tablet"
+    },
+    {
+      "name": "Ectinac",
+      "strength": "100 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/27384/ectinac-100-mg-tablet"
+    },
+    {
+      "name": "Ena",
+      "strength": "100 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/44/ena-100-mg-tablet"
+    },
+    {
+      "name": "Exipain",
+      "strength": "100 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27723/exipain-100-mg-tablet"
+    },
+    {
+      "name": "Ezemove",
+      "strength": "100 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/45/ezemove-100-mg-tablet"
+    },
+    {
+      "name": "Fenaaf",
+      "strength": "100 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/36488/fenaaf-100-mg-tablet"
+    },
+    {
+      "name": "Fenacin",
+      "strength": "100 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17373/fenacin-100-mg-tablet"
+    },
+    {
+      "name": "Fixonac",
+      "strength": "100 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/46/fixonac-100-mg-tablet"
+    },
+    {
+      "name": "Fleco",
+      "strength": "100 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/47/fleco-100-mg-tablet"
+    },
+    {
+      "name": "Flexi",
+      "strength": "100 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2/flexi-100-mg-tablet"
+    },
+    {
+      "name": "Flexi SR",
+      "strength": "200 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/17374/flexi-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Flexidol",
+      "strength": "100 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17375/flexidol-100-mg-tablet"
+    },
+    {
+      "name": "Flexivan",
+      "strength": "100 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/48/flexivan-100-mg-tablet"
+    },
+    {
+      "name": "Flexivan ER",
+      "strength": "200 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/49/flexivan-er-200-mg-xr-tablet"
+    },
+    {
+      "name": "Freemax",
+      "strength": "100 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.96",
+      "url": "https://medex.com.bd/brands/50/freemax-100-mg-tablet"
+    },
+    {
+      "name": "Grofenac",
+      "strength": "100 mg",
+      "manufacturer": "Prime Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17376/grofenac-100-mg-tablet"
+    },
+    {
+      "name": "Hifenac",
+      "strength": "100 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/32519/hifenac-100-mg-tablet"
+    },
+    {
+      "name": "Intas",
+      "strength": "100 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/17377/intas-100-mg-tablet"
+    },
+    {
+      "name": "Labenac",
+      "strength": "100 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/17378/labenac-100-mg-tablet"
+    },
+    {
+      "name": "Labenac SR",
+      "strength": "200 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26963/labenac-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Lofam",
+      "strength": "100 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/54/lofam-100-mg-tablet"
+    },
+    {
+      "name": "Lofens",
+      "strength": "100 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/55/lofens-100-mg-tablet"
+    },
+    {
+      "name": "Maclo",
+      "strength": "100 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/38006/maclo-100-mg-tablet"
+    },
+    {
+      "name": "Maxpain",
+      "strength": "100 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/17379/maxpain-100-mg-tablet"
+    },
+    {
+      "name": "Mervan",
+      "strength": "100 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/56/mervan-100-mg-tablet"
+    },
+    {
+      "name": "Mervan SR",
+      "strength": "200 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/16843/mervan-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Motifen",
+      "strength": "100 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/58/motifen-100-mg-tablet"
+    },
+    {
+      "name": "Movex",
+      "strength": "100 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/59/movex-100-mg-tablet"
+    },
+    {
+      "name": "Movex SR",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17380/movex-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Movon",
+      "strength": "100 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/60/movon-100-mg-tablet"
+    },
+    {
+      "name": "Noak",
+      "strength": "100 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/61/noak-100-mg-tablet"
+    },
+    {
+      "name": "Nofenac",
+      "strength": "100 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.05",
+      "url": "https://medex.com.bd/brands/62/nofenac-100-mg-tablet"
+    },
+    {
+      "name": "Nostrin",
+      "strength": "100 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/63/nostrin-100-mg-tablet"
+    },
+    {
+      "name": "Orcenac",
+      "strength": "100 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/64/orcenac-100-mg-tablet"
+    },
+    {
+      "name": "Orcenac SR",
+      "strength": "200 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34470/orcenac-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Orifen",
+      "strength": "100 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.51",
+      "url": "https://medex.com.bd/brands/65/orifen-100-mg-tablet"
+    },
+    {
+      "name": "Ostoflex",
+      "strength": "100 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/66/ostoflex-100-mg-tablet"
+    },
+    {
+      "name": "Ostoflex SR",
+      "strength": "200 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33396/ostoflex-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Painex",
+      "strength": "100 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/67/painex-100-mg-tablet"
+    },
+    {
+      "name": "Painkil",
+      "strength": "100 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/17381/painkil-100-mg-tablet"
+    },
+    {
+      "name": "Painkil SR",
+      "strength": "200 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35186/painkil-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Painles",
+      "strength": "100 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/37856/painles-100-mg-tablet"
+    },
+    {
+      "name": "Paino",
+      "strength": "100 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17382/paino-100-mg-tablet"
+    },
+    {
+      "name": "Penac-AC",
+      "strength": "100 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/71/penac-ac-100-mg-tablet"
+    },
+    {
+      "name": "Polynac",
+      "strength": "100 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17385/polynac-100-mg-tablet"
+    },
+    {
+      "name": "Ponos",
+      "strength": "100 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/17386/ponos-100-mg-tablet"
+    },
+    {
+      "name": "Preservin",
+      "strength": "100 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/73/preservin-100-mg-tablet"
+    },
+    {
+      "name": "Preservin SR",
+      "strength": "200 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17387/preservin-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Protilez",
+      "strength": "100 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17388/protilez-100-mg-tablet"
+    },
+    {
+      "name": "Qrip",
+      "strength": "100 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/26842/qrip-100-mg-tablet"
+    },
+    {
+      "name": "Relise",
+      "strength": "100 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/77/relise-100-mg-tablet"
+    },
+    {
+      "name": "Reofen",
+      "strength": "100 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/36985/reofen-100-mg-tablet"
+    },
+    {
+      "name": "Repidor",
+      "strength": "100 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17390/repidor-100-mg-tablet"
+    },
+    {
+      "name": "Reservix",
+      "strength": "100 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.70",
+      "url": "https://medex.com.bd/brands/79/reservix-100-mg-tablet"
+    },
+    {
+      "name": "Reservix SR",
+      "strength": "200 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/17391/reservix-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Rheuma",
+      "strength": "100 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.80",
+      "url": "https://medex.com.bd/brands/81/rheuma-100-mg-tablet"
+    },
+    {
+      "name": "Rolon",
+      "strength": "100 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/37180/rolon-100-mg-tablet"
+    },
+    {
+      "name": "Ruclon",
+      "strength": "100 mg",
+      "manufacturer": "Novus Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/17394/ruclon-100-mg-tablet"
+    },
+    {
+      "name": "Sapclo",
+      "strength": "100 mg",
+      "manufacturer": "Marker Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/83/sapclo-100-mg-tablet"
+    },
+    {
+      "name": "SB-Acelo",
+      "strength": "100 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27361/sb-acelo-100-mg-tablet"
+    },
+    {
+      "name": "Servex",
+      "strength": "100 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/85/servex-100-mg-tablet"
+    },
+    {
+      "name": "Silfenac",
+      "strength": "100 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/31569/silfenac-100-mg-tablet"
+    },
+    {
+      "name": "Syclofen",
+      "strength": "100 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/86/syclofen-100-mg-tablet"
+    },
+    {
+      "name": "Technofen",
+      "strength": "100 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 4.96",
+      "url": "https://medex.com.bd/brands/17398/technofen-100-mg-tablet"
+    },
+    {
+      "name": "Tekna",
+      "strength": "100 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/34613/tekna-100-mg-tablet"
+    },
+    {
+      "name": "Ternilla",
+      "strength": "100 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/87/ternilla-100-mg-tablet"
+    },
+    {
+      "name": "Ternilla SR",
+      "strength": "200 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/34638/ternilla-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "UAC",
+      "strength": "100 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 3.80",
+      "url": "https://medex.com.bd/brands/34975/uac-100-mg-tablet"
+    },
+    {
+      "name": "Ufenac",
+      "strength": "100 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/36319/ufenac-100-mg-tablet"
+    },
+    {
+      "name": "Ufenac SR",
+      "strength": "200 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36972/ufenac-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Vaxtin",
+      "strength": "100 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/89/vaxtin-100-mg-tablet"
+    },
+    {
+      "name": "Volfenac",
+      "strength": "100 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/17400/volfenac-100-mg-tablet"
+    },
+    {
+      "name": "Xe Fast",
+      "strength": "100 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/91/xe-fast-100-mg-tablet"
+    },
+    {
+      "name": "Xerifen",
+      "strength": "100 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/92/xerifen-100-mg-tablet"
+    },
+    {
+      "name": "Xeriflam",
+      "strength": "100 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/93/xeriflam-100-mg-tablet"
+    },
+    {
+      "name": "Xpain",
+      "strength": "100 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.01",
+      "url": "https://medex.com.bd/brands/95/xpain-100-mg-tablet"
+    },
+    {
+      "name": "Xtrafen",
+      "strength": "100 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/17401/xtrafen-100-mg-tablet"
+    },
+    {
+      "name": "Xtrafen SR",
+      "strength": "200 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/17402/xtrafen-sr-200-mg-sr-tablet"
+    },
+    {
+      "name": "Xyfen",
+      "strength": "100 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/98/xyfen-100-mg-tablet"
+    },
+    {
+      "name": "Zerodol",
+      "strength": "100 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/99/zerodol-100-mg-tablet"
+    },
+    {
+      "name": "Zolfin",
+      "strength": "100 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/100/zolfin-100-mg-tablet"
+    },
+    {
+      "name": "Zolonac",
+      "strength": "100 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/101/zolonac-100-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Aceclofenac is indicated for the relief of pain and inflammation in osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, toothache, trauma and lumbago.",
+    "mode_of_action": "Aceclofenac is a non-steroidal drug with anti-inflammatory and analgesic properties. It is a potent inhibitor of the enzyme cyclooxygenase, which is involved in the production of prostaglandin. After oral administration, it is rapidly and completely absorbed an unchanged drug.",
+    "dosage": "**Extended release tablet**: The recommended dose in adults is one 200 mg Aceclofenac tablet daily or as prescribed by the physician.\n**Film coated tablet**: The recommended dose in adults is 100 mg, twice daily.",
+    "interaction": "No significant drug interactions has not been observed but close monitoring of patients is required when it is used with:\n\n- **Lithium and Digoxin**: may increase plasma concentration of lithium and digoxin.\n- **Diuretics**: may interact the activity of diuretics.\n- **Anticoagulants**: may enhance the activity of anticoagulant.\n- **Methotrexate**: may increase the plasma level of methotrexate.",
+    "contraindications": "Aceclofenac is contraindicated in patients with known hypersensitivity to it or in whom aspirin or NSAIDs precipitate attacks of asthma.",
+    "side_effects": "Aceclofenac is a non-steroidal drug with anti-inflammatory and analgesic properties. It is a potent inhibitor of the enzyme cyclooxygenase, which is involved in the production of prostaglandin. After oral administration, it is rapidly and completely absorbed an unchanged drug.",
+    "pregnancy_cat": "The use of Aceclofenac should be avoided in pregnancy and lactation unless the potential benefits to the other outweigh the possible risks to the fetus.",
+    "precautions": "Caution should be exercised to patients with active or suspected peptic ulcer or gastro-intestinal bleeding moderate to severe hepatic impairment and cardiac or renal impairment. Caution should also be exercised in patients suffering from dizziness or urticaria.",
+    "pediatric_uses": "There are no clinical data on the use of Aceclofenac in children.",
+    "drug_classes": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "এসিক্লোফেনাক অস্টিওআর্থ্রাইটিস, রিউমাটয়েড আর্থ্রাইটিস, এ্যানকাইলোজিং স্পন্ডিলাইটিস, দাঁতে ব্যথা, আঘাত, লাম্বাগো-এর প্রদাহ ও ব্যথা নিরাময়ে নির্দেশিত।",
+    "mode_of_action": "এসিক্লোফেনাক একটি নন-স্টেরয়ডাল জাতীয় ঔষধ যার প্রদাহবিরোধী ও ব্যথানাশক কার্যকারিতা আছে। এটি সাইক্লোঅক্সিজিনেজ এনজাইমের একটি শক্তিশালী প্রতিবন্ধক যা প্রোস্ট্যাগ্ল্যান্ডিন তৈরীর সাথে জড়িত। মুখে সেবনের পর এটি দ্রুত ও সম্পূর্ণরুপে অপরিবর্তিত অবস্থায় পরিশোষিত হয়।",
+    "dosage": "**এক্সটেন্ডেড রিলিজ ট্যাবলেটে**: প্রাপ্তবয়স্কদের জন্য অনুমোদিত মাত্রা দৈনিক ১ টি ২০০ মিঃগ্রাঃ ট্যাবলেট অথবা চিকিৎসকের পরামর্শে ব্যবহার্য।\n\n**ফিল্ম কোটেড ট্যাবলেটে**: প্রাপ্তবয়স্কদের জন্য অনুমোদিত মাত্রা ১০০ মিঃগ্রাঃ করে দিনে ২ বার।",
+    "interaction": "উল্লেখযোগ্য কোন ঔষধের মিথষ্ক্রিয়া দেখা যায়নি। তবে-\n\n- লিথিয়াম ও ডিগক্সিন: লিথিয়াম ও ডিগক্সিনের প্লাজমা ঘনত্ব বৃদ্ধি করতে পারে।\n- ডাইইউরেটিক্স: ডাইইউরেটিক্সের সাথে মিথস্ক্রিয়া দেখা দিতে পারে।\n- এন্টিকোয়াগোলেন্ট: এন্টিকোয়াগোলেন্টের কার্যকারিতা বৃদ্ধি করতে পারে।\n- মিথোট্রিক্সেট: মিথোট্রিক্সেটের প্লাজমা ঘনত্ব বৃদ্ধি করতে পারে।",
+    "contraindications": "এসিক্লোফেনাকের প্রতি অতিসংবেদনশীলতায় এবং এসপিরিন বা NSAIDs ব্যবহারে যাদের এ্যাজমার লক্ষণ সমূহের বৃদ্ধি ঘটে তাদের ক্ষেত্রে এটি প্রতিনির্দেশিত।",
+    "side_effects": "পার্শ্ব প্রতিক্রিয়ার অধিকাংশই কম গুরুত্বপূর্ণ স্বভাবের এবং ক্ষণস্থায়ী। এইগুলো হলোঃ বদহজম, পেট ব্যথা, বমি বমি ভাব, ফুসকুরি এবং আর্টিক্যারিয়া।",
+    "pregnancy_cat": "প্রত্যাশিত সুবিধা, ভ্রূনের ঝুঁকির চেয়ে বেশী না হলে গর্ভাবস্থায় ও স্তন্যদানকালে এসিক্লোফেনাক ব্যবহারে বিরত থাকা উচিত।",
+    "precautions": "গ্যাস্ট্রিক আলসার আছে বা ধারণা করা হচ্ছে এমন সব রোগী বা গ্যাস্ট্রোইনটেস্টাইনাল ব্লিডিং আছে এমন রোগীদের ক্ষেত্রে এবং যেসব রোগীর লিভার এবং হৃদযন্ত্রীয় বা বৃক্কীয় সমস্যা আছে তাদের ক্ষেত্রে সতর্কতা অবলম্বন করা উচিত। মাথাঘোরা অথবা আর্টিক্যারিয়ায় আক্রান্ত রোগীদের ক্ষেত্রেও সতর্কতা অবলম্বন করা উচিত।",
+    "pediatric_uses": "বাচ্চাদের ক্ষেত্রে এসিক্লোফেনাক ব্যবহারের কোন ক্লিনিক্যাল তথ্য নেই।",
+    "drug_classes": "Drugs for Osteoarthritis, Drugs used for Rheumatoid Arthritis, Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/3/aceclofenac",
+  "source_url_bn": "https://medex.com.bd/generics/3/aceclofenac/bn",
+  "scraped_at": "2026-10-10T14:59:56+00:00"
+}

@@ -1,0 +1,365 @@
+{
+  "slug": "atenolol",
+  "name_en": "Atenolol",
+  "name_bn": "এটিনোলল",
+  "therapeutic_class": "Beta-adrenoceptor blocking drugs, Beta-blockers",
+  "dosage_forms": [
+    "AstraZeneca",
+    "Sanofi"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Anol",
+      "strength": "50 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/17973/anol-50-mg-tablet"
+    },
+    {
+      "name": "Anol",
+      "strength": "50 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/2469/anol-50-mg-tablet"
+    },
+    {
+      "name": "Anolol",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/30609/anolol-50-mg-tablet"
+    },
+    {
+      "name": "Anolol",
+      "strength": "100 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/30610/anolol-100-mg-tablet"
+    },
+    {
+      "name": "Apcard",
+      "strength": "50 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1062/apcard-50-mg-tablet"
+    },
+    {
+      "name": "Atebit",
+      "strength": "100 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/1063/atebit-100-mg-tablet"
+    },
+    {
+      "name": "Atebit",
+      "strength": "50 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1064/atebit-50-mg-tablet"
+    },
+    {
+      "name": "Atenol",
+      "strength": "100 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/17979/atenol-100-mg-tablet"
+    },
+    {
+      "name": "Atenol",
+      "strength": "50 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.80",
+      "url": "https://medex.com.bd/brands/2470/atenol-50-mg-tablet"
+    },
+    {
+      "name": "Atenolol",
+      "strength": "100 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/17957/atenolol-100-mg-tablet"
+    },
+    {
+      "name": "Atezen",
+      "strength": "100 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.37",
+      "url": "https://medex.com.bd/brands/1067/atezen-100-mg-tablet"
+    },
+    {
+      "name": "Atezen",
+      "strength": "50 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1068/atezen-50-mg-tablet"
+    },
+    {
+      "name": "Atin",
+      "strength": "50 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.76",
+      "url": "https://medex.com.bd/brands/1069/atin-50-mg-tablet"
+    },
+    {
+      "name": "Atol",
+      "strength": "100 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.37",
+      "url": "https://medex.com.bd/brands/17974/atol-100-mg-tablet"
+    },
+    {
+      "name": "Atol",
+      "strength": "50 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1071/atol-50-mg-tablet"
+    },
+    {
+      "name": "B-Card",
+      "strength": "50 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1072/b-card-50-mg-tablet"
+    },
+    {
+      "name": "Betanol",
+      "strength": "100 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 1.37",
+      "url": "https://medex.com.bd/brands/1073/betanol-100-mg-tablet"
+    },
+    {
+      "name": "Betanol",
+      "strength": "25 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 0.45",
+      "url": "https://medex.com.bd/brands/1074/betanol-25-mg-tablet"
+    },
+    {
+      "name": "Betanol",
+      "strength": "50 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1075/betanol-50-mg-tablet"
+    },
+    {
+      "name": "Betapress",
+      "strength": "50 mg",
+      "manufacturer": "Cipla Limited",
+      "price": "Unit Price : ৳ 0.68",
+      "url": "https://medex.com.bd/brands/1076/betapress-50-mg-tablet"
+    },
+    {
+      "name": "Betasec",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1077/betasec-50-mg-tablet"
+    },
+    {
+      "name": "Cardilock",
+      "strength": "50 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1079/cardilock-50-mg-tablet"
+    },
+    {
+      "name": "Cardisef",
+      "strength": "100 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.36",
+      "url": "https://medex.com.bd/brands/1083/cardisef-100-mg-tablet"
+    },
+    {
+      "name": "Cardisef",
+      "strength": "50 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1082/cardisef-50-mg-tablet"
+    },
+    {
+      "name": "Carsec",
+      "strength": "50 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1085/carsec-50-mg-tablet"
+    },
+    {
+      "name": "Carsec",
+      "strength": "100 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.35",
+      "url": "https://medex.com.bd/brands/1084/carsec-100-mg-tablet"
+    },
+    {
+      "name": "Enol",
+      "strength": "50 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1086/enol-50-mg-tablet"
+    },
+    {
+      "name": "Etnol",
+      "strength": "50 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 0.78",
+      "url": "https://medex.com.bd/brands/1087/etnol-50-mg-tablet"
+    },
+    {
+      "name": "Etnol",
+      "strength": "100 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/30613/etnol-100-mg-tablet"
+    },
+    {
+      "name": "Lonet",
+      "strength": "100 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.37",
+      "url": "https://medex.com.bd/brands/30614/lonet-100-mg-tablet"
+    },
+    {
+      "name": "Lonet",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/30615/lonet-50-mg-tablet"
+    },
+    {
+      "name": "Lopres",
+      "strength": "100 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.36",
+      "url": "https://medex.com.bd/brands/30616/lopres-100-mg-tablet"
+    },
+    {
+      "name": "Normaten",
+      "strength": "50 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.76",
+      "url": "https://medex.com.bd/brands/30617/normaten-50-mg-tablet"
+    },
+    {
+      "name": "Norpress",
+      "strength": "50 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1093/norpress-50-mg-tablet"
+    },
+    {
+      "name": "Norpress",
+      "strength": "100 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/28877/norpress-100-mg-tablet"
+    },
+    {
+      "name": "Precinol",
+      "strength": "50 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1095/precinol-50-mg-tablet"
+    },
+    {
+      "name": "Recard",
+      "strength": "50 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.78",
+      "url": "https://medex.com.bd/brands/17981/recard-50-mg-tablet"
+    },
+    {
+      "name": "Tenocard",
+      "strength": "50 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1096/tenocard-50-mg-tablet"
+    },
+    {
+      "name": "Tenoloc",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1098/tenoloc-50-mg-tablet"
+    },
+    {
+      "name": "Tenoloc",
+      "strength": "100 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.37",
+      "url": "https://medex.com.bd/brands/2471/tenoloc-100-mg-tablet"
+    },
+    {
+      "name": "Tenomin",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/28601/tenomin-50-mg-tablet"
+    },
+    {
+      "name": "Tenoren",
+      "strength": "25 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 0.45",
+      "url": "https://medex.com.bd/brands/1102/tenoren-25-mg-tablet"
+    },
+    {
+      "name": "Tenoren",
+      "strength": "100 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.38",
+      "url": "https://medex.com.bd/brands/1101/tenoren-100-mg-tablet"
+    },
+    {
+      "name": "Tenoren",
+      "strength": "50 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 0.77",
+      "url": "https://medex.com.bd/brands/1100/tenoren-50-mg-tablet"
+    },
+    {
+      "name": "Tenovir",
+      "strength": "50 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/1103/tenovir-50-mg-tablet"
+    },
+    {
+      "name": "Tensin",
+      "strength": "50 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 0.75",
+      "url": "https://medex.com.bd/brands/31582/tensin-50-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Atenolol is indicated-\n\n- In the management of hypertension. It may be used alone or concomitantly with other antihypertensive agents, particularly with a thiazide-type diuretic.\n- For the long-term management of patients with angina pectoris.\n- In the management of hemodynamically stable patients with defnite or suspected acute myocardial infarction to reduce cardiovascular mortality.",
+    "mode_of_action": "The synthesis of atenolol resulted from attempts to produce a β-adrenoceptor antagonist that would competitively block β1 (cardiac) receptors but have no effect on β2-receptors. It is classified as a β1 selective (cardioselective) β-adrenergic receptor antagonist with no membranestability activity and no partial agonist activity. It is markedly the most hydrophilic of the currently available β- blockers and thus penetrates the lipid of cell membranes poorly",
+    "dosage": "**Hypertension**: The initial dose of Atenolol is 50 mg given as one tablet a day either alone or added to diuretic therapy. The full effect of this dose will usually be seen within one to two weeks. If an optimal response is not achieved, the dosage should be increased to Atenolol 100 mg given as one tablet a day. Increasing the dosage beyond 100 mg a day is unlikely to produce any further benefit.\n\n**Angina Pectoris**: The initial dose of Atenolol is 50 mg given as one tablet a day. If an optimal response is not achieved within one week, the dosage should be increased to Atenolol 100 mg given as one tablet a day. Some patients may require a dosage of 200 mg once a day for optimal effect. Twenty-four hour control with once daily dosing is achieved by giving doses larger than necessary to achieve an immediate maximum effect. The maximum early effect on exercise tolerance occurs with doses of 50 to 100 mg, but at these doses the effect at 24 hours is attenuated, averaging about 50% to 75% of that observed with once a day oral doses of 200 mg.\n\n**Acute Myocardial Infarction**: In patients with definite or suspected acute myocardial infarction, treatment with Atenolol I.V. Injection should be initiated as soon as possible after the patient's arrival in the hospital and after eligibility is established. Treatment should begin with the intravenous administration of 5 mg Atenolol over 5 minutes followed by another 5 mg intravenous injection 10 minutes later. In patients who tolerate the full intravenous dose (10 mg), Atenolol Tablets 50 mg should be initiated 10 minutes after the last intravenous dose followed by another 50 mg oral dose 12 hours later. Thereafter, Atenolol can be given orally either 100 mg once daily or 50 mg twice a day for a further 6-9 days or until discharge from the hospital. If bradycardia or hypotension requiring treatment or any other untoward effects occur, Atenolol should be discontinued.",
+    "interaction": "- Catecholamine-depleting drugs (eg, reserpine) may have an additive effect when given with beta-blocking agents. Patients treated with Atenolol plus a catecholamine depletor should therefore be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension.\n- Calcium channel blockers may also have an additive effect when given with Atenolol.\n- Disopyramide is a Type I antiarrhythmic drug with potent negative inotropic and chronotropic effects. Disopyramide has been associated with severe bradycardia, asystole and heart failure when administered with beta blockers.\n- Amiodarone is an antiarrhythmic agent with negative chronotropic properties that may be additive to those seen with beta blockers.\n- Beta blockers may exacerbate the rebound hypertension which can follow the withdrawal of clonidine. If the two drugs are coadministered, the beta blocker should be withdrawn several days before the gradual withdrawal of clonidine. If replacing clonidine by beta-blocker therapy, the introduction of beta blockers should be delayed for several days after clonidine administration has stopped.\n- Concomitant use of prostaglandin synthase inhibiting drugs, eg, indomethacin, may decrease the hypotensive effects of beta blockers.\n- While taking beta blockers, patients with a history of anaphylactic reaction to a variety of allergens may have a more severe reaction on repeated challenge, either accidental, diagnostic or therapeutic. Such patients may be unresponsive to the usual doses of epinephrine used to treat the allergic reaction.\n- Both digitalis glycosides and beta-blockers slow atrioventricular conduction and decrease heart rate. Concomitant use can increase the risk of bradycardia.",
+    "contraindications": "Atenolol is contraindicated in-\n\n- Sinus bradycardia, heart block greater than first degree, cardiogenic shock, and overt cardiac failure.\n- Those patients with a history of hypersensitivity to the atenolol or any of the drug product’s components.",
+    "side_effects": "In a series of investigations in the treatment of acute myocardial infarction, bradycardia and hypotension occurred more commonly, as expected for any beta blocker. In addition, a variety of adverse efects has been reported with other beta-adrenergic blocking agents, and may be considered potential adverse efects of Atenolol.\n\n- **Hematologic**: Agranulocytosis.\n- **Allergic**: Fever, combined with aching and sore throat, laryngospasm, and respiratory distress.\n- **Central Nervous System**: Reversible mental depression progressing to catatonia; an acute reversible syndrome characterized by disorientation of time and place; short term memory loss; emotional lability with slightly clouded sensorium; and, decreased performance on neuropsychometrics.\n- **Gastrointestinal**: Mesenteric arterial thrombosis, ischemic colitis.\n- **Miscellaneous**: There have been reports of skin rashes and/or dry eyes associated with the use of beta-adrenergic blocking drugs. Discontinuance of the drug should be considered if any such reaction is not otherwise explicable. Patients should be closely monitored following cessation of therapy.\n- **Other**: Erythematous rash",
+    "pregnancy_cat": "Pregnancy Category D. Caution should be exercised when Atenolol is administered to a nursing woman. Clinically significant bradycardia has been reported in breast-fed infants. Premature infants, or infants with impaired renal function, may be more likely to develop adverse effects.",
+    "precautions": "General: Patients already on a beta blocker must be evaluated carefully before Atenolol is administered. Initial and subsequent Atenolol dosages can be adjusted downward depending on clinical observations including pulse and blood pressure. Atenolol may aggravate peripheral arterial circulatory disorders.\n\nImpaired Renal Function: The drug should be used with caution in patients with impaired renal function.\n\nGeriatric Use: \n\n- Hypertension and Angina Pectoris: Due to Coronary Atherosclerosis: Dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.\n- Acute Myocardial Infarction: Dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. Evaluation of patients with hypertension or myocardial infarction should always include assessment of renal function.",
+    "pediatric_uses": "Elderly Patients or Patients with Renal Impairment: Atenolol is excreted by the kidneys; consequently dosage should be adjusted in cases of severe impairment of renal function. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, refecting greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. The following maximum oral dosages are recommended for elderly, renal impaired patients and for patients with renal impairment due to other causes:\n\n- Creatinine clearance 15-35 ml/min/1.73 m2: Maximum dosage 50 mg daily\n- Creatinine clearance <15 mL/min/1.73 m2: Maximum dosage 25 mg daily\n\r\nSome renal impaired or elderly patients being treated for hypertension may require a lower starting dose of Atenolol: 25 mg given as one tablet a day. Patients on hemodialysis should be given 25 mg or 50 mg after each dialysis; this should be done under hospital supervision as marked falls in blood pressure can occur.",
+    "overdose_effects": "Overdosage with Atenolol has been reported with patients surviving acute doses as high as 5 g. One death was reported in a man who may have taken as much as 10 g acutely. The predominant symptoms reported following Atenolol overdose are lethargy, disorder of respiratory drive, wheezing, sinus pause and bradycardia. Additionally, common efects associated with overdosage of any beta-adrenergic blocking agent and which might also be expected in Atenolol overdose are congestive heart failure, hypotension, bronchospasm and/or hypoglycemia. Treatment of overdose should be directed to the removal of any unabsorbed drug by induced emesis, gastric lavage, or administration of activated charcoal. Atenolol can be removed from the general circulation by hemodialysis. Based on the severity of symptoms, management may require intensive support care and facilities for applying cardiac and respiratory support.",
+    "drug_classes": "Beta-adrenoceptor blocking drugs, Beta-blockers",
+    "storage_conditions": "Do not use later than the date of expiry. Keep all medicines out of the reach of children. To be dispensed only on the prescription of a registered physician."
+  },
+  "sections_bn": {
+    "indications": "এটিনোলল নিম্নেবর্ণিত উপসর্গে নির্দেশিত-\n\n- উচ্চরক্তচাপের ব্যবস্থাপনায়। এটি এককভাবে অথবা অন্যান্য উচ্চরক্তচাপ নিয়ন্ত্রনের ওষুধের সাথে যৌথভাবে, বিশেষ করে থায়াজাইড-টাইপ ডাইইউরেটিক সমূহের সাথে প্রয়ােগ করা যেতে পারে।\n- এ্যানজিনা পেক্‌টোরিস (হৃদপিণ্ডে অপর্যাপ্ত রক্ত সঞ্চালন জনিত বুকে তীব্র ব্যথা) রােগীর দীর্ঘমেয়াদী ব্যবস্থাপনায়।\n- যেসকল রােগীর শরীরে রক্ত প্রবাহ স্বাভাবিক বা স্থিতিশীল কিন্তু সুনির্দিষ্ট অথবা তীব্র মায়ােকার্ডিয়াল ইনফার্কশনের (হৃদপিণ্ডে অপর্যাপ্ত রক্ত সঞ্চালন জনিত কারণে হৃদপেশীর ধ্বংস হওয়ার) আশা রয়েছে তাদের হৃদরােগ সংক্রান্ত মৃত্যুহার কমানাের জন্য।",
+    "dosage": "**উচ্চ রক্তচাপ**: এটিনোলল এর প্রারম্ভিক মাত্রা হচ্ছে ৫০ মিগ্রা এর একটি ট্যাবলেট এককভাবে অথবা ডাইইউরেটিক থেরাপির সাথে যৌথভাবে দিনে একবার। এই মাত্রায় ওষুধটির কার্যকারিতা সম্পূর্ণভাবে চিকিৎসা শুরু করার এক থেকে দুই সপ্তাহের মধ্যে প্রতিয়মান হয়। যদি পর্যাপ্ত ফলাফল অর্জিত না হয় সেক্ষেত্রে এটিনোললের মাত্রা বৃদ্ধি করে দিনে ১০০ মিগ্রা এর একটি ট্যাবলেট প্রয়ােগ করা উচিত। তাছাড়া দৈনিক ১০০ মিগ্রা এর অধিক মাত্রা প্রয়ােগ করে অতিরিক্ত কোন সুফল পাওয়া যায়না। \n\n**এনজিনা পেক্‌টরিস (হৃদপিণ্ডে অপর্যাপ্ত রক্ত সঞ্চালন জনিত বুকে তীব্র ব্যথা)**: এটিনোলল এর প্রারম্ভিক মাত্রা হচ্ছে ৫০ মিগ্রা এর একটি ট্যাবলেট দিনে একবার। যদি এক সপ্তাহের মধ্যে পর্যাপ্ত ফলাফল অর্জিত না হয় তবে এটিনোললের মাত্রা বৃদ্ধি করে দিনে ১০০ মিগ্রা এর একটি ট্যাবলেট প্রয়ােগ করা উচিত। কিছু কিছু রােগীর ক্ষেত্রে পর্যাপ্ত ফলাফল অর্জনের জন্য দৈনিক ২০০ মিগ্রা পর্যন্ত মাত্রার প্রয়ােজন হতে পারে। তাৎক্ষনিক সর্বোচ্চ ফলাফল, যে মাত্রায় নিশ্চিত করা যায়, ২৪ ঘণ্টা ধরে ফলাফল নিশ্চিত করতে তার চাইতে অধিক মাত্রায় ওষুধ ব্যবহার করতে হবে। ৫০ থেকে ১০০ মিগ্রা মাত্রায় শারীরিক পরিশ্রমের সহনশীলতা সংক্রান্ত পরীক্ষায় সর্বাপেক্ষা দ্রুত ফলাফল অর্জিত হয়, কিন্তু এই মাত্রাগুলাের প্রভাব ২৪ ঘণ্টায় ধীরে ধীরে কমতে থাকে, যা গড়ে দৈনিক ২০০ মিগ্রা এর একক মাত্রায় ৫০% থেকে ৭৫% পর্যন্ত কমতে দেখা যায়।\n\n**এ্যাকিউট মায়ােকার্ডিয়াল ইনফার্কশন (হৃদপিন্ডে অপর্যাপ্ত রক্ত সঞ্চালন জনিত কারণে হৃদপেশীর তীব্র ভাবে ধ্বংস হওয়া)**: সুনির্দিষ্ট অথবা সন্দেহজনক এ্যাকিউট মায়ােকার্ডিয়াল ইনফার্কশনের রােগীকে হাসপাতালে ভর্তি করা এবং চিকিৎসা গ্রহণের উপযােগী হওয়ার পর যত দ্রুত সম্ভব এটিনোলল আইভি ইনজেকশন (ইঞ্জেকশন) দিয়ে চিকিৎসা শুরু করা উচিত। এটিনোলল ৫ মিগ্রা ইনজেকশন (ইঞ্জেকশন) ৫ মিনিট যাবৎ আন্তঃশিরায় প্রয়ােগ করে চিকিৎসা শুরুর ঠিক ১০ মিনিট পর অপর ৫ মিগ্রা ইনজেকশন প্রয়ােগ করা উচিত। যেসকল রােগীর ক্ষেত্রে আন্তঃশিরায় প্রয়ােগযােগ্য সম্পূর্ণ মাত্রা (১০ মিগ্রা)সহনশীল হয় তাদের জন্য সর্বশেষ ঐ মাত্রা প্রয়ােগের ১০ মিনিট পরে মুখে সেব্য এটিনোলল ৫০ মিগ্রা ট্যাবলেট প্রয়ােগ করতে হবে। পরবর্তী ১২ ঘণ্টা পরে আবারও মুখে সেব্য এটিনোলল ৫০ মিগ্রা প্রয়ােগ করতে হবে। তারপর, পরিবর্তী ৬ থেকে ৯ দিন অথবা রােগী যতদিন হাসপাতাল থেকে ছাড়া না পাচ্ছেন ততদিন মুখে সেব্য এটিনোলল ১০০ মিগ্রা ট্যাবলেট দৈনিক একবার অথবা ৫০ মিগ্রা ট্যাবলেট দৈনিক দুইবার সেবন করতে হবে। যদি এক্ষেত্রে স্বাভাবিকের চেয়ে কম হৃদস্পন্দন অথবা নিম্নরক্তচাপ দেখা যায় এবং তা চিকিৎসা করার প্রয়ােজন হয় অথবা অন্য কোন অবাঞ্ছিত প্রতিক্রিয়া দেখা যায় সেক্ষেত্রে এটিনোলল সেবন বন্ধ রাখতে হবে।",
+    "interaction": "যখন ক্যাটিকোলামাইন হ্রাসকারী ওষুধ (যেমন, রিসারপাইন) বিটা-ব্লকিং ওষুধের সাথে প্রয়ােগ করা হয় তখন একধরনের বিশেষায়িত প্রভাব পরিলক্ষিত হতে পারে। এজন্য এটিনোলল ও একটি ক্যাটিকোলামাইন হ্রাসকারক উপাদান একত্রে গ্রহণকারী রােগীর ক্ষেত্রে নিম্ন রক্তচাপ এবং অথবা সুনির্দিষ্ট ব্রাডিকার্ডিয়া (স্বাভাবিকের চেয়ে কম হৃদস্পন্দন) সৃষ্টি করতে পারে যার উপসর্গ গুলাে হচ্ছে- মাথাঘােরা, মূর্ছা অথবা পস্চু‌রাল হাইপােটেনশন (দেহের অবস্থানগত পরিবর্তনের কারণে নিম্ন রক্তচাপ)। তাই তাঁদেরকে নিবিড়ভাবে পর্যবেক্ষণ করা উচিত।\n\nযখন ক্যালসিয়াম চ্যানেল ব্লকারের এর সাথে এটিনোলল প্রয়ােগ করা তখনও একধরনের বিশেষায়িত প্রভাব পরিলক্ষিত হতে পারে।\n\nডাইসােপাইরামিড একটি শক্তিশালী নেগেটিভ ইনােট্রপিক এবং ক্রোনােট্রপিক প্রভাব সম্বলিত টাইপ ১ (প্রথম শ্রেণীর) এ্যান্টিএ্যারিদমিক (হৃদস্পন্দন স্বাভাবিককারী) ওষুধ। ডাইসােপাইরামিড যখন বিটা ব্লকার এর সাথে প্রয়ােগ করা হয় তখন এটি তীব্র ব্রাডিকার্ডিয়া (স্বাভাবিকের চেয়ে কম হৃদস্পন্দন), এ্যাসিস্টোল (ফ্যাট লাইন ইন ইসিজি) এবং হার্ট ফেইলুর ঘটতে পারে।\n\nএমিওডারন একটি নেগেটিভ ক্রোনােট্রপিক বৈশিষ্ট্য সম্বলিত এ্যান্টি এ্যারিদমিক এজেন্ট যা বিটা ব্লকার এর কার্যকারীতাকে বাড়িয়ে দিতে পারে।\n\nবিটা ব্লকার সমূহ উচ্চ রক্তচাপ এর পুনারাবৃত্তি আরাে জোরালাে করতে পারে যা ক্লোনিডিন প্রত্যাহার থেকে হতে পারে। যদি ওষুধ দুটি একত্রে প্রয়ােগ করা হয় তবে ক্লোনিডিন এর পর্যায়ক্রমিক প্রত্যাহারের কয়েক দিন পূর্বে বিটা ব্লকার প্রত্যাহার করা উচিত। যদি বিটা-ব্লকার থেরাপী দ্বারা ক্লোনিডিন প্রতিস্থাপন করা হয় তবে, ক্লোনিডিনের ব্যবহার বন্ধের কয়েক দিন পরে বিটা-ব্লকার এর সূচনা করা উচিত।\n\nপ্রােস্টাগ্লানডিন সিনথেসিস প্রশমনকারী ওষুধ যেমন ইনডােমিথাসিন এর সাথে বিটা-ব্লকার একত্রে প্রয়ােগ করলে বিটা-ব্লকার এর উচ্চরক্তচাপরােধী প্রভাব কমে যেতে পারে।\n\nযখন বিটা-ব্লকার প্রয়ােগ করা হয় তখন, হয় আকস্মিক, রােগ নির্ণয় সম্পর্কিত অথবা থেরাপিউটিক কারণে যেসমস্ত রােগীর বিভিন্ন এ্যালার্জেন দ্বারা এ্যানাফাইলেকটিক প্রতিক্রিয়ার পূর্ব অভিজ্ঞতা আছে তাদের আরাে তীব্র প্রতিক্রিয়ার পুনরাবৃত্তির সম্ভাবনা থাকে। এ ধরনের রােগীর সাধারণত এ্যালার্জি চিকিৎসার জন্য এপিনেফ্রিন জাতীয় যে ওষুধ ব্যবহার করা হয়, সে জাতীয় ওষুধে এ ক্ষেত্রে কার্যকর না ও হতে পারে।\n\nডিজিটালিস গ্লাইকোসাইড ও বিটা-ব্লকার এ্যাট্রিওভেন্ট্রিকুলার কন্ট্রাকশন ও হৃদস্পন্দনকে কমিয়ে দিতে পারে। একই সাথে ব্যবহারের ফলে ব্রাডিকার্ডিয়ার (স্বাভাবিকের কম হৃদস্পন্দন) ঝুঁকি বেড়ে যেতে পারে।",
+    "contraindications": "এটিনোল নিম্নেবর্ণিত ক্ষেত্রে নিষিদ্ধ -\n\n- সাইনাস ব্র্যাডিকার্ডিয়া, প্রথম ডিগ্রী অপেক্ষা অধিক ডিগ্রীর হার্ট ব্লক, কার্ডিওজেনিক শক্ এবং সুনির্দিষ্ট কার্ডিয়াক ফেইলুর।\n- এটিনােলল অথবা এর অন্য কোন উপাদানের প্রতি অতিসংবেদনশীলতা রয়েছে এমন রােগীদের ক্ষেত্রে।",
+    "side_effects": "যেকোন বিটা ব্লকার এর প্রত্যাশার মতােই, চিকিৎসাধীন অনেকগুলাে অনুসন্ধানে খুব সাধারণভাবে এ্যাকিউট মায়ােকার্ডিয়াল ইনফার্কশন, ব্রাডিকার্ডিয়া (স্বাভাবিকের চেয়ে কম হৃদস্পন্দন) এবং নিম্ন রক্তচাপ ঘটেছে। অধিকন্তু, অন্যান্য বিটা-এ্যাড্রেনার্জিক ব্লকিং উপাদানসমূহের যে বিভিন্ন বিরূপ প্রতিক্রিয়ার তথ্য পাওয়া গেছে এবং সে বিরূপ প্রতিক্রিয়াগুলােও এটিনোললের সম্ভাব্য বিরূপ প্রতিক্রিয়া বলে বিবেচনা করা যেতে পারে।\n\n- **রক্ত সম্বন্ধীয়**: রক্তে গ্র্যানুলােসাইটস্ এর পরিমাণ কমে যাওয়া।\n- **এলার্জিক**: জ্বর, এক সঙ্গে গলদাহ এবং ব্যথা, কণ্ঠনালীর শ্বাস-প্রশ্বাস সম্বন্ধীয় যন্ত্রণা।\n- **সেন্ট্রাল নার্ভাস সিস্টেম**: অস্থায়ী মানসিক বিষাদগ্রস্ততা যা ক্যাটাটোনিয়ার দিকে ধাবিত হয়। একটি তীব্র অস্থায়ী লক্ষণ যা স্থান ও কাল সম্পর্কে রােগীকে বিভ্রান্ত করে; স্বল্প সময়ের জন্য স্মৃতিশক্তি লােপ; মানসিক বাধ্যবাধকতা সাথে নিরানন্দময় অবস্থা এবং নিউরােসাইকোমেট্রিক্স (বুদ্ধিবৃত্তিক) কার্যকারীতা হ্রাস পাওয়া।\n- **গ্যাস্ট্রোইনটেস্টাইনাল**: মেসেন্টেরিক (মধ্যান্ত্রত্বক সম্বন্ধীয়) আর্টারিয়াল গ্রোম্বোসিস, ইসকিমিক কোলাইটিস (রক্তপ্রবাহ হ্রাস সংক্রান্ত কোলনের প্রদাহ)।\n- **অন্যান্য**: চামড়ার উপর হওয়া ছােট ছােট ফুসকুড়ির মত র‍্যাশ।\n- **বিবিধ**: বিটা-এ্যাড্রেনার্জিক ব্লকিং ওষুধ ব্যবহারে ত্বকের র‍্যাশ এবং/অথবা চোখ শুস্ক হয়ে যাওয়ার তথ্য পাওয়া গেছে। যদি প্রতিক্রিয়া অন্য কোন ভাবে নিয়ন্ত্রণ করা না যায় তবে ওষুধটি গ্রহণ থেকে বিরত থাকার বিষয়টি বিবেচনা করা উচিত। চিকিৎসা বন্ধের ক্ষেত্রে রােগীকে নিবিড়ভাবে পর্যবেক্ষণ করা উচিত।",
+    "pregnancy_cat": "প্রেগনেন্সি ক্যাটাগরি ডি (এটি গর্ভাবস্থায় সেবন নিষিদ্ধ)। স্তন্যদানকারী মায়ের ক্ষেত্রে এটিনোলল প্রয়ােগে সর্তকা অবলম্বন করা উচিত। এক্ষেত্রে দুগ্ধ গ্রহণকারী শিশুর মারাত্মক ব্রাডিকার্ডিয়া (স্বাভাবিকের চেয়ে কম হৃদস্পন্দন) হওয়ার তথ্য পাওয়া গেছে। অপরিনত ভাবে জন্ম নেওয়া শিশু অথবা কিডনীর কার্যকারিতার সমস্যা আছে এমন শিশুর ক্ষেত্রে বিরূপ প্রতিক্রিয়ার সম্ভাবনা আরও বেশি হতে পারে।",
+    "precautions": "সাধারণ: কোন একটি বিটা ব্লকার গ্রহণ করছে এমন রােগীর উপর এটিনোলল প্রয়ােগের পূর্বে অবশ্যই রােগীকে যত্নসহকারে পর্যবেক্ষণ করতে হবে। চিকিৎসা সম্পর্কিত পর্যবেক্ষণ যেমন- নাড়ির স্পন্দন এবং উচ্চ রক্তচাপ এর উপর ভিত্তি করে এটিনোললের প্রারম্ভিক এবং পরবর্তী মাত্রার নিম্নাভিমুখী সমন্বয় করতে হবে। এটিনোলল পার্শ্বিয় রক্ত নালীর রক্ত সংবহনের সমস্যার অবনতি ঘটাতে পারে।\n\nবৃক্কের অকার্যকারীতায়: রেনালের (যেসকল রােগীর বৃক্কের/ কিডনীর অকার্যকারীতার সমস্যা রয়েছে) কার্যকারীতার সমস্যার রােগীর ক্ষেত্রে ওষুধটি সর্তকতার সাথে প্রয়ােগ করা উচিত।\n\nবয়স্কদের ক্ষেত্রে ব্যবহার: \n\n- **করােনারী এ্যাথেরােস্কেরােসিসের কারণে সংঘঠিত উচ্চ রক্তচাপ এবং এনজিনা পেক্‌টরিস রােগীর ক্ষেত্রে**: বয়স্ক রােগীদের মাত্রা নির্ধারণের ক্ষেত্রে সর্তকতা অবলম্বন করা উচিত, স্বাভাবিকভাবে মাত্রা পরিসীমার সর্বনিম্ন মাত্রা দিয়ে চিকিৎসা শুরু করা উচিত, তাছাড়া মাত্রা নির্ধারণের ক্ষেত্রে রােগীর যকৃত/ লিভার, কিডনী/ বৃক্ক অথবা হৃদপিন্ডের কার্যকারিতা এবং রােগীর অন্যান্য রােগ অথবা রােগী অন্য যেসকল ওষুধ ব্যবহার করছেন। সে বিষয়গুলােও বিবেচনায় আনতে হবে\n- **এ্যাকিউট মায়ােকার্ডিয়াল ইনফার্কশন**: সাধারণত, বয়স্ক রােগীর মাত্রা নির্বাচনের ক্ষেত্রে সর্তকতা অবলম্বন করা উচিত এবং তা স্বাভাবিকভাবে মাত্রা পরিসীমার সর্বনিম্ন মাত্রা দিয়ে চিকিৎসা শুরু করা উচিত। তাছাড়া মাত্রা নির্ধারণের ক্ষেত্রে রােগীর যকৃত/লিভার, কিডনী/বৃক্ক অথবা হৃদপিণ্ডের কার্যকারিতা এবং রােগীর অন্যান্য রােগ অথবা রােগী অন্য যে সকল ওষুধ ব্যবহার করছেন সে বিষয়গুলােও বিবেচনায় আনতে হবে। উচ্চ রক্তচাপ অথবা মায়ােকার্ডিয়াল ইনফার্কশন এর রােগীদের মূল্যায়নের ক্ষেত্রে সর্বদা কিডনীর কার্যকারীতা পরিমাপ করা উচিত।",
+    "pediatric_uses": "বয়স্ক রােগী অথবা রেনাল ইমপেযইয়ারমেন্ট রােগীর ক্ষেত্রে (যে সকল রােগীর কিডনীর অকার্যকারীতার সমস্যা রয়েছে): এটিনোলল কিডনী দ্বারা নিঃসৃত হয়; তাই যেসকল রােগীর মারাত্মক কিডনীর অকার্যকারীতার সমস্যা রয়েছে তাদের ক্ষেত্রে ওষুধটির মাত্রা সমন্বয় করা উচিত। সাধারণত, বয়স্ক রােগীর মাত্রা নির্বাচনের ক্ষেত্রে সর্তকতা অবলম্বন করা উচিত এবং তা স্বাভাবিকভাবে মাত্রা পরিসীমার সর্বনিম্ন মাত্রা দিয়ে চিকিৎসা শুরু করা উচিত। তাছাড়া মাত্রা নির্ধারণের ক্ষেত্রে রােগীর লিভার, কিডনী অথবা হৃদপিণ্ডের কার্যকারিতা এবং রােগীর অন্যান্য রােগ অথবা রােগী অন্য যেসকল ওষুধ ব্যবহার করছেন সে বিষয়গুলােও বিবেচনায় আনতে হবে। বয়স্ক রােগী, যেসকল রােগীর কিডনীর অকার্যকারীতার সমস্যা রয়েছে এবং অন্য কোন কারণে যদি রােগীর কিডনীর অকার্যকারীতার সমস্যা থাকে সেক্ষেত্রে নির্দেশিত মুখে সেব্য সর্বোচ্চ মাত্রা নিম্নে বর্ণিত হলাে:\n\n- ক্রিয়েটিনিন ক্লিয়ারেন্স ১৬-২৭ মিলি/মিনিট/১.৭৩ বর্গ মিটার: সর্বোচ্চ মাত্রা দৈনিক ৫০ মিগ্রা\n- ক্রিয়েটিনিন ক্লিয়ারেন্স >১৫ মিলি/মিনিট/১.৭৩ বর্গ মিটার: সর্বোচ্চ মাত্রা দৈনিক ২৫ মিগ্রা\n\r\nকিছু রােগী যাদের বৃক্কের/কিডনীর অকার্যকারীতার সমস্যা রয়েছে অথবা বয়স্ক রােগী, তাদের ক্ষেত্রে উচ্চরক্তচাপের চিকিৎসার শুরুতে এটিনোললের প্রারম্ভিক মাত্রা কম হওয়া প্রয়ােজন: ২৫ মিগ্রা এর একটি ট্যাবলেট দিনে একবার। হেমােডায়ালাইসিসের রােগীদের প্রতি ডায়ালাইসিসের পর ২৫ মিগ্রা অথবা ৫০ মিগ্রা প্রয়ােগ করতে হবে। যেহেতু এক্ষেত্রে রক্তচাপ উল্লেখযােগ্য হারে কমে যাওয়ার সম্ভাবনা থাকে তাই রােগীকে হাসপাতালে চিকিৎসকের তত্ত্বাবধানে এই চিকিৎসা দিতে হবে।",
+    "overdose_effects": "এটিনোললের মাত্রাতিরিক্ততার তথ্য বিশ্লেষনে সর্বোচ্চ ৫ গ্রাম এটিনোলল সেবন সত্বেও রােগীর বেঁচে থাকার তথ্য পাওয়া গেছে। তবে তথ্য বিশ্লেষনে আরও একটি মৃত্যুর ঘটনা রয়েছে, সেক্ষেত্রে রােগী সর্বোচ্চ ১০ গ্রাম এটিনোলল সেবন করেছিলেন বরে ধারণা করা হয়। এটিনোললের সর্বোচ্চ মাত্রা প্রয়ােগের ফলে পাওয়া প্রধান উপসর্গগুলাে হলাে- আলস্য, শ্বাস-প্রশ্বাস চালনায় সমস্যা, শ্বাস প্রশ্বাসের সময় শোঁ-শোঁ শব্দ হওয়া, সাইনাস বন্ধ হয়ে যাওয়া এবং ব্রাডিকার্ডিয়া। অধিকন্তু, যেকোন বিটা-এ্যাড্রেনার্জিক ব্লকিং উপাদান এর সর্বোচ্চ মাত্রায় সাধারণ কিছু প্রভাব পরিলক্ষিত হয়েছে এবং এগুলােই এটিনোললের সর্বোচ্চ মাত্রার সম্ভাব্য প্রভাব যেমন- কনজেস্টিভ হার্ট ফেইলুর, নিম্ন রক্তচাপ, ব্রঙ্কোম্পাজম (শ্বাসনালীর সংকোচনকারী রােগ) এবং/অথবা রক্তে গ্লুকোজের পরিমান কমে যাওয়া। মাত্রাতিরিক্ততার চিকিৎসা- সরাসরি যেকোন পরিমান অশােষিত ওষুধ বমি বৃদ্ধি করা, গ্যাস্ট্রিক লাভেজ (পাকস্থিলি ধৌত করা) অথবা সক্রিয় চারকোল প্রয়ােগ করতে হবে। হেমােডায়ালাইসিসের মাধ্যমে সাধারণত রক্তসংবহন থেকে এটিনোললকে দূর করা যেতে পারে। উপসর্গের তীব্রতার উপর ভিত্তি করে, নিবিড় পরিচর্যার সহায়ক ব্যবস্থাপনার প্রয়ােজন হতে পারে এবং কার্ডিয়াক (হৃদস্পন্দন সম্পর্কিত) ও শ্বসনতন্ত্রের সহায়ক সুবিধাগুলাে প্রয়ােগ করতে হবে।",
+    "drug_classes": "Beta-adrenoceptor blocking drugs, Beta-blockers",
+    "storage_conditions": "মেয়াদ উত্তীর্ণের পর ব্যবহার করবেন না। সকল ওষুধ শিশুদের নাগালের বাইরে রাখুন। কেবলমাত্র রেজিস্টার্ড চিকিৎসকের ব্যবস্থাপত্র অনুযায়ী বিতরণযােগ্য।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/88/atenolol",
+  "source_url_bn": "https://medex.com.bd/generics/88/atenolol/bn",
+  "scraped_at": "2026-10-10T15:03:42+00:00"
+}

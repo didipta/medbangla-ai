@@ -1,0 +1,724 @@
+{
+  "slug": "losartan",
+  "name_en": "Losartan Potassium",
+  "name_bn": "লোসারটান পটাসিয়াম",
+  "therapeutic_class": "Angiotensin-ll receptor blocker",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Acusan",
+      "strength": "50 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/2696/acusan-50-mg-tablet"
+    },
+    {
+      "name": "Angilock",
+      "strength": "25 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2697/angilock-25-mg-tablet"
+    },
+    {
+      "name": "Angilock",
+      "strength": "100 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.03",
+      "url": "https://medex.com.bd/brands/2699/angilock-100-mg-tablet"
+    },
+    {
+      "name": "Angilock",
+      "strength": "50 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2698/angilock-50-mg-tablet"
+    },
+    {
+      "name": "Angitan",
+      "strength": "50 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/21829/angitan-50-mg-tablet"
+    },
+    {
+      "name": "Anin",
+      "strength": "50 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2700/anin-50-mg-tablet"
+    },
+    {
+      "name": "Anreb",
+      "strength": "50 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2702/anreb-50-mg-tablet"
+    },
+    {
+      "name": "Anreb",
+      "strength": "25 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/2701/anreb-25-mg-tablet"
+    },
+    {
+      "name": "Araten",
+      "strength": "50 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2703/araten-50-mg-tablet"
+    },
+    {
+      "name": "Arbilon",
+      "strength": "50 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33260/arbilon-50-mg-tablet"
+    },
+    {
+      "name": "Arbium",
+      "strength": "50 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2705/arbium-50-mg-tablet"
+    },
+    {
+      "name": "Arbium",
+      "strength": "100 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/2706/arbium-100-mg-tablet"
+    },
+    {
+      "name": "Arbium",
+      "strength": "25 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/38033/arbium-25-mg-tablet"
+    },
+    {
+      "name": "Cardisan",
+      "strength": "50 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2707/cardisan-50-mg-tablet"
+    },
+    {
+      "name": "Cardisan",
+      "strength": "100 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/34834/cardisan-100-mg-tablet"
+    },
+    {
+      "name": "Cardisan",
+      "strength": "25 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/36785/cardisan-25-mg-tablet"
+    },
+    {
+      "name": "Cardon",
+      "strength": "25 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2708/cardon-25-mg-tablet"
+    },
+    {
+      "name": "Cardon",
+      "strength": "50 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2709/cardon-50-mg-tablet"
+    },
+    {
+      "name": "Carlos",
+      "strength": "50 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33743/carlos-50-mg-tablet"
+    },
+    {
+      "name": "Cozaril",
+      "strength": "50 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.03",
+      "url": "https://medex.com.bd/brands/2710/cozaril-50-mg-tablet"
+    },
+    {
+      "name": "E-Tan",
+      "strength": "50 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/21833/e-tan-50-mg-tablet"
+    },
+    {
+      "name": "G-Losartan",
+      "strength": "50 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2712/g-losartan-50-mg-tablet"
+    },
+    {
+      "name": "G-Losartan",
+      "strength": "25 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/2711/g-losartan-25-mg-tablet"
+    },
+    {
+      "name": "Larb",
+      "strength": "100 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/2715/larb-100-mg-tablet"
+    },
+    {
+      "name": "Larb",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2714/larb-50-mg-tablet"
+    },
+    {
+      "name": "Larb",
+      "strength": "25 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/2713/larb-25-mg-tablet"
+    },
+    {
+      "name": "LK",
+      "strength": "50 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2717/lk-50-mg-tablet"
+    },
+    {
+      "name": "LK",
+      "strength": "25 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/2716/lk-25-mg-tablet"
+    },
+    {
+      "name": "Lok",
+      "strength": "50 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2718/lok-50-mg-tablet"
+    },
+    {
+      "name": "Lopo",
+      "strength": "25 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2721/lopo-25-mg-tablet"
+    },
+    {
+      "name": "Lopo",
+      "strength": "50 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2722/lopo-50-mg-tablet"
+    },
+    {
+      "name": "Lopos",
+      "strength": "50 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2724/lopos-50-mg-tablet"
+    },
+    {
+      "name": "Lopoten",
+      "strength": "50 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2727/lopoten-50-mg-tablet"
+    },
+    {
+      "name": "Lopoten",
+      "strength": "25 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/2726/lopoten-25-mg-tablet"
+    },
+    {
+      "name": "Loril",
+      "strength": "100 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21824/loril-100-mg-tablet"
+    },
+    {
+      "name": "Loril",
+      "strength": "50 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/21823/loril-50-mg-tablet"
+    },
+    {
+      "name": "Losa",
+      "strength": "25 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.51",
+      "url": "https://medex.com.bd/brands/27863/losa-25-mg-tablet"
+    },
+    {
+      "name": "Losa",
+      "strength": "50 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/2729/losa-50-mg-tablet"
+    },
+    {
+      "name": "Losacard",
+      "strength": "50 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/2731/losacard-50-mg-tablet"
+    },
+    {
+      "name": "Losacard",
+      "strength": "25 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/2730/losacard-25-mg-tablet"
+    },
+    {
+      "name": "Losacor",
+      "strength": "50 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2732/losacor-50-mg-tablet"
+    },
+    {
+      "name": "Losamax",
+      "strength": "50 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/21870/losamax-50-mg-tablet"
+    },
+    {
+      "name": "Losan",
+      "strength": "25 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2733/losan-25-mg-tablet"
+    },
+    {
+      "name": "Losan",
+      "strength": "50 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2734/losan-50-mg-tablet"
+    },
+    {
+      "name": "Losanil",
+      "strength": "50 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27265/losanil-50-mg-tablet"
+    },
+    {
+      "name": "Losap",
+      "strength": "50 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2735/losap-50-mg-tablet"
+    },
+    {
+      "name": "Losapot",
+      "strength": "50 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27790/losapot-50-mg-tablet"
+    },
+    {
+      "name": "Losapress",
+      "strength": "50 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/21827/losapress-50-mg-tablet"
+    },
+    {
+      "name": "Losapress",
+      "strength": "25 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.05",
+      "url": "https://medex.com.bd/brands/21826/losapress-25-mg-tablet"
+    },
+    {
+      "name": "Losar",
+      "strength": "50 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2736/losar-50-mg-tablet"
+    },
+    {
+      "name": "Losarcar",
+      "strength": "25 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/2737/losarcar-25-mg-tablet"
+    },
+    {
+      "name": "Losarcar",
+      "strength": "50 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2738/losarcar-50-mg-tablet"
+    },
+    {
+      "name": "Losardil",
+      "strength": "100 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 12.05",
+      "url": "https://medex.com.bd/brands/2741/losardil-100-mg-tablet"
+    },
+    {
+      "name": "Losardil",
+      "strength": "25 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 4.55",
+      "url": "https://medex.com.bd/brands/2739/losardil-25-mg-tablet"
+    },
+    {
+      "name": "Losardil",
+      "strength": "50 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.05",
+      "url": "https://medex.com.bd/brands/2740/losardil-50-mg-tablet"
+    },
+    {
+      "name": "Losark",
+      "strength": "50 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32538/losark-50-mg-tablet"
+    },
+    {
+      "name": "Losaron",
+      "strength": "50 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2742/losaron-50-mg-tablet"
+    },
+    {
+      "name": "Losarpex",
+      "strength": "50 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2744/losarpex-50-mg-tablet"
+    },
+    {
+      "name": "Losart",
+      "strength": "25 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2745/losart-25-mg-tablet"
+    },
+    {
+      "name": "Losart",
+      "strength": "50 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2746/losart-50-mg-tablet"
+    },
+    {
+      "name": "Losart-P",
+      "strength": "50 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31479/losart-p-50-mg-tablet"
+    },
+    {
+      "name": "Losartium",
+      "strength": "50 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/27809/losartium-50-mg-tablet"
+    },
+    {
+      "name": "Losarva",
+      "strength": "25 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/17222/losarva-25-mg-tablet"
+    },
+    {
+      "name": "Losarva",
+      "strength": "50 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/17223/losarva-50-mg-tablet"
+    },
+    {
+      "name": "Losatan",
+      "strength": "50 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2749/losatan-50-mg-tablet"
+    },
+    {
+      "name": "Losatan",
+      "strength": "25 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/2748/losatan-25-mg-tablet"
+    },
+    {
+      "name": "Losium",
+      "strength": "50 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/2751/losium-50-mg-tablet"
+    },
+    {
+      "name": "Lospil",
+      "strength": "50 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2752/lospil-50-mg-tablet"
+    },
+    {
+      "name": "Lospre",
+      "strength": "50 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2753/lospre-50-mg-tablet"
+    },
+    {
+      "name": "Lotas",
+      "strength": "50 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.69",
+      "url": "https://medex.com.bd/brands/28044/lotas-50-mg-tablet"
+    },
+    {
+      "name": "Osartan",
+      "strength": "50 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2756/osartan-50-mg-tablet"
+    },
+    {
+      "name": "Osartek",
+      "strength": "50 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2758/osartek-50-mg-tablet"
+    },
+    {
+      "name": "Osartek",
+      "strength": "25 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/2757/osartek-25-mg-tablet"
+    },
+    {
+      "name": "Osartil",
+      "strength": "100 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/2761/osartil-100-mg-tablet"
+    },
+    {
+      "name": "Osartil",
+      "strength": "50 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2760/osartil-50-mg-tablet"
+    },
+    {
+      "name": "Osartil",
+      "strength": "25 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2759/osartil-25-mg-tablet"
+    },
+    {
+      "name": "Ostan",
+      "strength": "25 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/26641/ostan-25-mg-tablet"
+    },
+    {
+      "name": "Ostan",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26642/ostan-50-mg-tablet"
+    },
+    {
+      "name": "Parten",
+      "strength": "50 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.03",
+      "url": "https://medex.com.bd/brands/2765/parten-50-mg-tablet"
+    },
+    {
+      "name": "Pertilos",
+      "strength": "50 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/21844/pertilos-50-mg-tablet"
+    },
+    {
+      "name": "Precon",
+      "strength": "50 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/21855/precon-50-mg-tablet"
+    },
+    {
+      "name": "Preslow",
+      "strength": "25 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/21838/preslow-25-mg-tablet"
+    },
+    {
+      "name": "Preslow",
+      "strength": "50 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/21839/preslow-50-mg-tablet"
+    },
+    {
+      "name": "Prosan",
+      "strength": "50 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2767/prosan-50-mg-tablet"
+    },
+    {
+      "name": "Prosan",
+      "strength": "25 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/2766/prosan-25-mg-tablet"
+    },
+    {
+      "name": "Renosart",
+      "strength": "50 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/21840/renosart-50-mg-tablet"
+    },
+    {
+      "name": "RePACE",
+      "strength": "50 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/2771/repace-50-mg-tablet"
+    },
+    {
+      "name": "RePACE",
+      "strength": "25 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 4.51",
+      "url": "https://medex.com.bd/brands/2770/repace-25-mg-tablet"
+    },
+    {
+      "name": "SB-Losak",
+      "strength": "50 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/21862/sb-losak-50-mg-tablet"
+    },
+    {
+      "name": "SB-Losak",
+      "strength": "25 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/21861/sb-losak-25-mg-tablet"
+    },
+    {
+      "name": "Solsartin",
+      "strength": "50 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/38982/solsartin-50-mg-tablet"
+    },
+    {
+      "name": "Tanpot",
+      "strength": "100 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27214/tanpot-100-mg-tablet"
+    },
+    {
+      "name": "Tanpot",
+      "strength": "50 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.44",
+      "url": "https://medex.com.bd/brands/27212/tanpot-50-mg-tablet"
+    },
+    {
+      "name": "Tanpot",
+      "strength": "25 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/27211/tanpot-25-mg-tablet"
+    },
+    {
+      "name": "Taran",
+      "strength": "50 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/2774/taran-50-mg-tablet"
+    },
+    {
+      "name": "Usapa",
+      "strength": "25 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/34998/usapa-25-mg-tablet"
+    },
+    {
+      "name": "Usapa",
+      "strength": "50 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/34999/usapa-50-mg-tablet"
+    },
+    {
+      "name": "Xelotan",
+      "strength": "50 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2775/xelotan-50-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "**Hypertension**: Losartan Potassium tablet is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents (eg. thiazide diuretics). \n\n**Renal Protection in Type-2 Diabetic Patients with Proteinuria**: Losartan Potassium tablet is indicated to delay the progression of renal disease in hypertensive type-2 diabetics with proteinuria, defined as urinary albumin to creatinine ratio >300 mg/g.",
+    "mode_of_action": "Losartan Potassium is the first non-peptide orally active angiotensin II receptor blocker. It binds to the AT1 receptor found in many tissues (e.g. vascular smooth muscle, adrenal gland, kidneys and the heart) and reduces several important biological actions including vasoconstriction and the release of aldosterone responsible for hypertension.",
+    "dosage": "The usual starting and maintenance dose is 50 mg once daily for most patients. If the antihypertensive effect using 50 mg once daily is inadequate, 25 mg twice daily is recommended prior to increasing the dose. For patients with intravascular volume-depletion (e.g., those treated with high-dose diuretics), a starting dose of 25 mg once daily should be considered. Losartan Potassium can be administered once or twice daily. The total daily dose ranges from 25 mg to 100 mg.\n\n**Patients upto 75 years**: No initial dosage adjustment is necessary for this group of patients.\n\n**Patients over 75 years**: Presently there is limited clinical experience in this group; a lower starting dose of 25 mg once daily is recommended.",
+    "interaction": "Rifampicin and fluconazole reduce levels of active metabolite of Losartan Potassium. Concomitant use of Losartan Potassium and hydrochlorothiazide may lead to potentiation of the antihypertensive effects. Concomitant use of potassium-sparing diuretics (eg, spironolactone, triamterene, amiloride), potassium supplements or salt substitutes containing potassium may lead to increases in serum potassium. The antihypertensive effect of losartan may be attenuated by the non-steroidal anti-inflammatory drug indomethacin. The use of ACE-inhibitor, angiotensin receptor antagonist, an anti-inflammatory drug and a thiazide diuretic at the same time increases the risk of renal impairment.",
+    "contraindications": "Losartan Potassium is contraindicated in pregnant women and in patients who are hypersensitive to any component of this product. Losartan Potassium should not be administered with Aliskiren in patients with diabetes.",
+    "side_effects": "The side effects with the use of Losartan Potassium are mild and transient in nature. The most common side effects are dizziness, diarrhea, nasal congestion, cough, upper respiratory infection. Other side effects are fatigue, oedema, abdominal pain, chest pain, nausea, headache & pharyngitis.",
+    "pregnancy_cat": "Pregnancy Category D. The risk to the fetus increases if Losartan Potassium is administered during the second or third trimesters of pregnancy. It is not known whether Losartan Potassium is excreted in human milk, as many drugs are excreted in human milk and because of the potential for adverse effects on the nursing infant, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother.",
+    "precautions": "Use of Losartan Potassium during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. In patients who are intravascularly volume-depleted (e.g., those treated with high-dose diuretics), symptomatic hypotension may occur. Plasma concentration of Losartan Potassium is significantly increased in cirrhotic patients. Changes in renal function including renal failure have been reported in renal impaired patient.",
+    "pediatric_uses": "**Use in renal impairment**: No initial dosage adjustment is necessary in patients with mild renal impairment (i.e. creatinine clearance 20-50 ml/min). For patients with moderate to severe renal impairment (i.e. creatinine clearance <20 ml/min) or patients on dialysis, a lower starting dose of 25 mg (one Araten-50 tablet) once daily is recommended. Use in patients with intravascular volume depletion: For the very small proportion of patients who have intravascular volume depletion (e.g. those treated with high-dose diuretics), a starting dose of 25 mg (one Araten-50 tablet) once daily is recommended.\n\n**Use in hepatic impairment**: A lower dose should be considered for patients with a history of hepatic impairment. Araten may be administered with other antihypertensive agents. Araten may be administered with or without food.Contra-indications, warnings, etc. Contra-indications: Losartan is contra-indicated in pregnancy and in patients who are hypersensitive to losartan. Warnings: Based on pharmacokinetic data which demonstrate significantly increased plasma concentrations of losartan in cirrhotic patients, a lower dose should be considered for patients with a history of hepatic impairment. Other drugs that affect the renin-angiotensin-aldosterone system may increase blood urea and serum creatinine in patients with bilateral renal artery stenosis of the artery to a solitary kidney. Similar effects have been reported with losartan; these changes in renal function may be reversible upon discontinuation of therapy. Losartan should not be used with potassium-sparing diuretics.",
+    "drug_classes": "Angiotensin-ll receptor blocker",
+    "storage_conditions": "keep in a dry place away from light and heat. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "**উচ্চরক্তচাপ**: লোসারটান পটাশিয়াম উচ্চরক্তচাপের চিকিৎসায় নির্দেশিত। এটা এককভাবে অথবা যৌথভাবে অন্যান্য উচ্চরক্তচাপরোধী ঔষধের (যেমন থায়াজাইড ডাইইউরেটিক) সাথে ব্যবহার করা যেতে পারে।\n\n**প্রোটিন ইউরিয়াসহ টাইপ-২ ডায়াবেটিস রোগীর কিডনী সুরক্ষা**: লোসারটান পটাশিয়াম প্রোটিন ইউরিয়া যখন মূত্রের এলবুমিন ও ক্রিয়েটিনিন এর অনুপাত ৩০০ মিঃগ্রাঃ/গ্রাম এর বেশী থাকে এমন টাইপ-২ ডায়াবেটিস রোগীর কিডনী রোগের বিস্তার দীর্ঘায়িত করার জন্য নির্দেশিত।",
+    "mode_of_action": "লোসারটান পটাশিয়াম একটি মুখে সক্রিয় প্রথম নন-পেপ্টাইড এনজিওটেনসিন II রিসিপ্টর ব্লকার। এটা অনেক টিস্যুর (যেমনঃ রক্ত নালীর মৃসণ পেশী, এডরেনাল গ্লান্ড, বৃক্ক ও হৃৎপিন্ড) AT1 রিসিপ্টরের সাথে যুক্ত হয় এবং কতকগুলো জৈবিক ক্রিয়া বিশেষ করে রক্ত নালীর সংকোচন এবং এলডোসটেরন নিঃসরণ কমিয়ে দেয় যা উচ্চ রক্তচাপের জন্য দায়ী।",
+    "dosage": "সাধারণত বেশীর ভাগ রোগীর ক্ষেত্রে প্রাথমিক ও নিয়ন্ত্রিত মাত্রা ৫০ মিঃগ্রাঃ দিনে একবার। যদি ৫০ মিঃগ্রাঃ দিনে একবার ব্যবহার করে রক্তচাপ নিয়ন্ত্রিত না হয় তবে মাত্রা বাড়ানোর পূর্বে ২৫ মিঃগ্রাঃ দিনে দুইবার অনুমোদিত। যে সমস্ত রোগীর ইন্ট্রাভাস্কুলার ভলিউম কম (যেমনঃ উচ্চ মাত্রায় ডাইইউরেটিক ব্যবহার করেছে এমন) তাদের জন্য প্রাথমিক মাত্রা হল ২৫ মিঃগ্রাঃ দিনে একবার। লোসারটান পটাশিয়াম দিনে একবার বা দুইবার ব্যবহার করা যেতে পারে। দিনের সর্বোচ্চ মাত্রা ২৫ মিঃগ্রাঃ থেকে ১০০ মিঃগ্রাঃ।",
+    "interaction": "রিফামপিসিন ও ফ্লুকোনাজল লোসারটান পটাশিয়ামের সক্রিয় মেটাবোলাইট কমিয়ে দেয়। একই সাথে লোসারটান পটাশিয়াম ও হাইড্রোক্লোরোথায়াজাইড ব্যবহার করলে রক্তচাপ কমানোর ক্ষমতা বেড়ে যায়। একই সাথে পটাশিয়াম স্পারিং ডাইইউরেটিক (যেমনঃ স্পাইরোনোল্যাকটন, ট্রাইএ্যামটেরিন, এমিলোরাইড), পটাশিয়াম সাপ্লিমেন্ট বা যে সমস্ত যৌগের মধ্যে পটাশিয়াম আছে সে গুলো সিরাম পটাশিয়ামকে বাড়িয়ে দেয়। লোসারটানের সাথে ননস্টেরয়ডাল এন্টিইনফ্লামেটরী ড্রাগ ইনডোমিথাসিন ব্যবহার করলে উচ্চরক্তচাপ কমানোর ক্ষমতা কমে যায়। একই সাথে ACE ইনহিবিটর, এনজিওটেনসিন রিসিপ্টর এন্টাগোনিষ্ট, ননস্টেরয়ডাল এন্টিইনফ্লামেটরী ড্রাগ এবং থায়াজাইড ডাইইউরেটিক ব্যবহার করলে বৃক্কের অকার্যকারিতা হওয়ার ঝুঁকি বেড়ে যায়।",
+    "contraindications": "লোসারটান পটাশিয়াম গর্ভবতী মহিলা ও যে সমস্ত রোগীর লোসারটান পটাশিয়াম বা এর অন্য কোন উপাদানের প্রতি অতিসংবেদনশীলতা রয়েছে তাদের ক্ষেত্রে এটি প্রতিনির্দেশিত। যে সমস্ত রোগীদের ডায়াবেটিস আছে তাদের ক্ষেত্রে এলিসকিরেন এর সাথে যৌথ ভাবে ব্যবহার করা উচিত নয়।",
+    "side_effects": "লোসারটান পটাশিয়াম জনিত পার্শ্ব প্রতিক্রিয়ার প্রকৃতি মৃদু ও ক্ষণস্থায়ী। যে সব পার্শ্ব প্রতিক্রিয়া সবচেয়ে বেশী দেখা যায় সেগুলো হলঃ ঝিঁমুনি, ডায়রিয়া, নাক বন্ধ হয়ে যাওয়া, সর্দি, উচ্চ শ্বাসনালীর সংক্রমণ। অন্যান্য পার্শ্ব প্রতিক্রিয়া গুলো হল দূর্বলতা, ফুলে যাওয়া, পেটের ব্যথা, বুকের ব্যথা, বমি বমি ভাব, মাথা ব্যথা এবং ফ্যারিংজাইটিস।",
+    "pregnancy_cat": "প্রেগন্যান্সি ক্যাটাগরী 'D'। গর্ভবস্থায় দ্বিতীয় ও তৃতীয় ট্রাইমেস্টারে লোসারটান পটাশিয়াম ব্যবহার করলে নবজাতকের ঝুঁকি বেড়ে যায়। মাতৃদুগ্ধের সাথে লোসারটান পটাশিয়াম নিঃসৃত হয় কিনা জানা যায়নি, যেহেতু অনেক ঔষধ মাতৃদুগ্ধের সাথে নিঃসৃত হয় এবং দুগ্ধপোষ্য শিশুর উপর বিরূপ প্রতিক্রিয়া হওয়ার সম্ভাবনা থাকার কারণে মায়ের উপর ঔষধের গুরুত্ব বিবেচনা করে স্তন্যদান বন্ধ করতে হবে অথবা ঔষধের ব্যবহার বন্ধ করতে হবে।",
+    "precautions": "গর্ভাবস্থায় দ্বিতীয় ও তৃতীয় ট্রাইমেস্টারে লোসারটান পটাশিয়াম ব্যবহার করলে নবজাতকের বৃক্কীয় কার্যকারিতা মারাত্বকভাবে কমে যায় এবং নবজাতক ও Fetus নষ্ট বা মৃত্যু হার বেড়ে যায়। যে সকল রোগীর ইন্ট্রাভাস্কুলার ভলিউম কম (যেমনঃ উচ্চ মাত্রায় ডাইইউরেটিক ব্যবহার করেছে এমন) তাদের লক্ষণ জনিত নিম্নরক্তচাপ হতে পারে। সিরোটিক রোগীর ক্ষেত্রে লোসারটান পটাশিয়ামের রক্ত রস ঘনত্ব উলে­খযোগ্য হারে বৃদ্ধি পায়। বৃক্কীয় অকার্যকরী রোগীর ক্ষেত্রে অকার্যকারিতা বেড়ে যেতে পারে বা বৃক্ক বিকল হতে পারে।",
+    "drug_classes": "Angiotensin-ll receptor blocker",
+    "storage_conditions": "আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/699/losartan-potassium",
+  "source_url_bn": "https://medex.com.bd/generics/699/losartan-potassium/bn",
+  "scraped_at": "2026-10-10T15:03:18+00:00"
+}

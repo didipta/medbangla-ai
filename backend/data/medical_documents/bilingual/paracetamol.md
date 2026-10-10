@@ -1,0 +1,311 @@
+# Paracetamol / প্যারাসিটামল
+
+- **Generic Name (EN)**: Paracetamol
+- **Generic Name (BN)**: প্যারাসিটামল
+- **Therapeutic Class**: Non-Opioid Analgesics
+- **Available Dosage Forms**: Tablet, Suppository, Suspension
+- **Source (English)**: https://medex.com.bd/generics/860/paracetamol
+- **Source (বাংলা)**: https://medex.com.bd/generics/860/paracetamol/bn
+- **Retrieved At (UTC)**: 2026-10-10T14:59:51+00:00
+
+> **Medical Disclaimer / চিকিৎসীয় সতর্কতা**:
+> This document provides clinical reference information in English and Bengali.
+> এটি বাংলা এবং ইংরেজি ভাষায় রেফারেন্স তথ্য। চিকিৎসকের পরামর্শ ছাড়া কোনো ঔষধ সেবন করবেন না।
+
+---
+
+## Indications / নির্দেশনা
+
+### English:
+Paracetamol is indicated for fever, common cold and influenza, headache, toothache, earache, bodyache, myalgia, neuralgia, dysmenorrhoea, sprains, colic pain, back pain, post-operative pain, postpartum pain, inflammatory pain and post vaccination pain in children. It is also indicated for rheumatic & osteoarthritic pain and stiffness of joints.
+
+### বাংলা (Bengali):
+প্যারাসিটামল জ্বর, সর্দি জ্বর, ইনফ্লুয়েঞ্জা, মাথা ব্যথা, দাঁতে ব্যথা, কানে ব্যথা, শরীর ব্যথা, স্নায়ু প্রদাহজনিত ব্যথা, ঋতুস্রাবজনিত ব্যথা, মচ্কে যাওয়া ব্যথা, অন্ত্রে ব্যথা, পিঠে ব্যথা, অস্ত্রোপচার পরবর্তী ব্যথা, প্রসব পরবর্তী ব্যথা, প্রদাহজনিত ব্যথা এবং শিশুদের টিকা পরবর্তী ব্যথায় কার্যকরী। এটি বাতজনিত ও অস্টিওআর্থ্রাইটিসজনিত ব্যথা এবং অস্থিসংযোগ সমূহের অনমনীয়তায় কার্যকরী।
+
+---
+
+## Pharmacology & Mode of Action / ফার্মাকোলজি ও কার্যপদ্ধতি
+
+### English:
+Paracetamol exhibits analgesic action by peripheral blockage of pain impulse generation. It produces antipyresis by inhibiting the hypothalamic heat-regulating centre. Its weak anti-inflammatory activity is related to inhibition of prostaglandin synthesis in the CNS.
+
+Paracetamol (Acetaminophen) is thought to act primarily in the CNS, increasing the pain threshold by inhibiting both isoforms of cyclooxygenase, COX-1, COX-2, and COX-3 enzymes involved in prostaglandin (PG) synthesis. Unlike NSAIDs, acetaminophen does not inhibit cyclooxygenase in peripheral tissues and, thus, has no peripheral anti-inflammatory affects. While aspirin acts as an irreversible inhibitor of COX and directly blocks the enzyme's active site, studies have found that acetaminophen indirectly blocks COX, and that this blockade is ineffective in the presence of peroxides. This might explain why acetaminophen is effective in the central nervous system and in endothelial cells but not in platelets and immune cells which have high levels of peroxides. Studies also report data suggesting that acetaminophen selectively blocks a variant of the COX enzyme that is different from the known variants COX-1 and COX-2. This enzyme is now referred to as COX-3. Its exact mechanism of action is still poorly understood, but future research may provide further insight into how it works. The antipyretic properties of acetaminophen are likely due to direct effects on the heat-regulating centres of the hypothalamus resulting in peripheral vasodilation, sweating and hence heat
+
+### বাংলা (Bengali):
+প্যারাসিটামলের ব্যথানাশক এবং জ্বর উপশমক গুণাবলীর সাথে কিছুটা প্রদাহবিরোধী কার্যকারিতাও রয়েছে। প্যারাসিটামল (অ্যাসিটামিনোফেন) প্রাথমিকভাবে সিএনএসে কাজ করে বলে মনে করা হয়, ইহা প্রোস্টাগ্ল্যান্ডিন এর সিনথেসিস কে ইনহিবিট করার মাধ্যমে COX-1, COX-2, and COX-3 এনজাইম এর সিনথেসিস কে ইনহিবিট করে। প্যারাসিটামল একটি প্যারা এমিনোফেনল ডেরিভেটিভ, যার ব্যথানাশক এবং জ্বর উপশমক গুণাবলীর সাথে কিছুটা প্রদাহ বিরোধী কার্যকারিতা রয়েছে। প্যারাসিটামল সর্বাপেক্ষা বেশি ব্যবহৃত এবং সর্বাপেক্ষা নিরাপদ ও দ্রূত কার্যকরী ব্যথানাশকদের একটি। এটি অধিক সহনশীল ও এসপিরিনজনিত অনেক পার্শ্ব প্রতিক্রিয়ামুক্ত।
+
+---
+
+## Dosage & Administration / মাত্রা ও সেবনবিধি
+
+### English:
+**Tablet**:
+
+- Adult: 1-2 tablets every 4 to 6 hours up to a maximum of 4 gm (8 tablets) daily.
+- Children (6-12 years): ½ to 1 tablet 3 to 4 times daily. For long term treatment it is wise not to exceed the dose beyond 2.6 gm/day.
+
+**Extended Release Tablet**:
+
+- Adults & Children over 12 years: Two tablets, swallowed whole, every 6 to 8 hours (maximum of 6 tablets in any 24 hours).The tablet must not be crushed.
+
+**Syrup/Suspension**:
+
+- Children under 3 months: 10 mg/kg body weight (reduce to 5 mg/kg if jaundiced) 3 to 4 times daily.
+- 3 months to below 1 year: ½ to 1 teaspoonful 3 to 4 times daily.
+- 1-5 years: 1-2 teaspoonful 3 to 4 times daily.
+- 6-12 years: 2-4 teaspoonful 3 to 4 times daily.
+- Adults: 4-8 teaspoonful 3 to 4 times daily.
+
+**Suppository**:
+
+- Children 3-12 months: 60-120 mg,4 times daily.
+- Children 1-5 years: 125-250 mg 4 times daily.
+- Children 6-12 years: 250-500 mg 4 times daily.
+- Adults & children over 12 years: 0.5-1 gm 4 times daily.
+
+**Paediatric Drop**:
+
+- Children Upto 3 months: 0.5 ml (40 mg)
+- 4 to 11 months: 1.0 ml (80 mg)
+- 7 to 2 years: 1.5 ml (120 mg). Do not exceed more than 5 dose daily for a maximum of 5 days.
+
+**Tablet with actizorb technology**: It dissolves up to five times faster than standard Paracetamol tablets. It is a fast acting and safe analgesic with marked antipyretic property. It is specially suitable for patients who, for any reason, can not tolerate aspirin or other analgesics. 
+
+- Adults and children (aged 12 years and over): Take 1 to 2 Tablets every four to six hours as needed. Do not take more than 8 caplets in 24 hours.
+- Children (7 to 11 years): Take ½-1 Tablet every four to six hours as needed. Do not take more than 4 caplets in 24 hours. Not recommended in children under 7 years.
+
+**IV Infusion**:
+
+- Adults and adolescents weighing 50 kg and over: the recommended dosage of Paracetamol IV is 1000 mg every 6 hours or 650 mg every 4 hours, with a maximum single dose of Paracetamol IV of 1000 mg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 4000 mg per day.
+- Adults and adolescents weighing under 50 kg: the recommended dosage of Paracetamol IV is 15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours, with a maximum single dose of Paracetamol IV of 15 mg/kg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 75 mg/kg per day.
+- Children >2 to 12 years of age: the recommended dosage of Paracetamol IV is 15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours, with a maximum single dose of Paracetamol IV of 15 mg/kg, a minimum dosing interval of 4 hours, and a maximum daily dose of Paracetamol of 75 mg/kg per day.
+
+### বাংলা (Bengali):
+ট্যাবলেট :
+
+- **প্রাপ্ত বয়স্ক**: ১-২ টি ট্যাবলেট ৪-৬ ঘন্টা পর পর দিনে সর্বোচ্চ ৮ টি ট্যাবলেট।
+- **শিশু (৬-১২ বছর)**: আধা থেকে ১টি দিনে ৩-৪ বার।
+
+সিরাপ এবং সাসপেনশন :
+
+- **শিশু (৩ মাসের নীচে)**: ১০ মি.গ্রা. হিসাবে (জন্ডিস থাকলে ৫ মি.গ্রা. হিসাবে) দিনে ৩-৪ বার।
+- **৩ মাস-১ বছরের নীচে**: ১/২ থেকে ১ চা চামচ দিনে ৩-৪ বার।
+- **১-৫ বছর**: ১-২ চা চামচ দিনে ৩-৪ বার।
+- **৬-১২ বছর**: ২-৪ চা চামচ দিনে ৩-৪ বার।
+- **প্রাপ্তবয়স্ক**: ৪-৮ চা চামচ দিনে ৩-৪ বার।
+
+এক্স আর ট্যাবলেট :
+
+- **প্রাপ্ত বয়স্ক এবং ১২ বছরের ঊর্ধ্বে শিশুদের ক্ষেত্রে**: ২টি ট্যাবলেট প্রতি ৮ ঘন্টা পরপর; সর্বোচ্চ মাত্রা দৈনিক ৪ গ্রাম (৬ টি ট্যাবলেট)।
+- **দীর্ঘ মেয়াদী ক্রমাগত চিকিৎসার ক্ষেত্রে**:দিনে ২.৬ গ্রাম (৪টি ট্যাবলেট)-এর বেশি সেবন করা উচিত নয়।
+
+সাপোজিটরি :
+
+- **৩ মাস- ১ বছরের নীচে**: ৬০-১২০ মি.গ্রা. দিনে ৪ বার।
+- **১-৫ বছর**: ১২৫-২৫০ মি.গ্রা. দিনে ৪ বার।
+- **৬-১২ বছর বয়সের শিশুদের জন্য**: ২৫০-৫০০ মি.গ্রা. দিনে ৪ বার।
+- **প্রাপ্ত বয়স্ক ও ১২ বছরের বেশী বয়সের শিশুদের জন্য**: ০.৫-১ গ্রাম দিনে ৪ বার।
+
+পেডিয়াট্রিক ড্রপস্:
+
+- **৩ মাস বয়স পর্যন্ত**: ০.৫ মি.লি. (৪০ মি.গ্রা.), দিনে ৪ বার।
+- **৪-১১ মাস বয়স পর্যন্ত**: ১ মি.লি. (৮০ মি.গ্রা.), দিনে ৪ বার।
+- **১-২ বছর বয়স পর্যন্ত**: ১.৫ মি.লি. (১২০ মি.গ্রা.), দিনে ৪ বার।
+
+---
+
+## Drug Interactions / ঔষধের মিথষ্ক্রিয়া
+
+### English:
+Patients who have taken barbiturates, tricyclic antidepressants and alcohol may show diminished ability to metabolise large doses of Paracetamol. Alcohol can increase the hepatotoxicity of Paracetamol overdosage. Chronic ingestion of anticonvulsants or oral steroid contraceptives induce liver enzymes and may prevent attainment of therapeutic Paracetamol levels by increasing first-pass metabolism or clearance.
+
+### বাংলা (Bengali):
+বারবিচুরেট জাতীয় ও বিষন্নতারোধী ট্রাইসাইক্লিক জাতীয় ঔষধ গ্রহণকারী এবং এলকোহল পানকারী রোগীদের ক্ষেত্রে অধিকমাত্রায় সেবন করলে প্যারাসিটামলের বিপাক কমে যেতে পারে। এলকোহল, মাত্রাধিকভাবে সেবন কৃত প্যারাসিটামল দ্বারা সৃষ্ট লিভারের বিষক্রিয়া আরো বাড়িয়ে দিতে পারে। খিচুনিবিরোধী ঔষধ এবং স্টেরয়েডজাতীয় জন্মনিরোধকের দীর্ঘ মেয়াদী ব্যবহার লিভার এনজাইমকে প্রণোদিত করে; ফলে এ জাতীয় ঔষধের সাথে একত্রে গ্রহণে ‘ফার্স্ট-পাস’ বিপাক ত্বরান্বিত হয় এবং প্যারাসিটামলের কার্যকরী মাত্রা অর্জন ব্যহত হয়।
+
+---
+
+## Contraindications / প্রতিনির্দেশনা
+
+### English:
+It is contraindicated in known hypersensitivity to Paracetamol.
+
+### বাংলা (Bengali):
+প্যারাসিটামল বা এটির কোন উপাদানের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে ইহা প্রতিনির্দেশিত।
+
+---
+
+## Side Effects / পার্শ্ব প্রতিক্রিয়া
+
+### English:
+Side effects of paracetamol are usually mild, though haematological reactions including thrombocytopenia, leucopenia, pancytopenia, neutropenia, and agranulocytosis have been reported. Pancreatitis, skin rashes, and other allergic reactions occur occasionally.
+
+### বাংলা (Bengali):
+রক্তের উপাদানের উপর যৎসামান্য প্রভাব থাকলেও সাধারণত প্যারাসিটামলের পার্শ্ব প্রতিক্রিয়া খুবই কম। কিছু কিছু ক্ষেত্রে অগ্নাশয়ের প্রদাহ, চামড়ায় ফুসকুড়ি ও অন্যান্য এলার্জি দেখা দিতে পারে।
+
+---
+
+## Pregnancy & Lactation / গর্ভাবস্থায় ও স্তন্যদানকালে
+
+### English:
+Epidemiological studies in human pregnancy have shown no ill effects due to Paracetamol used in the recommended dosage, but patients should follow the advice of their doctor regarding its use. Paracetamol is excreted in breast milk, but not in a clinically significant amount. Available published data do not contraindicate breast feeding.
+
+### বাংলা (Bengali):
+মানব গর্ভাবস্থায় এপিডেমিওলজিকাল গবেষণায় প্রস্তাবিত মাত্রায় প্যারাসিটামল ব্যবহার করার কারণে কোনো খারাপ প্রভাব দেখা যায়নি, তবে রোগীদের উচিত তাদের ডাক্তারের পরামর্শ মেনে চলা। প্যারাসিটামল বুকের দুধে নির্গত হয়, কিন্তু চিকিৎসাগতভাবে উল্লেখযোগ্য পরিমাণে নয়। উপলব্ধ প্রকাশিত ডেটা স্তন্যপান করানোর প্রতি বিরোধিতা করে না।
+
+---
+
+## Precautions & Warnings / সতর্কতা ও সাবধানতা
+
+### English:
+Care is advised in the administration of Paracetamol to patients with severe renal or severe hepatic impairment. The hazard of overdose is greater in those with non-cirrhotic alcoholic liver disease. Do not exceed the stated dose. Patients should be advised not to take other Paracetamol-containing products concurrently. This product should only be used by the patient for whom it is prescribed when clearly necessary.
+
+Administration of Paracetamol in doses higher than recommended may result in hepatic injury, including the risk of severe hepatotoxicity and death. Do not exceed the maximum recommended daily dose of Paracetamol. Use caution when administering Paracetamol in patients with the following conditions: hepatic impairment or active hepatic disease, alcoholism, chronic malnutrition, severe hypovolemia (e.g., due to dehydration or blood loss), or severe renal impairment (creatinine clearance < 30 ml/min). There were infrequent reports of life-threatening anaphylaxis requiring emergent medical attention. Discontinue Paracetamol IV immediately if symptoms associated with allergy or hypersensitivity occurs. Do not use Paracetamol IV in patients with Paracetamol allergy.
+
+### বাংলা (Bengali):
+গুরুতর কিডনি বা গুরুতর হেপাটিক বৈকল্যযুক্ত রোগীদের প্যারাসিটামল ব্যবহারে যত্ন নেওয়ার পরামর্শ দেওয়া হয়। যারা নন-সিরোটিক অ্যালকোহলযুক্ত লিভার রোগে আক্রান্ত তাদের ওভারডোজের ঝুঁকি বেশি। নির্ধারিত মাত্রা অতিক্রম করা যাবে না। রোগীদের একই সাথে অন্যান্য প্যারাসিটামলযুক্ত পণ্য বর্জন করা উচিত। প্যারাসিটামল শুধুমাত্র সেই রোগীর দ্বারা ব্যবহার করা উচিত যার জন্য এটি নির্ধারিত হয়।
+
+---
+
+## Use in Special Populations / বিশেষ ক্ষেত্রে ব্যবহার
+
+### English:
+**Pediatric Use**: The safety and effectiveness of Paracetamol IV for the treatment of acute pain and fever in pediatric patients ages 2 years and older is supported by evidence from adequate and well-controlled studies of Paracetamol IV in adults.
+
+**Geriatric use**: No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+
+**Patients with Hepatic Impairment**: Paracetamol is contraindicated in patients with severe hepatic impairment or severe active liver disease and should be used with caution in patients with hepatic impairment or active liver disease. A reduced total daily dose of Paracetamol may be warranted.
+
+**Patients with Renal Impairment**: In cases of severe renal impairment (creatinine clearance < 30 ml/min), longer dosing intervals and a reduced total daily dose of Paracetamol may be warranted.
+
+---
+
+## Overdose Effects / মাত্রাধিক্যতা ও বিষক্রিয়া
+
+### English:
+Liver damage is possible in adults who have taken 10 g or more of Paracetamol. Ingestion of 5 g or more of Paracetamol may lead to liver damage if the patient has following risk factors: If the patient is on long term treatment with Carbamazepine, Phenobarbitone, Phenytoin, Primidone, Rifampicin, St John’s Wort or other drugs that induce liver enzymes, or regularly consumes Ethanol in excess of recommended amounts, or is likely to be Glutathione deplete e.g. eating disorders, cystic fibrosis, HIV infection, starvation, cachexia. 
+
+**Symptoms**: Symptoms of Paracetamol overdose in the first 24 hours are pallor, nausea, vomiting, anorexia and abdominal pain. Liver damage may become apparent 12 to 48 hours after ingestion. Abnormalities of glucose metabolism and metabolic acidosis may occur. In severe poisoning, hepatic failure may progress to encephalopathy, haemorrhage, hypoglycaemia, cerebral oedema and death. Acute renal failure with acute tubular necrosis, strongly suggested by loin pain, haematuria and proteinuria, may develop even in the absence of severe liver damage. Cardiac arrhythmias and pancreatitis have been reported. Immediate treatment is essential in the management of Paracetamol overdose. Treatment with activated charcoal should be considered if the overdose has been taken within 1 hour. Plasma Paracetamol concentration should be measured at 4 hours or later after ingestion (earlier concentrations are unreliable). Treatment with N-acetylcysteine may be used up to 24 hours after ingestion of Paracetamol. However, the maximum protective effect is obtained up to 8 hours post-ingestion. The effectiveness of the antidote declines sharply after this time. If required the patient should be given intravenous N-acetylcysteine, in line with the established dosage schedule. If vomiting is not a problem, oral Methionine may be a suitable alternative for remote areas, outside hospital. Management of patients who present with serious hepatic dysfunction beyond 24 hours from ingestion should be discussed with the NPIS or a liver unit.
+
+### বাংলা (Bengali):
+যারা ১০ গ্রাম বা তার বেশি প্যারাসিটামল গ্রহণ করেছেন তাদের যকৃতের ক্ষতি হতে পারে। ৫ গ্রাম বা তার বেশি প্যারাসিটামল গ্রহণ করলে লিভারের ক্ষতি হতে পারে যদি রোগীর নিম্নোক্ত ঝুঁকির কারণ থাকে: রোগী যদি কার্বামাজেপাইন, ফেনোবারবিটোন, ফেনাইটোইন, প্রিমডোন, রিফাম্পিসিন, সেন্ট জনস ওয়ার্ট বা লিভারের এনজাইমগুলিকে প্ররোচিত করে এমন অন্যান্য ওষুধ দিয়ে দীর্ঘমেয়াদী চিকিত্সা করা হয়, বা নিয়মিতভাবে সুপারিশকৃত পরিমাণের চেয়ে বেশি ইথানল সেবন করলে বা গ্লুটাথিয়নের ক্ষয় হতে পারে যেমন খাওয়ার ব্যাধি, সিস্টিক ফাইব্রোসিস, এইচআইভি সংক্রমণ, অনাহার, ক্যাচেক্সিয়া। 
+
+লক্ষণ: প্রথম ২৪ ঘন্টার মধ্যে প্যারাসিটামল ওভারডোজের লক্ষণগুলি হল ফ্যাকাশে, বমি বমি ভাব, বমি, ক্ষুধামন্দা এবং পেটে ব্যথা। খাওয়ার ১২ থেকে ৪৮ ঘন্টা পরে লিভারের ক্ষতি স্পষ্ট হতে পারে। গ্লুকোজ বিপাক এবং বিপাকীয় অ্যাসিডোসিসের অস্বাভাবিকতা ঘটতে পারে। গুরুতর বিষক্রিয়ায়, হেপাটিক ফেইলর এনসেফালোপ্যাথি, রক্তক্ষরণ, হাইপোগ্লাইসেমিয়া, সেরিব্রাল শোথ এবং মৃত্যুর দিকে অগ্রসর হতে পারে। তীব্র টিউবুলার নেক্রোসিসের সাথে তীব্র রেনাল ফেইলর, কটি ব্যথা, হেমাটুরিয়া এবং প্রোটিনুরিয়া দ্বারা জোরালোভাবে প্রস্তাবিত, এমনকি গুরুতর লিভারের ক্ষতির অনুপস্থিতিতেও বিকাশ হতে পারে। কার্ডিয়াক অ্যারিথমিয়াস এবং প্যানক্রিয়াটাইটিস রিপোর্ট করা হয়েছে। প্যারাসিটামল ওভারডোজের ব্যবস্থাপনায় তাৎক্ষণিক চিকিৎসা অপরিহার্য। সক্রিয় কাঠকয়লা দিয়ে চিকিত্সা বিবেচনা করা উচিত যদি ১ ঘন্টার মধ্যে ওভারডোজ নেওয়া হয়। প্লাজমা প্যারাসিটামলের ঘনত্ব পরিমাপ করা উচিত ৪ ঘন্টা বা তার পরে খাওয়ার পরে (আগের ঘনত্ব অবিশ্বস্ত ছিল)। প্যারাসিটামল গ্রহণের ২৪ ঘন্টা পর্যন্ত N-acetylcysteine দিয়ে চিকিত্সা ব্যবহার করা যেতে পারে। যাইহোক, সর্বোচ্চ প্রতিরক্ষামূলক প্রভাব ৪ ঘন্টা পরে খাওয়ার পরে পাওয়া যায়। এই সময়ের পরে প্রতিষেধকের কার্যকারিতা দ্রুত হ্রাস পায়। প্রয়োজনে রোগীকে নির্ধারিত ডোজ সময়সূচীর সাথে সঙ্গতি রেখে শিরায় এন-এসিটাইলসিস্টাইন দেওয়া উচিত। যদি বমি সমস্যা না হয় তবে দুর্গম এলাকায়, হাসপাতালের বাইরে মৌখিক মেথিওনিন একটি উপযুক্ত বিকল্প হতে পারে। ইনজেশনের ২৪ ঘন্টার পরে গুরুতর হেপাটিক ডিসফাংশন সহ রোগীদের পরিচালনার বিষয়ে NPIS বা লিভার ইউনিটের সাথে আলোচনা করা উচিত।
+
+---
+
+## Therapeutic Class / থেরাপিউটিক ক্লাস
+
+### English:
+Non-Opioid Analgesics
+
+### বাংলা (Bengali):
+Non-Opioid Analgesics
+
+---
+
+## Storage Conditions / সংরক্ষণ ও স্থায়িত্ব
+
+### English:
+Keep in a dry place away from light and heat. Keep out of the reach of children.
+
+### বাংলা (Bengali):
+আলো ও তাপ থেকে দূরে শুষ্ক স্থানে রাখুন। শিশুদের নাগালের বাইরে রাখুন।
+
+---
+
+## Chemical Structure / রাসায়নিক গঠন
+
+### English:
+| Molecular Formula : | C 8 H 9 NO 2 |
+| --- | --- |
+| Chemical Structure : |  |
+
+### বাংলা (Bengali):
+| Molecular Formula : | C 8 H 9 NO 2 |
+| --- | --- |
+| Chemical Structure : |  |
+
+---
+
+## Frequently Asked Questions / সাধারণ জিজ্ঞাসা (FAQs)
+
+### English:
+#### What is Paracetamol?
+
+Paracetamol is a medication that performs its action by obstructing the release of pain and fever chemical messengers.
+
+#### What are the uses of Paracetamol?
+
+Paracetamol is used for the treatment and prevention of conditions and symptoms of diseases like Post immunization pyrexia, menstrual cramps and fever.
+
+#### What are the Side Effects of Paracetamol Paracetamol?
+
+Allergic reaction, gastric ulcers, fatigue, anemia, nausea and vomiting are possible side effects.
+
+#### What are the instructions for storage and disposal Paracetamol?
+
+Paracetamol should be stored at room temperature, away from heat and direct light. Keep it away from the reach of children and pets.
+
+#### Should I use Paracetamol empty stomach, before food or after food?
+
+If you take Paracetamol with the food, the reactions that took place in the body carry-outs in a much effective manner.
+
+#### How long do I need to use Paracetamol before I see improvement in my conditions?
+
+Paracetamol should be consumed, until the complete eradication of the disease. It is advised to use, till the time directed by your doctor.
+
+#### Is there any food or drink I need to avoid while taking Paracetamol?
+
+You can follow your normal diet under the usage of Paracetamol.
+
+#### Will Paracetamol be more effective if taken in more than the recommended dose?
+
+There is no need to take Paracetamol more than its recommended doses.
+
+#### Can I take other medications along with Paracetamol?
+
+Do not use any OTC for cough, cold, allergy, or pain medication without consulting your doctor or pharmacist. Paracetamol contains many combination of medicines. If you use certain products together you may accidentally use too much of Paracetamol.
+
+#### Can I take Paracetamol with antibiotics?
+
+There are hundreds of antibiotics used to treat infections, so once you receive your prescription, ask your doctor or pharmacist if you can also take Paracetamol at the same time that you take the antibiotic.
+
+#### Is Paracetamol an NSAID drug?
+
+No, Paracetamol is not classified as an NSAID (nonsteroidal anti-inflammatory drug). It is classified as a miscellaneous analgesic for mild to moderate pain and fever.
+
+#### Quick Tips
+
+- Paracetamol should be taken with food or milk to prevent upset stomach.
+- Take Paracetamol as per the dose and duration prescribed by your doctor. Long term use may lead to serious complications such as stomach bleeding and kidney problems.
+- Do not take indigestion remedies (antacids) within two hours of taking Paracetamol.
+- Avoid consuming alcohol while taking Paracetamol as it can increase your risk of stomach problems.
+- Inform your doctor if you have liver disease as your dose may need to be adjusted.
+- Your doctor may regularly monitor your kidney function, liver function and levels of blood components if you are taking Paracetamol for long-term treatment.
+
+---
+
+## Available Brands in Bangladesh / বাংলাদেশে উপলব্ধ ব্র্যান্ডসমূহ
+
+| Brand Name | Strength / Form | Manufacturer | Unit Price / Pack |
+| --- | --- | --- | --- |
+| A-One | 120 mg/5 ml | Apex Pharma Ltd. | 60 ml bottle : ৳ 35.00 |
+| A-One XR | 665 mg | Apex Pharma Ltd. | Unit Price : ৳ 2.00 |
+| Ace | 500 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 1.20 |
+| Ace | 120 mg/5 ml | Square Pharmaceuticals PLC | 60 ml bottle : ৳ 35.00 |
+| Ace | 80 mg/ml | Square Pharmaceuticals PLC | 30 ml bottle : ৳ 30.00 |
+| Ace | 125 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 6.00 |
+| Ace | 250 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 7.00 |
+| Ace | 500 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 10.00 |
+| Ace | 120 mg/5 ml | Square Pharmaceuticals PLC | 60 ml bottle (Raspberry) : ৳ 35.00 |
+| Ace | 10 mg/ml | Square Pharmaceuticals PLC | 100 ml bottle : ৳ 150.00 |
+| Ace Power | 1000 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 2.25 |
+| Ace XR | 665 mg | Square Pharmaceuticals PLC | Unit Price : ৳ 2.00 |
+| Acep | 500 mg | Zenith Pharmaceuticals Ltd. | Unit Price : ৳ 1.20 |
+| Acep | 120 mg/5 ml | Zenith Pharmaceuticals Ltd. | 60 ml bottle : ৳ 35.00 |
+| Acep | 80 mg/ml | Zenith Pharmaceuticals Ltd. | 30 ml bottle : ৳ 30.00 |
+| Aceta | 500 mg | Biopharma Limited | Unit Price : ৳ 1.20 |
+| Aceta | 120 mg/5 ml | Biopharma Limited | 60 ml bottle : ৳ 35.00 |
+| Aceta Extend | 665 mg | Biopharma Limited | Unit Price : ৳ 2.00 |
+| Aceta One | 1000 mg | Biopharma Limited | Unit Price : ৳ 2.25 |
+| Aceta-PD | 80 mg/ml | Biopharma Limited | 30 ml bottle : ৳ 30.00 |

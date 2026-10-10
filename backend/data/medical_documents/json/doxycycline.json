@@ -1,0 +1,404 @@
+{
+  "slug": "doxycycline",
+  "name_en": "Doxycycline Hydrochloride",
+  "name_bn": "ডক্সিসাইক্লিন হাইড্রোক্লোরাইড",
+  "therapeutic_class": "Tetracycline group of drugs",
+  "dosage_forms": [],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Apdox",
+      "strength": "100 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/8369/apdox-100-mg-capsule"
+    },
+    {
+      "name": "Aristodox",
+      "strength": "100 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 2.20",
+      "url": "https://medex.com.bd/brands/29398/aristodox-100-mg-capsule"
+    },
+    {
+      "name": "Asidox",
+      "strength": "100 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29048/asidox-100-mg-capsule"
+    },
+    {
+      "name": "Biocap",
+      "strength": "100 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/30861/biocap-100-mg-capsule"
+    },
+    {
+      "name": "Bpdox",
+      "strength": "100 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/8334/bpdox-100-mg-capsule"
+    },
+    {
+      "name": "Capsidox",
+      "strength": "100 mg",
+      "manufacturer": "Quality Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.80",
+      "url": "https://medex.com.bd/brands/29049/capsidox-100-mg-capsule"
+    },
+    {
+      "name": "Cosdox",
+      "strength": "100 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8335/cosdox-100-mg-capsule"
+    },
+    {
+      "name": "Delacin",
+      "strength": "100 mg",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/8371/delacin-100-mg-capsule"
+    },
+    {
+      "name": "Difitox",
+      "strength": "100 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/32322/difitox-100-mg-capsule"
+    },
+    {
+      "name": "Dolin",
+      "strength": "100 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34962/dolin-100-mg-capsule"
+    },
+    {
+      "name": "Dopac",
+      "strength": "100 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8336/dopac-100-mg-capsule"
+    },
+    {
+      "name": "Doxacil",
+      "strength": "100 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/29026/doxacil-100-mg-capsule"
+    },
+    {
+      "name": "Doxacin",
+      "strength": "100 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/8338/doxacin-100-mg-capsule"
+    },
+    {
+      "name": "Doxcline",
+      "strength": "100 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/29050/doxcline-100-mg-capsule"
+    },
+    {
+      "name": "Doxibac",
+      "strength": "100 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/28718/doxibac-100-mg-capsule"
+    },
+    {
+      "name": "Doxicap",
+      "strength": "50 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 1.42",
+      "url": "https://medex.com.bd/brands/36013/doxicap-50-mg-capsule"
+    },
+    {
+      "name": "Doxicap",
+      "strength": "100 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 2.20",
+      "url": "https://medex.com.bd/brands/8341/doxicap-100-mg-capsule"
+    },
+    {
+      "name": "Doxicline",
+      "strength": "100 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29051/doxicline-100-mg-capsule"
+    },
+    {
+      "name": "Doxico",
+      "strength": "100 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/8344/doxico-100-mg-capsule"
+    },
+    {
+      "name": "Doxicon",
+      "strength": "100 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.70",
+      "url": "https://medex.com.bd/brands/8345/doxicon-100-mg-capsule"
+    },
+    {
+      "name": "Doxigen",
+      "strength": "100 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/8374/doxigen-100-mg-capsule"
+    },
+    {
+      "name": "Doxilin",
+      "strength": "100 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.13",
+      "url": "https://medex.com.bd/brands/28029/doxilin-100-mg-capsule"
+    },
+    {
+      "name": "Doximet",
+      "strength": "100 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/8348/doximet-100-mg-capsule"
+    },
+    {
+      "name": "Doxin",
+      "strength": "100 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.21",
+      "url": "https://medex.com.bd/brands/8350/doxin-100-mg-capsule"
+    },
+    {
+      "name": "Doxin",
+      "strength": "50 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.43",
+      "url": "https://medex.com.bd/brands/8349/doxin-50-mg-capsule"
+    },
+    {
+      "name": "Doxirem",
+      "strength": "100 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/32506/doxirem-100-mg-capsule"
+    },
+    {
+      "name": "Doxisyn",
+      "strength": "100 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8377/doxisyn-100-mg-capsule"
+    },
+    {
+      "name": "Doxizen",
+      "strength": "100 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/8351/doxizen-100-mg-capsule"
+    },
+    {
+      "name": "Doxpro",
+      "strength": "100 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/27402/doxpro-100-mg-capsule"
+    },
+    {
+      "name": "Doxseem",
+      "strength": "100 mg",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/8352/doxseem-100-mg-capsule"
+    },
+    {
+      "name": "Doxy-A",
+      "strength": "100 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.20",
+      "url": "https://medex.com.bd/brands/8353/doxy-a-100-mg-capsule"
+    },
+    {
+      "name": "Doxycin",
+      "strength": "100 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.10",
+      "url": "https://medex.com.bd/brands/8373/doxycin-100-mg-capsule"
+    },
+    {
+      "name": "Doxylin",
+      "strength": "100 mg",
+      "manufacturer": "Skylab Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.17",
+      "url": "https://medex.com.bd/brands/8379/doxylin-100-mg-capsule"
+    },
+    {
+      "name": "Doxysina",
+      "strength": "100 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.03",
+      "url": "https://medex.com.bd/brands/8355/doxysina-100-mg-capsule"
+    },
+    {
+      "name": "Doxyson",
+      "strength": "100 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/8356/doxyson-100-mg-capsule"
+    },
+    {
+      "name": "DXC",
+      "strength": "100 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/30085/dxc-100-mg-capsule"
+    },
+    {
+      "name": "E-Doxy",
+      "strength": "100 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/8357/e-doxy-100-mg-capsule"
+    },
+    {
+      "name": "Efidox",
+      "strength": "100 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33272/efidox-100-mg-capsule"
+    },
+    {
+      "name": "Elidox",
+      "strength": "100 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8358/elidox-100-mg-capsule"
+    },
+    {
+      "name": "Fardox",
+      "strength": "100 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/8359/fardox-100-mg-capsule"
+    },
+    {
+      "name": "Impedox",
+      "strength": "100 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 2.17",
+      "url": "https://medex.com.bd/brands/8360/impedox-100-mg-capsule"
+    },
+    {
+      "name": "Indox",
+      "strength": "100 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8385/indox-100-mg-capsule"
+    },
+    {
+      "name": "Ipadox",
+      "strength": "100 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.15",
+      "url": "https://medex.com.bd/brands/29053/ipadox-100-mg-capsule"
+    },
+    {
+      "name": "Mardox",
+      "strength": "100 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8381/mardox-100-mg-capsule"
+    },
+    {
+      "name": "Megadox",
+      "strength": "100 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.16",
+      "url": "https://medex.com.bd/brands/8361/megadox-100-mg-capsule"
+    },
+    {
+      "name": "Nadox",
+      "strength": "100 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/36992/nadox-100-mg-tablet"
+    },
+    {
+      "name": "Neodox",
+      "strength": "100 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 2.38",
+      "url": "https://medex.com.bd/brands/35662/neodox-100-mg-capsule"
+    },
+    {
+      "name": "Oriodox",
+      "strength": "100 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.12",
+      "url": "https://medex.com.bd/brands/8364/oriodox-100-mg-capsule"
+    },
+    {
+      "name": "Tydox",
+      "strength": "100 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/29055/tydox-100-mg-capsule"
+    },
+    {
+      "name": "Unidox",
+      "strength": "100 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/8365/unidox-100-mg-capsule"
+    },
+    {
+      "name": "Vidox",
+      "strength": "100 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/8367/vidox-100-mg-capsule"
+    },
+    {
+      "name": "Vitrocin",
+      "strength": "100 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/29056/vitrocin-100-mg-capsule"
+    }
+  ],
+  "sections_en": {
+    "indications": "Doxycycline Hydrochloride is indicated in the following infections caused by susceptible microorganisms:\n\n- **Respiratory tract infections**: Pneumonia, influenza, sinusitis, bronchitis, tonsillitis, tracheitis.\n- **Gastrointestinal tract infections**: Cholera, traveler's diarrhea, shigella dysentery, acute intestinal amebiasis.\nDoxycycline Hydrochloride is indicated in the following infections caused by susceptible microorganisms:\n\n- **Respiratory tract infections**: Pneumonia, influenza, sinusitis, bronchitis, tonsillitis, tracheitis.\n- **Gastrointestinal tract infections**: Cholera, traveler's diarrhea, shigella dysentery, acute intestinal amebiasis.\n- **Chlamydial infections**: Lympho-granuloma venereum, psittacosis, trachoma.\n- **Sexually transmitted disease**s: Non gonococcal urethritis, acute pelvic inflammatory disease, uncomplicated urethral and endocervical or rectal infections, gonorrhoea, syphilis, pyelonephritis, cystitis.\n- **Other infections**: Impetigo, furunculosis, inclusion conjunctivitis, brucellosis, tularemia, cellulitis, acne and Q-fever.",
+    "description": "Doxycycline is a highly active broad-spectrum antibiotic of tetracycline group. It is effective against a wide range of Gram-positive and Gram-negative bacteria, spirochete, mycoplasma, rickettsia and mycobacteria. Doxycycline is used as an alternate to penicillin in the treatment of gonorrhoea and syphilis. Doxycycline has its main mechanism of action on protein synthesis. Inside the bacterial cell, it inhibits protein synthesis.",
+    "mode_of_action": "Doxycycline Hydrochloride is a semisynthetic tetracycline antibiotic with broad spectrum activity. It is primarily a bacteriostatic antibiotic. It has a similar spectrum of activity to other tetracyclines but in particular is more active against Staphylococcus aureus and Nocardia. The drug is often active against penicillin-resistant strains of Staphylococcus aureus and against strains of those organisms that are resistant to other Tetracyclines. Certain Gram-negative strains of E. coli, Proteus mirabilis and Klebsiella, which are often resistant to Tetracycline, may be sensitive to Doxycycline. In addition, 70-90% of the various anaerobes are sensitive to Doxycycline and Bacteroides fragilis is more likely to be sensitive to Doxycycline than to other tetracyclines.\n\nDoxycycline is active against most strains of Haemophilus influenzaeand is particularly useful for infections with H. ducreyi, Actinomyces, Brucella and Vibrio cholerae. It is also active against Nocardia, Chlamydia, Mycoplasma and a wide range of Rickettsiae. Doxycycline is active against spirochetes such as Borellia recurrentis, Treponema pallidum and Treponema pertenue. It is also active against Plasmodium falciparum.",
+    "dosage": "**Usual dose**: 200 mg on first day, then 100 mg daily for 7-10 days.\n**Severe infections (including refractory urinary tract infections)**: 200 mg daily for 10 days. \n**Acne**: 100 mg daily. \n**Uncomplicated genital chlamydia, non-gonococcal urethritis**: 100 mg twice daily for 7-21 days (14-21 days in pelvic inflammatory disease).",
+    "administration": "Capsules should be swallowed whole with plenty of fluid during meals while sitting or standing.",
+    "interaction": "Absorption of tetracyclines is impaired by antacid containing aluminium, calcium or magnesium, and iron containing preparation. Absorption of tetracyclines is also impaired by bismuth salicylate. Barbiturates, carbamazepine and phenytoin decrease half-life of doxycycline. Concurrent use of tetracyclines may render oral contraceptive less effective. Patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosages. It is advisable to avoid giving tetracyclines in conjunction with penicillin.",
+    "contraindications": "Doxycycline is contraindicated to the patients who have shown hypersensitivity to any of the tetracyclines. Doxycycline is contraindicated to the children under 8 years of age. It is also contraindicated to pregnant women and to the lactating mothers.",
+    "side_effects": "Nausea, vomiting, diarrhoea, skin rashes, hemolytic anaemia, eosinophilia may be reported.",
+    "pregnancy_cat": "Doxycycline should be avoided in pregnant women, because of the risk of both staining and effect on bone growth in the foetus. Doxycyclines enter breast milk, and mothers taking these drugs should not breastfeed their child.",
+    "precautions": "The use of drugs of the tetracycline class during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of teeth. Tetracyclines drugs, therefore should not be used in this age group.",
+    "drug_classes": "Tetracycline group of drugs",
+    "storage_conditions": "Keep all medicines out of reach of children. Store in a cool and dry place, protected from light."
+  },
+  "sections_bn": {
+    "indications": "ডক্সিসাইক্লিন হাইড্রোক্লোরাইড নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- **রেসপীরেটরী ট্রাক্ট ইনফেকশন**: নিউমােনিয়া, ইনফ্লুয়েঞ্জা, সাইনুসাইটিস, ব্রঙ্কাইটিস, টনসিলাইটিস, ট্রাকিয়াইটিস।\n- **গ্রাস্ট্রোইনটেসটিনাল ইনফেকশন**: কলেরা, ট্রাভেলারস ডায়রিয়া, সিজেলা ডিসেন্ট্রি, একিউট ইনটেসটিনাল এমেবিয়াসিস।\n- **ক্লামিডেল ইনফেকশন**: লিম্ফোগ্রানুলোমা, ভেনেরিয়াম লিটাকোসিস, ট্রাকোমা।\n- **সেক্সুয়ালী ট্রান্সমিটেড ডিজিজেস**: নন-গনকক্কাল ইউরেথ্রাইটিস, একিউট পেলভিক ডিজিজ, আনকমপ্লিকেটেড ইরেথ্রাল ও এন্ডােসারভাইকাল অথবা রেকটাল ইনফেকশন, গনােরিয়া, সিফিলিস, পাইলোনেফ্রাইটিস, সিসটাইসিস।\n- **অন্যান্য সংক্রমণ**: ইমপেটিগাে, ফুরানকুলােসিস, ইনফ্লশন কনজাঙ্কটিভাইটিস, ব্রুসেলােসিস, টুলারেমিয়া সেলুলাইটিস, একনি ও কিউ-ফিভার।",
+    "description": "ডক্সিসাইক্লিন টেট্রাসাইক্লিন গােত্রের একটি বিস্তৃত বর্ণালীর উচ্চ ক্ষমতা সম্পন্ন এন্টিবায়ােটিক। এটি গ্রাম পজেটিভ, গ্রাম নেগেটিভ, স্পাইরােচেট, মাইকোপ্লাজমা, রিকেটসিয়া ও মাইক্রোব্যাকটেরিয়ার বিরুদ্ধে অত্যন্ত কার্যকর। গণােরিয়া ও সিফিলিস এর চিকিৎসায় পেনিসিলিন এর বিকল্প হিসাবেও এটি ব্যবহৃত হয়। ডক্সিসাইক্লিন ক্রিয়ার মূল ধরণ হলাে এটি ব্যাকটেরিয়ার কোষের ভিতরে প্রােটিন সিনথেসিস বন্ধ করে দেয়।",
+    "dosage": "**সাধারণ ডোজ**: প্রথম দিনে ২০০ মিলিগ্রাম, তারপরে ৭-১০ দিনের জন্য প্রতিদিন ১০০ মিলিগ্রাম।\n**গুরুতর সংক্রমণ (রিফ্রেক্টরি মূত্রনালীর সংক্রমণ সহ)**: ১০ দিনের জন্য প্রতিদিন ২০০ মিলিগ্রাম।\n**ব্রণ:** প্রতিদিন ১০০ মিলিগ্রাম।\n**অজটিল জেনিটাল ক্ল্যামিডিয়া, নন-গোনোকোকাকাল ইউরেথ্রাইটিস**: ৭-২১ দিনের জন্য প্রতিদিন দুইবার ১০০ মিলিগ্রাম (পেল্ভিক প্রদাহজনিত রোগের ক্ষেত্রে ১৪-২১ দিন পর্যন্ত নির্দেশিত)।",
+    "administration": "বসা অথবা দাঁড়ানো যে কোন অবস্থায় হােকনা কেন, ক্যাপসুলটি পর্যাপ্ত পানিসহ গলধঃকরণ করতে হবে।",
+    "interaction": "এলুমিনিয়াম, ক্যালসিয়াম, ম্যাগনেসিয়াম সমৃদ্ধ এন্টাসিড কিংবা আয়রণ সমৃদ্ধ প্রিপারেশন এর কারণে টেট্রাসাইক্লিনের শােষণ ব্যহত হতে পারে। এছাড়াও বিসমাথ স্যালিসাইলেট এর কারণেও এর শােষণ ব্যহত হতে পারে। বারবিচুরেটস, কার্বামাজেপাইন এবং ফেনাইটয়েন; ডক্সিসাইক্লিনের হাফ-লাইফ কমিয়ে দেয়। টেট্রাসাইক্লিনের উপুর্যপুরি ব্যবহার ওরাল কন্ট্রাসেপটিভের কার্যকারিতা কমিয়ে দেয়। এন্টিকোয়াগুলেন্ট থেরাপীর অন্তর্গত রােগীদের ক্ষেত্রে নিম্নমুখী ডােজ সমন্বয়ের প্রয়ােজন হতে পারে। পেনিসিলিন এর সাথে টেট্রাসাইক্লিন না দেয়াই উত্তম।",
+    "contraindications": "টেট্রাসাইক্লিনের প্রতি অতিসংবেদনশীলতা আছে এমন রােগীদের ক্ষেত্রে, ৮ বছর বয়সের নীচের শিশুদের ক্ষেত্রে এবং গর্ভবতী ও স্তন্যদানকারী মায়েদের ক্ষেত্রে প্রতিনির্দেশিত।",
+    "side_effects": "বমিবমি ভাব, বমি, ডায়রিয়া, ত্বকে ফুসকুড়ি, হেমােলাইটিক এনেমিয়া, ইউসিনােফিলিয়া হতে পারে।",
+    "pregnancy_cat": "গর্ভবতী মহিলাদের ক্ষেত্রে ডোক্সিসাইক্লিন এড়ানো উচিত, কারণ ভ্রূণের হাড়ের বৃদ্ধিতে ইহা ঝুঁকির কারণ। ডক্সিসাইক্লাইনগুলি মায়ের দুধে প্রবেশ করে এবং এই ওষুধ গ্রহণকারী মায়েরা তাদের সন্তানের বুকের দুধ খাওয়ানো থেকে বিরত থাকা উচিত।",
+    "precautions": "শিশুদের (গর্ভাবস্থার শেষার্ধ, শৈশবকাল এবং ৮ বছরের কম বয়স্ক শিশু) দাঁতের গঠনের সময় টেট্রাসাইক্লিন এর ব্যবহারে স্থায়ীভাবে দাঁতের রং পরিবর্তন হতে পারে। তাই এই সময় টেট্রাসাইক্লিন ব্যবহার করা উচিত নয়।",
+    "drug_classes": "Tetracycline group of drugs",
+    "storage_conditions": "আলাে থেকে দূরে, ঠান্ডা ও শুষ্ক স্থানে রাখুন। সকল ঔষধ শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/394/doxycycline-hydrochloride",
+  "source_url_bn": "https://medex.com.bd/generics/394/doxycycline-hydrochloride/bn",
+  "scraped_at": "2026-10-10T15:03:12+00:00"
+}

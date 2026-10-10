@@ -1,0 +1,1954 @@
+{
+  "slug": "cefuroxime",
+  "name_en": "Cefuroxime Axetil",
+  "name_bn": "সেফুরক্সিম এক্সেটিল",
+  "therapeutic_class": "Second generation cephalosporins",
+  "dosage_forms": [
+    "Tablets & Oral Suspension",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Adetil",
+      "strength": "250 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7158/adetil-250-mg-tablet"
+    },
+    {
+      "name": "Adetil",
+      "strength": "500 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7159/adetil-500-mg-tablet"
+    },
+    {
+      "name": "Athexim",
+      "strength": "500 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/37098/athexim-500-mg-tablet"
+    },
+    {
+      "name": "Axefur",
+      "strength": "250 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7162/axefur-250-mg-tablet"
+    },
+    {
+      "name": "Axefur",
+      "strength": "500 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/7163/axefur-500-mg-tablet"
+    },
+    {
+      "name": "Axefur",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7164/axefur-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Axet",
+      "strength": "125 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.10",
+      "url": "https://medex.com.bd/brands/7165/axet-125-mg-tablet"
+    },
+    {
+      "name": "Axet",
+      "strength": "250 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.16",
+      "url": "https://medex.com.bd/brands/7166/axet-250-mg-tablet"
+    },
+    {
+      "name": "Axet",
+      "strength": "500 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.30",
+      "url": "https://medex.com.bd/brands/7167/axet-500-mg-tablet"
+    },
+    {
+      "name": "Axet",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 216.46",
+      "url": "https://medex.com.bd/brands/7168/axet-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Axet",
+      "strength": "750 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "750 mg vial : ৳ 125.85",
+      "url": "https://medex.com.bd/brands/7170/axet-750-mg-imiv-injection"
+    },
+    {
+      "name": "Axetil",
+      "strength": "125 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 12.08",
+      "url": "https://medex.com.bd/brands/7171/axetil-125-mg-tablet"
+    },
+    {
+      "name": "Axetil",
+      "strength": "250 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7172/axetil-250-mg-tablet"
+    },
+    {
+      "name": "Axetil",
+      "strength": "500 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/7173/axetil-500-mg-tablet"
+    },
+    {
+      "name": "Axetil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 190.58",
+      "url": "https://medex.com.bd/brands/7174/axetil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Axibid",
+      "strength": "250 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7175/axibid-250-mg-tablet"
+    },
+    {
+      "name": "Axibid",
+      "strength": "500 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/7177/axibid-500-mg-tablet"
+    },
+    {
+      "name": "Axicef",
+      "strength": "250 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/25844/axicef-250-mg-tablet"
+    },
+    {
+      "name": "Axicef",
+      "strength": "500 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/25845/axicef-500-mg-tablet"
+    },
+    {
+      "name": "Axicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/25846/axicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Axim",
+      "strength": "125 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7178/axim-125-mg-tablet"
+    },
+    {
+      "name": "Axim",
+      "strength": "250 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7179/axim-250-mg-tablet"
+    },
+    {
+      "name": "Axim",
+      "strength": "500 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7180/axim-500-mg-tablet"
+    },
+    {
+      "name": "Axim",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "70 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/7181/axim-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Axim",
+      "strength": "750 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7182/axim-750-mg-imiv-injection"
+    },
+    {
+      "name": "Axim",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/25772/axim-15-gm-injection"
+    },
+    {
+      "name": "Bactikil",
+      "strength": "250 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7183/bactikil-250-mg-tablet"
+    },
+    {
+      "name": "Bactikil",
+      "strength": "500 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7184/bactikil-500-mg-tablet"
+    },
+    {
+      "name": "Bactikil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7185/bactikil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Benkill",
+      "strength": "250 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25778/benkill-250-mg-tablet"
+    },
+    {
+      "name": "Benkill",
+      "strength": "500 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/27461/benkill-500-mg-tablet"
+    },
+    {
+      "name": "Brocef",
+      "strength": "250 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/25791/brocef-250-mg-tablet"
+    },
+    {
+      "name": "Brocef",
+      "strength": "500 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 43.00",
+      "url": "https://medex.com.bd/brands/25792/brocef-500-mg-tablet"
+    },
+    {
+      "name": "C-2",
+      "strength": "250 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25775/c-2-250-mg-tablet"
+    },
+    {
+      "name": "C-2",
+      "strength": "500 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/25776/c-2-500-mg-tablet"
+    },
+    {
+      "name": "C-2",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/25777/c-2-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefobac",
+      "strength": "250 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.09",
+      "url": "https://medex.com.bd/brands/7186/cefobac-250-mg-tablet"
+    },
+    {
+      "name": "Cefobac",
+      "strength": "500 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/7187/cefobac-500-mg-tablet"
+    },
+    {
+      "name": "Cefobac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "70 ml bottle : ৳ 198.75",
+      "url": "https://medex.com.bd/brands/37267/cefobac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefobac",
+      "strength": "750 mg/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "750 mg vial : ৳ 125.27",
+      "url": "https://medex.com.bd/brands/37268/cefobac-750-mg-imiv-injection"
+    },
+    {
+      "name": "Cefotil",
+      "strength": "250 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 25.17",
+      "url": "https://medex.com.bd/brands/7192/cefotil-250-mg-tablet"
+    },
+    {
+      "name": "Cefotil",
+      "strength": "500 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 45.29",
+      "url": "https://medex.com.bd/brands/7193/cefotil-500-mg-tablet"
+    },
+    {
+      "name": "Cefotil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "70 ml bottle : ৳ 240.00",
+      "url": "https://medex.com.bd/brands/7194/cefotil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefotil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "750 mg vial : ৳ 132.00",
+      "url": "https://medex.com.bd/brands/7195/cefotil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Cefotil",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "1.5 gm vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7196/cefotil-15-gm-injection"
+    },
+    {
+      "name": "Cefoxil",
+      "strength": "250 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7155/cefoxil-250-mg-tablet"
+    },
+    {
+      "name": "Cefoxil",
+      "strength": "500 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7156/cefoxil-500-mg-tablet"
+    },
+    {
+      "name": "Cefoxil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7157/cefoxil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefroxil",
+      "strength": "250 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7197/cefroxil-250-mg-tablet"
+    },
+    {
+      "name": "Cefroxil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 195.74",
+      "url": "https://medex.com.bd/brands/7198/cefroxil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefstar",
+      "strength": "125 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 15.05",
+      "url": "https://medex.com.bd/brands/7199/cefstar-125-mg-tablet"
+    },
+    {
+      "name": "Cefstar",
+      "strength": "250 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7200/cefstar-250-mg-tablet"
+    },
+    {
+      "name": "Cefstar",
+      "strength": "500 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 45.16",
+      "url": "https://medex.com.bd/brands/7201/cefstar-500-mg-tablet"
+    },
+    {
+      "name": "Cefstar",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "70 ml bottle : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7202/cefstar-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefu M",
+      "strength": "750 mg/vial",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/25819/cefu-m-750-mg-imiv-injection"
+    },
+    {
+      "name": "Cefuact",
+      "strength": "250 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25812/cefuact-250-mg-tablet"
+    },
+    {
+      "name": "Cefuact",
+      "strength": "500 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25813/cefuact-500-mg-tablet"
+    },
+    {
+      "name": "Cefuact",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 199.00",
+      "url": "https://medex.com.bd/brands/25814/cefuact-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefunix",
+      "strength": "250 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7203/cefunix-250-mg-tablet"
+    },
+    {
+      "name": "Cefunix",
+      "strength": "500 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/7204/cefunix-500-mg-tablet"
+    },
+    {
+      "name": "Cefunix",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/7205/cefunix-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefurim",
+      "strength": "250 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/7206/cefurim-250-mg-tablet"
+    },
+    {
+      "name": "Cefurim",
+      "strength": "500 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/7207/cefurim-500-mg-tablet"
+    },
+    {
+      "name": "Cefurim",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7208/cefurim-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cefurino",
+      "strength": "250 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32496/cefurino-250-mg-tablet"
+    },
+    {
+      "name": "Cefusil",
+      "strength": "250 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/31462/cefusil-250-mg-tablet"
+    },
+    {
+      "name": "Cefusil",
+      "strength": "500 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/31463/cefusil-500-mg-tablet"
+    },
+    {
+      "name": "Cefuson",
+      "strength": "250 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/29454/cefuson-250-mg-tablet"
+    },
+    {
+      "name": "Cefuson",
+      "strength": "500 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/29455/cefuson-500-mg-tablet"
+    },
+    {
+      "name": "Cefuxet",
+      "strength": "250 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7209/cefuxet-250-mg-tablet"
+    },
+    {
+      "name": "Cefuxet",
+      "strength": "500 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7210/cefuxet-500-mg-tablet"
+    },
+    {
+      "name": "Cefuxet",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "70 ml bottle : ৳ 270.00",
+      "url": "https://medex.com.bd/brands/7211/cefuxet-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cerox-A",
+      "strength": "250 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7213/cerox-a-250-mg-tablet"
+    },
+    {
+      "name": "Cerox-A",
+      "strength": "500 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7214/cerox-a-500-mg-tablet"
+    },
+    {
+      "name": "Cerox-A",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "70 ml bottle : ৳ 300.00",
+      "url": "https://medex.com.bd/brands/7215/cerox-a-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Cerox-A",
+      "strength": "750 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "750 mg vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/7217/cerox-a-750-mg-imiv-injection"
+    },
+    {
+      "name": "Cerox-A",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "ACI Limited",
+      "price": "1.5 gm vial : ৳ 275.00",
+      "url": "https://medex.com.bd/brands/7218/cerox-a-15-gm-injection"
+    },
+    {
+      "name": "Ceroxime",
+      "strength": "250 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7219/ceroxime-250-mg-tablet"
+    },
+    {
+      "name": "Ceroxime",
+      "strength": "500 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7220/ceroxime-500-mg-tablet"
+    },
+    {
+      "name": "Ceroxime",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7221/ceroxime-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ceroxime",
+      "strength": "750 mg/vial",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/27133/ceroxime-750-mg-imiv-injection"
+    },
+    {
+      "name": "Cexitil",
+      "strength": "250 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7222/cexitil-250-mg-tablet"
+    },
+    {
+      "name": "Cexitil",
+      "strength": "500 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7223/cexitil-500-mg-tablet"
+    },
+    {
+      "name": "Dexatil",
+      "strength": "250 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/38008/dexatil-250-mg-tablet"
+    },
+    {
+      "name": "Dexatil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/38009/dexatil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Doctil",
+      "strength": "250 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/36330/doctil-250-mg-tablet"
+    },
+    {
+      "name": "Doctil",
+      "strength": "500 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36331/doctil-500-mg-tablet"
+    },
+    {
+      "name": "Doctil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Maks Drug Limited",
+      "price": "70 ml bottle : ৳ 235.00",
+      "url": "https://medex.com.bd/brands/36332/doctil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Doctil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "750 mg vial : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/36333/doctil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Eliroxime",
+      "strength": "250 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7226/eliroxime-250-mg-tablet"
+    },
+    {
+      "name": "Eliroxime",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 170.34",
+      "url": "https://medex.com.bd/brands/7227/eliroxime-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Eurix",
+      "strength": "250 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28082/eurix-250-mg-tablet"
+    },
+    {
+      "name": "Eurix",
+      "strength": "500 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/32695/eurix-500-mg-tablet"
+    },
+    {
+      "name": "Eurix",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "70 ml bottle : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/32699/eurix-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famicef",
+      "strength": "250 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 27.50",
+      "url": "https://medex.com.bd/brands/7228/famicef-250-mg-tablet"
+    },
+    {
+      "name": "Famicef",
+      "strength": "500 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7229/famicef-500-mg-tablet"
+    },
+    {
+      "name": "Famicef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "70 ml bottle : ৳ 325.00",
+      "url": "https://medex.com.bd/brands/7230/famicef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Fightex",
+      "strength": "250 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25801/fightex-250-mg-tablet"
+    },
+    {
+      "name": "Fightex",
+      "strength": "500 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25802/fightex-500-mg-tablet"
+    },
+    {
+      "name": "Fixcef",
+      "strength": "250 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7233/fixcef-250-mg-tablet"
+    },
+    {
+      "name": "Fixcef",
+      "strength": "500 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7234/fixcef-500-mg-tablet"
+    },
+    {
+      "name": "Fixcef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 199.00",
+      "url": "https://medex.com.bd/brands/7235/fixcef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furex",
+      "strength": "250 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 28.00",
+      "url": "https://medex.com.bd/brands/7238/furex-250-mg-tablet"
+    },
+    {
+      "name": "Furex",
+      "strength": "500 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7239/furex-500-mg-tablet"
+    },
+    {
+      "name": "Furex",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "70 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7240/furex-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furex",
+      "strength": "750 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "750 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7242/furex-750-mg-imiv-injection"
+    },
+    {
+      "name": "Furex",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "1.5 gm vial : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/7243/furex-15-gm-injection"
+    },
+    {
+      "name": "Furocef",
+      "strength": "125 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 15.06",
+      "url": "https://medex.com.bd/brands/7244/furocef-125-mg-tablet"
+    },
+    {
+      "name": "Furocef",
+      "strength": "250 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 25.09",
+      "url": "https://medex.com.bd/brands/7245/furocef-250-mg-tablet"
+    },
+    {
+      "name": "Furocef",
+      "strength": "500 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/7246/furocef-500-mg-tablet"
+    },
+    {
+      "name": "Furocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "70 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/7247/furocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furocef",
+      "strength": "750 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "750 mg vial : ৳ 125.47",
+      "url": "https://medex.com.bd/brands/7249/furocef-750-mg-imiv-injection"
+    },
+    {
+      "name": "Furocef",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "1.5 gm vial : ৳ 200.75",
+      "url": "https://medex.com.bd/brands/7250/furocef-15-gm-injection"
+    },
+    {
+      "name": "Furocef",
+      "strength": "1 gm/vial",
+      "manufacturer": "Renata PLC",
+      "price": "1 gm vial : ৳ 160.00",
+      "url": "https://medex.com.bd/brands/25839/furocef-1-gm-imiv-injection"
+    },
+    {
+      "name": "Furocef",
+      "strength": "250 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "250 mg vial : ৳ 55.21",
+      "url": "https://medex.com.bd/brands/30360/furocef-250-mg-imiv-injection"
+    },
+    {
+      "name": "Furocef DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "50 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/30359/furocef-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furoget",
+      "strength": "250 mg",
+      "manufacturer": "Get Well Limited",
+      "price": "Unit Price : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/25793/furoget-250-mg-tablet"
+    },
+    {
+      "name": "Furoget",
+      "strength": "500 mg",
+      "manufacturer": "Get Well Limited",
+      "price": "Unit Price : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/25794/furoget-500-mg-tablet"
+    },
+    {
+      "name": "Furoget",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Get Well Limited",
+      "price": "70 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/25795/furoget-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furotec",
+      "strength": "500 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7251/furotec-500-mg-tablet"
+    },
+    {
+      "name": "Furotil",
+      "strength": "125 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7253/furotil-125-mg-tablet"
+    },
+    {
+      "name": "Furotil",
+      "strength": "250 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7254/furotil-250-mg-tablet"
+    },
+    {
+      "name": "Furotil",
+      "strength": "500 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7255/furotil-500-mg-tablet"
+    },
+    {
+      "name": "Furotil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7256/furotil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furotil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/7257/furotil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Furotil",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "1.5 gm vial : ৳ 275.00",
+      "url": "https://medex.com.bd/brands/7258/furotil-15-gm-injection"
+    },
+    {
+      "name": "Furotixol",
+      "strength": "250 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.09",
+      "url": "https://medex.com.bd/brands/7259/furotixol-250-mg-tablet"
+    },
+    {
+      "name": "Furotixol",
+      "strength": "500 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/7260/furotixol-500-mg-tablet"
+    },
+    {
+      "name": "Furotixol",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.60",
+      "url": "https://medex.com.bd/brands/7261/furotixol-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Furoxim",
+      "strength": "250 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34964/furoxim-250-mg-tablet"
+    },
+    {
+      "name": "Fuxtil",
+      "strength": "250 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7262/fuxtil-250-mg-tablet"
+    },
+    {
+      "name": "Fuxtil",
+      "strength": "500 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7263/fuxtil-500-mg-tablet"
+    },
+    {
+      "name": "Fuxtil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "70 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/7264/fuxtil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Gimrox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 190.00",
+      "url": "https://medex.com.bd/brands/25797/gimrox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Gimrox",
+      "strength": "250 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25798/gimrox-250-mg-tablet"
+    },
+    {
+      "name": "Gimrox",
+      "strength": "500 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25799/gimrox-500-mg-tablet"
+    },
+    {
+      "name": "Gimrox",
+      "strength": "750 mg/vial",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/25800/gimrox-750-mg-imiv-injection"
+    },
+    {
+      "name": "Infanil",
+      "strength": "250 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/25822/infanil-250-mg-tablet"
+    },
+    {
+      "name": "Infanil",
+      "strength": "500 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25823/infanil-500-mg-tablet"
+    },
+    {
+      "name": "Infanil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 198.60",
+      "url": "https://medex.com.bd/brands/25824/infanil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kfore",
+      "strength": "250 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.07",
+      "url": "https://medex.com.bd/brands/7265/kfore-250-mg-tablet"
+    },
+    {
+      "name": "Kfore",
+      "strength": "500 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/7266/kfore-500-mg-tablet"
+    },
+    {
+      "name": "Kfore",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7267/kfore-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "125 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7268/kilbac-125-mg-tablet"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7269/kilbac-250-mg-tablet"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7270/kilbac-500-mg-tablet"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7271/kilbac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "250 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "250 mg vial : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/7273/kilbac-250-mg-imiv-injection"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "750 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7274/kilbac-750-mg-imiv-injection"
+    },
+    {
+      "name": "Kilbac",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7275/kilbac-15-gm-injection"
+    },
+    {
+      "name": "Kilbac DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7272/kilbac-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "125 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/7276/kilmax-125-mg-tablet"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "250 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7277/kilmax-250-mg-tablet"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "500 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7278/kilmax-500-mg-tablet"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/7279/kilmax-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "750 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7281/kilmax-750-mg-imiv-injection"
+    },
+    {
+      "name": "Kilmax",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7282/kilmax-15-gm-injection"
+    },
+    {
+      "name": "Lepath",
+      "strength": "250 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/7283/lepath-250-mg-tablet"
+    },
+    {
+      "name": "Libotil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Libra Pharmaceuticls Ltd.",
+      "price": "70 ml bottle : ৳ 198.75",
+      "url": "https://medex.com.bd/brands/25815/libotil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Merocef",
+      "strength": "250 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 26.00",
+      "url": "https://medex.com.bd/brands/7287/merocef-250-mg-tablet"
+    },
+    {
+      "name": "Merocef",
+      "strength": "500 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/7288/merocef-500-mg-tablet"
+    },
+    {
+      "name": "Merocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "70 ml bottle : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7289/merocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Merocef",
+      "strength": "750 mg/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "750 mg vial : ৳ 130.00",
+      "url": "https://medex.com.bd/brands/7290/merocef-750-mg-imiv-injection"
+    },
+    {
+      "name": "Merocef",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "1.5 gm vial : ৳ 240.00",
+      "url": "https://medex.com.bd/brands/38394/merocef-15-gm-injection"
+    },
+    {
+      "name": "Mextil",
+      "strength": "250 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 25.09",
+      "url": "https://medex.com.bd/brands/7292/mextil-250-mg-tablet"
+    },
+    {
+      "name": "Mextil",
+      "strength": "500 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 45.17",
+      "url": "https://medex.com.bd/brands/7293/mextil-500-mg-tablet"
+    },
+    {
+      "name": "Mextil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "70 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/7294/mextil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Mextil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7297/mextil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Mextil DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "50 ml bottle : ৳ 250.94",
+      "url": "https://medex.com.bd/brands/7295/mextil-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Orextil",
+      "strength": "250 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7299/orextil-250-mg-tablet"
+    },
+    {
+      "name": "Orextil",
+      "strength": "500 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7300/orextil-500-mg-tablet"
+    },
+    {
+      "name": "Picocef",
+      "strength": "250 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7301/picocef-250-mg-tablet"
+    },
+    {
+      "name": "Picocef",
+      "strength": "500 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/7302/picocef-500-mg-tablet"
+    },
+    {
+      "name": "Picocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.60",
+      "url": "https://medex.com.bd/brands/7303/picocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Primocef",
+      "strength": "250 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7304/primocef-250-mg-tablet"
+    },
+    {
+      "name": "Primocef",
+      "strength": "500 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7305/primocef-500-mg-tablet"
+    },
+    {
+      "name": "Primocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7306/primocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Primocef",
+      "strength": "750 mg/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "750 mg vial : ৳ 125.37",
+      "url": "https://medex.com.bd/brands/29278/primocef-750-mg-imiv-injection"
+    },
+    {
+      "name": "Primocef",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "1.5 gm vial : ৳ 200.60",
+      "url": "https://medex.com.bd/brands/29279/primocef-15-gm-injection"
+    },
+    {
+      "name": "Probac",
+      "strength": "250 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.10",
+      "url": "https://medex.com.bd/brands/7307/probac-250-mg-tablet"
+    },
+    {
+      "name": "Probac",
+      "strength": "500 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.31",
+      "url": "https://medex.com.bd/brands/7308/probac-500-mg-tablet"
+    },
+    {
+      "name": "Probac",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.66",
+      "url": "https://medex.com.bd/brands/7309/probac-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Radifur",
+      "strength": "500 mg",
+      "manufacturer": "Radius Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/33218/radifur-500-mg-tablet"
+    },
+    {
+      "name": "Recofast",
+      "strength": "250 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7311/recofast-250-mg-tablet"
+    },
+    {
+      "name": "Recofast",
+      "strength": "500 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/7312/recofast-500-mg-tablet"
+    },
+    {
+      "name": "Recofast",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 210.00",
+      "url": "https://medex.com.bd/brands/7313/recofast-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Recofast",
+      "strength": "750 mg/vial",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.37",
+      "url": "https://medex.com.bd/brands/7314/recofast-750-mg-imiv-injection"
+    },
+    {
+      "name": "Relacef",
+      "strength": "250 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 23.00",
+      "url": "https://medex.com.bd/brands/29532/relacef-250-mg-tablet"
+    },
+    {
+      "name": "Relacef",
+      "strength": "500 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 43.00",
+      "url": "https://medex.com.bd/brands/29533/relacef-500-mg-tablet"
+    },
+    {
+      "name": "Rofurox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 325.00",
+      "url": "https://medex.com.bd/brands/7317/rofurox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Rofurox",
+      "strength": "750 mg/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 250.00",
+      "url": "https://medex.com.bd/brands/7318/rofurox-750-mg-imiv-injection"
+    },
+    {
+      "name": "Rofurox",
+      "strength": "500 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 60.00",
+      "url": "https://medex.com.bd/brands/25837/rofurox-500-mg-tablet"
+    },
+    {
+      "name": "Rofurox",
+      "strength": "250 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/25838/rofurox-250-mg-tablet"
+    },
+    {
+      "name": "Roxibac",
+      "strength": "250 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7321/roxibac-250-mg-tablet"
+    },
+    {
+      "name": "Roxibac",
+      "strength": "500 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7322/roxibac-500-mg-tablet"
+    },
+    {
+      "name": "Roxilab",
+      "strength": "250 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7323/roxilab-250-mg-tablet"
+    },
+    {
+      "name": "Roxilab",
+      "strength": "500 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 55.50",
+      "url": "https://medex.com.bd/brands/7324/roxilab-500-mg-tablet"
+    },
+    {
+      "name": "Roxilab",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 270.82",
+      "url": "https://medex.com.bd/brands/7325/roxilab-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Roxilab",
+      "strength": "750 mg/vial",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "750 mg vial : ৳ 175.00",
+      "url": "https://medex.com.bd/brands/25809/roxilab-750-mg-imiv-injection"
+    },
+    {
+      "name": "Roximax",
+      "strength": "250 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.07",
+      "url": "https://medex.com.bd/brands/25847/roximax-250-mg-tablet"
+    },
+    {
+      "name": "Roximax",
+      "strength": "500 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.04",
+      "url": "https://medex.com.bd/brands/25848/roximax-500-mg-tablet"
+    },
+    {
+      "name": "Roxinat",
+      "strength": "750 mg/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "750 mg vial : ৳ 125.85",
+      "url": "https://medex.com.bd/brands/33753/roxinat-750-mg-imiv-injection"
+    },
+    {
+      "name": "Secomax",
+      "strength": "250 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7326/secomax-250-mg-tablet"
+    },
+    {
+      "name": "Secomax",
+      "strength": "500 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.32",
+      "url": "https://medex.com.bd/brands/7327/secomax-500-mg-tablet"
+    },
+    {
+      "name": "Secomax",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 275.00",
+      "url": "https://medex.com.bd/brands/7328/secomax-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Secoxim",
+      "strength": "250 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/37406/secoxim-250-mg-tablet"
+    },
+    {
+      "name": "Secoxim",
+      "strength": "500 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/37407/secoxim-500-mg-tablet"
+    },
+    {
+      "name": "Sefur",
+      "strength": "125 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.10",
+      "url": "https://medex.com.bd/brands/7333/sefur-125-mg-tablet"
+    },
+    {
+      "name": "Sefur",
+      "strength": "250 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/7334/sefur-250-mg-tablet"
+    },
+    {
+      "name": "Sefur",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/7335/sefur-500-mg-tablet"
+    },
+    {
+      "name": "Sefur",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 225.00",
+      "url": "https://medex.com.bd/brands/7336/sefur-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefur",
+      "strength": "750 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "750 mg vial : ৳ 150.00",
+      "url": "https://medex.com.bd/brands/7338/sefur-750-mg-imiv-injection"
+    },
+    {
+      "name": "Sefur",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "1.5 gm vial : ৳ 220.00",
+      "url": "https://medex.com.bd/brands/7339/sefur-15-gm-injection"
+    },
+    {
+      "name": "Sefur DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 251.70",
+      "url": "https://medex.com.bd/brands/7337/sefur-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefurox",
+      "strength": "250 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 25.17",
+      "url": "https://medex.com.bd/brands/7340/sefurox-250-mg-tablet"
+    },
+    {
+      "name": "Sefurox",
+      "strength": "500 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 45.31",
+      "url": "https://medex.com.bd/brands/7341/sefurox-500-mg-tablet"
+    },
+    {
+      "name": "Sefurox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "70 ml bottle : ৳ 199.34",
+      "url": "https://medex.com.bd/brands/7342/sefurox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sefurox",
+      "strength": "750 mg/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "750 mg vial : ৳ 125.85",
+      "url": "https://medex.com.bd/brands/7343/sefurox-750-mg-imiv-injection"
+    },
+    {
+      "name": "Sefurox",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "1.5 gm vial : ৳ 200.60",
+      "url": "https://medex.com.bd/brands/7344/sefurox-15-gm-injection"
+    },
+    {
+      "name": "Segorin",
+      "strength": "125 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/28589/segorin-125-mg-tablet"
+    },
+    {
+      "name": "Segorin",
+      "strength": "250 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/28590/segorin-250-mg-tablet"
+    },
+    {
+      "name": "Segorin",
+      "strength": "500 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28591/segorin-500-mg-tablet"
+    },
+    {
+      "name": "Segorin",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 230.00",
+      "url": "https://medex.com.bd/brands/28592/segorin-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Sharpkil",
+      "strength": "250 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/25827/sharpkil-250-mg-tablet"
+    },
+    {
+      "name": "Sharpkil",
+      "strength": "500 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25828/sharpkil-500-mg-tablet"
+    },
+    {
+      "name": "Staxim",
+      "strength": "250 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7345/staxim-250-mg-tablet"
+    },
+    {
+      "name": "Staxim",
+      "strength": "500 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7346/staxim-500-mg-tablet"
+    },
+    {
+      "name": "Staxim",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "70 ml bottle : ৳ 170.00",
+      "url": "https://medex.com.bd/brands/7347/staxim-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Til",
+      "strength": "250 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7348/til-250-mg-tablet"
+    },
+    {
+      "name": "Til",
+      "strength": "500 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7349/til-500-mg-tablet"
+    },
+    {
+      "name": "Til",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7350/til-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Turbocef",
+      "strength": "250 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7351/turbocef-250-mg-tablet"
+    },
+    {
+      "name": "Turbocef",
+      "strength": "500 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7352/turbocef-500-mg-tablet"
+    },
+    {
+      "name": "Turbocef",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 240.00",
+      "url": "https://medex.com.bd/brands/7353/turbocef-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Turbocef",
+      "strength": "750 mg/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7354/turbocef-750-mg-imiv-injection"
+    },
+    {
+      "name": "Turbocef",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7355/turbocef-15-gm-injection"
+    },
+    {
+      "name": "Twotil",
+      "strength": "250 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/32925/twotil-250-mg-tablet"
+    },
+    {
+      "name": "Twotil",
+      "strength": "500 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/32926/twotil-500-mg-tablet"
+    },
+    {
+      "name": "Uroxime",
+      "strength": "250 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7356/uroxime-250-mg-tablet"
+    },
+    {
+      "name": "Uroxime",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7357/uroxime-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Uroxime",
+      "strength": "500 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25790/uroxime-500-mg-tablet"
+    },
+    {
+      "name": "Vexotil",
+      "strength": "250 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7358/vexotil-250-mg-tablet"
+    },
+    {
+      "name": "Vexotil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.60",
+      "url": "https://medex.com.bd/brands/7359/vexotil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Vexotil",
+      "strength": "500 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/25829/vexotil-500-mg-tablet"
+    },
+    {
+      "name": "Winfax",
+      "strength": "250 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/27945/winfax-250-mg-tablet"
+    },
+    {
+      "name": "Winfax",
+      "strength": "500 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/27946/winfax-500-mg-tablet"
+    },
+    {
+      "name": "Winfax",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/27947/winfax-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ximetil",
+      "strength": "250 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7364/ximetil-250-mg-tablet"
+    },
+    {
+      "name": "Ximetil",
+      "strength": "500 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7365/ximetil-500-mg-tablet"
+    },
+    {
+      "name": "Ximetil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/7366/ximetil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Ximetil",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/7367/ximetil-15-gm-injection"
+    },
+    {
+      "name": "Ximetil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/26670/ximetil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Ximorox",
+      "strength": "250 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7368/ximorox-250-mg-tablet"
+    },
+    {
+      "name": "Ximorox",
+      "strength": "500 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7369/ximorox-500-mg-tablet"
+    },
+    {
+      "name": "Ximorox",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "70 ml bottle : ৳ 195.00",
+      "url": "https://medex.com.bd/brands/7370/ximorox-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xinarox",
+      "strength": "250 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/7319/xinarox-250-mg-tablet"
+    },
+    {
+      "name": "Xinarox",
+      "strength": "500 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/7320/xinarox-500-mg-tablet"
+    },
+    {
+      "name": "Xinarox",
+      "strength": "750 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "750 mg vial : ৳ 125.00",
+      "url": "https://medex.com.bd/brands/17178/xinarox-750-mg-imiv-injection"
+    },
+    {
+      "name": "Xinarox",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "1.5 gm vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/17179/xinarox-15-gm-injection"
+    },
+    {
+      "name": "Xitil",
+      "strength": "250 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7371/xitil-250-mg-tablet"
+    },
+    {
+      "name": "Xitil",
+      "strength": "500 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/7372/xitil-500-mg-tablet"
+    },
+    {
+      "name": "Xitil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "70 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/7373/xitil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xorimax",
+      "strength": "250 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 30.50",
+      "url": "https://medex.com.bd/brands/7374/xorimax-250-mg-tablet"
+    },
+    {
+      "name": "Xorimax",
+      "strength": "500 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 55.50",
+      "url": "https://medex.com.bd/brands/7375/xorimax-500-mg-tablet"
+    },
+    {
+      "name": "Xorimax",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "70 ml bottle : ৳ 251.00",
+      "url": "https://medex.com.bd/brands/7376/xorimax-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Xtil",
+      "strength": "250 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/7377/xtil-250-mg-tablet"
+    },
+    {
+      "name": "Zenifor",
+      "strength": "500 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/25850/zenifor-500-mg-tablet"
+    },
+    {
+      "name": "Zenifor DS",
+      "strength": "250 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 198.00",
+      "url": "https://medex.com.bd/brands/25851/zenifor-ds-250-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zerotil",
+      "strength": "250 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/30443/zerotil-250-mg-tablet"
+    },
+    {
+      "name": "Zerotil",
+      "strength": "500 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30444/zerotil-500-mg-tablet"
+    },
+    {
+      "name": "Zerotil",
+      "strength": "125 mg/5 ml",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "70 ml bottle : ৳ 320.00",
+      "url": "https://medex.com.bd/brands/30445/zerotil-125-mg-powder-for-suspension"
+    },
+    {
+      "name": "Zerotil",
+      "strength": "750 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "750 mg vial : ৳ 200.00",
+      "url": "https://medex.com.bd/brands/31892/zerotil-750-mg-imiv-injection"
+    },
+    {
+      "name": "Zerotil",
+      "strength": "1.5 gm/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "1.5 gm vial : ৳ 275.00",
+      "url": "https://medex.com.bd/brands/31893/zerotil-15-gm-injection"
+    }
+  ],
+  "sections_en": {
+    "indications": "It is indicated for the treatment of infections caused by sensitive bacteria.\n\n- Pharyngitis/Tonsillitis caused by Streptococcus pyogenes.\n- Acute Bacterial Otitis Media caused by Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis (beta-lactamase producing strains) or Streptococcus pyogenes.\nIt is indicated for the treatment of infections caused by sensitive bacteria.\n\n- Pharyngitis/Tonsillitis caused by Streptococcus pyogenes.\n- Acute Bacterial Otitis Media caused by Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis (beta-lactamase producing strains) or Streptococcus pyogenes.\n- Acute bacterial maxillary sinusitis caused by Streptococcus pneumoniae or Haemophilus influenzae (non beta-lactamase producing strains)\n- Lower respiratory tract infections including pneumoniae, caused by Streptococcus pneumoniae, Haemophilus influenzae (including beta lactamase-producing strains), Klebsiella spp., Staphylococcus aureus (penicillinase- and non-penicillinase-producing strains), Streptococcus pyogenes, E. coli\n- Acute bacterial exacerbation of chronic bronchitis and Secondary bacterial infections of Acute bronchitis caused by Streptococcus pneumoniae, Haemophilus influenzae (beta-lactamase negative strains) or Haemophilus parainfluenzae (beta-lactamase negative strains).\n- Skin and skin-structure infections caused by Staphylococcus aureus (including beta-lactamase producing strains) or Streptococcus pyogenes.\n- Urinary tract infections caused by E.coli or Klebsiella pneumoniae.\n- Bone and Joint Infections caused by Staphylococcus aureus (penicillinase- and non-penicillinase-producing strains).\n- Gonorrhoea caused by penicillinase-producing and non-penicillinase producing strains of Neisseria gonorrhoeae.\n- Early Lyme Disease (erythema migrans) caused by Borrelia burgdorferi.",
+    "mode_of_action": "Cefuroxime is a well-characterized and effective antibacterial agent, which has broad-spectrum bactericidal activity against a wide range of common pathogens, including β-lactamase producing strains. Cefuroxime has good stability to bacterial β-lactamase and consequently, is active against many ampicillin-resistant and amoxycillin-resistant strains.",
+    "dosage": "#### Tablet or Suspension-\n\n\r\nAdolescents and adults (13 years and older)-\n\n- Pharyngitis/tonsillitis: 250 mg b.i.d. for 5-10 days\n- Acute bacterial maxillary sinusitis: 250 mg b.i.d. for 10 days\n- Acute bacterial exacerbation of chronic bronchitis: 250-500 mg b.i.d. for 10 days\n- Secondary bacterial infections of acute bronchitis: 250-500 mg b.i.d. for 5-10 days\n- Uncomplicated skin and skin structure infections: 250-500 mg b.i.d. for 10 days\n- Uncomplicated urinary tract infections: 250 mg b.i.d. for 7-10 days\n- Uncomplicated Gonorrhoea: 1000 mg Single dose\n- Community acquired pneumonia: 250-500 mg b.i.d. for 5-10 days\n- MDR Typhoid Fever: 500 mg b.i.d. for 10-14 days\n- Early Lyme disease: 500 mg b.i.d. for 20 days\n\r\nPaediatric Patients (3 months to 12 years)-\n\n- Pharyngitis/Tonsillitis: 20 mg/kg/day b.i.d for 5-10 days\n- Acute otitis media: 30 mg/kg/day b.i.d for 10 days\n- Acute bacterial maxillary sinusitis: 30 mg/kg/day b.i.d for 10 days\n- Impetigo: 30 mg/kg/day b.i.d for 10 days\n\n#### Parenteral-\n\n- **Adult**: 750 mg three times daily by IM or IV injection. In severe infections, dose can be increased upto 1.5 gm three times daily by IV injection. The frequency may be increased to four times daily, if necessary, giving total daily doses of 3 to 6 gms.\n- **Children** (above 3 months of age): 30 - 100 mg/kg/day given in 3 or 4 equally divided doses. A dose of 60 mg/kg/day is appropriate for most infections.\n- **Neonate**: 30 - 100 mg/kg/day given in 2 or 3 equally divided doses.\n- **Surgical prophylaxis**: 1.5 gm by IV injection at induction of anaesthesia; up to 3 further doses of 750 mg may be given by IV/IM injection every 8 hours for high risk procedures.\n- **Pneumonia**: 1.5 gm IV injection twice daily for 2-3 days, followed by 500 mg twice daily (oral) for 7-10 days.\n- **Acute exacerbations of chronic bronchitis**: 750 mg twice daily (IM or IV injection) for 2-3 days, followed by 500 mg twice daily (oral) for 5-10 days. (Duration of both parenteral and oral therapy is determined by the severity of the infection and the clinical status of the patient.)\n- **In Gonorrhoea**: Adult: 1.5 gm as a single dose (as 2 x 750mg injections intramuscularly with different sites, e.g. each buttock).\n\r\nIn Meningitis: \n\n- **Adult**: 3 gm IV injection three times daily.\n- **Children** (above 3 months of age): 200-240 mg/kg/day by IV injection in 3 or 4 divided doses reduced to 100 mg/kg/day after 3 days or on clinical improvement.\n- **Neonate**: 100 mg/kg/day by IV injection at initial dose, reduced to 50 mg/kg/day, When clinically indicated.\n\r\nIn bone and joint infections: \n\n- **Adult**: 1.5 gm IV injection four times daily.\n- **Children** (above 3 months of age): 150 mg/kg/day (not to exceed the maximum adult dose) in equally divided doses every 8 hours.",
+    "administration": "The use of freshly reconstituted solution is recommended. However, it maintains potency for at least 24 hours at room temperature or 48 hours at 5o C",
+    "interaction": "No potentially hazardous interactions have been reported.",
+    "contraindications": "Cefuroxime is contraindicated in patients with known allergy to Cephalosporins.",
+    "side_effects": "Adverse effects to Cefuroxime have occurred infrequently and have been generally mild and transient in nature. Effects reported include rashes and gastrointestinal disturbances. As with other antibiotics, prolonged use may result in the overgrowth of non susceptible organisms e.g. Candida.",
+    "pregnancy_cat": "US FDA pregnancy category of Cefuroxime is B. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Cefuroxime have been shown to be excreted in human milk. So, caution should be exercised when Cefuroxime is administered to a nursing woman.",
+    "precautions": "Cefuroxime should be given with care to patients receiving concurrent treatment with potent diuretics & who has history of colitis. Cephalosporin antibiotics may in general be given safely to patients who are hypersensitive to penicillin although cross reactions have reported. Cefuroxime has shown, that is not likely to be a problem at the recommended to dose levels.",
+    "drug_classes": "Second generation cephalosporins",
+    "reconstitution": "**For 750 mg intramuscular injection**: Add 3 ml water for injection to vial and then shake gently for dispersion.\n\n**For 750 mg intravenous injection**: Add 8 ml water for injection to vial and then shake gently for dispersion. The solution should be slowly injected directly into a vein over a 3 to 5 minutes period.\n\n**For 1.5 g intravenous injection**: Add 16 ml Water for injection to vial and then shake gently for dispersion. The solution should be slowly injected directly into a vein over a 3 to 5 minutes period.",
+    "storage_conditions": "Store in a cool, dry place (below 30o C), away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "সংবেদনশীল ব্যাকটেরিয়া দ্বারা সৃষ্ট সংক্রমণের চিকিৎসায় এটি নির্দেশিত।\n\n- স্ট্রেপটোকক্কাস পায়োজেনস-এর দ্বারা সৃষ্ট ফ্যারিংজাইটিস/টনসিলাইটিস।\n- স্ট্রেপটোকক্কাস নিউমোনি, হিমোফিলাস ইনফ্লুয়েঞ্জি, মোরাক্সেলা ক্যাটারালিস (বিটা-ল্যাকটামেজ উৎপাদনকারী প্রজাতিসমূহ) অথবা স্ট্রেপটোকক্কাস পায়োজেনস দ্বারা সৃষ্ট একিউট ব্যাকটেরিয়াল ওটাইটিস মিডিয়া।\nসংবেদনশীল ব্যাকটেরিয়া দ্বারা সৃষ্ট সংক্রমণের চিকিৎসায় এটি নির্দেশিত।\n\n- স্ট্রেপটোকক্কাস পায়োজেনস-এর দ্বারা সৃষ্ট ফ্যারিংজাইটিস/টনসিলাইটিস।\n- স্ট্রেপটোকক্কাস নিউমোনি, হিমোফিলাস ইনফ্লুয়েঞ্জি, মোরাক্সেলা ক্যাটারালিস (বিটা-ল্যাকটামেজ উৎপাদনকারী প্রজাতিসমূহ) অথবা স্ট্রেপটোকক্কাস পায়োজেনস দ্বারা সৃষ্ট একিউট ব্যাকটেরিয়াল ওটাইটিস মিডিয়া।\n- স্ট্রেপটোকক্কাস নিউমোনি অথবা হিমোফিলাস ইনফ্লুয়েঞ্জি, (বিটা-ল্যাকটামেজ উৎপাদন করে না এমন প্রজাতিসমূহ) দ্বারা সৃষ্ট একিউট ব্যাকটেরিয়াল ম্যাক্সিলারী সাইনুসাইটিস।\n- শ্বসনতন্ত্রের নিম্নাংশের সংক্রমণ নিউমোনিয়াসহঃ স্ট্রেপটোকক্কাস নিউমোনি, হিমোফাইলাস ইনফ্লুয়েঞ্জি (বিটা ল্যাকটামেজ উৎপন্নকারী প্রজাতিসমূহ), ক্লেবসিয়েলা প্রজাতি, স্টেফাইলোকক্কাস অরিয়াস (পেনিসিলিনেজ এবং নন-পেনিসিলিনেজ উৎপাদনকারী প্রজাতিসমূহ), স্ট্রেপটোকক্কাস পায়োজেনস, ই.কলাই দ্বারা সৃষ্ট সংক্রমণে।\n- স্ট্রেপটোকক্কাস নিউমোনি, হিমোফিলাস ইনফ্লুয়েঞ্জি অথবা হিমোফিলাস প্যারাইনফ্লুয়েঞ্জি (বিটা-ল্যাকটামেজ নেগেটিভ স্ট্রেইনস) দ্বারা সৃষ্ট ক্রণিক ব্রংকাইটিস-এর একিউট ব্যাকটেরিয়াল এক্সাসারবেশন এবং মাধ্যমিক একিউট ব্রংকাইটিস-এর ব্যাকটেরিয়াল সংক্রমণ।\n- স্টেফাইলোকক্কাস অরিয়াস (বিটা-ল্যাকটামেজ উৎপাদনকারী প্রজাতিসমূহ) অথবা স্ট্রেপটোকক্কাস পায়োজেনস দ্বারা সৃষ্ট ত্বকের এবং ত্বকীয় সংক্রমণ।\n- ই.কলাই অথবা ক্লেবসিয়েলা নিউমোনি দ্বারা সৃষ্ট মূত্রনালীর সংক্রমণ।\n- অস্থি এবং অস্থিসন্ধির সংক্রমনঃ স্টেফাইলোকক্কাস অরিয়াস (পেনিসিলিনেজ এবং নন-পেনিসিলিনেজ উৎপাদনকারী প্রজাতিসমূহ) দ্বারা সৃষ্ট সংক্রমণে\n- পেনিসিলিনেজ এবং নন-পেনিসিলিনেজ উৎপাদনকারী নিসেরিয়া গনোরিয়া স্ট্রেইনস্-এর দ্বারা সৃষ্ট গনোরিয়া।\n- বরেলিয়া বার্গডোরফেরি দ্বারা সৃষ্ট লাইম রোগের প্রারম্ভিক অবস্থা (ইরাইথেমা মাইগ্রেনস)।",
+    "description": "সেফিউরক্সিম একটি ব্যাকটেরিয়া ধ্বংসকারী দ্বিতীয় প্রজন্মের সেফালোস্পোরিন এন্টিবায়োটিক যা বিটা-ল্যাকটামেজ উৎপাদনকারী প্রজাতিসহ বিভিন্ন ধরনের সংবেদনশীল গ্রাম-পজিটিভ এবং গ্রাম-নেগেটিভ জীবাণুর বিরুদ্ধে কার্যকরী। সেফিউরক্সিম ট্রান্সপেপটাইডেশন পদ্ধতিকে ব্যাঘাত ঘটানোর মাধ্যমে ব্যাকটেরিয়ার কোষ প্রাচীর সংশ্লেষনে বাধা প্রদান করে।",
+    "dosage": "#### ট্যাবলেট / সাসপেনসন-\n\n\r\nঅপ্রাপ্তবয়স্ক এবং প্রাপ্তবয়স্ক (১৩ বছর এবং তার ঊর্ধে)-\n\n- ফ্যারিংজাইটিস/টনসিলাইটিস: ২৫০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ৫-১০ দিন\n- একিউট ব্যাকটেরিয়াল ম্যাক্সিলারী সাইনুসাইটিস: ২৫০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ১০ দিন\n- ক্রণিক ব্রংকাইটিস-এর একিউট ব্যাকটেরিয়াল এক্সাসারবেশন: ২৫০-৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ১০ দিন\n- একিউট ব্রংকাইটিস-এর মাধ্যমিক ব্যাকটেরিয়াল সংক্রমণ: ২৫০-৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ৫-১০ দিন\n- ত্বক এবং ত্বকের গঠনে অজটিল সংক্রমণ: ২৫০-৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ১০ দিন\n- মূত্রনালীর অজটিল সংক্রমণ: ২৫০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ৭-১০ দিন\n- অজটিল গনোরিয়া: ১০০০ মিঃগ্রাঃ, একক মাত্রা\n- কমিউনিটি একুয়ার্ড নিউমোনিয়া: ২৫০-৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ৫-১০ দিন\n- এমডিআর টাইফয়েড ফিভার: ৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ১০-১৪ দিন\n- লাইম রোগের প্রারম্ভিক অবস্থা: ৫০০ মিঃগ্রাঃ দিনে ২ বার, সময়সীমা ২০ দিন\n\r\nশিশু রোগীদের ক্ষেত্রে (৩ মাস থেকে ১২ বছরের)-\n\n- ফ্যারিংজাইটিস/টনসিলাইটিস: ২০ মিঃগ্রাঃ/কেজি/দিনে ২ বার, সময়সীমা ৫-১০ দিন\n- একিউট মধ্যকর্ণের প্রদাহ: ৩০ মিঃগ্রাঃ/কেজি/দিনে ২ বার, সময়সীমা ১০ দিন\n- একিউট ব্যাকটেরিয়াল ম্যাক্সিলারী সাইনুসাইটিস: ৩০ মিঃগ্রাঃ/কেজি/দিনে ২ বার, সময়সীমা ১০ দিন\n- ইমপেটিগো: ৩০ মিঃগ্রাঃ/কেজি/দিনে ২ বার, সময়সীমা ১০ দিন\n\n#### ইঞ্জেকশন-\n\n- **পূর্ণবয়স্ক**: ৭৫০ মিঃগ্রাঃ দিনে ৩ বার মাংশপেশী বা শিরাপথে প্রয়োগ করতে হবে। গুরুতর ধরনের সংক্রমণে মাত্রা ১.৫ গ্রাম দিনে ৩ বার (শিরাপথে) পর্যন্ত বৃদ্ধি করা যেতে পারে। প্রয়োজন হলে দৈনিক সর্বোচ্চ মাত্রা ৩ থেকে ৬ গ্রাম ৪ টি সমবিভক্ত মাত্রায় দেয়া যেতে পারে।\n- **শিশু (৩ মাসের বেশী বয়সী)**: শরীরের প্রতি কেজি ওজনের জন্য প্রতিদিন ৩০-১০০ মিঃগ্রাঃ, ৩-৪ টি সমবিভক্ত মাত্রায় প্রয়োগ করতে হবে। অধিকাংশ সংক্রমণের ক্ষেত্রে শরীরের প্রতি কেজি ওজনের জন্য দৈনিক ৬০ মিঃগ্রাঃ পর্যাপ্ত।\n- **নিওনেট**: শরীরের প্রতি কেজি ওজনের জন্য প্রতিদিন ৩০-১০০ মিঃগ্রাঃ, ২-৩ টি সমবিভক্ত মাত্রায়।\n- **সার্জিকাল প্রোফাইল্যাক্সিস**: এ্যানেসথেসিয়ার শুরুতে শিরাপথে ১.৫ গ্রাম এর একটি একক মাত্রা; অতি ঝুঁকিপূর্ণ অস্ত্রোপচারে ৭৫০ মিঃগ্রাঃ ইনজেকশনের ৩ টি মাত্রা প্রতি ৮ ঘন্টা পর পর মাংশপেশী বা শিরাপথে প্রয়োগ করতে হবে।\n- **নিউমোনিয়া**: ধারাবাহিক চিকিৎসা হিসাবে ১.৫ গ্রাম দিনে ২ বার শিরাপথে ২-৩ দিন পর্যন্ত ব্যবহার করতে হবে,অতঃপর ৫০০ মিঃগ্রাঃ দিনে ২ বার ৭-১০ দিন মুখে সেবন করতে হবে।\n- **ক্রণিক ব্রংকাইটিসের তীব্র সংক্রমণ**: ধারাবাহিক চিকিৎসা হিসাবে ৭৫০ মিঃগ্রাঃ দিনে ২ বার মাংশপেশী বা শিরাপথে ২-৩ দিন পর্যন্ত ব্যবহার করতে হবে,অতঃপর ৫০০ মিঃগ্রাঃ দিনে ২ বার ৫-১০ দিন মুখে সেবন করতে হবে। (ইনজেকশন ও মুখে সেবন উভয় ক্ষেত্রেই চিকিৎসার সময়কাল সংক্রমণের তীব্রতা এবং রোগীর শারীরিক অবস্থার উপর নির্ভরশীল)।\n- **গনোরিয়া**: পূর্ণবয়স্ক: ১.৫ গ্রামের একটি একক মাত্রা (৭৫০ মিঃগ্রাঃ এর ২ টি ইঞ্জেকশন ২ টি ভিন্ন মাংসপেশীর মাধ্যমে অর্থাৎ উভয় নিতম্বে প্রদান করতে হবে)।\n\r\nমেনিনজাইটিস: \n\n- **পূর্ণবয়স্ক**: ৩ গ্রাম দিনে ৩ বার শিরাপথে প্রয়োগ করতে হবে।\n- **শিশু**: (৩ মাসের বেশী বয়সী): শরীরের প্রতি কেজি ওজনের জন্য ২০০-২৪০ মিঃগ্রাঃ , প্রতিদিন , শিরাপথে , ৩-৪ টি সমবিভক্ত মাত্রায় প্রয়োগ করতে হবে। ৩ দিন পর বা অবস্থার উন্নতি হলে মাত্রা শরীরের প্রতি কেজি ওজনের জন্য ১০০ মিঃগ্রাঃ এ কমিয়ে আনতে হবে।\n- **নিওনেট**: প্রাথমিকভাবে শরীরের প্রতি কেজি ওজনের জন্য ১০০ মিঃগ্রাঃ, পরবর্তীতে শরীরের প্রতি কেজি ওজনের জন্য ৫০ মিঃগ্রাঃ এ কমিয়ে আনতে হবে।\n\r\nঅস্থি এবং অস্থিসন্ধির সংক্রমণ: \n\n- **পূর্ণবয়স্ক**: ১.৫ গ্রাম দিনে ৪ বার শিরাপথে প্রয়োগ করতে হবে।\n- **শিশু**: (৩ মাসের বেশী বয়সী): শরীরের প্রতি কেজি ওজনের জন্য ১৫০ মিঃগ্রাঃ , প্রতিদিন (পূর্ণবয়স্কদের সর্বোচ্চ মাত্রার বেশী দেয়া যাবে না), ৮ ঘন্টা পরপর সমবিভক্ত মাত্রায় প্রয়োগ করতে হবে।",
+    "administration": "সদ্য প্রস্তুতকৃত ইনজেকশন ব্যবহার করতে হবে, তবে ঔষধের কার্যকারিতা সাধারণ তাপমাত্রায় ২৪ ঘন্টা ও ৫o সেঃ তাপমাত্রায় ৪৮ ঘন্টা বজায় থাকে।",
+    "interaction": "শক্তিশালী ক্ষতিকারক কোন মিথষ্ক্রিয়া দেখা যায় নাই।",
+    "contraindications": "সেফালোস্পোরিন Group এর এন্টিবায়োটিক-এর প্রতি জ্ঞাত সংবেদনশীল রোগীদের সেফিউরক্সিম দেয়া উচিত নয়।",
+    "side_effects": "সেফিউরক্সিম-এর পার্শ্ব প্রতিক্রিয়া কদাচিৎ দেখা যায় এবং তা মৃদু ও ক্ষনস্থায়ী। পার্শ্ব প্রতিক্রিয়া স্বরূপ ত্বকের ফুসঁকুড়ি এবং পাকান্ত্রিক গোলযোগ দেখা দিতে পারে। অন্য এন্টিবায়োটিকের মত এর দীর্ঘ ব্যবহার, সাধারণত আক্রমণ করেনা এমন জীবাণুর সংক্রমণ হতে পারে যেমনঃ ক্যানডিডা।",
+    "pregnancy_cat": "US FDA প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী সেফিউরক্সিম 'B' জাতীয় ঔষধ। অর্থাৎ, গর্ভাবস্থায় ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহের জন্য কার্যকর নয়, সেহেতু এই ঔষধটি গর্ভাবস্থায় সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। সেফিউরক্সিম স্তন্যদুগ্ধে নিঃসৃত হয়। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে সেফিউরক্সিম ব্যবহারে সতর্কতা অবলম্বন করা উচিত।",
+    "precautions": "যে সমস্থ রোগীর শক্তিশালী ডাইউরেটিক সেবন করছে অথবা যাদের কোলাইটিসের ইতিহাস আছে তাদের ক্ষেত্রে সেফিউরক্সিম সতর্কতার সাথে ব্যবহার করতে হবে। যদিও যে সব রোগী পেনিসিলিনের প্রতি অতি সংবেদনশীল তাদের ক্ষেত্রে সাধারণত সেফালোস্পোরিন ব্যবহার নিরাপদ যদিও ক্রস রিঅ্যাকশনের সম্ভাবনা থাকে। সাধারণত নির্ধারিত মাত্রায় সেফিউরক্সিম ব্যবহারে এই সমস্যা দেখা যায় না।",
+    "drug_classes": "Second generation cephalosporins",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ঠান্ডা ও শুষ্ক স্থানে (৩০° সেঃ তাপমাত্রার নিচে) রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/226/cefuroxime-axetil",
+  "source_url_bn": "https://medex.com.bd/generics/226/cefuroxime-axetil/bn",
+  "scraped_at": "2026-10-10T15:02:43+00:00"
+}

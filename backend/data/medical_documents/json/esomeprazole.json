@@ -1,0 +1,2146 @@
+{
+  "slug": "esomeprazole",
+  "name_en": "Esomeprazole",
+  "name_bn": "ইসোমিপ্রাজল",
+  "therapeutic_class": "",
+  "dosage_forms": [
+    "Oral",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Acigard",
+      "strength": "20 mg",
+      "manufacturer": "Derma Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/39822/acigard-20-mg-ec-capsule"
+    },
+    {
+      "name": "Acigard",
+      "strength": "40 mg",
+      "manufacturer": "Derma Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/39823/acigard-40-mg-ec-capsule"
+    },
+    {
+      "name": "Alton",
+      "strength": "20 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1981/alton-20-mg-ec-tablet"
+    },
+    {
+      "name": "Alton",
+      "strength": "40 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/1982/alton-40-mg-ec-tablet"
+    },
+    {
+      "name": "Alton",
+      "strength": "40 mg/vial",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/26546/alton-40-mg-injection"
+    },
+    {
+      "name": "Asector",
+      "strength": "20 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/1983/asector-20-mg-ec-capsule"
+    },
+    {
+      "name": "Asector",
+      "strength": "40 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/1984/asector-40-mg-ec-capsule"
+    },
+    {
+      "name": "Asector",
+      "strength": "40 mg/vial",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "40 mg vial : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/28066/asector-40-mg-injection"
+    },
+    {
+      "name": "Asozit",
+      "strength": "20 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1985/asozit-20-mg-ec-capsule"
+    },
+    {
+      "name": "Asozit",
+      "strength": "40 mg",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29383/asozit-40-mg-ec-capsule"
+    },
+    {
+      "name": "Cosmozole",
+      "strength": "20 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/31932/cosmozole-20-mg-ec-capsule"
+    },
+    {
+      "name": "Cosmozole",
+      "strength": "40 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/31933/cosmozole-40-mg-ec-capsule"
+    },
+    {
+      "name": "Creso",
+      "strength": "20 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28181/creso-20-mg-ec-tablet"
+    },
+    {
+      "name": "Creso",
+      "strength": "40 mg",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/28182/creso-40-mg-ec-tablet"
+    },
+    {
+      "name": "Curacid",
+      "strength": "40 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/1987/curacid-40-mg-ec-capsule"
+    },
+    {
+      "name": "Curacid",
+      "strength": "20 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26151/curacid-20-mg-ec-capsule"
+    },
+    {
+      "name": "Elena",
+      "strength": "20 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38499/elena-20-mg-ec-capsule"
+    },
+    {
+      "name": "Elena",
+      "strength": "40 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/38500/elena-40-mg-ec-capsule"
+    },
+    {
+      "name": "Ema",
+      "strength": "20 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/1988/ema-20-mg-ec-tablet"
+    },
+    {
+      "name": "Ema",
+      "strength": "40 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1989/ema-40-mg-ec-tablet"
+    },
+    {
+      "name": "Ema",
+      "strength": "40 mg/vial",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/1990/ema-40-mg-injection"
+    },
+    {
+      "name": "Ema",
+      "strength": "20 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26300/ema-20-mg-ec-capsule"
+    },
+    {
+      "name": "Ema",
+      "strength": "40 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26301/ema-40-mg-ec-capsule"
+    },
+    {
+      "name": "Emep",
+      "strength": "20 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1991/emep-20-mg-ec-tablet"
+    },
+    {
+      "name": "Emep",
+      "strength": "20 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1992/emep-20-mg-ec-capsule"
+    },
+    {
+      "name": "Emep",
+      "strength": "40 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/1993/emep-40-mg-ec-capsule"
+    },
+    {
+      "name": "Emep",
+      "strength": "40 mg/vial",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/1994/emep-40-mg-injection"
+    },
+    {
+      "name": "Emo-20",
+      "strength": "20 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/1995/emo-20-20-mg-ec-tablet"
+    },
+    {
+      "name": "Epa",
+      "strength": "20 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/1996/epa-20-mg-ec-tablet"
+    },
+    {
+      "name": "Epa",
+      "strength": "20 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/35580/epa-20-mg-ec-capsule"
+    },
+    {
+      "name": "Epizol",
+      "strength": "40 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/20153/epizol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Epizol",
+      "strength": "20 mg",
+      "manufacturer": "Nipa Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26148/epizol-20-mg-ec-capsule"
+    },
+    {
+      "name": "Eprazol",
+      "strength": "20 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/1997/eprazol-20-mg-ec-capsule"
+    },
+    {
+      "name": "Eprazol",
+      "strength": "40 mg",
+      "manufacturer": "Labaid Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/26961/eprazol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Erazole",
+      "strength": "20 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/1998/erazole-20-mg-ec-tablet"
+    },
+    {
+      "name": "Erazole",
+      "strength": "40 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/22272/erazole-40-mg-ec-capsule"
+    },
+    {
+      "name": "Erazole",
+      "strength": "20 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/26139/erazole-20-mg-ec-capsule"
+    },
+    {
+      "name": "Erazole",
+      "strength": "40 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27180/erazole-40-mg-ec-tablet"
+    },
+    {
+      "name": "Escap",
+      "strength": "20 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26830/escap-20-mg-ec-capsule"
+    },
+    {
+      "name": "Escap",
+      "strength": "40 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/26831/escap-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esigerd",
+      "strength": "20 mg",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27386/esigerd-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esmax",
+      "strength": "20 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/2000/esmax-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esmax",
+      "strength": "40 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2001/esmax-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esmax",
+      "strength": "20 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/37422/esmax-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esmogel",
+      "strength": "20 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/28392/esmogel-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esmogel",
+      "strength": "40 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35876/esmogel-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esmosec",
+      "strength": "20 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/26149/esmosec-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esmosec",
+      "strength": "40 mg/vial",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "40 mg vial : ৳ 95.00",
+      "url": "https://medex.com.bd/brands/32997/esmosec-40-mg-injection"
+    },
+    {
+      "name": "Esmosec",
+      "strength": "40 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/32998/esmosec-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esmotac",
+      "strength": "20 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2002/esmotac-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esmotac",
+      "strength": "40 mg",
+      "manufacturer": "Gaco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2003/esmotac-40-mg-ec-tablet"
+    },
+    {
+      "name": "ESO",
+      "strength": "20 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2004/eso-20-mg-ec-tablet"
+    },
+    {
+      "name": "ESO",
+      "strength": "40 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27104/eso-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esoben",
+      "strength": "20 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27467/esoben-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoben",
+      "strength": "40 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27468/esoben-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoben",
+      "strength": "20 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/27469/esoben-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esoben",
+      "strength": "40 mg",
+      "manufacturer": "Benham Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27470/esoben-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esobest",
+      "strength": "20 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/26136/esobest-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esobest",
+      "strength": "20 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26137/esobest-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esobest",
+      "strength": "40 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27007/esobest-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esobest",
+      "strength": "40 mg",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27008/esobest-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esobest",
+      "strength": "40 mg/vial",
+      "manufacturer": "Sharif Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/30916/esobest-40-mg-injection"
+    },
+    {
+      "name": "Esocare",
+      "strength": "20 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2005/esocare-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esocare",
+      "strength": "40 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2006/esocare-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoclip",
+      "strength": "20 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31434/esoclip-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esocon",
+      "strength": "20 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2007/esocon-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esocon",
+      "strength": "40 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2008/esocon-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esocon",
+      "strength": "40 mg/vial",
+      "manufacturer": "Biopharma Limited",
+      "price": "40 mg vial : ৳ 65.00",
+      "url": "https://medex.com.bd/brands/2009/esocon-40-mg-injection"
+    },
+    {
+      "name": "Esoflux",
+      "strength": "20 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27253/esoflux-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoflux",
+      "strength": "40 mg",
+      "manufacturer": "Centeon Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27254/esoflux-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esofour",
+      "strength": "20 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 7.20",
+      "url": "https://medex.com.bd/brands/27199/esofour-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esofour",
+      "strength": "40 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.60",
+      "url": "https://medex.com.bd/brands/27201/esofour-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esogap",
+      "strength": "20 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2010/esogap-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esogap",
+      "strength": "40 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2011/esogap-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esogap",
+      "strength": "20 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26158/esogap-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esogap",
+      "strength": "40 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27233/esogap-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esogap",
+      "strength": "40 mg/vial",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27238/esogap-40-mg-injection"
+    },
+    {
+      "name": "Esogel",
+      "strength": "20 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2012/esogel-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esogel",
+      "strength": "40 mg",
+      "manufacturer": "Novatek Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2013/esogel-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esohil",
+      "strength": "20 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31347/esohil-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esohil",
+      "strength": "40 mg",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31348/esohil-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esolam",
+      "strength": "20 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/38163/esolam-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esolam",
+      "strength": "40 mg",
+      "manufacturer": "Avarox Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/38164/esolam-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esolin",
+      "strength": "20 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28211/esolin-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esolin",
+      "strength": "40 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28212/esolin-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esolok",
+      "strength": "20 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2014/esolok-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esolok",
+      "strength": "40 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2015/esolok-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esolok",
+      "strength": "20 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2016/esolok-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esolok",
+      "strength": "40 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2017/esolok-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esolok",
+      "strength": "40 mg/vial",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/2018/esolok-40-mg-injection"
+    },
+    {
+      "name": "Esom-E",
+      "strength": "20 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2019/esom-e-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esomenta",
+      "strength": "20 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2020/esomenta-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomenta",
+      "strength": "40 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2021/esomenta-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esomep",
+      "strength": "20 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 5.02",
+      "url": "https://medex.com.bd/brands/2022/esomep-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esomep",
+      "strength": "40 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 8.02",
+      "url": "https://medex.com.bd/brands/2023/esomep-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esomep",
+      "strength": "20 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/2024/esomep-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomep",
+      "strength": "40 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/2025/esomep-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esomep",
+      "strength": "40 mg/vial",
+      "manufacturer": "ACI Limited",
+      "price": "40 mg vial : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/2026/esomep-40-mg-injection"
+    },
+    {
+      "name": "Esomiloc",
+      "strength": "20 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2027/esomiloc-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esomiloc",
+      "strength": "20 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27154/esomiloc-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomiloc",
+      "strength": "40 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27155/esomiloc-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esomiloc",
+      "strength": "40 mg",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27156/esomiloc-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esomium",
+      "strength": "20 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26146/esomium-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomium",
+      "strength": "40 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/28108/esomium-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esomo",
+      "strength": "20 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/2028/esomo-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomo",
+      "strength": "40 mg",
+      "manufacturer": "Amulet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/2029/esomo-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esomo-Fast",
+      "strength": "40 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/34775/esomo-fast-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esomo-Fast",
+      "strength": "20 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34776/esomo-fast-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esomo-Fast",
+      "strength": "20 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/34777/esomo-fast-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esomo-Fast",
+      "strength": "40 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/34778/esomo-fast-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esompus",
+      "strength": "20 mg",
+      "manufacturer": "Radius Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/33219/esompus-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esonaaf",
+      "strength": "20 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26147/esonaaf-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esonaaf",
+      "strength": "40 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36483/esonaaf-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esonam",
+      "strength": "20 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/31469/esonam-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esonam",
+      "strength": "40 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/31470/esonam-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esonix",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2030/esonix-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esonix",
+      "strength": "40 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2031/esonix-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esonix",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2032/esonix-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esonix",
+      "strength": "40 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2033/esonix-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esonix",
+      "strength": "40 mg/vial",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/2034/esonix-40-mg-injection"
+    },
+    {
+      "name": "Esonix",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "20 mg sachet : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26122/esonix-20-mg-oral-powder"
+    },
+    {
+      "name": "Esonix DR",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/39811/esonix-dr-20-mg-dr-capsule"
+    },
+    {
+      "name": "Esonix DR",
+      "strength": "40 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/39812/esonix-dr-40-mg-dr-capsule"
+    },
+    {
+      "name": "Esonor",
+      "strength": "20 mg",
+      "manufacturer": "RN Pharmaceuticals",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/31038/esonor-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esopin",
+      "strength": "20 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.02",
+      "url": "https://medex.com.bd/brands/2035/esopin-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esopra",
+      "strength": "20 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.01",
+      "url": "https://medex.com.bd/brands/2037/esopra-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esopra",
+      "strength": "40 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/27856/esopra-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esopra",
+      "strength": "20 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.02",
+      "url": "https://medex.com.bd/brands/27857/esopra-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esopra",
+      "strength": "40 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/27858/esopra-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoprex",
+      "strength": "20 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2039/esoprex-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoprex",
+      "strength": "40 mg",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2040/esoprex-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoprex",
+      "strength": "40 mg/vial",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "price": "40 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/26391/esoprex-40-mg-injection"
+    },
+    {
+      "name": "Esoprol",
+      "strength": "20 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2041/esoprol-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoprol",
+      "strength": "40 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2042/esoprol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoprol",
+      "strength": "40 mg/vial",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/32653/esoprol-40-mg-injection"
+    },
+    {
+      "name": "Esoral",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2043/esoral-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esoral",
+      "strength": "40 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2044/esoral-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esoral",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2045/esoral-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoral",
+      "strength": "40 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2046/esoral-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoral",
+      "strength": "40 mg/vial",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/2047/esoral-40-mg-injection"
+    },
+    {
+      "name": "Esoral",
+      "strength": "20 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "20 mg sachet : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/30641/esoral-20-mg-oral-powder"
+    },
+    {
+      "name": "Esosav",
+      "strength": "20 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37851/esosav-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esosav",
+      "strength": "40 mg",
+      "manufacturer": "Save Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37852/esosav-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esosic",
+      "strength": "20 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/37800/esosic-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esosic",
+      "strength": "40 mg",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37801/esosic-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esosil",
+      "strength": "20 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27399/esosil-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotac",
+      "strength": "20 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/2048/esotac-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esotac",
+      "strength": "40 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2049/esotac-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esotac",
+      "strength": "20 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26128/esotac-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotac",
+      "strength": "40 mg/vial",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/26910/esotac-40-mg-injection"
+    },
+    {
+      "name": "Esotac",
+      "strength": "40 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/28483/esotac-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esotem",
+      "strength": "20 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/27333/esotem-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotem",
+      "strength": "40 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27334/esotem-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esotid",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/2050/esotid-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esotid",
+      "strength": "40 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2051/esotid-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esotid",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.50",
+      "url": "https://medex.com.bd/brands/2052/esotid-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotid",
+      "strength": "40 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2053/esotid-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esotid",
+      "strength": "40 mg/vial",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/2054/esotid-40-mg-injection"
+    },
+    {
+      "name": "Esoton",
+      "strength": "20 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/39333/esoton-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotor",
+      "strength": "20 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/17164/esotor-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esotor",
+      "strength": "40 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/17165/esotor-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esotor",
+      "strength": "20 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/17166/esotor-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esotor",
+      "strength": "40 mg",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/17167/esotor-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esotor",
+      "strength": "40 mg/vial",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/39368/esotor-40-mg-injection"
+    },
+    {
+      "name": "Esotron",
+      "strength": "20 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 5.50",
+      "url": "https://medex.com.bd/brands/26143/esotron-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esotron",
+      "strength": "40 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27140/esotron-40-mg-ec-tablet"
+    },
+    {
+      "name": "Esover",
+      "strength": "20 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/26145/esover-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esover",
+      "strength": "40 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.03",
+      "url": "https://medex.com.bd/brands/29577/esover-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esovir",
+      "strength": "20 mg",
+      "manufacturer": "Virgo Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2057/esovir-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esowell",
+      "strength": "20 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/36993/esowell-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esowell",
+      "strength": "40 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/37841/esowell-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esowell",
+      "strength": "20 mg",
+      "manufacturer": "National Drug Co. Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/37844/esowell-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esoxium",
+      "strength": "20 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/35678/esoxium-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esoxium",
+      "strength": "40 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/35679/esoxium-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoz",
+      "strength": "20 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2058/esoz-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esoz",
+      "strength": "40 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29469/esoz-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esoz",
+      "strength": "20 mg",
+      "manufacturer": "Astra Biopharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/29470/esoz-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esozol",
+      "strength": "20 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26150/esozol-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esozol",
+      "strength": "20 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/35762/esozol-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esozol",
+      "strength": "40 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/35763/esozol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Esozyme",
+      "strength": "20 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2113/esozyme-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esozyme",
+      "strength": "20 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28126/esozyme-20-mg-ec-capsule"
+    },
+    {
+      "name": "Espazole",
+      "strength": "20 mg",
+      "manufacturer": "Arges Life Science Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32910/espazole-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esphazole",
+      "strength": "20 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37676/esphazole-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esprazo",
+      "strength": "20 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/28528/esprazo-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esprazo",
+      "strength": "20 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/35310/esprazo-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esru",
+      "strength": "20 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2062/esru-20-mg-ec-tablet"
+    },
+    {
+      "name": "Esru",
+      "strength": "20 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38004/esru-20-mg-ec-capsule"
+    },
+    {
+      "name": "Esru",
+      "strength": "40 mg",
+      "manufacturer": "Doctor’s Chemical Works Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38005/esru-40-mg-ec-capsule"
+    },
+    {
+      "name": "Exilok",
+      "strength": "20 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26130/exilok-20-mg-ec-capsule"
+    },
+    {
+      "name": "Exilok",
+      "strength": "40 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26131/exilok-40-mg-ec-capsule"
+    },
+    {
+      "name": "Exilok",
+      "strength": "20 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26981/exilok-20-mg-ec-tablet"
+    },
+    {
+      "name": "Exilok",
+      "strength": "40 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 8.03",
+      "url": "https://medex.com.bd/brands/26982/exilok-40-mg-ec-tablet"
+    },
+    {
+      "name": "Exilok",
+      "strength": "40 mg/vial",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/27722/exilok-40-mg-injection"
+    },
+    {
+      "name": "Exium",
+      "strength": "20 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2063/exium-20-mg-ec-capsule"
+    },
+    {
+      "name": "Exium",
+      "strength": "40 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/2064/exium-40-mg-ec-capsule"
+    },
+    {
+      "name": "Exium",
+      "strength": "40 mg/vial",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 120.00",
+      "url": "https://medex.com.bd/brands/26438/exium-40-mg-injection"
+    },
+    {
+      "name": "Exmart",
+      "strength": "20 mg",
+      "manufacturer": "MST Pharma",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2065/exmart-20-mg-ec-tablet"
+    },
+    {
+      "name": "Exome",
+      "strength": "20 mg",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26152/exome-20-mg-ec-tablet"
+    },
+    {
+      "name": "Exor",
+      "strength": "20 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2067/exor-20-mg-ec-capsule"
+    },
+    {
+      "name": "Exor",
+      "strength": "40 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2068/exor-40-mg-ec-capsule"
+    },
+    {
+      "name": "Exor",
+      "strength": "40 mg/vial",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "40 mg vial : ৳ 100.30",
+      "url": "https://medex.com.bd/brands/2069/exor-40-mg-injection"
+    },
+    {
+      "name": "EZ-20",
+      "strength": "20 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2070/ez-20-20-mg-ec-capsule"
+    },
+    {
+      "name": "Gaspro",
+      "strength": "40 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/22786/gaspro-40-mg-ec-capsule"
+    },
+    {
+      "name": "Gaspro",
+      "strength": "40 mg/vial",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/22787/gaspro-40-mg-injection"
+    },
+    {
+      "name": "Gaspro",
+      "strength": "20 mg",
+      "manufacturer": "Ethical Drugs Limited",
+      "price": "Unit Price : ৳ 6.35",
+      "url": "https://medex.com.bd/brands/26153/gaspro-20-mg-ec-capsule"
+    },
+    {
+      "name": "Gerdo",
+      "strength": "20 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/26713/gerdo-20-mg-ec-capsule"
+    },
+    {
+      "name": "iMAX",
+      "strength": "20 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2072/imax-20-mg-ec-capsule"
+    },
+    {
+      "name": "iMAX",
+      "strength": "40 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27771/imax-40-mg-ec-capsule"
+    },
+    {
+      "name": "M-Prazol",
+      "strength": "20 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/32508/m-prazol-20-mg-ec-capsule"
+    },
+    {
+      "name": "M-Prazol",
+      "strength": "40 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32509/m-prazol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Maxima",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2073/maxima-20-mg-ec-capsule"
+    },
+    {
+      "name": "Maxima",
+      "strength": "40 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2074/maxima-40-mg-ec-capsule"
+    },
+    {
+      "name": "Maxima",
+      "strength": "40 mg/vial",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "40 mg vial : ৳ 90.27",
+      "url": "https://medex.com.bd/brands/2075/maxima-40-mg-injection"
+    },
+    {
+      "name": "Maxima",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26125/maxima-20-mg-ec-tablet"
+    },
+    {
+      "name": "Maxima",
+      "strength": "40 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26521/maxima-40-mg-ec-tablet"
+    },
+    {
+      "name": "Maxora",
+      "strength": "20 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/38973/maxora-20-mg-ec-capsule"
+    },
+    {
+      "name": "Maxora",
+      "strength": "40 mg",
+      "manufacturer": "Army Pharma Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/38974/maxora-40-mg-ec-capsule"
+    },
+    {
+      "name": "Maxpro",
+      "strength": "20 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2076/maxpro-20-mg-ec-tablet"
+    },
+    {
+      "name": "Maxpro",
+      "strength": "40 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2077/maxpro-40-mg-ec-tablet"
+    },
+    {
+      "name": "Maxpro",
+      "strength": "20 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2078/maxpro-20-mg-ec-capsule"
+    },
+    {
+      "name": "Maxpro",
+      "strength": "40 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2079/maxpro-40-mg-ec-capsule"
+    },
+    {
+      "name": "Maxpro",
+      "strength": "40 mg/vial",
+      "manufacturer": "Renata PLC",
+      "price": "40 mg vial : ৳ 105.00",
+      "url": "https://medex.com.bd/brands/2080/maxpro-40-mg-injection"
+    },
+    {
+      "name": "Mepal",
+      "strength": "20 mg",
+      "manufacturer": "Royal Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/32186/mepal-20-mg-ec-tablet"
+    },
+    {
+      "name": "Neptor",
+      "strength": "20 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/2081/neptor-20-mg-ec-capsule"
+    },
+    {
+      "name": "Neptor",
+      "strength": "40 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/2082/neptor-40-mg-ec-capsule"
+    },
+    {
+      "name": "Neusangel",
+      "strength": "20 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/37387/neusangel-20-mg-ec-capsule"
+    },
+    {
+      "name": "Neusangel",
+      "strength": "40 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37388/neusangel-40-mg-ec-capsule"
+    },
+    {
+      "name": "NexCap",
+      "strength": "20 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2083/nexcap-20-mg-ec-capsule"
+    },
+    {
+      "name": "NexCap",
+      "strength": "40 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/2084/nexcap-40-mg-ec-capsule"
+    },
+    {
+      "name": "Nexe",
+      "strength": "20 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2085/nexe-20-mg-ec-tablet"
+    },
+    {
+      "name": "Nexe",
+      "strength": "40 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/2086/nexe-40-mg-ec-capsule"
+    },
+    {
+      "name": "Nexe",
+      "strength": "20 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/26138/nexe-20-mg-ec-capsule"
+    },
+    {
+      "name": "Nexe",
+      "strength": "40 mg/vial",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28154/nexe-40-mg-injection"
+    },
+    {
+      "name": "Nexe",
+      "strength": "40 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/39609/nexe-40-mg-ec-tablet"
+    },
+    {
+      "name": "Nexum",
+      "strength": "20 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 7.02",
+      "url": "https://medex.com.bd/brands/2089/nexum-20-mg-ec-capsule"
+    },
+    {
+      "name": "Nexum",
+      "strength": "40 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/2090/nexum-40-mg-ec-capsule"
+    },
+    {
+      "name": "Nexum",
+      "strength": "40 mg/vial",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "40 mg vial : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/2091/nexum-40-mg-injection"
+    },
+    {
+      "name": "Nexven",
+      "strength": "20 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36619/nexven-20-mg-ec-capsule"
+    },
+    {
+      "name": "Nuloc",
+      "strength": "20 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28065/nuloc-20-mg-ec-tablet"
+    },
+    {
+      "name": "Nuloc",
+      "strength": "40 mg/vial",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/30917/nuloc-40-mg-injection"
+    },
+    {
+      "name": "Onepro",
+      "strength": "20 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26134/onepro-20-mg-ec-capsule"
+    },
+    {
+      "name": "Onepro",
+      "strength": "20 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/26135/onepro-20-mg-ec-tablet"
+    },
+    {
+      "name": "Onepro",
+      "strength": "40 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27091/onepro-40-mg-ec-capsule"
+    },
+    {
+      "name": "Onepro",
+      "strength": "40 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/27092/onepro-40-mg-ec-tablet"
+    },
+    {
+      "name": "Onepro",
+      "strength": "40 mg/vial",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/38862/onepro-40-mg-injection"
+    },
+    {
+      "name": "Opton",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2092/opton-20-mg-ec-tablet"
+    },
+    {
+      "name": "Opton",
+      "strength": "40 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2093/opton-40-mg-ec-tablet"
+    },
+    {
+      "name": "Opton",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26126/opton-20-mg-ec-capsule"
+    },
+    {
+      "name": "Opton",
+      "strength": "40 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26310/opton-40-mg-ec-capsule"
+    },
+    {
+      "name": "Peptex",
+      "strength": "20 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/31613/peptex-20-mg-ec-capsule"
+    },
+    {
+      "name": "Peptex",
+      "strength": "40 mg",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/31614/peptex-40-mg-ec-capsule"
+    },
+    {
+      "name": "Pepzol",
+      "strength": "20 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/27194/pepzol-20-mg-ec-capsule"
+    },
+    {
+      "name": "Pepzol",
+      "strength": "40 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27195/pepzol-40-mg-ec-capsule"
+    },
+    {
+      "name": "Pergel",
+      "strength": "20 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27411/pergel-20-mg-ec-tablet"
+    },
+    {
+      "name": "Prazia",
+      "strength": "20 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29763/prazia-20-mg-ec-capsule"
+    },
+    {
+      "name": "Prazia",
+      "strength": "40 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29764/prazia-40-mg-ec-capsule"
+    },
+    {
+      "name": "Progut",
+      "strength": "20 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2095/progut-20-mg-ec-tablet"
+    },
+    {
+      "name": "Progut",
+      "strength": "20 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2097/progut-20-mg-ec-capsule"
+    },
+    {
+      "name": "Progut",
+      "strength": "40 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2098/progut-40-mg-ec-capsule"
+    },
+    {
+      "name": "Progut",
+      "strength": "40 mg/vial",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/2099/progut-40-mg-injection"
+    },
+    {
+      "name": "Pronex",
+      "strength": "20 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/2100/pronex-20-mg-ec-tablet"
+    },
+    {
+      "name": "Pronex",
+      "strength": "40 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2101/pronex-40-mg-ec-tablet"
+    },
+    {
+      "name": "Pronex",
+      "strength": "40 mg/vial",
+      "manufacturer": "Drug International Ltd.",
+      "price": "40 mg vial : ৳ 90.30",
+      "url": "https://medex.com.bd/brands/2102/pronex-40-mg-injection"
+    },
+    {
+      "name": "Pronex",
+      "strength": "20 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26127/pronex-20-mg-ec-capsule"
+    },
+    {
+      "name": "Pronex",
+      "strength": "40 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26622/pronex-40-mg-ec-capsule"
+    },
+    {
+      "name": "Raceper",
+      "strength": "20 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29259/raceper-20-mg-ec-capsule"
+    },
+    {
+      "name": "Raceper",
+      "strength": "40 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/29260/raceper-40-mg-ec-capsule"
+    },
+    {
+      "name": "Raceper",
+      "strength": "20 mg",
+      "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/32340/raceper-20-mg-ec-tablet"
+    },
+    {
+      "name": "S-Ome",
+      "strength": "20 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1965/s-ome-20-mg-ec-tablet"
+    },
+    {
+      "name": "S-Ome",
+      "strength": "40 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/1967/s-ome-40-mg-ec-tablet"
+    },
+    {
+      "name": "S-Ome",
+      "strength": "20 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26141/s-ome-20-mg-ec-capsule"
+    },
+    {
+      "name": "S-Ome",
+      "strength": "40 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/33397/s-ome-40-mg-ec-capsule"
+    },
+    {
+      "name": "SB-Emec",
+      "strength": "20 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26144/sb-emec-20-mg-ec-capsule"
+    },
+    {
+      "name": "SB-Emec",
+      "strength": "40 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27366/sb-emec-40-mg-ec-capsule"
+    },
+    {
+      "name": "Sergel",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2103/sergel-20-mg-ec-capsule"
+    },
+    {
+      "name": "Sergel",
+      "strength": "40 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/2104/sergel-40-mg-ec-capsule"
+    },
+    {
+      "name": "Sergel",
+      "strength": "40 mg/vial",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 100.00",
+      "url": "https://medex.com.bd/brands/2107/sergel-40-mg-injection"
+    },
+    {
+      "name": "Sergel",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/26120/sergel-20-mg-ec-tablet"
+    },
+    {
+      "name": "Sergel",
+      "strength": "40 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/26857/sergel-40-mg-ec-tablet"
+    },
+    {
+      "name": "Sergel",
+      "strength": "20 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "20 mg sachet : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/29226/sergel-20-mg-oral-powder"
+    },
+    {
+      "name": "Siligel",
+      "strength": "20 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 6.50",
+      "url": "https://medex.com.bd/brands/33353/siligel-20-mg-ec-capsule"
+    },
+    {
+      "name": "Siligel",
+      "strength": "40 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/33354/siligel-40-mg-ec-capsule"
+    },
+    {
+      "name": "Somazole",
+      "strength": "20 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2108/somazole-20-mg-ec-capsule"
+    },
+    {
+      "name": "Somazole",
+      "strength": "40 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/25403/somazole-40-mg-ec-capsule"
+    },
+    {
+      "name": "Somazole",
+      "strength": "40 mg/vial",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "40 mg vial : ৳ 110.00",
+      "url": "https://medex.com.bd/brands/37209/somazole-40-mg-injection"
+    },
+    {
+      "name": "Sompraz",
+      "strength": "20 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/2109/sompraz-20-mg-ec-tablet"
+    },
+    {
+      "name": "Sompraz",
+      "strength": "40 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 9.50",
+      "url": "https://medex.com.bd/brands/2110/sompraz-40-mg-ec-tablet"
+    },
+    {
+      "name": "Sompraz",
+      "strength": "20 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/31096/sompraz-20-mg-ec-capsule"
+    },
+    {
+      "name": "Sompraz",
+      "strength": "40 mg",
+      "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/31955/sompraz-40-mg-ec-capsule"
+    },
+    {
+      "name": "X-Pro",
+      "strength": "20 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/35529/x-pro-20-mg-ec-capsule"
+    },
+    {
+      "name": "X-Pro",
+      "strength": "40 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 8.50",
+      "url": "https://medex.com.bd/brands/35530/x-pro-40-mg-ec-capsule"
+    },
+    {
+      "name": "Xelpro",
+      "strength": "20 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/2114/xelpro-20-mg-ec-tablet"
+    },
+    {
+      "name": "Xelpro",
+      "strength": "40 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/2115/xelpro-40-mg-ec-tablet"
+    },
+    {
+      "name": "Xelpro",
+      "strength": "20 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 8.00",
+      "url": "https://medex.com.bd/brands/26129/xelpro-20-mg-ec-capsule"
+    },
+    {
+      "name": "Xelpro",
+      "strength": "40 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26992/xelpro-40-mg-ec-capsule"
+    },
+    {
+      "name": "Xelpro",
+      "strength": "40 mg/vial",
+      "manufacturer": "Pharmasia Limited",
+      "price": "40 mg vial : ৳ 90.00",
+      "url": "https://medex.com.bd/brands/28742/xelpro-40-mg-injection"
+    },
+    {
+      "name": "Zasper",
+      "strength": "20 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/36327/zasper-20-mg-ec-capsule"
+    },
+    {
+      "name": "Zasper",
+      "strength": "40 mg",
+      "manufacturer": "Maks Drug Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/36328/zasper-40-mg-ec-capsule"
+    },
+    {
+      "name": "Zasper",
+      "strength": "40 mg/vial",
+      "manufacturer": "Maks Drug Limited",
+      "price": "40 mg vial : ৳ 105.00",
+      "url": "https://medex.com.bd/brands/36329/zasper-40-mg-injection"
+    }
+  ],
+  "sections_en": {
+    "indications": "Esomeprazole is indicated:\n\n- To relieve from chronic heartburn symptoms and other symptoms associated with GERD\n- For the healing of erosive esophagitis\n- For maintenance of healing of erosive esophagitis\n- In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in patients with duodenal ulcer disease.\n- Zollinger-Ellison Syndrome\n- Acid related Dyspepsia\n- Duodenal & Gastric ulcer",
+    "mode_of_action": "Esomeprazole is a proton pump inhibitor that suppresses gastric acid secretion by specific inhibition of the H+/K+-ATPase in the gastric parietal cell. Esomeprazole (S-isomer of omeprazole) is the first single optical isomer of proton pump inhibitor, provides better acid control than racemic proton pump inhibitors.\n\n**Absorption**: Esomeprazole capsules contain an enteric-coated pellet formulation of esomeprazole magnesium. After oral administration peak plasma levels (Cmax) occur at approximately 1.5 hours (Tmax). The Cmax increases proportionally when the dose is increased, and there is a three-fold increase in the area under the plasma ... Read moreEsomeprazole is a proton pump inhibitor that suppresses gastric acid secretion by specific inhibition of the H+/K+-ATPase in the gastric parietal cell. Esomeprazole (S-isomer of omeprazole) is the first single optical isomer of proton pump inhibitor, provides better acid control than racemic proton pump inhibitors.\n\n**Absorption**: Esomeprazole capsules contain an enteric-coated pellet formulation of esomeprazole magnesium. After oral administration peak plasma levels (Cmax) occur at approximately 1.5 hours (Tmax). The Cmax increases proportionally when the dose is increased, and there is a three-fold increase in the area under the plasma concentration-time curve (AUC) from 20 to 40 mg. At repeated once daily dosing, the systemic bioavailability is approximately 90% compared to 64% after a single dose. The AUC after administration of a single dose of esomeprazole is decreased by 33-53% after food intake compared to fasting conditions. Esomeprazole should be taken at least one hour before meals. \n\n**Distribution**: Esomeprazole is 97% bound to plasma proteins. Plasma protein binding is constant over the concentration range of 2 20 mmol/L. The apparent volume of distribution at steady state in healthy volunteers is approximately 16 L.\n\n**Metabolism**: Esomeprazole is extensively metabolized in the liver by the cytochrome P450 (CYP) enzyme system. The metabolites of esomeprazole lack anti-secretory activity. The major part of esomeprazole’s metabolism is dependent upon the CYP2C19 isoenzyme, which forms the hydroxy and desmethyl metabolites. The remaining amount is dependent on CYP3A4 which forms the sulphone metabolite.\n\n**Excretion**: The plasma elimination half-life of esomeprazole is approximately 1–1.5 hours. Less than 1% of parent drug is excreted in the urine. Approximately 80% of an oral dose of esomeprazole is excreted as inactive metabolites in the urine, and the remainder is found as inactive metabolites in the faeces. \n\n**Combination Therapy with Antimicrobials**: Esomeprazole magnesium 40 mg once daily is given in combination with clarithromycin 500 mg twice daily and amoxicillin 1000 mg twice daily for 7 days. The mean steady state AUC and Cmax of Esomeprazole increased by 70% and 18%, respectively, during triple combination therapy compared to treatment with Esomeprazole alone. The pharmacokinetic parameters for clarithromycin and amoxicillin are similar during triple combination therapy and administration of each drug alone. However, the mean AUC and Cmax for 14-hydroxyclarithromycin are increased by 19% and 22%, respectively, during triple combination therapy compared to treatment with clarithromycin alone. This increase in exposure to 14-hydroxyclarithromycin is not considered to be clinically significant.",
+    "dosage": "Oral dosage form-\r\n\n- **Healing of Erosive Esophagitis**: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be considered. Maintenance of Healing of Erosive\n- **Esophagitis**: 20 mg Once Daily (Clinical studies did not extend 6 months).\n- **Symptomatic GERD**: 20 mg Once Daily for 4 Weeks. If symptoms do not resolve completely after 4 weeks, an additional 4 weeks of treatment may be considered.\n- **Helicobacter Pylori eradication**: Triple Therapy to reduce the risk of Duodenal Ulcer recurrence-Esomeprazole 40 mg Once Daily for 10 days, Amoxicillin 1000 mg Twice Daily for 10 days, Clarithromycin 500 mg Twice Daily for 10 days.\n- **Zollinger-Ellison Syndrome**: The dose is 20-80 mg once daily. The dosage should be adjusted individually and treatment continued as long as clinically indicated.\n- **Acid-related Dyspepsia**: 20-40 mg once daily for 2-4 weeks according to the response.\n- **Duodenal ulcer**: 20 mg once daily for 2-4 weeks. Gastric ulcer: 20-40 mg once daily for 4-8 weeks.\n\nIV Injection or IV infusion:\n\n**GERD with Erosive Esophagitis**-\nAdult Patients (≥18 years): \n\n- 20 mg or 40 mg once daily\n- IV Injection: >3 Minutes, IV Infusion: 10-30 minutes\n\r\nPediatric Patients (1 year to 17 years)\n\n- Body weight <55 kg: 10 mg Once daily\n- Body Weight ≥55 kg: 20 once daily\n- 1 month to <1 year: 0.5 mg/kg once daily\n- IV Infusion: 10-30 minutes\n\n**Risk reduction of rebleeding of Gastric or Duodenal Ulcers following therapeutic endoscopy in adults**-\nAdult Patients (≥18 years)\n\n- 80 mg\n- IV Infusion: 30 minutes, followed by a continuous infusion of 8 mg/h for a total treatment duration of 72 hours.",
+    "administration": "**Tablet or capsule**: should be swallowed whole and taken one hour before a meal.\n\n**Oral Suspension**: Whole contents of the packet should be taken into a small glass containing 15 ml. of water. The mixer should be stirred well and leave 2 to 3 minutes to thicken. Stir again and drink within 30 minutes. If any medicine remains after drinking, add more water, stir, and drink immediately. If the suspension is to be administered through a nasogastric or gastric tube, the volume of water in the syringe should be 15 ml. & immediately shake the syringe and leave 2 to 3 minutes to thicken. Shake the syringe and inject it through the nasogastric or gastric tube into the stomach within 30 minutes. An appropriately sized syringe should be used. Shake and flush any remaining contents from the nasogastric or gastric tube into the stomach.\n\n**IV Injection**: Solution for injection is prepared by adding 5 ml of 0.9% Sodium Chloride for intravenous injection into the vial containing the dry powder. The reconstituted solution for injection is clear and colorless to very slightly yellow. IV injection must be administrated intravenously over a period of at least 3 minutes. Prepared solution must be used within 12 hours of preparation and can be exposed to normal indoor lighting at a maximum of 30°C.",
+    "interaction": "Esomeprazole is extensively metabolized in the liver by CYP2C19 and CYP3A4. In vitro and in vivo studies have shown that Esomeprazole is not likely to inhibit CYPs 1A2, 2A6, 2C9, 2D6, 2E1 and 3A4. No clinically relevant interactions with drugs metabolized by these CYP enzymes would be expected. Drug interaction studies have shown that Esomeprazole does not have any clinically significant interactions with phenytoin, warfarin, quinidine, clarithromycin or amoxicillin.\n\nEsomeprazole may potentially interfere with CYP2C19, the major Esomeprazole metabolizing enzyme. Co-administration of Esomeprazole 30 mg and diazepam, a CYP2C19 substrate has resulted in a 45% decrease in clearance of diazepam. Increased plasma levels of diazepam have been observed 12 hours after dosing and onwards. Esomeprazole inhibits gastric acid secretion. Therefore, Esomeprazole may interfere with the absorption of drugs where gastric pH is an important determinant of bioavailability (e.g., ketoconazole, iron salts and digoxin).\n\nCo-administration of oral contraceptives, diazepam, phenytoin, or quinidine do not seem to change the pharmacokinetic profile of Esomeprazole.\n\nCombination Therapy with Clarithromycin: Co-administration of esomeprazole, clarithromycin, and amoxicillin has resulted in increases in the plasma levels of esomeprazole and 14-hydroxyclarithromycin.",
+    "contraindications": "Esomeprazole is contraindicated in-patient with known hypersensitivity to any of the formulation.",
+    "side_effects": "The most frequently occurring adverse events reported with Esomeprazole include headache, diarrhoea, nausea, flatulence, abdominal pain, constipation and dry mouth. There are no difference in types of related adverse events seen during maintenance treatment upto 12 months compared to short term treatment.",
+    "pregnancy_cat": "There are no adequate and well-controlled studies in pregnant women. Animal studies have revealed no teratogenic effects. The excretion of esomeprazole in milk has not been studied. Breast-feeding should be therefore be discontinued if the use of esomeprazole is considered essential.",
+    "precautions": "**General**: Symptomatic response to therapy with esomeprazole does not preclude the presence of gastric malignancy.\n\n**Information for patients**: Esomeprazole capsules should be taken at least one hour before meals. For patients who have difficulty swallowing capsules, one tablespoon of applesauce can be added to an empty bowl and the Esomeprazole capsules can be opened, and the pellets inside the capsule carefully emptied onto the applesauce. The pellets should be mixed with the applesauce and then swallowed immediately. The applesauce used should not be hot and should be soft enough to be swallowed without chewing. The pellets should not be chewed or crushed. The pellet/applesauce mixture should not be stored for future use. Antacids may be used while taking esomeprazole.",
+    "pediatric_uses": "**Paediatric Use**: Safety and effectiveness in paediatric patients have not been established.\n\n**Geriatric Use**: No overall differences in safety and efficacy have been observed between the elderly and younger individuals, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out\n\n**Hepatic Insufficiency**: No dosage adjustment is recommended for patients with mild to moderate hepatic insufficiency. However, in patients with severe hepatic insufficiency, a dose of 20 mg once daily should not be exceeded.\n\n**Renal Insufficiency**: The Pharmacokinetics of Esomeprazole in patients with renal impairment are not expected to be altered relative to healthy volunteers as less than 1% of Esomeprazole is excreted unchanged in the urine.",
+    "overdose_effects": "A single oral dose of Esomeprazole at 510 mg/kg (about 103 times the human dose on a body surface area basis), has been lethal to rats. The major signs of acute toxicity are reduced motor activity, changes in respiratory frequency, tremor, ataxia, and intermittent clonic convulsions. There have been no reports of overdose with Esomeprazole. No specific antidote for Esomeprazole is known. Since Esomeprazole is extensively protein bound, it is not expected to be removed by dialysis. In the event of overdosage, treatment should be symptomatic and supportive. As with the management of any overdose, the possibility of multiple drug ingestion should be considered.",
+    "storage_conditions": "Store at a temperature not exceeding 30°C in a dry place. Protect from light and moisture. Keep out of reach of children.",
+    "compound_summary": "| Molecular Formula : | C 17 H 19 N 3 O 3 S |\n| --- | --- |\n| Chemical Structure : |  |",
+    "commonly_asked_questions": "#### What is Esomeprazole?\n\nEsomeprazole is a proton pump inhibitor (PPI). PPIs work by reducing the amount of acid produced in the stomach. Esomeprazole is used to treat gastroesophageal reflux disease (GERD), ulcers, and other conditions that involve too much stomach acid.\n\n#### What is Esomeprazole used for?\n\nEsomeprazole has multiple uses. It eases heartburn and relieves GERD symptoms. It also aids in healing erosive esophagitis, a condition caused by stomach acid damaging the esophagus lining. Additionally, Esomeprazole effectively prevents erosive esophagitis recurrence.\n\n#### What are the side effects of Esomeprazole?\n\nEsomeprazole may cause common side effects like headaches, diarrhea, nausea, gas, stomach pain, constipation, and dry mouth. There aren't any differences in the types of side effects between long-term (up to 12 months) and short-term use.\n\n#### Can I take Esomeprazole if I am pregnant or breastfeeding?\n\nEsomeprazole doesn't have any side-effects if you are pregnant or breastfeeding. You still should talk to your doctor about the risks and benefits of taking Esomeprazole.\n\n#### How long does it take for Esomeprazole to work?\n\nEsomeprazole usually starts to work within a few hours of taking it.\n\n#### Quick Tips\n\n- Esomeprazole is a well-tolerated medicine and provides relief for a long time.\n- Avoid eating late at night or before bedtime.\n- Inform your doctor if you get watery diarrhea, fever or stomach pain that does not go away.\n- Long-term use of Esomeprazole can cause weak bones and a deficiency of minerals such as magnesium. Take adequate dietary intake of calcium and magnesium or their supplements as prescribed by your doctor.\n- Consult your doctor right away if you develop decreased urination, edema (swelling due to fluid retention), lower back pain, nausea, fatigue, and rash or fever. These could be signs of a kidney problem."
+  },
+  "sections_bn": {
+    "indications": "ইসোমিপ্রাজল নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- গ্যাস্ট্রো ইসোফেগাল রিফ্লাক্স রোগ\n- ইরোসিভ ইসোফেগাইটিস রোগসমূহ নির্মূলে\n- এছাড়াও ডিওডেনাল আলসারে হ্যালিকোবেটার পাইলোরী নির্মূলে (ট্রিপল থেরাপি) ইসোমিপ্রাজল ব্যবহৃত হয়\n- এসিড সম্পর্কিত ডিসপেসিয়া\n- ডিওডেনাল অথবা গ্যাস্ট্রিক আলসার\n- জলিঞ্জার-ইলিশন সিনড্রোম এর চিকিৎসায়",
+    "mode_of_action": "ইসোমিপ্রাজল একটি প্রোটন পাম্প ইনহিবিটর যা গ্যাষ্ট্রিক প্যারাইটাল কোষে অবস্থিত H+/K+ ATPase এনজাইম সিস্টেমের সাথে কোভালেন্ট বন্ধনের মাধ্যমে যুক্ত এসিড নিঃসরণের প্রধান ধাপকে বাধাগ্রস্থ করে। ইসোমিপ্রাজল (ওমিপ্রাজলের S-আইসোমার), প্রোটন পাম্প ইনহিবিটরের প্রথম একক অপটিক্যাল আইসোমার যা রেসিমিক প্রোটন পাম্প অপেক্ষাকৃত অধিকতর এসিড নিয়ন্ত্রণ করে।",
+    "dosage": "ইসোমিপ্রাজল খাওয়ার ১ ঘন্টা পূর্বে সেবন করা উচিত। রোগের ধরণ অনুযায়ী সুপারিশকৃত মাত্রা ও প্রয়োগ নিম্নরূপ:\n\n**ইরোসিভ ইসোফ্যাগাইটিস নির্মূলে**: ২০/৪০ মি.গ্রা. হিসেবে দৈনিক ১ বার করে ৪-৮ সপ্তাহ। অধিকাংশ ক্ষেত্রেই ৪-৮ সপ্তাহেই রোগ নির্মূল সম্ভব। তবে কোন কোন ক্ষেত্রে অতিরিক্ত ৪-৮ সপ্তাহকাল চিকিৎসার প্রয়োজন হতে পারে।\n\n**ইরোসিভ ইসোফ্যাগাইটিস নিরাময় নিয়ন্ত্রণে**: ২০ মি.গ্রা. করে দৈনিক ১ বার। ৬ মাসের অধিক সময়কালের ক্ষেত্রে প্রযোজ্য নয়। \n\n**লক্ষণ নির্ভর গ্যাস্ট্রোইসোফেগাল রোগ সমুহের ক্ষেত্রে**: ২০ মি.গ্রা. হিসেবে দৈনিক ১ বার করে ৪ সপ্তাহ।\n\n**ডিওডেনাল আলসারে হ্যালিকোবেকটার পাইলোরী নির্মূলে ট্রিপল থেরাপী**:\n\n- ইসোমিপ্রাজল ৪০ মি:গ্রা: দৈনিক ১ বার ১০ দিন\n- এমোক্সিসিলিন ১০০০ মি:গ্রা: দৈনিক ২ বার ১০ দিন\n- ক্ল্যারিথ্রোমাইসিন ৫০০ মি:গ্রা: দৈনিক ২ বার ১০ দিন\n\n**জলিঞ্জার ইলিশন সিনড্রোমে**: ইসোমিপ্রাজল ক্যাপসুলের দৈনিক একক প্রয়োগ মাত্রা ২০-৮০ মি.গ্রা.। রোগীর বৈশিষ্ট্য অনুযায়ী প্রয়োগ মাত্রা নির্ধারণ করতে হবে এবং ক্লিনিক্যাল নির্দেশনা যতদিন থাকবে ততদিন চিকিৎসা চালিয়ে যেতে হবে।\n\n**ডিওডেনাল আলসারের ক্ষেত্রে**: দৈনিক ২০ মি. গ্রা. হিসেবে ২-৪ সপ্তাহ।\n\n**গ্যাস্ট্রিক আলসারের ক্ষেত্রে**: দৈনিক ২০-৪০ মি. গ্রা. হিসেবে ৪-৮ সপ্তাহ।\n\nইঞ্জেকশন অথবা ইনফিউশন-\n\n**ইরোসিভ ইসোফেগাইটিস সহ গ্যাস্ট্রোইসোফেজিয়াল রিফ্লাক্স রোগীদের ক্ষেত্রে**:\n\nপ্রাপ্তবয়স্কদের ক্ষেত্রে (≥১৮ বছর)\n\n- ২০ মি.গ্ৰা. বা ৪০ মি.গ্রা. প্রতিদিন একবার\n- আইভি ইনজেকশনঃ >৩ মিনিট। আইভি ইনফিউশনঃ ১০-৩০ মিনিট\n\r\nশিশুদের ক্ষেত্রে (১ থেকে ১৭ বছর)\n\n- ওজন < ৫৫ কেজিঃ ১০ মি.গ্রা. প্রতিদিন একবার\n- ওজন ≥ ৫৫ কেজিঃ ২০ মি.গ্রা. প্রতিদিন একবার\n- ১ মাস < ১ বছরঃ ০.৫ মি.গ্রা./কেজি প্রতিদিন একবার\n- আইভি ইনফিউশনঃ ১০-৩০ মিনিট\n\n**প্রাপ্তবয়স্কদের এন্ডোস্কোপির পর পুনরায় রক্তক্ষরনের ঝুঁকি কমানোর ক্ষেত্রে**:\n\nপ্রাপ্তবয়স্কদের ক্ষেত্রে (≥১৮ বছর)\n\n- ৮০ মি.গ্রা.\n- আইভি ইনফিউশনঃ ৩০ মিনিট, এরপর প্রতি ঘন্টায় বিরামহীনভাবে ৮ মি.গ্রা. ইনফিউশন করতে হবে মোট ৭২ ঘন্টা।",
+    "administration": "**ওরাল সাসপেনশন প্রস্তুত প্রনালী**: একটি কাপে ১৫ মি.লি. বিশুদ্ধ পানিতে প্যাকেটের সম্পূর্ণ দানা মিশিয়ে ভালভাবে নাড়ুন এবং ২-৩ মিনিট রেখে দিন, অতঃপর পুনরায় নাড়ুন এবং সম্পূর্ণ মিশ্রণ একবারে সেবন করুন। সাসপেনশনটি ন্যাসোগ্যাস্ট্রিক বা গ্যাস্ট্রিক টিউব দ্বারা প্রয়োগ করতে হলে ১৫ মি.লি. পানিতে মেশাতে হবে। অন্য কোন পানীয় বা খাদ্য ব্যবহার করা উচিত নয়। মিশ্রণটি ভালভাবে নাড়ার পর ২-৩ মিনিট রেখে দিন, অতঃপর পুনরায় ভালভাবে নাড়ার পর উপযুক্ত মাপের সিরিঞ্জ ব্যবহার করে ৩০ মিনিটের মধ্যে টিউবে প্রবেশ করাতে হবে। টিউবের ভেতরের সাসপেনশনটি পুনরায় পানি দিয়ে পরিস্কার করা উচিত।\n\n**ইন্ট্রাভেনাস ইনজেকশন**: ভায়ালের ইসোমিপ্রাজলে ৫ মি.লি সোডিয়াম ক্লোরাইড দ্রবণ মিশিয়ে ইন্ট্রাভেনাস ইনজেকশন ব্যবহার উপযোগী দ্রবণ তৈরি করতে হবে প্রস্তুতকৃত দ্রবণ পরিষ্কার বর্ণবিহীন থেকে হালকা হলুদ বর্ণের রঙ ধারণ করতে পারে। আইভি ইনজেকশন অবশ্যই শিরাপথে কমপক্ষে ৩ মিনিট ধরে প্রবেশ করাতে হবে। প্রস্তুতির ১২ ঘন্টার মধ্যে অবশ্যই ইনজেকশন ব্যবহার করে শেষ করতে হবে। প্রস্তুতকৃত ইনজেকশন সাধারণ আলোতে ৩০° সেলসিয়াস তাপমাত্রায় সংরক্ষণ করতে হবে।",
+    "interaction": "ইসোমিপ্রাজল ব্যবহারের সময় ফেনিটয়েন, ওয়ারফেরিন, কুইনিডিন, ক্ল্যারিথ্রোমাইসিন, এমোক্সিসিলিন এর মিথষ্ক্রিয়ার কোন প্রমাণ নাই। তবে ডায়াজিপামের সাথে ইসোমিপ্রাজল ব্যবহারের ক্ষেত্রে ডায়াজিপামের নিঃসরণ প্রক্রিয়া বিলম্ব হতে পারে। ইসোমিপ্রাজল কিটোকোনাজল, ডিগোক্সিন এবং লৌহ জাতীয় ওষুধের শোষণের ক্ষেত্রে বাধা সৃষ্টি করতে পারে।",
+    "contraindications": "ইসোমিপ্রাজলের প্রতি অতিসংবেদনশীল রোগীর ক্ষেত্রে এর ব্যবহার পরিহার করা উচিত।",
+    "side_effects": "মৃদু ও অস্থায়ী পার্শ্বপ্রতিক্রিয়ার মধ্যে রয়েছে মাথাব্যথা, ডায়রিয়া, বমি বমি ভাব, তলপেটে ব্যথা, কোষ্ট কাঠিন্য ইত্যাদি।",
+    "pregnancy_cat": "গর্ভাবস্থায় নিরাপদ ব্যবহারের কোন নির্দেশনা এখনও প্রতিষ্ঠিত হয়নি। তবে জীবজন্তুর উপর পরীক্ষা করে কোন বিকলাঙ্গজনিত ফলাফল পাওয়া যায়নি। যেহেতু মাতৃদুগ্ধে ইসোমিপ্রাজলের নিঃসরণ ও সদ্যজাত শিশুদের উপর এর প্রভাবজনিত কোন তথ্য পাওয়া যায়নি। তাই ইসোমিপ্রাজল দিয়ে চিকিৎসাকালে স্তন্যদান সাময়িক বন্ধ রাখতে হবে।",
+    "precautions": "ইসোমিপ্রাজল গ্যাস্ট্রিক আলসারে ব্যবহারের পূর্বে অবশ্যই ম্যালিগন্যান্‌সির সম্ভাব্যতা যাচাই করে নিতে হবে। তা না হলে ইসোমিপ্রাজল রোগের লক্ষণসমূহকে ঢেকে দিয়ে রোগ নিরূপণে বিলম্ব ঘটাতে পারে।",
+    "pediatric_uses": "**শিশুদের ক্ষেত্রে**: কার্যকারিতা ও নিরাপত্তা এখনও প্রতিষ্ঠিত হয়নি।\n\n**বয়স্কদের ক্ষেত্রে**: মাত্রা নিয়ন্ত্রণের প্রয়োজন নেই\n\n**যকৃতের গোলযোগ**: যকৃত ক্রিয়ায় গোলযোগের ক্ষেত্রে ওষুধের জৈবলভ্যতা (Bioavailability) এবং অর্ধজীবন (Half-Life) বেড়ে যেতে পারে তাই সেক্ষেত্রে মাত্রা নির্ধারণের প্রয়োজন রয়েছে এবং এতে সর্বোচ্চ প্রয়োগ মাত্রা হবে দৈনিক ২০ মি.গ্রা.।\n\n**মূত্র গোলযোগ**: এ সকল ক্ষেত্রে মাত্রা নির্ধারণের প্রয়োজন নেই।",
+    "storage_conditions": "শুকনো জায়গায় ৩০ ডিগ্রি সেন্টিগ্রেডের কম তাপমাত্রায় সংরক্ষন করুন। আলো ও আর্দ্রতা থেকে নিরাপদে রাখুন। শিশুদের নাগালের বাইরে রাখুন।",
+    "compound_summary": "| Molecular Formula : | C 17 H 19 N 3 O 3 S |\n| --- | --- |\n| Chemical Structure : |  |"
+  },
+  "source_url_en": "https://medex.com.bd/generics/433/esomeprazole",
+  "source_url_bn": "https://medex.com.bd/generics/433/esomeprazole/bn",
+  "scraped_at": "2026-10-10T15:01:08+00:00"
+}

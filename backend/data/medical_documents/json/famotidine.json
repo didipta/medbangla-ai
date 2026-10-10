@@ -1,0 +1,341 @@
+{
+  "slug": "famotidine",
+  "name_en": "Famotidine",
+  "name_bn": "ফ্যামোটিডিন",
+  "therapeutic_class": "",
+  "dosage_forms": [
+    "Oral",
+    "Injection"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Axidin",
+      "strength": "20 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/33534/axidin-20-mg-tablet"
+    },
+    {
+      "name": "Axidin",
+      "strength": "40 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/33535/axidin-40-mg-tablet"
+    },
+    {
+      "name": "Famas",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34909/famas-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famas",
+      "strength": "40 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/34908/famas-40-mg-tablet"
+    },
+    {
+      "name": "Famas",
+      "strength": "20 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34907/famas-20-mg-tablet"
+    },
+    {
+      "name": "Famisus",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/34734/famisus-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famodin",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/32290/famodin-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famodin",
+      "strength": "40 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/16497/famodin-40-mg-tablet"
+    },
+    {
+      "name": "Famodin",
+      "strength": "20 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.50",
+      "url": "https://medex.com.bd/brands/16496/famodin-20-mg-tablet"
+    },
+    {
+      "name": "Famogen",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/31620/famogen-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famoloc",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/31974/famoloc-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famoloc",
+      "strength": "40 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/31973/famoloc-40-mg-tablet"
+    },
+    {
+      "name": "Famoloc",
+      "strength": "20 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/31972/famoloc-20-mg-tablet"
+    },
+    {
+      "name": "Famomax",
+      "strength": "20 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/1673/famomax-20-mg-tablet"
+    },
+    {
+      "name": "Famomax",
+      "strength": "40 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1672/famomax-40-mg-tablet"
+    },
+    {
+      "name": "Famomax",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/30230/famomax-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famonix",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/31820/famonix-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famopep",
+      "strength": "20 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/35879/famopep-20-mg-tablet"
+    },
+    {
+      "name": "Famosic",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Physic pharmaceuticals ltd.",
+      "price": "50 ml bottle : ৳ 47.00",
+      "url": "https://medex.com.bd/brands/37802/famosic-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famotack",
+      "strength": "20 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/1665/famotack-20-mg-tablet"
+    },
+    {
+      "name": "Famotack",
+      "strength": "40 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/30263/famotack-40-mg-tablet"
+    },
+    {
+      "name": "Famotack",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/29414/famotack-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famotid",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "50 ml bottle : ৳ 55.00",
+      "url": "https://medex.com.bd/brands/31121/famotid-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Famotid",
+      "strength": "20 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/1667/famotid-20-mg-tablet"
+    },
+    {
+      "name": "Famotid",
+      "strength": "40 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/1668/famotid-40-mg-tablet"
+    },
+    {
+      "name": "Nacid",
+      "strength": "20 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.05",
+      "url": "https://medex.com.bd/brands/1669/nacid-20-mg-tablet"
+    },
+    {
+      "name": "NCR FAST",
+      "strength": "40 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 3.80",
+      "url": "https://medex.com.bd/brands/37663/ncr-fast-40-mg-tablet"
+    },
+    {
+      "name": "NCR FAST",
+      "strength": "20 mg",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/37662/ncr-fast-20-mg-tablet"
+    },
+    {
+      "name": "Neostidine-R",
+      "strength": "20 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 1.90",
+      "url": "https://medex.com.bd/brands/35697/neostidine-r-20-mg-tablet"
+    },
+    {
+      "name": "Peptid",
+      "strength": "20 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.92",
+      "url": "https://medex.com.bd/brands/16504/peptid-20-mg-tablet"
+    },
+    {
+      "name": "Peptid",
+      "strength": "40 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.81",
+      "url": "https://medex.com.bd/brands/29521/peptid-40-mg-tablet"
+    },
+    {
+      "name": "Peptid",
+      "strength": "20 mg/2 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "20 mg vial : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/35860/peptid-20-mg-injection"
+    },
+    {
+      "name": "Peptid",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/32649/peptid-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Precid",
+      "strength": "20 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/31524/precid-20-mg-tablet"
+    },
+    {
+      "name": "Precid",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/32972/precid-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Reducid",
+      "strength": "40 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/34760/reducid-40-mg-tablet"
+    },
+    {
+      "name": "Reducid",
+      "strength": "20 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.50",
+      "url": "https://medex.com.bd/brands/34759/reducid-20-mg-tablet"
+    },
+    {
+      "name": "Reducid",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34758/reducid-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Servipep",
+      "strength": "20 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 4.00",
+      "url": "https://medex.com.bd/brands/1670/servipep-20-mg-tablet"
+    },
+    {
+      "name": "Servipep",
+      "strength": "40 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 6.10",
+      "url": "https://medex.com.bd/brands/1671/servipep-40-mg-tablet"
+    },
+    {
+      "name": "Temtac",
+      "strength": "40 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/34615/temtac-40-mg-powder-for-suspension"
+    },
+    {
+      "name": "Temtac",
+      "strength": "20 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34614/temtac-20-mg-tablet"
+    },
+    {
+      "name": "Zactrol",
+      "strength": "40 mg",
+      "manufacturer": "Peoples Pharma Ltd.",
+      "price": "Unit Price : ৳ 3.00",
+      "url": "https://medex.com.bd/brands/1674/zactrol-40-mg-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Famotidine is indicated in-\n\n- Gastric ulcer\n- Duodenal ulcer\n- Anastomotic ulcer\n- Acute stress ulcer\n- Reflux esophagitis and\n- Zollinger-Ellison syndrome.\n\r\nFamotidine is also indicated for the treatment of acute gastritis, chronic gastritis in the acute exacerbation stage.",
+    "mode_of_action": "Famotidine is a histamine H2-receptor antagonist. Famotidine completely inhibits the action of histamine on H2- receptors of parietal cell. It inhibits basal, overnight and pentagastrin stimulated gastric acid secretion. The H2- receptor antagonist activity of Famotidine is slowly reversible, since the drug dissociates slowly from H2-receptor.",
+    "dosage": "Tablet:\r\n\n- **For gastric ulcer, duodenal ulcer, anastomotic ulcer, upper gastro-intestinal hemorrhage, reflux esophagitis and Zollinger-Ellison syndrome**: Usual dose for adults: Famotidine 20 mg twice daily (after breakfast and after supper or before bed time) or Famotidine 40 mg can be administered orally once daily at bed time.\n- **For the treatment of acute gastritis, chronic gastritis in acute exacerbation stage**: Usual dosage for adults is Famotidine 20 mg orally twice a day (after breakfast and after supper or before bed time). Also Famotidine 40 mg can be orally administered once a day (before bed time), dosage should be adjusted according to age and symptoms. Most ulcer patients heal within 4-8 weeks. For maintenance therapy the recommended oral dose is 20 mg once daily. Or, as directed by the registered physician.\n\r\nPowder for Suspension:\n**Gastroesophageal Reflux Disease(GERD)**:\n\n- <1 year of age: 0.5 mg/kg/dose of famotidine oral suspension up to 8 weeks once daily in patients\n- Age 3 to 11 months: 0.5 mg/kg/dose twice daily up to 8 weeks\n- Age 1 to 2 months: 0.5 mg/kg/dose once daily up to 8 weeks\n- Neonates: 0.5 mg/kg/dose maximum once daily up to 8 weeks\n\r\nPatients 1-16 years of age: \n\n- Gastroesophageal Reflux Disease(GERD): 1 mg/kg/day p.o. divided b.i.d. up to 40 mg b.i.d.\n- Duodonal ulcer: 0.5 mg/kg/day p.o. at bedtime or divided b.i.d. up to 40 mg/day.\n- Peptic ulcer: 0.5 mg/kg/day p.o. at bedtime or divided b.i.d. up to 40 mg/day.\n- Maintenance therapy: 40 mg at daily night.\n- Reflux esophagitis: 2 mg/kg/day\n- Zollinger-Ellison Syndrome: 40 mg 3 times daily.",
+    "interaction": "No clinically important drug interactions have been identified. Famotidine does not interact with the cytochrome P450-linked drug-metabolizing enzyme system.",
+    "contraindications": "Known hypersensitivity to any component of the drug.",
+    "side_effects": "Eruption, constipation, diarrhoea, dry mouth, nausea, vomiting, tachycardia, high blood pressure, headache, drowsiness or insomnia may rarely occur.",
+    "pregnancy_cat": "Pregnancy category B. There are no adequate and well-controlled studies in pregnant women. This drug should be used during pregnancy only if clearly needed. Caution should be exercised when Famotid is administered to a nursing woman.",
+    "precautions": "The drug should be used in the minimum required amount depending upon the conditions of the diseases. The drug should be administered carefully with elderly patients, patients with renal failure and hepatic disorders.",
+    "storage_conditions": "Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children."
+  },
+  "sections_bn": {
+    "indications": "ফ্যামোটিডিন নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- গ্যাস্ট্রিক আলসার\n- ডিওডেনাল আলসার\n- অন্ত্রের উপরের অংশের রক্তক্ষরণ (পেপটিক আলসারের কারণে)\n- তীব্র স্ট্রেস আলসার\n- রিফ্লাক্স ইসোফেজিটিস এবং\n- জলিনজার ইলিসন সিনড্রম।\n\r\nতীব্র গ্যাস্ট্রাইটিস, তীব্র ক্ষয়ক্ষতির পর্যায়ে পুরাতন গ্যাস্ট্রাইটিস এর চিকিৎসাতেও ফ্যামোটিডিন নির্দেশিত।",
+    "mode_of_action": "ফ্যামোটিডিন হিস্টামিন এইচ ২-রিসেপ্টর বিরোধী। ফ্যামোটিডিন প্যারিটাল কোষের এইচ ২-রিসেপ্টরগুলিতে হিস্টামিনের ক্রিয়াটি সম্পূর্ণভাবে বাধা দেয়। এটি বেসাল, রাতারাতি এবং পেন্টাগাস্ট্রিনকে উদ্দীপিত গ্যাস্ট্রিক অ্যাসিড নিঃসরণে বাধা দেয়। ফ্যামোটিডিন এইচ ২-রিসেপ্টর বিরোধী ক্রিয়াকলাপ ধীরে ধীরে বিপরীত হয়, যেহেতু ফ্যামোটিডিন এইচ ২-রিসেপ্টর থেকে আস্তে আস্তে বিচ্ছিন্ন হয়।",
+    "dosage": "**গ্যাস্ট্রিক আলসার, ডিওডেনাল আলসার, অন্ত্রের উপরের অংশে ক্ষত বা রক্তক্ষরণ, রিফ্লাক্স ইসোফেজিটিস ও জলিনজার ইলিসন সিনড্রম**: সচরাচর বয়স্কদের ক্ষেত্রে ফ্যামোটিডিন ২০ মিঃগ্রাঃ একটি করে ট্যাবলেট দিনে ২ বার সেব্য (সকালে নাস্তার পরে এবং রাত্রে খাবারের পরে) অথবা ফ্যামোটিডিন ৪০ মিঃগ্রাঃ একটি করে ট্যাবলেট দিনে ১ বার রাতে শোবার সময় দেয়া যেতে পারে।\n\n**তীব্র গ্যাস্ট্রাইটিস ও পুরাতন গ্যাস্ট্রাইটিস**: সচরাচর ফ্যামেটিড ২০ মিঃগ্রাঃ দিনে ২ বার সেব্য (সকালে নাস্তার পর ও রাতে খাবারের পর অথবা শোবার পূর্বে)। রোগীর বয়স ও লক্ষণ অনুযায়ী ফ্যামোটিডিন ৪০ মিঃগ্রাঃ দিনে ১ বার করে মুখে সেব্য (শোবার পূর্বে)। বেশীর ভাগ আলসার রোগী ৪ থেকে ৮ সপ্তাহের মধ্যে আরোগ্য লাভ করে। সংরক্ষণ থেরাপির জন্য মৌখিক মাত্রা ২০ মিঃগ্রাঃ দিনে ১ বার। অথবা, রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+    "interaction": "অন্য ঔষধের সাথে বিক্রিয়া : কোন তথ্য পাওয়া যায় নি।",
+    "contraindications": "জানা মতে ঔষধটির যে কোন উপাদানের প্রতি অতি সংবেদনশীলতা।",
+    "side_effects": "কোষ্ঠকাঠিন্য, ডায়রিয়া, মুখ শুষ্কতা, বমি বমি ভাব, মাথা ঘোরা, ঝিন ঝিন ভাব, ট্যাকিকার্ডিয়া, উচ্চ রক্তচাপ, মাথা ব্যথা ও ক্ষুধামন্দা মাঝে মাঝে হতে পারে।",
+    "pregnancy_cat": "প্রেগনেন্সি ক্যাটাগরি বি। গর্ভবতী মহিলাদের উপর যথেষ্ট পরিমাণ পরীক্ষা নিরীক্ষা হয় নি। তাই ঔষধটি শুধুমাত্র প্রয়োজন হলে গর্ভাবস্থায় ব্যবহার করা উচিত। স্তন্যদানরত মায়েদের সতর্কতার সাথে ফ্যামোটিডিন ব্যবহার করা উচিত ।",
+    "precautions": "রোগের অবস্থা বুঝে ঔষধের ব্যবহার কমানো যেতে পারে। বয়স্ক, মূত্র এবং যকৃত সংক্রান্তিয় গোলযোগের রোগীদের ক্ষেত্রে সতর্কতার সহিত ব্যবহার করা উচিৎ।",
+    "pediatric_uses": "শিশুদের ক্ষেত্রে ব্যবহার: কোন তথ্য পাওয়া যায় নি।",
+    "overdose_effects": "কোন তথ্য পাওয়া যায় নি।",
+    "storage_conditions": "আলো ও আর্দ্রতা থেকে দূরে, ৩০ ডিগ্রী সেঃ তাপমাত্রার নীচে রাখুন। শিশুদের নাগালের বাইরে রাখুন।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/452/famotidine",
+  "source_url_bn": "https://medex.com.bd/generics/452/famotidine/bn",
+  "scraped_at": "2026-10-10T15:01:27+00:00"
+}

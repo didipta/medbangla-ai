@@ -1,0 +1,1215 @@
+{
+  "slug": "metronidazole",
+  "name_en": "Metronidazole",
+  "name_bn": "মেট্রোনিডাজল",
+  "therapeutic_class": "Amoebicides, Anti-diarrhoeal antiprotozoal",
+  "dosage_forms": [
+    "Vaginal Gel",
+    "Tablet",
+    "Intravenous Infusion"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Alkazol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Alkad Laboratories",
+      "price": "60 ml bottle : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/22335/alkazol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Amezol",
+      "strength": "400 mg",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/10058/amezol-400-mg-tablet"
+    },
+    {
+      "name": "Amezol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 28.50",
+      "url": "https://medex.com.bd/brands/10059/amezol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Amirid",
+      "strength": "400 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/22457/amirid-400-mg-tablet"
+    },
+    {
+      "name": "Amodis",
+      "strength": "400 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10062/amodis-400-mg-tablet"
+    },
+    {
+      "name": "Amodis",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10064/amodis-200-mg-oral-suspension"
+    },
+    {
+      "name": "Amogit",
+      "strength": "400 mg",
+      "manufacturer": "Marksman Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.03",
+      "url": "https://medex.com.bd/brands/10197/amogit-400-mg-tablet"
+    },
+    {
+      "name": "Amotrex",
+      "strength": "200 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10066/amotrex-200-mg-tablet"
+    },
+    {
+      "name": "Amotrex",
+      "strength": "400 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10067/amotrex-400-mg-tablet"
+    },
+    {
+      "name": "Amotrex",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10068/amotrex-200-mg-oral-suspension"
+    },
+    {
+      "name": "Amotrex",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "ACI Limited",
+      "price": "100 ml bottle : ৳ 85.26",
+      "url": "https://medex.com.bd/brands/22333/amotrex-500-mg-iv-infusion"
+    },
+    {
+      "name": "Amotrex DS",
+      "strength": "800 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/32198/amotrex-ds-800-mg-tablet"
+    },
+    {
+      "name": "Anamet",
+      "strength": "400 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.27",
+      "url": "https://medex.com.bd/brands/10069/anamet-400-mg-tablet"
+    },
+    {
+      "name": "Anamet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/10070/anamet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Antipro",
+      "strength": "400 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.55",
+      "url": "https://medex.com.bd/brands/10071/antipro-400-mg-tablet"
+    },
+    {
+      "name": "Antipro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 29.89",
+      "url": "https://medex.com.bd/brands/27799/antipro-200-mg-oral-suspension"
+    },
+    {
+      "name": "Anzole",
+      "strength": "400 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 1.15",
+      "url": "https://medex.com.bd/brands/10073/anzole-400-mg-tablet"
+    },
+    {
+      "name": "Anzole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/10074/anzole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Apetryl",
+      "strength": "400 mg",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.13",
+      "url": "https://medex.com.bd/brands/10075/apetryl-400-mg-tablet"
+    },
+    {
+      "name": "Apetryl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "APC Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/10076/apetryl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Benmet",
+      "strength": "400 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10078/benmet-400-mg-tablet"
+    },
+    {
+      "name": "Benmet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10079/benmet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Benzol",
+      "strength": "400 mg",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10080/benzol-400-mg-tablet"
+    },
+    {
+      "name": "Benzol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Bengal drugs Ltd.",
+      "price": "60 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/10081/benzol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Biozyl",
+      "strength": "400 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10082/biozyl-400-mg-tablet"
+    },
+    {
+      "name": "Biozyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10083/biozyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Biozyl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/28888/biozyl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Cedol",
+      "strength": "400 mg",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10085/cedol-400-mg-tablet"
+    },
+    {
+      "name": "Cedol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Central Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/10086/cedol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Clozyl",
+      "strength": "400 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/30863/clozyl-400-mg-tablet"
+    },
+    {
+      "name": "Clozyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/30864/clozyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "D Metro",
+      "strength": "400 mg",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10094/d-metro-400-mg-tablet"
+    },
+    {
+      "name": "D Metro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/10095/d-metro-200-mg-oral-suspension"
+    },
+    {
+      "name": "Decagyl",
+      "strength": "400 mg",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10087/decagyl-400-mg-tablet"
+    },
+    {
+      "name": "Decagyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Decent Pharma Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 25.50",
+      "url": "https://medex.com.bd/brands/10088/decagyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Dirozyl",
+      "strength": "400 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10090/dirozyl-400-mg-tablet"
+    },
+    {
+      "name": "Dirozyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10091/dirozyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Dirozyl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/10093/dirozyl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Dylin",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/36383/dylin-200-mg-oral-suspension"
+    },
+    {
+      "name": "Dymet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/10201/dymet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Dymet",
+      "strength": "400 mg",
+      "manufacturer": "Syntho Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/22397/dymet-400-mg-tablet"
+    },
+    {
+      "name": "Egyl",
+      "strength": "400 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/33930/egyl-400-mg-tablet"
+    },
+    {
+      "name": "Egyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33931/egyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Elygyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/10202/elygyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Elygyl",
+      "strength": "400 mg",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10203/elygyl-400-mg-tablet"
+    },
+    {
+      "name": "Filmet",
+      "strength": "200 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10098/filmet-200-mg-tablet"
+    },
+    {
+      "name": "Filmet",
+      "strength": "400 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10099/filmet-400-mg-tablet"
+    },
+    {
+      "name": "Filmet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10101/filmet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Filmet",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 54.00",
+      "url": "https://medex.com.bd/brands/10102/filmet-500-mg-iv-infusion"
+    },
+    {
+      "name": "Filmet DS",
+      "strength": "800 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/10100/filmet-ds-800-mg-tablet"
+    },
+    {
+      "name": "Flagyl",
+      "strength": "400 mg",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10104/flagyl-400-mg-tablet"
+    },
+    {
+      "name": "Flagyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10105/flagyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Flagyl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Synovia Pharma PLC.",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/36087/flagyl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Flamyd",
+      "strength": "250 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/10107/flamyd-250-mg-tablet"
+    },
+    {
+      "name": "Flamyd",
+      "strength": "500 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10108/flamyd-500-mg-tablet"
+    },
+    {
+      "name": "Flamyd",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 53.40",
+      "url": "https://medex.com.bd/brands/10109/flamyd-500-mg-iv-infusion"
+    },
+    {
+      "name": "Flamyd",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/22382/flamyd-200-mg-oral-suspension"
+    },
+    {
+      "name": "Flamyd V",
+      "strength": "1.3%",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "5 gm tube : ৳ 70.00",
+      "url": "https://medex.com.bd/brands/34232/flamyd-v-13-vaginal-gel"
+    },
+    {
+      "name": "G-Metronidazole",
+      "strength": "400 mg",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10112/g-metronidazole-400-mg-tablet"
+    },
+    {
+      "name": "G-Metronidazole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Gonoshasthaya Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10113/g-metronidazole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Jetrazole",
+      "strength": "400 mg",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/22347/jetrazole-400-mg-tablet"
+    },
+    {
+      "name": "Kemet",
+      "strength": "400 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.27",
+      "url": "https://medex.com.bd/brands/10115/kemet-400-mg-tablet"
+    },
+    {
+      "name": "Kemet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 29.80",
+      "url": "https://medex.com.bd/brands/10116/kemet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Kilpro",
+      "strength": "400 mg",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/10117/kilpro-400-mg-tablet"
+    },
+    {
+      "name": "Kilpro",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Techno Drugs Ltd.",
+      "price": "100 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/10118/kilpro-500-mg-iv-infusion"
+    },
+    {
+      "name": "Klion",
+      "strength": "200 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.67",
+      "url": "https://medex.com.bd/brands/28040/klion-200-mg-tablet"
+    },
+    {
+      "name": "Klion",
+      "strength": "400 mg",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/28041/klion-400-mg-tablet"
+    },
+    {
+      "name": "Klion",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ambee Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/28042/klion-200-mg-oral-suspension"
+    },
+    {
+      "name": "Librazol",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Libra Infusions Ltd.",
+      "price": "100 ml bottle : ৳ 49.90",
+      "url": "https://medex.com.bd/brands/10122/librazol-500-mg-iv-infusion"
+    },
+    {
+      "name": "M-Dazole",
+      "strength": "200 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.61",
+      "url": "https://medex.com.bd/brands/10124/m-dazole-200-mg-tablet"
+    },
+    {
+      "name": "M-Dazole",
+      "strength": "400 mg",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10125/m-dazole-400-mg-tablet"
+    },
+    {
+      "name": "M-Dazole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 25.67",
+      "url": "https://medex.com.bd/brands/28618/m-dazole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Mecozol",
+      "strength": "400 mg",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10127/mecozol-400-mg-tablet"
+    },
+    {
+      "name": "Mecozol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Amico Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/10128/mecozol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Medizol",
+      "strength": "400 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10129/medizol-400-mg-tablet"
+    },
+    {
+      "name": "Medizol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10130/medizol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Melagyl",
+      "strength": "400 mg",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.02",
+      "url": "https://medex.com.bd/brands/10131/melagyl-400-mg-tablet"
+    },
+    {
+      "name": "Melagyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Reliance Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 25.75",
+      "url": "https://medex.com.bd/brands/10132/melagyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Menida",
+      "strength": "400 mg",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10204/menida-400-mg-tablet"
+    },
+    {
+      "name": "Menida",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Oyster Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/10205/menida-200-mg-oral-suspension"
+    },
+    {
+      "name": "Menilet",
+      "strength": "400 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.57",
+      "url": "https://medex.com.bd/brands/10133/menilet-400-mg-tablet"
+    },
+    {
+      "name": "Menilet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 21.30",
+      "url": "https://medex.com.bd/brands/33764/menilet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Menol",
+      "strength": "400 mg",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.14",
+      "url": "https://medex.com.bd/brands/10135/menol-400-mg-tablet"
+    },
+    {
+      "name": "Menol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Supreme Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 25.75",
+      "url": "https://medex.com.bd/brands/10136/menol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metason",
+      "strength": "400 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10137/metason-400-mg-tablet"
+    },
+    {
+      "name": "Metason",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10138/metason-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metco",
+      "strength": "400 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10139/metco-400-mg-tablet"
+    },
+    {
+      "name": "Metco",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10140/metco-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metco",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/10141/metco-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metfil",
+      "strength": "400 mg",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10142/metfil-400-mg-tablet"
+    },
+    {
+      "name": "Metonid",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "100 ml bottle : ৳ 85.00",
+      "url": "https://medex.com.bd/brands/10145/metonid-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metra",
+      "strength": "400 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10146/metra-400-mg-tablet"
+    },
+    {
+      "name": "Metra",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10147/metra-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrion",
+      "strength": "400 mg",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.01",
+      "url": "https://medex.com.bd/brands/10148/metrion-400-mg-tablet"
+    },
+    {
+      "name": "Metrion",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.24",
+      "url": "https://medex.com.bd/brands/10150/metrion-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metrizol",
+      "strength": "400 mg",
+      "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.20",
+      "url": "https://medex.com.bd/brands/10151/metrizol-400-mg-tablet"
+    },
+    {
+      "name": "Metro",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/10152/metro-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metro",
+      "strength": "400 mg",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.47",
+      "url": "https://medex.com.bd/brands/10206/metro-400-mg-tablet"
+    },
+    {
+      "name": "Metro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10207/metro-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metro",
+      "strength": "400 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/33891/metro-400-mg-tablet"
+    },
+    {
+      "name": "Metro",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/33892/metro-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrobac",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 53.00",
+      "url": "https://medex.com.bd/brands/10208/metrobac-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metrocon",
+      "strength": "400 mg",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10153/metrocon-400-mg-tablet"
+    },
+    {
+      "name": "Metrogard",
+      "strength": "400 mg",
+      "manufacturer": "Guardian Healthcare Ltd.",
+      "price": "Unit Price : ৳ 1.26",
+      "url": "https://medex.com.bd/brands/22377/metrogard-400-mg-tablet"
+    },
+    {
+      "name": "Metrogyl",
+      "strength": "400 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.10",
+      "url": "https://medex.com.bd/brands/10154/metrogyl-400-mg-tablet"
+    },
+    {
+      "name": "Metrogyl",
+      "strength": "200 mg",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.25",
+      "url": "https://medex.com.bd/brands/22429/metrogyl-200-mg-tablet"
+    },
+    {
+      "name": "Metrogyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Rephco Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/22430/metrogyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrol",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "60 ml bottle : ৳ 21.00",
+      "url": "https://medex.com.bd/brands/10209/metrol-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrol",
+      "strength": "400 mg",
+      "manufacturer": "Indo Bangla Pharmaceutical",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10210/metrol-400-mg-tablet"
+    },
+    {
+      "name": "Metrolin",
+      "strength": "400 mg",
+      "manufacturer": "City Overseas Ltd.",
+      "price": "Unit Price : ৳ 1.14",
+      "url": "https://medex.com.bd/brands/10211/metrolin-400-mg-tablet"
+    },
+    {
+      "name": "Metromax",
+      "strength": "400 mg",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.35",
+      "url": "https://medex.com.bd/brands/10155/metromax-400-mg-tablet"
+    },
+    {
+      "name": "Metromax",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Novo Healthcare and Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 52.16",
+      "url": "https://medex.com.bd/brands/10156/metromax-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metron",
+      "strength": "400 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10213/metron-400-mg-tablet"
+    },
+    {
+      "name": "Metrona",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/22344/metrona-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrona",
+      "strength": "400 mg",
+      "manufacturer": "Aztec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/22345/metrona-400-mg-tablet"
+    },
+    {
+      "name": "Metropill",
+      "strength": "200 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 0.60",
+      "url": "https://medex.com.bd/brands/10157/metropill-200-mg-tablet"
+    },
+    {
+      "name": "Metropill",
+      "strength": "400 mg",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.10",
+      "url": "https://medex.com.bd/brands/10158/metropill-400-mg-tablet"
+    },
+    {
+      "name": "Metropill",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Medimet Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 22.00",
+      "url": "https://medex.com.bd/brands/10159/metropill-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrosil",
+      "strength": "400 mg",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10160/metrosil-400-mg-tablet"
+    },
+    {
+      "name": "Metrosil",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Silva Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 19.00",
+      "url": "https://medex.com.bd/brands/10161/metrosil-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metroson",
+      "strength": "400 mg",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.05",
+      "url": "https://medex.com.bd/brands/10162/metroson-400-mg-tablet"
+    },
+    {
+      "name": "Metroson",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Hudson Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/10163/metroson-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metrozen",
+      "strength": "400 mg",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10164/metrozen-400-mg-tablet"
+    },
+    {
+      "name": "Metrozen",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10165/metrozen-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metryl",
+      "strength": "200 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10166/metryl-200-mg-tablet"
+    },
+    {
+      "name": "Metryl",
+      "strength": "400 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10167/metryl-400-mg-tablet"
+    },
+    {
+      "name": "Metryl",
+      "strength": "500 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/10168/metryl-500-mg-tablet"
+    },
+    {
+      "name": "Metryl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10169/metryl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metryl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/10170/metryl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Metsina",
+      "strength": "400 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10172/metsina-400-mg-tablet"
+    },
+    {
+      "name": "Metsina",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10173/metsina-200-mg-oral-suspension"
+    },
+    {
+      "name": "Metsina",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "100 ml bottle : ৳ 75.00",
+      "url": "https://medex.com.bd/brands/22381/metsina-500-mg-iv-infusion"
+    },
+    {
+      "name": "Mez",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Renata PLC",
+      "price": "100 ml bottle : ৳ 85.50",
+      "url": "https://medex.com.bd/brands/10175/mez-500-mg-iv-infusion"
+    },
+    {
+      "name": "Micogyl",
+      "strength": "400 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10176/micogyl-400-mg-tablet"
+    },
+    {
+      "name": "Micogyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10177/micogyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Micogyl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "100 ml bottle : ৳ 80.00",
+      "url": "https://medex.com.bd/brands/22373/micogyl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Neogyl",
+      "strength": "400 mg",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.14",
+      "url": "https://medex.com.bd/brands/10178/neogyl-400-mg-tablet"
+    },
+    {
+      "name": "Neogyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Millat Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 24.88",
+      "url": "https://medex.com.bd/brands/10179/neogyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Nida",
+      "strength": "400 mg",
+      "manufacturer": "Sonear Laboratories Ltd.",
+      "price": "Unit Price : ৳ 0.82",
+      "url": "https://medex.com.bd/brands/10180/nida-400-mg-tablet"
+    },
+    {
+      "name": "Nidazyl",
+      "strength": "400 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/10181/nidazyl-400-mg-tablet"
+    },
+    {
+      "name": "Nidazyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/10182/nidazyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Nidazyl",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Orion Infusion Ltd.",
+      "price": "100 ml bottle : ৳ 52.36",
+      "url": "https://medex.com.bd/brands/26896/nidazyl-500-mg-iv-infusion"
+    },
+    {
+      "name": "Onida",
+      "strength": "400 mg",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.00",
+      "url": "https://medex.com.bd/brands/10184/onida-400-mg-tablet"
+    },
+    {
+      "name": "Onida",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Mystic Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 21.00",
+      "url": "https://medex.com.bd/brands/10185/onida-200-mg-oral-suspension"
+    },
+    {
+      "name": "Ormet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 20.00",
+      "url": "https://medex.com.bd/brands/10215/ormet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Ormet",
+      "strength": "400 mg",
+      "manufacturer": "Belsen Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.12",
+      "url": "https://medex.com.bd/brands/10216/ormet-400-mg-tablet"
+    },
+    {
+      "name": "Orozole",
+      "strength": "400 mg",
+      "manufacturer": "Quality Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.27",
+      "url": "https://medex.com.bd/brands/22424/orozole-400-mg-tablet"
+    },
+    {
+      "name": "Paragyl",
+      "strength": "400 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 1.06",
+      "url": "https://medex.com.bd/brands/35661/paragyl-400-mg-tablet"
+    },
+    {
+      "name": "Phidazole",
+      "strength": "400 mg",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.10",
+      "url": "https://medex.com.bd/brands/10187/phidazole-400-mg-tablet"
+    },
+    {
+      "name": "Phidazole",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Pharmadesh Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 24.50",
+      "url": "https://medex.com.bd/brands/10188/phidazole-200-mg-oral-suspension"
+    },
+    {
+      "name": "Premet",
+      "strength": "400 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/27412/premet-400-mg-tablet"
+    },
+    {
+      "name": "Protec",
+      "strength": "400 mg",
+      "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.08",
+      "url": "https://medex.com.bd/brands/10218/protec-400-mg-tablet"
+    },
+    {
+      "name": "Remagyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Reman Drug Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 21.50",
+      "url": "https://medex.com.bd/brands/10221/remagyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Remet",
+      "strength": "400 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 1.15",
+      "url": "https://medex.com.bd/brands/32551/remet-400-mg-tablet"
+    },
+    {
+      "name": "SB-Mezol",
+      "strength": "400 mg",
+      "manufacturer": "Sunman-Birdem Pharma Ltd.",
+      "price": "Unit Price : ৳ 1.50",
+      "url": "https://medex.com.bd/brands/27372/sb-mezol-400-mg-tablet"
+    },
+    {
+      "name": "Seemagyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "price": "60 ml bottle : ৳ 24.00",
+      "url": "https://medex.com.bd/brands/10190/seemagyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Servizol",
+      "strength": "400 mg",
+      "manufacturer": "SANDOZ (A Novartis Division)",
+      "price": "Unit Price : ৳ 1.12",
+      "url": "https://medex.com.bd/brands/10224/servizol-400-mg-tablet"
+    },
+    {
+      "name": "Silmet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "60 ml bottle : ৳ 35.00",
+      "url": "https://medex.com.bd/brands/31572/silmet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Silmet",
+      "strength": "400 mg",
+      "manufacturer": "Silco Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 1.70",
+      "url": "https://medex.com.bd/brands/31573/silmet-400-mg-tablet"
+    },
+    {
+      "name": "Strazyl",
+      "strength": "400 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 1.02",
+      "url": "https://medex.com.bd/brands/10191/strazyl-400-mg-tablet"
+    },
+    {
+      "name": "Strazyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "60 ml bottle : ৳ 24.84",
+      "url": "https://medex.com.bd/brands/10192/strazyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Tricozyl",
+      "strength": "400 mg",
+      "manufacturer": "Edruc Limited",
+      "price": "Unit Price : ৳ 1.26",
+      "url": "https://medex.com.bd/brands/10193/tricozyl-400-mg-tablet"
+    },
+    {
+      "name": "Tricozyl",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Edruc Limited",
+      "price": "60 ml bottle : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/10194/tricozyl-200-mg-oral-suspension"
+    },
+    {
+      "name": "Umet",
+      "strength": "200 mg/5 ml",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "60 ml bottle : ৳ 25.50",
+      "url": "https://medex.com.bd/brands/34949/umet-200-mg-oral-suspension"
+    },
+    {
+      "name": "Umet",
+      "strength": "400 mg",
+      "manufacturer": "Union Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 2.00",
+      "url": "https://medex.com.bd/brands/34957/umet-400-mg-tablet"
+    },
+    {
+      "name": "Varizil",
+      "strength": "400 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 0.86",
+      "url": "https://medex.com.bd/brands/10195/varizil-400-mg-tablet"
+    },
+    {
+      "name": "Varizil",
+      "strength": "500 mg/100 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "100 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/10196/varizil-500-mg-iv-infusion"
+    }
+  ],
+  "sections_en": {
+    "indications": "Metronidazole is indicated in the treatment of following diseases:\n\n- The prevention of post-operative infections due to anaerobic bacteria (particularly species of bacteroides and anaerobic streptococci).\n- The treatment of septicaemia, bacteraemia, peritonitis, brain abscess, pelvic abscess, pelvic cellulitis and post-operative wound infections caused by anaerobes.\nMetronidazole is indicated in the treatment of following diseases:\n\n- The prevention of post-operative infections due to anaerobic bacteria (particularly species of bacteroides and anaerobic streptococci).\n- The treatment of septicaemia, bacteraemia, peritonitis, brain abscess, pelvic abscess, pelvic cellulitis and post-operative wound infections caused by anaerobes.\n- In the treatment of urogenital trichomoniasis.\n- Bacterial vaginosis (also known as non-specific vaginitis).\n- All forms of amoebiasis (intestinal, extra-intestinal disease and that of symptomless cyst passers).\n- Giardiasis.\n- Acute ulcerative gingivitis.\n- Anaerobically infected leg ulcers and pressure sores.\n- Acute dental infections due to anaerobic organisms.\n- Antibiotic associated pseudomembranus colitis.",
+    "mode_of_action": "Metronidazole is a member of the imidazole class of antibacterial drug and is classified therapeutically as an antiprotozoal agent. The 5-nitro group of Metronidazole is reduced by anaerobes metabolically. Studies have demonstrated that the reduced form of this drug interacts with DNA and gives bactericidal action of Metronidazole.",
+    "dosage": "#### Tablet and Suspension:\n\n\r\nTrichomoniasis (Adults & Children over 10 yrs)-\n\n- 200 mg tid or 400 mg bid for 7 days\n- 800 mg in the morning and 1-2 gm at night for 2 days\n- 2 gm as a single dose for 1 days\n\r\nTrichomoniasis (Children)-\n\n- Children 7-10 yrs: 100 mg tid\n- Children 3-7 yrs: 100 mg bid\n- Children 1-3 yrs: 50 mg tid\n\r\nIntestinal amoebiasis (Adults & Children over 10 yrs)- \n\n- 800 mg tid for 5 days\n\r\nIntestinal amoebiasis (Children)-\n\n- Children 7-10 yrs: 400 mg tid\n- Children 3-7 yrs: 200 mg qid\n- Children 1-3 yrs: 200 mg tid\n\r\nExtra-intestinal & Asymptomatic amoebiasis (Adults & Children over 10 yrs)-\n\n- 400-800 mg tid for 5-10 days\n\r\nExtra-intestinal & Asymptomatic amoebiasis (Children)-\n\n- Children 7-10 yrs: 200-400 mg tid\n- Children 3-7 yrs: 100-200 mg qid\n- Children 1-3 yrs: 100-200 mg tid\n\r\nGiardiasis (Adults & Children over 10 yrs)-\n\n- 2 gm once daily for 3 days\n\r\nGiardiasis (Children)-\n\n- Children 7-10 yrs: 1 gm once daily\n- Children 3-7 yrs: 600-800 mg once daily\n- Children 1-3 yrs: 500 mg once daily\n\r\nAcute ulcerative  gingivitis (Adults & Children over 10 yrs)-\n\n- 200 mg tid for 3 days\n\r\nAcute ulcerative  gingivitis (Children)-\n\n- Children 7-10 yrs: 100 mg tid\n- Children 3-7 yrs: 100 mg bid\n- Children 1-3 yrs: 50 mg tid\n\r\nAcute dental infections (Adults & Children over 10 yrs)-\n\n- 200 mg tid for 3-7 days\n\r\nBacterial Vaginosis (Adults & Children over 10 yrs)-\n\n- 400 mg bid for 7 days\n- 2 gm as a single dose for 1 days\n\r\nLeg ulcers and pressure sores (Adults & Children over 10 yrs)-\n\n- 400 mg tid for 7 days\n\r\nAnaerobic infections (Adults & Children over 10 yrs)-\n\n- 800 mg initially and then 400 mg tid for 7 days\n\r\nAnaerobic infections (Children)-\n\n- Children 1-10 yrs: 7.5 mg/kg tid\n\r\nSurgical prophylaxis (Adults & Children over 10 yrs)-\n\n- 400 mg tid started 24 hours before surgery for 1 days\n\r\nSurgical prophylaxis (Children)-\n\n- Children 1-10 yrs: 7.5 mg/kg tid\n\n#### Vaginal Gel:\n\n\r\nThe recommended dose is one applicator full of Metronidazole gel (approximately 5 grams containing approximately 37.5 mg of Metronidazole) intravaginally once or twice a day for 5 days. For once a day dosing, Metronidazole gel should be administered at bedtime.\r\n\n#### Suppository:\n\n\r\nAnaerobic Infections-\n\n- **Adults**: 1 g every 8 hours for 3 days, then 1 g every 12 hours.\n- **Children**: 5-10 years: 500 mg every 8 hours for 3 days, then every 12 hours, Over 10 years adult dose.\n\r\nSurgical Prophylaxis-\n\n- **Adults**: 1 g 2 hours before surgery; up to 3 further doses of 1 g may be given every 8 hours for high risk procedures.\n- **Children**: 5-10 years: 500 mg 2 hours before surgery; up to 3 further doses of 500 mg may be given every 8 hours for high risk procedures.\n\n#### IV Infusion:\n\n\r\nMetronidazole intravenous infusion requires no dilution and should not be mixed with any other drugs prior to administration.\n\n- **Adults and children over 12 years**: Infuse 500 mg 8 hourly at a rate of 5 ml/minute and a maximum of 4 g should not be exceeded during a 24-hour period. Treatment for 7 days is sufficient for most patients, but treatment can be extended, especially for cases where reinfection is likely. For surgical prophylaxis, administration shortly before surgery should be followed by 8-hourly doses for the next 24 hours.\n- **Children under 12 years**: 7.5 mg/kg body weight/day every 8 hours at a rate of 5 ml/minute.",
+    "interaction": "- **Disulfiram**: Psychotic reactions have been reported in patients who were using metronidazole and disulfiram concurrently.\n- **Alcohol**: Alcoholic beverages and drugs containing alcohol should not be consumed during therapy and for at least one day afterwards because of the possibility of a disulfiram-like (antabuse effect) reaction (flushing, vomiting, tachycardia). Oral anticoagulant therapy (warfarin type): Potentiation of the anticoagulant effect and increased hemorrhagic risk caused by decreased hepatic catabolism. In case of co-administration, prothrombin time should be more frequently monitored and anticoagulant therapy adjusted during treatment with metronidazole.\n- **Lithium**: Plasma levels of lithium may be increased by metronidazole.\n- **Cyclosporin**: Serum cyclosporin and serum creatinine should be closely monitored when co-administration is necessary.\n- **Phenytoin or phenobarbital**: increased elimination of metronidazole resulting in reduced plasma levels.\n- **5-Fluorouracil**: Reduced clearance of 5-fluorouracil resulting in increased toxicity of 5-fluorouracil.\n- **Busulfan**: Plasma levels of busulfan may be increased by metronidazole, which may lead to severe busulfan toxicity.",
+    "contraindications": "Metronidazole is contraindicated in patients with a history of hypersensitivity to Metronidazole or other Nitroimidazole derivatives.",
+    "side_effects": "Metallic taste, nausea, vomiting, diarrhoea, drowsiness, rashes may be observed during treatment.",
+    "pregnancy_cat": "US FDA Pregnancy Category of Metronidazole is B. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. Metronidazole have been shown to be excreted in human milk. So, caution should be exercised when Metronidazole is administered to a nursing woman.",
+    "precautions": "- If for compelling reasons, metronidazole must be administered longer than the usually recommended duration, it is recommended that hematological tests, especially leucocyte count should be carried out regularly and that patients should be monitored for adverse reactions such as peripheral or central neuropathy (such as paresthesia, ataxia, dizziness, convulsive seizures).\n- Metronidazole should be administered with caution to patients with hepatic encephalopathy.\n- Patients should be warned that metronidazole may darken urine.",
+    "pediatric_uses": "**Hepatic impairment**: Metronidazole is mainly metabolised by hepatic oxidation. Substantial impairment of metronidazole clearance may occur in the presence of advanced hepatic insufficiency. Significant cumulation may occur in patients with hepatic encephalopathy and the resulting high plasma concentrations of metronidazole may contribute to the symptoms of the encephalopathy. Metronidazole should therefore, be administered with caution to patients with hepatic encephalopathy. The daily dosage should be reduced to one third and may be administered once daily. Patients should be warned that metronidazole may darken urine.\n\n**Renal impairment**: The elimination half-life of metronidazole remains unchanged in the presence of renal failure. The dosage of metronidazole therefore needs no reduction. Such patients however retain the metabolites of metronidazole. The clinical significance of this is not known at present. In patients undergoing haemodialysis metronidazole and metabolites are efficiently removed during an eight hour period of dialysis. Metronidazole should therefore be re-administered immediately after haemodialysis. No routine adjustment in the dosage of Metronidazole need be made in patients with renal failure undergoing intermittent peritoneal dialysis (IDP) or continuous ambulatory peritoneal dialysis (CAPD).",
+    "overdose_effects": "Single oral doses of metronidazole, up to 12 g have been reported in suicide attempts and accidental overdoses. Symptoms were limited to vomiting, ataxia and slight disorientation. There is no specific antidote for metronidazole overdosages. In case of suspected massive overdosages, a symptomatic and supportive treatment should be instituted.",
+    "drug_classes": "Amoebicides, Anti-diarrhoeal antiprotozoal",
+    "storage_conditions": "Store below 30°C. Keep protected from light. Keep medicines out of the reach of children. Do not use later than the date of expiry.",
+    "commonly_asked_questions": "#### What is Metronidazole?\n\nMetronidazole is an antibiotic medication that performs its action by preventing the growth of bacterias and parasites.\n\n#### What are the uses of Metronidazole?\n\nMetronidazole is used for the treatment and prevention from viral and parasitic infections. It also prevents bacterial infections such as cold, cough, flu and vaginal infections. It also controls liver, skin, joints, brain and respiratory tract infections.\n\n#### What are the side effects of Metronidazole?\n\nSome side effects of Metronidazole which are diarrhoea, headache, weakness, painful urination, trouble sleeping, numbness, muscle weakness and mouth ulcer.\n\n#### How long do I need to use Metronidazole before I see improvement of my conditions?\n\nMetronidazole takes 1 or 2 days before you see an improvement in your health conditions.\n\n#### What are the contraindications to Metronidazole?\n\nMetronidazole should not be used if you have the following conditions such as hives, flushing, nasal congestion, dryness of the mouth, fever, etc.\n\n#### Is Metronidazole safe to use when pregnant?\n\nMetronidazole is not recommended for use in pregnant women unless absolutely necessary.\n\n#### Will Metronidazole be more effective if taken in more than the recommended dose?\n\nNo, taking higher than the recommended dose of Metronidazole lead to increased chances of side effects such as diarrhoea, excessive production of urine, headache, nausea, pain in the upper part of the stomach, painful and difficult urination, serious eating disorder (anorexia), etc.\n\n#### Quick Tips\n\n- Metronidazole treats infections caused by bacteria and parasites.\n- Metronidazole may cause side effects like nausea, stomach upset, and a metallic taste in the mouth.\n- Metronidazole used in a high dose or for a prolonged time increases the risk of side effects such as nerve damage. Take it only as prescribed by your doctor.\n- Do not drink alcohol during or for 2-3 days after treatment with this medicine. You may develop nausea, vomiting, flushing and headache.\n- Inform your doctor if you have liver disease. Your dose may need to be adjusted in severe liver disease."
+  },
+  "sections_bn": {
+    "indications": "মেট্রোনিডাজল নিম্নলিখিত রোগের চিকিৎসায় ব্যবহৃত হয়ঃ\n\n- এনারুবিক ব্যাকটেরিয়া জনিত (বিশেষ করে ব্যাকটেরয়েড ও এনারুবিক স্ট্রেপটোকক্কি) অস্ত্রোপচার পরবর্তী সংক্রমণ প্রতিরোধে।\n- এনারুবিক জীবাণু দ্বারা সংক্রমিত সেপটিসেমিয়া, ব্যাকটেরেমিয়া, পেরিটোনাইটিস, ব্রেইন এব্সেস, পেলভিক এব্সেস, পেলভিক সেলুলাইটিস ও অস্ত্রোপচার পরবর্তী ক্ষতের সংক্রমণের চিকিৎসায়।\n- ইউরোজেনিটাল ট্রাইকোমোনিয়াসিসের চিকিৎসায়।\n- ব্যাকটেরিয়াল ভ্যাজিনোসিস (যা নন-স্পেসিফিক ভ্যাজিনোসিস হিসেবে পরিচিত)।\n- সকল ধরনের এ্যামেবিয়াসিস (ইনটেস্টিনাল, এক্সট্রা-ইনটেস্টিনাল এবং রোগের লক্ষণবিহীন কিন্তু সিস্ট বহনকারী অবস্থা)।\n- জিয়ারডিয়াসিস।\n- তীব্র আলসারেটিভ জিনজিভাইটিস।\n- এনারুবিক জীবাণু দ্বারা সংক্রমিত পায়ের ঘা এবং প্রেসার র্সোস।\n- এনারুবিক জীবাণুজনিত দাঁতের তীব্র সংক্রমণ।\n- এন্টিবায়োটিক ব্যবহারজনিত সিউডোমেমব্রেনাস কলাইটিস।",
+    "mode_of_action": "মেট্রোনিডাজল ইমিডাজল জাতীয় একটি ব্যাকটেরিয়া বিরোধী ঔষধ এবং চিকিৎসাক্ষেত্রে এটি প্রোটোজোয়া বিরোধী হিসেবে কাজ করে। এনারুবিক জীবাণু দ্বারা মেট্রোনিডাজলের ৫-নাইট্রো গ্রূপটি বিজারিত হয় এবং পরীক্ষণে দেখা যায় যে, এই বিজারিত মেট্রোনিডাজল এনারুবিক জীবাণুর DNA-এর উপর কাজ করে ব্যাকটেরিসাইডাল কার্যকারিতা দেয়।",
+    "dosage": "ট্রাইকোমোনিয়াসিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ২০০ মিঃগ্রাঃ করে ৩ বার বা ৪০০ মিঃগ্রাঃ করে ২ বার। চিকিৎসার সময়কালঃ ৭ দিন\n- ৮০০ মিঃগ্রাঃ করে প্রতিদিন সকালে এবং ১-২ গ্রাম করে প্রতি রাতে। চিকিৎসার সময়কালঃ ২ দিন\n- ২ গ্রাম, একক মাত্রা হিসেবে। চিকিৎসার সময়কালঃ ১ দিন\n\r\nট্রাইকোমোনিয়াসিস (বাচ্চা)-\n\n- ৭-১০ বৎসরঃ ১০০ মিঃগ্রাঃ করে ৩ বার\n- ৩-৭ বৎসরঃ ১০০ মিঃগ্রাঃ করে ২ বার\n- ১-৩ বৎসরঃ ৫০ মিঃগ্রাঃ করে ৩ বার\n\r\nইনটেস্টিনাল এ্যামেবিয়াসিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ৮০০ মিঃগ্রাঃ করে ৩ বার। চিকিৎসার সময়কালঃ ৫ দিন\n\r\nইনটেস্টিনাল এ্যামেবিয়াসিস (বাচ্চা)-\n\n- ৭-১০ বৎসরঃ ৪০০ মিঃগ্রাঃ করে ৩ বার\n- ৩-৭ বৎসরঃ ২০০ মিঃগ্রাঃ করে ৪ বার\n- ১-৩ বৎসরঃ ২০০ মিঃগ্রাঃ করে ৩ বার\n\r\nএক্সট্রা-ইনটেস্টিনাল এবং লক্ষণবিহীন এ্যামেবিয়াসিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ৪০০- ৮০০ মিঃগ্রাঃ করে ৩ বার। চিকিৎসার সময়কালঃ ৫-১০ দিন\n\r\nএক্সট্রা-ইনটেস্টিনাল এবং লক্ষণবিহীন এ্যামেবিয়াসিস (বাচ্চা)-\n\n- ৭-১০ বৎসরঃ ২০০-৪০০ মিঃগ্রাঃ করে ৩ বার\n- ৩-৭ বৎসরঃ ১০০-২০০ মিঃগ্রাঃ করে ৪ বার\n- ১-৩ বৎসরঃ ১০০-২০০ মিঃগ্রাঃ করে ৩ বার\n\r\nজিয়ারডিয়াসিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- দৈনিক ২ গ্রাম করে ১ বার। চিকিৎসার সময়কালঃ ৩ দিন\n\r\nজিয়ারডিয়াসিস (বাচ্চা)-\n\n- ৭-১০ বৎসরঃ ১ গ্রাম করে ১ বার\n- ৩-৭ বৎসরঃ ৬০০-৮০০ মিঃগ্রাঃ করে ১ বার\n- ১-৩ বৎসরঃ ৫০০ মিঃগ্রাঃ করে ১ বার\n\r\nতীব্র আলসারেটিভ জিনজিভাইটিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ২০০ মিঃগ্রাঃ করে ৩ বার। চিকিৎসার সময়কালঃ ৩ দিন\n\r\nতীব্র আলসারেটিভ জিনজিভাইটিস (বাচ্চা)-\n\n- ৭-১০ বৎসরঃ ১০০ মিঃগ্রাঃ করে ৩ বার\n- ৩-৭ বৎসরঃ ১০০ মিঃগ্রাঃ করে ২ বার\n- ১-৩ বৎসরঃ ৫০ মিঃগ্রাঃ করে ৩ বার\n\r\nতীব্র দাঁতের সংক্রমণ (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ২০০ মিঃগ্রাঃ করে ৩ বার। চিকিৎসার সময়কালঃ ৩-৭ দিন\n\r\nব্যাকটেরিয়াল ভ্যাজিনোসিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ৪০০ মিঃগ্রাঃ করে ২ বার। চিকিৎসার সময়কালঃ ৭ দিন\n- ২ গ্রাম, একক মাত্রা হিসেবে। চিকিৎসার সময়কালঃ ১ দিন\n\r\nপায়ের ঘা এবং প্রেসার সোরস্ (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- ৪০০ মিঃগ্রাঃ করে ৩ বার। চিকিৎসার সময়কালঃ ৭ দিন\n\r\nএনারুবিক ইনফেকশন (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- প্রারম্ভিক অবস্থায় ৮০০ মিঃগ্রাঃ এবং পরবর্তীতে ৪০০ মিঃগ্রাঃ করে দিনে ৩ বার। চিকিৎসার সময়কালঃ ৭ দিন\n\r\nএনারুবিক ইনফেকশন (বাচ্চা)-\n\n- ১-১০ বৎসরঃ ৭.৫ মিঃগ্রাঃ/কেজি করে ৩ বার\n\r\nসার্জিক্যাল প্রোফাইলেক্সিস (প্রাপ্তবয়স্ক এবং ১০ বৎসরের উপরের বাচ্চা)-\n\n- সার্জারির ২৪ ঘন্টা পূর্বে ৪০০ মিঃগ্রাঃ করে দিনে ৩ বার। চিকিৎসার সময়কালঃ ৭ দিন\n\r\nসার্জিক্যাল প্রোফাইলেক্সিস (বাচ্চা)-\n\n- ১-১০ বৎসরঃ ৭.৫ মিঃগ্রাঃ/কেজি করে ৩ বার",
+    "interaction": "**ডাইসালফাইরাম**: মেট্রোনিডাজল এবং ডাইসালফাইরাম এক সাথে ব্যবহার করলে মানসিক প্রতিক্রিয়ার উদ্ভব হতে পারে বলে রিপোর্ট পাওয়া গেছে।\n\n**অ্যালকোহল**: মেট্রোনিডাজল দ্বারা চিকিৎসা চলাকালীন সময় এবং শেষ হবার অন্তত ১ দিন পর পর্যন্ত রোগীদের অ্যালকোহল জাতীয় পানীয় সেবন করা থেকে বিরত থাকার পরামর্শ দিতে হবে কারন সেটা ডাইসালফাইরাম প্রতিক্রিয়ার (অ্যানটাবউস ইফেক্ট- ত্বকে অত্যধিক রক্ত সরবরাহ, বমি, দ্রুত হৃদস্পন্দন) কারন হতে পারে।\n\n**এন্টিকোয়াগুলেন্ট চিকিৎসা (ওয়ারফেরিন জাতীয়)**: হেপাটিক ক্যাটাবলিসম কমে যাওয়ার কারনে এন্টিকোয়াগুলেন্ট এর প্রভাব বৃদ্ধি পায় এবং রক্তক্ষরন এর সম্ভবনা বেড়ে যায়। মেট্রোনিডাজল এর সাথে দেওয়া হলে নিয়মিত প্রোথ্রম্বিন টাইম পর্যবেক্ষণ করতে হবে এবং এন্টিকোয়াগুলেন্ট-এর মাত্রা সমন্বয় করতে হবে।\n\n**লিথিয়াম**: মেট্রোনিডাজল দ্বারা রক্তের প্লাজমা তে লিথিয়াম এর মাত্রা বৃদ্ধি পেতে পারে।\n\n**সাইক্লোস্পরিন**: সেরাম এ সাইক্লোস্পরিন এবং ক্রিয়েটিনিন এর মাত্রা নিবির ভাবে পর্যবেক্ষণ করতে হবে যদি মেট্রোনিডাজল এর সাথে দেওয়া হয়।\n\n**ফেনাইটয়েন অথবা ফেনোবারবিটাল**: মেট্রোনিডাজল নিঃসরণ এর মাত্রা বেড়ে যাওয়ায় প্লাজমাতে পরিমান কমে যায়। \n\n**৫-ফ্লুরোইউরাসিল**: শরীর থেকে নিঃসরণ এর মাত্রা কমে যাওয়ায় ৫-ফ্লুরোইউরাসিল দ্বারা বিষক্রিয়ার সম্ভবনা বৃদ্ধি পায়।\n\n**বিউসালফান**: মেট্রোনিডাজল প্লাজমাতে বিউসালফান এর পরিমান বাড়িয়ে দেয় যা বিউসালফান জনিত বিষক্রিয়া সৃষ্টি করতে পারে।",
+    "contraindications": "মেট্রোনিডাজল ও অন্যান্য নাইট্রোইমিডাজল জাতীয় ডেরিভেটিভের প্রতি অতিসংবেদনশীল রোগীদের ক্ষেত্রে মেট্রোনিডাজল ব্যবহার প্রতিনির্দেশিত।",
+    "side_effects": "চিকিৎসার সময় ধাতব স্বাদ, বমি বমি ভাব, বমি, ডায়রিয়া, তন্দ্রাচ্ছন্নতা, রেশ দেখা যেতে পারে।",
+    "pregnancy_cat": "US FDA প্রেগন্যান্সি ক্যাটাগরী অনুযায়ী মেট্রোনিডাজল 'B' জাতীয় ঔষধ । অর্থাৎ, গর্ভাবস্থায় ব্যবহারের সুনিয়ন্ত্রিত ও পর্যাপ্ত তথ্য নেই। যেহেতু প্রাণিজ প্রজনন গবেষণা সর্বদা মানবদেহে কার্যকারিতা সম্বন্ধে পূর্ব ধারণা দেয় না, সেহেতু এই ঔষধটি গর্ভাবস্থায় সুনির্দিষ্টভাবে প্রয়োজন হলেই ব্যবহার করা উচিত। মেট্রোনিডাজল স্তন্যদুগ্ধে নিঃসৃত হয়। সুতরাং, স্তন্যদাত্রী মায়েদের ক্ষেত্রে মেট্রোনিডাজল ব্যবহারে সতর্কতা অবলম্বন করা উচিত ।",
+    "precautions": "যদি কোন কারনবশত নির্ধারিত সময়কালের অধিক সময় ধরে মেট্রোনিডাজল দ্বারা চিকিৎসা করতে হয় সেক্ষেত্রে সেবনকারীর রক্ত পরীক্ষা, বিশেষ করে শ্বেত রক্তকনিকার সংখ্যা, নিয়মিত পরীক্ষা করা এবং রোগীর বিরূপ প্রতিক্রিয়া, যেমন- প্রান্তিক ও কেন্দ্রীয় স্নায়ুরোগ (পারেসথেশিয়া অ্যাটাকশিয়া, ঝিম ঝিম লাগা, খিঁচুনি), পর্যবেক্ষণ এর জন্য নজরদারিতে রাখতে হবে।\n\nমেট্রোনিডাজল হেপাটিক এনসেফেলোপ্যাথি রোগীদের সতর্কতার সাথে প্রয়োগ করা উচিত।\n\nরোগীদের সতর্ক করা উচিত যে মেট্রোনিডাজল মূত্রকে ডার্ক করতে পারে।",
+    "pediatric_uses": "**যকৃতের সমস্যা**: মেট্রোনিডাজলের বিপাক প্রধানত যকৃতে জারন দ্বারা হয়ে থাকে। যকৃতের গুরুত্বর সমস্যার ক্ষেত্রে মেট্রোনিডাজলের অপসারণে বড় ধরণের অবণতি ঘটতে পারে। যেসকল রোগীদের হেপাটিক এন্সেফেলোপ্যাথি আছে তাদের ক্ষেত্রে মেট্রোনিডাজল পুঁজিভুত হয় যার ফলাফলস্বরূপ রক্তে এর মাত্রা বেড়ে যাওয়ার কারণে এন্সেফেলোপ্যাথির লক্ষণসমূহ দেখা দিতে পারে। এই কারনে হেপাটিক এন্সেফেলোপ্যাথির রোগীদেও ক্ষেত্রে মেট্রোনিডাজল সতর্কতার সাথে প্রয়োগ করতে হবে। দৈনিক মাত্রা এক তৃতীয়াংশে কমিয়ে নিয়ে এসে দিনে একবার প্রয়োগ করতে হবে। মেট্রোনিডাজলের কারণে প্রস্রাব গাঢ় বর্ণের হতে পারে এই ব্যপারে রোগীকে সতর্ক করতে হবে।\n\n**কিডনির সমস্যা**: কিডনি ফেইলিওর এর ক্ষেত্রে মেট্রোনিডাজলের এলিমিনেশন হাফ-লাইফ অপরিবর্তিত থাকে। তাই এর মাত্রা পরিবর্তনের কোন প্রয়োজন হয় না। এই রোগীদের যদিও মেট্রোনিডাজলের মেটাবোলাইট সমুহ শরীরে জমা থাকে। তবে এখনও এর কোন ক্লিনিক্যাল তাৎপর্য নেই। হেমোডায়ালাইসিস এর রোগীদের ক্ষেত্রে মেট্রোনিডাজল এবং এর মেটাবোলাইট সমূহ ডায়ালাইসিসের ৮ ঘণ্টার মধ্যে শরীর থেকে বের হয়ে যায়। এই কারণে হেমোডায়ালাইসিস করার সাথে সাথেই পুনরায় মেট্রোনিডাজল দিতে হবে। Intermittent Peritoneal Dialysis (IDP) অথবা Continuous Ambulatory Peritoneal Dialysis (CAPD) এর রোগীদের ক্ষেত্রে মেট্রোনিডাজলের মাত্রার কোনরূপ সমন্বয় সাধন করতে হবে না।",
+    "overdose_effects": "হত্যা ও দুর্ঘটনাজনিত ক্ষেত্রে, মেট্রোনিডজোল এর সর্বোচ্চ ১২ গ্রাম সেবন এর রিপোর্ট পাওয়া গেছে। লক্ষনসমূহ- বমি, অ্যাটাক্সিয়া, সামান্য বিভ্রান্তি বা হ্যালুসিনেশন। ব্যবস্থাপনা- মেট্রোনিডাজোলের বিষক্রিয়ার কোন প্রতিষেধক নাই। অতিরিক্ত পরিমানে সেবন করলে উপসর্গিক এবং সহায়ক চিকিৎসা দিতে হবে।",
+    "drug_classes": "Amoebicides, Anti-diarrhoeal antiprotozoal",
+    "storage_conditions": "৩০° সে তাপমাত্রার নিচে সংরক্ষন করতে হবে। আলো থেকে দূরে রাখতে হবে। শিশুদের নাগালের বাইরে রাখতে হবে। মেয়াদউত্তীর্ণ হয়ে যাওয়ার পর ব্যবহার করা যাবে না।"
+  },
+  "source_url_en": "https://medex.com.bd/generics/751/metronidazole",
+  "source_url_bn": "https://medex.com.bd/generics/751/metronidazole/bn",
+  "scraped_at": "2026-10-10T15:03:07+00:00"
+}

@@ -1,0 +1,921 @@
+{
+  "slug": "ondansetron",
+  "name_en": "Ondansetron",
+  "name_bn": "অনড্যানসেট্‌রন",
+  "therapeutic_class": "Anti-emetic drugs",
+  "dosage_forms": [
+    "Tablets & Oral Solution",
+    "Injection",
+    "Suppositories",
+    "Oral soluble film"
+  ],
+  "brand_count": "Available brands",
+  "brands": [
+    {
+      "name": "Anset",
+      "strength": "4 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 4.54",
+      "url": "https://medex.com.bd/brands/4715/anset-4-mg-tablet"
+    },
+    {
+      "name": "Anset",
+      "strength": "8 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4716/anset-8-mg-tablet"
+    },
+    {
+      "name": "Anset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4717/anset-4-mg-oral-solution"
+    },
+    {
+      "name": "Anset",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4718/anset-8-mg-imiv-injection"
+    },
+    {
+      "name": "Anset",
+      "strength": "16 mg",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "price": "Unit Price : ৳ 15.00",
+      "url": "https://medex.com.bd/brands/4719/anset-16-mg-suppository"
+    },
+    {
+      "name": "Apulset",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/17333/apulset-8-mg-imiv-injection"
+    },
+    {
+      "name": "Apulset",
+      "strength": "8 mg",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/17335/apulset-8-mg-tablet"
+    },
+    {
+      "name": "Apulset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Aristopharma Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/17336/apulset-4-mg-oral-solution"
+    },
+    {
+      "name": "Avona",
+      "strength": "8 mg",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4721/avona-8-mg-tablet"
+    },
+    {
+      "name": "Avona",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Popular Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4723/avona-4-mg-oral-solution"
+    },
+    {
+      "name": "Dantron",
+      "strength": "8 mg",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/23171/dantron-8-mg-tablet"
+    },
+    {
+      "name": "Dantron",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "One Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/23172/dantron-4-mg-oral-solution"
+    },
+    {
+      "name": "Emeren",
+      "strength": "4 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4724/emeren-4-mg-tablet"
+    },
+    {
+      "name": "Emeren",
+      "strength": "8 mg",
+      "manufacturer": "Renata PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4725/emeren-8-mg-tablet"
+    },
+    {
+      "name": "Emeren",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Renata PLC",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4726/emeren-8-mg-imiv-injection"
+    },
+    {
+      "name": "Emeren",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Renata PLC",
+      "price": "50 ml bottle : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/23182/emeren-4-mg-oral-solution"
+    },
+    {
+      "name": "Emeset",
+      "strength": "8 mg",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23190/emeset-8-mg-tablet"
+    },
+    {
+      "name": "Emeset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Veritas Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/23191/emeset-4-mg-oral-solution"
+    },
+    {
+      "name": "Emetus",
+      "strength": "4 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/36459/emetus-4-mg-tablet"
+    },
+    {
+      "name": "Emetus",
+      "strength": "8 mg",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/36460/emetus-8-mg-tablet"
+    },
+    {
+      "name": "Emetus",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36461/emetus-4-mg-oral-solution"
+    },
+    {
+      "name": "Emetus",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "OSL Pharma Limited",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/36677/emetus-8-mg-imiv-injection"
+    },
+    {
+      "name": "Emigut",
+      "strength": "8 mg",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/34732/emigut-8-mg-tablet"
+    },
+    {
+      "name": "Emigut",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 48.00",
+      "url": "https://medex.com.bd/brands/34733/emigut-4-mg-oral-solution"
+    },
+    {
+      "name": "Emirest",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Pharmasia Limited",
+      "price": "50 ml bottle : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/28730/emirest-4-mg-oral-solution"
+    },
+    {
+      "name": "Emirest ODT",
+      "strength": "4 mg",
+      "manufacturer": "Pharmasia Limited",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/28729/emirest-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Emiset",
+      "strength": "8 mg",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27850/emiset-8-mg-tablet"
+    },
+    {
+      "name": "Emiset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Alco Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/27851/emiset-4-mg-oral-solution"
+    },
+    {
+      "name": "Emistat",
+      "strength": "8 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/4728/emistat-8-mg-tablet"
+    },
+    {
+      "name": "Emistat",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4729/emistat-8-mg-imiv-injection"
+    },
+    {
+      "name": "Emistat",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4730/emistat-4-mg-oral-solution"
+    },
+    {
+      "name": "Emistat FT",
+      "strength": "4 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/4727/emistat-ft-4-mg-flash-tablet"
+    },
+    {
+      "name": "Emistat FT",
+      "strength": "8 mg",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/36017/emistat-ft-8-mg-flash-tablet"
+    },
+    {
+      "name": "Emiston",
+      "strength": "8 mg",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4731/emiston-8-mg-tablet"
+    },
+    {
+      "name": "Emiston",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "4 ml ampoule : ৳ 27.00",
+      "url": "https://medex.com.bd/brands/4732/emiston-8-mg-imiv-injection"
+    },
+    {
+      "name": "Emiston",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "The IBN SINA Pharmaceutical PLC",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/23152/emiston-4-mg-oral-solution"
+    },
+    {
+      "name": "Emiteron",
+      "strength": "8 mg",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/27436/emiteron-8-mg-tablet"
+    },
+    {
+      "name": "Emitof",
+      "strength": "4 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/27803/emitof-4-mg-tablet"
+    },
+    {
+      "name": "Emitof",
+      "strength": "8 mg",
+      "manufacturer": "Rangs Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27804/emitof-8-mg-tablet"
+    },
+    {
+      "name": "Emofast",
+      "strength": "8 mg",
+      "manufacturer": "Albion Laboratories Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/33339/emofast-8-mg-tablet"
+    },
+    {
+      "name": "Jafa",
+      "strength": "8 mg",
+      "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/32533/jafa-8-mg-tablet"
+    },
+    {
+      "name": "Leofran",
+      "strength": "8 mg",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23156/leofran-8-mg-tablet"
+    },
+    {
+      "name": "Leofran",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Leon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/23157/leofran-4-mg-oral-solution"
+    },
+    {
+      "name": "Nauset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.13",
+      "url": "https://medex.com.bd/brands/23163/nauset-4-mg-oral-solution"
+    },
+    {
+      "name": "Nauset",
+      "strength": "8 mg",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23164/nauset-8-mg-tablet"
+    },
+    {
+      "name": "Nauset",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/23165/nauset-8-mg-imiv-injection"
+    },
+    {
+      "name": "Naushi",
+      "strength": "8 mg",
+      "manufacturer": "C2C Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/35114/naushi-8-mg-tablet"
+    },
+    {
+      "name": "Novatron",
+      "strength": "8 mg",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23180/novatron-8-mg-tablet"
+    },
+    {
+      "name": "Novatron",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/23181/novatron-8-mg-imiv-injection"
+    },
+    {
+      "name": "Odatron",
+      "strength": "4 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/28569/odatron-4-mg-tablet"
+    },
+    {
+      "name": "Odatron",
+      "strength": "8 mg",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/28570/odatron-8-mg-tablet"
+    },
+    {
+      "name": "Odatron",
+      "strength": "2 mg/ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "1 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/28571/odatron-2-mg-imiv-injection"
+    },
+    {
+      "name": "Odatron",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/28572/odatron-8-mg-imiv-injection"
+    },
+    {
+      "name": "Odatron",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Pacific Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 46.00",
+      "url": "https://medex.com.bd/brands/29877/odatron-4-mg-oral-solution"
+    },
+    {
+      "name": "Ofmit",
+      "strength": "8 mg",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/23169/ofmit-8-mg-tablet"
+    },
+    {
+      "name": "Ofmit",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/29069/ofmit-8-mg-imiv-injection"
+    },
+    {
+      "name": "Ofran",
+      "strength": "8 mg",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4733/ofran-8-mg-tablet"
+    },
+    {
+      "name": "Ofran",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4734/ofran-4-mg-oral-solution"
+    },
+    {
+      "name": "Ofran",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4735/ofran-8-mg-imiv-injection"
+    },
+    {
+      "name": "Onamis",
+      "strength": "8 mg",
+      "manufacturer": "Apex Pharma Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/24325/onamis-8-mg-tablet"
+    },
+    {
+      "name": "Onaseron",
+      "strength": "8 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/4737/onaseron-8-mg-tablet"
+    },
+    {
+      "name": "Onaseron",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4738/onaseron-4-mg-oral-solution"
+    },
+    {
+      "name": "Onaseron",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4739/onaseron-8-mg-imiv-injection"
+    },
+    {
+      "name": "Onaseron ODT",
+      "strength": "4 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/23153/onaseron-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Onaseron ODT",
+      "strength": "8 mg",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/38530/onaseron-odt-8-mg-dispersible-tablet"
+    },
+    {
+      "name": "Onasia",
+      "strength": "8 mg",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4740/onasia-8-mg-tablet"
+    },
+    {
+      "name": "Onasia",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "4 ml ampoule : ৳ 25.08",
+      "url": "https://medex.com.bd/brands/4742/onasia-8-mg-imiv-injection"
+    },
+    {
+      "name": "Onasia",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Orion Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 45.14",
+      "url": "https://medex.com.bd/brands/26890/onasia-4-mg-oral-solution"
+    },
+    {
+      "name": "Onatron",
+      "strength": "8 mg",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/4743/onatron-8-mg-tablet"
+    },
+    {
+      "name": "Onatron",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Novelta Bestway Pharma Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4744/onatron-4-mg-oral-solution"
+    },
+    {
+      "name": "Onaxen",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/28819/onaxen-4-mg-oral-solution"
+    },
+    {
+      "name": "Oncodex",
+      "strength": "4 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 4.53",
+      "url": "https://medex.com.bd/brands/4745/oncodex-4-mg-tablet"
+    },
+    {
+      "name": "Oncodex",
+      "strength": "8 mg",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "Unit Price : ৳ 8.06",
+      "url": "https://medex.com.bd/brands/4746/oncodex-8-mg-tablet"
+    },
+    {
+      "name": "Oncodex",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "price": "4 ml ampoule : ৳ 25.17",
+      "url": "https://medex.com.bd/brands/4747/oncodex-8-mg-imiv-injection"
+    },
+    {
+      "name": "Ondagen",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/23147/ondagen-8-mg-imiv-injection"
+    },
+    {
+      "name": "Ondamax",
+      "strength": "8 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/27792/ondamax-8-mg-tablet"
+    },
+    {
+      "name": "Ondamax",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/27793/ondamax-4-mg-oral-solution"
+    },
+    {
+      "name": "Ondamax",
+      "strength": "4 mg",
+      "manufacturer": "Somatec Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/33777/ondamax-4-mg-tablet"
+    },
+    {
+      "name": "Ondan",
+      "strength": "8 mg",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.00",
+      "url": "https://medex.com.bd/brands/30098/ondan-8-mg-tablet"
+    },
+    {
+      "name": "Ondan",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/33544/ondan-4-mg-oral-solution"
+    },
+    {
+      "name": "Ondason",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4749/ondason-4-mg-oral-solution"
+    },
+    {
+      "name": "Ondason",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Drug International Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4750/ondason-8-mg-imiv-injection"
+    },
+    {
+      "name": "Ondason",
+      "strength": "8 mg",
+      "manufacturer": "Drug International Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23144/ondason-8-mg-tablet"
+    },
+    {
+      "name": "Ondastat",
+      "strength": "8 mg",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37396/ondastat-8-mg-tablet"
+    },
+    {
+      "name": "Ondesta",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/38753/ondesta-4-mg-oral-solution"
+    },
+    {
+      "name": "Oneron",
+      "strength": "8 mg",
+      "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/39841/oneron-8-mg-tablet"
+    },
+    {
+      "name": "Onlit",
+      "strength": "4 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 6.00",
+      "url": "https://medex.com.bd/brands/38065/onlit-4-mg-tablet"
+    },
+    {
+      "name": "Onlit",
+      "strength": "8 mg",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/38066/onlit-8-mg-tablet"
+    },
+    {
+      "name": "Onlit",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/38067/onlit-4-mg-oral-solution"
+    },
+    {
+      "name": "Onlit",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Asiatic Laboratories Ltd.",
+      "price": "4 ml ampoule : ৳ 30.00",
+      "url": "https://medex.com.bd/brands/38068/onlit-8-mg-imiv-injection"
+    },
+    {
+      "name": "Onride",
+      "strength": "8 mg",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/35766/onride-8-mg-tablet"
+    },
+    {
+      "name": "Onride",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Medicon Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/35767/onride-4-mg-oral-solution"
+    },
+    {
+      "name": "Onsat",
+      "strength": "8 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4751/onsat-8-mg-tablet"
+    },
+    {
+      "name": "Onsat",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/4752/onsat-8-mg-imiv-injection"
+    },
+    {
+      "name": "Onsat OSF",
+      "strength": "4 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 12.00",
+      "url": "https://medex.com.bd/brands/23131/onsat-osf-4-mg-oral-soluble-film"
+    },
+    {
+      "name": "Onsat OSF",
+      "strength": "8 mg",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 18.00",
+      "url": "https://medex.com.bd/brands/23132/onsat-osf-8-mg-oral-soluble-film"
+    },
+    {
+      "name": "Onstar",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Biopharma Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/26871/onstar-4-mg-oral-solution"
+    },
+    {
+      "name": "Onstar ODT",
+      "strength": "8 mg",
+      "manufacturer": "Biopharma Limited",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/26872/onstar-odt-8-mg-dispersible-tablet"
+    },
+    {
+      "name": "Osedan",
+      "strength": "8 mg",
+      "manufacturer": "Euro Pharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/29081/osedan-8-mg-tablet"
+    },
+    {
+      "name": "Osetron",
+      "strength": "8 mg",
+      "manufacturer": "ACI Limited",
+      "price": "Unit Price : ৳ 10.07",
+      "url": "https://medex.com.bd/brands/4753/osetron-8-mg-tablet"
+    },
+    {
+      "name": "Osetron",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "ACI Limited",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4754/osetron-4-mg-oral-solution"
+    },
+    {
+      "name": "Osetron",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "ACI Limited",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4755/osetron-8-mg-imiv-injection"
+    },
+    {
+      "name": "Periset",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 45.00",
+      "url": "https://medex.com.bd/brands/4756/periset-4-mg-oral-solution"
+    },
+    {
+      "name": "Periset",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "4 ml ampoule : ৳ 30.10",
+      "url": "https://medex.com.bd/brands/23117/periset-8-mg-imiv-injection"
+    },
+    {
+      "name": "Periset",
+      "strength": "8 mg",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "price": "Unit Price : ৳ 10.03",
+      "url": "https://medex.com.bd/brands/23118/periset-8-mg-tablet"
+    },
+    {
+      "name": "Premesis",
+      "strength": "4 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 4.50",
+      "url": "https://medex.com.bd/brands/4757/premesis-4-mg-tablet"
+    },
+    {
+      "name": "Premesis",
+      "strength": "8 mg",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4758/premesis-8-mg-tablet"
+    },
+    {
+      "name": "Premesis",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/4759/premesis-4-mg-oral-solution"
+    },
+    {
+      "name": "Premesis",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/4760/premesis-8-mg-imiv-injection"
+    },
+    {
+      "name": "Pukenil",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 44.00",
+      "url": "https://medex.com.bd/brands/23187/pukenil-4-mg-oral-solution"
+    },
+    {
+      "name": "Pukenil",
+      "strength": "8 mg",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/23188/pukenil-8-mg-tablet"
+    },
+    {
+      "name": "Seroset",
+      "strength": "8 mg",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 7.00",
+      "url": "https://medex.com.bd/brands/23149/seroset-8-mg-tablet"
+    },
+    {
+      "name": "Seroset",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Globex Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/23150/seroset-8-mg-imiv-injection"
+    },
+    {
+      "name": "Seton",
+      "strength": "8 mg",
+      "manufacturer": "Delta Pharma PLC.",
+      "price": "Unit Price : ৳ 5.00",
+      "url": "https://medex.com.bd/brands/4761/seton-8-mg-tablet"
+    },
+    {
+      "name": "Setronax",
+      "strength": "8 mg",
+      "manufacturer": "Monicopharma Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4762/setronax-8-mg-tablet"
+    },
+    {
+      "name": "Vomidyl",
+      "strength": "8 mg",
+      "manufacturer": "SMC Enterprise Ltd",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/23183/vomidyl-8-mg-tablet"
+    },
+    {
+      "name": "Vomisal",
+      "strength": "8 mg",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/39360/vomisal-8-mg-tablet"
+    },
+    {
+      "name": "Vomiset",
+      "strength": "8 mg",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "price": "Unit Price : ৳ 10.00",
+      "url": "https://medex.com.bd/brands/4763/vomiset-8-mg-tablet"
+    },
+    {
+      "name": "Vomistop",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/36497/vomistop-4-mg-oral-solution"
+    },
+    {
+      "name": "Vomistop",
+      "strength": "8 mg",
+      "manufacturer": "Naafco Pharma PLC",
+      "price": "Unit Price : ৳ 9.00",
+      "url": "https://medex.com.bd/brands/37620/vomistop-8-mg-tablet"
+    },
+    {
+      "name": "VomitOF",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "50 ml bottle : ৳ 40.00",
+      "url": "https://medex.com.bd/brands/23139/vomitof-4-mg-oral-solution"
+    },
+    {
+      "name": "VomitOF",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "price": "4 ml ampoule : ৳ 25.00",
+      "url": "https://medex.com.bd/brands/34575/vomitof-8-mg-imiv-injection"
+    },
+    {
+      "name": "Zofra",
+      "strength": "4 mg/5 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "50 ml bottle : ৳ 50.00",
+      "url": "https://medex.com.bd/brands/4768/zofra-4-mg-oral-solution"
+    },
+    {
+      "name": "Zofra",
+      "strength": "8 mg/4 ml",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "4 ml ampoule : ৳ 32.00",
+      "url": "https://medex.com.bd/brands/4769/zofra-8-mg-imiv-injection"
+    },
+    {
+      "name": "Zofra ODT",
+      "strength": "4 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 5.75",
+      "url": "https://medex.com.bd/brands/4766/zofra-odt-4-mg-dispersible-tablet"
+    },
+    {
+      "name": "Zofra ODT",
+      "strength": "8 mg",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "price": "Unit Price : ৳ 11.50",
+      "url": "https://medex.com.bd/brands/4767/zofra-odt-8-mg-dispersible-tablet"
+    }
+  ],
+  "sections_en": {
+    "indications": "Ondansetron is a serotonin subtype 3 (5-HT3) receptor antagonist indicated:\n\n- Prevention of nausea and vomiting associated with initial and repeat courses of emetogenic cancer chemotherapy.\n- Prevention and treatment of post-operative nausea and vomiting.\n- Prevention of radiotherapy-induced nausea and vomiting.",
+    "description": "Ondansetron oral soluble film is a orally dissolving film designed to be applied on top of the tongue where it will dissolve within 20 seconds and then is swallowed with saliva. Oral soluble film does not require water to aid dissolution or swallowing. The active ingredient in this preparation is ondansetron base, the racemic form of ondansetron, and a selective blocking agent of the serotonin 5-HT3 receptor type. The empirical formula is C18H19N3O representing a molecular weight of 293.3.",
+    "mode_of_action": "Ondansetron is a potent, highly selective 5HT3 receptor-antagonist. Its precise mode of action in the control of nausea and vomiting is not known. Chemotherapeutic agents and radiotherapy may cause release of 5HT in the small intestine initiating a vomiting reflex by activating vagal afferents via 5HT3 receptors. Ondansetron blocks the initiation of this reflex. Activation of vagal afferents may also cause a release of 5HT in the area postrema, located on the floor of the fourth ventricle, and this may also promote emesis through a central mechanism. Thus, the effect of ondansetron in the management of the nausea and vomiting induced by cytotoxic chemotherapy and radiotherapy is probably due to antagonism of 5HT3 receptors on neurons located both in the peripheral and central nervous system. The mechanisms of action in post-operative nausea and vomiting are not known but there may be common pathways with cytotoxic induced nausea and vomiting.",
+    "dosage": "Chemotherapy-Induced Nausea and Vomiting-\nAdults, Pediatric patients (6 months to 18 years):\n\n- **8 mg tablet/orodispersible tablet**: Three 0.15 mg/kg doses, up to a maximum of 16 mg per dose.\n- **4 mg orodispersible tablet**: Three 0.15 mg/kg doses, up to a maximum of 16 mg per dose.\n- **Injection**: Three 0.15 mg/kg doses, up to a maximum of 16 mg per dose, infused intravenously over 15 minutes.\n\r\nRadiotherapy-Induced Nausea and Vomiting-\nAdults:\n\n- **8 mg tablet/orodispersible tablet**: Initial Dose: 8 mg orally 1 to 2 hours before radiotherapy. Post Radiotherapy: 8 mg orally every 8 hours for up to 5 days after a course of treatment.\n- **4 mg orodispersible tablet**: Three 0.15 mg/kg doses, up to a maximum of 16 mg per dose.\n- **Injection**: Three 0.15 mg/kg doses, up to a maximum of 16 mg per dose, infused intravenously over 15 minutes.\n\r\nPostoperative Nausea and Vomiting-\nAdults:\n\n- **8 mg tablet/orodispersible tablet**: 16 mg given as two 8 mg tablets\n- **4 mg orodispersible tablet**: 16 mg\n- **Injection**: 4 mg\n\r\nPediatrics (>40 kg): Injection: 4 mg\nPediatrics (40 kg): Injection: 0.1 mg/kg\n\nChemotherapy-induced Nausea and Vomiting-\nAdults/Geriatric/Child of 12 years or over:\n\n- **Highly emetogenic cancer chemotherapy**: 30 ml (24 mg) Ondansetron Oral Solution administered 30 minutes before start of emetogenic chemotherapy.\n- **Moderate emetogenic cancer chemotherapy**: 10 ml (8 mg) Ondansetron Oral Solution administered 30 minutes before start of emetogenic chemotherapy. A further 10 ml dose should be administered after 8 hours of the first dose. One 10 ml dose should be administered twice a day (every 12 hours) for 1-2 days after completion of chemotherapy.\n\r\nPediatric (4-11 years): 5 ml (4 mg) Ondansetron Oral Solution should be taken 30 minutes before the start of chemotherapy. The other 2 doses should be taken 4 and 8 hours after the first dose. Then 5 ml oral solution should be administered 3 times a day (every 8 hours) for 1-2 days after completion of chemotherapy.\n\n#### Oral solution:\n\n\r\nRadiotherapy induced Nausea and Vomiting (Adults/Geriatric/Child of 12 years or over):\n\n- **The recommended oral dosage**: 10 ml (8 mg) Ondansetron Oral Solution 3 times daily.\n- **For total body irradiation**: 10 ml (8-mg) Ondansetron Oral Solution should be administered 1 to 2 hours before each fraction of radiotherapy administered each day.\n- **For single high-dose fraction radiotherapy to the abdomen**: one 10 ml Ondansetron Oral Solution should be administered 1 to 2 hours before radiotherapy, with subsequent doses every 8 hours after the first dose for 1 to 2 days after completion of radiotherapy.\n- **For daily fractionated radiotherapy to the abdomen**: 10 ml (8-mg) Ondansetron Oral Solution should be administered 1 to 2 hours before radiotherapy, with subsequent doses every 8 hours after the first dose for each day radiotherapy is given.\n\r\nPostoperative Nausea and Vomiting (Adults/Geriatric/Child of 12 years or over): \n\n- 20 ml (16 mg) Ondansetron Oral Solution 1 hour before induction of anesthesia\n\n#### Oral Soluble Film:\n\n\r\nPrevention of nausea and vomiting associated with highly emetogenic cancer chemotherapy:\n\n- **Adult oral dose**: 24 mg given successively as three 8 mg films 30 minutes before the start of chemotherapy.\n\r\nPrevention of nausea and vomiting associated with moderately emetogenic cancer chemotherapy:\n\n- **Adults and pediatric patients 12 years of age and older**: One 8 mg film 30 minutes before chemotherapy followed by an 8 mg dose 8 hours later. Administer one 8 mg film twice a day (every 12 hours) for 1 to 2 days after completion of chemotherapy.\n- **Pediatric patients 4 through 11 years of age**: One 4 mg film three times a day. Administer the first dose 30 minutes before chemotherapy, with subsequent doses 4 and 8 hours later. Administer one 4 mg film three times a day (every 8 hours) for 1 to 2 days after completion of chemotherapy.\n- **Prevention of nausea and vomiting associated with radiotherapy**: The adult dosage is one 8 mg film three times a day.\n- **Postoperative nausea and vomiting**: The adult dose is 16 mg given successively as two 8 mg films 1 hour before anesthesia.",
+    "administration": "Administration of Oral Soluble Film:\n\n- Step 1: Tear the pouch carefully along with the edge tear mark.\n- Step 2: Put the Ondansetron film on top of your tongue. It will dissolve within 20 seconds\n- Step 3: Do not chew or swallow the film whole.\n- Step 4: Swallow after the Onsaf oral soluble film dissolves. You may swallow the dissolved film with or without liquid.\n- Step 5: Wash your hands after taking Onsaf oral soluble film",
+    "interaction": "Ondansetron does not itself appear to induce or inhibit the cytochrome P-450 drug-metabolizing enzyme system of the liver. Because Ondansetron is metabolized by hepatic cytochrome P-450 drug-metabolizing enzymes, inducers or inhibitors of these enzymes may change the clearance and hence, the half-life of Ondansetron. On the basis of available data, no dosage adjustment of Ondasetron is recommended for patients on these drugs.",
+    "contraindications": "Contraindicated in patients known to have hypersensitivity to the drug or any of its components. Concomitant use of apomorphine.",
+    "side_effects": "Frequently reported adverse events were headache, constipation and diarrhea, but the majority have been mild or moderate in nature. In chemotherapy-induced nausea and vomiting, rash has occurred in approximately 1% of patients receiving Ondansetron. There also have been reports to a sensation of flushing or warmth, hiccups and liver enzyme abnormalities. Rare cases of anaphylaxis, brochospasm, tachycardia, angina (chest pain), hypokalemia, shortness of breath have also been reported, except for bronchospasm and anaphylaxis, the relationship to Ondansetron is unclear. There have been no evidence to extrapyramidal reactions, in rare case oculogyric crisis appearing alone, as well as with other dystonic reactions without definitive clinical evidence. In case of PONV, with the exception of headache, rates of these events were not significantly different in the Ondansetron and placebo groups.",
+    "pregnancy_cat": "Carcinogenic effects were not seen in 2-year studies in rats and mice with oral Ondansetron doses up to 10 and 30 mg/kg per day, respectively. Ondansetron was not mutagenic in standard tests for mutagenicity. Oral administration of Ondansetron up to 15 mg/kg per day did not affect fertility or general reproduction performance of male and female rats.\n\nReproduction studies have been performed in pregnant rats and rabbits at daily oral doses up to 15 and 30 mg/kg per day, respectively, and have revealed no evidence of impaired fertility or harm to the fetus due to Ondansetron. There are, however, no adequate and well-controlled studies in pregnant women. Ondansetron is excreted in the breast milk of rats. So caution should be exercised when Ondansetron is administered to a nursing women.",
+    "precautions": "Hypersensitivity reactions have been reported in patients who have exhibited hypersensitivity to other selective 5-HT3 receptor antagonists. Ondansetron is not a drug that stimulates gastric or intestinal peristalsis. It should not be used instead of nasogastric suction. The use of Ondansetron in patients following abdominal surgery or in patients with chemotherapy-induced nausea and vomiting may mask a progressive ileus and/or gastric distension.",
+    "pediatric_uses": "**Dosage Adjustment for Patients With Impaired Renal Function**: The dosage recommendation is the same as for the general population.\n\n**Dosage Adjustment for Patients With Impaired Hepatic Function**: In patients with severe hepatic impairment, a single maximal daily dose of 8 mg to be infused over 15 minutes beginning 30 minutes before the start of the emetogenic chemotherapy is recommended.\n\n**4 years of age or younger**: Little information is available about dosage in pediatric patients 4 years of age or younger.\n\n**Over the age of 65**: Dosage adjustment is not needed in patients over the age of 65.",
+    "drug_classes": "Anti-emetic drugs",
+    "storage_conditions": "Store at temperature not exceeding 30ºC in a dry place. Protect from light and moisture."
+  },
+  "sections_bn": {
+    "indications": "অনড্যানসেট্‌রন একটি সুনির্দিষ্ট সেরােটোনিন (৫-এইচটি৩) রিসেপ্টর এন্টাগনিষ্ট যা নিম্নোক্ত উপসর্গে নির্দেশিত-\n\n- উচ্চক্ষমতাসম্পন্ন এমিটোজেনিক ক্যান্সার কেমােথেরাপীর ক্ষেত্রে বমি বমি ভাব ও বমি প্রতিরােধে।\n- অস্ত্রপাচার পরবর্তী বমি বমি ভাব ও বমি প্রতিরােধে।\n- রেডিওথেরাপীর ক্ষেত্রে বমি বমি ভাব ও বমি প্রতিরােধে।",
+    "dosage": "**কেমােথেরাপী জনিত বমি বমি ভাব-**\nপ্রাপ্তবয়স্ক, শিশু (৬ মাস থেকে ১৮ বছর):\n\n- ৮ মি.গ্রা. ট্যাবলেট/ওরোডিসপারসিবল ট্যাবলেট: তিনটি ০.১৫/কে.জি. মাত্রায় সর্বোচ্চ ১৬ মি.গ্রা. মাত্রা পর্যন্ত।\n- ৪ মি.গ্রা. ওরোডিসপারসিবল ট্যাবলেট: তিনটি ০.১৫ মি.গ্রা./কে.জি. মাত্রায় সর্বোচ্চ ১৬ মি.গ্রা. মাত্রা পর্যন্ত।\n- ইনজেকশন: তিনটি ০.১৫ মি.গ্রা./কে.জি. মাত্রায় সর্বোচ্চ ১৬ মি.গ্রা. মাত্রায় শিরায় ১৫ মিনিটে।\n\n**রেডিও থেরাপী জনিত বমি বমি ভাব প্রাথমিক মাত্রা-**\nপ্রাপ্তবয়স্ক:\n\n- ৮ মি.গ্রা. ট্যাবলেট/ওরোডিসপারসিবল ট্যাবলেট: প্রাথমিক মাত্রা: রেডিওথেরাপী শুরু হবার ১ থেকে ২ ঘন্টা পূর্বে ৮ মি.গ্রা. ট্যাবলেট মুখে খেতে হবে।\n- ৪ মি.গ্রা. ওরোডিসপারসিবল ট্যাবলেট: তিনটি ০.১৫ মি.গ্রা./কে.জি. মাত্রায় সর্বোচ্চ ১৬ মি.গ্রা. মাত্রা পর্যন্ত।\n- ইনজেকশন: তিনটি ০.১৫ মি.গ্রা./কে.জি. মাত্রায় সর্বোচ্চ ১৬ মি.গ্রা. মাত্রায় শিরায় ১৫ মিনিটে।\n\n**সার্জারী পরবর্তী বমি বমি ভাব ও বমি প্রতিরােধে-**\nপ্রাপ্তবয়স্ক: \n\n- ৮ মি.গ্রা. ট্যাবলেট/ওরোডিসপারসিবল ট্যাবলেট: ১৬ মি.গ্রা. ট্যাবলেট দুইটি ৮ মি.গ্রা. ট্যাবলেট আকারে দেয়া হয়\n- ৪ মি.গ্রা. ওরোডিসপারসিবল ট্যাবলেট: ১৬ মি.গ্রা.\n- ইনজেকশন: ৪ মি.গ্রা.\n\r\nশিশু (>৪০ কে.জি.): ইনজেকশন: ৪ মি.গ্রা.\nশিশু (৪০ কে.জি.): ইনজেকশন: ০.১ মি.গ্রা./কে.জি.\n\n**অনড্যানসেট্‌রন ওরাল সল্যুশন: কেমােথেরাপি জনিত বমি বমি ভাব এবং বমি প্রতিরােধ**-\nপ্রাপ্তবয়স্ক/বৃদ্ধ/১২ বছর বয়সী বা তদূর্ধ শিশুঃ\n\n- উচ্চ ক্ষমতা সম্পন্ন এমিটোজেনিক কেমােথেরাপিতে: ৩০ মি.লি. ওরাল সল্যুশন (২৪ মি.গ্রা.) এমিটোজেনিক কেমােথেরাপি শুরু হবার ৩০ মিনিট পূর্বে সেবন করতে হবে।\n- মধ্যম ক্ষমতা সম্পন্ন এমিটোজেনিক কেমােথেরাপিতে: ১০ মি. লি. ওরাল সল্যশন (৮ মি.গ্রা.) এমিটোজেনিক কেমােথেরাপি শুরু হবার ৩০ মিনিট পূর্বে সেবন করতে হবে। প্রথম মাত্রা সেবনের ৮ ঘন্টা পর পুনরায় ১০ মি.লি. ওরাল সল্যুশন (৮ মি.গ্রা.) সেবন করতে হবে। কেমােথেরাপি সম্পন্ন হবার পর ১-২ দিন পর্যন্ত ১০ মি. লি. ওরাল সল্যুশন (৮ মি.গ্রা.) দিনে দু'বার (১২ ঘন্টা অন্তর) সেবন করতে হবে।\n\r\nশিশু (৪-১১ বছর): ৫ মি. লি. ওরাল সল্যুশন ( ৪ মি.গ্রা.) কেমােথেরাপি শুরু হবার ৩০ মিনিট পূর্বে সেবন করতে হবে। পরবর্তী দুটি মাত্রা প্রথম মাত্রা সেবনের ৪ ও ৮ ঘন্টা পর সেবন করতে হবে। কেমােথেরাপি সম্পন হবার পর ১-২ দিন ৫ মি.লি. ওরাল স্যুশন (৪ মি.গ্রা.) দিনে তিনবার (৮ ঘন্টা অন্তর) সেবন করতে হবে।\n\n**রেডিওথেরাপি জনিত বমি বমি ভাব এবং বমি প্রতিরােধে**-\nপ্রাপ্তবয়স্ক/বৃদ্ধ/১২ বছর বয়সী বা তদূর্ধ শিশু: (সমগ্র শরীর ইরাডিয়েশন বা অ্যাবডােমেনে উচ্চ একক মাত্রার ফ্রাকশন রেডিওথেরাপি বা অ্যাবডােমেনে প্রত্যহ ফ্রাকশন রেডিওথেরাপির ক্ষেত্রে)-\n\n- নির্দেশিত মাত্রা হচ্ছে ১০ মি.লি. ওরাল সল্যুশন (৮ মি. গ্রাম) দিনে ৩ বার।\n- সমগ্র শরীর ইরাডিয়েশনের ক্ষেত্রে: প্রতি ফ্রাকশন রেডিওথেরাপি শুরুর ১-২ ঘন্টা পূর্বে ১০ মি. লি. ওরাল সল্যুশন (৮ মি. গ্রাম) সেবন করতে হবে।\n- অ্যাবডােমেনে উচ্চ একক মাত্রার ফ্রাকশন রেডিওথেরাপির ক্ষেত্রে: প্রতি রেডিওথেরাপি শুরুর ১-২ ঘন্টা পূর্বে ১০ মি.লি. ওরাল সল্যুশন (৮ মি.গ্রা.) সেবন করতে হবে। প্রথম মাত্রা সেবনের প্রতি ৮ ঘন্টা অন্তর পরবর্তী মাত্রা সেবন করতে হবে, ১-২ দিন পর্যন্ত।\n- প্রত্যহ অ্যাবডােমেনে ফ্রাকশন রেডিওথেরাপির ক্ষেত্রে: প্রতি রেডিওথেরাপি শুরুর ১-২ ঘন্টা পূর্বে ১০ মি.লি. ওরাল সল্যশন (৮ মি.গ্রাম) সেবন করতে হবে । প্রথম মাত্রা সেবনের প্রতি ৮ ঘন্টা অন্তর পরবর্তী মাত্রা সেবন করতে হবে, একইভাবে প্রতিদিন।\n\n**অস্ত্রপােচার জনিত বমি বমি ভাব এবং বমি প্রতিরােধে**-\n\n- প্রাপ্তবয়স্ক/বৃদ্ধ/১২ বছর বয়সী বা তদূর্ধ শিশু: ২০ মি.লি ওরাল সলুশন (১৬ মি. গ্রাম) এর একক মাত্রা অবশকরনের ১ ঘন্টা মাত্রা অবশকরনের ১ ঘন্টা পূর্বে সেবন করতে হবে।",
+    "drug_classes": "Anti-emetic drugs",
+    "storage_conditions": "শুষ্ক স্থানে ৩০° সে. তাপমাত্রার নীচে সংরক্ষণ করুন। আলাে এবং আর্দ্রতা থেকে দূরে রাখুন। সকল প্রকার ওষুধ শিশুদের নাগালের বাইরে রাখুন"
+  },
+  "source_url_en": "https://medex.com.bd/generics/827/ondansetron",
+  "source_url_bn": "https://medex.com.bd/generics/827/ondansetron/bn",
+  "scraped_at": "2026-10-10T15:01:54+00:00"
+}
