@@ -23,15 +23,20 @@ def get_db_connection():
     return psycopg2.connect(settings.DATABASE_URL, cursor_factory=RealDictCursor)
 
 
-def search_medicines(query: str, limit: int = 20) -> List[Dict[str, Any]]:
+def search_medicines(query: str, limit: int = 20, conn: Optional[Any] = None) -> List[Dict[str, Any]]:
     """
     Fuzzy search for medicine brands and generics using PostgreSQL Trigram similarity and ILIKE.
+    Supports connection reuse for batch OCR matching.
     """
     if not query or len(query.strip()) < 2:
         return []
 
     clean_query = query.strip()
-    conn = get_db_connection()
+    owns_conn = False
+    if conn is None:
+        conn = get_db_connection()
+        owns_conn = True
+
     try:
         with conn.cursor() as cur:
             # Matches against brand_name with trigram priority, plus generic_name fallback
@@ -67,7 +72,8 @@ def search_medicines(query: str, limit: int = 20) -> List[Dict[str, Any]]:
 
             return list(results)
     finally:
-        conn.close()
+        if owns_conn and conn:
+            conn.close()
 
 
 def get_medicine_details(brand_id: int) -> Optional[Dict[str, Any]]:

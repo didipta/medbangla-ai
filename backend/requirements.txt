@@ -24,3 +24,24 @@ beautifulsoup4>=4.12.3
 # Security & Authentication (JWT)
 passlib[bcrypt]>=1.7.4
 python-jose[cryptography]>=3.3.0
+
+# ============================================================
+# Computer Vision, OCR & Fuzzy Matching (Milestone 2)
+# ============================================================
+opencv-python>=4.10.0
+numpy>=1.26.0
+Pillow>=10.0.0
+rapidfuzz>=3.9.0
+
+# Universal ONNX OCR Engine (Runs on all Python versions including 3.11 & 3.14)
+onnxruntime>=1.18.0
+rapidocr-onnxruntime>=1.2.3
+
+# Native PaddleOCR Engine (Optimized for Python <= 3.12)
+paddlepaddle>=2.6.0; python_version < "3.13"
+paddleocr>=2.8.0; python_version < "3.13"
+
+# Optional Vision AI Fallback for Severe Handwriting (Milestone 2 & 3)
+groq>=0.11.0
+google-genai>=0.1.0
+google-generativeai>=0.8.0

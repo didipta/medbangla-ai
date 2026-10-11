@@ -26,6 +26,12 @@ class Settings(BaseSettings):
     # Neon PostgreSQL
     DATABASE_URL: str = ""
 
+    # AI / Vision Models
+    GROQ_API_KEY: str = ""
+    GEMINI_API_KEY: str = ""
+    VISION_PROVIDER: str = "groq"  # "groq" (primary: qwen/qwen3.8-27b) | "gemini" (fallback: gemini-3.8-flash)
+    GROQ_VISION_MODEL: str = "qwen/qwen3.8-27b"
+
     # Security
     SECRET_KEY: str = "medbangla_dev_secret_key_change_in_production_9988776655"
     ALGORITHM: str = "HS256"
