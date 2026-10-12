@@ -1,26 +1,108 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #0F766E;
+  --primary-dark: #115E59;
+  --primary-light: #F0FDFA;
+  --background: #FAFDFB;
+  --surface: #FFFFFF;
+  --text-main: #0F172A;
+  --text-secondary: #475569;
+  --border: #E2E8F0;
+  --success: #15803D;
+  --warning: #B45309;
+  --error: #B91C1C;
+  --font-clinical: var(--font-hind), var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 @theme inline {
+  --color-primary: #0F766E;
+  --color-primary-dark: #115E59;
+  --color-primary-light: #F0FDFA;
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-surface: var(--surface);
+  --color-text-main: #0F172A;
+  --color-text-secondary: #475569;
+  --color-border-clinical: #E2E8F0;
+  --font-sans: var(--font-hind), var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAFDFB;
+  background-image: 
+    radial-gradient(ellipse at 50% 0%, rgba(15, 118, 110, 0.012) 0%, rgba(15, 118, 110, 0.004) 60%, transparent 100%),
+    linear-gradient(180deg, rgba(16, 185, 129, 0.01) 0%, rgba(255, 255, 255, 0) 100%);
+  background-attachment: fixed;
+  color: #0F172A;
+  font-family: var(--font-clinical);
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle Micro Grid Background */
+.clinical-grid-bg {
+  background-image: radial-gradient(rgba(15, 118, 110, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Clinical Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 118, 110, 0.5);
+}
+
+/* Medical Laser Scanning Animation */
+@keyframes laser-scan {
+  0% {
+    top: 2%;
+    opacity: 0.9;
+  }
+  50% {
+    top: 94%;
+    opacity: 1;
+  }
+  100% {
+    top: 2%;
+    opacity: 0.9;
+  }
+}
+
+.animate-laser-scan {
+  animation: laser-scan 2.4s ease-in-out infinite;
+}
+
+/* Medical Radar Pulse */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(0.98);
+    opacity: 0.9;
+  }
+}
+
+.animate-radar-pulse {
+  animation: radar-pulse 2s ease-in-out infinite;
 }

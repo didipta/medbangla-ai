@@ -2,18 +2,16 @@
 MedBangla AI - Medicine Search & Data Service
 =============================================
 Powers fuzzy search across 17,589 brands and 1,435 generics in Neon PostgreSQL,
-and harmonizes with deep bilingual clinical documents.
-
-Latency Optimizations:
-- In-memory LRU caching for repeated brand and generic lookups (< 0.01ms vs 200ms DB roundtrip).
-- Direct local JSON fallback for clinical documents.
+with intelligent query normalization, Bangla transliteration mapping, prefix cleaning,
+and in-memory CSV resilience fallback.
 """
 
 import json
 import logging
+import re
+import csv
 from typing import List, Dict, Any, Optional
 from pathlib import Path
-from functools import lru_cache
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
@@ -21,30 +19,239 @@ from app.core.config import settings
 
 logger = logging.getLogger(__name__)
 
-DOCS_JSON_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "medical_documents" / "json"
+BACKEND_DIR = Path(__file__).resolve().parent.parent.parent
+DOCS_JSON_DIR = BACKEND_DIR / "data" / "medical_documents" / "json"
+DATA_RAW_DIR = BACKEND_DIR / "data" / "raw"
 
 # In-memory LRU caches for hot lookups (O(1) retrieval)
 _SEARCH_CACHE: Dict[str, List[Dict[str, Any]]] = {}
 _DETAILS_CACHE: Dict[int, Dict[str, Any]] = {}
 MAX_CACHE_ENTRIES = 2000
 
+# In-memory CSV fallback store (loaded on demand if DB connection fails)
+_CSV_DATA: Optional[List[Dict[str, Any]]] = None
+
+# Comprehensive Bangla-to-English Medical Transliteration & Common Brand Mapping
+BANGLA_MEDICINE_MAP = {
+    "নাপা": "Napa",
+    "সেকলো": "Seclo",
+    "প্যারাসিটামল": "Paracetamol",
+    "প্যারাসিটমল": "Paracetamol",
+    "অ্যাসিটামিনোফেন": "Acetaminophen",
+    "সিপ্রো": "Cipro",
+    "সিপ্রোফ্লক্সাসিন": "Ciprofloxacin",
+    "সিপ্রোসিন": "Ciprocin",
+    "অ্যাজিথ্রোমাইসিন": "Azithromycin",
+    "অ্যাজিথ্রাল": "Azithromycin",
+    "জিথ্রক্স": "Zithrox",
+    "মেটফর্মিন": "Metformin",
+    "মেটফরমিন": "Metformin",
+    "কম্পিট্যাক্ট": "Comet",
+    "মোনাস": "Monas",
+    "মন্টেলুকাস্ট": "Montelukast",
+    "কার্ডিজেম": "Cardizem",
+    "প্রক্সেন": "Proxen",
+    "ন্যাপ্রোক্সেন": "Naproxen",
+    "লসার্টান": "Losartan",
+    "লোসার্টান": "Losartan",
+    "এসিক্লোফেনাক": "Aceclofenac",
+    "এসিক্লো": "Aceclofenac",
+    "ক্যালবো": "Calbo",
+    "ক্যালসিয়াম": "Calcium",
+    "ক্যালসিয়াম": "Calcium",
+    "অ্যামলোডিপিন": "Amlodipine",
+    "অ্যাম্লোকার্ড": "Amlocard",
+    "অ্যাস্পিরিন": "Aspirin",
+    "ইকোস্প্রিন": "Ecosprin",
+    "ওমিপ্রাজল": "Omeprazole",
+    "প্যান্টোপ্রাজল": "Pantoprazole",
+    "প্যান্টনিক্স": "Pantonix",
+    "রেনিটিডিন": "Ranitidine",
+    "ফেক্সো": "Fexo",
+    "ফেক্সোফেনাডিন": "Fexofenadine",
+    "ডাইক্লোফেনাক": "Diclofenac",
+    "আইবুপ্রোফেন": "Ibuprofen",
+    "সিট্রিজিন": "Cetirizine",
+    "অ্যালবেনডাজল": "Albendazole",
+    "মেট্রোনিডাজল": "Metronidazole",
+    "রসুভাস্ট্যাটিন": "Rosuvastatin",
+    "রোভা": "Rova",
+    "অ্যাটরভাস্ট্যাটিন": "Atorvastatin",
+    "অ্যাটিভ": "Atova",
+    "ক্লোপিডোগ্রেল": "Clopidogrel",
+    "ক্লোপিড": "Clopid",
+    "হিস্টাসিন": "Histacin",
+}
+
+# Regex to strip common clinical dosage prefixes
+PREFIX_REGEX = re.compile(
+    r"^(tab\.|tab|tablet|cap\.|cap|capsule|syp\.|syp|syrup|inj\.|inj|injection|susp\.|suspension|drops|drop|gel|ointment|cream)\s+",
+    re.IGNORECASE,
+)
+
+
+def normalize_medicine_query(query: str) -> str:
+    """
+    Cleans raw query strings:
+    - Replaces Bangla drug names with validated English counterparts
+    - Strips leading clinical form prefixes (Tab., Cap., Syp., etc.)
+    - Removes punctuation and trims whitespace
+    """
+    if not query:
+        return ""
+
+    q = query.strip()
+
+    # Check for direct Bangla match or token replacements
+    for bn_key, en_val in BANGLA_MEDICINE_MAP.items():
+        if bn_key in q:
+            q = q.replace(bn_key, en_val)
+
+    # Strip prefixes like "Tab. Proxen" -> "Proxen"
+    q = PREFIX_REGEX.sub("", q).strip()
+
+    # Remove trailing dots or commas
+    q = re.sub(r"^[.,\s]+|[.,\s]+$", "", q)
+
+    return q
+
 
 def get_db_connection():
-    return psycopg2.connect(settings.DATABASE_URL, cursor_factory=RealDictCursor)
+    try:
+        return psycopg2.connect(settings.DATABASE_URL, cursor_factory=RealDictCursor, connect_timeout=5)
+    except Exception as e:
+        logger.warning("Neon PostgreSQL connection failed or timed out: %s", e)
+        return None
+
+
+def _load_csv_fallback():
+    """Loads raw brands & generics from CSV into memory for zero-downtime offline fallback."""
+    global _CSV_DATA
+    if _CSV_DATA is not None:
+        return _CSV_DATA
+
+    items = []
+    brands_path = DATA_RAW_DIR / "brands.csv"
+    generics_path = DATA_RAW_DIR / "generics.csv"
+    companies_path = DATA_RAW_DIR / "companies.csv"
+
+    if not brands_path.exists():
+        return []
+
+    # Load companies map
+    companies_map = {}
+    if companies_path.exists():
+        with open(companies_path, mode="r", encoding="utf-8", errors="ignore") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                companies_map[row.get("company_id", "")] = row.get("company_name", "")
+
+    # Load generics map
+    generics_map = {}
+    if generics_path.exists():
+        with open(generics_path, mode="r", encoding="utf-8", errors="ignore") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                generics_map[row.get("generic_id", "")] = {
+                    "generic_name": row.get("generic_name", ""),
+                    "indication": row.get("indication", ""),
+                    "dose": row.get("dose", ""),
+                    "side_effect": row.get("side_effect", ""),
+                    "contra_indication": row.get("contra_indication", ""),
+                }
+
+    # Load brands
+    with open(brands_path, mode="r", encoding="utf-8", errors="ignore") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            b_id = int(row.get("brand_id", 0))
+            g_id = row.get("generic_id", "")
+            c_id = row.get("company_id", "")
+            gen_info = generics_map.get(g_id, {})
+
+            items.append({
+                "brand_id": b_id,
+                "brand_name": row.get("brand_name", ""),
+                "strength": row.get("strength", ""),
+                "form": row.get("form", ""),
+                "price": row.get("price", ""),
+                "packsize": row.get("packsize", ""),
+                "manufacturer": companies_map.get(c_id, "Pharmaceuticals Ltd."),
+                "generic_id": int(g_id) if g_id.isdigit() else 0,
+                "generic_name": gen_info.get("generic_name", "General Generic"),
+                "indication": gen_info.get("indication", ""),
+                "dose": gen_info.get("dose", ""),
+                "side_effect": gen_info.get("side_effect", ""),
+                "contra_indication": gen_info.get("contra_indication", ""),
+            })
+
+    _CSV_DATA = items
+    logger.info("Loaded %d brands into CSV in-memory fallback store", len(items))
+    return _CSV_DATA
+
+
+def _search_csv_fallback(query: str, limit: int = 20) -> List[Dict[str, Any]]:
+    """Fast in-memory fuzzy search over CSV data when DB connection is unavailable."""
+    dataset = _load_csv_fallback()
+    if not dataset:
+        return []
+
+    q_lower = query.lower()
+    first_word = q_lower.split()[0] if q_lower else ""
+
+    exact_matches = []
+    prefix_matches = []
+    contains_matches = []
+
+    for item in dataset:
+        b_name = item.get("brand_name", "").lower()
+        g_name = item.get("generic_name", "").lower()
+        full_spec = f"{b_name} {item.get('strength', '').lower()}".strip()
+
+        if b_name == q_lower or full_spec == q_lower:
+            exact_matches.append(item)
+        elif b_name.startswith(q_lower) or g_name.startswith(q_lower):
+            prefix_matches.append(item)
+        elif first_word and (b_name.startswith(first_word) or g_name.startswith(first_word)):
+            prefix_matches.append(item)
+        elif q_lower in b_name or q_lower in g_name:
+            contains_matches.append(item)
+
+        if len(exact_matches) + len(prefix_matches) >= limit * 2:
+            break
+
+    combined = exact_matches + prefix_matches + contains_matches
+    # Deduplicate while preserving order
+    seen_ids = set()
+    deduped = []
+    for c in combined:
+        if c["brand_id"] not in seen_ids:
+            seen_ids.add(c["brand_id"])
+            deduped.append(dict(c))
+            if len(deduped) >= limit:
+                break
+
+    for d in deduped:
+        gname = (d.get("generic_name") or "").lower().replace(" ", "-")
+        d["has_bilingual_doc"] = (DOCS_JSON_DIR / f"{gname}.json").exists()
+        d["match_score"] = 0.95
+
+    return deduped
 
 
 def search_medicines(query: str, limit: int = 20, conn: Optional[Any] = None) -> List[Dict[str, Any]]:
     """
     Fuzzy search for medicine brands and generics using PostgreSQL Trigram similarity and ILIKE.
-    Caches results in memory to provide <0.01ms responses on repeated lookups during OCR.
+    Includes automated Bangla translation, prefix removal, and seamless fallback.
     """
-    if not query or len(query.strip()) < 2:
+    if not query:
         return []
 
-    clean_query = query.strip()
-    cache_key = f"{clean_query.lower()}_{limit}"
+    normalized = normalize_medicine_query(query)
+    if len(normalized) < 2:
+        normalized = query.strip()
 
-    # Return instantly from cache if available (O(1))
+    cache_key = f"{normalized.lower()}_{limit}"
     if cache_key in _SEARCH_CACHE:
         return _SEARCH_CACHE[cache_key]
 
@@ -53,9 +260,22 @@ def search_medicines(query: str, limit: int = 20, conn: Optional[Any] = None) ->
         conn = get_db_connection()
         owns_conn = True
 
+    # If DB is not available, gracefully use in-memory CSV fallback
+    if conn is None:
+        logger.info("Using local CSV fallback for query: '%s'", normalized)
+        res = _search_csv_fallback(normalized, limit=limit)
+        _SEARCH_CACHE[cache_key] = res
+        return res
+
     try:
         with conn.cursor() as cur:
-            # Matches against brand_name with trigram priority, plus generic_name fallback
+            clean_q = normalized.strip()
+            first_word = clean_q.split()[0] if clean_q else clean_q
+
+            prefix_full = f"{clean_q}%"
+            contains_full = f"%{clean_q}%"
+            prefix_first = f"{first_word}%"
+
             sql = """
                 SELECT 
                     b.brand_id,
@@ -73,15 +293,44 @@ def search_medicines(query: str, limit: int = 20, conn: Optional[Any] = None) ->
                 LEFT JOIN generics g ON b.generic_id = g.generic_id
                 WHERE b.brand_name ILIKE %s 
                    OR g.generic_name ILIKE %s
-                   OR similarity(b.brand_name, %s) > 0.3
-                ORDER BY match_score DESC, b.brand_name ASC
+                   OR b.brand_name ILIKE %s
+                   OR (b.brand_name || ' ' || COALESCE(b.strength, '')) ILIKE %s
+                   OR b.brand_name ILIKE %s
+                   OR similarity(b.brand_name, %s) > 0.25
+                   OR similarity(b.brand_name, %s) > 0.25
+                ORDER BY 
+                    CASE 
+                        WHEN b.brand_name ILIKE %s THEN 1
+                        WHEN b.brand_name ILIKE %s THEN 2
+                        WHEN g.generic_name ILIKE %s THEN 3
+                        WHEN (b.brand_name || ' ' || COALESCE(b.strength, '')) ILIKE %s THEN 4
+                        ELSE 5
+                    END,
+                    match_score DESC, 
+                    b.brand_name ASC
                 LIMIT %s;
             """
-            like_pattern = f"{clean_query}%"
-            cur.execute(sql, (clean_query, like_pattern, like_pattern, clean_query, limit))
+
+            cur.execute(
+                sql,
+                (
+                    clean_q,            # similarity against full clean_q
+                    prefix_full,        # b.brand_name ILIKE prefix_full
+                    prefix_full,        # g.generic_name ILIKE prefix_full
+                    contains_full,      # b.brand_name ILIKE contains_full
+                    contains_full,      # full_spec ILIKE contains_full
+                    prefix_first,       # b.brand_name ILIKE prefix_first
+                    clean_q,            # similarity check
+                    first_word,         # similarity against first_word
+                    prefix_full,        # ORDER CASE 1
+                    prefix_first,       # ORDER CASE 2
+                    prefix_full,        # ORDER CASE 3
+                    contains_full,      # ORDER CASE 4
+                    limit,
+                ),
+            )
             results = cur.fetchall()
 
-            # Attach flag if deep bilingual document exists
             formatted_results = []
             for row in results:
                 r_dict = dict(row)
@@ -89,12 +338,18 @@ def search_medicines(query: str, limit: int = 20, conn: Optional[Any] = None) ->
                 r_dict["has_bilingual_doc"] = (DOCS_JSON_DIR / f"{gname}.json").exists()
                 formatted_results.append(r_dict)
 
-            # Store in cache
+            # If DB returned 0 results for complex token, attempt fallback
+            if not formatted_results:
+                formatted_results = _search_csv_fallback(normalized, limit=limit)
+
             if len(_SEARCH_CACHE) > MAX_CACHE_ENTRIES:
                 _SEARCH_CACHE.clear()
             _SEARCH_CACHE[cache_key] = formatted_results
 
             return formatted_results
+    except Exception as e:
+        logger.error("DB Query error, switching to CSV fallback: %s", e)
+        return _search_csv_fallback(normalized, limit=limit)
     finally:
         if owns_conn and conn:
             conn.close()
@@ -109,6 +364,14 @@ def get_medicine_details(brand_id: int) -> Optional[Dict[str, Any]]:
         return _DETAILS_CACHE[brand_id]
 
     conn = get_db_connection()
+    if conn is None:
+        # Check CSV fallback
+        dataset = _load_csv_fallback()
+        match = next((item for item in dataset if item["brand_id"] == brand_id), None)
+        if match:
+            return dict(match)
+        return None
+
     try:
         with conn.cursor() as cur:
             sql = """
@@ -137,7 +400,9 @@ def get_medicine_details(brand_id: int) -> Optional[Dict[str, Any]]:
             cur.execute(sql, (brand_id,))
             brand = cur.fetchone()
             if not brand:
-                return None
+                dataset = _load_csv_fallback()
+                match = next((item for item in dataset if item["brand_id"] == brand_id), None)
+                return dict(match) if match else None
 
             data = dict(brand)
 
@@ -167,5 +432,11 @@ def get_medicine_details(brand_id: int) -> Optional[Dict[str, Any]]:
             _DETAILS_CACHE[brand_id] = data
 
             return data
+    except Exception as e:
+        logger.error("DB details error, using CSV: %s", e)
+        dataset = _load_csv_fallback()
+        match = next((item for item in dataset if item["brand_id"] == brand_id), None)
+        return dict(match) if match else None
     finally:
-        conn.close()
+        if conn:
+            conn.close()

@@ -10,14 +10,27 @@ if str(BACKEND_DIR) not in sys.path:
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
+from app.core.logging_config import setup_logging
+from app.core.middleware import RequestLoggingMiddleware
+from app.core.exceptions import register_exception_handlers
 
+# 1. Initialize Centralized Logging System
+logger = setup_logging(
+    log_level=settings.DEBUG and 10 or 20, # DEBUG if True else INFO
+    enable_file_logging=True,
+)
+
+# 2. Instantiate FastAPI App
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
     description="Bangla Prescription Understanding & Medication Safety API",
 )
 
-# CORS Middleware
+# 3. Add Middleware: Request & Error Logging
+app.add_middleware(RequestLoggingMiddleware)
+
+# 4. Add Middleware: CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins,
@@ -26,6 +39,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# 5. Register Global Exception & Error Handlers
+register_exception_handlers(app)
+
+
+# =============================================================================
+# Root & Health Endpoints
+# =============================================================================
 
 @app.get("/")
 def root():
@@ -64,9 +84,9 @@ def health_check():
             "status": "operational",
         },
         "llm_providers": {
-            "primary": "Groq (llama-3.3-70b-versatile)",
+            "primary": "Groq (qwen/qwen3.8-27b)",
             "groq_configured": has_groq,
-            "fallback": "Google Gemini (gemini-2.5-flash)",
+            "fallback": "Google Gemini (gemini-3.8-flash)",
             "gemini_configured": has_gemini,
             "offline_deterministic_fallback": True,
         },

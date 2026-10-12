@@ -34,10 +34,20 @@ Thumbs.db
 # Logs & Debugging
 # ----------------
 *.log
+*.log.*
+logs/
+backend/logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+
+# AI Vector Embeddings Cache & Temporary Uploads
+# ----------------------------------------------
+*.npz
+backend/data/medical_documents/index/
+uploads/
+test_rx_crop.png
 
 # ==========================================
 # Frontend (Next.js / Node.js / TypeScript)
