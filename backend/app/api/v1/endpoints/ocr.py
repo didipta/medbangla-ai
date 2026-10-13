@@ -8,10 +8,12 @@ neural OCR text extraction, dosage entity detection, and medicine catalogue matc
 import os
 import logging
 from typing import List, Dict, Any, Optional
-from fastapi import APIRouter, File, UploadFile, HTTPException, Query, Form
+from fastapi import APIRouter, File, UploadFile, HTTPException, Query, Form, Request, Depends
 from pydantic import BaseModel, Field
 
 from app.core.config import settings
+from app.core.security import get_current_user_optional
+from app.core.rate_limiter import rate_limiter
 from app.ai.ocr.engine import PrescriptionOCREngine
 
 logger = logging.getLogger(__name__)
@@ -90,6 +92,8 @@ class OCRAnalysisResponse(BaseModel):
     dosage_instructions: List[DosageInstruction]
     vision_fallback_applied: bool = False
     vision_provider: Optional[str] = None
+    history_id: Optional[str] = None
+    daily_quota: Optional[Dict[str, Any]] = None
     execution_time_ms: float
 
 
@@ -111,7 +115,14 @@ async def analyze_prescription(
     file: UploadFile = File(..., description="Prescription image file (JPG, PNG, WEBP)"),
     db_lookup: bool = Query(True, description="Enable automatic database matching against 17,589 Bangladesh brands"),
     use_vision_fallback: bool = Query(True, description="Enable Vision AI fallback for handwritten doctor scripts"),
+    request: Request = None,  # type: ignore
+    current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
 ):
+    # Enforce rate limit if request context is present
+    if request:
+        user_id = current_user.get("id") if current_user else None
+        rate_limiter.check_and_consume("prescription_ocr", request, user_id=user_id, consume=False)
+
     # 1. Validate file extension
     filename = file.filename or "prescription.jpg"
     ext = "." + filename.rsplit(".", 1)[-1].lower() if "." in filename else ""

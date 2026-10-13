@@ -181,4 +181,12 @@ export interface OCRAnalysisResponse {
   execution_time_ms: number;
   vision_fallback_applied?: boolean;
   vision_provider?: string;
+  history_id?: string;
+  daily_quota?: {
+    daily_limit: number;
+    used_today: number;
+    remaining: number;
+    can_analyze: boolean;
+    reset_info?: string;
+  };
 }

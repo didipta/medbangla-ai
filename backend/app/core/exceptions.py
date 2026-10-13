@@ -71,6 +71,7 @@ def create_error_response(
     message: str,
     request: Request,
     details: Optional[Any] = None,
+    headers: Optional[Dict[str, str]] = None,
 ) -> JSONResponse:
     request_id = getattr(request.state, "request_id", "unknown")
     payload = {
@@ -84,7 +85,7 @@ def create_error_response(
             "timestamp": datetime.now(timezone.utc).isoformat(),
         },
     }
-    return JSONResponse(status_code=status_code, content=payload)
+    return JSONResponse(status_code=status_code, content=payload, headers=headers)
 
 
 # =============================================================================
@@ -123,11 +124,15 @@ def register_exception_handlers(app: FastAPI):
             exc.detail,
             req_id,
         )
+        msg = exc.detail if isinstance(exc.detail, str) else (exc.detail.get("message") if isinstance(exc.detail, dict) else str(exc.detail))
+        details = exc.detail if isinstance(exc.detail, dict) else None
         return create_error_response(
             status_code=exc.status_code,
-            error_type="HTTPException",
-            message=str(exc.detail),
+            error_type="RateLimitExceeded" if exc.status_code == 429 else "HTTPException",
+            message=msg,
             request=request,
+            details=details,
+            headers=exc.headers,
         )
 
     @app.exception_handler(RequestValidationError)

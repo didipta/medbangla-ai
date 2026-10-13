@@ -1,414 +1,381 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   X,
-  Lock,
-  Mail,
-  User,
-  Phone,
-  Eye,
-  EyeOff,
-  Stethoscope,
-  Sparkles,
-  CheckCircle2,
-  ArrowRight,
   ShieldCheck,
-  RefreshCw,
-  Building2,
-  FileCheck2,
-  KeyRound,
+  CheckCircle2,
+  Stethoscope,
+  User,
+  AlertCircle,
+  Loader2,
+  HeartHandshake,
+  ArrowRight,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
-
-export interface AuthUser {
-  id: string;
-  name: string;
-  email: string;
-  role: "patient" | "doctor";
-  title?: string;
-  bmdc?: string;
-  avatar?: string;
-}
+import { useAuth, AuthUser } from "../context/AuthContext";
+import { api } from "../services/api";
 
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onLoginSuccess: (user: AuthUser) => void;
+  onLoginSuccess?: (user: AuthUser) => void;
   initialMode?: "login" | "register";
+}
+
+declare global {
+  interface Window {
+    google?: any;
+  }
 }
 
 export const AuthModal: React.FC<AuthModalProps> = ({
   isOpen,
   onClose,
-  onLoginSuccess,
-  initialMode = "login",
 }) => {
   const { t } = useLanguage();
-  const [mode, setMode] = useState<"login" | "register" | "otp">(initialMode);
-  const [role, setRole] = useState<"patient" | "doctor">("patient");
-  const [showPassword, setShowPassword] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const { loginWithGoogle } = useAuth();
 
-  // Form Fields
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [bmdcNumber, setBmdcNumber] = useState("");
-  const [otpCode, setOtpCode] = useState("");
-  const [otpSent, setOtpSent] = useState(false);
+  const [role, setRole] = useState<"patient" | "doctor">("patient");
+  const [bmdcNumber, setBmdcNumber] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const [statusMessage, setStatusMessage] = useState<string>("");
+  const [error, setError] = useState<string | null>(null);
+  const [googleClientId, setGoogleClientId] = useState<string>("");
+
+  // 1. Fetch Google Auth Config from environment & backend on mount
+  useEffect(() => {
+    let isMounted = true;
+
+    // Check frontend environment variable first
+    const envClientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+    if (envClientId && isMounted) {
+      setGoogleClientId(envClientId);
+    }
+
+    // Fetch from backend configuration (/api/v1/auth/config)
+    api
+      .getAuthConfig()
+      .then(({ data }) => {
+        if (isMounted && data?.google_client_id) {
+          setGoogleClientId(data.google_client_id);
+        }
+      })
+      .catch((err) => {
+        console.warn("Could not fetch auth config:", err);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [isOpen]);
+
+  // 2. Load Google Identity Services (GSI) SDK
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const existingScript = document.getElementById("google-gsi-client");
+    if (!existingScript) {
+      const script = document.createElement("script");
+      script.id = "google-gsi-client";
+      script.src = "https://accounts.google.com/gsi/client";
+      script.async = true;
+      script.defer = true;
+      script.onload = () => {
+        initGoogleComponents();
+      };
+      document.body.appendChild(script);
+    } else {
+      initGoogleComponents();
+    }
+  }, [isOpen, googleClientId, role]);
+
+  // 3. Initialize Google Identity Services
+  const initGoogleComponents = () => {
+    if (typeof window === "undefined" || !window.google?.accounts) return;
+    if (!googleClientId) return;
+
+    try {
+      window.google.accounts.id.initialize({
+        client_id: googleClientId,
+        callback: handleGoogleIdTokenResponse,
+        auto_select: false,
+      });
+    } catch (err) {
+      console.warn("Google Identity initialization notice:", err);
+    }
+  };
+
+  // 4. Handle Google ID Token response
+  const handleGoogleIdTokenResponse = async (response: { credential?: string }) => {
+    if (!response?.credential) {
+      setError(t("গুগল ক্রেডেনশিয়াল পাওয়া যায়নি।", "Google credential not received."));
+      return;
+    }
+    await processGoogleLogin(response.credential);
+  };
+
+  // 5. Real Google OAuth 2.0 Popup Flow
+  const handleRealGooglePopupLogin = () => {
+    setError(null);
+
+    if (!googleClientId) {
+      console.error(
+        "Google Client ID is missing. Set GOOGLE_CLIENT_ID in backend/.env or NEXT_PUBLIC_GOOGLE_CLIENT_ID in frontend/.env.local"
+      );
+      setError(
+        t(
+          "গুগল অথেন্টিকেশন বর্তমানে প্রস্তুত করা হচ্ছে। অনুগ্রহ করে অ্যাডমিনের সাথে যোগাযোগ করুন।",
+          "Google authentication is currently being configured. Please contact support."
+        )
+      );
+      return;
+    }
+
+    if (typeof window === "undefined" || !window.google?.accounts?.oauth2) {
+      setError(
+        t(
+          "গুগল সার্ভিস লোড হচ্ছে, অনুগ্রহ করে কয়েক সেকেন্ড পর পুনরায় চেষ্টা করুন।",
+          "Google Identity Services is loading. Please try again in a few moments."
+        )
+      );
+      return;
+    }
+
+    try {
+      setLoading(true);
+      setStatusMessage(t("গুগল লগইন পপআপ খোলা হচ্ছে...", "Opening Google Sign-In popup..."));
+
+      const tokenClient = window.google.accounts.oauth2.initTokenClient({
+        client_id: googleClientId,
+        scope: "email profile openid",
+        prompt: "select_account",
+        callback: async (tokenResponse: any) => {
+          if (tokenResponse?.error) {
+            setLoading(false);
+            if (tokenResponse.error === "popup_closed_by_user") {
+              setStatusMessage("");
+              return;
+            }
+            setError(`Google OAuth error: ${tokenResponse.error_description || tokenResponse.error}`);
+            return;
+          }
+
+          if (tokenResponse?.access_token) {
+            await processGoogleLogin(tokenResponse.access_token);
+          } else {
+            setLoading(false);
+            setError(t("গুগল টোকেন পাওয়া যায়নি।", "Google access token not returned."));
+          }
+        },
+      });
+
+      tokenClient.requestAccessToken({ prompt: "select_account" });
+    } catch (err: any) {
+      setLoading(false);
+      setError(err?.message || "Failed to trigger Google OAuth popup.");
+    }
+  };
+
+  // 6. Send Real Google Token to Backend -> Save Real User in Neon DB
+  const processGoogleLogin = async (token: string) => {
+    setLoading(true);
+    setError(null);
+    setStatusMessage(t("গুগল সার্ভারে সত্যতা যাচাই করা হচ্ছে...", "Verifying token with Google servers..."));
+
+    try {
+      setStatusMessage(t("নিয়ন পোস্টগ্রেস্কেলে প্রোফাইল সেভ করা হচ্ছে...", "Saving user in Neon PostgreSQL..."));
+      const res = await loginWithGoogle(token, role, role === "doctor" ? bmdcNumber : undefined);
+
+      if (res.success) {
+        setStatusMessage(
+          res.is_new_user
+            ? t("স্বাগতম! আপনার গুগল অ্যাকাউন্ট ডাটাবেজে সংরক্ষিত হয়েছে।", "Welcome! Your real Google account has been saved in Neon DB.")
+            : t("সফলভাবে লগইন হয়েছে!", "Welcome back! Login successful.")
+        );
+        setTimeout(() => {
+          setLoading(false);
+          onClose();
+        }, 600);
+      } else {
+        setLoading(false);
+        setError(res.message || t("লগইন ব্যর্থ হয়েছে। পুনরায় চেষ্টা করুন।", "Login failed. Please try again."));
+      }
+    } catch (err: any) {
+      setLoading(false);
+      setError(err?.message || t("সার্ভার ত্রুটি। অনুগ্রহ করে পুনরায় চেষ্টা করুন।", "Server error. Please try again."));
+    }
+  };
 
   if (!isOpen) return null;
 
-  // Handle Quick 1-Click Demo Logins
-  const handleDemoLogin = (demoRole: "doctor" | "patient") => {
-    setLoading(true);
-    setError(null);
-    setTimeout(() => {
-      const user: AuthUser =
-        demoRole === "doctor"
-          ? {
-              id: "doc-101",
-              name: "ডাঃ মোঃ ফজলুল হক",
-              email: "dr.fazlul@medbangla.ai",
-              role: "doctor",
-              title: "MBBS, FCPS (Medicine) | সিএমএইচ ঢাকা",
-              bmdc: "A-54921",
-            }
-          : {
-              id: "pat-202",
-              name: "মাহাদী হাসান",
-              email: "mahdi.hasan@medbangla.ai",
-              role: "patient",
-              title: "রোগী (৪৯ বছর)",
-            };
-
-      localStorage.setItem("medbangla_user", JSON.stringify(user));
-      setLoading(false);
-      onLoginSuccess(user);
-      onClose();
-    }, 500);
-  };
-
-  // Handle Standard Form Submission
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setError(null);
-
-    if (mode === "login" && (!email || !password)) {
-      setError(t("অনুগ্রহ করে ইমেইল ও পাসওয়ার্ড প্রদান করুন।", "Please provide both email and password."));
-      return;
-    }
-
-    if (mode === "register" && (!name || !email || !password)) {
-      setError(t("অনুগ্রহ করে আপনার নাম, ইমেইল ও পাসওয়ার্ড প্রদান করুন।", "Please enter your name, email, and password."));
-      return;
-    }
-
-    if (mode === "otp" && !phone) {
-      setError(t("অনুগ্রহ করে সঠিক মোবাইল নম্বর প্রদান করুন।", "Please enter a valid phone number."));
-      return;
-    }
-
-    setLoading(true);
-    setTimeout(() => {
-      const user: AuthUser = {
-        id: `user-${Date.now()}`,
-        name: name || (email.split("@")[0].replace(".", " ").toUpperCase()),
-        email: email || `${phone}@phone.medbangla.ai`,
-        role: role,
-        title: role === "doctor" ? t("মেডিকেল প্রফেশনাল", "Medical Professional") : t("রেজিস্টার্ড রোগী", "Registered Patient"),
-        bmdc: role === "doctor" ? bmdcNumber || "A-98765" : undefined,
-      };
-
-      localStorage.setItem("medbangla_user", JSON.stringify(user));
-      setLoading(false);
-      onLoginSuccess(user);
-      onClose();
-    }, 600);
-  };
-
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-xs animate-in fade-in duration-200">
-      <div
-        onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-lg overflow-hidden rounded-2xl bg-white border border-slate-200 shadow-2xl space-y-5 p-6 sm:p-8"
-      >
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-200">
+      <div className="relative w-full max-w-md overflow-hidden bg-white rounded-3xl shadow-2xl border border-slate-100 transition-all max-h-[92vh] overflow-y-auto">
+        {/* Top Header Background Glow */}
+        <div className="absolute top-0 left-0 right-0 h-36 bg-gradient-to-br from-teal-600 via-[#0F766E] to-emerald-700 opacity-95" />
+        <div className="absolute -top-12 -right-12 w-40 h-40 bg-teal-400/20 rounded-full blur-2xl pointer-events-none" />
+
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-5 right-5 text-slate-400 hover:text-slate-700 p-2 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
+          disabled={loading}
+          className="absolute top-4 right-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm transition-all cursor-pointer"
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4" />
         </button>
 
-        {/* Brand & Security Header */}
-        <div className="space-y-1.5 text-center">
-          <div className="inline-flex items-center gap-2 rounded-full bg-teal-50 px-3.5 py-1 text-xs font-bold text-[#0F766E] border border-teal-200/60 mb-1">
-            <ShieldCheck className="w-4 h-4" />
-            <span>{t("নিরাপদ ক্লিনিক্যাল লগইন পোর্টাল", "Secure Clinical Portal")}</span>
+        {/* Modal Header Content */}
+        <div className="relative z-1 pt-7 pb-5 px-6 text-white text-center">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 shadow-inner mb-2.5">
+            <HeartHandshake className="w-6 h-6 text-white" />
           </div>
-
-          <h2 className="text-2xl font-black text-slate-900 tracking-tight">
-            {t("মেডবাংলা এআই এ স্বাগতম", "Welcome to MedBangla AI")}
+          <h2 className="text-xl font-bold tracking-tight">
+            {t("মেডবাংলা এআই-তে সাইন-ইন", "Sign in to MedBangla AI")}
           </h2>
-          <p className="text-xs text-slate-500 max-w-xs mx-auto leading-relaxed">
+          <p className="mt-1 text-xs text-teal-100 font-medium">
             {t(
-              "প্রেসক্রিপশন ওসিয়ার, ড্রাগ সেফটি রিপোর্ট ও এআই চ্যাট কনসালটেশন শুরু করতে আপনার অ্যাকাউন্টে প্রবেশ করুন",
-              "Sign in to unlock prescription OCR analysis, drug interaction reports, and grounded clinical chat."
+              "আপনার আসল গুগল ইমেইল দিয়ে সুরক্ষিত ১-ক্লিক লগইন",
+              "Real 1-Click Login with your official Google Account"
             )}
           </p>
         </div>
 
-        {/* 1-Click Instant Demo Access Strip */}
-        <div className="rounded-xl bg-teal-50/60 p-3.5 border border-teal-200/80 space-y-2">
-          <div className="flex items-center justify-between text-xs font-bold text-slate-800">
-            <span className="flex items-center gap-1.5 text-[#0F766E]">
-              <Sparkles className="w-3.5 h-3.5" />
-              {t("দ্রুত পরীক্ষার জন্য ১-ক্লিক ডেমো লগইন:", "Quick 1-Click Evaluation Login:")}
-            </span>
-            <span className="text-[10px] text-teal-700 font-normal">{t("পাসওয়ার্ড ছাড়া", "Password-free")}</span>
-          </div>
+        {/* Body Content */}
+        <div className="p-6 pt-5 space-y-4 bg-white">
+          {/* Error Banner */}
+          {error && (
+            <div className="flex items-start gap-2.5 p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs animate-shake">
+              <AlertCircle className="w-4 h-4 mt-0.5 shrink-0 text-rose-600" />
+              <div className="leading-snug">{error}</div>
+            </div>
+          )}
 
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              type="button"
-              onClick={() => handleDemoLogin("patient")}
-              disabled={loading}
-              className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-white border border-teal-300/70 text-xs font-bold text-slate-800 hover:border-[#0F766E] hover:bg-teal-50/50 transition-all shadow-2xs cursor-pointer"
-            >
-              <User className="w-3.5 h-3.5 text-[#0F766E]" />
-              <span>{t("রোগী ডেমো (মাহাদী)", "Patient Demo (Mahadi)")}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => handleDemoLogin("doctor")}
-              disabled={loading}
-              className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-white border border-teal-300/70 text-xs font-bold text-slate-800 hover:border-[#0F766E] hover:bg-teal-50/50 transition-all shadow-2xs cursor-pointer"
-            >
-              <Stethoscope className="w-3.5 h-3.5 text-[#0F766E]" />
-              <span>{t("চিকিৎসক ডেমো (ডাঃ ফজলুল)", "Doctor Demo (Dr. Fazlul)")}</span>
-            </button>
-          </div>
-        </div>
-
-        {/* Tab Selection */}
-        <div className="grid grid-cols-3 gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold text-slate-600">
-          <button
-            type="button"
-            onClick={() => {
-              setMode("login");
-              setError(null);
-            }}
-            className={`py-2 rounded-lg transition-all cursor-pointer ${
-              mode === "login"
-                ? "bg-white text-[#0F766E] shadow-2xs font-extrabold"
-                : "hover:text-slate-900"
-            }`}
-          >
-            {t("ইমেইল লগইন", "Email Login")}
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              setMode("register");
-              setError(null);
-            }}
-            className={`py-2 rounded-lg transition-all cursor-pointer ${
-              mode === "register"
-                ? "bg-white text-[#0F766E] shadow-2xs font-extrabold"
-                : "hover:text-slate-900"
-            }`}
-          >
-            {t("নতুন সাইন আপ", "Register")}
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              setMode("otp");
-              setError(null);
-            }}
-            className={`py-2 rounded-lg transition-all cursor-pointer ${
-              mode === "otp"
-                ? "bg-white text-[#0F766E] shadow-2xs font-extrabold"
-                : "hover:text-slate-900"
-            }`}
-          >
-            {t("মোবাইল ওটিপি", "Mobile OTP")}
-          </button>
-        </div>
-
-        {/* Role Selector (Patient vs Doctor) */}
-        {mode === "register" && (
-          <div className="space-y-1.5">
-            <label className="text-xs font-bold text-slate-700 block">
-              {t("ব্যবহারকারীর ভূমিকা নির্বাচন করুন:", "Select Account Role:")}
+          {/* Role Selection Toggle */}
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-2">
+              {t("আপনার পরিচয় নির্বাচন করুন / Select Role", "Select Your Role")}
             </label>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2 p-1 bg-slate-100 rounded-xl border border-slate-200/80">
               <button
                 type="button"
                 onClick={() => setRole("patient")}
-                className={`flex items-center justify-center gap-2 p-2.5 rounded-xl border text-xs font-bold transition-all cursor-pointer ${
+                disabled={loading}
+                className={`flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   role === "patient"
-                    ? "bg-teal-50 border-[#0F766E] text-[#0F766E]"
-                    : "border-slate-200 text-slate-600 hover:bg-slate-50"
+                    ? "bg-white text-[#0F766E] shadow-sm border border-teal-600/20"
+                    : "text-slate-600 hover:text-slate-900"
                 }`}
               >
-                <User className="w-4 h-4" />
-                <span>{t("রোগী / সাধারণ গ্রাহক", "Patient / General")}</span>
+                <User className="w-3.5 h-3.5 text-teal-600" />
+                <span>{t("রোগী / সাধারণ ব্যবহারকারী", "Patient / User")}</span>
               </button>
+
               <button
                 type="button"
                 onClick={() => setRole("doctor")}
-                className={`flex items-center justify-center gap-2 p-2.5 rounded-xl border text-xs font-bold transition-all cursor-pointer ${
+                disabled={loading}
+                className={`flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   role === "doctor"
-                    ? "bg-teal-50 border-[#0F766E] text-[#0F766E]"
-                    : "border-slate-200 text-slate-600 hover:bg-slate-50"
+                    ? "bg-white text-[#0F766E] shadow-sm border border-teal-600/20"
+                    : "text-slate-600 hover:text-slate-900"
                 }`}
               >
-                <Stethoscope className="w-4 h-4" />
-                <span>{t("রেজিস্টার্ড চিকিৎসক", "Licensed Doctor")}</span>
+                <Stethoscope className="w-3.5 h-3.5 text-teal-600" />
+                <span>{t("চিকিৎসক / Doctor", "Doctor / Physician")}</span>
               </button>
             </div>
           </div>
-        )}
 
-        {/* Error Alert */}
-        {error && (
-          <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-xs text-rose-800 font-medium">
-            {error}
+          {/* Doctor BMDC Field */}
+          {role === "doctor" && (
+            <div className="p-3 bg-teal-50/70 border border-teal-100 rounded-xl space-y-1.5 animate-in fade-in">
+              <label className="block text-[11px] font-bold text-teal-900">
+                {t("বিএমডিসি রেজিস্ট্রেশন নম্বর (ঐচ্ছিক)", "BMDC Reg. Number (Optional)")}
+              </label>
+              <input
+                type="text"
+                placeholder="যেমন: A-33457 বা A-54921"
+                value={bmdcNumber}
+                onChange={(e) => setBmdcNumber(e.target.value)}
+                disabled={loading}
+                className="w-full px-3 py-2 text-xs rounded-lg bg-white border border-teal-200 text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              />
+            </div>
+          )}
+
+          {/* Official Real Google Sign-In Action Button */}
+          <div className="space-y-2.5 pt-1">
+            <button
+              type="button"
+              onClick={handleRealGooglePopupLogin}
+              disabled={loading}
+              className="w-full flex items-center justify-center gap-3 py-3.5 px-4 rounded-2xl bg-white hover:bg-slate-50 border-2 border-slate-300 hover:border-slate-400 text-slate-800 font-bold text-sm shadow-sm hover:shadow-md transition-all active:scale-[0.99] cursor-pointer group"
+            >
+              {loading ? (
+                <div className="flex items-center gap-2 text-teal-700">
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                  <span className="text-xs">{statusMessage || t("যাচাই করা হচ্ছে...", "Verifying...")}</span>
+                </div>
+              ) : (
+                <>
+                  {/* Real Google G Logo */}
+                  <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                    <path
+                      fill="#4285F4"
+                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                    />
+                  </svg>
+                  <span>{t("গুগল দিয়ে প্রবেশ করুন (Continue with Google)", "Continue with Google")}</span>
+                  <ArrowRight className="w-4 h-4 ml-auto text-slate-400 group-hover:text-teal-600 group-hover:translate-x-0.5 transition-all" />
+                </>
+              )}
+            </button>
           </div>
-        )}
 
-        {/* Form Inputs */}
-        <form onSubmit={handleSubmit} className="space-y-3.5 text-xs">
-          {mode === "register" && (
-            <div>
-              <label className="font-bold text-slate-700 block mb-1">
-                {t("আপনার পুরো নাম:", "Full Name:")}
-              </label>
-              <div className="relative">
-                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                <input
-                  type="text"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder={role === "doctor" ? t("ডাঃ রফিকুল ইসলাম", "Dr. Rafiqul Islam") : t("মাহাদী হাসান", "Mahadi Hasan")}
-                  className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3 py-2.5 text-xs text-slate-900 focus:border-[#0F766E] focus:bg-white focus:outline-none"
-                />
-              </div>
+          {/* Real-World Trust Signals & Database Save Guarantee */}
+          <div className="pt-2 border-t border-slate-100 space-y-2">
+            <div className="flex items-center gap-2 text-[11px] text-slate-600">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+              <span>
+                {t(
+                  "প্রথমবার লগইনে আপনার আসল গুগল তথ্য ডাটাবেজে তৈরি ও সংরক্ষিত হবে।",
+                  "First login automatically saves your real Google profile to Neon DB."
+                )}
+              </span>
             </div>
-          )}
 
-          {mode === "register" && role === "doctor" && (
-            <div>
-              <label className="font-bold text-slate-700 block mb-1">
-                {t("বিএমডিসি রেজিস্ট্রেশন নম্বর (BMDC ID):", "BMDC Registration Number:")}
-              </label>
-              <div className="relative">
-                <Building2 className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                <input
-                  type="text"
-                  value={bmdcNumber}
-                  onChange={(e) => setBmdcNumber(e.target.value)}
-                  placeholder="A-54921"
-                  className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3 py-2.5 text-xs font-mono text-slate-900 focus:border-[#0F766E] focus:bg-white focus:outline-none"
-                />
-              </div>
+            <div className="flex items-center gap-2 text-[11px] text-slate-600">
+              <ShieldCheck className="w-3.5 h-3.5 text-teal-600 shrink-0" />
+              <span>
+                {t(
+                  "১০০% আসল গুগল সিকিউরিটি — কোনো ফেক বা ডামি অ্যাকাউন্ট নয়।",
+                  "100% Real Google Identity Security — Zero fake accounts."
+                )}
+              </span>
             </div>
-          )}
+          </div>
 
-          {mode !== "otp" ? (
-            <>
-              <div>
-                <label className="font-bold text-slate-700 block mb-1">
-                  {t("ইমেইল অ্যাড্রেস:", "Email Address:")}
-                </label>
-                <div className="relative">
-                  <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="user@example.com"
-                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3 py-2.5 text-xs text-slate-900 focus:border-[#0F766E] focus:bg-white focus:outline-none"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="font-bold text-slate-700 block mb-1">
-                  {t("পাসওয়ার্ড:", "Password:")}
-                </label>
-                <div className="relative">
-                  <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                  <input
-                    type={showPassword ? "text" : "password"}
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    placeholder="••••••••"
-                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-10 py-2.5 text-xs text-slate-900 focus:border-[#0F766E] focus:bg-white focus:outline-none"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
-                  >
-                    {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                  </button>
-                </div>
-              </div>
-            </>
-          ) : (
-            <div>
-              <label className="font-bold text-slate-700 block mb-1">
-                {t("মোবাইল নম্বর (বাংলাদেশ):", "Mobile Number (Bangladesh):")}
-              </label>
-              <div className="relative">
-                <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                <input
-                  type="tel"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  placeholder="017XXXXXXXX"
-                  className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3 py-2.5 text-xs font-mono text-slate-900 focus:border-[#0F766E] focus:bg-white focus:outline-none"
-                />
-              </div>
-            </div>
-          )}
-
-          {/* Submit CTA */}
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] py-3 text-xs font-extrabold text-white transition-all cursor-pointer disabled:opacity-50 shadow-xs"
-          >
-            {loading ? (
-              <>
-                <RefreshCw className="w-4 h-4 animate-spin" />
-                <span>{t("প্রসেস করা হচ্ছে...", "Processing...")}</span>
-              </>
-            ) : mode === "login" ? (
-              <>
-                <KeyRound className="w-4 h-4" />
-                <span>{t("লগইন করুন", "Sign In")}</span>
-              </>
-            ) : mode === "register" ? (
-              <>
-                <CheckCircle2 className="w-4 h-4" />
-                <span>{t("অ্যাকাউন্ট তৈরি করুন", "Create Account")}</span>
-              </>
-            ) : (
-              <>
-                <ArrowRight className="w-4 h-4" />
-                <span>{t("ওটিপি কোড পাঠান", "Send OTP Code")}</span>
-              </>
+          {/* Privacy Disclaimer */}
+          <p className="text-[10px] text-center text-slate-400 leading-tight">
+            {t(
+              "লগইন করার মাধ্যমে আপনি মেডবাংলা এআই এর শর্তাবলী ও গোপনীয়তা নীতিতে সম্মতি দিচ্ছেন।",
+              "By signing in, you agree to MedBangla AI's Terms of Service and Privacy Policy."
             )}
-          </button>
-        </form>
+          </p>
+        </div>
       </div>
     </div>
   );

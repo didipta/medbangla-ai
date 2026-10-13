@@ -19,11 +19,13 @@ import { api } from "../services/api";
 import { SystemHealth } from "../types/api";
 import { useAuth } from "../context/AuthContext";
 import { useLanguage } from "../context/LanguageContext";
+import { useAppSelector } from "../store";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
   const { currentUser, openAuthModal, logout } = useAuth();
   const { lang, setLang, t } = useLanguage();
+  const { dailyQuota } = useAppSelector((state) => state.prescription);
 
   const [health, setHealth] = useState<SystemHealth | null>(null);
   const [latency, setLatency] = useState<number | null>(null);
@@ -68,11 +70,11 @@ export const Navbar: React.FC = () => {
         {/* Left: Brand Logo & Wordmark */}
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#0F766E] text-white shadow-xs group-hover:bg-[#115E59] transition-colors">
-            <span className="font-extrabold text-base tracking-tight">মে</span>
+            <span className="font-extrabold text-base tracking-normal">মে</span>
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-lg tracking-tight text-slate-900">
+              <span className="font-extrabold text-lg text-slate-900">
                 MedBangla <span className="text-[#0F766E]">AI</span>
               </span>
               <span className="rounded-full bg-teal-50 px-2 py-0.5 text-[10px] font-bold text-[#0F766E] border border-teal-200/60 hidden sm:inline-block">
@@ -107,8 +109,8 @@ export const Navbar: React.FC = () => {
         {/* Right: Language Switcher, Live Indicator & User Auth */}
         <div className="flex items-center gap-2.5">
           {/* Live System Indicator */}
-          <div className="hidden xl:flex items-center gap-2 rounded-full bg-slate-50 border border-slate-200/80 px-2.5 py-1 text-xs text-slate-600">
-            <span className="relative flex h-2 w-2">
+          <div className="hidden xl:flex items-center gap-2 rounded-full bg-slate-50 border border-slate-200/80 px-3 py-1 text-xs text-slate-600">
+            <span className="relative flex h-2 w-2 shrink-0">
               <span
                 className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${
                   isOnline ? "bg-emerald-400" : "bg-rose-400"
@@ -120,7 +122,7 @@ export const Navbar: React.FC = () => {
                 }`}
               ></span>
             </span>
-            <span className="text-[11px] font-medium text-slate-700">
+            <span className="text-xs font-semibold text-slate-700 whitespace-nowrap tracking-normal leading-none">
               {isOnline ? t("১৭,৫৮৯ ওষুধ লাইভ", "17,589 Medicines Live") : t("কানেক্টিং...", "Connecting...")}
             </span>
           </div>
@@ -153,31 +155,87 @@ export const Navbar: React.FC = () => {
             </button>
           </div>
 
-          {/* User Profile or Login CTA */}
+          {/* User Profile or Google Sign In CTA */}
           {currentUser ? (
             <div className="relative">
               <button
                 onClick={() => setShowUserMenu(!showUserMenu)}
-                className="flex items-center gap-2 rounded-lg bg-slate-50 hover:bg-slate-100 p-1.5 pr-2.5 text-xs font-semibold border border-slate-200 transition-colors cursor-pointer"
+                className="flex items-center gap-2 rounded-xl bg-slate-50 hover:bg-slate-100 p-1.5 pr-3 text-xs font-semibold border border-slate-200 transition-colors cursor-pointer"
+                aria-label="User profile menu"
               >
-                <div className="h-6 w-6 rounded-md bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs">
-                  {currentUser.name.charAt(0)}
+                {currentUser.picture ? (
+                  <img
+                    src={currentUser.picture}
+                    alt={currentUser.name}
+                    referrerPolicy="no-referrer"
+                    className="h-7 w-7 rounded-full object-cover border border-teal-600/30 shadow-xs"
+                    onError={(e) => {
+                      // Fallback if avatar fails to load
+                      (e.target as HTMLElement).style.display = "none";
+                    }}
+                  />
+                ) : (
+                  <div className="h-7 w-7 rounded-full bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs">
+                    {currentUser.name.charAt(0)}
+                  </div>
+                )}
+                <div className="text-left hidden sm:block">
+                  <div className="text-slate-900 font-bold max-w-[110px] truncate leading-tight">
+                    {currentUser.name}
+                  </div>
+                  <div className="text-[10px] text-teal-700 font-medium">
+                    {currentUser.role === "doctor" ? t("চিকিৎসক", "Physician") : t("রোগী", "Patient")}
+                  </div>
                 </div>
-                <span className="text-slate-800 hidden sm:inline-block max-w-[100px] truncate">
-                  {currentUser.name}
-                </span>
                 <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
               </button>
 
               {showUserMenu && (
-                <div className="absolute right-0 mt-2 w-52 rounded-xl bg-white border border-slate-200 shadow-lg p-1.5 z-50 text-xs space-y-1 animate-in fade-in duration-100">
-                  <div className="p-2 border-b border-slate-100">
-                    <div className="font-bold text-slate-900">{currentUser.name}</div>
-                    <div className="text-[11px] text-slate-500 truncate">{currentUser.email}</div>
-                    <div className="text-[10px] text-[#0F766E] font-medium mt-0.5">
-                      {currentUser.role === "doctor"
-                        ? t("ভেরিফাইড চিকিৎসক", "Verified Physician")
-                        : t("রোগী অ্যাকাউন্ট", "Patient Account")}
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white border border-slate-200 shadow-xl p-2 z-50 text-xs space-y-2 animate-in fade-in duration-100">
+                  <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <div className="flex items-center gap-2.5 mb-2">
+                      {currentUser.picture ? (
+                        <img
+                          src={currentUser.picture}
+                          alt={currentUser.name}
+                          referrerPolicy="no-referrer"
+                          className="h-9 w-9 rounded-full object-cover border border-teal-500/30"
+                        />
+                      ) : (
+                        <div className="h-9 w-9 rounded-full bg-[#0F766E] text-white flex items-center justify-center font-bold text-sm">
+                          {currentUser.name.charAt(0)}
+                        </div>
+                      )}
+                      <div className="overflow-hidden">
+                        <div className="font-bold text-slate-900 truncate">{currentUser.name}</div>
+                        <div className="text-[11px] text-slate-500 truncate">{currentUser.email}</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center justify-between pt-1.5 border-t border-slate-200/60 text-[10px]">
+                      <span className="font-semibold text-slate-600">
+                        {currentUser.role === "doctor"
+                          ? t("ভেরিফাইড চিকিৎসক", "Verified Physician")
+                          : t("রোগী অ্যাকাউন্ট", "Patient Account")}
+                      </span>
+                      {currentUser.bmdc_number && (
+                        <span className="font-mono text-teal-700 bg-teal-50 px-1.5 py-0.5 rounded border border-teal-200/60">
+                          BMDC: {currentUser.bmdc_number}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="flex items-center justify-between pt-1.5 border-t border-slate-200/60 text-[10px]">
+                      <span className="text-slate-500 font-medium">
+                        {t("দৈনিক বিশ্লেষণ কোটা:", "Daily Analysis Quota:")}
+                      </span>
+                      <span className={`font-mono font-bold px-1.5 py-0.5 rounded ${
+                        dailyQuota.remaining > 0
+                          ? "bg-teal-50 text-teal-800 border border-teal-200/60"
+                          : "bg-rose-50 text-rose-700 border border-rose-200"
+                      }`}>
+                        {dailyQuota.remaining}/{dailyQuota.daily_limit} {t("অবশিষ্ট", "left")}
+                      </span>
                     </div>
                   </div>
 
@@ -186,7 +244,7 @@ export const Navbar: React.FC = () => {
                       setShowUserMenu(false);
                       logout();
                     }}
-                    className="w-full flex items-center gap-2 p-2 rounded-lg text-rose-600 hover:bg-rose-50 font-semibold transition-colors cursor-pointer"
+                    className="w-full flex items-center gap-2 px-3 py-2 rounded-xl text-rose-600 hover:bg-rose-50 font-bold transition-colors cursor-pointer text-xs"
                   >
                     <LogOut className="w-3.5 h-3.5" />
                     <span>{t("লগআউট করুন", "Sign Out")}</span>
@@ -197,10 +255,15 @@ export const Navbar: React.FC = () => {
           ) : (
             <button
               onClick={() => openAuthModal("login")}
-              className="flex items-center gap-1.5 rounded-lg bg-[#0F766E] hover:bg-[#115E59] px-3.5 py-2 text-xs font-bold text-white shadow-xs transition-all cursor-pointer"
+              className="flex items-center gap-2 rounded-xl bg-white hover:bg-slate-50 px-3.5 py-2 text-xs font-bold text-slate-800 border border-slate-300 shadow-xs hover:border-slate-400 transition-all cursor-pointer"
             >
-              <User className="w-3.5 h-3.5" />
-              <span>{t("লগইন", "Login")}</span>
+              <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+              </svg>
+              <span>{t("গুগল লগইন", "Sign in with Google")}</span>
             </button>
           )}
 
@@ -237,6 +300,58 @@ export const Navbar: React.FC = () => {
                 </Link>
               );
             })}
+          </div>
+
+          {/* Mobile User Profile or Google Sign In */}
+          <div className="pt-2 border-t border-slate-100">
+            {currentUser ? (
+              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/70 space-y-2">
+                <div className="flex items-center gap-2.5">
+                  {currentUser.picture ? (
+                    <img
+                      src={currentUser.picture}
+                      alt={currentUser.name}
+                      referrerPolicy="no-referrer"
+                      className="h-8 w-8 rounded-full object-cover border border-teal-500/40"
+                    />
+                  ) : (
+                    <div className="h-8 w-8 rounded-full bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs">
+                      {currentUser.name.charAt(0)}
+                    </div>
+                  )}
+                  <div className="overflow-hidden">
+                    <div className="font-bold text-slate-900 text-xs truncate">{currentUser.name}</div>
+                    <div className="text-[10px] text-slate-500 truncate">{currentUser.email}</div>
+                  </div>
+                </div>
+                <button
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    logout();
+                  }}
+                  className="w-full flex items-center justify-center gap-2 py-1.5 rounded-lg text-rose-600 bg-rose-50/80 font-bold text-xs hover:bg-rose-100 transition-colors cursor-pointer"
+                >
+                  <LogOut className="w-3.5 h-3.5" />
+                  <span>{t("লগআউট", "Sign Out")}</span>
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openAuthModal("login");
+                }}
+                className="w-full flex items-center justify-center gap-2 rounded-xl bg-white hover:bg-slate-50 py-2.5 text-xs font-bold text-slate-800 border border-slate-300 shadow-xs"
+              >
+                <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                </svg>
+                <span>{t("গুগল দিয়ে লগইন", "Sign in with Google")}</span>
+              </button>
+            )}
           </div>
 
           {/* Mobile Language Switcher */}

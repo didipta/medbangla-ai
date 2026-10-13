@@ -12,7 +12,8 @@
   --success: #15803D;
   --warning: #B45309;
   --error: #B91C1C;
-  --font-clinical: var(--font-hind), var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-bengali-stack: var(--font-hind), 'Hind Siliguri', 'Noto Sans Bengali', 'SolaimanLipi', 'Kalpurush', 'Nirmala UI', 'Vrinda', var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-clinical: var(--font-bengali-stack);
   --font-mono: var(--font-geist-mono), monospace;
 }
 
@@ -25,7 +26,7 @@
   --color-text-main: #0F172A;
   --color-text-secondary: #475569;
   --color-border-clinical: #E2E8F0;
-  --font-sans: var(--font-hind), var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: var(--font-bengali-stack);
   --font-mono: var(--font-geist-mono), monospace;
 }
 
@@ -37,9 +38,53 @@ body {
   background-attachment: fixed;
   color: #0F172A;
   font-family: var(--font-clinical);
-  letter-spacing: -0.011em;
+  letter-spacing: 0;
+  word-spacing: normal;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* ========================================================================= */
+/* UNIVERSAL BANGLA TYPOGRAPHY PRESERVATION & CRISP RENDERING RULES        */
+/* ========================================================================= */
+
+/* Ensure Bengali text never suffers from negative letter-spacing clipping */
+html[lang="bn"],
+[lang="bn"],
+.font-bangla,
+*:lang(bn) {
+  font-family: var(--font-bengali-stack) !important;
+  letter-spacing: 0 !important;
+  word-spacing: normal !important;
+  text-rendering: optimizeLegibility !important;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1 !important;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1 !important;
+}
+
+/* Neutralize tight tracking classes on Bengali text that clip digits & conjuncts */
+html[lang="bn"] .tracking-tighter,
+html[lang="bn"] .tracking-tight,
+html[lang="bn"] .tracking-normal,
+html[lang="bn"] .tracking-wide,
+html[lang="bn"] .tracking-wider,
+html[lang="bn"] .tracking-widest,
+.tracking-tight:lang(bn),
+.tracking-tighter:lang(bn) {
+  letter-spacing: 0 !important;
+}
+
+/* Ensure Bengali digits (০-৯) and matras have adequate line height and padding */
+.bengali-numeral,
+span:lang(bn),
+p:lang(bn),
+h1:lang(bn),
+h2:lang(bn),
+h3:lang(bn),
+h4:lang(bn) {
+  font-variant-numeric: normal;
+  font-feature-settings: "kern" 1, "liga" 1;
 }
 
 /* Subtle Micro Grid Background */

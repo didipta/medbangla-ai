@@ -13,9 +13,11 @@ Endpoints:
 import time
 import logging
 from typing import List, Dict, Any, Optional
-from fastapi import APIRouter, HTTPException, Query, Body
+from fastapi import APIRouter, HTTPException, Query, Body, Request, Depends
 from pydantic import BaseModel, Field
 
+from app.core.security import get_current_user_optional
+from app.core.rate_limiter import rate_limiter
 from app.ai.rag.engine import MedBanglaRAGEngine
 from app.ai.rag.indexer import ClinicalRAGIndexer
 
@@ -72,9 +74,16 @@ class ExplainPrescriptionRequest(BaseModel):
     summary="Ask a question about medicines or prescription in natural Bangla",
     description="Uses hierarchical RAG retrieval and Groq/Gemini to deliver clinically grounded explanations in everyday Bangla.",
 )
-def chat_with_assistant(payload: ChatRequest = Body(...)):
+def chat_with_assistant(
+    request: Request,
+    payload: ChatRequest = Body(...),
+    current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
+):
     if not payload.message or not payload.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")
+
+    user_id = current_user.get("id") if current_user else None
+    rate_limiter.check_and_consume("ai_chat", request, user_id=user_id)
 
     engine = MedBanglaRAGEngine.get_instance()
     res = engine.chat_qa(
@@ -91,9 +100,16 @@ def chat_with_assistant(payload: ChatRequest = Body(...)):
     summary="Generate comprehensive clinical explanation for a prescription",
     description="Analyzes all medicines, checks pairwise interactions, retrieves monograph sections, and provides a structured patient summary in Bangla.",
 )
-def explain_prescription_endpoint(payload: ExplainPrescriptionRequest = Body(...)):
+def explain_prescription_endpoint(
+    request: Request,
+    payload: ExplainPrescriptionRequest = Body(...),
+    current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
+):
     if not payload.medicines:
         raise HTTPException(status_code=400, detail="Medicines list cannot be empty")
+
+    user_id = current_user.get("id") if current_user else None
+    rate_limiter.check_and_consume("ai_explain", request, user_id=user_id)
 
     engine = MedBanglaRAGEngine.get_instance()
     res = engine.explain_prescription(
@@ -110,11 +126,16 @@ def explain_prescription_endpoint(payload: ExplainPrescriptionRequest = Body(...
     description="Sub-millisecond retrieval testing over pre-indexed clinical monographs.",
 )
 def search_clinical_documents(
+    request: Request,
     q: str = Query(..., min_length=2, description="Search query in Bangla or English"),
     medicine: Optional[str] = Query(None, description="Filter by generic name/slug"),
     section: Optional[str] = Query(None, description="Filter by section (indications, dosage, side_effects, etc.)"),
     limit: int = Query(5, ge=1, le=20, description="Number of chunks to return"),
+    current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
 ):
+    user_id = current_user.get("id") if current_user else None
+    rate_limiter.check_and_consume("medicine_search", request, user_id=user_id)
+
     start_time = time.time()
     indexer = ClinicalRAGIndexer.get_instance()
     med_filter = [medicine] if medicine else None

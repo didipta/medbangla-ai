@@ -230,6 +230,17 @@ export const MedicinesTester: React.FC = () => {
               </button>
             ))}
           </div>
+
+          {/* Academic Study Notice regarding non-real-time prices and market data */}
+          <div className="mt-3 flex items-center gap-2 p-2 rounded-lg bg-amber-50/80 border border-amber-200/80 text-[11px] text-amber-900 leading-snug">
+            <span className="font-bold shrink-0">⚠️ {t("স্টাডি ডেমো সতর্কতা:", "Study Demo Notice:")}</span>
+            <span>
+              {t(
+                "এই ডিরেক্টরিটি শুধুমাত্র শিক্ষামূলক ও এআই মডেলিং গবেষণার জন্য। ওষুধের মূল্য (Price), ব্র্যান্ডের প্রাপ্যতা বা মার্কেট ডাটা রিয়েল-টাইমে আপডেট নয়। বর্তমান দামের জন্য স্থানীয় ফার্মেসিতে যাচাই করুন।",
+                "This catalogue is strictly for educational AI modeling research. Medicine prices, market availability, and brand data are not updated in real-time. Verify current rates with local pharmacies."
+              )}
+            </span>
+          </div>
         </div>
       </div>
 

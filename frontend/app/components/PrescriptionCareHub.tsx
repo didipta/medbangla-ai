@@ -43,8 +43,11 @@ import {
   Edit3,
   HelpCircle,
   ExternalLink,
+  Bookmark,
+  FolderClock,
 } from "lucide-react";
 import { api } from "../services/api";
+import { useLanguage } from "../context/LanguageContext";
 import {
   OCRAnalysisResponse,
   InteractionReport,
@@ -52,62 +55,26 @@ import {
   MedicineDetails,
   DetectedMedicine,
 } from "../types/api";
-
-interface SamplePreset {
-  title: string;
-  badge: string;
-  doctor: string;
-  patient: string;
-  medicines: { brand: string; generic: string; dosage: string; form: string }[];
-  vitals: { bp: string; pulse: string; weight: string; age: string };
-  adv: string;
-  defaultQuestion: string;
-}
-
-const CLINICAL_PRESETS: SamplePreset[] = [
-  {
-    title: "কার্ডিও-রেনাল প্রেসক্রিপশন (Proxen + Cardizem)",
-    badge: "উচ্চ রক্তচাপ ও কিডনি ঝুঁকি",
-    doctor: "ডাঃ মোঃ ফজলুল হক, MBBS, FCPS | সিএমএইচ ঢাকা",
-    patient: "মাহাদী হাসান, ৪৯ বছর",
-    vitals: { bp: "160/95", pulse: "84 bpm", weight: "68 kg", age: "৪৯ বছর" },
-    medicines: [
-      { brand: "Proxen 500mg", generic: "Naproxen", dosage: "১ + ০ + ১ (খাবারের পর)", form: "Tablet" },
-      { brand: "Cardizem SR 90mg", generic: "Diltiazem Hydrochloride", dosage: "১ + ০ + ০ (খাবারের পর)", form: "Tablet" },
-      { brand: "Dicaltrol 0.25mcg", generic: "Calcitriol", dosage: "০ + ১ + ০ (দুপুরে)", form: "Capsule" },
-    ],
-    adv: "S. Urea, S. Creatinine, Urine R/E",
-    defaultQuestion: "প্রক্সেন এবং কার্ডিজেম একসাথে খেলে কি রক্তচাপ বা কিডনিতে কোনো সমস্যা হতে পারে?",
-  },
-  {
-    title: "ইনফেকশন ও চিলেশন প্রেসক্রিপশন (Neoflox + Calbo-D)",
-    badge: "অ্যান্টিবায়োটিক শোষণ বাধা",
-    doctor: "অধ্যাপক ডাঃ এ. কে. আজাদ, MBBS, MD | ঢাকা মেডিকেল কলেজ",
-    patient: "নাসিমা বেগম, ৪৮ বছর",
-    vitals: { bp: "130/80", pulse: "76 bpm", weight: "62 kg", age: "৪৮ বছর" },
-    medicines: [
-      { brand: "Neoflox 500mg", generic: "Ciprofloxacin", dosage: "১ + ০ + ১ (খাবারের ১ ঘণ্টা আগে)", form: "Tablet" },
-      { brand: "Calbo-D", generic: "Calcium Vitamin D3", dosage: "০ + ০ + ১ (রাতে খাবারের পর)", form: "Tablet" },
-      { brand: "Napa 500mg", generic: "Paracetamol", dosage: "১ + ১ + ১ (প্রয়োজনে)", form: "Tablet" },
-    ],
-    adv: "CBC, Urine C/S",
-    defaultQuestion: "নিওফ্লক্স ও ক্যালবো-ডি খাওয়ার সঠিক সময় ব্যবধান কত ঘণ্টা হওয়া উচিত?",
-  },
-  {
-    title: "কার্ডিওলজি অ্যান্টিপ্লেটলেট প্রেসক্রিপশন (Clopid + Seclo)",
-    badge: "CYP2C19 মেটাবলিজম ঝুঁকি",
-    doctor: "ডাঃ রফিকুল ইসলাম, FCPS | জাতীয় হৃদরোগ ইনস্টিটিউট",
-    patient: "আব্দুল করিম, ৬১ বছর",
-    vitals: { bp: "145/85", pulse: "72 bpm", weight: "70 kg", age: "৬১ বছর" },
-    medicines: [
-      { brand: "Clopid 75mg", generic: "Clopidogrel", dosage: "০ + ১ + ০ (খাবারের পর)", form: "Tablet" },
-      { brand: "Seclo 20mg", generic: "Omeprazole", dosage: "১ + ০ + ১ (খাবারের ২০ মি. আগে)", form: "Capsule" },
-      { brand: "Ecosprin 75mg", generic: "Aspirin", dosage: "০ + ০ + ১ (রাতে ভরা পেটে)", form: "Tablet" },
-    ],
-    adv: "Lipid Profile, ECG, S. Creatinine",
-    defaultQuestion: "ক্লোপিডোগ্রেল ও ওমিপ্রাজল একসাথে খেলে রক্তের জমাট বাঁধার কার্যকারিতা কমে কি?",
-  },
-];
+import { useAppDispatch, useAppSelector } from "../store";
+import {
+  fetchDailyQuota,
+  fetchHistory,
+  deleteHistoryItem,
+  loadHistoryItem,
+  setDailyQuota,
+  optimisticIncrementQuota,
+  setCurrentPrescriptionId,
+  setResult,
+  setMedicines,
+  setSafetyReport,
+  setSafetyLoading,
+  setExplanation,
+  setExplainLoading,
+  setLatency,
+  setAnalyzing,
+  resetAnalysisState,
+  VerifiedMedicineItem,
+} from "../store/slices/prescriptionSlice";
 
 const COMMON_DRUG_CHIPS = [
   "Aspirin",
@@ -122,18 +89,6 @@ const COMMON_DRUG_CHIPS = [
   "Amlodipine",
 ];
 
-export interface VerifiedMedicineItem {
-  id: string;
-  brand: string;
-  generic: string;
-  dosage: string;
-  form: string;
-  confidence: number;
-  status: "confirmed" | "uncertain" | "unmatched";
-  included: boolean;
-  notes?: string;
-}
-
 interface ChatMessage {
   id: string;
   role: "user" | "assistant";
@@ -143,25 +98,38 @@ interface ChatMessage {
 }
 
 export const PrescriptionCareHub: React.FC = () => {
-  // Prescription Ingestion States
+  const { lang, t } = useLanguage();
+
+  const dispatch = useAppDispatch();
+
+  // Redux Global Prescription & Quota State
+  const {
+    dailyQuota,
+    quotaLoading,
+    currentPrescriptionId,
+    result,
+    medicines,
+    safetyReport,
+    safetyLoading,
+    explanation,
+    explainLoading,
+    latency,
+    analyzing,
+    historyList,
+    historyLoading,
+    isPrescriptionLoading,
+    loadingHistoryId,
+  } = useAppSelector((state) => state.prescription);
+
+  // Prescription Ingestion Local States
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
-  const [analyzing, setAnalyzing] = useState(false);
-  const [result, setResult] = useState<OCRAnalysisResponse | null>(null);
-  const [latency, setLatency] = useState<number | null>(null);
 
-  // Editable Review Tray for Medicines
-  const [medicines, setMedicines] = useState<VerifiedMedicineItem[]>([]);
+  // Editable Review Tray Local States
   const [editingMedicine, setEditingMedicine] = useState<VerifiedMedicineItem | null>(null);
   const [newDrugInput, setNewDrugInput] = useState("");
 
-  // Integrated Drug Safety States
-  const [safetyReport, setSafetyReport] = useState<InteractionReport | null>(null);
-  const [safetyLoading, setSafetyLoading] = useState(false);
-
-  // Patient Guidance (Bangla Explainer)
-  const [explanation, setExplanation] = useState<PrescriptionExplainResponse | null>(null);
-  const [explainLoading, setExplainLoading] = useState(false);
+  // Patient Guidance Copy State
   const [copiedExplanation, setCopiedExplanation] = useState(false);
 
   // Contextual Medical Chat State
@@ -177,8 +145,136 @@ export const PrescriptionCareHub: React.FC = () => {
   // Image Lightbox Modal
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
-  // Active Sub-Tab
+  // Active Clinical Sub-Tab (4 core tabs only)
   const [activeTab, setActiveTab] = useState<"review" | "safety" | "chat" | "guide">("review");
+
+  // History Slide-Over Drawer State
+  const [historyDrawerOpen, setHistoryDrawerOpen] = useState(false);
+  const [saveToast, setSaveToast] = useState<string | null>(null);
+
+  // SweetAlert Custom Modal States (No browser alert/confirm)
+  const [deleteModal, setDeleteModal] = useState<{
+    isOpen: boolean;
+    historyId: string | null;
+    doctorName?: string;
+    isDeleting: boolean;
+  }>({
+    isOpen: false,
+    historyId: null,
+    doctorName: "",
+    isDeleting: false,
+  });
+
+  const [sweetAlert, setSweetAlert] = useState<{
+    isOpen: boolean;
+    title: string;
+    message: string;
+    type: "info" | "warning" | "error" | "success";
+  } | null>(null);
+
+  const showAlert = (
+    title: string,
+    message: string,
+    type: "info" | "warning" | "error" | "success" = "warning"
+  ) => {
+    setSweetAlert({ isOpen: true, title, message, type });
+  };
+
+  useEffect(() => {
+    dispatch(fetchHistory());
+    dispatch(fetchDailyQuota());
+  }, [dispatch]);
+
+  // Automatic Background Save/Update to Database (Updates same ID if exists, creates new ID only for new analysis)
+  const autoSaveToHistory = async (analysisData: OCRAnalysisResponse, medsOverride?: VerifiedMedicineItem[]) => {
+    try {
+      const meds = medsOverride && medsOverride.length > 0
+        ? medsOverride.map((m) => ({
+            matched_brand: m.brand,
+            generic_name: m.generic,
+            dosage: m.dosage,
+            form: m.form,
+            confidence: m.confidence / 100,
+            match_score: m.confidence,
+          }))
+        : (analysisData.detected_medicines || []).map((m: any) => ({
+            matched_brand: m.matched_brand || m.raw_token,
+            generic_name: m.generic_name || m.matched_brand,
+            dosage: m.dosage || "১ + ০ + ১",
+            form: m.form || "Tablet",
+            confidence: m.confidence || 0.95,
+            match_score: m.match_score || 95,
+          }));
+
+      const payload = {
+        clinical_entities: analysisData.clinical_entities || {},
+        detected_medicines: meds,
+        dosage_instructions: analysisData.dosage_instructions || [],
+        summary: analysisData.summary || { total_medicines_matched: meds.length },
+        raw_text: analysisData.raw_text || meds.map((m: any) => `${m.matched_brand} - ${m.dosage}`).join(", "),
+      };
+
+      if (currentPrescriptionId) {
+        // Update the EXACT same prescription record in the database without creating a new history item
+        const res = await api.updatePrescriptionHistory(currentPrescriptionId, payload);
+        if (res.data?.status === "success") {
+          setSaveToast(t("প্রেসক্রিপশন ডাটাবেজে আপডেট হয়েছে!", "Prescription updated in database!"));
+          setTimeout(() => setSaveToast(null), 3000);
+          dispatch(fetchHistory());
+        }
+      } else {
+        // Create a new prescription history record with a unique ID
+        const res = await api.savePrescriptionHistory(payload);
+        if (res.data?.status === "success") {
+          const newId = res.data.history_item?.id;
+          if (newId) {
+            dispatch(setCurrentPrescriptionId(newId));
+          }
+          setSaveToast(t("প্রেসক্রিপশন ডাটাবেজে স্বয়ংক্রিয়ভাবে সংরক্ষিত হয়েছে!", "Prescription auto-saved to database history!"));
+          setTimeout(() => setSaveToast(null), 3500);
+          dispatch(fetchHistory());
+        }
+      }
+    } catch (err) {
+      console.warn("Auto-save/update to database failed:", err);
+    }
+  };
+
+  const handleLoadHistoryItem = async (historyId: string) => {
+    const loadStartTime = Date.now();
+    try {
+      await dispatch(loadHistoryItem(historyId)).unwrap();
+      setImagePreview(null);
+      setSelectedFile(null);
+
+      // Guarantee smooth loading show time (at least 550ms for clear visual feedback)
+      const elapsed = Date.now() - loadStartTime;
+      if (elapsed < 550) {
+        await new Promise((resolve) => setTimeout(resolve, 550 - elapsed));
+      }
+
+      setActiveTab("review");
+      setHistoryDrawerOpen(false);
+      setSaveToast(t("সংরক্ষিত প্রেসক্রিপশন সফলভাবে লোড হয়েছে!", "Prescription loaded from history successfully!"));
+      setTimeout(() => setSaveToast(null), 3000);
+    } catch (err: any) {
+      showAlert(t("ত্রুটি", "Error"), t("হিস্ট্রি লোড করতে ব্যর্থ হয়েছে: ", "Failed to load history: ") + (err.message || err || "Error"), "error");
+    }
+  };
+
+  const confirmDeleteHistory = async () => {
+    if (!deleteModal.historyId) return;
+    setDeleteModal((prev) => ({ ...prev, isDeleting: true }));
+    try {
+      await dispatch(deleteHistoryItem(deleteModal.historyId)).unwrap();
+      setDeleteModal({ isOpen: false, historyId: null, isDeleting: false });
+      setSaveToast(t("প্রেসক্রিপশন সফলভাবে মুছে ফেলা হয়েছে", "Prescription deleted successfully"));
+      setTimeout(() => setSaveToast(null), 3000);
+    } catch (err: any) {
+      setDeleteModal({ isOpen: false, historyId: null, isDeleting: false });
+      showAlert(t("ত্রুটি", "Error"), t("মুছে ফেলতে ব্যর্থ হয়েছে: ", "Delete failed: ") + (err.message || err || "Error"), "error");
+    }
+  };
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
@@ -212,7 +308,7 @@ export const PrescriptionCareHub: React.FC = () => {
         };
       });
 
-      setMedicines(items);
+      dispatch(setMedicines(items));
 
       // Contextual welcoming message in Bangla
       const drugListStr = items.map((i) => i.brand).join(", ");
@@ -232,10 +328,7 @@ export const PrescriptionCareHub: React.FC = () => {
       const file = e.target.files[0];
       setSelectedFile(file);
       setImagePreview(URL.createObjectURL(file));
-      setResult(null);
-      setMedicines([]);
-      setSafetyReport(null);
-      setExplanation(null);
+      dispatch(resetAnalysisState());
       setChatMessages([]);
     }
   };
@@ -246,119 +339,48 @@ export const PrescriptionCareHub: React.FC = () => {
       const file = e.dataTransfer.files[0];
       setSelectedFile(file);
       setImagePreview(URL.createObjectURL(file));
-      setResult(null);
-      setMedicines([]);
-      setSafetyReport(null);
-      setExplanation(null);
+      dispatch(resetAnalysisState());
       setChatMessages([]);
     }
   };
 
-  const loadPresetPrescription = (preset: SamplePreset) => {
-    const canvas = document.createElement("canvas");
-    canvas.width = 700;
-    canvas.height = 840;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
 
-    // Hospital Paper Surface
-    ctx.fillStyle = "#FFFFFF";
-    ctx.fillRect(0, 0, 700, 840);
 
-    // Primary Top Accent Bar
-    ctx.fillStyle = "#0F766E";
-    ctx.fillRect(0, 0, 700, 8);
-
-    // Doctor info
-    ctx.fillStyle = "#172B2A";
-    ctx.font = "bold 20px -apple-system, BlinkMacSystemFont, Arial";
-    ctx.fillText(preset.doctor.split("|")[0].trim(), 40, 50);
-
-    ctx.fillStyle = "#647575";
-    ctx.font = "13px -apple-system, BlinkMacSystemFont, Arial";
-    ctx.fillText(preset.doctor.split("|")[1]?.trim() || "Specialist Physician", 40, 72);
-
-    // Divider
-    ctx.strokeStyle = "#E2EAE7";
-    ctx.lineWidth = 1.5;
-    ctx.beginPath();
-    ctx.moveTo(40, 88);
-    ctx.lineTo(660, 88);
-    ctx.stroke();
-
-    // Patient info banner
-    ctx.fillStyle = "#F7FAF9";
-    ctx.fillRect(40, 96, 620, 42);
-    ctx.strokeStyle = "#E2EAE7";
-    ctx.strokeRect(40, 96, 620, 42);
-
-    ctx.fillStyle = "#172B2A";
-    ctx.font = "bold 13px -apple-system, BlinkMacSystemFont, Arial";
-    ctx.fillText(`Patient: ${preset.patient}`, 52, 122);
-    ctx.fillStyle = "#647575";
-    ctx.fillText(`BP: ${preset.vitals.bp}   Pulse: ${preset.vitals.pulse}   Wt: ${preset.vitals.weight}`, 350, 122);
-
-    // Rx Symbol
-    ctx.fillStyle = "#0F766E";
-    ctx.font = "italic bold 36px Georgia";
-    ctx.fillText("℞", 40, 185);
-
-    // Medicines List
-    let yPos = 225;
-    preset.medicines.forEach((med, idx) => {
-      ctx.fillStyle = "#172B2A";
-      ctx.font = "bold 16px -apple-system, BlinkMacSystemFont, Arial";
-      ctx.fillText(`${idx + 1}. ${med.brand} (${med.form})`, 65, yPos);
-
-      ctx.fillStyle = "#0F766E";
-      ctx.font = "14px Arial";
-      ctx.fillText(`   ${med.dosage}`, 85, yPos + 24);
-
-      yPos += 70;
-    });
-
-    // Tests & Advice
-    ctx.strokeStyle = "#E2EAE7";
-    ctx.beginPath();
-    ctx.moveTo(40, yPos + 10);
-    ctx.lineTo(660, yPos + 10);
-    ctx.stroke();
-
-    ctx.fillStyle = "#B91C1C";
-    ctx.font = "bold 13px -apple-system, BlinkMacSystemFont, Arial";
-    ctx.fillText(`Advice & Tests: ${preset.adv}`, 40, yPos + 40);
-
-    ctx.fillStyle = "#647575";
-    ctx.font = "italic 11px -apple-system, BlinkMacSystemFont, Arial";
-    ctx.fillText("MedBangla AI Clinical Verification Sample Script", 40, 810);
-
-    canvas.toBlob((blob) => {
-      if (blob) {
-        const file = new File([blob], `${preset.title.toLowerCase().replace(/[^a-z0-9]/g, "_")}.png`, {
-          type: "image/png",
-        });
-        setSelectedFile(file);
-        setImagePreview(canvas.toDataURL());
-        setResult(null);
-        setMedicines([]);
-        setSafetyReport(null);
-        setExplanation(null);
-        setChatMessages([]);
-      }
-    }, "image/png");
-  };
-
-  // Run End-to-End Analysis
+  // Run End-to-End Analysis (Enforces max 2 prescription analyses per day)
   const handleAnalyzePrescription = async () => {
     if (!selectedFile) return;
-    setAnalyzing(true);
-    setSafetyReport(null);
-    setExplanation(null);
+
+    // Check daily limit quota (Max 2 analyses per user per day)
+    if (!dailyQuota.can_analyze || dailyQuota.remaining <= 0) {
+      showAlert(
+        t("দৈনিক লিমিট শেষ (Daily Limit Reached)", "Daily Limit Reached (2/2 Used)"),
+        t(
+          "প্রতিদিন সর্বোচ্চ ২টি প্রেসক্রিপশন বিশ্লেষণ করার সুবিধা রয়েছে। আজকের জন্য আপনার কোটা শেষ হয়ে গেছে। রাত ১২:০০টার পর পুনরায় চেষ্টা করুন।",
+          "Every user can analyze a maximum of 2 prescriptions per day. You have reached your limit for today. Please try again after midnight."
+        ),
+        "warning"
+      );
+      return;
+    }
+
+    // Clear active prescription ID so this new analysis creates a fresh new database record & ID
+    dispatch(setCurrentPrescriptionId(null));
+    dispatch(setAnalyzing(true));
+    dispatch(setSafetyReport(null));
+    dispatch(setExplanation(null));
     setActiveTab("review");
     try {
       const { data, durationMs } = await api.analyzePrescription(selectedFile, true, true);
-      setResult(data);
-      setLatency(durationMs);
+      dispatch(setResult(data));
+      dispatch(setLatency(durationMs));
+
+      // Instant Real-Time Quota Update in Redux
+      if (data.daily_quota) {
+        dispatch(setDailyQuota(data.daily_quota));
+      } else {
+        dispatch(optimisticIncrementQuota());
+        dispatch(fetchDailyQuota());
+      }
 
       // Automated Interaction Check
       const detectedGenerics = (data.detected_medicines || [])
@@ -368,24 +390,65 @@ export const PrescriptionCareHub: React.FC = () => {
       if (detectedGenerics.length >= 2) {
         runSafetyCheck(detectedGenerics);
       }
+
+      // If backend already created and returned a history_id, track it directly
+      if (data.history_id) {
+        dispatch(setCurrentPrescriptionId(data.history_id));
+        setSaveToast(t("প্রেসক্রিপশন ডাটাবেজে স্বয়ংক্রিয়ভাবে সংরক্ষিত হয়েছে!", "Prescription auto-saved to database history!"));
+        setTimeout(() => setSaveToast(null), 3500);
+        dispatch(fetchHistory());
+      } else {
+        // Fallback auto-save to ensure database record creation
+        autoSaveToHistory(data);
+      }
     } catch (err: any) {
-      alert(`প্রেসক্রিপশন প্রসেসিংয়ে সমস্যা: ${err.message}`);
+      if (err.status === 429 || err.message?.includes("সর্বোচ্চ ২টি") || err.message?.includes("Daily limit")) {
+        dispatch(
+          setDailyQuota({
+            daily_limit: 2,
+            used_today: 2,
+            remaining: 0,
+            can_analyze: false,
+            reset_info: "রাত ১২:০০টায় কোটা রিসেট হবে",
+          })
+        );
+        showAlert(
+          t("দৈনিক লিমিট শেষ (Daily Limit Reached)", "Daily Limit Reached (2/2 Used)"),
+          t(
+            "প্রতিদিন সর্বোচ্চ ২টি প্রেসক্রিপশন বিশ্লেষণ করার সুবিধা রয়েছে। আজকের জন্য আপনার কোটা শেষ হয়ে গেছে (২/২ ব্যবহৃত)। রাত ১২:০০টার পর পুনরায় চেষ্টা করুন।",
+            "Every user can analyze a maximum of 2 prescriptions per day. You have reached your limit for today (2/2 used). Please try again after midnight."
+          ),
+          "error"
+        );
+        return;
+      }
+      showAlert(t("প্রেসক্রিপশন প্রসেসিং ত্রুটি", "Prescription Processing Error"), t(`প্রেসক্রিপশন প্রসেসিংয়ে সমস্যা: ${err.message}`, `Prescription processing error: ${err.message}`), "error");
     } finally {
-      setAnalyzing(false);
+      dispatch(setAnalyzing(false));
     }
   };
 
   // Pairwise Drug Safety Verification
   const runSafetyCheck = async (medList: string[]) => {
     if (medList.length < 2) return;
-    setSafetyLoading(true);
+    dispatch(setSafetyLoading(true));
     try {
       const { data } = await api.checkInteractions(medList);
-      setSafetyReport(data);
-    } catch (err) {
+      dispatch(setSafetyReport(data));
+    } catch (err: any) {
+      if (err.status === 429) {
+        showAlert(
+          t("নিরাপত্তা রিকোয়েস্ট লিমিট (Rate Limit)", "Safety Check Rate Limit Reached"),
+          t(
+            `ড্রাগ ইন্টারঅ্যাকশন চেক করার রিকোয়েস্ট লিমিট অতিক্রম করেছে। সফটওয়্যার নিরাপত্তা নিশ্চিত করতে অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন। (${err.message})`,
+            `Drug interaction check limit reached. For software safety, please wait before retrying. (${err.message})`
+          ),
+          "warning"
+        );
+      }
       console.error(err);
     } finally {
-      setSafetyLoading(false);
+      dispatch(setSafetyLoading(false));
     }
   };
 
@@ -396,19 +459,19 @@ export const PrescriptionCareHub: React.FC = () => {
       .filter(Boolean);
 
     if (includedDrugs.length < 2) {
-      alert("নিরাপত্তা যাচাই করার জন্য কমপক্ষে ২টি ওষুধ নির্বাচন করুন।");
+      showAlert(t("নিরাপত্তা যাচাই", "Drug Safety Check"), t("নিরাপত্তা যাচাই করার জন্য কমপক্ষে ২টি ওষুধ নির্বাচন করুন।", "Select at least 2 medicines to verify safety interactions."), "warning");
       return;
     }
     runSafetyCheck(includedDrugs);
   };
 
-  // Add custom drug to list
+  // Add custom drug to list (auto-updates the same prescription ID in history)
   const handleAddDrug = (nameToAdd?: string) => {
     const drug = (nameToAdd || newDrugInput).trim();
     if (!drug) return;
 
     if (medicines.some((m) => m.generic.toLowerCase() === drug.toLowerCase() || m.brand.toLowerCase() === drug.toLowerCase())) {
-      alert("এই ওষুধটি ইতিমধ্যে তালিকায় যুক্ত রয়েছে।");
+      showAlert(t("ওষুধ ইতিমধ্যে বিদ্যমান", "Medicine Already Added"), t("এই ওষুধটি ইতিমধ্যে তালিকায় যুক্ত রয়েছে।", "This medicine is already in the list."), "info");
       return;
     }
 
@@ -416,7 +479,7 @@ export const PrescriptionCareHub: React.FC = () => {
       id: `custom-${Date.now()}`,
       brand: drug,
       generic: drug,
-      dosage: "১ + ০ + ১ (খাবারের পর)",
+      dosage: lang === "bn" ? "১ + ০ + ১ (খাবারের পর)" : "1 + 0 + 1 (After meals)",
       form: "Tablet",
       confidence: 100,
       status: "confirmed",
@@ -424,38 +487,53 @@ export const PrescriptionCareHub: React.FC = () => {
     };
 
     const updated = [...medicines, item];
-    setMedicines(updated);
+    dispatch(setMedicines(updated));
     setNewDrugInput("");
 
     const included = updated.filter((m) => m.included).map((m) => m.generic);
     if (included.length >= 2) {
       runSafetyCheck(included);
     }
+
+    // Auto-update the same prescription ID in the database
+    if (result) {
+      autoSaveToHistory(result, updated);
+    }
   };
 
   const handleToggleInclude = (id: string) => {
-    setMedicines((prev) =>
-      prev.map((m) => (m.id === id ? { ...m, included: !m.included } : m))
-    );
+    const updated = medicines.map((m) => (m.id === id ? { ...m, included: !m.included } : m));
+    dispatch(setMedicines(updated));
+    if (result) {
+      autoSaveToHistory(result, updated);
+    }
   };
 
   const handleRemoveDrug = (id: string) => {
-    setMedicines((prev) => prev.filter((m) => m.id !== id));
+    const updated = medicines.filter((m) => m.id !== id);
+    dispatch(setMedicines(updated));
+    if (result) {
+      autoSaveToHistory(result, updated);
+    }
   };
 
   const handleSaveEdit = (edited: VerifiedMedicineItem) => {
-    setMedicines((prev) => prev.map((m) => (m.id === edited.id ? edited : m)));
+    const updated = medicines.map((m) => (m.id === edited.id ? edited : m));
+    dispatch(setMedicines(updated));
     setEditingMedicine(null);
+    if (result) {
+      autoSaveToHistory(result, updated);
+    }
   };
 
   // Generate Bangla Patient Explanation
   const handleGenerateExplanation = async () => {
     const included = medicines.filter((m) => m.included);
     if (!included.length) {
-      alert("ব্যাখ্যা তৈরি করতে কমপক্ষে একটি ওষুধ নির্বাচন করুন।");
+      showAlert(t("ওষুধ নির্বাচন করুন", "Select Medicine"), t("সহায়িকা তৈরি করতে কমপক্ষে একটি ওষুধ নির্বাচন করুন।", "Select at least one medicine to generate instructions."), "warning");
       return;
     }
-    setExplainLoading(true);
+    dispatch(setExplainLoading(true));
     try {
       const payload: DetectedMedicine[] = included.map((m) => ({
         raw_token: m.brand,
@@ -468,12 +546,23 @@ export const PrescriptionCareHub: React.FC = () => {
         requires_verification: m.status !== "confirmed",
       }));
       const { data } = await api.explainPrescription(payload);
-      setExplanation(data);
+      dispatch(setExplanation(data));
       setActiveTab("guide");
     } catch (err: any) {
-      alert(`সহায়িকা তৈরিতে সমস্যা: ${err.message}`);
+      if (err.status === 429) {
+        showAlert(
+          t("দৈনিক এআই লিমিট অতিক্রম (AI Explainer Limit)", "AI Guide Limit Reached"),
+          t(
+            `রোগীর সহায়িকা তৈরির দৈনিক লিমিট (সর্বোচ্চ ৫টি/দিন) বা ফ্রিকোয়েন্সি অতিক্রম করেছে। সফটওয়্যার সুরক্ষায় অনুগ্রহ করে অপেক্ষা করুন। (${err.message})`,
+            `Daily limit for AI patient guides (max 5/day) or frequency limit reached. For software safety, please wait before retrying. (${err.message})`
+          ),
+          "warning"
+        );
+      } else {
+        showAlert(t("সহায়িকা ত্রুটি", "Guide Error"), t(`সহায়িকা তৈরিতে সমস্যা: ${err.message}`, `Error generating guide: ${err.message}`), "error");
+      }
     } finally {
-      setExplainLoading(false);
+      dispatch(setExplainLoading(false));
     }
   };
 
@@ -514,10 +603,22 @@ export const PrescriptionCareHub: React.FC = () => {
       };
       setChatMessages((prev) => [...prev, aiMsg]);
     } catch (err: any) {
+      if (err.status === 429) {
+        showAlert(
+          t("এআই চ্যাট লিমিট (Rate Limit)", "AI Chat Rate Limit"),
+          t(
+            `ক্লিনিক্যাল চ্যাটবটের দৈনিক কোটা (১৫টি/দিন) বা ফ্রিকোয়েন্সি লিমিট অতিক্রম করেছে। সফটওয়্যার সুরক্ষায় অনুগ্রহ করে কিছুক্ষণ পর প্রশ্ন করুন। (${err.message})`,
+            `Daily quota for clinical chat (15/day) or burst frequency limit reached. For software safety, please retry after a short wait. (${err.message})`
+          ),
+          "warning"
+        );
+      }
       const errorMsg: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: "assistant",
-        text: `দুঃখিত, উত্তর পেতে সমস্যা হয়েছে: ${err.message}`,
+        text: err.status === 429
+          ? `⚠️ লিমিট অতিক্রম করেছে (Rate Limit Exceeded): ${err.message}`
+          : `দুঃখিত, উত্তর পেতে সমস্যা হয়েছে: ${err.message}`,
         timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
       };
       setChatMessages((prev) => [...prev, errorMsg]);
@@ -554,82 +655,87 @@ export const PrescriptionCareHub: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="inline-flex items-center gap-1.5 rounded-md bg-[#CCFBF1] px-2.5 py-0.5 text-xs font-semibold text-[#0F766E]">
               <Stethoscope className="w-3.5 h-3.5" />
-              প্রেসক্রিপশন চেকার ও ভেরিফিকেশন
+              {t("প্রেসক্রিপশন চেকার ও ভেরিফিকেশন", "Prescription Checker & Verification")}
             </span>
             <span className="text-xs text-[#647575] hidden sm:inline">•</span>
-            <span className="text-xs text-[#647575] hidden sm:inline">১০০% ভেরিফাইড রেফারেন্স</span>
+            <span className="text-xs text-[#647575] hidden sm:inline">
+              {t("১০০% ভেরিফাইড রেফারেন্স", "100% Verified Reference")}
+            </span>
           </div>
           <h2 className="text-xl sm:text-2xl font-bold text-[#172B2A] tracking-tight">
-            প্রেসক্রিপশন এনালাইসিস ও ওষুধ নিরাপত্তা চেকার
+            {t("প্রেসক্রিপশন এনালাইসিস ও ওষুধ নিরাপত্তা চেকার", "Prescription Analysis & Drug Safety Hub")}
           </h2>
           <p className="text-xs sm:text-sm text-[#647575]">
-            প্রেসক্রিপশন আপলোড করুন। এআই শনাক্তকৃত ওষুধসমূহ যাচাই করুন, ক্ষতিকর ড্রাগ মিথস্ক্রিয়া জানুন এবং সহজ বাংলায় নির্ভরযোগ্য তথ্য পান।
+            {t(
+              "প্রেসক্রিপশন আপলোড করুন। এআই শনাক্তকৃত ওষুধসমূহ যাচাই করুন, ক্ষতিকর ড্রাগ মিথস্ক্রিয়া জানুন এবং সহজ বাংলায় নির্ভরযোগ্য তথ্য পান।",
+              "Upload your prescription. Review AI-detected medicines, detect potential drug interactions, and access clinical instructions."
+            )}
           </p>
         </div>
 
-        {latency !== null && (
-          <div className="flex items-center gap-2 self-start md:self-center bg-[#F7FAF9] border border-[#E2EAE7] px-3.5 py-2 rounded-lg text-xs">
-            <Clock className="w-4 h-4 text-[#0F766E]" />
-            <div>
-              <div className="text-[10px] uppercase font-bold text-[#647575]">প্রসেসিং সময়</div>
-              <div className="font-mono font-bold text-[#172B2A]">{latency} ms</div>
+        <div className="flex flex-wrap items-center gap-2.5 self-start md:self-center">
+          {/* Daily Quota Indicator Badge (Max 2/day) */}
+          {quotaLoading ? (
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl border border-[#E2EAE7] bg-[#F7FAF9] text-xs text-[#647575] animate-pulse">
+              <RefreshCw className="w-3.5 h-3.5 animate-spin text-[#0F766E]" />
+              <span className="text-[11px] font-medium">{t("কোটা লোড হচ্ছে...", "Checking limit...")}</span>
             </div>
-          </div>
-        )}
-      </div>
+          ) : (
+            <div
+              className={`flex items-center gap-2 px-3 py-2 rounded-xl border text-xs font-semibold shadow-2xs transition-colors ${
+                dailyQuota.remaining > 0
+                  ? "bg-teal-50 border-teal-200/80 text-[#0F766E]"
+                  : "bg-rose-50 border-rose-200 text-rose-700"
+              }`}
+              title={dailyQuota.reset_info}
+            >
+              <ShieldAlert className="w-4 h-4 shrink-0" />
+              <div className="flex items-center gap-1.5">
+                <span className="text-[11px] text-[#647575]">
+                  {t("দৈনিক কোটা:", "Daily Limit:")}
+                </span>
+                <span className="font-bold">
+                  {t(
+                    `${dailyQuota.remaining}/${dailyQuota.daily_limit}টি অবশিষ্ট (ব্যবহৃত: ${dailyQuota.used_today})`,
+                    `${dailyQuota.remaining}/${dailyQuota.daily_limit} Left (Used: ${dailyQuota.used_today})`
+                  )}
+                </span>
+              </div>
+            </div>
+          )}
 
-      {/* ========================================================================= */}
-      {/* 2. SAMPLE PRESET STRIP (Quick Evaluation)                                 */}
-      {/* ========================================================================= */}
-      <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-4 shadow-sm space-y-2.5">
-        <div className="flex items-center justify-between">
-          <span className="text-xs font-semibold text-[#172B2A] flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-[#0F766E]" />
-            দ্রুত পরীক্ষার জন্য ক্লিনিক্যাল স্যাম্পল প্রেসক্রিপশন:
-          </span>
-          <span className="text-[11px] text-[#647575] hidden sm:inline">ক্লিক করলেই স্যাম্পল লোড হবে</span>
-        </div>
+          {latency !== null && (
+            <div className="flex items-center gap-2 bg-[#F7FAF9] border border-[#E2EAE7] px-3.5 py-2 rounded-xl text-xs">
+              <Clock className="w-4 h-4 text-[#0F766E]" />
+              <div>
+                <div className="text-[10px] uppercase font-bold text-[#647575]">
+                  {t("প্রসেসিং সময়", "Processing Time")}
+                </div>
+                <div className="font-mono font-bold text-[#172B2A]">{latency} ms</div>
+              </div>
+            </div>
+          )}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5">
-          {CLINICAL_PRESETS.map((preset, idx) => {
-            const sampleImages = [
-              "/images/hero_prescription_scanner.jpg",
-              "/images/prescription_ai_hero.jpg",
-              "/images/hero_mobile_prescription_mockup.jpg",
-            ];
-            return (
-              <button
-                key={idx}
-                onClick={() => loadPresetPrescription(preset)}
-                className="text-left rounded-lg border border-[#E2EAE7] bg-[#F7FAF9] p-3 hover:border-[#0F766E] hover:bg-[#CCFBF1]/20 transition-all flex gap-3 group cursor-pointer"
-              >
-                <div className="w-16 h-16 rounded-md overflow-hidden bg-slate-900 flex-shrink-0 border border-slate-200">
-                  <img
-                    src={sampleImages[idx % sampleImages.length]}
-                    alt={preset.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  />
-                </div>
-                <div className="flex-1 flex flex-col justify-between min-w-0">
-                  <div>
-                    <div className="text-xs font-bold text-[#172B2A] group-hover:text-[#0F766E] transition-colors truncate">
-                      {preset.title}
-                    </div>
-                    <div className="text-[11px] text-[#B45309] font-medium mt-0.5">{preset.badge}</div>
-                    <div className="text-[11px] text-[#647575] line-clamp-1 mt-0.5">
-                      {preset.medicines.map((m) => m.brand).join(" • ")}
-                    </div>
-                  </div>
-                  <div className="mt-1 flex items-center gap-1 text-[11px] font-semibold text-[#0F766E]">
-                    <span>লোড করুন</span>
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
-                  </div>
-                </div>
-              </button>
-            );
-          })}
+          <button
+            type="button"
+            onClick={() => {
+              setHistoryDrawerOpen(true);
+              fetchHistory();
+            }}
+            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white border border-[#0F766E]/30 hover:border-[#0F766E] hover:bg-[#F0FDFA] text-[#0F766E] text-xs font-bold transition-all shadow-xs cursor-pointer group"
+          >
+            <FolderClock className="w-4 h-4 text-[#0F766E] group-hover:scale-110 transition-transform" />
+            <span>{t("প্রেসক্রিপশন হিস্ট্রি", "Prescription History")}</span>
+            {historyList.length > 0 && (
+              <span className="px-1.5 py-0.5 rounded-full bg-teal-100 text-[#0F766E] text-[10px] font-bold">
+                {historyList.length}
+              </span>
+            )}
+          </button>
         </div>
       </div>
+
+
 
       {/* ========================================================================= */}
       {/* 3. DUAL WORKBENCH LAYOUT (5 Cols Ingestion / 7 Cols Results)              */}
@@ -643,7 +749,7 @@ export const PrescriptionCareHub: React.FC = () => {
             <div className="flex items-center justify-between pb-1 border-b border-[#E2EAE7]">
               <span className="text-xs font-bold text-[#172B2A] flex items-center gap-1.5">
                 <FileText className="w-4 h-4 text-[#0F766E]" />
-                প্রেসক্রিপশন আপলোড ও প্রিভিউ
+                {t("প্রেসক্রিপশন আপলোড ও প্রিভিউ", "Prescription Upload & Preview")}
               </span>
               {imagePreview && (
                 <button
@@ -651,7 +757,7 @@ export const PrescriptionCareHub: React.FC = () => {
                   className="flex items-center gap-1 text-[11px] font-semibold text-[#0F766E] hover:underline cursor-pointer"
                 >
                   <ZoomIn className="w-3 h-3" />
-                  <span>জুম ইন</span>
+                  <span>{t("জুম ইন", "Zoom In")}</span>
                 </button>
               )}
             </div>
@@ -694,8 +800,12 @@ export const PrescriptionCareHub: React.FC = () => {
                         <div className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#0F766E] to-transparent shadow-[0_0_12px_2px_rgba(15,118,110,0.8)] animate-laser-scan pointer-events-none" />
                         <div className="bg-[#FFFFFF] p-3.5 rounded-xl border border-[#0F766E] shadow-xl text-center space-y-1.5 max-w-xs">
                           <RefreshCw className="w-5 h-5 animate-spin text-[#0F766E] mx-auto" />
-                          <div className="text-xs font-bold text-[#172B2A]">টেক্সট ও ওষুধ বিশ্লেষণ হচ্ছে...</div>
-                          <p className="text-[11px] text-[#647575]">১৭,৫৮৯ ভেরিফাইড ডাটাবেজে ম্যাপিং চলছে</p>
+                          <div className="text-xs font-bold text-[#172B2A]">
+                            {t("টেক্সট ও ওষুধ বিশ্লেষণ হচ্ছে...", "Analyzing text & medicines...")}
+                          </div>
+                          <p className="text-[11px] text-[#647575]">
+                            {t("১৭,৫৮৯ ভেরিফাইড ডাটাবেজে ম্যাপিং চলছে", "Mapping against 17,589 verified monograph database")}
+                          </p>
                         </div>
                       </div>
                     )}
@@ -704,7 +814,9 @@ export const PrescriptionCareHub: React.FC = () => {
                   <div className="flex items-center justify-center gap-1.5 text-xs text-[#0F766E] font-medium">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
                     <span className="truncate max-w-[200px]">{selectedFile?.name}</span>
-                    <span className="text-[#647575]">(পরিবর্তন করতে ক্লিক করুন)</span>
+                    <span className="text-[#647575]">
+                      {t("(পরিবর্তন করতে ক্লিক করুন)", "(Click to change)")}
+                    </span>
                   </div>
                 </div>
               ) : (
@@ -714,15 +826,15 @@ export const PrescriptionCareHub: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-[#172B2A]">
-                      প্রেসক্রিপশনের ছবি আপলোড করুন
+                      {t("প্রেসক্রিপশনের ছবি আপলোড করুন", "Upload Prescription Image")}
                     </p>
                     <p className="text-xs text-[#647575] mt-0.5 max-w-xs mx-auto">
-                      ফাইল ড্র্যাগ করে ছাড়ুন অথবা মোবাইল দিয়ে ছবি তুলুন
+                      {t("ফাইল ড্র্যাগ করে ছাড়ুন অথবা মোবাইল দিয়ে ছবি তুলুন", "Drag & drop file or snap with mobile camera")}
                     </p>
                   </div>
 
                   <div className="inline-block rounded-md bg-[#FFFFFF] px-2.5 py-1 text-[11px] text-[#647575] border border-[#E2EAE7]">
-                    JPG, PNG, WEBP (সর্বোচ্চ ১০MB)
+                    {t("JPG, PNG, WEBP (সর্বোচ্চ ১০MB)", "JPG, PNG, WEBP (Max 10MB)")}
                   </div>
 
                   <div className="pt-1">
@@ -735,31 +847,96 @@ export const PrescriptionCareHub: React.FC = () => {
                       className="inline-flex items-center gap-1.5 rounded-lg bg-[#E2EAE7] px-3 py-1.5 text-xs font-semibold text-[#172B2A] hover:bg-[#d5dedb] transition-colors"
                     >
                       <Camera className="w-3.5 h-3.5 text-[#0F766E]" />
-                      <span>ক্যামেরা ওপেন করুন</span>
+                      <span>{t("ক্যামেরা ওপেন করুন", "Open Camera")}</span>
                     </button>
                   </div>
                 </div>
               )}
             </div>
 
+            {/* Daily Quota Notice Card */}
+            {quotaLoading ? (
+              <div className="p-3 rounded-xl border border-[#E2EAE7] bg-[#F7FAF9] text-xs flex items-center justify-between text-[#647575] animate-pulse">
+                <div className="flex items-center gap-2">
+                  <RefreshCw className="w-3.5 h-3.5 animate-spin text-[#0F766E]" />
+                  <span className="text-[11px]">{t("দৈনিক কোটা লোড হচ্ছে...", "Checking daily limit...")}</span>
+                </div>
+                <span className="font-mono text-[11px] font-bold px-2 py-0.5 rounded bg-white border border-[#E2EAE7]">--/2</span>
+              </div>
+            ) : (
+              <div
+                className={`p-3 rounded-xl border text-xs flex items-center justify-between gap-2.5 transition-all ${
+                  dailyQuota.remaining > 0
+                    ? "bg-teal-50/70 border-teal-200/80 text-[#0F766E]"
+                    : "bg-rose-50 border-rose-200 text-rose-700"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <ShieldAlert className="w-4 h-4 shrink-0" />
+                  <div className="flex flex-col">
+                    <span className="font-semibold text-[11px] leading-tight">
+                      {dailyQuota.remaining > 0
+                        ? t(
+                            `প্রতিদিন সর্বোচ্চ ২টি প্রেসক্রিপশন বিশ্লেষণ (আজ ব্যবহৃত: ${dailyQuota.used_today}টি, বাকি: ${dailyQuota.remaining}টি)`,
+                            `Daily Limit: Max 2 analyses per user (Used: ${dailyQuota.used_today}, Left: ${dailyQuota.remaining})`
+                          )
+                        : t(
+                            "আজকের দৈনিক কোটা (২/২) শেষ হয়েছে। রাত ১২:০০টার পর পুনরায় চেষ্টা করুন।",
+                            "Daily limit (2/2) reached. Please try again after midnight."
+                          )}
+                    </span>
+                    <span className="text-[10px] text-[#647575] mt-0.5">
+                      {t("হিস্ট্রি মুছে ফেললেও দৈনিক ব্যবহারের হিসাব অপরিবর্তিত থাকবে", "Quota is based on analysis count and remains even if history is cleared")}
+                    </span>
+                  </div>
+                </div>
+                <span className="font-bold font-mono text-[11px] px-2 py-0.5 rounded bg-white/95 border border-current shrink-0 shadow-2xs">
+                  {dailyQuota.remaining}/2
+                </span>
+              </div>
+            )}
+
             {/* Run Analysis Action Button */}
             <button
               onClick={handleAnalyzePrescription}
-              disabled={!selectedFile || analyzing}
-              className="w-full rounded-lg bg-[#0F766E] py-3 text-sm font-bold text-white hover:bg-[#115E59] shadow-sm transition-all disabled:opacity-50 flex items-center justify-center gap-2 cursor-pointer"
+              disabled={!selectedFile || analyzing || !dailyQuota.can_analyze || dailyQuota.remaining <= 0}
+              className={`w-full rounded-lg py-3 text-sm font-bold text-white shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer ${
+                dailyQuota.remaining <= 0
+                  ? "bg-rose-600/80 cursor-not-allowed opacity-80"
+                  : "bg-[#0F766E] hover:bg-[#115E59] disabled:opacity-50"
+              }`}
             >
               {analyzing ? (
                 <>
                   <RefreshCw className="w-4 h-4 animate-spin" />
-                  <span>ওষুধ শনাক্ত ও প্রসেসিং হচ্ছে...</span>
+                  <span>{t("ওষুধ শনাক্ত ও প্রসেসিং হচ্ছে...", "Detecting medicines & processing...")}</span>
+                </>
+              ) : dailyQuota.remaining <= 0 ? (
+                <>
+                  <ShieldAlert className="w-4 h-4" />
+                  <span>{t("আজকের কোটা শেষ (২/২ সম্পন্ন)", "Daily Limit Reached (2/2 Used)")}</span>
                 </>
               ) : (
                 <>
                   <Scan className="w-4 h-4" />
-                  <span>প্রেসক্রিপশন এনালাইসিস চালান</span>
+                  <span>{t("প্রেসক্রিপশন এনালাইসিস চালান", "Run Prescription Analysis")}</span>
                 </>
               )}
             </button>
+
+            {/* Professional Study Note: Processing Speed & Accuracy Benchmark */}
+            <div className="rounded-xl border border-teal-200/70 bg-teal-50/60 p-3 text-[11px] text-slate-600 space-y-1">
+              <div className="flex items-center gap-1.5 font-bold text-[#0F766E]">
+                <Activity className="w-3.5 h-3.5 shrink-0" />
+                <span>{t("এআই নির্ভুলতা ও প্রসেসিং সময় নির্দেশিকা:", "AI Accuracy & Latency Guide:")}</span>
+              </div>
+              <p className="leading-relaxed">
+                {t(
+                  "গবেষণামূলক প্রজেক্ট হওয়ায় এআই ভিশন বিশ্লেষণে কিছুটা সময় লাগতে পারে। জটিল ও অস্পষ্ট হাতের লেখায় প্রাথমিক নির্ভুলতা সাধারণতঃ ৫০%–৬০% এবং পরিষ্কার বা প্রিন্টেড প্রেসক্রিপশনে ৮০%–৯০% পর্যন্ত নির্ভুল ডাটা পাওয়া যায়। শতভাগ সঠিকতা নিশ্চিতে রিভিউ ট্রেতে ওষুধ যাচাই ও এডিট করার সুবিধা রয়েছে।",
+                  "Because this is an academic research platform, multi-pass vision extraction may take a few seconds. Baseline accuracy is 50%–60% for complex handwriting and 80%–90% for clear or printed prescriptions. Please verify and edit medicines in the review tray."
+                )}
+              </p>
+            </div>
           </div>
         </div>
 
@@ -779,7 +956,7 @@ export const PrescriptionCareHub: React.FC = () => {
                     }`}
                 >
                   <Edit3 className="w-3.5 h-3.5" />
-                  <span>যাচাই ও ওষুধ তালিকা ({medicines.length})</span>
+                  <span>{t(`যাচাই ও ওষুধ (${medicines.length})`, `Review & Medicines (${medicines.length})`)}</span>
                 </button>
 
                 <button
@@ -794,7 +971,7 @@ export const PrescriptionCareHub: React.FC = () => {
                       }`}
                   />
                   <span>
-                    ড্রাগ সেফটি
+                    {t("ড্রাগ সেফটি", "Drug Safety")}
                     {safetyReport && !safetyReport.is_safe && (
                       <span className="ml-1 rounded-full bg-[#B91C1C] text-white px-1.5 py-0.2 text-[10px]">
                         {safetyReport.interactions_count}
@@ -811,7 +988,7 @@ export const PrescriptionCareHub: React.FC = () => {
                     }`}
                 >
                   <MessageSquare className="w-3.5 h-3.5" />
-                  <span>বাংলা চ্যাট (Q&amp;A)</span>
+                  <span>{t("এআই চ্যাট", "AI Consultation")}</span>
                 </button>
 
                 <button
@@ -822,7 +999,7 @@ export const PrescriptionCareHub: React.FC = () => {
                     }`}
                 >
                   <BookOpen className="w-3.5 h-3.5" />
-                  <span>রোগীর সহায়িকা</span>
+                  <span>{t("রোগীর গাইড", "Patient Guide")}</span>
                 </button>
               </div>
 
@@ -838,16 +1015,21 @@ export const PrescriptionCareHub: React.FC = () => {
                       <div className="rounded-xl border border-[#E2EAE7] bg-[#FFFFFF] p-3.5 space-y-1 shadow-sm">
                         <div className="font-bold text-[#0F766E] flex items-center gap-1.5 pb-1 border-b border-[#E2EAE7]">
                           <Stethoscope className="w-3.5 h-3.5" />
-                          <span>চিকিৎসকের বিবরণ (Physician)</span>
+                          <span>{t("চিকিৎসকের বিবরণ (Physician)", "Physician Details")}</span>
                         </div>
                         <div className="pt-0.5">
-                          নাম: <span className="font-bold text-[#172B2A]">{result.clinical_entities.doctor?.name || "N/A"}</span>
+                          {t("নাম: ", "Name: ")}
+                          <span className="font-bold text-[#172B2A]">
+                            {result.clinical_entities.doctor?.name || "N/A"}
+                          </span>
                         </div>
                         <div className="text-[#647575]">
-                          ডিগ্রি: {result.clinical_entities.doctor?.qualification || "N/A"}
+                          {t("ডিগ্রি: ", "Degree: ")}
+                          {result.clinical_entities.doctor?.qualification || "N/A"}
                         </div>
                         <div className="text-[#647575] truncate">
-                          হাসপাতাল: {result.clinical_entities.doctor?.hospital || "N/A"}
+                          {t("হাসপাতাল: ", "Hospital: ")}
+                          {result.clinical_entities.doctor?.hospital || "N/A"}
                         </div>
                       </div>
 
@@ -855,14 +1037,23 @@ export const PrescriptionCareHub: React.FC = () => {
                       <div className="rounded-xl border border-[#E2EAE7] bg-[#FFFFFF] p-3.5 space-y-1 shadow-sm">
                         <div className="font-bold text-[#0F766E] flex items-center gap-1.5 pb-1 border-b border-[#E2EAE7]">
                           <User className="w-3.5 h-3.5" />
-                          <span>রোগী ও শারীরিক পরিমাপ (Vitals)</span>
+                          <span>{t("রোগী ও শারীরিক পরিমাপ (Vitals)", "Patient & Vitals")}</span>
                         </div>
                         <div className="pt-0.5">
-                          নাম: <span className="font-bold text-[#172B2A]">{result.clinical_entities.patient?.name || "N/A"}</span>
+                          {t("নাম: ", "Name: ")}
+                          <span className="font-bold text-[#172B2A]">
+                            {result.clinical_entities.patient?.name || "N/A"}
+                          </span>
                         </div>
                         <div className="flex items-center gap-3 text-[#647575]">
-                          <span>বয়স: {result.clinical_entities.patient?.age || "N/A"}</span>
-                          <span>তারিখ: {result.clinical_entities.patient?.date || "16.05.2024"}</span>
+                          <span>
+                            {t("বয়স: ", "Age: ")}
+                            {result.clinical_entities.patient?.age || "N/A"}
+                          </span>
+                          <span>
+                            {t("তারিখ: ", "Date: ")}
+                            {result.clinical_entities.patient?.date || "16.05.2024"}
+                          </span>
                         </div>
                         <div className="flex items-center gap-3 pt-0.5">
                           <span className="font-mono font-bold text-[#B91C1C]">
@@ -876,20 +1067,48 @@ export const PrescriptionCareHub: React.FC = () => {
                     </div>
                   )}
 
+                  {saveToast && (
+                    <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-xs font-semibold flex items-center gap-2 animate-in fade-in">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <span>{saveToast}</span>
+                    </div>
+                  )}
+
                   {/* Medicines Review Table / List with Verification Statuses */}
                   <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-5 shadow-sm space-y-3.5">
                     <div className="flex items-center justify-between pb-2 border-b border-[#E2EAE7]">
                       <div>
                         <h3 className="font-bold text-sm text-[#172B2A]">
-                          শনাক্তকৃত ওষুধ যাচাইকরণ (Medicine Verification)
+                          {t("শনাক্তকৃত ওষুধ যাচাইকরণ (Medicine Verification)", "Detected Medicine Verification")}
                         </h3>
                         <p className="text-[11px] text-[#647575]">
-                          অস্পষ্ট নাম থাকলে &ldquo;সংশোধন&rdquo; বাটনে ক্লিক করে সঠিক নাম নির্বাচন করুন
+                          {t(
+                            "অস্পষ্ট নাম থাকলে সংশোধন বাটনে ক্লিক করে সঠিক নাম নির্বাচন করুন",
+                            "If medicine name is unclear, click edit to choose the verified medicine"
+                          )}
                         </p>
                       </div>
-                      <span className="text-xs font-semibold text-[#0F766E] bg-[#CCFBF1] px-2.5 py-0.5 rounded">
-                        {medicines.filter((m) => m.included).length}টি নির্বাচিত
-                      </span>
+                      <div className="flex items-center gap-2">
+                        {currentPrescriptionId && (
+                          <span
+                            className="font-mono text-[10px] text-[#0F766E] bg-teal-50 px-2 py-1 rounded-md border border-teal-200/80 font-bold tracking-tight shadow-2xs"
+                            title={t("বর্তমান প্রেসক্রিপশন আইডি (যেকোনো পরিবর্তন এই আইডিতে আপডেট হবে)", "Active Prescription ID (changes update this ID)")}
+                          >
+                            ID: {currentPrescriptionId}
+                          </span>
+                        )}
+                        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-emerald-50 border border-emerald-200/80 text-emerald-700 text-[11px] font-semibold">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                          <span>{t("ডাটাবেজে সংরক্ষিত", "Auto-Saved to DB")}</span>
+                        </span>
+
+                        <span className="text-xs font-semibold text-[#0F766E] bg-[#CCFBF1] px-2.5 py-1 rounded">
+                          {t(
+                            `${medicines.filter((m) => m.included).length}টি নির্বাচিত`,
+                            `${medicines.filter((m) => m.included).length} Selected`
+                          )}
+                        </span>
+                      </div>
                     </div>
 
                     <div className="space-y-2.5">
@@ -916,23 +1135,24 @@ export const PrescriptionCareHub: React.FC = () => {
                                   {med.status === "confirmed" && (
                                     <span className="inline-flex items-center gap-1 rounded bg-[#15803D]/10 text-[#15803D] border border-[#15803D]/20 px-2 py-0.2 text-[10px] font-semibold">
                                       <CheckCircle2 className="w-3 h-3" />
-                                      ভেরিফাইড
+                                      {t("ভেরিফাইড", "Verified")}
                                     </span>
                                   )}
                                   {med.status === "uncertain" && (
                                     <span className="inline-flex items-center gap-1 rounded bg-[#B45309]/10 text-[#B45309] border border-[#B45309]/20 px-2 py-0.2 text-[10px] font-semibold">
                                       <AlertTriangle className="w-3 h-3" />
-                                      যাচাই প্রয়োজন ({med.confidence}%)
+                                      {t(`যাচাই প্রয়োজন (${med.confidence}%)`, `Needs Review (${med.confidence}%)`)}
                                     </span>
                                   )}
                                   {med.status === "unmatched" && (
                                     <span className="inline-flex items-center gap-1 rounded bg-zinc-100 text-[#647575] border border-zinc-200 px-2 py-0.2 text-[10px] font-semibold">
-                                      ম্যানুয়াল এন্ট্রি
+                                      {t("ম্যানুয়াল এন্ট্রি", "Manual Entry")}
                                     </span>
                                   )}
                                 </div>
                                 <div className="text-xs text-[#0F766E] font-medium mt-0.5">
-                                  জেনেরিক: {med.generic}
+                                  {t("জেনেরিক: ", "Generic: ")}
+                                  {med.generic}
                                 </div>
                               </div>
                             </div>
@@ -941,14 +1161,14 @@ export const PrescriptionCareHub: React.FC = () => {
                               <button
                                 onClick={() => setEditingMedicine(med)}
                                 className="text-[#647575] hover:text-[#0F766E] p-1 rounded hover:bg-[#E2EAE7]/60 transition-colors"
-                                title="সংশোধন করুন"
+                                title={t("সংশোধন করুন", "Edit")}
                               >
                                 <Edit3 className="w-3.5 h-3.5" />
                               </button>
                               <button
                                 onClick={() => handleRemoveDrug(med.id)}
                                 className="text-[#647575] hover:text-[#B91C1C] p-1 rounded hover:bg-[#E2EAE7]/60 transition-colors"
-                                title="বাদ দিন"
+                                title={t("বাদ দিন", "Remove")}
                               >
                                 <Trash2 className="w-3.5 h-3.5" />
                               </button>
@@ -957,14 +1177,15 @@ export const PrescriptionCareHub: React.FC = () => {
 
                           <div className="pt-2 border-t border-[#E2EAE7] flex items-center justify-between text-xs">
                             <span className="font-mono font-medium text-[#172B2A]">
-                              মাত্রা: {med.dosage}
+                              {t("মাত্রা: ", "Dosage: ")}
+                              {med.dosage}
                             </span>
                             <button
                               onClick={() => handleOpenDrugModal(med.generic || med.brand)}
                               className="text-[11px] font-semibold text-[#0F766E] hover:underline flex items-center gap-1 cursor-pointer"
                             >
                               <Info className="w-3 h-3" />
-                              <span>মনোগ্রাফ দেখুন</span>
+                              <span>{t("মনোগ্রাফ দেখুন", "View Monograph")}</span>
                             </button>
                           </div>
                         </div>
@@ -976,7 +1197,10 @@ export const PrescriptionCareHub: React.FC = () => {
                       <div className="flex items-center gap-2">
                         <input
                           type="text"
-                          placeholder="অতিরিক্ত ওষুধ বা জেনেরিক নাম লিখুন (যেমন: Aspirin, Metformin)..."
+                          placeholder={t(
+                            "অতিরিক্ত ওষুধ বা জেনেরিক নাম লিখুন (যেমন: Aspirin, Metformin)...",
+                            "Enter extra medicine or generic name (e.g. Aspirin, Metformin)..."
+                          )}
                           value={newDrugInput}
                           onChange={(e) => setNewDrugInput(e.target.value)}
                           onKeyDown={(e) => e.key === "Enter" && handleAddDrug()}
@@ -987,12 +1211,12 @@ export const PrescriptionCareHub: React.FC = () => {
                           className="rounded-lg bg-[#172B2A] px-4 py-2 text-xs font-bold text-white hover:bg-black transition-colors flex items-center gap-1 cursor-pointer"
                         >
                           <Plus className="w-3.5 h-3.5" />
-                          <span>যোগ করুন</span>
+                          <span>{t("যোগ করুন", "Add")}</span>
                         </button>
                       </div>
 
                       <div className="flex flex-wrap items-center gap-1.5 text-[11px]">
-                        <span className="text-[#647575]">কমন ওষুধ:</span>
+                        <span className="text-[#647575]">{t("কমন ওষুধ:", "Common Drugs:")}</span>
                         {COMMON_DRUG_CHIPS.slice(0, 6).map((drug) => (
                           <button
                             key={drug}
@@ -1017,10 +1241,13 @@ export const PrescriptionCareHub: React.FC = () => {
                     <div>
                       <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
                         <ShieldAlert className="w-4 h-4 text-[#B45309]" />
-                        ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug-Drug Safety)
+                        {t("ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug-Drug Safety)", "Drug-Drug Safety & Interaction Warnings")}
                       </h3>
                       <p className="text-[11px] text-[#647575]">
-                        ভেরিফাইড ফার্মাকোলজিক্যাল লিটারেচার অনুযায়ী ক্ষতিকর মিথস্ক্রিয়া যাচাই
+                        {t(
+                          "ভেরিফাইড ফার্মাকোলজিক্যাল লিটারেচার অনুযায়ী ক্ষতিকর মিথস্ক্রিয়া যাচাই",
+                          "Verified pairwise interactions against pharmacological literature"
+                        )}
                       </p>
                     </div>
 
@@ -1032,12 +1259,12 @@ export const PrescriptionCareHub: React.FC = () => {
                       {safetyLoading ? (
                         <>
                           <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                          <span>যাচাই হচ্ছে...</span>
+                          <span>{t("যাচাই হচ্ছে...", "Checking...")}</span>
                         </>
                       ) : (
                         <>
                           <ShieldCheck className="w-3.5 h-3.5" />
-                          <span>পুনরায় পরীক্ষা করুন</span>
+                          <span>{t("পুনরায় পরীক্ষা করুন", "Re-check Safety")}</span>
                         </>
                       )}
                     </button>
@@ -1045,17 +1272,18 @@ export const PrescriptionCareHub: React.FC = () => {
 
                   {safetyReport ? (
                     <div className="space-y-3">
-                      {/* Safety Status Banner complying with brief rule:
-                          "Never label a medicine combination as safe merely because no interaction was found." */}
                       {safetyReport.is_safe ? (
                         <div className="rounded-lg p-4 border border-[#E2EAE7] bg-[#F7FAF9] flex items-start gap-3">
                           <CheckCircle2 className="w-5 h-5 text-[#15803D] flex-shrink-0 mt-0.5" />
                           <div className="space-y-0.5">
                             <div className="font-bold text-sm text-[#172B2A]">
-                              কোনো সরাসরি ক্ষতিকর মিথস্ক্রিয়া নথিভুক্ত নেই
+                              {t("কোনো সরাসরি ক্ষতিকর মিথস্ক্রিয়া নথিভুক্ত নেই", "No direct adverse interactions documented")}
                             </div>
                             <p className="text-[#647575] leading-relaxed text-[11px]">
-                              বর্তমান ডাটাবেজে এই ওষুধগুলোর মধ্যে সরাসরি কোনো ক্ষতিকর ইন্টারঅ্যাকশন পাওয়া যায়নি। তবে কোনো নতুন ওষুধ শুরু বা বন্ধ করার পূর্বে সর্বদা আপনার চিকিৎসকের পরামর্শ নিশ্চিত করুন।
+                              {t(
+                                "বর্তমান ডাটাবেজে এই ওষুধগুলোর মধ্যে সরাসরি কোনো ক্ষতিকর ইন্টারঅ্যাকশন পাওয়া যায়নি। তবে কোনো নতুন ওষুধ শুরু বা বন্ধ করার পূর্বে সর্বদা আপনার চিকিৎসকের পরামর্শ নিশ্চিত করুন।",
+                                "No direct adverse interactions found in our monograph database. However, always consult your physician before starting or altering any medication schedule."
+                              )}
                             </p>
                           </div>
                         </div>
@@ -1064,10 +1292,16 @@ export const PrescriptionCareHub: React.FC = () => {
                           <AlertTriangle className="w-5 h-5 text-[#B91C1C] flex-shrink-0 mt-0.5" />
                           <div className="space-y-0.5">
                             <div className="font-bold text-sm text-[#B91C1C]">
-                              সতর্কতা: {safetyReport.interactions_count}টি সম্ভাব্য ক্ষতিকর ড্রাগ মিথস্ক্রিয়া শনাক্ত হয়েছে
+                              {t(
+                                `সতর্কতা: ${safetyReport.interactions_count}টি সম্ভাব্য ক্ষতিকর ড্রাগ মিথস্ক্রিয়া শনাক্ত হয়েছে`,
+                                `Warning: ${safetyReport.interactions_count} potential adverse drug interactions detected`
+                              )}
                             </div>
                             <p className="text-[#172B2A] text-[11px]">
-                              নিচের সতর্কতা অনুযায়ী সময় ব্যবধান বজায় রাখুন অথবা চিকিৎসকের সাথে পরামর্শ করুন।
+                              {t(
+                                "নিচের সতর্কতা অনুযায়ী সময় ব্যবধান বজায় রাখুন অথবা চিকিৎসকের সাথে পরামর্শ করুন।",
+                                "Follow the timing intervals and clinical guidance below or consult your doctor."
+                              )}
                             </p>
                           </div>
                         </div>
@@ -1091,16 +1325,16 @@ export const PrescriptionCareHub: React.FC = () => {
                                     : "bg-[#B45309]/10 text-[#B45309] border border-[#B45309]/30"
                                 }`}
                             >
-                              {item.severity_bn} ({item.severity})
+                              {lang === "bn" ? item.severity_bn : item.severity} ({item.severity})
                             </span>
                           </div>
 
                           <div className="space-y-1">
                             <div>
-                              <strong className="text-[#172B2A]">ক্লিনিক্যাল প্রভাব: </strong>
-                              <span className="text-[#647575]">{item.effect_bn}</span>
+                              <strong className="text-[#172B2A]">{t("ক্লিনিক্যাল প্রভাব: ", "Clinical Effect: ")}</strong>
+                              <span className="text-[#647575]">{lang === "bn" ? item.effect_bn : (item.effect_en || item.effect_bn)}</span>
                             </div>
-                            {item.effect_en && (
+                            {item.effect_en && lang === "bn" && (
                               <div className="text-[11px] text-[#647575] italic">
                                 Scientific note: {item.effect_en}
                               </div>
@@ -1108,15 +1342,17 @@ export const PrescriptionCareHub: React.FC = () => {
                           </div>
 
                           <div className="p-3 rounded bg-[#CCFBF1]/40 border border-[#CCFBF1] text-[#0F766E] space-y-0.5">
-                            <strong className="font-bold block">চিকিৎসকের করণীয় ও পরামর্শ:</strong>
-                            <p className="leading-relaxed text-[#172B2A]">{item.recommendation_bn}</p>
+                            <strong className="font-bold block">{t("চিকিৎসকের করণীয় ও পরামর্শ:", "Physician & Caregiver Advice:")}</strong>
+                            <p className="leading-relaxed text-[#172B2A]">
+                              {lang === "bn" ? item.recommendation_bn : (item.recommendation_en || item.recommendation_bn)}
+                            </p>
                           </div>
                         </div>
                       ))}
                     </div>
                   ) : (
                     <div className="text-center py-6 text-xs text-[#647575]">
-                      ওষুধসমূহ নির্বাচন করে &ldquo;পুনরায় পরীক্ষা করুন&rdquo; বাটনে চাপ দিন।
+                      {t("ওষুধসমূহ নির্বাচন করে পুনরায় পরীক্ষা করুন বাটনে চাপ দিন।", "Select medicines and click Re-check Safety.")}
                     </div>
                   )}
                 </div>
@@ -1131,10 +1367,10 @@ export const PrescriptionCareHub: React.FC = () => {
                     <div>
                       <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
                         <MessageSquare className="w-4 h-4 text-[#0F766E]" />
-                        প্রেসক্রিপশন এআই কনসালটেশন (Bangla RAG Chat)
+                        {t("প্রেসক্রিপশন এআই কনসালটেশন (RAG Medical Chat)", "Prescription AI Consultation (RAG Medical Chat)")}
                       </h3>
                       <p className="text-[11px] text-[#647575]">
-                        বর্তমান প্রেসক্রিপশনের ওষুধসমূহ নিয়ে যেকোনো প্রশ্ন করুন
+                        {t("বর্তমান প্রেসক্রিপশনের ওষুধসমূহ নিয়ে যেকোনো প্রশ্ন করুন", "Ask any question regarding your prescribed medications")}
                       </p>
                     </div>
                     <span className="text-[11px] font-semibold text-[#0F766E] bg-[#CCFBF1] px-2 py-0.5 rounded">
@@ -1144,19 +1380,19 @@ export const PrescriptionCareHub: React.FC = () => {
 
                   {/* Contextual Suggestion Chips */}
                   <div className="space-y-1">
-                    <span className="text-[11px] font-medium text-[#647575]">কমন প্রশ্ন:</span>
+                    <span className="text-[11px] font-medium text-[#647575]">{t("কমন প্রশ্ন:", "Suggested Questions:")}</span>
                     <div className="flex flex-wrap gap-1.5 text-xs">
                       {[
-                        "এই ওষুধগুলো কি খাবারের আগে না পরে খাব?",
-                        "ওষুধগুলোর কোনো ক্ষতিকর পার্শ্বপ্রতিক্রিয়া বা সতর্কতা আছে?",
-                        "ডোজ ভুলে গেলে বা মিস হলে কী করা উচিত?",
-                      ].map((q, idx) => (
+                        { bn: "এই ওষুধগুলো কি খাবারের আগে না পরে খাব?", en: "Should I take these medicines before or after meals?" },
+                        { bn: "ওষুধগুলোর কোনো ক্ষতিকর পার্শ্বপ্রতিক্রিয়া বা সতর্কতা আছে?", en: "Are there any notable side effects or precautions?" },
+                        { bn: "ডোজ ভুলে গেলে বা মিস হলে কী করা উচিত?", en: "What should I do if I miss a scheduled dose?" },
+                      ].map((qObj, idx) => (
                         <button
                           key={idx}
-                          onClick={() => handleSendChatMessage(q)}
+                          onClick={() => handleSendChatMessage(lang === "bn" ? qObj.bn : qObj.en)}
                           className="rounded-lg border border-[#E2EAE7] bg-[#F7FAF9] px-2.5 py-1 text-[#172B2A] hover:bg-[#CCFBF1] hover:text-[#0F766E] transition-colors text-left cursor-pointer"
                         >
-                          {q}
+                          {t(qObj.bn, qObj.en)}
                         </button>
                       ))}
                     </div>
@@ -1201,7 +1437,7 @@ export const PrescriptionCareHub: React.FC = () => {
                     {chatLoading && (
                       <div className="flex gap-2 items-center text-[#647575] text-xs py-1">
                         <RefreshCw className="w-3.5 h-3.5 animate-spin text-[#0F766E]" />
-                        <span>ক্লিনিক্যাল রেফারেন্স থেকে উত্তর প্রস্তুত হচ্ছে...</span>
+                        <span>{t("ক্লিনিক্যাল রেফারেন্স থেকে উত্তর প্রস্তুত হচ্ছে...", "Retrieving answer from clinical monographs...")}</span>
                       </div>
                     )}
                     <div ref={chatEndRef} />
@@ -1217,7 +1453,7 @@ export const PrescriptionCareHub: React.FC = () => {
                   >
                     <input
                       type="text"
-                      placeholder="এই প্রেসক্রিপশন নিয়ে যেকোনো প্রশ্ন বাংলায় লিখুন..."
+                      placeholder={t("এই প্রেসক্রিপশন নিয়ে যেকোনো প্রশ্ন লিখুন...", "Ask any question about this prescription...")}
                       value={inputQuestion}
                       onChange={(e) => setInputQuestion(e.target.value)}
                       disabled={chatLoading}
@@ -1229,14 +1465,14 @@ export const PrescriptionCareHub: React.FC = () => {
                       className="rounded-lg bg-[#0F766E] px-4 py-2.5 text-xs font-bold text-white hover:bg-[#115E59] transition-colors disabled:opacity-50 flex items-center gap-1 cursor-pointer"
                     >
                       <Send className="w-3.5 h-3.5" />
-                      <span>পাঠান</span>
+                      <span>{t("পাঠান", "Send")}</span>
                     </button>
                   </form>
                 </div>
               )}
 
               {/* =================================================================== */}
-              {/* TAB 4: CLINICAL BANGLA PATIENT GUIDE                               */}
+              {/* TAB 4: CLINICAL PATIENT GUIDE                                       */}
               {/* =================================================================== */}
               {activeTab === "guide" && (
                 <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-5 shadow-sm space-y-4 text-xs">
@@ -1244,10 +1480,10 @@ export const PrescriptionCareHub: React.FC = () => {
                     <div>
                       <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
                         <BookOpen className="w-4 h-4 text-[#0F766E]" />
-                        রোগীর সহজ সহায়িকা (Patient Guidance)
+                        {t("রোগীর সহজ সহায়িকা (Patient Guidance)", "Patient Clinical Guide & Schedule")}
                       </h3>
                       <p className="text-[11px] text-[#647575]">
-                        প্রতিটি ওষুধের কাজ ও খাওয়ার সহজ সময়সূচি
+                        {t("প্রতিটি ওষুধের কাজ ও খাওয়ার সহজ সময়সূচি", "Clear instructions detailing indication, meal intervals, and precautions")}
                       </p>
                     </div>
 
@@ -1259,12 +1495,12 @@ export const PrescriptionCareHub: React.FC = () => {
                       {explainLoading ? (
                         <>
                           <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                          <span>প্রস্তুত হচ্ছে...</span>
+                          <span>{t("প্রস্তুত হচ্ছে...", "Generating...")}</span>
                         </>
                       ) : (
                         <>
                           <Sparkles className="w-3.5 h-3.5" />
-                          <span>{explanation ? "পুনরায় তৈরি করুন" : "বাংলায় পূর্ণাঙ্গ সহায়িকা পান"}</span>
+                          <span>{explanation ? t("পুনরায় তৈরি করুন", "Regenerate Guide") : t("পূর্ণাঙ্গ সহায়িকা পান", "Generate Full Guide")}</span>
                         </>
                       )}
                     </button>
@@ -1280,12 +1516,12 @@ export const PrescriptionCareHub: React.FC = () => {
                           {copiedExplanation ? (
                             <>
                               <Check className="w-3 h-3 text-[#15803D]" />
-                              <span>কপি হয়েছে</span>
+                              <span>{t("কপি হয়েছে", "Copied")}</span>
                             </>
                           ) : (
                             <>
                               <Copy className="w-3 h-3" />
-                              <span>কপি করুন</span>
+                              <span>{t("কপি করুন", "Copy")}</span>
                             </>
                           )}
                         </button>
@@ -1293,30 +1529,52 @@ export const PrescriptionCareHub: React.FC = () => {
                       </div>
 
                       <div className="flex items-center justify-between text-[11px] text-[#647575]">
-                        <span>প্রোভাইডার: {explanation.llm_metadata?.provider || "Groq Qwen"}</span>
-                        <span>সময়: {explanation.execution_time_ms} ms</span>
+                        <span>{t("প্রোভাইডার: ", "Provider: ")}{explanation.llm_metadata?.provider || "Groq Qwen"}</span>
+                        <span>{t("সময়: ", "Time: ")}{explanation.execution_time_ms} ms</span>
                       </div>
                     </div>
                   ) : (
                     <div className="p-6 rounded-lg border border-dashed border-[#E2EAE7] text-center text-xs text-[#647575]">
-                      উপরের বাটনে চাপ দিলে ওষুধের কাজ ও নিয়ম সহজ বাংলায় প্রস্তুত হবে।
+                      {t("উপরের বাটনে চাপ দিলে ওষুধের কাজ ও নিয়ম সহজ ভাষায় প্রস্তুত হবে।", "Click the button above to generate comprehensive patient instructions.")}
                     </div>
                   )}
                 </div>
               )}
+
             </div>
           ) : (
             /* Empty State */
-            <div className="rounded-xl border border-dashed border-[#E2EAE7] bg-[#FFFFFF] p-12 text-center text-[#647575] space-y-3">
+            <div className="rounded-xl border border-dashed border-[#E2EAE7] bg-[#FFFFFF] p-12 text-center text-[#647575] space-y-4">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-[#F7FAF9] text-[#647575]">
                 <FileCheck2 className="w-7 h-7" />
               </div>
-              <h3 className="font-bold text-base text-[#172B2A]">
-                প্রেসক্রিপশন এখনো আপলোড করা হয়নি
-              </h3>
-              <p className="text-xs text-[#647575] max-w-sm mx-auto leading-relaxed">
-                বামে প্রেসক্রিপশনের ছবি আপলোড করুন অথবা স্যাম্পল প্রেসক্রিপশন লোড করে <strong>&ldquo;প্রেসক্রিপশন এনালাইসিস চালান&rdquo;</strong> বাটনে চাপ দিন।
-              </p>
+              <div className="space-y-1">
+                <h3 className="font-bold text-base text-[#172B2A]">
+                  {t("প্রেসক্রিপশন এখনো আপলোড করা হয়নি", "No Prescription Uploaded Yet")}
+                </h3>
+                <p className="text-xs text-[#647575] max-w-sm mx-auto leading-relaxed">
+                  {t(
+                    "বামে প্রেসক্রিপশনের ছবি আপলোড করুন এবং \"প্রেসক্রিপশন এনালাইসিস চালান\" বাটনে চাপ দিন।",
+                    "Upload your prescription image on the left and click 'Run Prescription Analysis'."
+                  )}
+                </p>
+              </div>
+
+              {historyList.length > 0 && (
+                <div className="pt-2 flex justify-center">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setHistoryDrawerOpen(true);
+                      fetchHistory();
+                    }}
+                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-teal-50 border border-teal-200/80 text-[#0F766E] hover:bg-teal-100 font-bold text-xs transition-all cursor-pointer shadow-xs"
+                  >
+                    <FolderClock className="w-4 h-4" />
+                    <span>{t(`সংরক্ষিত প্রেসক্রিপশন হিস্ট্রি দেখুন (${historyList.length})`, `View Saved Prescription History (${historyList.length})`)}</span>
+                  </button>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -1331,7 +1589,7 @@ export const PrescriptionCareHub: React.FC = () => {
             <div className="flex items-center justify-between pb-2 border-b border-[#E2EAE7]">
               <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
                 <Edit3 className="w-4 h-4 text-[#0F766E]" />
-                ওষুধের নাম ও ডোজ সংশোধন
+                {t("ওষুধের নাম ও ডোজ সংশোধন", "Edit Medicine & Dosage")}
               </h3>
               <button
                 onClick={() => setEditingMedicine(null)}
@@ -1343,7 +1601,7 @@ export const PrescriptionCareHub: React.FC = () => {
 
             <div className="space-y-3">
               <div className="space-y-1">
-                <label className="font-bold text-[#172B2A]">ব্র্যান্ডের নাম</label>
+                <label className="font-bold text-[#172B2A]">{t("ব্র্যান্ডের নাম", "Brand Name")}</label>
                 <input
                   type="text"
                   value={editingMedicine.brand}
@@ -1353,7 +1611,7 @@ export const PrescriptionCareHub: React.FC = () => {
               </div>
 
               <div className="space-y-1">
-                <label className="font-bold text-[#172B2A]">জেনেরিক নাম</label>
+                <label className="font-bold text-[#172B2A]">{t("জেনেরিক নাম", "Generic Name")}</label>
                 <input
                   type="text"
                   value={editingMedicine.generic}
@@ -1363,7 +1621,7 @@ export const PrescriptionCareHub: React.FC = () => {
               </div>
 
               <div className="space-y-1">
-                <label className="font-bold text-[#172B2A]">সেবনবিধি ও সময় (Dosage)</label>
+                <label className="font-bold text-[#172B2A]">{t("সেবনবিধি ও সময় (Dosage)", "Dosage & Schedule")}</label>
                 <input
                   type="text"
                   value={editingMedicine.dosage}
@@ -1379,14 +1637,14 @@ export const PrescriptionCareHub: React.FC = () => {
                 onClick={() => setEditingMedicine(null)}
                 className="px-3 py-2 rounded-lg border border-[#E2EAE7] text-[#647575] font-semibold hover:bg-[#F7FAF9]"
               >
-                বাতিল
+                {t("বাতিল", "Cancel")}
               </button>
               <button
                 type="button"
                 onClick={() => handleSaveEdit({ ...editingMedicine, status: "confirmed" })}
                 className="px-4 py-2 rounded-lg bg-[#0F766E] text-white font-bold hover:bg-[#115E59]"
               >
-                সংরক্ষণ ও নিশ্চিত করুন
+                {t("সংরক্ষণ ও নিশ্চিত করুন", "Save & Confirm")}
               </button>
             </div>
           </div>
@@ -1403,7 +1661,7 @@ export const PrescriptionCareHub: React.FC = () => {
               <div className="flex items-center gap-2">
                 <Pill className="w-5 h-5 text-[#0F766E]" />
                 <h3 className="font-bold text-base text-[#172B2A]">
-                  {modalDrugName} — ক্লিনিক্যাল মনোগ্রাফ
+                  {modalDrugName} — {t("ক্লিনিক্যাল মনোগ্রাফ", "Clinical Monograph")}
                 </h3>
               </div>
               <button
@@ -1417,62 +1675,255 @@ export const PrescriptionCareHub: React.FC = () => {
             {modalLoading ? (
               <div className="py-12 text-center text-[#647575] flex flex-col items-center gap-2">
                 <RefreshCw className="w-5 h-5 animate-spin text-[#0F766E]" />
-                <span>ওষুধের তথ্য লোড হচ্ছে...</span>
+                <span>{t("ওষুধের তথ্য লোড হচ্ছে...", "Loading medicine information...")}</span>
               </div>
             ) : modalDrugData ? (
               <div className="space-y-4">
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-[#F7FAF9] p-3 rounded-lg border border-[#E2EAE7]">
                   <div>
-                    <div className="text-[10px] text-[#647575]">ব্র্যান্ড</div>
+                    <div className="text-[10px] text-[#647575]">{t("ব্র্যান্ড", "Brand")}</div>
                     <div className="font-bold text-[#172B2A]">{modalDrugData.brand_name}</div>
                   </div>
                   <div>
-                    <div className="text-[10px] text-[#647575]">জেনেরিক</div>
+                    <div className="text-[10px] text-[#647575]">{t("জেনেরিক", "Generic")}</div>
                     <div className="font-bold text-[#0F766E]">{modalDrugData.generic_name}</div>
                   </div>
                   <div>
-                    <div className="text-[10px] text-[#647575]">শক্তি ও ফর্ম</div>
+                    <div className="text-[10px] text-[#647575]">{t("শক্তি ও ফর্ম", "Strength & Form")}</div>
                     <div className="font-bold text-[#172B2A]">{modalDrugData.strength} ({modalDrugData.form})</div>
                   </div>
                   <div>
-                    <div className="text-[10px] text-[#647575]">কোম্পানি</div>
+                    <div className="text-[10px] text-[#647575]">{t("কোম্পানি", "Company")}</div>
                     <div className="font-bold text-[#172B2A] truncate">{modalDrugData.manufacturer || "N/A"}</div>
                   </div>
                 </div>
 
                 {modalDrugData.indication && (
                   <div className="rounded-lg border border-[#E2EAE7] p-3.5 space-y-1">
-                    <div className="font-bold text-[#0F766E]">রোগ নির্দেশনা (Indication):</div>
+                    <div className="font-bold text-[#0F766E]">{t("রোগ নির্দেশনা (Indication):", "Clinical Indication:")}</div>
                     <p className="text-[#172B2A] leading-relaxed">{modalDrugData.indication}</p>
                   </div>
                 )}
 
                 {modalDrugData.dose && (
                   <div className="rounded-lg border border-[#E2EAE7] p-3.5 space-y-1">
-                    <div className="font-bold text-[#0F766E]">সেবনবিধি ও মাত্রা (Dose &amp; Administration):</div>
+                    <div className="font-bold text-[#0F766E]">{t("সেবনবিধি ও মাত্রা (Dose & Administration):", "Dosage & Administration:")}</div>
                     <p className="text-[#172B2A] leading-relaxed">{modalDrugData.dose}</p>
                   </div>
                 )}
 
                 {modalDrugData.side_effect && (
                   <div className="rounded-lg border border-[#E2EAE7] p-3.5 space-y-1">
-                    <div className="font-bold text-[#B45309]">পার্শ্বপ্রতিক্রিয়া (Side Effects):</div>
+                    <div className="font-bold text-[#B45309]">{t("পার্শ্বপ্রতিক্রিয়া (Side Effects):", "Side Effects:")}</div>
                     <p className="text-[#172B2A] leading-relaxed">{modalDrugData.side_effect}</p>
                   </div>
                 )}
 
                 {modalDrugData.contra_indication && (
                   <div className="rounded-lg border border-[#E2EAE7] p-3.5 space-y-1">
-                    <div className="font-bold text-[#B91C1C]">প্রতিনির্দেশনা (Contraindication):</div>
+                    <div className="font-bold text-[#B91C1C]">{t("প্রতিনির্দেশনা (Contraindication):", "Contraindications:")}</div>
                     <p className="text-[#172B2A] leading-relaxed">{modalDrugData.contra_indication}</p>
                   </div>
                 )}
               </div>
             ) : (
               <div className="py-8 text-center text-[#647575]">
-                এই ওষুধটির বিশদ তথ্য পাওয়া যায়নি।
+                {t("এই ওষুধটির বিশদ তথ্য পাওয়া যায়নি।", "Detailed information not found for this medicine.")}
               </div>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 5. SLIDE-OVER PRESCRIPTION HISTORY DRAWER                                 */}
+      {/* ========================================================================= */}
+      {historyDrawerOpen && (
+        <div className="fixed inset-0 z-50 overflow-hidden">
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black/40 backdrop-blur-xs transition-opacity animate-in fade-in cursor-pointer"
+            onClick={() => setHistoryDrawerOpen(false)}
+          />
+
+          <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
+            <div className="w-screen max-w-md bg-white shadow-2xl flex flex-col border-l border-[#E2EAE7] animate-in slide-in-from-right duration-300">
+              {/* Drawer Header */}
+              <div className="p-5 border-b border-[#E2EAE7] flex items-center justify-between bg-[#F7FAF9]">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-lg bg-teal-100 text-[#0F766E] flex items-center justify-center font-bold">
+                    <FolderClock className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-2">
+                      {t("প্রেসক্রিপশন হিস্ট্রি", "Prescription History")}
+                      {historyList.length > 0 && (
+                        <span className="px-2 py-0.5 rounded-full bg-teal-50 text-[#0F766E] text-[11px] font-bold border border-teal-200">
+                          {historyList.length}
+                        </span>
+                      )}
+                    </h3>
+                    <p className="text-[11px] text-[#647575]">
+                      {t("স্বয়ংক্রিয়ভাবে সংরক্ষিত পূর্ববর্তী প্রেসক্রিপশনসমূহ", "Auto-saved prescription analyses")}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-1.5">
+                  <button
+                    type="button"
+                    onClick={fetchHistory}
+                    disabled={historyLoading}
+                    title={t("রিফ্রেশ", "Refresh")}
+                    className="p-1.5 rounded-lg border border-[#E2EAE7] bg-white hover:bg-slate-50 text-[#647575] hover:text-[#172B2A] transition-colors cursor-pointer"
+                  >
+                    <RefreshCw className={`w-4 h-4 ${historyLoading ? "animate-spin" : ""}`} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setHistoryDrawerOpen(false)}
+                    className="p-1.5 rounded-lg text-[#647575] hover:text-[#172B2A] hover:bg-slate-100 transition-colors cursor-pointer"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Drawer Body (Scrollable) */}
+              <div className="flex-1 overflow-y-auto p-5 space-y-3.5">
+                {saveToast && (
+                  <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-xs font-semibold flex items-center gap-2 animate-in fade-in">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>{saveToast}</span>
+                  </div>
+                )}
+
+                {historyLoading ? (
+                  <div className="py-20 text-center text-[#647575] flex flex-col items-center gap-2.5">
+                    <RefreshCw className="w-6 h-6 animate-spin text-[#0F766E]" />
+                    <p className="text-xs">{t("হিস্ট্রি ডাটাবেজ থেকে লোড হচ্ছে...", "Loading history from database...")}</p>
+                  </div>
+                ) : historyList.length === 0 ? (
+                  <div className="p-8 rounded-xl border border-dashed border-[#E2EAE7] bg-[#F7FAF9] text-center space-y-3">
+                    <div className="w-12 h-12 rounded-xl bg-teal-50 text-[#0F766E] flex items-center justify-center mx-auto">
+                      <FolderClock className="w-6 h-6" />
+                    </div>
+                    <div className="space-y-1">
+                      <h4 className="font-bold text-sm text-[#172B2A]">{t("এখনো কোনো প্রেসক্রিপশন সংরক্ষিত নেই", "No prescriptions saved yet")}</h4>
+                      <p className="text-xs text-[#647575] leading-relaxed">
+                        {t(
+                          "প্রেসক্রিপশন আপলোড করে এনালাইসিস চালালে তা সরাসরি ডাটাবেজে সংরক্ষিত হবে।",
+                          "Uploaded prescriptions are automatically saved to your cloud database history."
+                        )}
+                      </p>
+                    </div>
+                  </div>
+                ) : (
+                  historyList.map((item) => (
+                    <div
+                      key={item.id}
+                      className="p-4 rounded-xl border border-[#E2EAE7] bg-white hover:border-[#0F766E]/40 shadow-xs hover:shadow-sm transition-all text-xs space-y-3"
+                    >
+                      <div className="flex items-start justify-between gap-2 pb-2.5 border-b border-[#E2EAE7]">
+                        <div className="flex items-start gap-2">
+                          <span className="h-7 w-7 rounded-lg bg-teal-50 text-[#0F766E] flex items-center justify-center shrink-0 mt-0.5">
+                            <Stethoscope className="w-4 h-4" />
+                          </span>
+                          <div>
+                            <div className="font-bold text-[#172B2A] text-xs">
+                              {item.doctor_name || t("অনির্দিষ্ট চিকিৎসক", "Unspecified Physician")}
+                            </div>
+                            <div className="text-[10px] text-[#647575]">
+                              {new Date(item.created_at).toLocaleDateString(lang === "bn" ? "bn-BD" : "en-US", {
+                                day: "numeric",
+                                month: "short",
+                                year: "numeric",
+                                hour: "2-digit",
+                                minute: "2-digit",
+                              })}
+                            </div>
+                          </div>
+                        </div>
+
+                        <span className="px-2 py-0.5 rounded-full bg-teal-50 text-[#0F766E] font-bold text-[10px] border border-teal-200/60 shrink-0">
+                          {t(`${item.total_medicines}টি ওষুধ`, `${item.total_medicines} Meds`)}
+                        </span>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-1.5 text-[11px] text-[#647575] bg-[#F7FAF9] p-2.5 rounded-lg border border-[#E2EAE7]/60">
+                        <div>
+                          <span className="font-semibold text-slate-700">{t("রোগী: ", "Patient: ")}</span>
+                          <span className="text-[#172B2A] font-semibold">{item.patient_name || "N/A"}</span>
+                          {item.patient_age && <span> ({item.patient_age}{t(" বছর", " yrs")})</span>}
+                        </div>
+                        {item.diagnosis && (
+                          <div className="truncate">
+                            <span className="font-semibold text-slate-700">{t("লক্ষণ / রোগ: ", "Diagnosis: ")}</span>
+                            <span className="text-[#172B2A]">{item.diagnosis}</span>
+                          </div>
+                        )}
+                        {item.prescription_date && (
+                          <div>
+                            <span className="font-semibold text-slate-700">{t("প্রেসক্রিপশনের তারিখ: ", "Rx Date: ")}</span>
+                            <span className="text-[#172B2A]">{item.prescription_date}</span>
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="flex items-center justify-end gap-2 pt-1">
+                        <button
+                          type="button"
+                          disabled={deleteModal.isDeleting || isPrescriptionLoading}
+                          onClick={() => setDeleteModal({
+                            isOpen: true,
+                            historyId: item.id,
+                            doctorName: item.doctor_name || item.patient_name || "",
+                            isDeleting: false
+                          })}
+                          className="px-2.5 py-1.5 rounded-lg border border-rose-200 text-rose-600 hover:bg-rose-50 text-[11px] font-bold flex items-center gap-1 transition-colors cursor-pointer disabled:opacity-50"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                          <span>{t("মুছে ফেলুন", "Delete")}</span>
+                        </button>
+
+                        <button
+                          type="button"
+                          disabled={loadingHistoryId === item.id || isPrescriptionLoading}
+                          onClick={() => handleLoadHistoryItem(item.id)}
+                          className="px-3.5 py-1.5 rounded-lg bg-[#0F766E] hover:bg-[#115E59] text-white text-[11px] font-bold flex items-center gap-1.5 transition-all shadow-xs cursor-pointer disabled:opacity-75"
+                        >
+                          {loadingHistoryId === item.id ? (
+                            <>
+                              <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                              <span>{t("লোড হচ্ছে...", "Loading...")}</span>
+                            </>
+                          ) : (
+                            <>
+                              <Eye className="w-3.5 h-3.5" />
+                              <span>{t("প্রেসক্রিপশন লোড করুন", "Load Prescription")}</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+
+              {/* Drawer Footer */}
+              <div className="p-4 border-t border-[#E2EAE7] bg-[#F7FAF9] flex items-center justify-between">
+                <span className="text-[11px] text-[#647575]">
+                  {t("লোড করলে প্রেসক্রিপশন যাচাই বোর্ডে উন্মুক্ত হবে", "Clicking load imports data to verification tray")}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setHistoryDrawerOpen(false)}
+                  className="px-3 py-1.5 rounded-lg border border-[#E2EAE7] bg-white hover:bg-slate-100 text-xs font-semibold text-[#172B2A] cursor-pointer"
+                >
+                  {t("বন্ধ করুন", "Close")}
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}
@@ -1497,6 +1948,141 @@ export const PrescriptionCareHub: React.FC = () => {
               alt="Prescription script"
               className="max-h-[85vh] w-auto object-contain mx-auto rounded"
             />
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 7. SWEETALERT DELETE CONFIRMATION MODAL                                    */}
+      {/* ========================================================================= */}
+      {deleteModal.isOpen && (
+        <div className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-6 text-center shadow-2xl border border-rose-100 animate-in zoom-in-95 duration-200 space-y-4">
+            <div className="mx-auto w-14 h-14 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center border-2 border-rose-200">
+              <Trash2 className="w-7 h-7" />
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-base font-bold text-[#172B2A]">
+                {t("প্রেসক্রিপশন মুছে ফেলবেন?", "Delete Prescription?")}
+              </h3>
+              <p className="text-xs text-[#647575] leading-relaxed">
+                {t(
+                  "এই প্রেসক্রিপশনটি স্থায়ীভাবে আপনার ক্লাউড ডাটাবেজ হিস্ট্রি থেকে মুছে ফেলা হবে।",
+                  "This prescription will be permanently deleted from your database history."
+                )}
+              </p>
+              {deleteModal.doctorName && (
+                <div className="text-[11px] font-semibold text-[#0F766E] bg-teal-50 py-1 px-3 rounded-lg inline-block border border-teal-200/60 truncate max-w-xs">
+                  {deleteModal.doctorName}
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center justify-center gap-3 pt-2">
+              <button
+                type="button"
+                disabled={deleteModal.isDeleting}
+                onClick={() => setDeleteModal({ isOpen: false, historyId: null, isDeleting: false })}
+                className="flex-1 py-2.5 px-4 rounded-xl border border-[#E2EAE7] bg-white hover:bg-slate-50 text-[#172B2A] text-xs font-bold transition-all cursor-pointer disabled:opacity-50"
+              >
+                {t("বাতিল", "Cancel")}
+              </button>
+              <button
+                type="button"
+                disabled={deleteModal.isDeleting}
+                onClick={confirmDeleteHistory}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition-all shadow-sm flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
+              >
+                {deleteModal.isDeleting ? (
+                  <>
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                    <span>{t("মুছছে...", "Deleting...")}</span>
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="w-3.5 h-3.5" />
+                    <span>{t("হ্যাঁ, মুছে ফেলুন", "Yes, Delete")}</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 8. SWEETALERT ALERT / WARNING / ERROR MODAL                                */}
+      {/* ========================================================================= */}
+      {sweetAlert?.isOpen && (
+        <div className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-6 text-center shadow-2xl border border-[#E2EAE7] animate-in zoom-in-95 duration-200 space-y-4">
+            <div
+              className={`mx-auto w-14 h-14 rounded-full flex items-center justify-center border-2 ${
+                sweetAlert.type === "error"
+                  ? "bg-rose-50 text-rose-600 border-rose-200"
+                  : sweetAlert.type === "warning"
+                  ? "bg-amber-50 text-amber-600 border-amber-200"
+                  : sweetAlert.type === "success"
+                  ? "bg-emerald-50 text-emerald-600 border-emerald-200"
+                  : "bg-teal-50 text-[#0F766E] border-teal-200"
+              }`}
+            >
+              {sweetAlert.type === "error" ? (
+                <AlertTriangle className="w-7 h-7" />
+              ) : sweetAlert.type === "warning" ? (
+                <ShieldAlert className="w-7 h-7" />
+              ) : sweetAlert.type === "success" ? (
+                <CheckCircle2 className="w-7 h-7" />
+              ) : (
+                <Info className="w-7 h-7" />
+              )}
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-base font-bold text-[#172B2A]">
+                {sweetAlert.title}
+              </h3>
+              <p className="text-xs text-[#647575] leading-relaxed">
+                {sweetAlert.message}
+              </p>
+            </div>
+
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={() => setSweetAlert(null)}
+                className="w-full py-2.5 px-4 rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white text-xs font-bold transition-all shadow-sm cursor-pointer"
+              >
+                {t("ঠিক আছে", "OK")}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 9. PRESCRIPTION HISTORY LOADING OVERLAY (Smooth Experience)               */}
+      {/* ========================================================================= */}
+      {isPrescriptionLoading && (
+        <div className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs animate-in fade-in duration-200">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-6 text-center shadow-2xl border border-teal-100 animate-in zoom-in-95 duration-200 space-y-3.5">
+            <div className="relative mx-auto w-16 h-16 rounded-full bg-teal-50 flex items-center justify-center text-[#0F766E]">
+              <Stethoscope className="w-8 h-8 animate-pulse text-[#0F766E]" />
+              <div className="absolute inset-0 rounded-full border-2 border-teal-500 border-t-transparent animate-spin" />
+            </div>
+
+            <div className="space-y-1">
+              <h3 className="text-sm font-bold text-[#172B2A]">
+                {t("প্রেসক্রিপশন লোড হচ্ছে...", "Loading Prescription...")}
+              </h3>
+              <p className="text-xs text-[#647575]">
+                {t(
+                  "ডাটাবেজ থেকে প্রেসক্রিপশন ও ওষুধের তথ্য প্রস্তুত করা হচ্ছে।",
+                  "Retrieving medicines and clinical details from database history."
+                )}
+              </p>
+            </div>
           </div>
         </div>
       )}

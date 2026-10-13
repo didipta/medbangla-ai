@@ -8,9 +8,11 @@ Endpoint: POST /api/v1/interactions/check
 import time
 import logging
 from typing import List, Dict, Any, Optional, Union
-from fastapi import APIRouter, HTTPException, Body
+from fastapi import APIRouter, HTTPException, Body, Request, Depends
 from pydantic import BaseModel, Field
 
+from app.core.security import get_current_user_optional
+from app.core.rate_limiter import rate_limiter
 from app.ai.rag.interactions import DrugInteractionEngine
 
 logger = logging.getLogger(__name__)
@@ -63,7 +65,14 @@ class InteractionCheckResponse(BaseModel):
     summary="Check pairwise drug-drug interactions",
     description="Takes a list of medicines from a prescription, performs deterministic O(N^2) pairwise pharmacological analysis in <1ms, and returns severity warnings in Bengali and English.",
 )
-def check_drug_interactions(payload: InteractionCheckRequest = Body(...)):
+def check_drug_interactions(
+    request: Request,
+    payload: InteractionCheckRequest = Body(...),
+    current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
+):
+    user_id = current_user.get("id") if current_user else None
+    rate_limiter.check_and_consume("drug_interactions", request, user_id=user_id)
+
     start_time = time.time()
     raw_items = payload.medicines
 

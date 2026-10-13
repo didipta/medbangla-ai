@@ -33,10 +33,13 @@ class Settings(BaseSettings):
     GEMINI_VISION_MODEL: str = "gemini-3-flash-preview"
     GROQ_VISION_MODEL: str = "qwen/qwen3.8-27b"
 
-    # Security
+    # Security & Google OAuth
     SECRET_KEY: str = "medbangla_dev_secret_key_change_in_production_9988776655"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440
+    GOOGLE_CLIENT_ID: str = ""
+    GOOGLE_CLIENT_SECRET: str = ""
+    FRONTEND_URL: str = "http://localhost:3000"
 
     @property
     def cors_origins(self) -> List[str]:

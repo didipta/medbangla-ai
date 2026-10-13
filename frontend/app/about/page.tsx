@@ -20,10 +20,10 @@ export default function AboutPage() {
 
   const faqs = [
     {
-      qBn: "প্রেসক্রিপশনে ডাক্তারের অস্পষ্ট হাতের লেখা কি মেডবাংলা এআই সঠিকভাবে পড়তে পারে?",
-      qEn: "Can MedBangla AI accurately decode illegible doctor handwriting?",
-      aBn: "হ্যাঁ, মেডবাংলা এআই অ্যাডাপ্টিভ কম্পিউটার ভিশন (OpenCV বাইনারাইজেশন, কনট্রাস্ট এনহ্যান্সমেন্ট ও ডেস্কেউ) এবং অপটিক্যাল ক্যারেক্টার রিকগনিশন (RapidOCR) ব্যবহার করে প্রেসক্রিপশনের ইংরেজি ও বাংলা টেক্সট নিখুঁতভাবে উদ্ধার করে। এরপর আমাদের ১৭,৫৮৯ ওষুধের জাতীয় ডাটাবেজে ম্যাচিং করে ওষুধ শনাক্ত করে।",
-      aEn: "Yes. MedBangla AI applies computer vision (adaptive binarization, de-skewing, contrast normalization) alongside RapidOCR to extract handwritten and printed tokens, which are verified against 17,589 DGDA-registered medicines.",
+      qBn: "প্রেসক্রিপশনে ডাক্তারের অস্পষ্ট হাতের লেখা কি মেডবাংলা এআই সঠিকভাবে পড়তে পারে এবং নির্ভুলতার মাত্রা কেমন?",
+      qEn: "How accurately can MedBangla AI decode doctor handwriting and what are the performance benchmarks?",
+      aBn: "মেডবাংলা এআই একটি শিক্ষামূলক ও গবেষণা প্রকল্প। চিকিৎসকদের জটিল ও পেঁচানো হস্তাক্ষরে প্রাথমিক ওসিআর নির্ভুলতা সাধারণতঃ ৫০% থেকে ৬০% পর্যন্ত হয়ে থাকে। তবে স্পষ্ট আলো, পরিষ্কার ও টাইপকৃত প্রেসক্রিপশনে নির্ভুলতার হার ৮০% থেকে ৯০% পর্যন্ত অর্জিত হয়। মাল্টি-লেয়ার এআই ভিশন প্রসেসিংয়ের কারণে বিশ্লেষণে কয়েক সেকেন্ড সময় লাগতে পারে এবং শতভাগ সঠিকতা নিশ্চিতে ইউজারদের জন্য ড্রাগ ভেরিফিকেশন ও এডিটিং ট্রের সুবিধা রয়েছে।",
+      aEn: "MedBangla AI is an academic research platform. For complex cursive handwriting, baseline OCR accuracy typically ranges from 50% to 60%, while clear, high-contrast, or printed prescriptions achieve 80% to 90% accuracy. Multi-pass AI vision extraction may require a few seconds of processing time, and an editable review tray is provided to guarantee complete verification.",
     },
     {
       qBn: "ওষুধের ড্রাগ মিথস্ক্রিয়া ও নিরাপত্তার তথ্য কতটা নির্ভরযোগ্য?",

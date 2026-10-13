@@ -7,6 +7,11 @@ import { useLanguage } from "../context/LanguageContext";
 
 export const Footer: React.FC = () => {
   const { t } = useLanguage();
+  const [currentYear, setCurrentYear] = React.useState<number>(2026);
+
+  React.useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="mt-auto border-t border-slate-200 bg-white py-12 text-xs">
@@ -109,15 +114,25 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-6 border-t border-slate-200 text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
-          <p>© {new Date().getFullYear()} MedBangla AI. {t("সর্বস্বত্ব সংরক্ষিত।", "All rights reserved.")}</p>
-          <div className="flex items-center gap-1.5">
-            <ShieldCheck className="w-3.5 h-3.5 text-[#0F766E]" />
-            <span>
-              {t(
-                "চিকিৎসকের প্রেসক্রিপশন পরিবর্তন বা বন্ধের পূর্বে ডাক্তারের মতামত নিন।",
-                "Always consult your prescribing doctor before altering or stopping medications."
-              )}
-            </span>
+          <p>© {currentYear} MedBangla AI. {t("শিক্ষামূলক ও গবেষণা প্রজেক্ট — সর্বস্বত্ব সংরক্ষিত।", "Educational & Research Project — All rights reserved.")}</p>
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-1.5 text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/60">
+              <span className="font-semibold">
+                {t(
+                  "ওষুধের মূল্য ও ডাটা রিয়েল-টাইমে আপডেট নয় (স্টাডি ডেমো)",
+                  "Prices & data not updated in real-time (Study Demo)"
+                )}
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#0F766E]" />
+              <span>
+                {t(
+                  "চিকিৎসকের প্রেসক্রিপশন পরিবর্তন বা বন্ধের পূর্বে ডাক্তারের মতামত নিন।",
+                  "Always consult your doctor before altering medications."
+                )}
+              </span>
+            </div>
           </div>
         </div>
       </div>

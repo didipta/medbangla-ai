@@ -3,9 +3,11 @@ import { Hind_Siliguri, Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "./context/AuthContext";
 import { LanguageProvider } from "./context/LanguageContext";
+import { StoreProvider } from "./store/StoreProvider";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { GlobalAuthModal } from "./components/GlobalAuthModal";
+import { StudyDisclaimerModal } from "./components/StudyDisclaimerModal";
 
 const hindSiliguri = Hind_Siliguri({
   variable: "--font-hind",
@@ -39,17 +41,20 @@ export default function RootLayout({
   return (
     <html
       lang="bn"
-      className={`${hindSiliguri.variable} ${inter.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${hindSiliguri.variable} ${inter.variable} ${geistMono.variable} font-bangla h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#FAFDFB] text-slate-900 antialiased selection:bg-[#0F766E] selection:text-white">
-        <LanguageProvider>
-          <AuthProvider>
-            <Navbar />
-            <main className="flex-1 w-full">{children}</main>
-            <Footer />
-            <GlobalAuthModal />
-          </AuthProvider>
-        </LanguageProvider>
+        <StoreProvider>
+          <LanguageProvider>
+            <AuthProvider>
+              <Navbar />
+              <main className="flex-1 w-full">{children}</main>
+              <Footer />
+              <GlobalAuthModal />
+              <StudyDisclaimerModal />
+            </AuthProvider>
+          </LanguageProvider>
+        </StoreProvider>
       </body>
     </html>
   );

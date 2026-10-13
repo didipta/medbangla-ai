@@ -32,12 +32,18 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<{ da
   const url = `${baseUrl}${path}`;
   const t0 = performance.now();
 
+  const token = typeof window !== "undefined" ? localStorage.getItem("medbangla_token") : null;
+  const headers: Record<string, string> = {
+    ...(options.headers as Record<string, string> || {}),
+  };
+  if (token && !headers["Authorization"]) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
   try {
     const res = await fetch(url, {
       ...options,
-      headers: {
-        ...(options.headers || {}),
-      },
+      headers,
     });
 
     const durationMs = Math.round(performance.now() - t0);
@@ -50,8 +56,17 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<{ da
       } catch {
         errorBody = { error: { message: `HTTP ${res.status}: ${res.statusText}` } };
       }
-      const msg = errorBody?.error?.message || errorBody?.detail || "Request failed";
-      throw new Error(msg);
+      const msg =
+        (typeof errorBody?.error?.message === "string" && errorBody.error.message) ||
+        (typeof errorBody?.detail?.message === "string" && errorBody.detail.message) ||
+        (typeof errorBody?.detail === "string" && errorBody.detail) ||
+        `HTTP ${res.status}: ${res.statusText}`;
+
+      const err: any = new Error(msg);
+      err.status = res.status;
+      err.retryAfter = res.headers.get("Retry-After");
+      err.details = errorBody?.error?.details || errorBody?.detail;
+      throw err;
     }
 
     const data = await res.json();
@@ -130,5 +145,140 @@ export const api = {
         body: formData,
       },
     );
+  },
+
+  // Prescription History API (Database Persistence) & Daily Quota
+  async getPrescriptionDailyQuota(): Promise<{
+    data: {
+      status: string;
+      data: {
+        daily_limit: number;
+        used_today: number;
+        remaining: number;
+        can_analyze: boolean;
+        reset_info: string;
+      };
+    };
+    durationMs: number;
+  }> {
+    return request("/api/v1/prescriptions/daily-quota");
+  },
+
+  async getAllUsageLimits(): Promise<{
+    data: {
+      status: string;
+      limits: Record<string, {
+        feature: string;
+        label_bn: string;
+        label_en: string;
+        daily_limit: number;
+        used_today: number;
+        remaining: number;
+        can_use: boolean;
+        reset_info: string;
+      }>;
+    };
+    durationMs: number;
+  }> {
+    return request("/api/v1/prescriptions/usage-limits");
+  },
+
+  async getPrescriptionHistory(): Promise<{
+    data: {
+      status: string;
+      total_count: number;
+      history: Array<{
+        id: string;
+        doctor_name: string;
+        patient_name: string;
+        patient_age?: string;
+        patient_gender?: string;
+        prescription_date?: string;
+        diagnosis?: string;
+        total_medicines: number;
+        created_at: string;
+      }>;
+    };
+    durationMs: number;
+  }> {
+    return request("/api/v1/prescriptions/history");
+  },
+
+  async savePrescriptionHistory(data: any): Promise<{ data: { status: string; message: string; history_item: any }; durationMs: number }> {
+    return request("/api/v1/prescriptions/history", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ data }),
+    });
+  },
+
+  async updatePrescriptionHistory(historyId: string, data: any): Promise<{ data: { status: string; message: string; history_item: any }; durationMs: number }> {
+    return request(`/api/v1/prescriptions/history/${historyId}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ data }),
+    });
+  },
+
+  async getPrescriptionHistoryItem(historyId: string): Promise<{ data: { status: string; data: any }; durationMs: number }> {
+    return request(`/api/v1/prescriptions/history/${historyId}`);
+  },
+
+  async deletePrescriptionHistoryItem(historyId: string): Promise<{ data: { status: string; message: string }; durationMs: number }> {
+    return request(`/api/v1/prescriptions/history/${historyId}`, {
+      method: "DELETE",
+    });
+  },
+
+  // Google Authentication API
+  async getAuthConfig(): Promise<{ data: { google_client_id: string; auth_provider: string }; durationMs: number }> {
+    return request("/api/v1/auth/config");
+  },
+
+  async saveAuthConfig(google_client_id: string): Promise<{ data: { google_client_id: string; auth_provider: string }; durationMs: number }> {
+    return request("/api/v1/auth/config", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ google_client_id }),
+    });
+  },
+
+  async loginWithGoogle(
+    credential: string,
+    role = "patient",
+    bmdc?: string
+  ): Promise<{
+    data: {
+      status: string;
+      access_token: string;
+      token_type: string;
+      is_new_user: boolean;
+      message: string;
+      user: any;
+    };
+    durationMs: number;
+  }> {
+    return request("/api/v1/auth/google", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ credential, role, bmdc }),
+    });
+  },
+
+  async getCurrentUser(): Promise<{ data: { status: string; user: any }; durationMs: number }> {
+    return request("/api/v1/auth/me");
+  },
+
+  async updateProfile(profileData: {
+    role?: string;
+    bmdc_number?: string;
+    title?: string;
+    name?: string;
+  }): Promise<{ data: { status: string; message: string; user: any }; durationMs: number }> {
+    return request("/api/v1/auth/profile", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(profileData),
+    });
   },
 };
