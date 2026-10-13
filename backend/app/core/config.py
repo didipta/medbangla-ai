@@ -29,7 +29,8 @@ class Settings(BaseSettings):
     # AI / Vision Models
     GROQ_API_KEY: str = ""
     GEMINI_API_KEY: str = ""
-    VISION_PROVIDER: str = "groq"  # "groq" (primary: qwen/qwen3.8-27b) | "gemini" (fallback: gemini-3.8-flash)
+    VISION_PROVIDER: str = "gemini"  # "gemini" (primary: gemini-3-flash-preview) | "groq" (fast alternate: qwen/qwen3.8-27b)
+    GEMINI_VISION_MODEL: str = "gemini-3-flash-preview"
     GROQ_VISION_MODEL: str = "qwen/qwen3.8-27b"
 
     # Security
