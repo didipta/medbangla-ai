@@ -22,6 +22,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
+import { useAuth } from "../context/AuthContext";
+import { useRouter } from "next/navigation";
 
 export interface HeroSlide {
   id: string;
@@ -181,6 +183,8 @@ const HERO_SLIDES: HeroSlide[] = [
 
 export const HeroAnimatedSlider: React.FC = () => {
   const { lang, t } = useLanguage();
+  const { currentUser, openAuthModal } = useAuth();
+  const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
   const [laserActive, setLaserActive] = useState(true);
@@ -406,13 +410,20 @@ export const HeroAnimatedSlider: React.FC = () => {
         </div>
 
         {/* CTA Button */}
-        <Link
-          href={activeSlide.ctaLink}
+        <button
+          type="button"
+          onClick={() => {
+            if (!currentUser) {
+              openAuthModal("login");
+              return;
+            }
+            router.push(activeSlide.ctaLink);
+          }}
           className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-slate-900 hover:bg-[#0F766E] text-white text-[11px] sm:text-xs font-bold shadow-xs transition-all cursor-pointer"
         >
           <span>{lang === "bn" ? activeSlide.ctaTextBn : activeSlide.ctaTextEn}</span>
           <ArrowRight className="w-3 h-3" />
-        </Link>
+        </button>
       </div>
 
       {/* Fullscreen High-Resolution Image Preview Modal */}

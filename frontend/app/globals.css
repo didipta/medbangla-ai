@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -12,7 +13,7 @@
   --success: #15803D;
   --warning: #B45309;
   --error: #B91C1C;
-  --font-bengali-stack: var(--font-hind), 'Hind Siliguri', 'Noto Sans Bengali', 'SolaimanLipi', 'Kalpurush', 'Nirmala UI', 'Vrinda', var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-bengali-stack: 'Hind Siliguri', 'Noto Sans Bengali', var(--font-hind), 'SolaimanLipi', 'Kalpurush', 'Nirmala UI', var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-clinical: var(--font-bengali-stack);
   --font-mono: var(--font-geist-mono), monospace;
 }
@@ -32,47 +33,43 @@
 
 body {
   background-color: #FAFDFB;
-  background-image: 
+  background-image:
     radial-gradient(ellipse at 50% 0%, rgba(15, 118, 110, 0.012) 0%, rgba(15, 118, 110, 0.004) 60%, transparent 100%),
     linear-gradient(180deg, rgba(16, 185, 129, 0.01) 0%, rgba(255, 255, 255, 0) 100%);
   background-attachment: fixed;
   color: #0F172A;
   font-family: var(--font-clinical);
-  letter-spacing: 0;
+  letter-spacing: normal;
   word-spacing: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
 }
 
 /* ========================================================================= */
 /* UNIVERSAL BANGLA TYPOGRAPHY PRESERVATION & CRISP RENDERING RULES        */
 /* ========================================================================= */
 
-/* Ensure Bengali text never suffers from negative letter-spacing clipping */
+/* Ensure Bengali text uses the authentic Bengali webfont stack with natural OpenType script shaping */
 html[lang="bn"],
 [lang="bn"],
 .font-bangla,
 *:lang(bn) {
   font-family: var(--font-bengali-stack) !important;
-  letter-spacing: 0 !important;
+  letter-spacing: normal !important;
   word-spacing: normal !important;
   text-rendering: optimizeLegibility !important;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1 !important;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1 !important;
 }
 
 /* Neutralize tight tracking classes on Bengali text that clip digits & conjuncts */
 html[lang="bn"] .tracking-tighter,
 html[lang="bn"] .tracking-tight,
-html[lang="bn"] .tracking-normal,
 html[lang="bn"] .tracking-wide,
 html[lang="bn"] .tracking-wider,
 html[lang="bn"] .tracking-widest,
 .tracking-tight:lang(bn),
 .tracking-tighter:lang(bn) {
-  letter-spacing: 0 !important;
+  letter-spacing: normal !important;
 }
 
 /* Ensure Bengali digits (০-৯) and matras have adequate line height and padding */
@@ -84,7 +81,15 @@ h2:lang(bn),
 h3:lang(bn),
 h4:lang(bn) {
   font-variant-numeric: normal;
-  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Medical dosage schedule tags (১ + ০ + ১ (খাবারের পর)) */
+.dosage-pill,
+[data-dosage] {
+  font-family: var(--font-bengali-stack) !important;
+  font-variant-numeric: normal !important;
+  letter-spacing: normal !important;
+  white-space: nowrap;
 }
 
 /* Subtle Micro Grid Background */
@@ -118,10 +123,12 @@ h4:lang(bn) {
     top: 2%;
     opacity: 0.9;
   }
+
   50% {
     top: 94%;
     opacity: 1;
   }
+
   100% {
     top: 2%;
     opacity: 0.9;
@@ -138,10 +145,12 @@ h4:lang(bn) {
     transform: scale(0.98);
     opacity: 0.9;
   }
+
   50% {
     transform: scale(1.03);
     opacity: 0.5;
   }
+
   100% {
     transform: scale(0.98);
     opacity: 0.9;

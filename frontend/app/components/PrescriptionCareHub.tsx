@@ -48,6 +48,7 @@ import {
 } from "lucide-react";
 import { api } from "../services/api";
 import { useLanguage } from "../context/LanguageContext";
+import { useAuth } from "../context/AuthContext";
 import {
   OCRAnalysisResponse,
   InteractionReport,
@@ -99,6 +100,7 @@ interface ChatMessage {
 
 export const PrescriptionCareHub: React.FC = () => {
   const { lang, t } = useLanguage();
+  const { currentUser, openAuthModal } = useAuth();
 
   const dispatch = useAppDispatch();
 
@@ -145,8 +147,38 @@ export const PrescriptionCareHub: React.FC = () => {
   // Image Lightbox Modal
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
-  // Active Clinical Sub-Tab (4 core tabs only)
-  const [activeTab, setActiveTab] = useState<"review" | "safety" | "chat" | "guide">("review");
+  // Clinical Report Sections State (All sections visible and collapsible for seamless user experience)
+  const [expandedSections, setExpandedSections] = useState({
+    review: true,
+    safety: true,
+    guide: true,
+    chat: true,
+  });
+
+  const toggleSection = (section: "review" | "safety" | "guide" | "chat") => {
+    setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
+  };
+
+  const setAllSections = (expanded: boolean) => {
+    setExpandedSections({
+      review: expanded,
+      safety: expanded,
+      guide: expanded,
+      chat: expanded,
+    });
+  };
+
+  const scrollToSection = (elementId: string, sectionKey?: "review" | "safety" | "guide" | "chat") => {
+    if (sectionKey) {
+      setExpandedSections((prev) => ({ ...prev, [sectionKey]: true }));
+    }
+    setTimeout(() => {
+      const el = document.getElementById(elementId);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 60);
+  };
 
   // History Slide-Over Drawer State
   const [historyDrawerOpen, setHistoryDrawerOpen] = useState(false);
@@ -253,7 +285,8 @@ export const PrescriptionCareHub: React.FC = () => {
         await new Promise((resolve) => setTimeout(resolve, 550 - elapsed));
       }
 
-      setActiveTab("review");
+      setAllSections(true);
+      scrollToSection("section-medicines-review", "review");
       setHistoryDrawerOpen(false);
       setSaveToast(t("সংরক্ষিত প্রেসক্রিপশন সফলভাবে লোড হয়েছে!", "Prescription loaded from history successfully!"));
       setTimeout(() => setSaveToast(null), 3000);
@@ -281,10 +314,10 @@ export const PrescriptionCareHub: React.FC = () => {
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (activeTab === "chat") {
+    if (expandedSections.chat) {
       chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
     }
-  }, [chatMessages, activeTab]);
+  }, [chatMessages, expandedSections.chat]);
 
   // Sync detected medicines into editable state
   useEffect(() => {
@@ -348,7 +381,20 @@ export const PrescriptionCareHub: React.FC = () => {
 
   // Run End-to-End Analysis (Enforces max 2 prescription analyses per day)
   const handleAnalyzePrescription = async () => {
-    if (!selectedFile) return;
+    // Require login for running prescription analysis
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+
+    if (!selectedFile) {
+      showAlert(
+        t("প্রেসক্রিপশন আপলোড করুন", "Upload Prescription"),
+        t("এনালাইসিস শুরু করতে অনুগ্রহ করে প্রথমে প্রেসক্রিপশনের ছবি সিলেক্ট করুন।", "Please select or upload a prescription image to begin analysis."),
+        "info"
+      );
+      return;
+    }
 
     // Check daily limit quota (Max 2 analyses per user per day)
     if (!dailyQuota.can_analyze || dailyQuota.remaining <= 0) {
@@ -368,7 +414,7 @@ export const PrescriptionCareHub: React.FC = () => {
     dispatch(setAnalyzing(true));
     dispatch(setSafetyReport(null));
     dispatch(setExplanation(null));
-    setActiveTab("review");
+    setAllSections(true);
     try {
       const { data, durationMs } = await api.analyzePrescription(selectedFile, true, true);
       dispatch(setResult(data));
@@ -453,6 +499,11 @@ export const PrescriptionCareHub: React.FC = () => {
   };
 
   const handleRecheckSafety = () => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+
     const includedDrugs = medicines
       .filter((m) => m.included)
       .map((m) => m.generic || m.brand)
@@ -467,6 +518,11 @@ export const PrescriptionCareHub: React.FC = () => {
 
   // Add custom drug to list (auto-updates the same prescription ID in history)
   const handleAddDrug = (nameToAdd?: string) => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+
     const drug = (nameToAdd || newDrugInput).trim();
     if (!drug) return;
 
@@ -528,6 +584,11 @@ export const PrescriptionCareHub: React.FC = () => {
 
   // Generate Bangla Patient Explanation
   const handleGenerateExplanation = async () => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+
     const included = medicines.filter((m) => m.included);
     if (!included.length) {
       showAlert(t("ওষুধ নির্বাচন করুন", "Select Medicine"), t("সহায়িকা তৈরি করতে কমপক্ষে একটি ওষুধ নির্বাচন করুন।", "Select at least one medicine to generate instructions."), "warning");
@@ -547,7 +608,7 @@ export const PrescriptionCareHub: React.FC = () => {
       }));
       const { data } = await api.explainPrescription(payload);
       dispatch(setExplanation(data));
-      setActiveTab("guide");
+      scrollToSection("section-patient-guide", "guide");
     } catch (err: any) {
       if (err.status === 429) {
         showAlert(
@@ -576,6 +637,11 @@ export const PrescriptionCareHub: React.FC = () => {
 
   // Contextual Chat Message Submission
   const handleSendChatMessage = async (presetText?: string) => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+
     const message = (presetText || inputQuestion).trim();
     if (!message || chatLoading) return;
 
@@ -898,10 +964,16 @@ export const PrescriptionCareHub: React.FC = () => {
 
             {/* Run Analysis Action Button */}
             <button
-              onClick={handleAnalyzePrescription}
-              disabled={!selectedFile || analyzing || !dailyQuota.can_analyze || dailyQuota.remaining <= 0}
+              onClick={() => {
+                if (!currentUser) {
+                  openAuthModal("login");
+                  return;
+                }
+                handleAnalyzePrescription();
+              }}
+              disabled={analyzing || (Boolean(currentUser) && (!selectedFile || !dailyQuota.can_analyze || dailyQuota.remaining <= 0))}
               className={`w-full rounded-lg py-3 text-sm font-bold text-white shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer ${
-                dailyQuota.remaining <= 0
+                currentUser && dailyQuota.remaining <= 0
                   ? "bg-rose-600/80 cursor-not-allowed opacity-80"
                   : "bg-[#0F766E] hover:bg-[#115E59] disabled:opacity-50"
               }`}
@@ -946,68 +1018,185 @@ export const PrescriptionCareHub: React.FC = () => {
         <div className="lg:col-span-7 space-y-4">
           {result ? (
             <div className="space-y-4">
-              {/* Tab Navigation (Review & Edit / Drug Safety / Bangla Chat / Patient Guide) */}
-              <div className="flex items-center gap-1 p-1 rounded-xl bg-[#E2EAE7]/70 border border-[#E2EAE7] overflow-x-auto">
-                <button
-                  onClick={() => setActiveTab("review")}
-                  className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap cursor-pointer ${activeTab === "review"
-                      ? "bg-[#FFFFFF] text-[#0F766E] shadow-sm"
-                      : "text-[#647575] hover:text-[#172B2A]"
-                    }`}
-                >
-                  <Edit3 className="w-3.5 h-3.5" />
-                  <span>{t(`যাচাই ও ওষুধ (${medicines.length})`, `Review & Medicines (${medicines.length})`)}</span>
-                </button>
-
-                <button
-                  onClick={() => setActiveTab("safety")}
-                  className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap cursor-pointer ${activeTab === "safety"
-                      ? "bg-[#FFFFFF] text-[#0F766E] shadow-sm"
-                      : "text-[#647575] hover:text-[#172B2A]"
-                    }`}
-                >
-                  <ShieldAlert
-                    className={`w-3.5 h-3.5 ${safetyReport?.is_safe === false ? "text-[#B91C1C]" : "text-[#B45309]"
-                      }`}
-                  />
-                  <span>
-                    {t("ড্রাগ সেফটি", "Drug Safety")}
-                    {safetyReport && !safetyReport.is_safe && (
-                      <span className="ml-1 rounded-full bg-[#B91C1C] text-white px-1.5 py-0.2 text-[10px]">
-                        {safetyReport.interactions_count}
+              {/* ======================================================================= */}
+              {/* TOP: QUICK-NAV JUMP BAR & WORKBENCH CONTROLS                           */}
+              {/* ======================================================================= */}
+              <div className="sticky top-2 z-20 bg-white/95 backdrop-blur-md border border-[#E2EAE7] rounded-xl p-3 shadow-sm space-y-2.5">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <div className="h-6 w-6 rounded-md bg-[#CCFBF1] text-[#0F766E] flex items-center justify-center font-bold text-xs shadow-2xs">
+                      <Sparkles className="w-3.5 h-3.5" />
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold text-[#172B2A]">
+                        {t("প্রেসক্রিপশন ক্লিনিক্যাল কেয়ার হাব", "Prescription Clinical Care Hub")}
                       </span>
-                    )}
-                  </span>
-                </button>
+                      <span className="text-[11px] text-[#647575] ml-2 hidden sm:inline">
+                        • {t("একই পেজে সমস্ত তথ্য ও সুবিধা", "All-in-one Unified Clinical Stream")}
+                      </span>
+                    </div>
+                  </div>
 
-                <button
-                  onClick={() => setActiveTab("chat")}
-                  className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap cursor-pointer ${activeTab === "chat"
-                      ? "bg-[#FFFFFF] text-[#0F766E] shadow-sm"
-                      : "text-[#647575] hover:text-[#172B2A]"
-                    }`}
-                >
-                  <MessageSquare className="w-3.5 h-3.5" />
-                  <span>{t("এআই চ্যাট", "AI Consultation")}</span>
-                </button>
+                  {/* Expand / Collapse All Toggle */}
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const allOpen = Object.values(expandedSections).every(Boolean);
+                        setAllSections(!allOpen);
+                      }}
+                      className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-[#0F766E] hover:text-[#115E59] px-2.5 py-1 rounded-lg bg-[#F7FAF9] border border-[#E2EAE7] hover:bg-[#E2EAE7]/60 transition-colors cursor-pointer"
+                    >
+                      <Sliders className="w-3 h-3" />
+                      <span>
+                        {Object.values(expandedSections).every(Boolean)
+                          ? t("সব সেকশন বন্ধ করুন", "Collapse All")
+                          : t("সব সেকশন খুলুন", "Expand All")}
+                      </span>
+                    </button>
+                  </div>
+                </div>
 
-                <button
-                  onClick={() => setActiveTab("guide")}
-                  className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap cursor-pointer ${activeTab === "guide"
-                      ? "bg-[#FFFFFF] text-[#0F766E] shadow-sm"
-                      : "text-[#647575] hover:text-[#172B2A]"
+                {/* Quick Anchor Jump Buttons */}
+                <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 text-xs">
+                  <button
+                    type="button"
+                    onClick={() => scrollToSection("section-medicines-review", "review")}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F7FAF9] hover:bg-[#CCFBF1]/40 border border-[#E2EAE7] hover:border-[#0F766E]/40 font-semibold text-[#172B2A] transition-all whitespace-nowrap cursor-pointer shadow-2xs"
+                  >
+                    <Edit3 className="w-3.5 h-3.5 text-[#0F766E]" />
+                    <span>{t(`১. ওষুধ ও প্রোফাইল (${medicines.length})`, `1. Medicines & Dossier (${medicines.length})`)}</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => scrollToSection("section-drug-safety", "safety")}
+                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border font-semibold transition-all whitespace-nowrap cursor-pointer shadow-2xs ${
+                      safetyReport && !safetyReport.is_safe
+                        ? "bg-rose-50 border-rose-300 text-rose-700 hover:bg-rose-100"
+                        : "bg-[#F7FAF9] border-[#E2EAE7] text-[#172B2A] hover:bg-[#CCFBF1]/40"
                     }`}
-                >
-                  <BookOpen className="w-3.5 h-3.5" />
-                  <span>{t("রোগীর গাইড", "Patient Guide")}</span>
-                </button>
+                  >
+                    <ShieldAlert
+                      className={`w-3.5 h-3.5 ${
+                        safetyReport && !safetyReport.is_safe ? "text-rose-600" : "text-[#0F766E]"
+                      }`}
+                    />
+                    <span>
+                      {t("২. ড্রাগ সেফটি", "2. Drug Safety")}
+                      {safetyReport && !safetyReport.is_safe ? (
+                        <span className="ml-1 rounded-full bg-rose-600 text-white px-1.5 py-0.2 text-[10px]">
+                          {safetyReport.interactions_count}
+                        </span>
+                      ) : (
+                        <span className="ml-1 text-[10px] text-emerald-600 font-bold">✓</span>
+                      )}
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => scrollToSection("section-patient-guide", "guide")}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F7FAF9] hover:bg-[#CCFBF1]/40 border border-[#E2EAE7] hover:border-[#0F766E]/40 font-semibold text-[#172B2A] transition-all whitespace-nowrap cursor-pointer shadow-2xs"
+                  >
+                    <BookOpen className="w-3.5 h-3.5 text-[#0F766E]" />
+                    <span>{t("৩. রোগীর গাইড", "3. Patient Guide")}</span>
+                    {explanation && <span className="ml-0.5 text-[10px] text-emerald-600 font-bold">✓</span>}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => scrollToSection("section-ai-consultation", "chat")}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F7FAF9] hover:bg-[#CCFBF1]/40 border border-[#E2EAE7] hover:border-[#0F766E]/40 font-semibold text-[#172B2A] transition-all whitespace-nowrap cursor-pointer shadow-2xs"
+                  >
+                    <MessageSquare className="w-3.5 h-3.5 text-[#0F766E]" />
+                    <span>{t("৪. এআই কনসালটেশন", "4. AI Consultation")}</span>
+                  </button>
+                </div>
               </div>
 
-              {/* =================================================================== */}
-              {/* TAB 1: EDITABLE REVIEW & VERIFICATION INTERFACE                    */}
-              {/* =================================================================== */}
-              {activeTab === "review" && (
-                <div className="space-y-4">
+              {/* Immediate Safety Status Alert Banner */}
+              {safetyReport && !safetyReport.is_safe && (
+                <div className="p-3.5 rounded-xl border border-rose-200 bg-rose-50/90 text-rose-900 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs shadow-xs animate-in fade-in">
+                  <div className="flex items-center gap-2.5">
+                    <div className="h-8 w-8 rounded-lg bg-rose-600 text-white flex items-center justify-center shrink-0">
+                      <AlertTriangle className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-rose-900 text-sm">
+                        {t(
+                          `সতর্কতা: ${safetyReport.interactions_count}টি সম্ভাব্য ক্ষতিকর ড্রাগ মিথস্ক্রিয়া শনাক্ত হয়েছে`,
+                          `Alert: ${safetyReport.interactions_count} potential drug interaction(s) detected`
+                        )}
+                      </div>
+                      <p className="text-[11px] text-rose-700">
+                        {t(
+                          "ওষুধ সেবনের সঠিক সময় ব্যবধান ও চিকিৎসকের নির্দেশনা জানতে নিচে ড্রাগ সেফটি সেকশনটি দেখুন।",
+                          "See Section 2 below for interaction severity, clinical effects, and doctor recommendations."
+                        )}
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => scrollToSection("section-drug-safety", "safety")}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shrink-0 transition-colors shadow-2xs cursor-pointer self-start sm:self-auto"
+                  >
+                    <ShieldAlert className="w-3.5 h-3.5" />
+                    <span>{t("সতর্কতা বিস্তারিত দেখুন", "Jump to Safety Details")}</span>
+                  </button>
+                </div>
+              )}
+
+            {/* =================================================================== */}
+            {/* SECTION 1: EDITABLE REVIEW & VERIFICATION INTERFACE                 */}
+            {/* =================================================================== */}
+            <div id="section-medicines-review" className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl shadow-sm overflow-hidden scroll-mt-24">
+                {/* Section Header */}
+                <div
+                  onClick={() => toggleSection("review")}
+                  className="p-4 bg-[#F7FAF9] border-b border-[#E2EAE7] flex items-center justify-between cursor-pointer hover:bg-[#F0FDFA] transition-colors"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="h-6 w-6 rounded-md bg-[#0F766E] text-white font-bold text-xs flex items-center justify-center shadow-2xs">
+                      ১
+                    </span>
+                    <div>
+                      <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-2">
+                        <span>{t("প্রেসক্রিপশন বিবরণ ও ওষুধ যাচাইকরণ", "Prescription Profile & Medicine Verification")}</span>
+                      </h3>
+                      <p className="text-[11px] text-[#647575]">
+                        {t(
+                          "অস্পষ্ট নাম থাকলে সংশোধন বাটনে ক্লিক করে সঠিক নাম নির্বাচন করুন",
+                          "If medicine name is unclear, click edit to choose the verified medicine"
+                        )}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-semibold text-[#0F766E] bg-[#CCFBF1] px-2.5 py-1 rounded">
+                      {t(
+                        `${medicines.filter((m) => m.included).length}টি নির্বাচিত`,
+                        `${medicines.filter((m) => m.included).length} Selected`
+                      )}
+                    </span>
+                    <button
+                      type="button"
+                      className="text-[#647575] hover:text-[#172B2A] p-1 rounded transition-transform"
+                      aria-label="Toggle section"
+                    >
+                      {expandedSections.review ? (
+                        <ChevronUp className="w-4 h-4" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4" />
+                      )}
+                    </button>
+                  </div>
+                </div>
+
+                {expandedSections.review && (
+                  <div className="p-5 space-y-4 text-xs">
                   {/* Doctor & Patient Profile Dossier */}
                   {result.clinical_entities && (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
@@ -1175,14 +1364,16 @@ export const PrescriptionCareHub: React.FC = () => {
                             </div>
                           </div>
 
-                          <div className="pt-2 border-t border-[#E2EAE7] flex items-center justify-between text-xs">
-                            <span className="font-mono font-medium text-[#172B2A]">
-                              {t("মাত্রা: ", "Dosage: ")}
-                              {med.dosage}
-                            </span>
+                          <div className="pt-2 border-t border-[#E2EAE7] flex items-center justify-between text-xs gap-2">
+                            <div className="flex items-center gap-1.5 flex-wrap">
+                              <span className="font-bold text-[#0F766E]">{t("মাত্রা:", "Dosage:")}</span>
+                              <span className="dosage-pill font-semibold text-[#172B2A] bg-[#F0FDFA] border border-teal-200/80 px-2.5 py-1 rounded-md text-xs inline-block">
+                                {med.dosage}
+                              </span>
+                            </div>
                             <button
                               onClick={() => handleOpenDrugModal(med.generic || med.brand)}
-                              className="text-[11px] font-semibold text-[#0F766E] hover:underline flex items-center gap-1 cursor-pointer"
+                              className="text-[11px] font-semibold text-[#0F766E] hover:underline flex items-center gap-1 cursor-pointer flex-shrink-0"
                             >
                               <Info className="w-3 h-3" />
                               <span>{t("মনোগ্রাফ দেখুন", "View Monograph")}</span>
@@ -1231,17 +1422,25 @@ export const PrescriptionCareHub: React.FC = () => {
                   </div>
                 </div>
               )}
+            </div>
 
-              {/* =================================================================== */}
-              {/* TAB 2: SOURCED DRUG SAFETY & INTERACTION WARNINGS                  */}
-              {/* =================================================================== */}
-              {activeTab === "safety" && (
-                <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-5 shadow-sm space-y-4 text-xs">
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-[#E2EAE7]">
+            {/* =================================================================== */}
+            {/* SECTION 2: SOURCED DRUG SAFETY & INTERACTION WARNINGS               */}
+            {/* =================================================================== */}
+            <div id="section-drug-safety" className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl shadow-sm overflow-hidden scroll-mt-24">
+                {/* Section Header */}
+                <div
+                  onClick={() => toggleSection("safety")}
+                  className="p-4 bg-[#F7FAF9] border-b border-[#E2EAE7] flex flex-wrap items-center justify-between gap-2 cursor-pointer hover:bg-[#F0FDFA] transition-colors"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="h-6 w-6 rounded-md bg-[#0F766E] text-white font-bold text-xs flex items-center justify-center shadow-2xs">
+                      ২
+                    </span>
                     <div>
                       <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
-                        <ShieldAlert className="w-4 h-4 text-[#B45309]" />
-                        {t("ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug-Drug Safety)", "Drug-Drug Safety & Interaction Warnings")}
+                        <ShieldAlert className={`w-4 h-4 ${safetyReport?.is_safe === false ? "text-[#B91C1C]" : "text-[#0F766E]"}`} />
+                        <span>{t("ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug-Drug Safety)", "Drug-Drug Safety & Interaction Warnings")}</span>
                       </h3>
                       <p className="text-[11px] text-[#647575]">
                         {t(
@@ -1250,11 +1449,13 @@ export const PrescriptionCareHub: React.FC = () => {
                         )}
                       </p>
                     </div>
+                  </div>
 
+                  <div className="flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
                     <button
                       onClick={handleRecheckSafety}
                       disabled={safetyLoading}
-                      className="rounded-lg bg-[#0F766E] px-3.5 py-1.5 text-xs font-bold text-white hover:bg-[#115E59] transition-colors disabled:opacity-50 flex items-center gap-1.5 cursor-pointer"
+                      className="rounded-lg bg-[#0F766E] px-3.5 py-1.5 text-xs font-bold text-white hover:bg-[#115E59] transition-colors disabled:opacity-50 flex items-center gap-1.5 cursor-pointer shadow-2xs"
                     >
                       {safetyLoading ? (
                         <>
@@ -1268,7 +1469,24 @@ export const PrescriptionCareHub: React.FC = () => {
                         </>
                       )}
                     </button>
+
+                    <button
+                      type="button"
+                      onClick={() => toggleSection("safety")}
+                      className="text-[#647575] hover:text-[#172B2A] p-1 rounded transition-transform"
+                      aria-label="Toggle section"
+                    >
+                      {expandedSections.safety ? (
+                        <ChevronUp className="w-4 h-4" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4" />
+                      )}
+                    </button>
                   </div>
+                </div>
+
+                {expandedSections.safety && (
+                  <div className="p-5 space-y-4 text-xs">
 
                   {safetyReport ? (
                     <div className="space-y-3">
@@ -1357,27 +1575,157 @@ export const PrescriptionCareHub: React.FC = () => {
                   )}
                 </div>
               )}
+            </div>
 
-              {/* =================================================================== */}
-              {/* TAB 3: IN-PAGE CONTEXTUAL BANGLA CLINICAL CHAT                     */}
-              {/* =================================================================== */}
-              {activeTab === "chat" && (
-                <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-5 shadow-sm space-y-4 text-xs">
-                  <div className="flex items-center justify-between pb-2 border-b border-[#E2EAE7]">
-                    <div>
-                      <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
-                        <MessageSquare className="w-4 h-4 text-[#0F766E]" />
-                        {t("প্রেসক্রিপশন এআই কনসালটেশন (RAG Medical Chat)", "Prescription AI Consultation (RAG Medical Chat)")}
-                      </h3>
-                      <p className="text-[11px] text-[#647575]">
-                        {t("বর্তমান প্রেসক্রিপশনের ওষুধসমূহ নিয়ে যেকোনো প্রশ্ন করুন", "Ask any question regarding your prescribed medications")}
-                      </p>
-                    </div>
-                    <span className="text-[11px] font-semibold text-[#0F766E] bg-[#CCFBF1] px-2 py-0.5 rounded">
-                      RAG Grounded
-                    </span>
+            {/* =================================================================== */}
+            {/* SECTION 3: CLINICAL PATIENT GUIDE                                   */}
+            {/* =================================================================== */}
+            <div id="section-patient-guide" className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl shadow-sm overflow-hidden scroll-mt-24">
+              {/* Section Header */}
+              <div
+                onClick={() => toggleSection("guide")}
+                className="p-4 bg-[#F7FAF9] border-b border-[#E2EAE7] flex flex-wrap items-center justify-between gap-2 cursor-pointer hover:bg-[#F0FDFA] transition-colors"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="h-6 w-6 rounded-md bg-[#0F766E] text-white font-bold text-xs flex items-center justify-center shadow-2xs">
+                    ৩
+                  </span>
+                  <div>
+                    <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
+                      <BookOpen className="w-4 h-4 text-[#0F766E]" />
+                      <span>{t("রোগীর সহজ সহায়িকা ও সেবনবিধি (Patient Guidance)", "Patient Clinical Guide & Schedule")}</span>
+                    </h3>
+                    <p className="text-[11px] text-[#647575]">
+                      {t("প্রতিটি ওষুধের কাজ ও খাওয়ার সহজ সময়সূচি", "Clear instructions detailing indication, meal intervals, and precautions")}
+                    </p>
                   </div>
+                </div>
 
+                <div className="flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
+                  <button
+                    onClick={handleGenerateExplanation}
+                    disabled={explainLoading}
+                    className="rounded-lg bg-[#0F766E] px-3 py-1.5 text-xs font-bold text-white hover:bg-[#115E59] transition-colors disabled:opacity-50 flex items-center gap-1.5 cursor-pointer shadow-2xs"
+                  >
+                    {explainLoading ? (
+                      <>
+                        <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                        <span>{t("প্রস্তুত হচ্ছে...", "Generating...")}</span>
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles className="w-3.5 h-3.5" />
+                        <span>{explanation ? t("পুনরায় তৈরি করুন", "Regenerate Guide") : t("পূর্ণাঙ্গ সহায়িকা পান", "Generate Full Guide")}</span>
+                      </>
+                    )}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => toggleSection("guide")}
+                    className="text-[#647575] hover:text-[#172B2A] p-1 rounded transition-transform"
+                    aria-label="Toggle section"
+                  >
+                    {expandedSections.guide ? (
+                      <ChevronUp className="w-4 h-4" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
+              </div>
+
+              {expandedSections.guide && (
+                <div className="p-5 space-y-4 text-xs">
+                  {explanation ? (
+                    <div className="space-y-3">
+                      <div className="relative rounded-lg bg-[#F7FAF9] p-4 text-[#172B2A] text-xs sm:text-sm leading-relaxed whitespace-pre-line border border-[#E2EAE7]">
+                        <button
+                          onClick={handleCopyExplanation}
+                          className="absolute top-3 right-3 flex items-center gap-1 rounded bg-[#FFFFFF] px-2.5 py-1 text-[11px] font-semibold text-[#172B2A] border border-[#E2EAE7] hover:bg-[#F7FAF9] transition-colors cursor-pointer"
+                        >
+                          {copiedExplanation ? (
+                            <>
+                              <Check className="w-3 h-3 text-[#15803D]" />
+                              <span>{t("কপি হয়েছে", "Copied")}</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-3 h-3" />
+                              <span>{t("কপি করুন", "Copy")}</span>
+                            </>
+                          )}
+                        </button>
+                        {explanation.bangla_explanation}
+                      </div>
+
+                      <div className="flex items-center justify-between text-[11px] text-[#647575]">
+                        <span>{t("প্রোভাইডার: ", "Provider: ")}{explanation.llm_metadata?.provider || "Groq Qwen"}</span>
+                        <span>{t("সময়: ", "Time: ")}{explanation.execution_time_ms} ms</span>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="p-6 rounded-lg border border-dashed border-[#E2EAE7] text-center text-xs text-[#647575] space-y-3 bg-[#F7FAF9]/50">
+                      <p>{t("ওষুধগুলোর কাজ ও খাওয়ার নিয়ম সহজ ভাষায় তৈরি করতে নিচের বাটনে চাপ দিন।", "Click the button below to generate comprehensive patient instructions and meal schedule.")}</p>
+                      <button
+                        type="button"
+                        onClick={handleGenerateExplanation}
+                        disabled={explainLoading}
+                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#0F766E] text-white font-bold text-xs hover:bg-[#115E59] transition-colors cursor-pointer shadow-xs"
+                      >
+                        <Sparkles className="w-3.5 h-3.5" />
+                        <span>{t("পূর্ণাঙ্গ সহায়িকা তৈরি করুন", "Generate Full Patient Guide")}</span>
+                      </button>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* =================================================================== */}
+            {/* SECTION 4: IN-PAGE CONTEXTUAL BANGLA CLINICAL CHAT                  */}
+            {/* =================================================================== */}
+            <div id="section-ai-consultation" className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl shadow-sm overflow-hidden scroll-mt-24">
+              {/* Section Header */}
+              <div
+                onClick={() => toggleSection("chat")}
+                className="p-4 bg-[#F7FAF9] border-b border-[#E2EAE7] flex items-center justify-between cursor-pointer hover:bg-[#F0FDFA] transition-colors"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="h-6 w-6 rounded-md bg-[#0F766E] text-white font-bold text-xs flex items-center justify-center shadow-2xs">
+                    ৪
+                  </span>
+                  <div>
+                    <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
+                      <MessageSquare className="w-4 h-4 text-[#0F766E]" />
+                      <span>{t("প্রেসক্রিপশন এআই কনসালটেশন (RAG Medical Chat)", "Prescription AI Consultation (RAG Medical Chat)")}</span>
+                    </h3>
+                    <p className="text-[11px] text-[#647575]">
+                      {t("বর্তমান প্রেসক্রিপশনের ওষুধসমূহ নিয়ে যেকোনো প্রশ্ন করুন", "Ask any question regarding your prescribed medications")}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-semibold text-[#0F766E] bg-[#CCFBF1] px-2 py-0.5 rounded">
+                    RAG Grounded
+                  </span>
+                  <button
+                    type="button"
+                    className="text-[#647575] hover:text-[#172B2A] p-1 rounded transition-transform"
+                    aria-label="Toggle section"
+                  >
+                    {expandedSections.chat ? (
+                      <ChevronUp className="w-4 h-4" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
+              </div>
+
+              {expandedSections.chat && (
+                <div className="p-5 space-y-4 text-xs">
                   {/* Contextual Suggestion Chips */}
                   <div className="space-y-1">
                     <span className="text-[11px] font-medium text-[#647575]">{t("কমন প্রশ্ন:", "Suggested Questions:")}</span>
@@ -1470,76 +1818,7 @@ export const PrescriptionCareHub: React.FC = () => {
                   </form>
                 </div>
               )}
-
-              {/* =================================================================== */}
-              {/* TAB 4: CLINICAL PATIENT GUIDE                                       */}
-              {/* =================================================================== */}
-              {activeTab === "guide" && (
-                <div className="bg-[#FFFFFF] border border-[#E2EAE7] rounded-xl p-5 shadow-sm space-y-4 text-xs">
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-[#E2EAE7]">
-                    <div>
-                      <h3 className="font-bold text-sm text-[#172B2A] flex items-center gap-1.5">
-                        <BookOpen className="w-4 h-4 text-[#0F766E]" />
-                        {t("রোগীর সহজ সহায়িকা (Patient Guidance)", "Patient Clinical Guide & Schedule")}
-                      </h3>
-                      <p className="text-[11px] text-[#647575]">
-                        {t("প্রতিটি ওষুধের কাজ ও খাওয়ার সহজ সময়সূচি", "Clear instructions detailing indication, meal intervals, and precautions")}
-                      </p>
-                    </div>
-
-                    <button
-                      onClick={handleGenerateExplanation}
-                      disabled={explainLoading}
-                      className="rounded-lg bg-[#0F766E] px-3.5 py-1.5 text-xs font-bold text-white hover:bg-[#115E59] transition-colors disabled:opacity-50 flex items-center gap-1.5 cursor-pointer"
-                    >
-                      {explainLoading ? (
-                        <>
-                          <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                          <span>{t("প্রস্তুত হচ্ছে...", "Generating...")}</span>
-                        </>
-                      ) : (
-                        <>
-                          <Sparkles className="w-3.5 h-3.5" />
-                          <span>{explanation ? t("পুনরায় তৈরি করুন", "Regenerate Guide") : t("পূর্ণাঙ্গ সহায়িকা পান", "Generate Full Guide")}</span>
-                        </>
-                      )}
-                    </button>
-                  </div>
-
-                  {explanation ? (
-                    <div className="space-y-3">
-                      <div className="relative rounded-lg bg-[#F7FAF9] p-4 text-[#172B2A] text-xs sm:text-sm leading-relaxed whitespace-pre-line border border-[#E2EAE7]">
-                        <button
-                          onClick={handleCopyExplanation}
-                          className="absolute top-3 right-3 flex items-center gap-1 rounded bg-[#FFFFFF] px-2.5 py-1 text-[11px] font-semibold text-[#172B2A] border border-[#E2EAE7] hover:bg-[#F7FAF9] transition-colors cursor-pointer"
-                        >
-                          {copiedExplanation ? (
-                            <>
-                              <Check className="w-3 h-3 text-[#15803D]" />
-                              <span>{t("কপি হয়েছে", "Copied")}</span>
-                            </>
-                          ) : (
-                            <>
-                              <Copy className="w-3 h-3" />
-                              <span>{t("কপি করুন", "Copy")}</span>
-                            </>
-                          )}
-                        </button>
-                        {explanation.bangla_explanation}
-                      </div>
-
-                      <div className="flex items-center justify-between text-[11px] text-[#647575]">
-                        <span>{t("প্রোভাইডার: ", "Provider: ")}{explanation.llm_metadata?.provider || "Groq Qwen"}</span>
-                        <span>{t("সময়: ", "Time: ")}{explanation.execution_time_ms} ms</span>
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="p-6 rounded-lg border border-dashed border-[#E2EAE7] text-center text-xs text-[#647575]">
-                      {t("উপরের বাটনে চাপ দিলে ওষুধের কাজ ও নিয়ম সহজ ভাষায় প্রস্তুত হবে।", "Click the button above to generate comprehensive patient instructions.")}
-                    </div>
-                  )}
-                </div>
-              )}
+            </div>
 
             </div>
           ) : (
@@ -1626,7 +1905,7 @@ export const PrescriptionCareHub: React.FC = () => {
                   type="text"
                   value={editingMedicine.dosage}
                   onChange={(e) => setEditingMedicine({ ...editingMedicine, dosage: e.target.value })}
-                  className="w-full rounded-lg border border-[#E2EAE7] bg-[#FFFFFF] p-2.5 text-[#172B2A] focus:border-[#0F766E] focus:outline-none"
+                  className="w-full rounded-lg border border-[#E2EAE7] bg-[#FFFFFF] p-2.5 text-[#172B2A] focus:border-[#0F766E] focus:outline-none font-bangla text-xs"
                 />
               </div>
             </div>

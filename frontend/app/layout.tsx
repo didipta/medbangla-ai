@@ -43,6 +43,14 @@ export default function RootLayout({
       lang="bn"
       className={`${hindSiliguri.variable} ${inter.variable} ${geistMono.variable} font-bangla h-full antialiased`}
     >
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[#FAFDFB] text-slate-900 antialiased selection:bg-[#0F766E] selection:text-white">
         <StoreProvider>
           <LanguageProvider>

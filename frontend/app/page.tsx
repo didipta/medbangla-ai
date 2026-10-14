@@ -21,6 +21,7 @@ import {
   Clock,
   ChevronRight,
   ChevronDown,
+  ChevronUp,
   FileText,
   User,
   Zap,
@@ -50,6 +51,7 @@ import {
   Plus,
 } from "lucide-react";
 import { useLanguage } from "./context/LanguageContext";
+import { useAuth } from "./context/AuthContext";
 import { HeroAnimatedSlider } from "./components/HeroAnimatedSlider";
 
 // Sample verified medications for the 4-tab interactive workstation (Fake/Clean clinical data)
@@ -167,9 +169,39 @@ const HERO_CATEGORIES = [
 export default function HomePage() {
   const router = useRouter();
   const { lang, t } = useLanguage();
+  const { currentUser, openAuthModal } = useAuth();
 
-  // Core 4-Tab Interactive Workstation State
-  const [activeWorkstationTab, setActiveWorkstationTab] = useState<"verify" | "safety" | "chat" | "guide">("verify");
+  // Unified Interactive Workstation Section Expand/Collapse State
+  const [workstationSections, setWorkstationSections] = useState({
+    verify: true,
+    safety: true,
+    guide: true,
+    chat: true,
+  });
+
+  const toggleWorkstationSection = (section: "verify" | "safety" | "guide" | "chat") => {
+    setWorkstationSections((prev) => ({
+      ...prev,
+      [section]: !prev[section],
+    }));
+  };
+
+  const setAllWorkstationSections = (expand: boolean) => {
+    setWorkstationSections({
+      verify: expand,
+      safety: expand,
+      guide: expand,
+      chat: expand,
+    });
+  };
+
+  const scrollToWorkstationSection = (id: "verify" | "safety" | "guide" | "chat") => {
+    setWorkstationSections((prev) => ({ ...prev, [id]: true }));
+    const el = document.getElementById(`workstation-sec-${id}`);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   const [selectedChatPresetId, setSelectedChatPresetId] = useState<string>("q-effects");
   const [chatCustomInput, setChatCustomInput] = useState<string>("");
   const [chatMessages, setChatMessages] = useState<{ sender: "user" | "bot"; text: string; time: string }[]>([
@@ -211,16 +243,34 @@ export default function HomePage() {
     executeMedicineSearch(heroSearchQuery);
   };
 
-  // Trigger laser scan simulation
+  // Trigger laser scan simulation or prompt login if not authenticated
   const handleTriggerLaserScan = () => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
     setIsLaserScanning(true);
     setTimeout(() => {
       setIsLaserScanning(false);
     }, 1300);
   };
 
+  // Navigate to checker or prompt login if not authenticated
+  const handleCheckerNavigation = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
+    router.push("/checker");
+  };
+
   // Handle clicking a chat question pill
   const handleSelectChatQuestion = (presetId: string) => {
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
     setSelectedChatPresetId(presetId);
     const preset = SAMPLE_CHAT_PRESETS.find((p) => p.id === presetId);
     if (!preset) return;
@@ -237,6 +287,10 @@ export default function HomePage() {
 
   const handleSendCustomChat = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!currentUser) {
+      openAuthModal("login");
+      return;
+    }
     if (!chatCustomInput.trim()) return;
 
     const input = chatCustomInput.trim();
@@ -269,7 +323,7 @@ export default function HomePage() {
   return (
     <div className="space-y-16 sm:space-y-24 pb-24">
       {/* ========================================================================= */}
-      {/* 1. DISTINCTIVE EDITORIAL HERO SECTION WITH 4-TAB LIVE CLINICAL WORKSTATION */}
+      {/* 1. DISTINCTIVE EDITORIAL HERO SECTION WITH LIVE CLINICAL WORKSTATION       */}
       {/* ========================================================================= */}
       <section className="relative overflow-hidden border-b border-slate-200/80 bg-[#FFFFFF] py-10 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="pointer-events-none absolute -top-40 right-1/4 h-96 w-96 rounded-full bg-teal-500/5 blur-3xl" />
@@ -311,14 +365,21 @@ export default function HomePage() {
 
               {/* Primary Call to Action Buttons */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
-                <Link
-                  href="/checker"
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (!currentUser) {
+                      openAuthModal("login");
+                    } else {
+                      router.push("/checker");
+                    }
+                  }}
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] px-7 py-3.5 text-xs sm:text-sm font-bold text-white shadow-xs transition-all cursor-pointer group"
                 >
                   <Scan className="w-4 h-4" />
                   <span>{t("প্রেসক্রিপশন পরীক্ষা করুন", "Check Your Prescription")}</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                </Link>
+                </button>
 
                 <Link
                   href="/medicines"
@@ -434,429 +495,687 @@ export default function HomePage() {
       </section>
 
       {/* ========================================================================= */}
-      {/* 1B. LIVE CLINICAL WORKSTATION SIMULATOR (৪-ট্যাব ইন্টারঅ্যাক্টিভ ডেমো)   */}
+      {/* 1B. LIVE CLINICAL WORKSTATION & PRESCRIPTION TRIAGE (একীভূত লাইভ ড্যাশবোর্ড) */}
       {/* ========================================================================= */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="space-y-6">
           <div className="text-center max-w-2xl mx-auto space-y-2">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#0F766E]">
-              {t("ইন্টারেক্টিভ এআই প্রেসক্রিপশন সিমুলেটর", "Live Clinical Simulation")}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-teal-50 border border-teal-200 text-[#0F766E] shadow-2xs">
+              <Activity className="w-3.5 h-3.5 animate-pulse text-[#0F766E]" />
+              {t("লাইভ ক্লিনিক্যাল সিমুলেশন ও ট্রায়াজ", "Live Clinical Simulation & Triage")}
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               {t("লাইভ ক্লিনিক্যাল ওয়ার্কস্টেশন ও প্রেসক্রিপশন ট্রায়াজ", "Live Clinical Workstation & Prescription Triage")}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500">
+            <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
               {t(
-                "কাগজের প্রেসক্রিপশন থেকে ওষুধের নাম উদ্ধার, ড্রাগ মিথস্ক্রিয়া সতর্কতা ও বাংলায় চ্যাট কনসালটেশনের লাইভ ৪-ট্যাব ডেমো",
-                "Explore real-time handwriting recognition, pairwise drug interaction screening, and Bengali AI consultation below"
+                "কোনো আলাদা ট্যাবে স্যুইচ করার ঝামেলা নেই — প্রেসক্রিপশন যাচাই, ড্রাগ মিথস্ক্রিয়া নিরাপত্তা, রোগীর সেবনবিধি ও বাংলায় এআই কনসালটেশন সব একীভূত স্ট্রিম আকারে সাজানো",
+                "Explore real-time OCR medication grounding, pairwise drug interaction screening, Bengali dosage guidance, and AI consultation seamlessly unified into one interactive workstation"
               )}
             </p>
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-white shadow-md overflow-hidden">
-            {/* 4 Core Navigation Tabs matching the project engine */}
-            <div className="bg-slate-50/90 border-b border-slate-200 p-2 flex flex-wrap sm:flex-nowrap items-center gap-1.5 text-xs">
-              <button
-                type="button"
-                onClick={() => setActiveWorkstationTab("verify")}
-                    className={`flex-1 py-2 px-2.5 rounded-xl text-center font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-                      activeWorkstationTab === "verify"
-                        ? "bg-white text-[#0F766E] shadow-xs border border-teal-200/80"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
-                  >
-                    <Edit3 className="w-3.5 h-3.5 text-[#0F766E]" />
-                    <span className="truncate">{t("যাচাই ও ওষুধ তালিকা (4)", "Verification (4)")}</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setActiveWorkstationTab("safety")}
-                    className={`flex-1 py-2 px-2.5 rounded-xl text-center font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-                      activeWorkstationTab === "safety"
-                        ? "bg-white text-[#0F766E] shadow-xs border border-teal-200/80"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
-                  >
-                    <ShieldAlert className="w-3.5 h-3.5 text-amber-600" />
-                    <span className="truncate">{t("ড্রাগ সেফটি", "Drug Safety")}</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setActiveWorkstationTab("chat")}
-                    className={`flex-1 py-2 px-2.5 rounded-xl text-center font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-                      activeWorkstationTab === "chat"
-                        ? "bg-white text-[#0F766E] shadow-xs border border-teal-200/80"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
-                  >
-                    <MessageSquare className="w-3.5 h-3.5 text-teal-600" />
-                    <span className="truncate">{t("বাংলা চ্যাট (Q&A)", "Bangla Chat")}</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setActiveWorkstationTab("guide")}
-                    className={`flex-1 py-2 px-2.5 rounded-xl text-center font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-                      activeWorkstationTab === "guide"
-                        ? "bg-white text-[#0F766E] shadow-xs border border-teal-200/80"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
-                  >
-                    <BookOpen className="w-3.5 h-3.5 text-blue-600" />
-                    <span className="truncate">{t("রোগীর সহায়িকা", "Patient Guide")}</span>
-                  </button>
+            {/* Top Control Bar: Prescription Preview & Scan Laser Simulator + Expand/Collapse All */}
+            <div className="bg-slate-50/90 border-b border-slate-200 p-3 sm:p-4 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <div className="relative h-14 w-20 rounded-lg overflow-hidden border border-slate-300 bg-slate-900 flex-shrink-0 shadow-2xs">
+                  <img
+                    src="/images/hero_prescription_scanner.jpg"
+                    alt="Prescription slip"
+                    className="w-full h-full object-cover"
+                  />
+                  {isLaserScanning && (
+                    <div className="absolute inset-0 bg-teal-400/30 animate-pulse flex items-center justify-center">
+                      <div className="w-full h-0.5 bg-cyan-400 shadow-[0_0_8px_cyan]" />
+                    </div>
+                  )}
                 </div>
-
-                <div className="p-4 sm:p-5 space-y-4">
-                  {/* Top Bar: Prescription Preview & Scan Laser Simulator */}
-                  <div className="rounded-xl border border-slate-200 bg-slate-50/70 p-3 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <div className="flex items-center gap-3">
-                      <div className="relative h-14 w-20 rounded-lg overflow-hidden border border-slate-300 bg-slate-900 flex-shrink-0">
-                        <img
-                          src="/images/hero_prescription_scanner.jpg"
-                          alt="Prescription slip"
-                          className="w-full h-full object-cover"
-                        />
-                        {isLaserScanning && (
-                          <div className="absolute inset-0 bg-teal-400/30 animate-pulse flex items-center justify-center">
-                            <div className="w-full h-0.5 bg-cyan-400 shadow-[0_0_8px_cyan]" />
-                          </div>
-                        )}
-                      </div>
-                      <div>
-                        <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
-                          <span>prescription_slip_102.jpg</span>
-                        </div>
-                        <div className="text-[11px] text-slate-500">
-                          {t("স্ক্যান সম্পন্ন • ৪টি ওষুধ ভেরিফাইড", "Decoded • 4 Medicines Grounded")}
-                        </div>
-                      </div>
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={handleTriggerLaserScan}
-                      className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white text-xs font-bold shadow-xs transition-all cursor-pointer"
-                    >
-                      <Scan className="w-3.5 h-3.5" />
-                      <span>{t("প্রেসক্রিপশন এনালাইসিস চালান", "Run Prescription Analysis")}</span>
-                    </button>
+                <div>
+                  <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <CheckCircle2 className="w-4 h-4 text-[#15803D]" />
+                    <span>prescription_slip_102.jpg</span>
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-[#15803D] border border-emerald-200">
+                      DGDA Grounded
+                    </span>
                   </div>
-
-                  {/* ================================================================= */}
-                  {/* TAB 1: MEDICINE VERIFICATION (যাচাই ও ওষুধ তালিকা)               */}
-                  {/* ================================================================= */}
-                  {activeWorkstationTab === "verify" && (
-                    <div className="space-y-3.5 text-xs">
-                      {/* Physician & Patient Dossier Cards */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                        <div className="rounded-xl border border-slate-200 bg-white p-3 space-y-1">
-                          <div className="font-bold text-slate-900 flex items-center gap-1.5 text-xs text-[#0F766E]">
-                            <Stethoscope className="w-3.5 h-3.5" />
-                            <span>{t("চিকিৎসকের বিবরণ (Physician)", "Physician Dossier")}</span>
-                          </div>
-                          <div className="text-[11px] text-slate-700 font-medium">
-                            ডাঃ মোঃ ফজলুল হক | MBBS, FCPS
-                          </div>
-                          <div className="text-[10px] text-slate-500">সিএমএইচ, ঢাকা | BMDC Reg: 28491</div>
-                        </div>
-
-                        <div className="rounded-xl border border-slate-200 bg-white p-3 space-y-1">
-                          <div className="font-bold text-slate-900 flex items-center gap-1.5 text-xs text-[#0F766E]">
-                            <User className="w-3.5 h-3.5" />
-                            <span>{t("রোগী ও শারীরিক পরিমাপ (Vitals)", "Patient & Vitals")}</span>
-                          </div>
-                          <div className="text-[11px] text-slate-700 font-medium">
-                            মাহাদী হাসান, ২৯ বছর
-                          </div>
-                          <div className="text-[10px] text-slate-500 font-mono">
-                            BP: 160/90 mmHg | Wt: 57 kg
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Verified Drug List (4 Items) */}
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between text-[11px] font-bold text-slate-600 px-0.5">
-                          <span>{t("সনাক্তকৃত ওষুধ যাচাইকরণ (৪টি নির্বাচিত)", "Decoded Medications (4 Verified)")}</span>
-                          <span className="text-[#0F766E] font-mono">DGDA Approved</span>
-                        </div>
-
-                        {SAMPLE_WORKSTATION_MEDS.map((med, mIdx) => (
-                          <div
-                            key={med.id}
-                            className="rounded-xl border border-slate-200 bg-white p-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow-2xs hover:border-[#0F766E] transition-colors"
-                          >
-                            <div className="space-y-0.5">
-                              <div className="flex items-center gap-2">
-                                <span className="h-4 w-4 rounded bg-[#0F766E] text-white flex items-center justify-center text-[10px] font-bold">
-                                  ✓
-                                </span>
-                                <span className="font-bold text-slate-900 text-xs">{med.name}</span>
-                                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-50 text-[#15803D] border border-emerald-200">
-                                  {t("ভেরিফাইড", "Verified")}
-                                </span>
-                              </div>
-                              <div className="text-[11px] text-slate-500">
-                                {t("জেনেরিক:", "Generic:")}{" "}
-                                <span className="text-slate-800 font-medium">{med.generic}</span>
-                              </div>
-                              <div className="text-[11px] text-[#0F766E] font-semibold">
-                                {t("মাত্রা:", "Dosage:")} {lang === "bn" ? med.dosageBn : med.dosageEn}
-                              </div>
-                            </div>
-
-                            <button
-                              type="button"
-                              onClick={() => executeMedicineSearch(med.generic || med.name.split(" ")[0])}
-                              className="text-[10px] font-bold text-[#0F766E] hover:underline self-start sm:self-center cursor-pointer"
-                            >
-                              {t("মনোগ্রাফ দেখুন", "View Monograph")}
-                            </button>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* ================================================================= */}
-                  {/* TAB 2: DRUG SAFETY TRIAGE (ড্রাগ সেফটি)                           */}
-                  {/* ================================================================= */}
-                  {activeWorkstationTab === "safety" && (
-                    <div className="space-y-4 text-xs">
-                      <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-4 space-y-3">
-                        <div className="flex items-center justify-between border-b border-emerald-200/80 pb-2.5">
-                          <div className="flex items-center gap-2 text-emerald-950 font-bold text-xs sm:text-sm">
-                            <ShieldCheck className="w-5 h-5 text-[#15803D]" />
-                            <span>{t("ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug-Drug Safety)", "Drug-Drug Interaction Safety Triage")}</span>
-                          </div>
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-600 text-white">
-                            SAFE
-                          </span>
-                        </div>
-
-                        <div className="space-y-1">
-                          <h4 className="font-bold text-slate-900 text-xs">
-                            {t("কোনো সরাসরি ক্ষতিকর মিথস্ক্রিয়া নথিভুক্ত নেই", "No Direct Adverse Interactions Found")}
-                          </h4>
-                          <p className="text-[11px] text-slate-600 leading-relaxed">
-                            {t(
-                              "বাংলাদেশ ডিজিডিএ ও ব্রিটিশ ন্যাশনাল ফর্মুলারি (BNF) অনুযায়ী এই প্রেসক্রিপশনের ওষুধগুলোর মধ্যে ক্ষতিকর কোনো কনট্রা-ইন্ডিকেশন পাওয়া যায়নি। তবে ব্যথানাশক Proxen সেবনের সময় নিয়মিত রক্তচাপ ও কিডনি রেনাল ফাংশন পর্যবেক্ষণ করুন।",
-                              "No severe pharmacodynamic or pharmacokinetic contraindications detected among the 4 verified medications according to DGDA and BNF monographs."
-                            )}
-                          </p>
-                        </div>
-                      </div>
-
-                      {/* Pairwise Matrix Summary */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
-                        <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
-                          <span className="font-bold text-slate-800 flex items-center gap-1.5">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
-                            Naproxen + Diltiazem
-                          </span>
-                          <p className="text-slate-500 text-[10px]">
-                            {t("রক্তচাপ নিয়মিত মনিটরিং করার পরামর্শ।", "Routine blood pressure monitoring advised.")}
-                          </p>
-                        </div>
-
-                        <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
-                          <span className="font-bold text-slate-800 flex items-center gap-1.5">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
-                            Calcitriol + Carbonyl Iron
-                          </span>
-                          <p className="text-slate-500 text-[10px]">
-                            {t("উভয় ওষুধের শোষণ স্বাভাবিক রাখতে সময়ে ব্যবধান রাখুন।", "Separate administration times for optimal absorption.")}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-
-                  {/* ================================================================= */}
-                  {/* TAB 3: BANGLA RAG CHAT (বাংলা চ্যাট Q&A)                           */}
-                  {/* ================================================================= */}
-                  {activeWorkstationTab === "chat" && (
-                    <div className="space-y-3 text-xs">
-                      <div className="flex items-center justify-between border-b border-slate-200 pb-2">
-                        <div className="flex items-center gap-2">
-                          <Bot className="w-4 h-4 text-[#0F766E]" />
-                          <span className="font-bold text-slate-900 text-xs">
-                            {t("প্রেসক্রিপশন এআই কনসালটেশন (Bangla RAG Chat)", "Bangla Prescription AI Consultation")}
-                          </span>
-                        </div>
-                        <span className="font-mono text-[10px] text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
-                          RAG Grounded
-                        </span>
-                      </div>
-
-                      {/* Common Question Pills */}
-                      <div className="space-y-1">
-                        <span className="text-[10px] text-slate-400 font-semibold block">
-                          {t("কমন প্রশ্ন নির্বাচন করুন:", "Suggested Questions:")}
-                        </span>
-                        <div className="flex flex-wrap gap-1.5">
-                          {SAMPLE_CHAT_PRESETS.map((preset) => (
-                            <button
-                              key={preset.id}
-                              type="button"
-                              onClick={() => handleSelectChatQuestion(preset.id)}
-                              className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer border ${
-                                selectedChatPresetId === preset.id
-                                  ? "bg-teal-50 text-[#0F766E] border-teal-300"
-                                  : "bg-slate-100 text-slate-600 border-slate-200 hover:bg-slate-200"
-                              }`}
-                            >
-                              {lang === "bn" ? preset.qBn : preset.qEn}
-                            </button>
-                          ))}
-                        </div>
-                      </div>
-
-                      {/* Conversational Chat Thread */}
-                      <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-3 space-y-2.5 max-h-[220px] overflow-y-auto">
-                        {chatMessages.map((msg, idx) => (
-                          <div
-                            key={idx}
-                            className={`flex gap-2 ${msg.sender === "user" ? "justify-end" : "justify-start"}`}
-                          >
-                            {msg.sender === "bot" && (
-                              <div className="h-6 w-6 rounded-full bg-[#0F766E] text-white flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">
-                                🤖
-                              </div>
-                            )}
-                            <div
-                              className={`rounded-2xl p-2.5 text-[11px] max-w-[85%] leading-relaxed ${
-                                msg.sender === "user"
-                                  ? "bg-[#0F766E] text-white rounded-tr-xs"
-                                  : "bg-white border border-slate-200 text-slate-800 rounded-tl-xs shadow-2xs"
-                              }`}
-                            >
-                              <p className="whitespace-pre-line">{msg.text}</p>
-                              <span
-                                className={`block text-[9px] mt-1 ${
-                                  msg.sender === "user" ? "text-teal-200 text-right" : "text-slate-400"
-                                }`}
-                              >
-                                {msg.time}
-                              </span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-
-                      {/* Chat Input Box */}
-                      <form onSubmit={handleSendCustomChat} className="flex gap-1.5 pt-1">
-                        <input
-                          type="text"
-                          value={chatCustomInput}
-                          onChange={(e) => setChatCustomInput(e.target.value)}
-                          placeholder={t(
-                            "এই প্রেসক্রিপশন নিয়ে যেকোনো প্রশ্ন বাংলায় লিখুন...",
-                            "Ask any question about these medicines in Bangla..."
-                          )}
-                          className="flex-1 rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs text-slate-900 placeholder-slate-400 focus:border-[#0F766E] focus:outline-none"
-                        />
-                        <button
-                          type="submit"
-                          className="rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white px-3.5 py-2 text-xs font-bold transition-colors cursor-pointer flex items-center gap-1"
-                        >
-                          <Send className="w-3.5 h-3.5" />
-                          <span>{t("পাঠান", "Send")}</span>
-                        </button>
-                      </form>
-                    </div>
-                  )}
-
-                  {/* ================================================================= */}
-                  {/* TAB 4: PATIENT GUIDANCE (রোগীর সহায়িকা)                           */}
-                  {/* ================================================================= */}
-                  {activeWorkstationTab === "guide" && (
-                    <div className="space-y-3 text-xs">
-                      <div className="flex items-center justify-between border-b border-slate-200 pb-2">
-                        <div className="flex items-center gap-2">
-                          <BookOpen className="w-4 h-4 text-[#0F766E]" />
-                          <span className="font-bold text-slate-900 text-xs">
-                            {t("রোগীর সহজ সহায়িকা (Patient Guidance)", "Patient Medication Guidance Sheet")}
-                          </span>
-                        </div>
-
-                        <button
-                          type="button"
-                          onClick={() =>
-                            handleCopyGuidanceText(
-                              SAMPLE_WORKSTATION_MEDS.map((m) => `${m.name}: ${m.timingBn} - ${m.precautionBn}`).join("\n\n")
-                            )
-                          }
-                          className="flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
-                        >
-                          {copiedGuidance ? (
-                            <>
-                              <Check className="w-3.5 h-3.5 text-[#15803D]" />
-                              <span>{t("কপি হয়েছে", "Copied")}</span>
-                            </>
-                          ) : (
-                            <>
-                              <Copy className="w-3.5 h-3.5" />
-                              <span>{t("কপি করুন", "Copy Report")}</span>
-                            </>
-                          )}
-                        </button>
-                      </div>
-
-                      <div className="space-y-2 max-h-[260px] overflow-y-auto pr-1">
-                        {SAMPLE_WORKSTATION_MEDS.map((med, idx) => (
-                          <div
-                            key={med.id}
-                            className="rounded-xl border border-slate-200 bg-slate-50/70 p-3 space-y-1.5"
-                          >
-                            <div className="flex items-center justify-between">
-                              <span className="font-bold text-slate-900 text-xs">
-                                {idx + 1}. {med.name} ({med.generic})
-                              </span>
-                              <span className="text-[10px] font-mono text-[#0F766E] bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
-                                {lang === "bn" ? med.dosageBn : med.dosageEn}
-                              </span>
-                            </div>
-
-                            <div className="text-[11px] text-slate-600 space-y-1">
-                              <div>
-                                <span className="font-bold text-slate-700">{t("কাজের ধরন:", "Indication:")}</span>{" "}
-                                {lang === "bn" ? med.indicationBn : med.indicationEn}
-                              </div>
-                              <div>
-                                <span className="font-bold text-[#0F766E]">{t("খাওয়ার নিয়ম:", "How to take:")}</span>{" "}
-                                {lang === "bn" ? med.timingBn : med.timingEn}
-                              </div>
-                              <div>
-                                <span className="font-bold text-amber-800">{t("সতর্কতা:", "Precaution:")}</span>{" "}
-                                {lang === "bn" ? med.precautionBn : med.precautionEn}
-                              </div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Bottom Action inside Workstation Box */}
-                  <div className="pt-1">
-                    <Link
-                      href="/checker"
-                      className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white text-xs font-bold transition-all shadow-xs cursor-pointer"
-                    >
-                      <Scan className="w-3.5 h-3.5" />
-                      <span>{t("আপনার নিজের প্রেসক্রিপশন দিয়ে টেস্ট করুন", "Test With Your Own Prescription")}</span>
-                      <ChevronRight className="w-3.5 h-3.5" />
-                    </Link>
+                  <div className="text-[11px] text-slate-500 mt-0.5">
+                    {t("স্ক্যান সম্পন্ন • ৪টি ওষুধ ভেরিফাইড • ১টি গুরুত্বপূর্ণ সেবন সতর্কতা", "Decoded • 4 Medications Grounded • 1 Observation Flag")}
                   </div>
                 </div>
               </div>
+
+              <div className="flex items-center gap-2 self-end md:self-center">
+                <button
+                  type="button"
+                  onClick={handleTriggerLaserScan}
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white text-xs font-bold shadow-xs transition-all cursor-pointer"
+                >
+                  <Scan className="w-3.5 h-3.5" />
+                  <span>{t("প্রেসক্রিপশন এনালাইসিস চালান", "Run Prescription Analysis")}</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    const allOpen = workstationSections.verify && workstationSections.safety && workstationSections.guide && workstationSections.chat;
+                    setAllWorkstationSections(!allOpen);
+                  }}
+                  className="inline-flex items-center gap-1 px-3 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-100 text-slate-700 text-xs font-semibold shadow-2xs transition-colors cursor-pointer"
+                >
+                  {workstationSections.verify && workstationSections.safety && workstationSections.guide && workstationSections.chat ? (
+                    <>
+                      <ChevronUp className="w-3.5 h-3.5 text-slate-500" />
+                      <span className="hidden sm:inline">{t("সব গুটিয়ে নিন", "Collapse All")}</span>
+                    </>
+                  ) : (
+                    <>
+                      <ChevronDown className="w-3.5 h-3.5 text-slate-500" />
+                      <span className="hidden sm:inline">{t("সব খুলুন", "Expand All")}</span>
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
-          </section>
+
+            {/* Quick-Jump Anchor Bar for Rapid Access */}
+            <div className="bg-slate-100/70 border-b border-slate-200 px-3 py-2 flex items-center gap-1.5 overflow-x-auto text-xs no-scrollbar">
+              <span className="text-[11px] font-bold text-slate-500 flex items-center gap-1 mr-1 flex-shrink-0">
+                <Zap className="w-3 h-3 text-[#0F766E]" />
+                {t("কুইক জাম্প:", "Quick Nav:")}
+              </span>
+
+              <button
+                type="button"
+                onClick={() => scrollToWorkstationSection("verify")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 flex-shrink-0 border ${
+                  workstationSections.verify
+                    ? "bg-white text-[#0F766E] border-teal-200 shadow-2xs"
+                    : "bg-slate-200/60 text-slate-600 border-transparent hover:bg-white"
+                }`}
+              >
+                <Edit3 className="w-3 h-3 text-[#0F766E]" />
+                <span>{t("১. ওষুধ তালিকা (৪)", "1. Meds (4)")}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => scrollToWorkstationSection("safety")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 flex-shrink-0 border ${
+                  workstationSections.safety
+                    ? "bg-white text-amber-700 border-amber-200 shadow-2xs"
+                    : "bg-slate-200/60 text-slate-600 border-transparent hover:bg-white"
+                }`}
+              >
+                <ShieldAlert className="w-3 h-3 text-amber-600" />
+                <span>{t("২. ড্রাগ সেফটি", "2. Safety")}</span>
+                <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+              </button>
+
+              <button
+                type="button"
+                onClick={() => scrollToWorkstationSection("guide")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 flex-shrink-0 border ${
+                  workstationSections.guide
+                    ? "bg-white text-blue-700 border-blue-200 shadow-2xs"
+                    : "bg-slate-200/60 text-slate-600 border-transparent hover:bg-white"
+                }`}
+              >
+                <BookOpen className="w-3 h-3 text-blue-600" />
+                <span>{t("৩. সেবন নির্দেশিকা", "3. Patient Guide")}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => scrollToWorkstationSection("chat")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 flex-shrink-0 border ${
+                  workstationSections.chat
+                    ? "bg-white text-teal-700 border-teal-200 shadow-2xs"
+                    : "bg-slate-200/60 text-slate-600 border-transparent hover:bg-white"
+                }`}
+              >
+                <MessageSquare className="w-3 h-3 text-[#0F766E]" />
+                <span>{t("৪. এআই চ্যাট", "4. Bangla Chat")}</span>
+              </button>
+            </div>
+
+            <div className="p-3 sm:p-5 space-y-4">
+              {/* Real-time Clinical Triage Alert Ribbon */}
+              <div className="rounded-xl border border-teal-200 bg-gradient-to-r from-teal-50/80 via-white to-emerald-50/80 p-3 sm:p-3.5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
+                <div className="flex items-start sm:items-center gap-2.5">
+                  <div className="h-8 w-8 rounded-lg bg-teal-100/90 text-[#0F766E] flex items-center justify-center flex-shrink-0">
+                    <ShieldCheck className="w-4 h-4 text-[#0F766E]" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-900 flex items-center gap-2 flex-wrap">
+                      <span>{t("ক্লিনিক্যাল ট্রায়াজ স্ট্যাটাস: নিরাপদ ও প্রস্তুত", "Clinical Triage: Safe with Routine Monitoring")}</span>
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-[#15803D] border border-emerald-200">
+                        SAFE
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-600 mt-0.5">
+                      {t(
+                        "৪টি ওষুধের মধ্যে কোনো মারাত্মক কনট্রা-ইন্ডিকেশন নেই। ১টি পর্যবেক্ষণ সতর্কতা (Naproxen + Diltiazem) লিপিবদ্ধ হয়েছে।",
+                        "No life-threatening contraindications detected. 1 routine observation flag (Naproxen + Diltiazem) noted below."
+                      )}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-1.5 flex-wrap self-end sm:self-center">
+                  <span className="text-[10px] font-semibold text-slate-600 bg-white border border-slate-200 px-2 py-0.5 rounded-md shadow-2xs">
+                    BNF Monograph
+                  </span>
+                  <span className="text-[10px] font-semibold text-teal-800 bg-teal-100/70 border border-teal-200 px-2 py-0.5 rounded-md">
+                    RAG Grounded
+                  </span>
+                </div>
+              </div>
+
+              {/* =================================================================== */}
+              {/* SECTION 1: MEDICINE DOSSIER & VERIFICATION (ওষুধ তালিকা ও যাচাই)   */}
+              {/* =================================================================== */}
+              <div id="workstation-sec-verify" className="rounded-xl border border-slate-200 bg-white shadow-2xs overflow-hidden scroll-mt-20">
+                <button
+                  type="button"
+                  onClick={() => toggleWorkstationSection("verify")}
+                  className="w-full p-3.5 bg-slate-50 hover:bg-slate-100/80 border-b border-slate-200 flex items-center justify-between text-left transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="h-6 w-6 rounded-md bg-teal-100 text-[#0F766E] flex items-center justify-center">
+                      <Edit3 className="w-3.5 h-3.5 text-[#0F766E]" />
+                    </div>
+                    <div>
+                      <span className="font-bold text-slate-900 text-xs sm:text-sm">
+                        {t("১. প্রেসক্রিপশন প্রোফাইল ও ওষুধ যাচাইকরণ", "1. Prescription Dossier & Medication Verification")}
+                      </span>
+                      <span className="ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full bg-teal-50 text-[#0F766E] border border-teal-200">
+                        {t("৪টি ওষুধ", "4 Medicines")}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-slate-400">
+                    <span className="text-[11px] text-slate-500 hidden sm:inline">
+                      {workstationSections.verify ? t("লুকান", "Hide") : t("দেখান", "Show")}
+                    </span>
+                    {workstationSections.verify ? (
+                      <ChevronUp className="w-4 h-4 text-slate-600" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-slate-600" />
+                    )}
+                  </div>
+                </button>
+
+                {workstationSections.verify && (
+                  <div className="p-3 sm:p-4 space-y-3.5 text-xs">
+                    {/* Physician & Patient Dossier Cards */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                      <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3 space-y-1">
+                        <div className="font-bold text-slate-900 flex items-center gap-1.5 text-xs text-[#0F766E]">
+                          <Stethoscope className="w-3.5 h-3.5 text-[#0F766E]" />
+                          <span>{t("চিকিৎসকের বিবরণ (Physician)", "Physician Dossier")}</span>
+                        </div>
+                        <div className="text-[11px] text-slate-700 font-medium">
+                          ডাঃ মোঃ ফজলুল হক | MBBS, FCPS
+                        </div>
+                        <div className="text-[10px] text-slate-500">সিএমএইচ, ঢাকা | BMDC Reg: 28491</div>
+                      </div>
+
+                      <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3 space-y-1">
+                        <div className="font-bold text-slate-900 flex items-center gap-1.5 text-xs text-[#0F766E]">
+                          <User className="w-3.5 h-3.5 text-[#0F766E]" />
+                          <span>{t("রোগী ও শারীরিক পরিমাপ (Vitals)", "Patient & Vitals")}</span>
+                        </div>
+                        <div className="text-[11px] text-slate-700 font-medium">
+                          মাহাদী হাসান, ২৯ বছর
+                        </div>
+                        <div className="text-[10px] text-slate-500 font-mono">
+                          BP: 160/90 mmHg | Wt: 57 kg
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Verified Drug List (4 Items) */}
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-between text-[11px] font-bold text-slate-600 px-0.5">
+                        <span>{t("সনাক্তকৃত ওষুধ যাচাইকরণ (৪টি ডিজিডিএ ভেরিফাইড)", "Decoded Medications (4 DGDA Verified)")}</span>
+                        <span className="text-[#0F766E] font-mono">100% OCR Match</span>
+                      </div>
+
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                        {SAMPLE_WORKSTATION_MEDS.map((med, mIdx) => (
+                          <div
+                            key={med.id}
+                            className="rounded-xl border border-slate-200 bg-white p-3 flex flex-col justify-between gap-2 shadow-2xs hover:border-[#0F766E] hover:shadow-xs transition-all"
+                          >
+                            <div className="space-y-1">
+                              <div className="flex items-center justify-between gap-2">
+                                <div className="flex items-center gap-1.5">
+                                  <span className="h-4 w-4 rounded-full bg-[#0F766E] text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0">
+                                    ✓
+                                  </span>
+                                  <span className="font-bold text-slate-900 text-xs">{med.name}</span>
+                                </div>
+                                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-50 text-[#15803D] border border-emerald-200 flex-shrink-0">
+                                  {t("ভেরিফাইড", "Verified")}
+                                </span>
+                              </div>
+
+                              <div className="text-[11px] text-slate-500">
+                                {t("জেনেরিক:", "Generic:")}{" "}
+                                <span className="text-slate-800 font-semibold">{med.generic}</span>
+                              </div>
+
+                              <div className="flex items-center gap-2 pt-0.5">
+                                <span className="dosage-pill text-xs font-semibold px-2.5 py-1 rounded-md bg-teal-50 text-[#0F766E] border border-teal-200/80 inline-block">
+                                  {lang === "bn" ? med.dosageBn : med.dosageEn}
+                                </span>
+                              </div>
+
+                              <div className="text-[10px] text-slate-500 pt-0.5">
+                                <span className="font-semibold text-slate-700">{t("কাজের ধরন:", "Indication:")}</span>{" "}
+                                {lang === "bn" ? med.indicationBn : med.indicationEn}
+                              </div>
+                            </div>
+
+                            <div className="border-t border-slate-100 pt-2 flex items-center justify-between">
+                              <span className="text-[10px] text-slate-400">
+                                {lang === "bn" ? med.timingBn : med.timingEn}
+                              </span>
+                              <button
+                                type="button"
+                                onClick={() => executeMedicineSearch(med.generic || med.name.split(" ")[0])}
+                                className="text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer flex items-center gap-1"
+                              >
+                                <span>{t("মনোগ্রাফ দেখুন", "View Monograph")}</span>
+                                <ChevronRight className="w-3 h-3" />
+                              </button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* =================================================================== */}
+              {/* SECTION 2: DRUG SAFETY TRIAGE (ড্রাগ মিথস্ক্রিয়া ও নিরাপত্তা ট্রায়াজ) */}
+              {/* =================================================================== */}
+              <div id="workstation-sec-safety" className="rounded-xl border border-slate-200 bg-white shadow-2xs overflow-hidden scroll-mt-20">
+                <button
+                  type="button"
+                  onClick={() => toggleWorkstationSection("safety")}
+                  className="w-full p-3.5 bg-slate-50 hover:bg-slate-100/80 border-b border-slate-200 flex items-center justify-between text-left transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="h-6 w-6 rounded-md bg-amber-100 text-amber-700 flex items-center justify-center">
+                      <ShieldAlert className="w-3.5 h-3.5 text-amber-600" />
+                    </div>
+                    <div>
+                      <span className="font-bold text-slate-900 text-xs sm:text-sm">
+                        {t("২. ড্রাগ-ড্রাগ ক্ষতিকর মিথস্ক্রিয়া সতর্কতা (Drug Safety Triage)", "2. Pairwise Drug-Drug Interaction Safety Triage")}
+                      </span>
+                      <span className="ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-[#15803D] border border-emerald-200">
+                        {t("নিরাপদ (১টি সতর্কতা)", "Safe (1 Observation)")}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-slate-400">
+                    <span className="text-[11px] text-slate-500 hidden sm:inline">
+                      {workstationSections.safety ? t("লুকান", "Hide") : t("দেখান", "Show")}
+                    </span>
+                    {workstationSections.safety ? (
+                      <ChevronUp className="w-4 h-4 text-slate-600" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-slate-600" />
+                    )}
+                  </div>
+                </button>
+
+                {workstationSections.safety && (
+                  <div className="p-3 sm:p-4 space-y-3.5 text-xs">
+                    <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-3.5 space-y-2">
+                      <div className="flex items-center justify-between border-b border-emerald-200/80 pb-2">
+                        <div className="flex items-center gap-2 text-emerald-950 font-bold text-xs sm:text-sm">
+                          <ShieldCheck className="w-4 h-4 text-[#15803D]" />
+                          <span>{t("সার্বিক ড্রাগ মিথস্ক্রিয়া মূল্যায়ন", "Overall Interaction Safety Evaluation")}</span>
+                        </div>
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-600 text-white">
+                          SAFE COMBINATION
+                        </span>
+                      </div>
+
+                      <p className="text-[11px] text-slate-700 leading-relaxed">
+                        {t(
+                          "বাংলাদেশ ডিজিডিএ ও ব্রিটিশ ন্যাশনাল ফর্মুলারি (BNF) অনুযায়ী এই প্রেসক্রিপশনের ৪টি ওষুধের সব সম্ভাব্য ৬টি কম্বিনেশন স্ক্রিনিং করা হয়েছে। কোনো প্রাণঘাতী কনট্রা-ইন্ডিকেশন পাওয়া যায়নি। তবে ব্যথানাশক প্রোক্সেন সেবনের সময় নিয়মিত রক্তচাপ লক্ষ্য রাখুন।",
+                          "All 6 pairwise combinations among the 4 medications were screened against DGDA and BNF clinical monographs. No severe contraindications detected; routine blood pressure tracking advised."
+                        )}
+                      </p>
+                    </div>
+
+                    {/* Pairwise Matrix Summary Cards */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-[11px]">
+                      {/* Observation Card */}
+                      <div className="p-3 rounded-xl bg-amber-50/70 border border-amber-200 space-y-1.5 shadow-2xs">
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-amber-900 flex items-center gap-1.5 text-xs">
+                            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                            Naproxen ⟷ Diltiazem
+                          </span>
+                          <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-amber-200/80 text-amber-800">
+                            {t("পর্যবেক্ষণ", "Observation")}
+                          </span>
+                        </div>
+                        <p className="text-slate-600 text-[10px] leading-relaxed">
+                          {t(
+                            "ব্যথানাশক NSAID দীর্ঘমেয়াদে রক্তচাপ কমানোর ওষুধের কার্যকারিতা সামান্য প্রভাবিত করতে পারে। রক্তচাপ নিয়মিত মাপুন।",
+                            "NSAIDs may mildly attenuate antihypertensive effects. Regular BP checks advised."
+                          )}
+                        </p>
+                      </div>
+
+                      {/* Absorption Window Card */}
+                      <div className="p-3 rounded-xl bg-sky-50/70 border border-sky-200 space-y-1.5 shadow-2xs">
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-sky-950 flex items-center gap-1.5 text-xs">
+                            <Clock className="w-3.5 h-3.5 text-sky-600 flex-shrink-0" />
+                            Calcitriol ⟷ Carbonyl Iron
+                          </span>
+                          <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-sky-200/80 text-sky-800">
+                            {t("সময়ের ব্যবধান", "2h Interval")}
+                          </span>
+                        </div>
+                        <p className="text-slate-600 text-[10px] leading-relaxed">
+                          {t(
+                            "উভয় ওষুধের শোষণ স্বাভাবিক রাখতে ক্যালসিয়াম/ভিটামিন ডি এবং আয়রন বড়ি সেবনে অন্তত ২ ঘণ্টা ব্যবধান বজায় রাখুন।",
+                            "Maintain at least a 2-hour interval between calcium analog and iron supplement for optimal absorption."
+                          )}
+                        </p>
+                      </div>
+
+                      {/* Compatible Combination */}
+                      <div className="p-3 rounded-xl bg-emerald-50/70 border border-emerald-200 space-y-1.5 shadow-2xs sm:col-span-2 lg:col-span-1">
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-emerald-950 flex items-center gap-1.5 text-xs">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D] flex-shrink-0" />
+                            {t("অন্যান্য সংমিশ্রণ", "Other Pairs")}
+                          </span>
+                          <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-emerald-200/80 text-emerald-800">
+                            {t("সামঞ্জস্যপূর্ণ", "Compatible")}
+                          </span>
+                        </div>
+                        <p className="text-slate-600 text-[10px] leading-relaxed">
+                          {t(
+                            "Proxen + Dicaltrol ও Cardizem + Zif CI সহ বাকি সকল জোড়ায় কোনো ক্ষতিকর ড্রাগ মিথস্ক্রিয়া নেই।",
+                            "All remaining medication pairings are clinically compatible and safe to administer."
+                          )}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* =================================================================== */}
+              {/* SECTION 3: PATIENT MEDICATION GUIDANCE (রোগীর সেবন সহায়িকা)       */}
+              {/* =================================================================== */}
+              <div id="workstation-sec-guide" className="rounded-xl border border-slate-200 bg-white shadow-2xs overflow-hidden scroll-mt-20">
+                <button
+                  type="button"
+                  onClick={() => toggleWorkstationSection("guide")}
+                  className="w-full p-3.5 bg-slate-50 hover:bg-slate-100/80 border-b border-slate-200 flex items-center justify-between text-left transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="h-6 w-6 rounded-md bg-blue-100 text-blue-700 flex items-center justify-center">
+                      <BookOpen className="w-3.5 h-3.5 text-blue-600" />
+                    </div>
+                    <div>
+                      <span className="font-bold text-slate-900 text-xs sm:text-sm">
+                        {t("৩. রোগীর সহজ সেবন সহায়িকা ও সময়সূচি", "3. Patient Medication Guidance & Schedule")}
+                      </span>
+                      <span className="ml-2 text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                        {t("দৈনিক রুটিন", "Daily Schedule")}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleCopyGuidanceText(
+                          SAMPLE_WORKSTATION_MEDS.map((m) => `${m.name}: ${m.timingBn} - ${m.precautionBn}`).join("\n\n")
+                        );
+                      }}
+                      className="flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer bg-white px-2 py-1 rounded-md border border-slate-200 shadow-2xs"
+                    >
+                      {copiedGuidance ? (
+                        <>
+                          <Check className="w-3.5 h-3.5 text-[#15803D]" />
+                          <span>{t("কপি হয়েছে", "Copied")}</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="w-3.5 h-3.5" />
+                          <span>{t("কপি করুন", "Copy Schedule")}</span>
+                        </>
+                      )}
+                    </button>
+
+                    {workstationSections.guide ? (
+                      <ChevronUp className="w-4 h-4 text-slate-600" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-slate-600" />
+                    )}
+                  </div>
+                </button>
+
+                {workstationSections.guide && (
+                  <div className="p-3 sm:p-4 space-y-3.5 text-xs">
+                    {/* Visual 3-Time Schedule Banner */}
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-center">
+                      <div className="p-2.5 rounded-xl border border-amber-200 bg-amber-50/60">
+                        <div className="text-[10px] font-bold text-amber-900 uppercase tracking-wide">
+                          🌅 {t("সকাল (নাস্তার পর)", "Morning (After Breakfast)")}
+                        </div>
+                        <div className="text-xs font-bold text-slate-900 mt-1">
+                          Cardizem SR + Proxen
+                        </div>
+                      </div>
+
+                      <div className="p-2.5 rounded-xl border border-sky-200 bg-sky-50/60">
+                        <div className="text-[10px] font-bold text-sky-900 uppercase tracking-wide">
+                          ☀️ {t("দুপুর (খাবারের পর)", "Noon (With Lunch)")}
+                        </div>
+                        <div className="text-xs font-bold text-slate-900 mt-1">
+                          Dicaltrol 0.25mcg
+                        </div>
+                      </div>
+
+                      <div className="p-2.5 rounded-xl border border-indigo-200 bg-indigo-50/60">
+                        <div className="text-[10px] font-bold text-indigo-900 uppercase tracking-wide">
+                          🌙 {t("রাত (রাতের খাবারের পর)", "Night (After Dinner)")}
+                        </div>
+                        <div className="text-xs font-bold text-slate-900 mt-1">
+                          Zif CI + Proxen
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Detailed Cards for Each Medication */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                      {SAMPLE_WORKSTATION_MEDS.map((med, idx) => (
+                        <div
+                          key={med.id}
+                          className="rounded-xl border border-slate-200 bg-slate-50/60 p-3 space-y-1.5 shadow-2xs hover:border-slate-300 transition-colors"
+                        >
+                          <div className="flex items-center justify-between border-b border-slate-200/80 pb-1.5">
+                            <span className="font-bold text-slate-900 text-xs">
+                              {idx + 1}. {med.name} ({med.generic})
+                            </span>
+                            <span className="dosage-pill text-xs font-semibold text-[#0F766E] bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200/80 inline-block">
+                              {lang === "bn" ? med.dosageBn : med.dosageEn}
+                            </span>
+                          </div>
+
+                          <div className="text-[11px] text-slate-600 space-y-1">
+                            <div>
+                              <span className="font-bold text-slate-700">{t("কাজের ধরন:", "Indication:")}</span>{" "}
+                              {lang === "bn" ? med.indicationBn : med.indicationEn}
+                            </div>
+                            <div>
+                              <span className="font-bold text-[#0F766E]">{t("খাওয়ার নিয়ম:", "How to take:")}</span>{" "}
+                              {lang === "bn" ? med.timingBn : med.timingEn}
+                            </div>
+                            <div className="bg-amber-50/80 border border-amber-200/80 p-2 rounded-lg text-amber-950 text-[10px] mt-1">
+                              <span className="font-bold text-amber-800">{t("সতর্কতা:", "Precaution:")}</span>{" "}
+                              {lang === "bn" ? med.precautionBn : med.precautionEn}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* =================================================================== */}
+              {/* SECTION 4: BANGLA RAG CHAT (প্রেসক্রিপশন এআই কনসালটেশন চ্যাট)      */}
+              {/* =================================================================== */}
+              <div id="workstation-sec-chat" className="rounded-xl border border-slate-200 bg-white shadow-2xs overflow-hidden scroll-mt-20">
+                <button
+                  type="button"
+                  onClick={() => toggleWorkstationSection("chat")}
+                  className="w-full p-3.5 bg-slate-50 hover:bg-slate-100/80 border-b border-slate-200 flex items-center justify-between text-left transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="h-6 w-6 rounded-md bg-teal-100 text-[#0F766E] flex items-center justify-center">
+                      <Bot className="w-3.5 h-3.5 text-[#0F766E]" />
+                    </div>
+                    <div>
+                      <span className="font-bold text-slate-900 text-xs sm:text-sm">
+                        {t("৪. প্রেসক্রিপশন এআই কনসালটেশন (Bangla RAG Chat)", "4. Bangla Prescription AI Consultation")}
+                      </span>
+                      <span className="ml-2 text-[10px] font-mono text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full border border-teal-200 font-bold">
+                        RAG Grounded
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-slate-400">
+                    <span className="text-[11px] text-slate-500 hidden sm:inline">
+                      {workstationSections.chat ? t("লুকান", "Hide") : t("দেখান", "Show")}
+                    </span>
+                    {workstationSections.chat ? (
+                      <ChevronUp className="w-4 h-4 text-slate-600" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-slate-600" />
+                    )}
+                  </div>
+                </button>
+
+                {workstationSections.chat && (
+                  <div className="p-3 sm:p-4 space-y-3 text-xs">
+                    {/* Common Question Pills */}
+                    <div className="space-y-1.5">
+                      <span className="text-[11px] text-slate-500 font-semibold block flex items-center gap-1">
+                        <Sparkles className="w-3 h-3 text-[#0F766E]" />
+                        {t("ক্লিক করে প্রশ্ন করুন (Suggested Questions):", "Click suggested question:")}
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {SAMPLE_CHAT_PRESETS.map((preset) => (
+                          <button
+                            key={preset.id}
+                            type="button"
+                            onClick={() => handleSelectChatQuestion(preset.id)}
+                            className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer border ${
+                              selectedChatPresetId === preset.id
+                                ? "bg-teal-50 text-[#0F766E] border-teal-300 shadow-2xs"
+                                : "bg-slate-100 text-slate-700 border-slate-200 hover:bg-slate-200"
+                            }`}
+                          >
+                            {lang === "bn" ? preset.qBn : preset.qEn}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Conversational Chat Thread */}
+                    <div className="rounded-xl border border-slate-200 bg-slate-50/70 p-3 space-y-2.5 max-h-[240px] overflow-y-auto">
+                      {chatMessages.map((msg, idx) => (
+                        <div
+                          key={idx}
+                          className={`flex gap-2 ${msg.sender === "user" ? "justify-end" : "justify-start"}`}
+                        >
+                          {msg.sender === "bot" && (
+                            <div className="h-6 w-6 rounded-full bg-[#0F766E] text-white flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">
+                              🤖
+                            </div>
+                          )}
+                          <div
+                            className={`rounded-2xl p-2.5 text-[11px] max-w-[85%] leading-relaxed ${
+                              msg.sender === "user"
+                                ? "bg-[#0F766E] text-white rounded-tr-xs"
+                                : "bg-white border border-slate-200 text-slate-800 rounded-tl-xs shadow-2xs"
+                            }`}
+                          >
+                            <p className="whitespace-pre-line">{msg.text}</p>
+                            <span
+                              className={`block text-[9px] mt-1 ${
+                                msg.sender === "user" ? "text-teal-200 text-right" : "text-slate-400"
+                              }`}
+                            >
+                              {msg.time}
+                            </span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Chat Input Box */}
+                    <form onSubmit={handleSendCustomChat} className="flex gap-1.5 pt-1">
+                      <input
+                        type="text"
+                        value={chatCustomInput}
+                        onChange={(e) => setChatCustomInput(e.target.value)}
+                        placeholder={t(
+                          "এই প্রেসক্রিপশন নিয়ে যেকোনো প্রশ্ন বাংলায় লিখুন...",
+                          "Ask any question about these medicines in Bangla..."
+                        )}
+                        className="flex-1 rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs text-slate-900 placeholder-slate-400 focus:border-[#0F766E] focus:outline-none shadow-2xs"
+                      />
+                      <button
+                        type="submit"
+                        className="rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white px-3.5 py-2 text-xs font-bold transition-colors cursor-pointer flex items-center gap-1 shadow-xs"
+                      >
+                        <Send className="w-3.5 h-3.5" />
+                        <span>{t("পাঠান", "Send")}</span>
+                      </button>
+                    </form>
+                  </div>
+                )}
+              </div>
+
+              {/* Bottom Call to Action inside Workstation Box */}
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
+                  className="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#0F766E] to-[#115E59] hover:from-[#115E59] hover:to-[#134E4A] text-white text-xs sm:text-sm font-bold transition-all shadow-sm hover:shadow-md cursor-pointer"
+                >
+                  <Scan className="w-4 h-4" />
+                  <span>{t("আপনার নিজের প্রেসক্রিপশনের ছবি দিয়ে টেস্ট করুন", "Test With Your Own Prescription Photo")}</span>
+                  <ChevronRight className="w-4 h-4 ml-1" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ========================================================================= */}
       {/* 2. THE 4 CORE PILLARS OF MEDBANGLA AI (মূল ৪টি ফিচার ও ব্যবহার নির্দেশিকা) */}
@@ -922,13 +1241,14 @@ export default function HomePage() {
                 <span className="text-[11px] font-mono text-[#0F766E] font-bold">
                   {t("১৭,৫৮৯ অনুমোদিত ড্রাগ লিঙ্কড", "17,589 Catalog Matched")}
                 </span>
-                <Link
-                  href="/checker"
-                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline"
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
+                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
                 >
                   <span>{t("যাচাইকরণ পরীক্ষা করুন", "Try Verification")}</span>
                   <ArrowRight className="w-3 h-3" />
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -972,13 +1292,14 @@ export default function HomePage() {
                 <span className="text-[11px] font-mono text-[#15803D] font-bold">
                   {t("জিরো-হ্যালোসিনেশন পলিসি", "Zero-Hallucination Policy")}
                 </span>
-                <Link
-                  href="/checker"
-                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline"
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
+                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
                 >
                   <span>{t("সেফটি চেক চালান", "Run Safety Check")}</span>
                   <ArrowRight className="w-3 h-3" />
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -1022,13 +1343,14 @@ export default function HomePage() {
                 <span className="text-[11px] font-mono text-teal-700 font-bold">
                   {t("RAG Grounded Intelligence", "RAG Grounded Intelligence")}
                 </span>
-                <Link
-                  href="/checker"
-                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline"
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
+                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
                 >
                   <span>{t("চ্যাট কনসালটেশন দেখুন", "Explore Chat")}</span>
                   <ArrowRight className="w-3 h-3" />
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -1072,13 +1394,14 @@ export default function HomePage() {
                 <span className="text-[11px] font-mono text-blue-700 font-bold">
                   {t("১-ক্লিক কপি ও প্রিন্ট সুবিধা", "1-Click Copy & Print")}
                 </span>
-                <Link
-                  href="/checker"
-                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline"
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
+                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
                 >
                   <span>{t("সহায়িকা তৈরি করুন", "Generate Guidance")}</span>
                   <ArrowRight className="w-3 h-3" />
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -1337,14 +1660,15 @@ export default function HomePage() {
               </div>
 
               <div className="pt-2 flex flex-wrap items-center gap-3">
-                <Link
-                  href="/checker"
+                <button
+                  type="button"
+                  onClick={handleCheckerNavigation}
                   className="inline-flex items-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] px-6 py-3 text-xs font-bold text-white shadow-xs transition-all cursor-pointer"
                 >
                   <Scan className="w-4 h-4" />
                   <span>{t("এখনই প্রেসক্রিপশন স্ক্যান করুন", "Start Prescription Scan Now")}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                </button>
 
                 <Link
                   href="/medicines"
@@ -1841,13 +2165,14 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
-            <Link
-              href="/checker"
+            <button
+              type="button"
+              onClick={handleCheckerNavigation}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-white hover:bg-slate-50 px-8 py-3.5 text-xs font-bold text-[#0F766E] shadow-sm transition-all cursor-pointer"
             >
               <Scan className="w-4 h-4" />
               <span>{t("প্রেসক্রিপশন পরীক্ষা করুন", "Start Prescription Check")}</span>
-            </Link>
+            </button>
 
             <Link
               href="/medicines"
