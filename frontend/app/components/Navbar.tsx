@@ -23,6 +23,12 @@ import { useAppSelector } from "../store";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
+
+  // Completely omit patient/consumer Navbar on all dedicated admin portal routes
+  if (pathname?.startsWith("/admin")) {
+    return null;
+  }
+
   const { currentUser, openAuthModal, logout } = useAuth();
   const { lang, setLang, t } = useLanguage();
   const { dailyQuota } = useAppSelector((state) => state.prescription);

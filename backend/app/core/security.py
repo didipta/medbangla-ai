@@ -73,3 +73,36 @@ async def get_current_user(
             headers={"WWW-Authenticate": "Bearer"},
         )
     return user
+
+
+async def get_current_admin(
+    credentials: Optional[HTTPAuthorizationCredentials] = Depends(security_bearer),
+) -> Dict[str, Any]:
+    """Requires an authenticated administrator token, raises 401/403 if unauthorized."""
+    if not credentials or not credentials.credentials:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Admin authentication credentials were not provided.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    payload = decode_access_token(credentials.credentials)
+    if not payload:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Admin session token is invalid or has expired.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    if payload.get("role") != "admin":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Access forbidden: Administrator privileges required.",
+        )
+
+    return {
+        "id": payload.get("sub", "admin_root"),
+        "email": payload.get("email", settings.ADMIN_EMAIL),
+        "role": "admin",
+        "name": "MedBangla Clinical Director",
+    }

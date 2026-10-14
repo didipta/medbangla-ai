@@ -2,16 +2,23 @@
 
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { PhoneCall, ShieldCheck } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 export const Footer: React.FC = () => {
+  const pathname = usePathname();
   const { t } = useLanguage();
   const [currentYear, setCurrentYear] = React.useState<number>(2026);
 
   React.useEffect(() => {
     setCurrentYear(new Date().getFullYear());
   }, []);
+
+  // Completely omit patient/consumer Footer on all dedicated admin portal routes
+  if (pathname?.startsWith("/admin")) {
+    return null;
+  }
 
   return (
     <footer className="mt-auto border-t border-slate-200 bg-white py-12 text-xs">
@@ -133,6 +140,12 @@ export const Footer: React.FC = () => {
                 )}
               </span>
             </div>
+            <Link
+              href="/admin/login"
+              className="hover:text-teal-700 transition-colors inline-flex items-center gap-1 font-semibold text-slate-400 hover:text-slate-600 ml-1"
+            >
+              <span>{t("অ্যাডমিন পোর্টাল", "Admin Portal")}</span>
+            </Link>
           </div>
         </div>
       </div>

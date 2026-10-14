@@ -41,6 +41,10 @@ class Settings(BaseSettings):
     GOOGLE_CLIENT_SECRET: str = ""
     FRONTEND_URL: str = "http://localhost:3000"
 
+    # Dedicated Clinical Admin Credentials
+    ADMIN_EMAIL: str = "admin@medbangla.ai"
+    ADMIN_PASSWORD: str = "MedBanglaAdmin2026!"
+
     @property
     def cors_origins(self) -> List[str]:
         return [origin.strip() for origin in self.ALLOWED_ORIGINS.split(",") if origin.strip()]

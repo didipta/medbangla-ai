@@ -13,11 +13,15 @@ from app.api.v1.endpoints.prescriptions import router as prescriptions_router
 from app.api.v1.endpoints.interactions import router as interactions_router
 from app.api.v1.endpoints.chat import router as chat_router
 from app.api.v1.endpoints.auth import router as auth_router
+from app.api.v1.endpoints.admin import router as admin_router
 
 api_router = APIRouter(prefix="/api/v1")
 
 # Public Authentication router (login, config, callbacks)
 api_router.include_router(auth_router)
+
+# Dedicated Clinical Administrator Portal router (handles its own admin security)
+api_router.include_router(admin_router)
 
 # All Functional Clinical & Medication APIs - Strictly Protected by JWT Bearer Token
 api_router.include_router(

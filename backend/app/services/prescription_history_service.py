@@ -64,6 +64,11 @@ def ensure_prescription_history_table(conn=None) -> bool:
 
             CREATE INDEX IF NOT EXISTS idx_prescription_history_user_id ON prescription_history(user_id);
             CREATE INDEX IF NOT EXISTS idx_prescription_history_created_at ON prescription_history(created_at DESC);
+
+            -- Soft Delete Migration Columns
+            ALTER TABLE prescription_history ADD COLUMN IF NOT EXISTS is_deleted BOOLEAN DEFAULT FALSE;
+            ALTER TABLE prescription_history ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMP WITH TIME ZONE;
+            CREATE INDEX IF NOT EXISTS idx_prescription_history_is_deleted ON prescription_history(is_deleted);
             """)
             conn.commit()
             logger.info("prescription_history table and indexes verified in Neon PostgreSQL.")
@@ -190,7 +195,7 @@ def get_user_prescription_history(user_id: str, limit: int = 50, offset: int = 0
             SELECT id, user_id, doctor_name, patient_name, patient_age, patient_gender,
                    prescription_date, diagnosis, total_medicines, created_at
             FROM prescription_history
-            WHERE user_id = %s
+            WHERE user_id = %s AND (is_deleted IS FALSE OR is_deleted IS NULL)
             ORDER BY created_at DESC
             LIMIT %s OFFSET %s;
             """, (user_id, limit, offset))
@@ -226,7 +231,7 @@ def get_prescription_history_item(user_id: str, history_id: str) -> Optional[Dic
                    clinical_entities, detected_medicines, dosage_instructions, summary,
                    created_at
             FROM prescription_history
-            WHERE id = %s AND user_id = %s;
+            WHERE id = %s AND user_id = %s AND (is_deleted IS FALSE OR is_deleted IS NULL);
             """, (history_id, user_id))
             row = cur.fetchone()
             if not row:
@@ -245,21 +250,75 @@ def get_prescription_history_item(user_id: str, history_id: str) -> Optional[Dic
 
 
 def delete_prescription_history_item(user_id: str, history_id: str) -> bool:
-    """Deletes a prescription history item belonging to user."""
+    """Soft deletes a prescription history item (hidden from user, preserved for clinical audit)."""
     conn = get_db_connection()
     if not conn:
         return False
 
     try:
+        ensure_prescription_history_table(conn)
         with conn.cursor() as cur:
             cur.execute("""
-            DELETE FROM prescription_history
+            UPDATE prescription_history
+            SET is_deleted = TRUE, deleted_at = CURRENT_TIMESTAMP
             WHERE id = %s AND user_id = %s;
             """, (history_id, user_id))
             conn.commit()
             return cur.rowcount > 0
     except Exception as e:
-        logger.error("Failed to delete prescription history item %s: %s", history_id, e)
+        logger.error("Failed to soft-delete prescription history item %s: %s", history_id, e)
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        return False
+    finally:
+        if conn:
+            conn.close()
+
+
+def admin_permanent_delete_prescription(history_id: str) -> bool:
+    """Permanently purges a prescription record from the database (Admin only)."""
+    conn = get_db_connection()
+    if not conn:
+        return False
+
+    try:
+        ensure_prescription_history_table(conn)
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM prescription_history WHERE id = %s;", (history_id,))
+            conn.commit()
+            return cur.rowcount > 0
+    except Exception as e:
+        logger.error("Admin permanent delete failed for prescription %s: %s", history_id, e)
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        return False
+    finally:
+        if conn:
+            conn.close()
+
+
+def admin_restore_prescription(history_id: str) -> bool:
+    """Restores a soft-deleted prescription record (Admin only)."""
+    conn = get_db_connection()
+    if not conn:
+        return False
+
+    try:
+        ensure_prescription_history_table(conn)
+        with conn.cursor() as cur:
+            cur.execute("""
+            UPDATE prescription_history
+            SET is_deleted = FALSE, deleted_at = NULL
+            WHERE id = %s;
+            """, (history_id,))
+            conn.commit()
+            return cur.rowcount > 0
+    except Exception as e:
+        logger.error("Admin restore failed for prescription %s: %s", history_id, e)
         try:
             conn.rollback()
         except Exception:
