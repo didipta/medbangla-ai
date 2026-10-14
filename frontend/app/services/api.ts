@@ -12,7 +12,7 @@ import {
   OCRAnalysisResponse,
 } from "../types/api";
 
-export const DEFAULT_API_URL = "http://localhost:8000";
+export const DEFAULT_API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export function getBaseApiUrl(): string {
   if (typeof window !== "undefined") {

@@ -1,0 +1,27 @@
+# Root Level Docker Ignore
+.git/
+.gitignore
+.gitattributes
+.vscode/
+.idea/
+
+# Backend temporary files
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/logs/*.log
+backend/tests/
+backend/test-image/
+backend/test_rx_crop.png
+
+# Frontend temporary files
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Miscellaneous
+scratch/
+*.md
+!PROJECT_PLAN.md
+!README*.md

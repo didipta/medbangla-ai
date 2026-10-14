@@ -1,0 +1,53 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables & secrets (passed via Docker Compose / runtime)
+.env
+.env.local
+.env.*.local
+
+# Git & IDE configs
+.git/
+.gitignore
+.gitattributes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test & temporary files
+tests/
+test-image/
+test_rx_crop.png
+scratch/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs (keep directory structure, don't copy local log files)
+logs/*.log

@@ -1,0 +1,69 @@
+# =============================================================================
+# MedBangla AI — Development Docker Compose (Hot-Reload Enabled)
+# Usage: docker compose -f docker-compose.dev.yml up
+# =============================================================================
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: medbangla-backend-dev
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+      - path: ./backend/.env
+        required: false
+    environment:
+      - ENVIRONMENT=development
+      - DEBUG=True
+      - PORT=8000
+      - HOST=0.0.0.0
+      - ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+    volumes:
+      # Mount entire backend source code for live hot-reloading
+      - ./backend:/app
+      - /app/logs
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    networks:
+      - medbangla-network
+
+  frontend:
+    image: node:20-alpine
+    container_name: medbangla-frontend-dev
+    restart: unless-stopped
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    env_file:
+      - path: .env
+        required: false
+      - path: ./frontend/.env
+        required: false
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NEXT_PUBLIC_GOOGLE_CLIENT_ID=${NEXT_PUBLIC_GOOGLE_CLIENT_ID:-}
+    volumes:
+      # Mount entire frontend source code for Next.js Fast Refresh
+      - ./frontend:/app
+      # Preserve container's own node_modules
+      - frontend_dev_node_modules:/app/node_modules
+    command: sh -c "npm install --legacy-peer-deps && npm run dev"
+    depends_on:
+      - backend
+    networks:
+      - medbangla-network
+
+volumes:
+  frontend_dev_node_modules:
+
+networks:
+  medbangla-network:
+    name: medbangla-dev-network
+    driver: bridge
