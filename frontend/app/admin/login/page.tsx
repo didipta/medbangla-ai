@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ShieldCheck,
   Lock,
@@ -60,10 +61,15 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md relative z-10">
         {/* Brand Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-tr from-[#0F766E] to-[#14B8A6] p-0.5 shadow-xl shadow-teal-700/15 mb-4">
-            <div className="w-full h-full bg-white rounded-2xl flex items-center justify-center">
-              <ShieldCheck className="w-8 h-8 text-[#0F766E]" />
-            </div>
+          <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl overflow-hidden border-2 border-teal-200/90 shadow-xl shadow-teal-700/15 mb-4 bg-white">
+            <Image
+              src="/images/medbangla_icon.jpg"
+              alt="MedBangla AI"
+              width={80}
+              height={80}
+              className="w-full h-full object-cover"
+              priority
+            />
           </div>
           
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 border border-teal-200 text-[#0F766E] text-xs font-bold tracking-wide uppercase mb-2">

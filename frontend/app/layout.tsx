@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   title: "MedBangla AI — প্রেসক্রিপশন ও ড্রাগ সেফটি প্ল্যাটফর্ম",
   description:
     "বাংলাদেশের প্রথম ভেরিফاید ক্লিনিক্যাল এআই প্ল্যাটফর্ম — ডিজিটাল প্রেসক্রিপশন ওসিআর, ১৭,৫৮৯ ওষুধের ডাটাবেজ এবং নির্ভরযোগ্য ড্রাগ সেফটি ট্রায়াজ।",
+  icons: {
+    icon: "/images/medbangla_icon.jpg",
+    shortcut: "/images/medbangla_icon.jpg",
+    apple: "/images/medbangla_icon.jpg",
+  },
 };
 
 export default function RootLayout({

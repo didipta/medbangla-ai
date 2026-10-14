@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   Sparkles,
@@ -75,8 +76,15 @@ export const Navbar: React.FC = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Left: Brand Logo & Wordmark */}
         <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#0F766E] text-white shadow-xs group-hover:bg-[#115E59] transition-colors">
-            <span className="font-extrabold text-base tracking-normal">মে</span>
+          <div className="relative flex h-9 w-9 items-center justify-center rounded-xl overflow-hidden border border-teal-200/90 shadow-2xs group-hover:scale-105 transition-transform bg-white flex-shrink-0">
+            <Image
+              src="/images/medbangla_icon.jpg"
+              alt="MedBangla AI Icon"
+              width={36}
+              height={36}
+              className="object-cover w-full h-full"
+              priority
+            />
           </div>
           <div>
             <div className="flex items-center gap-1.5">

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { PhoneCall, ShieldCheck } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
@@ -56,9 +57,15 @@ export const Footer: React.FC = () => {
         {/* Links and Wordmark */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pt-4">
           <div className="space-y-3">
-            <div className="flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#0F766E] text-white font-bold text-xs">
-                মে
+            <div className="flex items-center gap-2.5">
+              <div className="relative flex h-8 w-8 items-center justify-center rounded-xl overflow-hidden border border-teal-200/80 shadow-2xs bg-white shrink-0">
+                <Image
+                  src="/images/medbangla_icon.jpg"
+                  alt="MedBangla AI Icon"
+                  width={32}
+                  height={32}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <span className="font-extrabold text-base text-slate-900">
                 MedBangla <span className="text-[#0F766E]">AI</span>

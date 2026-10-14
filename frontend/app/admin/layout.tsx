@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import {
   LayoutDashboard,
   FileText,
@@ -152,8 +153,15 @@ export default function AdminLayout({
             {sidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-[#F0FDFA] border border-teal-200 flex items-center justify-center text-[#0F766E]">
-              <ShieldCheck className="w-4 h-4" />
+            <div className="w-8 h-8 rounded-lg overflow-hidden border border-teal-200/90 shadow-2xs bg-white shrink-0">
+              <Image
+                src="/images/medbangla_icon.jpg"
+                alt="MedBangla Admin"
+                width={32}
+                height={32}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
             <span className="font-bold text-sm tracking-tight text-slate-900">MedBangla Admin</span>
           </div>
@@ -177,10 +185,15 @@ export default function AdminLayout({
           {/* Sidebar Brand Header */}
           <div className="h-20 px-6 border-b border-slate-100 flex items-center justify-between">
             <Link href="/admin" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#0F766E] to-[#14B8A6] p-0.5 shadow-sm shadow-teal-700/10">
-                <div className="w-full h-full bg-white rounded-[10px] flex items-center justify-center">
-                  <ShieldCheck className="w-5 h-5 text-[#0F766E] group-hover:scale-110 transition-transform" />
-                </div>
+              <div className="w-10 h-10 rounded-xl overflow-hidden border border-teal-200/90 shadow-sm shadow-teal-700/10 shrink-0 bg-white group-hover:scale-105 transition-transform">
+                <Image
+                  src="/images/medbangla_icon.jpg"
+                  alt="MedBangla Admin"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
               <div>
                 <div className="flex items-center gap-1.5">
