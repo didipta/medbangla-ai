@@ -24,6 +24,11 @@ export default function AdminDashboardPage() {
   const [stats, setStats] = useState<AdminStatsResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [rangeDays, setRangeDays] = useState<number>(14);
+  const [isDemo, setIsDemo] = useState<boolean>(false);
+
+  useEffect(() => {
+    setIsDemo(adminApi.isDemoMode());
+  }, []);
 
   const fetchStats = async (days: number) => {
     setLoading(true);
@@ -66,9 +71,15 @@ export default function AdminDashboardPage() {
         <div>
           <h1 className="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
             <span>Clinical Intelligence Dashboard</span>
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
-              Live Database
-            </span>
+            {isDemo ? (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-amber-100 text-amber-900 border border-amber-300">
+                Demo Simulated Data
+              </span>
+            ) : (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
+                Live Database
+              </span>
+            )}
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 font-medium">
             প্রেসক্রিপশন ডিজিটালাইজেশন, ড্রাগ সেফটি ট্রায়াজ এবং সিস্টেম পারফরম্যান্সের সামগ্রিক ওভারভিউ
@@ -102,9 +113,13 @@ export default function AdminDashboardPage() {
             <span className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight font-mono">
               {stats?.summary.totalPrescriptions.toLocaleString() || "0"}
             </span>
-            <span className="inline-flex items-center gap-0.5 text-[11px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+            <span className={`inline-flex items-center gap-0.5 text-[11px] font-bold px-2 py-0.5 rounded-full border ${
+              isDemo 
+                ? "text-amber-800 bg-amber-50 border-amber-200" 
+                : "text-emerald-800 bg-emerald-50 border-emerald-200"
+            }`}>
               <TrendingUp className="w-3 h-3" />
-              Live DB
+              {isDemo ? "Demo DB" : "Live DB"}
             </span>
           </div>
           <p className="text-[11px] text-slate-500 font-medium">

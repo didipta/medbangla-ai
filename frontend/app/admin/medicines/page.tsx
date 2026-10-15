@@ -1,11 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, Pill, ChevronRight } from "lucide-react";
 import { MedicinesManagementTable } from "../components/MedicinesManagementTable";
+import { adminApi } from "../../services/adminApi";
 
 export default function AdminMedicinesPage() {
+  const [isDemo, setIsDemo] = useState(false);
+
+  useEffect(() => {
+    setIsDemo(adminApi.isDemoMode());
+  }, []);
+
   return (
     <div className="space-y-6 animate-fadeIn font-bangla text-[#0F172A]">
       {/* Breadcrumb Header */}
@@ -21,9 +28,15 @@ export default function AdminMedicinesPage() {
           <h1 className="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
             <Pill className="w-6 h-6 text-[#0F766E]" />
             <span>Medicine Catalog Management (CRUD)</span>
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
-              17,589+ Formulations
-            </span>
+            {isDemo ? (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-amber-100 text-amber-900 border border-amber-300">
+                Demo Simulated Catalog
+              </span>
+            ) : (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
+                17,589+ Formulations
+              </span>
+            )}
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 font-medium">
             ডিজিডিএ নিবন্ধিত ঔষধের ডাটাবেজ ব্রাউজ করুন, নতুন ফর্মুলেশন যোগ করুন, এডিট বা ডিলিট করুন

@@ -36,6 +36,7 @@ export default function AdminLayout({
   const [adminUser, setAdminUser] = useState<AdminUser | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
+  const [isDemo, setIsDemo] = useState<boolean>(false);
 
   const isLoginPage = pathname === "/admin/login";
 
@@ -44,6 +45,9 @@ export default function AdminLayout({
       setAuthorized(true);
       return;
     }
+
+    const demoMode = adminApi.isDemoMode();
+    setIsDemo(demoMode);
 
     const token = adminApi.getToken();
     if (!token) {
@@ -72,6 +76,11 @@ export default function AdminLayout({
   const handleLogout = () => {
     adminApi.removeToken();
     router.push("/admin/login");
+  };
+
+  const handleResetDemoData = () => {
+    adminApi.resetDemoData();
+    window.location.reload();
   };
 
   const handleRefresh = () => {
@@ -214,21 +223,29 @@ export default function AdminLayout({
           </div>
 
           {/* Quick Platform Status Card */}
-          <div className="mx-4 mt-5 p-3.5 rounded-xl bg-[#F0FDFA] border border-teal-200/80">
+          <div className={`mx-4 mt-5 p-3.5 rounded-xl border ${
+            isDemo ? "bg-amber-50/70 border-amber-200" : "bg-[#F0FDFA] border-teal-200/80"
+          }`}>
             <div className="flex items-center justify-between text-xs mb-1">
-              <span className="text-[#0F766E] font-bold">Engine Status</span>
-              <span className="inline-flex items-center gap-1 text-[11px] text-emerald-800 font-bold bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-ping" />
-                Live Online
+              <span className={`font-bold ${isDemo ? "text-amber-900" : "text-[#0F766E]"}`}>
+                {isDemo ? "Sandbox Status" : "Engine Status"}
+              </span>
+              <span className={`inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full border ${
+                isDemo 
+                  ? "text-amber-800 bg-amber-100/80 border-amber-300"
+                  : "text-emerald-800 bg-emerald-50 border-emerald-200"
+              }`}>
+                <span className={`w-1.5 h-1.5 rounded-full animate-ping ${isDemo ? "bg-amber-600" : "bg-emerald-600"}`} />
+                {isDemo ? "Demo Simulated" : "Live Online"}
               </span>
             </div>
-            <div className="flex items-center gap-3 text-[11px] text-[#0F766E]/90 mt-2 font-medium">
+            <div className="flex items-center gap-3 text-[11px] mt-2 font-medium text-slate-600">
               <div className="flex items-center gap-1">
-                <Database className="w-3.5 h-3.5 text-[#0F766E]" />
-                <span>Neon PostgreSQL</span>
+                <Database className={`w-3.5 h-3.5 ${isDemo ? "text-amber-700" : "text-[#0F766E]"}`} />
+                <span>{isDemo ? "Mock DB (Active)" : "Neon PostgreSQL"}</span>
               </div>
               <div className="flex items-center gap-1">
-                <Cpu className="w-3.5 h-3.5 text-emerald-700" />
+                <Cpu className={`w-3.5 h-3.5 ${isDemo ? "text-amber-700" : "text-emerald-700"}`} />
                 <span>RapidOCR ONNX</span>
               </div>
             </div>
@@ -290,16 +307,29 @@ export default function AdminLayout({
           <div className="p-4 border-t border-slate-100 bg-slate-50/70">
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-2.5">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#0F766E] to-[#14B8A6] text-white font-bold flex items-center justify-center text-xs shadow-xs">
-                  {adminUser?.name?.charAt(0) || "A"}
+                <div className={`w-8 h-8 rounded-full text-white font-bold flex items-center justify-center text-xs shadow-xs ${
+                  isDemo 
+                    ? "bg-gradient-to-tr from-amber-600 to-amber-500" 
+                    : "bg-gradient-to-tr from-[#0F766E] to-[#14B8A6]"
+                }`}>
+                  {adminUser?.name?.charAt(0) || (isDemo ? "D" : "A")}
                 </div>
                 <div className="truncate max-w-[140px]">
                   <span className="block text-xs font-bold text-slate-900 truncate">
-                    {adminUser?.name || "Dr. Clinical Admin"}
+                    {adminUser?.name || (isDemo ? "Dr. Tanvir Ahmed (Demo)" : "Dr. Clinical Admin")}
                   </span>
-                  <span className="block text-[10px] text-[#0F766E] font-semibold truncate">
-                    {adminUser?.email || "admin@medbangla.ai"}
-                  </span>
+                  <div className="flex items-center gap-1">
+                    <span className={`block text-[10px] font-semibold truncate ${
+                      isDemo ? "text-amber-700" : "text-[#0F766E]"
+                    }`}>
+                      {adminUser?.email || (isDemo ? "demo@medbangla.ai" : "admin@medbangla.ai")}
+                    </span>
+                    {isDemo && (
+                      <span className="px-1 py-0.2 rounded text-[8px] font-black uppercase bg-amber-200 text-amber-900">
+                        Demo
+                      </span>
+                    )}
+                  </div>
                 </div>
               </div>
               <button
@@ -311,7 +341,7 @@ export default function AdminLayout({
               </button>
             </div>
             <div className="text-[10px] text-slate-400 text-center border-t border-slate-200/60 pt-2 font-medium">
-              MedBangla v2.0 • Clinical Triage Panel
+              {isDemo ? "MedBangla Demo Mode • Simulated Clinical Sandbox" : "MedBangla v2.0 • Clinical Triage Panel"}
             </div>
           </div>
         </aside>
@@ -332,34 +362,99 @@ export default function AdminLayout({
               <div>
                 <h2 className="text-lg font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
                   <span>Executive Clinical Command</span>
-                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
-                    Verified Root
-                  </span>
+                  {isDemo ? (
+                    <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-100 text-amber-900 border border-amber-300 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
+                      Demo Mode (সিমুলেশন)
+                    </span>
+                  ) : (
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#F0FDFA] text-[#0F766E] border border-teal-200">
+                      Verified Root
+                    </span>
+                  )}
                 </h2>
                 <p className="text-xs text-slate-500 font-medium">
-                  Real-time prescription analysis, DGDA safety matrix & AI infrastructure telemetry
+                  {isDemo 
+                    ? "সিমুলেটেড প্রেসক্রিপশন অডিট, ডিজিডিএ সেফটি ম্যাট্রিক্স ও ডায়াগনস্টিক টেলিমেট্রি" 
+                    : "Real-time prescription analysis, DGDA safety matrix & AI infrastructure telemetry"}
                 </p>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
+              {isDemo && (
+                <button
+                  onClick={handleResetDemoData}
+                  className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-200 text-xs font-bold text-amber-900 transition-all shadow-2xs cursor-pointer"
+                  title="Reset simulated data"
+                >
+                  <RefreshCw className="w-3.5 h-3.5 text-amber-700" />
+                  <span>Reset Demo Data</span>
+                </button>
+              )}
+
               <button
                 onClick={handleRefresh}
                 disabled={isRefreshing}
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-xs font-bold text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer"
               >
                 <RefreshCw className={`w-3.5 h-3.5 text-[#0F766E] ${isRefreshing ? "animate-spin" : ""}`} />
-                <span>Refresh Live Telemetry</span>
+                <span>{isDemo ? "Refresh Demo State" : "Refresh Live Telemetry"}</span>
               </button>
 
               <div className="h-6 w-px bg-slate-200 hidden sm:block" />
 
-              <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
-                <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
-                <span>All AI Models Active</span>
+              <div className={`hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border text-xs font-bold ${
+                isDemo 
+                  ? "bg-amber-50 border-amber-200 text-amber-900"
+                  : "bg-emerald-50 border-emerald-200 text-emerald-800"
+              }`}>
+                <span className={`w-2 h-2 rounded-full animate-pulse ${isDemo ? "bg-amber-600" : "bg-emerald-600"}`} />
+                <span>{isDemo ? "Demo Sandbox Active" : "All AI Models Active"}</span>
               </div>
             </div>
           </header>
+
+          {/* Prominent Demo Mode Alert Banner */}
+          {isDemo && (
+            <div className="bg-gradient-to-r from-amber-50 via-amber-100/70 to-orange-50 border-b border-amber-300 px-4 sm:px-8 py-3.5 text-amber-950 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 shadow-xs">
+              <div className="flex items-start sm:items-center gap-3">
+                <div className="w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center font-black shrink-0 shadow-sm shadow-amber-500/30">
+                  <AlertTriangle className="w-5 h-5 text-amber-50" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="font-extrabold text-xs sm:text-sm tracking-tight text-amber-950">
+                      ⚠️ আপনি বর্তমানে ডেমো মোডে আছেন (Demo Admin Mode Active)
+                    </span>
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-200 text-amber-900 border border-amber-300">
+                      Simulated Fake Data
+                    </span>
+                  </div>
+                  <p className="text-xs text-amber-900/80 font-medium mt-0.5">
+                    এখানে প্রদর্শিত সকল অ্যানালিটিক্স, প্রেসক্রিপশন রেকর্ড, ইউজার তালিকা ও সার্ভার মেট্রিক সম্পূর্ণ ডেমো ডাটা। আপনার সমস্ত পরীক্ষা-নিরীক্ষা ও অ্যাকশন নিরাপদ।
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 self-end md:self-auto shrink-0">
+                <button
+                  onClick={handleResetDemoData}
+                  className="px-3 py-1.5 rounded-xl bg-white hover:bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold transition-all shadow-2xs flex items-center gap-1.5 cursor-pointer hover:shadow-xs"
+                  title="Reset simulated data to default state"
+                >
+                  <RefreshCw className="w-3.5 h-3.5 text-amber-700" />
+                  <span>Reset Demo Data</span>
+                </button>
+                <button
+                  onClick={handleLogout}
+                  className="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all shadow-sm shadow-amber-600/25 flex items-center gap-1.5 cursor-pointer"
+                >
+                  <LogOut className="w-3.5 h-3.5" />
+                  <span>Exit Demo</span>
+                </button>
+              </div>
+            </div>
+          )}
 
           {/* Page Body */}
           <main className="flex-1 p-4 sm:p-6 lg:p-8 space-y-8 max-w-7xl w-full mx-auto bg-[#FAFDFB]">

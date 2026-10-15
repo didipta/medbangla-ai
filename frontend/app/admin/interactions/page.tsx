@@ -1,11 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, AlertTriangle, ChevronRight } from "lucide-react";
 import { InteractionsTable } from "../components/InteractionsTable";
+import { adminApi } from "../../services/adminApi";
 
 export default function AdminInteractionsPage() {
+  const [isDemo, setIsDemo] = useState(false);
+
+  useEffect(() => {
+    setIsDemo(adminApi.isDemoMode());
+  }, []);
+
   return (
     <div className="space-y-6 animate-fadeIn font-bangla text-[#0F172A]">
       {/* Breadcrumb Header */}
@@ -21,9 +28,15 @@ export default function AdminInteractionsPage() {
           <h1 className="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
             <AlertTriangle className="w-6 h-6 text-amber-600" />
             <span>DGDA Drug-Drug Interaction Safety Matrix</span>
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
-              Clinical Guardrails
-            </span>
+            {isDemo ? (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-amber-100 text-amber-900 border border-amber-300">
+                Demo Clinical Guardrails
+              </span>
+            ) : (
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                Clinical Guardrails
+              </span>
+            )}
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 font-medium">
             ঝুঁকিপূর্ণ ড্রাগ-টু-ড্রাগ ইন্টারঅ্যাকশন পেয়ার, সাইড-ইফেক্ট সতর্কবার্তা ও ক্লিনিক্যাল রেকমেন্ডেশন
