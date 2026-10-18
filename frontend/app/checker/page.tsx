@@ -20,7 +20,7 @@ import {
 import { ProtectedRoute } from "../components/ProtectedRoute";
 
 export default function CheckerPage() {
-  const { currentUser, openAuthModal, loginAsDemoUser } = useAuth();
+  const { currentUser, isGoogleUser, openAuthModal, loginAsDemoUser } = useAuth();
   const { t } = useLanguage();
 
   return (
@@ -42,9 +42,8 @@ export default function CheckerPage() {
         </p>
       </div>
 
-      {/* Guest Mode Alert Notice if unauthenticated */}
-      {/* Guest Mode Alert Notice if unauthenticated */}
-      {!currentUser ? (
+      {/* Guest Mode Alert Notice if not logged in with Google */}
+      {!isGoogleUser ? (
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-teal-50/80 via-emerald-50/60 to-amber-50/70 border border-teal-200/90 text-xs shadow-xs">
           <div className="flex items-start sm:items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs shrink-0 mt-0.5 sm:mt-0">
@@ -88,8 +87,8 @@ export default function CheckerPage() {
             </button>
           </div>
         </div>
-      ) : (
-        /* Authenticated Session Banner */
+      ) : currentUser ? (
+        /* Authenticated Session Banner - Clean, zero demo mentions */
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-teal-50/70 border border-teal-200/80 text-xs">
           <div className="flex items-center gap-2.5">
             <div className="h-8 w-8 rounded-lg bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs">
@@ -101,7 +100,7 @@ export default function CheckerPage() {
               </div>
               <div className="text-[11px] text-slate-500">
                 {currentUser.role === "doctor"
-                  ? t(`চিকিৎসক সেশন সক্রিয় (BMDC: ${currentUser.bmdc || "ভেরিফাইড"})`, `Active Doctor Session (BMDC: ${currentUser.bmdc || "Verified"})`)
+                  ? t(`চিকিৎসক সেশন সক্রিয় (BMDC: ${currentUser.bmdc_number || "ভেরিফাইড"})`, `Active Doctor Session (BMDC: ${currentUser.bmdc_number || "Verified"})`)
                   : t("রোগী ও পরিবার কেয়ার সেশন সক্রিয়", "Patient & Family Care Session Active")}
               </div>
             </div>
@@ -109,10 +108,10 @@ export default function CheckerPage() {
 
           <div className="flex items-center gap-2 font-mono text-[11px] text-slate-600">
             <ShieldCheck className="w-3.5 h-3.5 text-[#15803D]" />
-            <span>256-bit HIPAA Encrypted</span>
+            <span>256-bit HIPAA Encrypted • Verified Account</span>
           </div>
         </div>
-      )}
+      ) : null}
 
       {/* Main Prescription Care Hub: any analysis action triggers login modal if unauthenticated */}
       <PrescriptionCareHub />

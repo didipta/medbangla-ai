@@ -238,6 +238,16 @@ export const PrescriptionCareHub: React.FC = () => {
     dispatch(fetchDailyQuota());
   }, [dispatch]);
 
+  // Clear demo data and images when user is logged in with Google
+  useEffect(() => {
+    if (isGoogleUser && isDemoModeActive) {
+      setIsDemoModeActive(false);
+      setImagePreview(null);
+      setSelectedFile(null);
+      dispatch(resetAnalysisState());
+    }
+  }, [isGoogleUser, isDemoModeActive, dispatch]);
+
   // Automatic Background Save/Update to Database (Updates same ID if exists, creates new ID only for new analysis)
   const autoSaveToHistory = async (analysisData: OCRAnalysisResponse, medsOverride?: VerifiedMedicineItem[]) => {
     try {
@@ -897,7 +907,8 @@ export const PrescriptionCareHub: React.FC = () => {
       {/* ========================================================================= */}
       {/* 2.5 PROFESSIONAL GOOGLE SIGN-IN NOTICE & INTERACTIVE DEMO PRESETS BAR     */}
       {/* ========================================================================= */}
-      <div className="space-y-4">
+      {!isGoogleUser && (
+        <div className="space-y-4">
         {/* Google Authentication Callout Banner */}
         <div className="rounded-2xl border border-teal-200/90 bg-gradient-to-r from-teal-50/90 via-emerald-50/70 to-teal-50/90 p-4 sm:p-5 shadow-xs">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -1154,6 +1165,7 @@ export const PrescriptionCareHub: React.FC = () => {
           </div>
         </div>
       </div>
+      )}
 
       {/* ========================================================================= */}
       {/* 3. DUAL WORKBENCH LAYOUT (5 Cols Ingestion / 7 Cols Results)              */}
