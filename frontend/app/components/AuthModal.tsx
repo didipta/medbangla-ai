@@ -11,6 +11,8 @@ import {
   Loader2,
   HeartHandshake,
   ArrowRight,
+  Sparkles,
+  Play,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { useAuth, AuthUser } from "../context/AuthContext";
@@ -32,9 +34,10 @@ declare global {
 export const AuthModal: React.FC<AuthModalProps> = ({
   isOpen,
   onClose,
+  onLoginSuccess,
 }) => {
   const { t } = useLanguage();
-  const { loginWithGoogle } = useAuth();
+  const { loginWithGoogle, loginAsDemoUser } = useAuth();
 
   const [role, setRole] = useState<"patient" | "doctor">("patient");
   const [bmdcNumber, setBmdcNumber] = useState<string>("");
@@ -207,6 +210,38 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     }
   };
 
+  // 5.5 Fast 1-Click Demo Login with Gmail
+  const handleDemoLogin = async (selectedRole: "patient" | "doctor" = role) => {
+    setLoading(true);
+    setError(null);
+    setStatusMessage(t("ডেমো জিমেইল অ্যাকাউন্টে প্রবেশ করা হচ্ছে...", "Signing in with Demo Gmail account..."));
+    try {
+      const res = await loginAsDemoUser(selectedRole);
+      if (res.success) {
+        setStatusMessage(t("সফলভাবে ডেমো লগইন হয়েছে!", "Demo login successful!"));
+        if (onLoginSuccess) {
+          onLoginSuccess({
+            id: selectedRole === "doctor" ? "demo-user-doctor-01" : "demo-user-patient-01",
+            name: selectedRole === "doctor" ? "Prof. Dr. Md. Fazlul Hoque" : "Mahdi Hasan (Demo Patient)",
+            email: selectedRole === "doctor" ? "dr.fazlul.hoque@gmail.com" : "mahdi.hasan@gmail.com",
+            role: selectedRole,
+            bmdc_number: selectedRole === "doctor" ? "BMDC-A-42190" : undefined,
+          });
+        }
+        setTimeout(() => {
+          setLoading(false);
+          onClose();
+        }, 500);
+      } else {
+        setLoading(false);
+        setError(res.message || t("ডেমো লগইন ব্যর্থ হয়েছে।", "Demo login failed."));
+      }
+    } catch (err: any) {
+      setLoading(false);
+      setError(err?.message || "Demo login failed");
+    }
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -304,8 +339,58 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             </div>
           )}
 
+          {/* 1-Click Instant Demo Login Option */}
+          <div className="p-3.5 rounded-2xl bg-gradient-to-br from-teal-50 via-emerald-50/60 to-cyan-50 border border-teal-200/90 space-y-2.5 shadow-2xs">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-xs font-extrabold text-[#0F766E]">
+                <Sparkles className="w-4 h-4 text-amber-500 fill-amber-400" />
+                <span>{t("⚡ ১-ক্লিকে তাৎক্ষণিক ডেমো লগইন", "⚡ 1-Click Instant Demo Login")}</span>
+              </div>
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-teal-100 text-[#0F766E] border border-teal-200">
+                {t("পাসওয়ার্ড ছাড়া প্রবেশ", "No Password Required")}
+              </span>
+            </div>
+
+            <p className="text-[11px] text-slate-600 leading-tight">
+              {t(
+                "সিস্টেম টেস্ট করতে নিচের যেকোনো ডেমো জিমেইল প্রোফাইল দিয়ে এখনই প্রবেশ করুন:",
+                "Test all AI features immediately with a verified demo Gmail account:"
+              )}
+            </p>
+
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => handleDemoLogin("patient")}
+                disabled={loading}
+                className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-white hover:bg-slate-50 border border-teal-300 text-teal-800 font-bold text-xs shadow-xs hover:shadow transition-all cursor-pointer group"
+              >
+                <User className="w-3.5 h-3.5 text-teal-600 group-hover:scale-110 transition-transform" />
+                <span>{t("রোগী ডেমো (Mahdi)", "Patient Demo")}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleDemoLogin("doctor")}
+                disabled={loading}
+                className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-white hover:bg-slate-50 border border-teal-300 text-teal-800 font-bold text-xs shadow-xs hover:shadow transition-all cursor-pointer group"
+              >
+                <Stethoscope className="w-3.5 h-3.5 text-teal-600 group-hover:scale-110 transition-transform" />
+                <span>{t("ডাক্তার ডেমো (Dr. Fazlul)", "Doctor Demo")}</span>
+              </button>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2 my-1 text-slate-400">
+            <div className="h-px flex-1 bg-slate-200" />
+            <span className="text-[11px] font-semibold text-slate-500">
+              {t("অথবা আপনার নিজস্ব গুগল আইডি দিয়ে", "Or Continue With Your Google Account")}
+            </span>
+            <div className="h-px flex-1 bg-slate-200" />
+          </div>
+
           {/* Official Real Google Sign-In Action Button */}
-          <div className="space-y-2.5 pt-1">
+          <div className="space-y-2.5 pt-0.5">
             <button
               type="button"
               onClick={handleRealGooglePopupLogin}

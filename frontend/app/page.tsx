@@ -367,17 +367,11 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
                 <button
                   type="button"
-                  onClick={() => {
-                    if (!currentUser) {
-                      openAuthModal("login");
-                    } else {
-                      router.push("/checker");
-                    }
-                  }}
+                  onClick={() => router.push("/checker")}
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] px-7 py-3.5 text-xs sm:text-sm font-bold text-white shadow-xs transition-all cursor-pointer group"
                 >
                   <Scan className="w-4 h-4" />
-                  <span>{t("প্রেসক্রিপশন পরীক্ষা করুন", "Check Your Prescription")}</span>
+                  <span>{t("প্রেসক্রিপশন ডেমো ও চেকার পরীক্ষা করুন", "Check Prescription & Try Demo")}</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                 </button>
 

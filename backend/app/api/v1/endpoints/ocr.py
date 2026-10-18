@@ -12,7 +12,7 @@ from fastapi import APIRouter, File, UploadFile, HTTPException, Query, Form, Req
 from pydantic import BaseModel, Field
 
 from app.core.config import settings
-from app.core.security import get_current_user_optional
+from app.core.security import get_current_user, get_current_user_optional
 from app.core.rate_limiter import rate_limiter
 from app.ai.ocr.engine import PrescriptionOCREngine
 
@@ -118,9 +118,24 @@ async def analyze_prescription(
     request: Request = None,  # type: ignore
     current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
 ):
+    # Enforce mandatory authentication: Zero unauthenticated image processing allowed
+    if not current_user or not current_user.get("id"):
+        raise HTTPException(
+            status_code=401,
+            detail="Authentication required. Please sign in with your Google account to analyze prescription images.",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    # Demo accounts are strictly restricted to the 2 client-side demo prescriptions
+    if str(current_user.get("id", "")).startswith("demo-") or current_user.get("is_demo"):
+        raise HTTPException(
+            status_code=403,
+            detail="Demo accounts cannot upload custom images. Please sign in with your Google account to analyze your personal prescriptions.",
+        )
+
     # Enforce rate limit if request context is present
     if request:
-        user_id = current_user.get("id") if current_user else None
+        user_id = current_user.get("id")
         rate_limiter.check_and_consume("prescription_ocr", request, user_id=user_id, consume=False)
 
     # 1. Validate file extension

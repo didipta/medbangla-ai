@@ -45,10 +45,22 @@ import {
   ExternalLink,
   Bookmark,
   FolderClock,
+  Code2,
+  Play,
+  CheckSquare,
+  FileCode,
+  Lock,
+  LogIn,
 } from "lucide-react";
 import { api } from "../services/api";
 import { useLanguage } from "../context/LanguageContext";
 import { useAuth } from "../context/AuthContext";
+import {
+  DEMO_PRESCRIPTIONS,
+  simulatePrescriptionScan,
+  ScanSimulationStep,
+  DemoPrescriptionPreset,
+} from "../services/prescriptionDemoData";
 import {
   OCRAnalysisResponse,
   InteractionReport,
@@ -100,7 +112,7 @@ interface ChatMessage {
 
 export const PrescriptionCareHub: React.FC = () => {
   const { lang, t } = useLanguage();
-  const { currentUser, openAuthModal } = useAuth();
+  const { currentUser, isDemoUser, isGoogleUser, openAuthModal, loginAsDemoUser } = useAuth();
 
   const dispatch = useAppDispatch();
 
@@ -146,6 +158,15 @@ export const PrescriptionCareHub: React.FC = () => {
 
   // Image Lightbox Modal
   const [lightboxOpen, setLightboxOpen] = useState(false);
+
+  // Interactive Demo Prescription States (Extracted from authentic doctor prescriptions)
+  const [selectedDemoPreset, setSelectedDemoPreset] = useState<"demo-fazlul-hoque" | "demo-sazzad-hossain">("demo-fazlul-hoque");
+  const [isDemoScanning, setIsDemoScanning] = useState(false);
+  const [demoStepProgress, setDemoStepProgress] = useState<ScanSimulationStep | null>(null);
+  const [isDemoModeActive, setIsDemoModeActive] = useState(false);
+  const [jsonModalOpen, setJsonModalOpen] = useState(false);
+  const [copiedJson, setCopiedJson] = useState(false);
+  const [personalUploadLoginModal, setPersonalUploadLoginModal] = useState(false);
 
   // Clinical Report Sections State (All sections visible and collapsible for seamless user experience)
   const [expandedSections, setExpandedSections] = useState({
@@ -357,6 +378,16 @@ export const PrescriptionCareHub: React.FC = () => {
   }, [result]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    // Custom prescription upload requires real Google login
+    // Demo accounts only work with the 2 preset demo prescriptions
+    if (!isGoogleUser) {
+      if (e.target) {
+        e.target.value = "";
+      }
+      setPersonalUploadLoginModal(true);
+      return;
+    }
+
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
       setSelectedFile(file);
@@ -368,6 +399,11 @@ export const PrescriptionCareHub: React.FC = () => {
 
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
+    if (!isGoogleUser) {
+      setPersonalUploadLoginModal(true);
+      return;
+    }
+
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       const file = e.dataTransfer.files[0];
       setSelectedFile(file);
@@ -379,11 +415,66 @@ export const PrescriptionCareHub: React.FC = () => {
 
 
 
+  // Run Client-Side Demo Simulation (Does NOT call backend OCR API)
+  const handleRunDemoPrescription = async (
+    targetPresetId?: "demo-fazlul-hoque" | "demo-sazzad-hossain"
+  ) => {
+    const presetKey = targetPresetId || selectedDemoPreset;
+    setSelectedDemoPreset(presetKey);
+    setIsDemoScanning(true);
+    setSelectedFile(null);
+    setPersonalUploadLoginModal(false);
+
+    const targetPreset = DEMO_PRESCRIPTIONS[presetKey];
+    setImagePreview(targetPreset.imagePath);
+
+    try {
+      const data = await simulatePrescriptionScan(presetKey, (step) => {
+        setDemoStepProgress(step);
+      });
+
+      dispatch(setCurrentPrescriptionId(data.ocrResult.history_id || null));
+      dispatch(setResult(data.ocrResult));
+      dispatch(setMedicines(data.verifiedMedicines));
+      dispatch(setSafetyReport(data.safetyReport));
+      dispatch(setExplanation(data.explanation));
+      dispatch(setLatency(data.ocrResult.execution_time_ms));
+      setIsDemoModeActive(true);
+
+      const drugListStr = data.verifiedMedicines.map((i) => i.brand).join(", ");
+      setChatMessages([
+        {
+          id: "demo-welcome",
+          role: "assistant",
+          text:
+            lang === "bn"
+              ? `স্বাগতম! ডেমো প্রেসক্রিপশন (${targetPreset.patient} - ${targetPreset.doctor}) সফলভাবে বিশ্লেষণ হয়েছে। শনাক্তকৃত ওষুধসমূহ: ${drugListStr}। যেকোনো ওষুধের সেবনবিধি, সতর্কতা বা ল্যাব টেস্ট সম্পর্কে আমাকে প্রশ্ন করতে পারেন।`
+              : `Welcome! Demo prescription (${targetPreset.patient} - ${targetPreset.doctor}) analyzed successfully. Identified medicines: ${drugListStr}. Feel free to ask about dosages, side effects, or lab tests.`,
+          timestamp: "Just now",
+        },
+      ]);
+
+      setAllSections(true);
+      scrollToSection("section-medicines-review", "review");
+      setSaveToast(
+        lang === "bn"
+          ? "ডেমো প্রেসক্রিপশন ডাটা সফলভাবে লোড ও ভেরিফাই হয়েছে!"
+          : "Demo prescription loaded and verified successfully!"
+      );
+      setTimeout(() => setSaveToast(null), 3500);
+    } catch (err) {
+      console.error("Demo scan error:", err);
+    } finally {
+      setIsDemoScanning(false);
+      setDemoStepProgress(null);
+    }
+  };
+
   // Run End-to-End Analysis (Enforces max 2 prescription analyses per day)
   const handleAnalyzePrescription = async () => {
-    // Require login for running prescription analysis
-    if (!currentUser) {
-      openAuthModal("login");
+    // Require real Google login for running personalized prescription analysis
+    if (!isGoogleUser) {
+      setPersonalUploadLoginModal(true);
       return;
     }
 
@@ -804,6 +895,267 @@ export const PrescriptionCareHub: React.FC = () => {
 
 
       {/* ========================================================================= */}
+      {/* 2.5 PROFESSIONAL GOOGLE SIGN-IN NOTICE & INTERACTIVE DEMO PRESETS BAR     */}
+      {/* ========================================================================= */}
+      <div className="space-y-4">
+        {/* Google Authentication Callout Banner */}
+        <div className="rounded-2xl border border-teal-200/90 bg-gradient-to-r from-teal-50/90 via-emerald-50/70 to-teal-50/90 p-4 sm:p-5 shadow-xs">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="flex items-start sm:items-center gap-3">
+              <div className="h-10 w-10 rounded-xl bg-[#0F766E] text-white flex items-center justify-center font-bold text-sm shadow-xs shrink-0 mt-0.5 sm:mt-0">
+                <Sparkles className="w-5 h-5 text-amber-300" />
+              </div>
+              <div className="space-y-1">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="font-extrabold text-sm text-[#0F766E]">
+                    {t("🌟 বাস্তব প্রেসক্রিপশন ডেমো ও গুগল সাইন-ইন", "🌟 Authentic Prescription Demo & Google Sign-In")}
+                  </span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-teal-100/90 text-[#0F766E] font-bold text-[10px] border border-teal-200">
+                    {t("এআই ভিশন এক্সট্রাকশন প্রস্তুত", "AI Vision Extraction Ready")}
+                  </span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed max-w-3xl">
+                  {currentUser ? (
+                    <span>
+                      {t(
+                        `স্বাগতম, ${currentUser.name}! আপনার গুগল অ্যাকাউন্ট সফলভাবে সংযুক্ত রয়েছে। আপনি নিজস্ব প্রেসক্রিপশন আপলোড করতে পারেন অথবা নিচে ১-ক্লিকে বাস্তব ডেমো প্রেসক্রিপশন পরীক্ষা করতে পারেন।`,
+                        `Welcome, ${currentUser.name}! Your Google account is verified. You can upload custom prescriptions or test authentic doctor demos below.`
+                      )}
+                    </span>
+                  ) : (
+                    <span>
+                      {t(
+                        "এটি বাস্তব প্রেসক্রিপশন (ডাঃ মোঃ ফজলুল হক ও ডাঃ মোঃ সাজ্জাদ হোসেন) থেকে সংগৃহীত ভেরিফাইড ডেমো। নিচের ১-ক্লিক ডেমো দিয়ে সম্পূর্ণ সিস্টেমের কার্যকারিতা দেখুন। আপনার নিজস্ব প্রেসক্রিপশন লাইভ এআই স্ক্যান ও সংরক্ষণ করতে প্রথমে গুগল (Gmail) দিয়ে সাইন-ইন করুন।",
+                        "This interactive demo uses verified data extracted from real Bangladeshi doctor prescriptions. Try the 1-click demos below! To scan and analyze your own personal prescriptions, please sign in with Google first."
+                      )}
+                    </span>
+                  )}
+                </p>
+              </div>
+            </div>
+
+            {!currentUser && (
+              <div className="flex flex-wrap items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => loginAsDemoUser("patient")}
+                  className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-all shadow-xs cursor-pointer shrink-0"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                  <span>{t("⚡ ১-ক্লিক ডেমো লগইন", "⚡ 1-Click Demo Sign-In")}</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => openAuthModal("login")}
+                  className="inline-flex items-center justify-center gap-2.5 px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-xs border border-slate-300 hover:border-slate-400 transition-all shadow-xs cursor-pointer shrink-0 group"
+                >
+                  {/* Official Google G Logo */}
+                  <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                  </svg>
+                  <span className="group-hover:text-[#0F766E] transition-colors">
+                    {t("গুগল (Gmail) সাইন-ইন", "Google Sign-In")}
+                  </span>
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Demo Preset Cards & 1-Click Trigger */}
+        <div className="rounded-2xl border border-[#E2EAE7] bg-white p-5 shadow-xs space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-[#E2EAE7]">
+            <div className="flex items-center gap-2">
+              <div className="h-7 w-7 rounded-lg bg-[#CCFBF1] text-[#0F766E] flex items-center justify-center">
+                <Play className="w-3.5 h-3.5 fill-current" />
+              </div>
+              <div>
+                <h3 className="font-extrabold text-sm text-slate-900">
+                  {t("বাস্তব প্রেসক্রিপশন ডেমো সিলেক্টর (১-ক্লিক এনালাইসিস)", "Authentic Prescription Demo Selector (1-Click)")}
+                </h3>
+                <p className="text-[11px] text-[#647575]">
+                  {t(
+                    "নিচের যেকোনো প্রেসক্রিপশন নির্বাচন করে এআই ডিকোড ও ড্রাগ সেফটি রিপোর্ট পরীক্ষা করুন",
+                    "Choose an authentic handwritten prescription sample to test vision OCR and drug safety"
+                  )}
+                </p>
+              </div>
+            </div>
+
+            {/* Run Analysis Action Button */}
+            <button
+              type="button"
+              onClick={() => handleRunDemoPrescription()}
+              disabled={isDemoScanning}
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#0F766E] hover:bg-[#115E59] text-white font-bold text-xs shadow-xs transition-all cursor-pointer disabled:opacity-50 shrink-0"
+            >
+              <Sparkles className="w-4 h-4 text-amber-300" />
+              <span>{t("⚡ নির্বাচিত ডেমো প্রেসক্রিপশন চেক করুন", "⚡ Run Demo Prescription Check")}</span>
+            </button>
+          </div>
+
+          {/* 2 Selectable Real Prescription Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Preset 1: Dr. Fazlul Hoque */}
+            <div
+              onClick={() => {
+                setSelectedDemoPreset("demo-fazlul-hoque");
+                handleRunDemoPrescription("demo-fazlul-hoque");
+              }}
+              className={`rounded-xl border p-4 transition-all cursor-pointer relative overflow-hidden group flex flex-col justify-between ${
+                selectedDemoPreset === "demo-fazlul-hoque"
+                  ? "border-[#0F766E] bg-teal-50/60 ring-2 ring-[#0F766E]/20 shadow-xs"
+                  : "border-slate-200 bg-slate-50/50 hover:border-teal-300 hover:bg-white"
+              }`}
+            >
+              <div className="space-y-3">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex items-center gap-2.5">
+                    {/* Thumbnail */}
+                    <div className="h-14 w-12 rounded-lg overflow-hidden border border-slate-200 bg-white shrink-0 group-hover:scale-105 transition-transform shadow-2xs">
+                      <img
+                        src="/images/demo/prescription_demo_dr_fazlul_hoque.jpg"
+                        alt="Dr. Fazlul Hoque prescription"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div>
+                      <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-teal-100 text-[#0F766E] font-bold text-[10px] mb-0.5">
+                        <Stethoscope className="w-3 h-3" />
+                        <span>{t("কিডনি রোগ ও উচ্চ রক্তচাপ", "Nephrology & CKD Care")}</span>
+                      </div>
+                      <h4 className="font-bold text-xs text-slate-900 leading-tight">
+                        {t("অধ্যাপক ডা. মো. ফজলুল হক (সি এম এইচ, ঢাকা)", "Prof. Dr. Md. Fazlul Hoque (CMH Dhaka)")}
+                      </h4>
+                      <div className="text-[11px] text-slate-500 mt-0.5">
+                        {t("রোগী: Mahdi Hasan (২৯ বছর) • BP: 160/90", "Patient: Mahdi Hasan (29 Yrs) • BP: 160/90")}
+                      </div>
+                    </div>
+                  </div>
+
+                  <span
+                    className={`h-5 w-5 rounded-full flex items-center justify-center shrink-0 border ${
+                      selectedDemoPreset === "demo-fazlul-hoque"
+                        ? "bg-[#0F766E] border-[#0F766E] text-white"
+                        : "border-slate-300 bg-white"
+                    }`}
+                  >
+                    {selectedDemoPreset === "demo-fazlul-hoque" && <Check className="w-3 h-3 stroke-[3]" />}
+                  </span>
+                </div>
+
+                {/* Medicine Chips */}
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Proxen 500mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Cardizem SR 90mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Dicaltrol 0.25mcg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Zif-CI
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-3 mt-2 border-t border-slate-200/70 flex items-center justify-between text-[11px] text-[#0F766E] font-bold">
+                <span>{t("৪টি ওষুধ • ড্রাগ মিথস্ক্রিয়া পরীক্ষা অন্তর্ভুক্ত", "4 Medicines • Moderate Renal Interaction")}</span>
+                <span className="underline group-hover:translate-x-0.5 transition-transform flex items-center gap-1">
+                  {t("লোড করুন", "Load Sample")} <ArrowRight className="w-3 h-3" />
+                </span>
+              </div>
+            </div>
+
+            {/* Preset 2: Dr. Sazzad Hossain */}
+            <div
+              onClick={() => {
+                setSelectedDemoPreset("demo-sazzad-hossain");
+                handleRunDemoPrescription("demo-sazzad-hossain");
+              }}
+              className={`rounded-xl border p-4 transition-all cursor-pointer relative overflow-hidden group flex flex-col justify-between ${
+                selectedDemoPreset === "demo-sazzad-hossain"
+                  ? "border-[#0F766E] bg-teal-50/60 ring-2 ring-[#0F766E]/20 shadow-xs"
+                  : "border-slate-200 bg-slate-50/50 hover:border-teal-300 hover:bg-white"
+              }`}
+            >
+              <div className="space-y-3">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex items-center gap-2.5">
+                    {/* Thumbnail */}
+                    <div className="h-14 w-12 rounded-lg overflow-hidden border border-slate-200 bg-white shrink-0 group-hover:scale-105 transition-transform shadow-2xs">
+                      <img
+                        src="/images/demo/prescription_demo_dr_sazzad_hossain.jpg"
+                        alt="Dr. Sazzad Hossain prescription"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div>
+                      <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-indigo-100 text-indigo-800 font-bold text-[10px] mb-0.5">
+                        <HeartPulse className="w-3 h-3" />
+                        <span>{t("বক্ষব্যাধি, কাশি ও ইনহেলার", "Pulmonology & Bronchial Care")}</span>
+                      </div>
+                      <h4 className="font-bold text-xs text-slate-900 leading-tight">
+                        {t("ডাঃ মোঃ সাজ্জাদ হোসেন (সহযোগী অধ্যাপক)", "Dr. Md. Sazzad Hossain (Assoc. Prof.)")}
+                      </h4>
+                      <div className="text-[11px] text-slate-500 mt-0.5">
+                        {t("রোগী: Hasnain (৩০ বছর) • কাশি ৮ দিন, জ্বর", "Patient: Hasnain (30 Yrs) • Cough 8d, Fever")}
+                      </div>
+                    </div>
+                  </div>
+
+                  <span
+                    className={`h-5 w-5 rounded-full flex items-center justify-center shrink-0 border ${
+                      selectedDemoPreset === "demo-sazzad-hossain"
+                        ? "bg-[#0F766E] border-[#0F766E] text-white"
+                        : "border-slate-300 bg-white"
+                    }`}
+                  >
+                    {selectedDemoPreset === "demo-sazzad-hossain" && <Check className="w-3 h-3 stroke-[3]" />}
+                  </span>
+                </div>
+
+                {/* Medicine Chips */}
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Montilab 10mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Deflacort 24mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Xeldrin 20mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Optimox 400mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Doxiva 200mg
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    Ticamet Inhaler
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-3 mt-2 border-t border-slate-200/70 flex items-center justify-between text-[11px] text-[#0F766E] font-bold">
+                <span>{t("৭টি ওষুধ • ইনহেলার ও অ্যান্টিবায়োটিক গাইডেন্স", "7 Medicines • Inhaler & Antibiotic Protocol")}</span>
+                <span className="underline group-hover:translate-x-0.5 transition-transform flex items-center gap-1">
+                  {t("লোড করুন", "Load Sample")} <ArrowRight className="w-3 h-3" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ========================================================================= */}
       {/* 3. DUAL WORKBENCH LAYOUT (5 Cols Ingestion / 7 Cols Results)              */}
       {/* ========================================================================= */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
@@ -832,7 +1184,13 @@ export const PrescriptionCareHub: React.FC = () => {
             <div
               onDragOver={(e) => e.preventDefault()}
               onDrop={handleDrop}
-              onClick={() => fileInputRef.current?.click()}
+              onClick={() => {
+                if (!isGoogleUser) {
+                  setPersonalUploadLoginModal(true);
+                  return;
+                }
+                fileInputRef.current?.click();
+              }}
               className="cursor-pointer rounded-xl border-2 border-dashed border-[#E2EAE7] bg-[#F7FAF9] p-5 text-center hover:border-[#0F766E] hover:bg-[#CCFBF1]/15 transition-all flex flex-col items-center justify-center min-h-[250px] group relative overflow-hidden"
             >
               <input
@@ -861,13 +1219,15 @@ export const PrescriptionCareHub: React.FC = () => {
                     />
 
                     {/* Laser Scanning Line Animation during Processing */}
-                    {analyzing && (
+                    {(analyzing || isDemoScanning) && (
                       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-[#172B2A]/60 backdrop-blur-[2px] p-4">
                         <div className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#0F766E] to-transparent shadow-[0_0_12px_2px_rgba(15,118,110,0.8)] animate-laser-scan pointer-events-none" />
                         <div className="bg-[#FFFFFF] p-3.5 rounded-xl border border-[#0F766E] shadow-xl text-center space-y-1.5 max-w-xs">
                           <RefreshCw className="w-5 h-5 animate-spin text-[#0F766E] mx-auto" />
                           <div className="text-xs font-bold text-[#172B2A]">
-                            {t("টেক্সট ও ওষুধ বিশ্লেষণ হচ্ছে...", "Analyzing text & medicines...")}
+                            {isDemoScanning && demoStepProgress
+                              ? `${demoStepProgress.step} / ${demoStepProgress.total}: ${demoStepProgress.label_bn}`
+                              : t("টেক্সট ও ওষুধ বিশ্লেষণ হচ্ছে...", "Analyzing text & medicines...")}
                           </div>
                           <p className="text-[11px] text-[#647575]">
                             {t("১৭,৫৮৯ ভেরিফাইড ডাটাবেজে ম্যাপিং চলছে", "Mapping against 17,589 verified monograph database")}
@@ -877,12 +1237,116 @@ export const PrescriptionCareHub: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="flex items-center justify-center gap-1.5 text-xs text-[#0F766E] font-medium">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
-                    <span className="truncate max-w-[200px]">{selectedFile?.name}</span>
-                    <span className="text-[#647575]">
-                      {t("(পরিবর্তন করতে ক্লিক করুন)", "(Click to change)")}
-                    </span>
+                  <div className="flex flex-col items-center justify-center gap-1 text-xs text-[#0F766E] font-medium">
+                    <div className="flex items-center gap-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
+                      <span className="truncate max-w-[200px]">
+                        {isDemoModeActive ? DEMO_PRESCRIPTIONS[selectedDemoPreset].patient : (selectedFile?.name || "Prescription Image")}
+                      </span>
+                    </div>
+                    {isDemoModeActive ? (
+                      <div className="inline-flex items-center gap-1 text-[11px] text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+                        <Sparkles className="w-3 h-3 text-amber-600" />
+                        <span>{t("বাস্তব ডেমো প্রেসক্রিপশন সক্রিয় (অন্য ছবি আপলোডে গুগল সাইন-ইন আবশ্যক)", "Demo Preset Active (Google Sign-In required for other images)")}</span>
+                      </div>
+                    ) : (
+                      <span className="text-[#647575]">
+                        {t("(পরিবর্তন করতে ক্লিক করুন)", "(Click to change)")}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              ) : isDemoUser ? (
+                <div className="space-y-3.5 p-2 max-w-sm mx-auto text-center">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-700 shadow-inner">
+                    <Lock className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200 mb-1.5">
+                      <ShieldAlert className="w-3.5 h-3.5 text-amber-600" />
+                      <span>{t("ডেমো মোড: কাস্টম আপলোড নিষ্ক্রিয়", "Demo Mode: Custom Upload Disabled")}</span>
+                    </div>
+                    <p className="text-sm font-bold text-[#172B2A]">
+                      {t("অন্য ছবি আপলোড বা ক্যামেরা ব্যবহার করতে গুগল দিয়ে সাইন-ইন করুন", "Sign In with Google to Upload or Capture Custom Images")}
+                    </p>
+                    <p className="text-xs text-[#647575] mt-1 leading-relaxed">
+                      {t(
+                        "ডেমো লগইনে অন্য কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; শুধুমাত্র নির্ধারিত ২টি ডেমো প্রেসক্রিপশন কাজ করবে। নিজের প্রেসক্রিপশন স্ক্যান করতে অনুগ্রহ করে প্রথমে গুগল দিয়ে প্রবেশ করুন।",
+                        "Demo login only allows the 2 preset demo prescriptions. To upload other images or capture via camera, please sign in with your Google account first."
+                      )}
+                    </p>
+                  </div>
+
+                  <div
+                    className="flex flex-col sm:flex-row items-center justify-center gap-2 pt-1"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      type="button"
+                      onClick={() => openAuthModal("login")}
+                      className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs shadow-md transition-all cursor-pointer"
+                    >
+                      <LogIn className="w-3.5 h-3.5" />
+                      <span>{t("গুগল (Gmail) সাইন-ইন করুন", "Sign In with Google (Gmail)")}</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleRunDemoPrescription()}
+                      className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs transition-colors cursor-pointer"
+                    >
+                      <Play className="w-3 h-3 text-[#0F766E] fill-current" />
+                      <span>{t("ডেমো স্ক্যান চালান", "Run Demo Scan")}</span>
+                    </button>
+                  </div>
+
+                  <p className="text-[11px] text-[#647575] pt-0.5">
+                    {t(
+                      "💡 উপরে ডাঃ ফজলুল হক বা ডাঃ সাজ্জাদ হোসেন ডেমো সিলেক্ট করে ফ্রি টেস্ট করুন।",
+                      "💡 Or select Dr. Fazlul Hoque or Dr. Sazzad Hossain demo above."
+                    )}
+                  </p>
+                </div>
+              ) : !currentUser ? (
+                <div className="space-y-3.5 p-2 max-w-sm mx-auto text-center">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-700 shadow-inner">
+                    <Lock className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200 mb-1.5">
+                      <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                      <span>{t("লগইন সুরক্ষিত আপলোড ও ক্যামেরা", "Login Protected: Upload & Camera")}</span>
+                    </div>
+                    <p className="text-sm font-bold text-[#172B2A]">
+                      {t("ব্যক্তিগত প্রেসক্রিপশন স্ক্যান করতে লগইন করুন", "Sign In to Upload & Capture Prescriptions")}
+                    </p>
+                    <p className="text-xs text-[#647575] mt-1 leading-relaxed">
+                      {t(
+                        "কাস্টম প্রেসক্রিপশন ছবি আপলোড বা ক্যামেরা ব্যবহার করতে অনুগ্রহ করে গুগল অ্যাকাউন্ট দিয়ে প্রবেশ করুন। অথবা উপরের ডেমো প্রেসক্রিপশন পরীক্ষা করুন।",
+                        "To upload custom prescription images or capture via camera, please sign in with your Google account. Or test the demo above."
+                      )}
+                    </p>
+                  </div>
+
+                  <div
+                    className="flex flex-col sm:flex-row items-center justify-center gap-2 pt-1"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      type="button"
+                      onClick={() => openAuthModal("login")}
+                      className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs shadow-md transition-all cursor-pointer"
+                    >
+                      <LogIn className="w-3.5 h-3.5" />
+                      <span>{t("গুগল সাইন-ইন করুন", "Sign In with Google")}</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleRunDemoPrescription()}
+                      className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs transition-colors cursor-pointer"
+                    >
+                      <Play className="w-3 h-3 text-[#0F766E] fill-current" />
+                      <span>{t("ডেমো স্ক্যান পরীক্ষা করুন", "Test Demo Scan")}</span>
+                    </button>
                   </div>
                 </div>
               ) : (
@@ -908,9 +1372,13 @@ export const PrescriptionCareHub: React.FC = () => {
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
+                        if (!isGoogleUser) {
+                          setPersonalUploadLoginModal(true);
+                          return;
+                        }
                         cameraInputRef.current?.click();
                       }}
-                      className="inline-flex items-center gap-1.5 rounded-lg bg-[#E2EAE7] px-3 py-1.5 text-xs font-semibold text-[#172B2A] hover:bg-[#d5dedb] transition-colors"
+                      className="inline-flex items-center gap-1.5 rounded-lg bg-[#E2EAE7] px-3 py-1.5 text-xs font-semibold text-[#172B2A] hover:bg-[#d5dedb] transition-colors cursor-pointer"
                     >
                       <Camera className="w-3.5 h-3.5 text-[#0F766E]" />
                       <span>{t("ক্যামেরা ওপেন করুন", "Open Camera")}</span>
@@ -965,15 +1433,15 @@ export const PrescriptionCareHub: React.FC = () => {
             {/* Run Analysis Action Button */}
             <button
               onClick={() => {
-                if (!currentUser) {
-                  openAuthModal("login");
+                if (!isGoogleUser) {
+                  setPersonalUploadLoginModal(true);
                   return;
                 }
                 handleAnalyzePrescription();
               }}
-              disabled={analyzing || (Boolean(currentUser) && (!selectedFile || !dailyQuota.can_analyze || dailyQuota.remaining <= 0))}
+              disabled={analyzing || (Boolean(isGoogleUser) && (!selectedFile || !dailyQuota.can_analyze || dailyQuota.remaining <= 0))}
               className={`w-full rounded-lg py-3 text-sm font-bold text-white shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer ${
-                currentUser && dailyQuota.remaining <= 0
+                isGoogleUser && dailyQuota.remaining <= 0
                   ? "bg-rose-600/80 cursor-not-allowed opacity-80"
                   : "bg-[#0F766E] hover:bg-[#115E59] disabled:opacity-50"
               }`}
@@ -983,10 +1451,15 @@ export const PrescriptionCareHub: React.FC = () => {
                   <RefreshCw className="w-4 h-4 animate-spin" />
                   <span>{t("ওষুধ শনাক্ত ও প্রসেসিং হচ্ছে...", "Detecting medicines & processing...")}</span>
                 </>
-              ) : dailyQuota.remaining <= 0 ? (
+              ) : isGoogleUser && dailyQuota.remaining <= 0 ? (
                 <>
                   <ShieldAlert className="w-4 h-4" />
                   <span>{t("আজকের কোটা শেষ (২/২ সম্পন্ন)", "Daily Limit Reached (2/2 Used)")}</span>
+                </>
+              ) : !isGoogleUser ? (
+                <>
+                  <LogIn className="w-4 h-4" />
+                  <span>{t("গুগল সাইন-ইন করে চালান", "Sign In with Google to Run Analysis")}</span>
                 </>
               ) : (
                 <>
@@ -1039,6 +1512,17 @@ export const PrescriptionCareHub: React.FC = () => {
 
                   {/* Expand / Collapse All Toggle */}
                   <div className="flex items-center gap-2">
+                    {/* View Raw Extracted JSON Button */}
+                    <button
+                      type="button"
+                      onClick={() => setJsonModalOpen(true)}
+                      className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-slate-700 hover:text-slate-900 px-2.5 py-1 rounded-lg bg-[#F7FAF9] border border-[#E2EAE7] hover:bg-[#E2EAE7]/60 transition-colors cursor-pointer"
+                      title={t("এক্সট্রাক্ট করা পূর্ণাঙ্গ JSON ডাটা দেখুন", "View full extracted JSON schema")}
+                    >
+                      <Code2 className="w-3.5 h-3.5 text-[#0F766E]" />
+                      <span>{t("JSON ডাটা দেখুন", "View JSON")}</span>
+                    </button>
+
                     <button
                       type="button"
                       onClick={() => {
@@ -2365,6 +2849,217 @@ export const PrescriptionCareHub: React.FC = () => {
           </div>
         </div>
       )}
+      {/* ========================================================================= */}
+      {/* 10. HIGH-TECH ANIMATED SCANNING OVERLAY (Laser Scan & Step Progress)      */}
+      {/* ========================================================================= */}
+      {isDemoScanning && (
+        <div className="fixed inset-0 z-70 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-in fade-in duration-200">
+          <div className="relative w-full max-w-lg rounded-2xl bg-slate-900 border border-teal-500/40 p-6 text-white shadow-2xl space-y-5 overflow-hidden animate-in zoom-in-95 duration-200">
+            {/* Top Scanning Header */}
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div className="flex items-center gap-2">
+                <div className="h-8 w-8 rounded-lg bg-teal-500/20 text-teal-400 border border-teal-500/30 flex items-center justify-center">
+                  <Scan className="w-4 h-4 animate-pulse" />
+                </div>
+                <div>
+                  <h3 className="font-extrabold text-sm text-teal-300">
+                    {t("এআই প্রেসক্রিপশন ভিশন স্ক্যানার (ডেমো)", "AI Prescription Vision Scanner (Demo)")}
+                  </h3>
+                  <div className="text-[10px] text-teal-400/80 font-mono">
+                    NEURAL-VISION • OFFLINE SIMULATION • ZERO API COST
+                  </div>
+                </div>
+              </div>
+              <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-teal-950 border border-teal-500/40 text-teal-300">
+                {demoStepProgress ? `${demoStepProgress.percentage}%` : "0%"}
+              </span>
+            </div>
+
+            {/* Simulated Prescription Scanning Laser Viewport */}
+            <div className="relative h-44 rounded-xl border border-teal-500/30 bg-slate-950 overflow-hidden flex items-center justify-center p-2">
+              <img
+                src={DEMO_PRESCRIPTIONS[selectedDemoPreset]?.imagePath || "/images/demo/prescription_demo_dr_fazlul_hoque.jpg"}
+                alt="Scanning prescription"
+                className="h-full w-auto object-contain opacity-40 brightness-75 rounded"
+              />
+
+              {/* Sweeping Laser Beam */}
+              <div className="absolute inset-x-0 h-1 bg-gradient-to-r from-transparent via-teal-400 to-transparent shadow-[0_0_16px_3px_rgba(45,212,191,0.9)] animate-laser-scan pointer-events-none" />
+
+              {/* Target Bounding Box Hologram */}
+              <div className="absolute inset-4 border border-dashed border-teal-400/40 rounded-lg pointer-events-none flex flex-col justify-between p-2">
+                <div className="flex justify-between text-[10px] font-mono text-teal-400/80">
+                  <span>[OCR_PASS_ACTIVE]</span>
+                  <span>[RES_864x1152]</span>
+                </div>
+                <div className="flex justify-between text-[10px] font-mono text-teal-400/80">
+                  <span>[TOKEN_DETECTION]</span>
+                  <span>[DGDA_MATCH_READY]</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Dynamic Step Progress & Description */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-bold text-teal-200">
+                  {lang === "bn" ? demoStepProgress?.titleBn : demoStepProgress?.titleEn}
+                </span>
+                <span className="font-mono text-[11px] text-slate-400">
+                  {t(`ধাপ ${demoStepProgress?.step || 1} / 4`, `Step ${demoStepProgress?.step || 1} of 4`)}
+                </span>
+              </div>
+
+              {/* Progress Bar */}
+              <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
+                <div
+                  className="h-full bg-gradient-to-r from-teal-500 to-emerald-400 rounded-full transition-all duration-300"
+                  style={{ width: `${demoStepProgress?.percentage || 25}%` }}
+                />
+              </div>
+
+              <p className="text-[11px] text-slate-400 leading-relaxed font-mono">
+                {lang === "bn" ? demoStepProgress?.detailBn : demoStepProgress?.detailEn}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 11. RAW EXTRACTED JSON VIEWER MODAL                                       */}
+      {/* ========================================================================= */}
+      {jsonModalOpen && result && (
+        <div className="fixed inset-0 z-70 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="relative w-full max-w-4xl max-h-[85vh] bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in zoom-in-95 duration-200">
+            {/* Header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950/80">
+              <div className="flex items-center gap-2.5">
+                <div className="h-8 w-8 rounded-lg bg-teal-500/20 text-teal-400 border border-teal-500/30 flex items-center justify-center">
+                  <Code2 className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="font-extrabold text-sm text-slate-100">
+                    {t("এক্সট্রাক্ট করা প্রেসক্রিপশন JSON স্কিমা", "Extracted Prescription JSON Schema")}
+                  </h3>
+                  <div className="text-[11px] text-slate-400">
+                    {result.filename} • {result.detected_medicines?.length || 0} medicines parsed
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    navigator.clipboard.writeText(JSON.stringify(result, null, 2));
+                    setCopiedJson(true);
+                    setTimeout(() => setCopiedJson(false), 2000);
+                  }}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-500 text-white font-bold text-xs transition-colors cursor-pointer"
+                >
+                  {copiedJson ? (
+                    <>
+                      <Check className="w-3.5 h-3.5" />
+                      <span>{t("কপি হয়েছে!", "Copied!")}</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-3.5 h-3.5" />
+                      <span>{t("JSON কপি করুন", "Copy JSON")}</span>
+                    </>
+                  )}
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setJsonModalOpen(false)}
+                  className="h-8 w-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center cursor-pointer transition-colors"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+
+            {/* JSON Code Viewer */}
+            <div className="p-4 overflow-auto flex-1 bg-slate-950 text-xs font-mono text-emerald-400 leading-relaxed">
+              <pre>{JSON.stringify(result, null, 2)}</pre>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 12. PERSONAL PRESCRIPTION UPLOAD -> GOOGLE SIGN-IN MODAL                  */}
+      {/* ========================================================================= */}
+      {personalUploadLoginModal && (
+        <div className="fixed inset-0 z-70 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="relative w-full max-w-md bg-white rounded-2xl shadow-2xl border border-slate-200 p-6 text-center space-y-4 animate-in zoom-in-95 duration-200">
+            <button
+              type="button"
+              onClick={() => setPersonalUploadLoginModal(false)}
+              className="absolute top-4 right-4 h-8 w-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center cursor-pointer"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            <div className="mx-auto w-14 h-14 rounded-2xl bg-amber-50 text-amber-700 border border-amber-200 flex items-center justify-center">
+              <Lock className="w-7 h-7" />
+            </div>
+
+            <div className="space-y-2">
+              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                <ShieldAlert className="w-3.5 h-3.5 text-amber-600" />
+                <span>{t("গুগল (Gmail) সাইন-ইন আবশ্যক", "Google Sign-In Required")}</span>
+              </div>
+              <h3 className="text-base font-extrabold text-slate-900 pt-0.5">
+                {t(
+                  "কাস্টম প্রেসক্রিপশন আপলোডের জন্য গুগল সাইন-ইন করুন",
+                  "Sign In with Google to Upload Your Prescription"
+                )}
+              </h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {t(
+                  "ডেমো অ্যাকাউন্টে অন্য কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; শুধুমাত্র নির্ধারিত ২টি ডেমো প্রেসক্রিপশন কাজ করবে। নিজের যেকোনো প্রেসক্রিপশন ছবি আপলোড বা ক্যামেরা ব্যবহার করতে অনুগ্রহ করে প্রথমে আপনার আসল গুগল অ্যাকাউন্ট দিয়ে লগইন করুন।",
+                  "Demo accounts cannot upload or capture other images; only the 2 authentic demo prescriptions are supported. To upload your personal prescriptions or snap photos with camera, please sign in with your Google account first."
+                )}
+              </p>
+            </div>
+
+            <div className="space-y-2.5 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setPersonalUploadLoginModal(false);
+                  openAuthModal("login");
+                }}
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2.5 cursor-pointer"
+              >
+                <svg className="w-4 h-4 shrink-0 bg-white rounded-full p-0.5" viewBox="0 0 24 24">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                </svg>
+                <span>{t("গুগল (Gmail) সাইন-ইন দিয়ে শুরু করুন", "Sign In with Google (Gmail) First")}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setPersonalUploadLoginModal(false);
+                  handleRunDemoPrescription();
+                }}
+                className="w-full py-2.5 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              >
+                <Play className="w-3.5 h-3.5 text-[#0F766E] fill-current" />
+                <span>{t("বাস্তব ডেমো প্রেসক্রিপশন চালিয়ে দেখুন (লগইন প্রয়োজন নেই)", "Try Authentic Demo Prescriptions (No Login Required)")}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
+

@@ -144,6 +144,38 @@ def get_user_limits(
 def login_with_google(request: Request, payload: GoogleAuthRequest):
     rate_limiter.check_and_consume("auth_request", request)
 
+    # 0. Check if demo login credential
+    cred = payload.credential.strip()
+    if cred in ("demo-patient-token", "demo-doctor-token", "demo_credential") or cred.startswith("demo-"):
+        is_doc = "doctor" in cred.lower() or (payload.role and payload.role.lower() == "doctor")
+        user_record = {
+            "id": f"demo-user-{'doctor' if is_doc else 'patient'}-01",
+            "google_id": "google-demo-12345",
+            "email": "dr.fazlul.hoque@gmail.com" if is_doc else "mahdi.hasan@gmail.com",
+            "name": "Prof. Dr. Md. Fazlul Hoque" if is_doc else "Mahdi Hasan (Demo Patient)",
+            "picture": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mahdi",
+            "email_verified": True,
+            "role": "doctor" if is_doc else "patient",
+            "bmdc_number": "BMDC-A-42190" if is_doc else None,
+            "title": "Nephrology Specialist" if is_doc else None,
+            "is_active": True,
+        }
+        token_payload = {
+            "sub": user_record["id"],
+            "email": user_record["email"],
+            "role": user_record["role"],
+            "name": user_record["name"],
+        }
+        jwt_token = create_access_token(data=token_payload)
+        return {
+            "status": "success",
+            "access_token": jwt_token,
+            "token_type": "bearer",
+            "is_new_user": False,
+            "message": "ডেমো জিমেইল অ্যাকাউন্টে সফলভাবে প্রবেশ করেছেন!",
+            "user": user_record,
+        }
+
     # 1. Verify Google token
     try:
         google_data = verify_google_id_token(payload.credential)

@@ -265,6 +265,20 @@ export const api = {
     });
   },
 
+  async demoLogin(role: "patient" | "doctor" = "patient"): Promise<{
+    data: {
+      status: string;
+      access_token: string;
+      token_type: string;
+      is_new_user: boolean;
+      message: string;
+      user: any;
+    };
+    durationMs: number;
+  }> {
+    return this.loginWithGoogle(role === "doctor" ? "demo-doctor-token" : "demo-patient-token", role);
+  },
+
   async getCurrentUser(): Promise<{ data: { status: string; user: any }; durationMs: number }> {
     return request("/api/v1/auth/me");
   },

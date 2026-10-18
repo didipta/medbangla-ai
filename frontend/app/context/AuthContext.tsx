@@ -19,6 +19,8 @@ export interface AuthUser {
 interface AuthContextType {
   currentUser: AuthUser | null;
   token: string | null;
+  isDemoUser: boolean;
+  isGoogleUser: boolean;
   isLoading: boolean;
   isAuthModalOpen: boolean;
   authModalMode: "login" | "register";
@@ -29,6 +31,9 @@ interface AuthContextType {
     role?: string,
     bmdc?: string
   ) => Promise<{ success: boolean; is_new_user?: boolean; message?: string }>;
+  loginAsDemoUser: (
+    role?: "patient" | "doctor"
+  ) => Promise<{ success: boolean; message?: string }>;
   logout: () => void;
   refreshUser: () => Promise<void>;
   updateUserRole: (role: "patient" | "doctor", bmdc?: string, title?: string) => Promise<boolean>;
@@ -71,7 +76,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
           }
         } catch (apiErr) {
-          console.warn("Backend token expired or invalid:", apiErr);
+          console.warn("Backend token check:", apiErr);
+          if (storedToken.startsWith("demo-")) {
+            // Keep demo user session active!
+            return;
+          }
           // Token invalid -> clear session
           localStorage.removeItem("medbangla_token");
           localStorage.removeItem("medbangla_user");
@@ -193,6 +202,55 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   };
 
+  const loginAsDemoUser = async (
+    role: "patient" | "doctor" = "patient"
+  ): Promise<{ success: boolean; message?: string }> => {
+    setIsLoading(true);
+    try {
+      try {
+        const { data } = await api.demoLogin(role);
+        if (data?.access_token && data?.user) {
+          setToken(data.access_token);
+          setCurrentUser(data.user);
+          localStorage.setItem("medbangla_token", data.access_token);
+          localStorage.setItem("medbangla_user", JSON.stringify(data.user));
+          if (typeof document !== "undefined") {
+            document.cookie = `medbangla_token=${data.access_token}; path=/; max-age=86400; SameSite=Lax`;
+          }
+          setIsAuthModalOpen(false);
+          return { success: true, message: data.message };
+        }
+      } catch (err) {
+        console.warn("Backend demo login fallback to local session:", err);
+      }
+
+      // Offline / Client-Side Demo Session Fallback
+      const isDoc = role === "doctor";
+      const demoUser: AuthUser = {
+        id: isDoc ? "demo-user-doctor-01" : "demo-user-patient-01",
+        name: isDoc ? "Prof. Dr. Md. Fazlul Hoque" : "Mahdi Hasan (Demo Patient)",
+        email: isDoc ? "dr.fazlul.hoque@gmail.com" : "mahdi.hasan@gmail.com",
+        role: isDoc ? "doctor" : "patient",
+        bmdc_number: isDoc ? "BMDC-A-42190" : undefined,
+        title: isDoc ? "Nephrology & Medicine Specialist" : undefined,
+        email_verified: true,
+        picture: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mahdi",
+      };
+      const demoToken = isDoc ? "demo-doctor-token" : "demo-patient-token";
+      setToken(demoToken);
+      setCurrentUser(demoUser);
+      localStorage.setItem("medbangla_token", demoToken);
+      localStorage.setItem("medbangla_user", JSON.stringify(demoUser));
+      if (typeof document !== "undefined") {
+        document.cookie = `medbangla_token=${demoToken}; path=/; max-age=86400; SameSite=Lax`;
+      }
+      setIsAuthModalOpen(false);
+      return { success: true, message: "ডেমো জিমেইল অ্যাকাউন্টে সফলভাবে প্রবেশ করেছেন!" };
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const openAuthModal = (mode: "login" | "register" = "login") => {
     setAuthModalMode(mode);
     setIsAuthModalOpen(true);
@@ -202,17 +260,27 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setIsAuthModalOpen(false);
   };
 
+  const isDemoUser = Boolean(
+    (token && token.startsWith("demo-")) ||
+    (currentUser?.id && currentUser.id.startsWith("demo-")) ||
+    (currentUser?.email && currentUser.email.toLowerCase().includes("demo"))
+  );
+  const isGoogleUser = Boolean(currentUser && !isDemoUser);
+
   return (
     <AuthContext.Provider
       value={{
         currentUser,
         token,
+        isDemoUser,
+        isGoogleUser,
         isLoading,
         isAuthModalOpen,
         authModalMode,
         openAuthModal,
         closeAuthModal,
         loginWithGoogle,
+        loginAsDemoUser,
         logout,
         refreshUser,
         updateUserRole,

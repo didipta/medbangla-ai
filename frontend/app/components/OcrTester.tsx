@@ -42,6 +42,7 @@ import {
   FileText,
 } from "lucide-react";
 import { api } from "../services/api";
+import { useAuth } from "../context/AuthContext";
 import {
   OCRAnalysisResponse,
   InteractionReport,
@@ -116,6 +117,7 @@ const COMMON_DRUG_SUGGESTIONS = [
 ];
 
 export const OcrTester: React.FC = () => {
+  const { currentUser, isGoogleUser, openAuthModal } = useAuth();
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
   const [dbLookup, setDbLookup] = useState(true);
@@ -167,6 +169,11 @@ export const OcrTester: React.FC = () => {
   }, [result]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!isGoogleUser) {
+      if (e.target) e.target.value = "";
+      openAuthModal("login");
+      return;
+    }
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
       setSelectedFile(file);
@@ -180,6 +187,10 @@ export const OcrTester: React.FC = () => {
 
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
+    if (!isGoogleUser) {
+      openAuthModal("login");
+      return;
+    }
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       const file = e.dataTransfer.files[0];
       setSelectedFile(file);
@@ -570,7 +581,13 @@ export const OcrTester: React.FC = () => {
             <div
               onDragOver={(e) => e.preventDefault()}
               onDrop={handleDrop}
-              onClick={() => fileInputRef.current?.click()}
+              onClick={() => {
+                if (!isGoogleUser) {
+                  openAuthModal("login");
+                  return;
+                }
+                fileInputRef.current?.click();
+              }}
               className="cursor-pointer rounded-xl border-2 border-dashed border-zinc-300/90 bg-zinc-50/60 p-5 text-center hover:border-emerald-500 hover:bg-emerald-50/30 dark:border-zinc-700 dark:bg-zinc-800/40 dark:hover:border-emerald-500 transition-all flex flex-col items-center justify-center min-h-[260px] group"
             >
               <input
@@ -625,6 +642,10 @@ export const OcrTester: React.FC = () => {
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
+                        if (!isGoogleUser) {
+                          openAuthModal("login");
+                          return;
+                        }
                         cameraInputRef.current?.click();
                       }}
                       className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-200/80 px-3 py-1.5 text-xs font-semibold text-zinc-800 hover:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-600 transition-colors"

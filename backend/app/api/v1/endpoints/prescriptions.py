@@ -83,11 +83,24 @@ async def analyze_prescription_endpoint(
     auto_save: bool = Query(True, description="Automatically save structured data to prescription history in database"),
     current_user: Dict[str, Any] = Depends(get_current_user),
 ):
+    # Block demo users from uploading custom images (demo only allows the 2 preset demo prescriptions)
+    if str(current_user.get("id", "")).startswith("demo-") or current_user.get("is_demo"):
+        raise HTTPException(
+            status_code=403,
+            detail="Demo accounts cannot upload custom images. Please sign in with your Google account to analyze your personal prescriptions.",
+        )
+
     # Enforce Software Safety First: Burst Protection + Daily Quota Guard
     if current_user and current_user.get("id"):
         rate_limiter.check_and_consume("prescription_ocr", request, user_id=current_user["id"])
 
-    analysis_result = await analyze_prescription(file=file, db_lookup=db_lookup, use_vision_fallback=use_vision_fallback)
+    analysis_result = await analyze_prescription(
+        file=file,
+        db_lookup=db_lookup,
+        use_vision_fallback=use_vision_fallback,
+        request=request,
+        current_user=current_user,
+    )
 
     # Record analysis execution in logs to increment count & reduce remaining quota
     if current_user and current_user.get("id"):
