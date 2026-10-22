@@ -89,8 +89,10 @@ develop-eggs/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# Python build artifacts
+/lib/
+/lib64/
+!flutter_app/lib/
 parts/
 sdist/
 var/
