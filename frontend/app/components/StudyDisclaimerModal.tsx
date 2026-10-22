@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import {
   AlertTriangle,
   GraduationCap,
@@ -21,6 +22,7 @@ import { useLanguage } from "../context/LanguageContext";
 const DISCLAIMER_STORAGE_KEY = "medbangla_study_disclaimer_seen_v1";
 
 export const StudyDisclaimerModal: React.FC = () => {
+  const pathname = usePathname();
   const { lang, t } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -58,22 +60,19 @@ export const StudyDisclaimerModal: React.FC = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen]);
 
-  if (!mounted) return null;
+  if (!mounted || pathname?.startsWith("/admin")) return null;
 
   return (
     <>
       {/* ========================================================================= */}
-      {/* 1. FIXED BOTTOM-RIGHT FLOATING ALERT ICON                                 */}
+      {/* 1. FIXED BOTTOM-LEFT FLOATING ALERT ICON (Non-blocking for footer & admin) */}
       {/* ========================================================================= */}
-      <div className="fixed bottom-6 right-6 z-40 flex items-center group">
-        {/* Floating Tooltip Pill */}
-        <div className="hidden sm:flex items-center gap-1.5 mr-2.5 px-3 py-1.5 rounded-full bg-slate-900/90 text-white text-[11px] font-semibold backdrop-blur-md shadow-lg border border-slate-700/60 opacity-0 group-hover:opacity-100 transition-all duration-200 pointer-events-none translate-x-1 group-hover:translate-x-0">
-          <GraduationCap className="w-3.5 h-3.5 text-amber-400" />
-          <span>{t("শুধুমাত্র শিক্ষামূলক প্রজেক্ট", "Study Purpose Only")}</span>
-        </div>
-
+      <aside
+        aria-label="Study Purpose Disclaimer Alert"
+        className="fixed bottom-6 left-6 z-30 flex items-center group pointer-events-none"
+      >
         {/* Pulse Ring + Trigger Button */}
-        <div className="relative">
+        <div className="relative pointer-events-auto">
           <span className="animate-ping absolute -top-1 -right-1 h-3.5 w-3.5 rounded-full bg-amber-400 opacity-75"></span>
           <button
             type="button"
@@ -85,7 +84,13 @@ export const StudyDisclaimerModal: React.FC = () => {
             <AlertTriangle className="h-6 w-6 text-white drop-shadow-sm" />
           </button>
         </div>
-      </div>
+
+        {/* Floating Tooltip Pill (expands rightwards without blocking footer) */}
+        <div className="hidden sm:flex items-center gap-1.5 ml-2.5 px-3 py-1.5 rounded-full bg-slate-900/90 text-white text-[11px] font-semibold backdrop-blur-md shadow-lg border border-slate-700/60 opacity-0 group-hover:opacity-100 transition-all duration-200 pointer-events-none translate-x-[-4px] group-hover:translate-x-0">
+          <GraduationCap className="w-3.5 h-3.5 text-amber-400" />
+          <span>{t("শুধুমাত্র শিক্ষামূলক প্রজেক্ট", "Study Purpose Only")}</span>
+        </div>
+      </aside>
 
       {/* ========================================================================= */}
       {/* 2. INFORMATIVE STUDY PURPOSE DISCLAIMER MODAL                              */}

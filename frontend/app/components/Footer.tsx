@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { PhoneCall, ShieldCheck } from "lucide-react";
+import { PhoneCall, ShieldCheck, Lock } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 export const Footer: React.FC = () => {
@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
   }
 
   return (
-    <footer className="mt-auto border-t border-slate-200 bg-white py-12 text-xs">
+    <footer className="mt-auto border-t border-slate-200 bg-white pt-12 pb-24 sm:pb-16 text-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Emergency Hotlines Strip */}
         <div className="rounded-xl bg-rose-50/70 border border-rose-200/80 p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -83,23 +83,32 @@ export const Footer: React.FC = () => {
             <div className="font-bold text-slate-900">{t("পৃষ্ঠাসমূহ", "Navigation")}</div>
             <ul className="space-y-1.5 text-slate-500">
               <li>
-                <Link href="/" className="hover:text-[#0F766E]">
+                <Link href="/" className="hover:text-[#0F766E] transition-colors">
                   {t("হোম পেজ", "Home")}
                 </Link>
               </li>
               <li>
-                <Link href="/checker" className="hover:text-[#0F766E]">
+                <Link href="/checker" className="hover:text-[#0F766E] transition-colors">
                   {t("প্রেসক্রিপশন চেকার", "Prescription Checker")}
                 </Link>
               </li>
               <li>
-                <Link href="/medicines" className="hover:text-[#0F766E]">
+                <Link href="/medicines" className="hover:text-[#0F766E] transition-colors">
                   {t("ওষুধের তালিকা (১৭,৫৮৯ ব্র্যান্ড)", "Medicines Directory (17,589 Brands)")}
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-[#0F766E]">
+                <Link href="/about" className="hover:text-[#0F766E] transition-colors">
                   {t("নির্দেশিকা ও নিরাপত্তা", "Guidelines & Safety")}
+                </Link>
+              </li>
+              <li className="pt-1">
+                <Link
+                  href="/admin/login"
+                  className="inline-flex items-center gap-1.5 font-semibold text-[#0F766E] hover:text-teal-900 transition-colors"
+                >
+                  <Lock className="w-3.5 h-3.5 text-[#0F766E]" />
+                  <span>{t("ক্লিনিক্যাল অ্যাডমিন পোর্টাল", "Clinical Admin Portal")}</span>
                 </Link>
               </li>
             </ul>
@@ -122,7 +131,7 @@ export const Footer: React.FC = () => {
               <span className="font-mono text-[#0F766E]">support@medbangla.ai</span>
             </p>
             <div className="text-[11px] text-slate-400 pt-1">
-              {t("সংস্করণ: MedBangla AI v2.0 (FastAPI + Next.js 15)", "Version: MedBangla AI v2.0 (FastAPI + Next.js 15)")}
+              {t("সংস্করণ: MedBangla AI v2.0 (FastAPI + Next.js 16)", "Version: MedBangla AI v2.0 (FastAPI + Next.js 16)")}
             </div>
           </div>
         </div>
@@ -149,8 +158,11 @@ export const Footer: React.FC = () => {
             </div>
             <Link
               href="/admin/login"
-              className="hover:text-teal-700 transition-colors inline-flex items-center gap-1 font-semibold text-slate-400 hover:text-slate-600 ml-1"
+              id="footer-admin-portal-link"
+              className="relative z-20 inline-flex items-center gap-1.5 rounded-lg border border-teal-200 bg-teal-50/90 hover:bg-teal-100 hover:border-teal-300 text-teal-900 px-3 py-1 font-bold shadow-2xs hover:shadow-xs transition-all cursor-pointer ml-1 active:scale-95"
+              title={t("ক্লিনিক্যাল অ্যাডমিনিস্ট্রেটর লগইন পোর্টাল", "Clinical Administrator Login Portal")}
             >
+              <Lock className="w-3 h-3 text-[#0F766E]" />
               <span>{t("অ্যাডমিন পোর্টাল", "Admin Portal")}</span>
             </Link>
           </div>
