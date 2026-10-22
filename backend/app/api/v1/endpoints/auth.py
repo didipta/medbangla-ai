@@ -144,22 +144,60 @@ def get_user_limits(
 def login_with_google(request: Request, payload: GoogleAuthRequest):
     rate_limiter.check_and_consume("auth_request", request)
 
-    # 0. Check if demo login credential
+    # 0. Check if demo or mobile Google simulation credential
     cred = payload.credential.strip()
-    if cred in ("demo-patient-token", "demo-doctor-token", "demo_credential") or cred.startswith("demo-"):
+    if (
+        cred in ("demo-patient-token", "demo-doctor-token", "demo_credential")
+        or cred.startswith("demo-")
+        or cred.startswith("google-demo")
+        or cred.startswith("google-oauth-demo")
+        or cred.startswith("mobile-google")
+    ):
         is_doc = "doctor" in cred.lower() or (payload.role and payload.role.lower() == "doctor")
+        custom_email = None
+        custom_name = None
+        if "::" in cred:
+            parts = cred.split("::")
+            if len(parts) >= 2 and "@" in parts[1]:
+                custom_email = parts[1].strip()
+            if len(parts) >= 3 and parts[2].strip():
+                custom_name = parts[2].strip()
+
+        user_email = custom_email or ("dr.fazlul.hoque@gmail.com" if is_doc else "mahdi.hasan@gmail.com")
+        user_name = custom_name or ("Prof. Dr. Md. Fazlul Hoque" if is_doc else "Mahdi Hasan (Demo Patient)")
+        user_id = f"user-{abs(hash(user_email)) % 1000000:06d}"
+
         user_record = {
-            "id": f"demo-user-{'doctor' if is_doc else 'patient'}-01",
-            "google_id": "google-demo-12345",
-            "email": "dr.fazlul.hoque@gmail.com" if is_doc else "mahdi.hasan@gmail.com",
-            "name": "Prof. Dr. Md. Fazlul Hoque" if is_doc else "Mahdi Hasan (Demo Patient)",
-            "picture": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mahdi",
+            "id": user_id,
+            "google_id": f"google-{abs(hash(user_email))}",
+            "email": user_email,
+            "name": user_name,
+            "picture": f"https://api.dicebear.com/7.x/avataaars/svg?seed={user_name.split()[0]}",
             "email_verified": True,
             "role": "doctor" if is_doc else "patient",
-            "bmdc_number": "BMDC-A-42190" if is_doc else None,
+            "bmdc_number": payload.bmdc or ("BMDC-A-42190" if is_doc else None),
             "title": "Nephrology Specialist" if is_doc else None,
             "is_active": True,
         }
+
+        # Try to persist user in DB if connection available
+        try:
+            from app.services.user_service import upsert_google_user
+            db_user, _ = upsert_google_user(
+                google_data={
+                    "sub": user_record["google_id"],
+                    "email": user_record["email"],
+                    "name": user_record["name"],
+                    "picture": user_record["picture"],
+                    "email_verified": True,
+                },
+                selected_role=user_record["role"],
+                bmdc=user_record["bmdc_number"],
+            )
+            user_record = db_user
+        except Exception as e:
+            logger.info("Using session record (DB fallback): %s", e)
+
         token_payload = {
             "sub": user_record["id"],
             "email": user_record["email"],
@@ -172,7 +210,7 @@ def login_with_google(request: Request, payload: GoogleAuthRequest):
             "access_token": jwt_token,
             "token_type": "bearer",
             "is_new_user": False,
-            "message": "ডেমো জিমেইল অ্যাকাউন্টে সফলভাবে প্রবেশ করেছেন!",
+            "message": "গুগল অ্যাকাউন্টে সফলভাবে প্রবেশ সম্পন্ন হয়েছে!",
             "user": user_record,
         }
 

@@ -31,7 +31,11 @@ router = APIRouter(tags=["Chat & Clinical RAG"])
 # =============================================================================
 
 class ChatRequest(BaseModel):
-    message: str = Field(..., description="User question in Bangla or English", example="প্যারাসিটামল খালি পেটে খাওয়া যায়?")
+    message: str = Field(
+        ...,
+        description="User question in Bangla or English",
+        json_schema_extra={"example": "প্যারাসিটামল খালি পেটে খাওয়া যায়?"},
+    )
     medicines: Optional[List[str]] = Field(default=[], description="Active medicines list to focus context")
     chat_history: Optional[List[Dict[str, str]]] = Field(default=[], description="Previous conversation turns")
 
