@@ -24,7 +24,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from fastapi.testclient import TestClient
 from app.main import app
 
-client = TestClient(app)
+client = TestClient(app, headers={"Authorization": "Bearer demo-patient-token"})
 LOGS_DIR = BACKEND_DIR / "logs"
 
 

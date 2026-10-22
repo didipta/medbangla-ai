@@ -1,0 +1,158 @@
+name: MedBangla AI - Continuous Deployment (CD)
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      target_env:
+        description: 'Target Deployment Environment'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - staging
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: cd-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # =========================================================================
+  # 1. Build & Push Production Docker Images to GitHub Container Registry (GHCR)
+  # =========================================================================
+  build-and-push-ghcr:
+    name: Build & Publish Container Images
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Docker Metadata for Backend
+        id: meta-backend
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository }}/backend
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,format=short,prefix=sha-
+            type=semver,pattern={{version}}
+
+      - name: Build & Push Backend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          file: ./backend/Dockerfile
+          push: true
+          tags: ${{ steps.meta-backend.outputs.tags }}
+          labels: ${{ steps.meta-backend.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Extract Docker Metadata for Frontend
+        id: meta-frontend
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository }}/frontend
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,format=short,prefix=sha-
+            type=semver,pattern={{version}}
+
+      - name: Build & Push Frontend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./frontend
+          file: ./frontend/Dockerfile
+          push: true
+          tags: ${{ steps.meta-frontend.outputs.tags }}
+          labels: ${{ steps.meta-frontend.outputs.labels }}
+          build-args: |
+            NEXT_PUBLIC_API_URL=${{ secrets.PROD_API_URL || 'https://api.medbangla.ai' }}
+            NEXT_PUBLIC_GOOGLE_CLIENT_ID=${{ secrets.NEXT_PUBLIC_GOOGLE_CLIENT_ID || '340889956556-3286me1r8lfmiojisv7g2tre4n8h7bgg.apps.googleusercontent.com' }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Generate Deployment Step Summary
+        run: |
+          echo "### 🚀 MedBangla AI Container Images Published" >> $GITHUB_STEP_SUMMARY
+          echo "| Component | Registry Image URL | Tag |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Backend** | \`ghcr.io/${{ github.repository }}/backend\` | \`latest\`, \`sha-${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Frontend** | \`ghcr.io/${{ github.repository }}/frontend\` | \`latest\`, \`sha-${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Images are ready for pull and deployment via Docker Compose or Kubernetes." >> $GITHUB_STEP_SUMMARY
+
+  # =========================================================================
+  # 2. Deploy Stage: Trigger Webhook or Remote VPS Deployment
+  # =========================================================================
+  deploy:
+    name: Deploy to Hosting Environment
+    needs: [build-and-push-ghcr]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      # -----------------------------------------------------------------------
+      # Trigger Webhook (Render / Railway / Coolify / Portainer) if configured
+      # -----------------------------------------------------------------------
+      - name: Trigger Webhook Deploy (Render / Railway / PaaS)
+        if: ${{ env.RENDER_BACKEND_HOOK != '' || env.RENDER_FRONTEND_HOOK != '' }}
+        env:
+          RENDER_BACKEND_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_BACKEND }}
+          RENDER_FRONTEND_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_FRONTEND }}
+        run: |
+          echo "Triggering automated webhook deployment..."
+          if [ -n "$RENDER_BACKEND_HOOK" ]; then
+            curl -s -X POST "$RENDER_BACKEND_HOOK" && echo "Backend deploy hook triggered successfully."
+          fi
+          if [ -n "$RENDER_FRONTEND_HOOK" ]; then
+            curl -s -X POST "$RENDER_FRONTEND_HOOK" && echo "Frontend deploy hook triggered successfully."
+          fi
+
+      # -----------------------------------------------------------------------
+      # Remote VPS Deployment via SSH (if DEPLOY_HOST secret is configured)
+      # -----------------------------------------------------------------------
+      - name: Deploy to Remote Server via SSH
+        if: ${{ env.DEPLOY_HOST != '' }}
+        uses: appleboy/ssh-action@v1.0.3
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER || 'root' }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            echo "Navigating to app directory and pulling latest images..."
+            cd /opt/medbangla-ai || cd ~/medbangla-ai
+            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+            docker compose pull
+            docker compose up -d --remove-orphans
+            docker image prune -f
+            echo "MedBangla AI deployment complete!"
+
+      - name: Confirm Deployment Status
+        run: |
+          echo "Deployment step completed successfully for commit ${{ github.sha }}."
