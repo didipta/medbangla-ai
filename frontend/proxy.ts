@@ -4,7 +4,7 @@ import type { NextRequest } from "next/server";
 // Routes that strictly require user to be authenticated
 const PROTECTED_ROUTES = ["/checker", "/medicines"];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const isProtected = PROTECTED_ROUTES.some((route) => pathname.startsWith(route));
@@ -23,6 +23,9 @@ export function middleware(request: NextRequest) {
 
   return NextResponse.next();
 }
+
+export const middleware = proxy;
+export default proxy;
 
 export const config = {
   matcher: ["/checker/:path*", "/medicines/:path*"],
