@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: medbangla-backend
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: singapore # Options: singapore, frankfurt, oregon, ohio
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: false
+      - key: ALLOWED_ORIGINS
+        sync: false # Set in Render Dashboard: e.g. https://your-vercel-app.vercel.app
+      - key: DATABASE_URL
+        sync: false # PostgreSQL Connection String (e.g. Neon.tech or Supabase)
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false

@@ -59,6 +59,7 @@ def root():
     }
 
 
+@app.get("/health")
 @app.get("/api/v1/health")
 def health_check():
     from app.ai.rag.indexer import ClinicalRAGIndexer
