@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../../../core/constants/app_colors.dart';
+import '../../../../widgets/formatted_chat_text.dart';
 import '../../domain/entities/chat_message_entity.dart';
 
 class ChatBubbleWidget extends StatelessWidget {
@@ -72,9 +73,10 @@ class ChatBubbleWidget extends StatelessWidget {
               ),
               const SizedBox(height: 6),
             ],
-            Text(
-              message.text,
-              style: TextStyle(
+            FormattedChatText(
+              text: message.text,
+              isUser: isUser,
+              baseStyle: TextStyle(
                 fontSize: 13.5,
                 color: isUser ? Colors.white : AppColors.textPrimary,
                 height: 1.45,

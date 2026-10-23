@@ -4,6 +4,7 @@ import '../../../../core/constants/app_colors.dart';
 import '../../../../core/localization/language_provider.dart';
 import '../../../../services/app_control_service.dart';
 import '../../../../widgets/app_update_dialog.dart';
+import '../../../../widgets/user_avatar.dart';
 import '../../domain/entities/user_entity.dart';
 import '../bloc/auth_bloc.dart';
 import '../bloc/auth_event.dart';
@@ -30,6 +31,33 @@ class ProfilePage extends StatelessWidget {
       ),
       body: BlocBuilder<AuthBloc, AuthState>(
         builder: (context, state) {
+          if (state is AuthLoadingState) {
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const SizedBox(
+                    width: 36,
+                    height: 36,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 3,
+                      color: AppColors.primary,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    lang.t('প্রোফাইল লোড হচ্ছে...', 'Loading profile...'),
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.textSecondary,
+                    ),
+                  ),
+                ],
+              ),
+            );
+          }
+
           final user = state is AuthenticatedState
               ? state.user
               : UserEntity.guest;
@@ -55,20 +83,12 @@ class ProfilePage extends StatelessWidget {
                 ),
                 child: Row(
                   children: [
-                    CircleAvatar(
-                      radius: 28,
-                      backgroundColor: user.isDoctor
-                          ? const Color(0xFFEFF6FF)
-                          : AppColors.primaryLight,
-                      child: Icon(
-                        user.isDoctor
-                            ? Icons.medical_services_rounded
-                            : Icons.person_rounded,
-                        color: user.isDoctor
-                            ? const Color(0xFF2563EB)
-                            : AppColors.primary,
-                        size: 32,
-                      ),
+                    UserAvatar(
+                      imageUrl: user.picture,
+                      name: user.name,
+                      isDoctor: user.isDoctor,
+                      radius: 30,
+                      showBadge: true,
                     ),
                     const SizedBox(width: 14),
                     Expanded(

@@ -227,7 +227,7 @@ class _SplashPageState extends State<SplashPage>
                                 return Image.asset(
                                   'assets/images/medbangla_icon.jpg',
                                   fit: BoxFit.cover,
-                                  errorBuilder: (_, __, ___) => const Icon(
+                                  errorBuilder: (ctx, err, stack) => const Icon(
                                     Icons.local_hospital_rounded,
                                     size: 54,
                                     color: AppColors.primary,

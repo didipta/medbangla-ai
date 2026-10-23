@@ -3,6 +3,7 @@ class UserModel {
   final String name;
   final String email;
   final String role; // 'patient', 'doctor', 'admin', 'guest'
+  final String? picture;
   final String? bmdcNumber;
   final String? title;
   final String token;
@@ -12,6 +13,7 @@ class UserModel {
     required this.name,
     required this.email,
     required this.role,
+    this.picture,
     this.bmdcNumber,
     this.title,
     required this.token,
@@ -27,6 +29,7 @@ class UserModel {
       name: 'অতিথি ব্যবহারকারী (Guest)',
       email: 'guest@medbangla.ai',
       role: 'guest',
+      picture: 'https://api.dicebear.com/7.x/avataaars/png?seed=Guest',
       token: 'demo-patient-token',
     );
   }
@@ -37,6 +40,7 @@ class UserModel {
       name: 'মাহদী হাসান (Demo Patient)',
       email: 'mahdi.hasan@gmail.com',
       role: 'patient',
+      picture: 'https://api.dicebear.com/7.x/avataaars/png?seed=Mahdi',
       token: 'demo-patient-token',
     );
   }
@@ -47,6 +51,7 @@ class UserModel {
       name: 'Prof. Dr. Md. Fazlul Hoque',
       email: 'dr.fazlul.hoque@gmail.com',
       role: 'doctor',
+      picture: 'https://api.dicebear.com/7.x/avataaars/png?seed=Fazlul',
       bmdcNumber: 'BMDC-A-42190',
       title: 'Nephrology & Medicine Specialist',
       token: 'demo-doctor-token',

@@ -4,6 +4,7 @@ import '../core/constants/app_colors.dart';
 import '../core/localization/language_provider.dart';
 import '../providers/chat_provider.dart';
 import '../services/auth_service.dart';
+import '../widgets/formatted_chat_text.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});
@@ -242,9 +243,10 @@ class _ChatScreenState extends State<ChatScreen> {
               ? CrossAxisAlignment.end
               : CrossAxisAlignment.start,
           children: [
-            Text(
-              msg.text,
-              style: TextStyle(
+            FormattedChatText(
+              text: msg.text,
+              isUser: msg.isUser,
+              baseStyle: TextStyle(
                 fontSize: 13.5,
                 color: msg.isUser ? Colors.white : AppColors.textPrimary,
                 height: 1.4,

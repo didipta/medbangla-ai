@@ -156,23 +156,27 @@ def login_with_google(request: Request, payload: GoogleAuthRequest):
         is_doc = "doctor" in cred.lower() or (payload.role and payload.role.lower() == "doctor")
         custom_email = None
         custom_name = None
+        custom_picture = None
         if "::" in cred:
             parts = cred.split("::")
             if len(parts) >= 2 and "@" in parts[1]:
                 custom_email = parts[1].strip()
             if len(parts) >= 3 and parts[2].strip():
                 custom_name = parts[2].strip()
+            if len(parts) >= 4 and parts[3].strip():
+                custom_picture = parts[3].strip()
 
         user_email = custom_email or ("dr.fazlul.hoque@gmail.com" if is_doc else "mahdi.hasan@gmail.com")
         user_name = custom_name or ("Prof. Dr. Md. Fazlul Hoque" if is_doc else "Mahdi Hasan (Demo Patient)")
         user_id = f"user-{abs(hash(user_email)) % 1000000:06d}"
 
+        user_picture = custom_picture or f"https://api.dicebear.com/7.x/avataaars/png?seed={user_name.split()[0]}"
         user_record = {
             "id": user_id,
             "google_id": f"google-{abs(hash(user_email))}",
             "email": user_email,
             "name": user_name,
-            "picture": f"https://api.dicebear.com/7.x/avataaars/svg?seed={user_name.split()[0]}",
+            "picture": user_picture,
             "email_verified": True,
             "role": "doctor" if is_doc else "patient",
             "bmdc_number": payload.bmdc or ("BMDC-A-42190" if is_doc else None),

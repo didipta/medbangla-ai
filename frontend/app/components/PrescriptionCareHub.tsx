@@ -52,6 +52,7 @@ import {
   Lock,
   LogIn,
 } from "lucide-react";
+import { FormattedChatMessage } from "./FormattedChatMessage";
 import { api } from "../services/api";
 import { useLanguage } from "../context/LanguageContext";
 import { useAuth } from "../context/AuthContext";
@@ -2261,7 +2262,10 @@ export const PrescriptionCareHub: React.FC = () => {
                               : "bg-[#FFFFFF] text-[#172B2A] border border-[#E2EAE7]"
                             }`}
                         >
-                          <div>{msg.text}</div>
+                          <FormattedChatMessage
+                            text={msg.text}
+                            isUser={msg.role === "user"}
+                          />
                           <div
                             className={`text-[10px] text-right ${msg.role === "user" ? "text-teal-200" : "text-[#647575]"
                               }`}

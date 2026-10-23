@@ -21,6 +21,7 @@ import '../../../auth/presentation/bloc/auth_state.dart';
 import '../../../auth/presentation/widgets/auth_modal_sheet.dart';
 import '../../../clinical_chat/domain/entities/chat_message_entity.dart';
 import '../../../drug_interactions/domain/entities/interaction_entity.dart';
+import '../../../../widgets/formatted_chat_text.dart';
 
 class ScannerPage extends StatefulWidget {
   final Function(List<String>)? onCheckMedsSafety;
@@ -3896,9 +3897,10 @@ class _ScannerPageState extends State<ScannerPage>
         child: Column(
           crossAxisAlignment: msg.isUser ? CrossAxisAlignment.end : CrossAxisAlignment.start,
           children: [
-            Text(
-              msg.text,
-              style: TextStyle(
+            FormattedChatText(
+              text: msg.text,
+              isUser: msg.isUser,
+              baseStyle: TextStyle(
                 fontSize: 12.5,
                 color: msg.isUser ? Colors.white : AppColors.textPrimary,
                 height: 1.4,

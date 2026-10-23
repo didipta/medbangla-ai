@@ -1,29 +1,26 @@
-import 'dart:io';
-import 'package:flutter/foundation.dart';
-
 class ApiConfig {
+  /// Official Production Render Cloud Backend
+  static const String productionBaseUrl = 'https://medbangla-ai.onrender.com';
+
+  /// Local development fallbacks
+  static const String emulatorBaseUrl = 'http://10.0.2.2:8000';
+  static const String lanFallbackBaseUrl = 'http://192.168.0.105:8000';
+  static const String localBaseUrl = 'http://localhost:8000';
+
   static String? _customBaseUrl;
 
   static void setBaseUrl(String url) {
     _customBaseUrl = url.trim().replaceAll(RegExp(r'/+$'), '');
   }
 
-  /// Base API URL for FastAPI Backend
-  /// Supports Android Emulator (10.0.2.2), physical Android devices on local network, and custom URLs
+  /// Base API URL for FastAPI Backend.
+  /// Defaults to production Render cloud backend: https://medbangla-ai.onrender.com
   static String get baseUrl {
     if (_customBaseUrl != null && _customBaseUrl!.isNotEmpty) {
       return _customBaseUrl!;
     }
-    if (kIsWeb) {
-      return 'http://localhost:8000';
-    }
-    if (Platform.isAndroid) {
-      return 'http://10.0.2.2:8000';
-    }
-    return 'http://localhost:8000';
+    return productionBaseUrl;
   }
-
-  static const String lanFallbackBaseUrl = 'http://192.168.0.105:8000';
 
   static String get medicinesUrl => '$baseUrl/api/v1/medicines';
   static String get ocrAnalyzeUrl =>

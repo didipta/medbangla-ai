@@ -54,6 +54,9 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
       id: isDoc ? 'demo-doc-01' : 'demo-pat-01',
       email: isDoc ? 'dr.fazlul.hoque@gmail.com' : 'mahdi.hasan@gmail.com',
       name: isDoc ? 'Prof. Dr. Md. Fazlul Hoque' : 'Mahdi Hasan (Demo Patient)',
+      picture: isDoc
+          ? 'https://api.dicebear.com/7.x/avataaars/png?seed=Fazlul'
+          : 'https://api.dicebear.com/7.x/avataaars/png?seed=Mahdi',
       role: isDoc ? 'doctor' : 'patient',
       bmdcNumber: isDoc ? 'BMDC-A-42190' : null,
       title: isDoc ? 'Nephrology Specialist' : null,
@@ -89,15 +92,19 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
       final isDoc = role.toLowerCase() == 'doctor';
       String email = isDoc ? 'dr.fazlul.hoque@gmail.com' : 'mahdi.hasan@gmail.com';
       String name = isDoc ? 'Prof. Dr. Md. Fazlul Hoque' : 'Mahdi Hasan (Google Account)';
+      String? customPicture;
       if (credential.contains('::')) {
         final parts = credential.split('::');
         if (parts.length >= 2 && parts[1].contains('@')) email = parts[1].trim();
         if (parts.length >= 3 && parts[2].trim().isNotEmpty) name = parts[2].trim();
+        if (parts.length >= 4 && parts[3].trim().isNotEmpty) customPicture = parts[3].trim();
       }
+      final seed = name.isNotEmpty ? name.split(' ')[0] : email.split('@')[0];
       return UserDto(
         id: 'google-user-${email.hashCode.abs()}',
         email: email,
         name: name,
+        picture: customPicture ?? 'https://api.dicebear.com/7.x/avataaars/png?seed=$seed',
         role: isDoc ? 'doctor' : 'patient',
         bmdcNumber: isDoc ? (bmdc ?? 'BMDC-A-42190') : null,
         title: isDoc ? 'Nephrology Specialist' : null,

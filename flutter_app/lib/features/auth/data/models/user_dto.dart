@@ -24,11 +24,24 @@ class UserDto {
   });
 
   factory UserDto.fromJson(Map<String, dynamic> json, {String? token}) {
+    final email = json['email']?.toString() ?? '';
+    final name = json['name']?.toString() ?? 'MedBangla User';
+    String? picture = json['picture']?.toString() ??
+        json['photoUrl']?.toString() ??
+        json['avatar']?.toString();
+    if (picture == null || picture.trim().isEmpty) {
+      final seed = name.isNotEmpty
+          ? name.split(' ')[0]
+          : (email.isNotEmpty ? email.split('@')[0] : 'User');
+      picture = 'https://api.dicebear.com/7.x/avataaars/png?seed=$seed';
+    } else {
+      picture = picture.replaceAll('/svg?', '/png?').replaceAll('.svg', '.png');
+    }
     return UserDto(
       id: json['id']?.toString() ?? 'unknown-id',
-      email: json['email']?.toString() ?? '',
-      name: json['name']?.toString() ?? 'MedBangla User',
-      picture: json['picture']?.toString(),
+      email: email,
+      name: name,
+      picture: picture,
       role: json['role']?.toString() ?? 'patient',
       bmdcNumber: json['bmdc_number']?.toString(),
       title: json['title']?.toString(),

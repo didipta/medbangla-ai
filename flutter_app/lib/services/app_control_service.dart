@@ -166,7 +166,7 @@ class AppControlService {
       final uri = Uri.parse(ApiConfig.appControlUrl).replace(
         queryParameters: queryParams,
       );
-      final response = await http.get(uri).timeout(const Duration(seconds: 4));
+      final response = await http.get(uri).timeout(const Duration(seconds: 10));
 
       if (response.statusCode == 200) {
         final Map<String, dynamic> data =

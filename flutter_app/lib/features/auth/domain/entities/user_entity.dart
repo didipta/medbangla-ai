@@ -39,8 +39,10 @@ class UserEntity extends Equatable {
     id,
     email,
     name,
+    picture,
     role,
     bmdcNumber,
+    title,
     isGuest,
     token,
   ];

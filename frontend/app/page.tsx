@@ -53,6 +53,7 @@ import {
 import { useLanguage } from "./context/LanguageContext";
 import { useAuth } from "./context/AuthContext";
 import { HeroAnimatedSlider } from "./components/HeroAnimatedSlider";
+import { FormattedChatMessage } from "./components/FormattedChatMessage";
 
 // Sample verified medications for the 4-tab interactive workstation (Fake/Clean clinical data)
 const SAMPLE_WORKSTATION_MEDS = [
@@ -1117,7 +1118,10 @@ export default function HomePage() {
                                 : "bg-white border border-slate-200 text-slate-800 rounded-tl-xs shadow-2xs"
                             }`}
                           >
-                            <p className="whitespace-pre-line">{msg.text}</p>
+                            <FormattedChatMessage
+                              text={msg.text}
+                              isUser={msg.sender === "user"}
+                            />
                             <span
                               className={`block text-[9px] mt-1 ${
                                 msg.sender === "user" ? "text-teal-200 text-right" : "text-slate-400"

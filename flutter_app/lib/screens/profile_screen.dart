@@ -6,6 +6,7 @@ import '../services/app_control_service.dart';
 import '../services/auth_service.dart';
 import '../widgets/app_update_dialog.dart';
 import '../widgets/study_disclaimer_sheet.dart';
+import '../widgets/user_avatar.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -33,16 +34,12 @@ class ProfileScreen extends StatelessWidget {
             ),
             child: Row(
               children: [
-                CircleAvatar(
+                UserAvatar(
+                  imageUrl: user.picture,
+                  name: user.name,
+                  isDoctor: user.isDoctor,
                   radius: 28,
-                  backgroundColor: AppColors.primaryLight,
-                  child: Icon(
-                    user.isDoctor
-                        ? Icons.medical_services_rounded
-                        : Icons.person_rounded,
-                    size: 30,
-                    color: AppColors.primary,
-                  ),
+                  showBadge: true,
                 ),
                 const SizedBox(width: 14),
                 Expanded(

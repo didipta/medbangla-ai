@@ -4,6 +4,7 @@ import '../../../../core/constants/app_colors.dart';
 import '../../../../core/localization/language_provider.dart';
 import '../../../../widgets/emergency_hotline_bar.dart';
 import '../../../../widgets/study_disclaimer_sheet.dart';
+import '../../../../widgets/user_avatar.dart';
 import '../../../auth/domain/entities/user_entity.dart';
 import '../../../auth/presentation/bloc/auth_bloc.dart';
 import '../../../auth/presentation/bloc/auth_event.dart';
@@ -83,6 +84,44 @@ class DashboardPage extends StatelessWidget {
           // User Auth Status Pill Button
           BlocBuilder<AuthBloc, AuthState>(
             builder: (context, authState) {
+              if (authState is AuthLoadingState) {
+                return Padding(
+                  padding: const EdgeInsets.only(right: 6),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 5,
+                    ),
+                    decoration: BoxDecoration(
+                      color: AppColors.primaryLight,
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: AppColors.primarySurface),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const SizedBox(
+                          width: 12,
+                          height: 12,
+                          child: CircularProgressIndicator(
+                            strokeWidth: 2,
+                            color: AppColors.primary,
+                          ),
+                        ),
+                        const SizedBox(width: 6),
+                        Text(
+                          lang.t('লগইন হচ্ছে...', 'Signing in...'),
+                          style: const TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.bold,
+                            color: AppColors.primary,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              }
               final isAuth =
                   authState is AuthenticatedState && !authState.user.isGuest;
               if (!isAuth) {
@@ -133,18 +172,11 @@ class DashboardPage extends StatelessWidget {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        CircleAvatar(
+                        UserAvatar(
+                          imageUrl: user.picture,
+                          name: user.name,
+                          isDoctor: user.isDoctor,
                           radius: 10,
-                          backgroundColor: user.isDoctor
-                              ? const Color(0xFF2563EB)
-                              : AppColors.primary,
-                          child: Icon(
-                            user.isDoctor
-                                ? Icons.medical_services_rounded
-                                : Icons.person_rounded,
-                            size: 11,
-                            color: Colors.white,
-                          ),
                         ),
                         const SizedBox(width: 4),
                         Text(
@@ -472,18 +504,12 @@ class DashboardPage extends StatelessWidget {
                 ),
                 child: Row(
                   children: [
-                    CircleAvatar(
-                      radius: 16,
-                      backgroundColor: user.isDoctor
-                          ? const Color(0xFF2563EB)
-                          : AppColors.primary,
-                      child: Icon(
-                        user.isDoctor
-                            ? Icons.medical_services_rounded
-                            : Icons.person_rounded,
-                        color: Colors.white,
-                        size: 16,
-                      ),
+                    UserAvatar(
+                      imageUrl: user.picture,
+                      name: user.name,
+                      isDoctor: user.isDoctor,
+                      radius: 18,
+                      showBadge: true,
                     ),
                     const SizedBox(width: 10),
                     Expanded(

@@ -5,15 +5,15 @@
   "maintenance_message": "আমাদের ক্লিনিক্যাল ড্রাগ ডাটাবেজ এবং এআই সার্ভারের নিয়মিত উন্নয়ন কাজ চলছে। কিছুক্ষণের মধ্যে সেবা পুনরায় চালু হবে। সাময়িক অসুবিধার জন্য আন্তরিকভাবে দুঃখিত।",
   "maintenance_eta": "৩০ মিনিট",
   "emergency_contact": "support@medbangla.ai",
-  "latest_version": "1.0.1",
-  "latest_version_code": 1,
+  "latest_version": "1.0.2",
+  "latest_version_code": 2,
   "min_supported_version": "1.0.0",
-  "min_supported_version_code": 1,
+  "min_supported_version_code": 2,
   "is_force_update": true,
   "update_title": "মেডবাংলা এআই এর নতুন সংস্করণ উপলব্ধ",
   "update_notes": "• প্রেসক্রিপশন ওসিআর স্ক্যানার অপ্টিমাইজেশন\n• ডিজিডিএ ১৭,৫৮৯+ ঔষধের সর্বশেষ মূল্য ও ডাটাবেজ যুক্ত\n• ড্রাগ-ড্রাগ ইন্টারেকশন ও ড্রাগ অ্যালার্জি সেফটি এলার্ট আপডেট\n• বাগ ফিক্স এবং দ্রুততর পারফরম্যান্স",
   "apk_google_drive_url": "https://drive.google.com/file/d/1psf4w3CSwTM8RRKBZ-gXISFbU9MF3vfi/view?usp=sharing",
   "apk_direct_download_url": "https://drive.google.com/uc?export=download&id=1psf4w3CSwTM8RRKBZ-gXISFbU9MF3vfi",
-  "apk_file_size": "55.5 MB",
-  "updated_at": "2026-10-23T16:13:20.847354+00:00"
+  "apk_file_size": "55.6 MB",
+  "updated_at": "2026-10-23T17:16:03.658789+00:00"
 }

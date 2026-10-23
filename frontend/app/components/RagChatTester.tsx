@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { api } from "../services/api";
 import { ChatResponse, PrescriptionExplainResponse } from "../types/api";
+import { FormattedChatMessage } from "./FormattedChatMessage";
 
 const SAMPLE_QUESTIONS = [
   "প্যারাসিটামল কীভাবে কাজ করে ও খাওয়ার নিয়ম কী?",
@@ -217,7 +218,10 @@ export const RagChatTester: React.FC = () => {
                       : "bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-100 rounded-tl-none border border-zinc-200/60 dark:border-zinc-700/60"
                   }`}
                 >
-                  <div className="whitespace-pre-line">{msg.text}</div>
+                  <FormattedChatMessage
+                    text={msg.text}
+                    isUser={msg.role === "user"}
+                  />
 
                   {/* Assistant Metadata & Sources */}
                   {msg.role === "assistant" && (msg.metadata || msg.sources) && (
