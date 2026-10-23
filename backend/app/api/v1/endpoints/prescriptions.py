@@ -106,15 +106,26 @@ async def analyze_prescription_endpoint(
     # Record analysis execution in logs to increment count & reduce remaining quota
     if current_user and current_user.get("id"):
         record_prescription_analysis(user_id=current_user["id"])
-        analysis_result.daily_quota = get_daily_analysis_usage(user_id=current_user["id"])
+        usage_data = get_daily_analysis_usage(user_id=current_user["id"])
+        if isinstance(analysis_result, dict):
+            analysis_result["daily_quota"] = usage_data
+        else:
+            analysis_result.daily_quota = usage_data
 
     # Automatically save structured data to Neon database if requested
     if auto_save and current_user and current_user.get("id"):
         try:
-            result_dict = analysis_result.model_dump()
+            result_dict = (
+                analysis_result
+                if isinstance(analysis_result, dict)
+                else analysis_result.model_dump()
+            )
             saved_record = save_prescription_history(user_id=current_user["id"], data=result_dict)
             if saved_record and "id" in saved_record:
-                analysis_result.history_id = saved_record["id"]
+                if isinstance(analysis_result, dict):
+                    analysis_result["history_id"] = saved_record["id"]
+                else:
+                    analysis_result.history_id = saved_record["id"]
         except Exception as e:
             logger.warning("Could not auto-save prescription history for user %s: %s", current_user.get("id"), e)
 
