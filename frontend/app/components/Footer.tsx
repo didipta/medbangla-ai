@@ -1,18 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { PhoneCall, ShieldCheck, Lock } from "lucide-react";
+import { PhoneCall, ShieldCheck, Lock, Smartphone, Download } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
+import { ApkDownloadModal } from "./ApkDownloadModal";
 
 export const Footer: React.FC = () => {
   const pathname = usePathname();
   const { t } = useLanguage();
-  const [currentYear, setCurrentYear] = React.useState<number>(2026);
+  const [currentYear, setCurrentYear] = useState<number>(2026);
+  const [isApkModalOpen, setIsApkModalOpen] = useState<boolean>(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setCurrentYear(new Date().getFullYear());
   }, []);
 
@@ -102,6 +104,16 @@ export const Footer: React.FC = () => {
                   {t("নির্দেশিকা ও নিরাপত্তা", "Guidelines & Safety")}
                 </Link>
               </li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => setIsApkModalOpen(true)}
+                  className="hover:text-[#0F766E] transition-colors inline-flex items-center gap-1.5 cursor-pointer text-slate-500 font-semibold"
+                >
+                  <Smartphone className="w-3.5 h-3.5 text-[#0F766E]" />
+                  <span>{t("অ্যান্ড্রয়েড অ্যাপ (APK)", "Android App (APK)")}</span>
+                </button>
+              </li>
               <li className="pt-1">
                 <Link
                   href="/admin/login"
@@ -132,6 +144,30 @@ export const Footer: React.FC = () => {
             </p>
             <div className="text-[11px] text-slate-400 pt-1">
               {t("সংস্করণ: MedBangla AI v2.0 (FastAPI + Next.js 16)", "Version: MedBangla AI v2.0 (FastAPI + Next.js 16)")}
+            </div>
+
+            {/* Android APK Download Card */}
+            <div className="pt-1">
+              <button
+                type="button"
+                onClick={() => setIsApkModalOpen(true)}
+                className="w-full p-2.5 rounded-xl bg-slate-50 hover:bg-[#F0FDFA] border border-slate-200/90 hover:border-teal-300 text-slate-800 transition-all shadow-2xs flex items-center justify-between group cursor-pointer text-left active:scale-[0.98]"
+              >
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-lg bg-[#0F766E] text-white flex items-center justify-center shrink-0 shadow-2xs group-hover:scale-105 transition-transform">
+                    <Smartphone className="w-4 h-4 text-teal-100" />
+                  </div>
+                  <div>
+                    <span className="font-extrabold text-xs block text-slate-900 group-hover:text-[#0F766E] transition-colors leading-tight">
+                      {t("অ্যান্ড্রয়েড অ্যাপ ডাউনলোড", "Download Android App")}
+                    </span>
+                    <span className="text-[10px] text-slate-400">
+                      {t("ফ্রি APK • ইনস্টল গাইড সহ", "Free APK • With Install Guide")}
+                    </span>
+                  </div>
+                </div>
+                <Download className="w-4 h-4 text-[#0F766E] group-hover:translate-y-0.5 transition-transform shrink-0" />
+              </button>
             </div>
           </div>
         </div>
@@ -168,6 +204,12 @@ export const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* APK Download & Installation Guide Modal */}
+      <ApkDownloadModal
+        isOpen={isApkModalOpen}
+        onClose={() => setIsApkModalOpen(false)}
+      />
     </footer>
   );
 };

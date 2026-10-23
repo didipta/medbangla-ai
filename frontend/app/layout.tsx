@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { GlobalAuthModal } from "./components/GlobalAuthModal";
 import { StudyDisclaimerModal } from "./components/StudyDisclaimerModal";
+import { AndroidAppExperience } from "./components/AndroidAppExperience";
 
 const hindSiliguri = Hind_Siliguri({
   variable: "--font-hind",
@@ -145,6 +146,7 @@ export default function RootLayout({
               <Footer />
               <GlobalAuthModal />
               <StudyDisclaimerModal />
+              <AndroidAppExperience />
             </AuthProvider>
           </LanguageProvider>
         </StoreProvider>

@@ -21,6 +21,7 @@ class ApiConfig {
       '$baseUrl/api/v1/interactions/check';
   static String get chatUrl => '$baseUrl/api/v1/chat';
   static String get healthUrl => '$baseUrl/api/v1/health';
+  static String get appControlUrl => '$baseUrl/api/v1/system/app-control';
 
   static Map<String, String> authHeaders(String token) => {
     'Content-Type': 'application/json',

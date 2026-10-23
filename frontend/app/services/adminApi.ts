@@ -797,6 +797,128 @@ class AdminApiClient {
     }
     return res.json();
   }
+
+  // 10. App Control, Maintenance & Update Settings
+  async getAppControl(): Promise<AppControlData> {
+    if (this.isDemoMode()) {
+      const stored = localStorage.getItem("medbangla_demo_app_control");
+      if (stored) {
+        try {
+          return JSON.parse(stored);
+        } catch {
+          // ignore
+        }
+      }
+      return { ...DEFAULT_DEMO_APP_CONTROL };
+    }
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+        headers: this.getHeaders(),
+      });
+      if (!res.ok) {
+        throw new Error("Failed to load app control settings");
+      }
+      const json = await res.json();
+      return json.data;
+    } catch (err) {
+      console.warn("Backend error, serving demo app control:", err);
+      return { ...DEFAULT_DEMO_APP_CONTROL };
+    }
+  }
+
+  async updateAppControl(payload: Partial<AppControlData>): Promise<AppControlData> {
+    if (this.isDemoMode()) {
+      const current = await this.getAppControl();
+      const updated: AppControlData = {
+        ...current,
+        ...payload,
+        updated_at: new Date().toISOString(),
+      };
+      if (payload.apk_google_drive_url) {
+        const driveMatch = payload.apk_google_drive_url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+        if (driveMatch) {
+          updated.apk_direct_download_url = `https://drive.google.com/uc?export=download&id=${driveMatch[1]}`;
+        }
+      }
+      localStorage.setItem("medbangla_demo_app_control", JSON.stringify(updated));
+      return updated;
+    }
+
+    const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+      method: "PUT",
+      headers: this.getHeaders(),
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || "Failed to update app control settings");
+    }
+    const json = await res.json();
+    return json.data;
+  }
+
+  async testDriveLink(driveUrl: string): Promise<{ file_id: string | null; direct_download_url: string; is_google_drive: boolean }> {
+    if (this.isDemoMode()) {
+      const match = driveUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/) || driveUrl.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+      const fileId = match ? match[1] : "demo-drive-id-12345";
+      return {
+        file_id: fileId,
+        direct_download_url: `https://drive.google.com/uc?export=download&id=${fileId}`,
+        is_google_drive: true,
+      };
+    }
+
+    const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control/test-drive-link`, {
+      method: "POST",
+      headers: this.getHeaders(),
+      body: JSON.stringify({ drive_url: driveUrl }),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || "Invalid Google Drive link");
+    }
+    return res.json();
+  }
 }
+
+export interface AppControlData {
+  id?: string;
+  is_maintenance_mode: boolean;
+  maintenance_title: string;
+  maintenance_message: string;
+  maintenance_eta: string;
+  emergency_contact: string;
+  latest_version: string;
+  latest_version_code: number;
+  min_supported_version: string;
+  min_supported_version_code: number;
+  is_force_update: boolean;
+  update_title: string;
+  update_notes: string;
+  apk_google_drive_url: string;
+  apk_direct_download_url: string;
+  apk_file_size: string;
+  updated_at?: string;
+}
+
+const DEFAULT_DEMO_APP_CONTROL: AppControlData = {
+  is_maintenance_mode: false,
+  maintenance_title: "মেডবাংলা এআই সিস্টেম রক্ষণাবেক্ষণ চলছে",
+  maintenance_message: "আমাদের ক্লিনিক্যাল ড্রাগ ডাটাবেজ এবং এআই সার্ভারের নিয়মিত উন্নয়ন কাজ চলছে। কিছুক্ষণের মধ্যে সেবা পুনরায় চালু হবে। সাময়িক অসুবিধার জন্য আন্তরিকভাবে দুঃখিত।",
+  maintenance_eta: "৩০ মিনিট",
+  emergency_contact: "support@medbangla.ai",
+  latest_version: "1.0.0",
+  latest_version_code: 1,
+  min_supported_version: "1.0.0",
+  min_supported_version_code: 1,
+  is_force_update: false,
+  update_title: "মেডবাংলা এআই এর নতুন সংস্করণ উপলব্ধ",
+  update_notes: "• প্রেসক্রিপশন ওসিআর স্ক্যানার অপ্টিমাইজেশন\n• ডিজিডিএ ১৭,৫৮৯+ ঔষধের সর্বশেষ মূল্য ও ডাটাবেজ যুক্ত\n• ড্রাগ-ড্রাগ ইন্টারেকশন ও ড্রাগ অ্যালার্জি সেফটি এলার্ট আপডেট\n• বাগ ফিক্স এবং দ্রুততর পারফরম্যান্স",
+  apk_google_drive_url: "https://drive.google.com/file/d/1DemoGoogleDriveApkFileIdMedBangla2026/view?usp=sharing",
+  apk_direct_download_url: "https://drive.google.com/uc?export=download&id=1DemoGoogleDriveApkFileIdMedBangla2026",
+  apk_file_size: "24.8 MB",
+  updated_at: new Date().toISOString(),
+};
 
 export const adminApi = new AdminApiClient();

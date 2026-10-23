@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/localization/language_provider.dart';
+import '../../../../services/app_control_service.dart';
+import '../../../../widgets/maintenance_screen.dart';
+import '../../../../widgets/app_update_dialog.dart';
 import '../../../auth/presentation/pages/profile_page.dart';
 import '../../../clinical_chat/presentation/pages/chat_page.dart';
 import '../../../drug_interactions/presentation/pages/interaction_page.dart';
@@ -19,6 +22,34 @@ class MainShellPage extends StatefulWidget {
 class _MainShellPageState extends State<MainShellPage> {
   int _currentIndex = 0;
   List<String>? _passedMedicinesForCheck;
+  AppLifecycleStatus? _lifecycleStatus;
+  bool _hasCheckedUpdate = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkAppControl();
+  }
+
+  Future<void> _checkAppControl() async {
+    final status = await AppControlService.checkStatus();
+    if (!mounted) return;
+
+    setState(() {
+      _lifecycleStatus = status;
+    });
+
+    if (status.isMaintenance) return;
+
+    if (status.updateAvailable && !_hasCheckedUpdate) {
+      _hasCheckedUpdate = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) {
+          AppUpdateDialog.show(context, status: status);
+        }
+      });
+    }
+  }
 
   void _navigateToTab(int index) {
     setState(() {
@@ -35,6 +66,13 @@ class _MainShellPageState extends State<MainShellPage> {
 
   @override
   Widget build(BuildContext context) {
+    if (_lifecycleStatus != null && _lifecycleStatus!.isMaintenance) {
+      return MaintenanceScreen(
+        status: _lifecycleStatus!,
+        onRetry: _checkAppControl,
+      );
+    }
+
     final lang = context.watch<LanguageProvider>();
 
     final List<Widget> pages = [

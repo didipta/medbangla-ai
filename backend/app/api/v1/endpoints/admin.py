@@ -896,3 +896,89 @@ def remove_medicine(
         "brand_id": brand_id,
     }
 
+
+# =============================================================================
+# App Lifecycle, Maintenance & APK Update Control (Admin Only)
+# =============================================================================
+
+class AppControlUpdateRequest(BaseModel):
+    is_maintenance_mode: Optional[bool] = None
+    maintenance_title: Optional[str] = None
+    maintenance_message: Optional[str] = None
+    maintenance_eta: Optional[str] = None
+    emergency_contact: Optional[str] = None
+    latest_version: Optional[str] = None
+    latest_version_code: Optional[int] = None
+    min_supported_version: Optional[str] = None
+    min_supported_version_code: Optional[int] = None
+    is_force_update: Optional[bool] = None
+    update_title: Optional[str] = None
+    update_notes: Optional[str] = None
+    apk_google_drive_url: Optional[str] = None
+    apk_direct_download_url: Optional[str] = None
+    apk_file_size: Optional[str] = None
+
+
+class TestDriveLinkRequest(BaseModel):
+    drive_url: str
+
+
+@router.get(
+    "/app-control",
+    summary="Get App Control, Maintenance & Update Settings",
+    description="Returns current configuration for maintenance mode, target app versions, force-update state, and APK links."
+)
+def get_admin_app_control(current_admin: Dict[str, Any] = Depends(get_current_admin)):
+    from app.services.app_control_service import get_app_control
+    config = get_app_control()
+    return {
+        "status": "success",
+        "data": config,
+    }
+
+
+@router.put(
+    "/app-control",
+    summary="Update App Control & Release New APK Version",
+    description="Updates maintenance mode switch, messages, version requirements, and Google Drive APK download links."
+)
+def update_admin_app_control(
+    payload: AppControlUpdateRequest,
+    current_admin: Dict[str, Any] = Depends(get_current_admin),
+):
+    from app.services.app_control_service import update_app_control
+    data = payload.model_dump(exclude_unset=True)
+    updated = update_app_control(data)
+    logger.info("Admin %s updated app control settings: %s", current_admin.get("email"), data.keys())
+    return {
+        "status": "success",
+        "message": "App control & update settings successfully published.",
+        "data": updated,
+    }
+
+
+@router.post(
+    "/app-control/test-drive-link",
+    summary="Validate & Convert Google Drive APK Link",
+    description="Analyzes a Google Drive share link, extracts file ID, and produces direct download & preview URLs."
+)
+def test_admin_drive_link(
+    payload: TestDriveLinkRequest,
+    current_admin: Dict[str, Any] = Depends(get_current_admin),
+):
+    from app.services.app_control_service import parse_google_drive_link
+    file_id, direct_url = parse_google_drive_link(payload.drive_url)
+    if not direct_url:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid Google Drive URL. Please paste a valid share link (e.g. https://drive.google.com/file/d/.../view).",
+        )
+    return {
+        "status": "success",
+        "file_id": file_id,
+        "direct_download_url": direct_url,
+        "original_url": payload.drive_url,
+        "is_google_drive": file_id is not None,
+    }
+
+

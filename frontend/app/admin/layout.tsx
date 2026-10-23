@@ -21,6 +21,7 @@ import {
   Cpu,
   Users,
   Pill,
+  Smartphone,
 } from "lucide-react";
 import { adminApi, AdminUser } from "../services/adminApi";
 
@@ -147,6 +148,13 @@ export default function AdminLayout({
       href: "/admin/system",
       icon: Server,
       active: pathname === "/admin/system",
+    },
+    {
+      label: "App & Update Control",
+      bengaliLabel: "অ্যাপ কন্ট্রোল ও আপডেট",
+      href: "/admin/app-control",
+      icon: Smartphone,
+      active: pathname === "/admin/app-control",
     },
   ];
 
