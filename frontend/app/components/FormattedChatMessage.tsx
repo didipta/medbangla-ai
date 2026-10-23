@@ -8,10 +8,12 @@ interface FormattedChatMessageProps {
 
 /**
  * Parses and renders chat message text with rich clinical formatting:
- * - Transforms ***bold italic*** / ***bold*** / **bold** into clean styled text.
- * - Converts standalone *** / --- into subtle horizontal dividers.
- * - Formats headings (###) and bullet/numbered lists cleanly.
- * - Completely strips any raw/stray *** or ** tags so users never see raw markdown markers.
+ * - High-contrast, crystal-clear typography in Bengali and English.
+ * - Correct header rendering (### Header, **Header:**, etc.) with deep clinical teal (#0F766E).
+ * - Bullet lists (*, -, •) and numbered lists (supports both English 1-9 and Bengali ১-৯).
+ * - Highlighted clinical warnings (⚠️) with soft medical advisory pill.
+ * - Strips any stray rogue markdown asterisks so text is always clean.
+ * - Robust color contrast on white backgrounds regardless of OS dark/light mode preference.
  */
 export function FormattedChatMessage({
   text,
@@ -21,7 +23,7 @@ export function FormattedChatMessage({
   if (!text) return null;
 
   // Render inline formatting (bold, italic, code) without literal asterisks
-  const renderInline = (raw: string) => {
+  const renderInline = (raw: string, isHeadingContext: boolean = false) => {
     // Regex matches:
     // 1: ***text*** (bold + italic / strong header)
     // 2: **text** (bold)
@@ -42,7 +44,9 @@ export function FormattedChatMessage({
             className={
               isUser
                 ? "font-bold text-white underline-offset-2"
-                : "font-bold text-[#0F766E] dark:text-teal-400"
+                : isHeadingContext
+                ? "font-bold text-inherit"
+                : "font-bold text-[#0F766E]"
             }
           >
             {inner}
@@ -59,7 +63,9 @@ export function FormattedChatMessage({
             className={
               isUser
                 ? "font-bold text-white"
-                : "font-semibold text-slate-900 dark:text-zinc-100"
+                : isHeadingContext
+                ? "font-bold text-inherit"
+                : "font-bold text-slate-900"
             }
           >
             {inner}
@@ -71,7 +77,10 @@ export function FormattedChatMessage({
       if (part.startsWith("*") && part.endsWith("*") && part.length > 2) {
         const inner = part.slice(1, -1).trim();
         return (
-          <em key={i} className="italic opacity-90">
+          <em
+            key={i}
+            className={`italic ${isUser ? "text-teal-100" : "text-slate-700"}`}
+          >
             {inner}
           </em>
         );
@@ -86,7 +95,7 @@ export function FormattedChatMessage({
             className={`px-1.5 py-0.5 rounded text-[10.5px] font-mono ${
               isUser
                 ? "bg-teal-800/60 text-teal-100"
-                : "bg-slate-100 text-slate-800 border border-slate-200 dark:bg-zinc-800 dark:text-zinc-200"
+                : "bg-slate-100 text-slate-800 border border-slate-200"
             }`}
           >
             {inner}
@@ -103,7 +112,7 @@ export function FormattedChatMessage({
   const lines = text.split("\n");
 
   return (
-    <div className={`space-y-1.5 leading-relaxed ${className}`}>
+    <div className={`space-y-1.5 leading-relaxed font-bangla ${className}`}>
       {lines.map((line, idx) => {
         const trimmed = line.trim();
 
@@ -118,66 +127,119 @@ export function FormattedChatMessage({
             <hr
               key={idx}
               className={`my-2.5 border-t ${
-                isUser ? "border-teal-400/40" : "border-slate-200 dark:border-zinc-700"
+                isUser ? "border-teal-400/40" : "border-slate-200"
               }`}
             />
           );
         }
 
-        // 3. Headings: ### Header or ## Header or # Header
-        if (/^#{1,4}\s+/.test(trimmed)) {
-          const headingText = trimmed.replace(/^#{1,4}\s+/, "");
+        // 3. Headings: ### Header or ## Header or # Header or standalone **Header:**
+        const isMarkdownHeading = /^#{1,4}\s+/.test(trimmed);
+        const isStandaloneBoldHeader =
+          /^\*\*[^*]+?\*\*:?$/.test(trimmed) && trimmed.length < 120;
+
+        if (isMarkdownHeading || isStandaloneBoldHeader) {
+          let headingText = isMarkdownHeading
+            ? trimmed.replace(/^#{1,4}\s+/, "").trim()
+            : trimmed.replace(/^\*\*/, "").replace(/\*\*:?$/, ":").trim();
+
+          // Strip any redundant surrounding bold markers from heading (e.g. ### **Title** -> Title)
+          if (
+            headingText.startsWith("**") &&
+            headingText.endsWith("**") &&
+            headingText.length > 4
+          ) {
+            headingText = headingText.slice(2, -2).trim();
+          }
+
           return (
             <div
               key={idx}
-              className={`font-bold mt-2 mb-1 ${
+              className={`font-bold mt-2.5 mb-1 tracking-normal ${
                 isUser
                   ? "text-white text-xs sm:text-sm"
-                  : "text-[#0F766E] dark:text-teal-400 text-xs sm:text-sm"
+                  : "text-[#0F766E] text-xs sm:text-sm font-bold"
               }`}
             >
-              {renderInline(headingText)}
+              {renderInline(headingText, true)}
             </div>
           );
         }
 
-        // 4. Bullet lists: * Item, - Item, • Item
+        // 4. Medical Disclaimer / Warning (⚠️)
+        if (trimmed.startsWith("⚠️")) {
+          const warningContent = trimmed.replace(/^⚠️\s*/, "");
+          return (
+            <div
+              key={idx}
+              className={`mt-2.5 p-2.5 rounded-lg text-[11px] sm:text-[11.5px] leading-relaxed flex items-start gap-2 ${
+                isUser
+                  ? "bg-teal-900/40 text-teal-100 border border-teal-500/30"
+                  : "bg-amber-50/90 text-amber-900 border border-amber-200/90 shadow-2xs"
+              }`}
+            >
+              <span className="flex-shrink-0 text-sm leading-none mt-0.5 select-none">
+                ⚠️
+              </span>
+              <div className="flex-1 font-medium">
+                {renderInline(warningContent)}
+              </div>
+            </div>
+          );
+        }
+
+        // 5. Bullet lists: * Item, - Item, • Item
         if (/^[\*\-•]\s+/.test(trimmed)) {
           const bulletText = trimmed.replace(/^[\*\-•]\s+/, "");
           return (
             <div key={idx} className="flex items-start gap-2 my-0.5 ml-1">
               <span
                 className={`text-[12px] leading-tight select-none mt-0.5 ${
-                  isUser ? "text-teal-200" : "text-[#0F766E] dark:text-teal-400"
+                  isUser ? "text-teal-200" : "text-[#0F766E]"
                 }`}
               >
                 •
               </span>
-              <span className="flex-1">{renderInline(bulletText)}</span>
+              <span
+                className={`flex-1 ${
+                  isUser ? "text-white" : "text-slate-800"
+                }`}
+              >
+                {renderInline(bulletText)}
+              </span>
             </div>
           );
         }
 
-        // 5. Numbered lists: 1. Item, 2. Item
-        const numMatch = trimmed.match(/^(\d+[\.\)])\s+(.+)$/);
+        // 6. Numbered lists: 1. Item, ১. Item (supports Bengali & English digits)
+        const numMatch = trimmed.match(/^([0-9০-৯]+[\.\)])\s+(.+)$/);
         if (numMatch) {
           return (
-            <div key={idx} className="flex items-start gap-1.5 my-0.5 ml-1">
+            <div key={idx} className="flex items-start gap-1.5 my-1 ml-0.5">
               <span
-                className={`font-semibold text-[11px] select-none ${
-                  isUser ? "text-teal-200" : "text-[#0F766E] dark:text-teal-400"
+                className={`font-bold text-[11.5px] sm:text-xs select-none ${
+                  isUser ? "text-teal-200" : "text-[#0F766E]"
                 }`}
               >
                 {numMatch[1]}
               </span>
-              <span className="flex-1">{renderInline(numMatch[2])}</span>
+              <span
+                className={`flex-1 ${
+                  isUser ? "text-white" : "text-slate-800"
+                }`}
+              >
+                {renderInline(numMatch[2])}
+              </span>
             </div>
           );
         }
 
-        // 6. Regular paragraph
+        // 7. Regular paragraph
         return (
-          <p key={idx} className="m-0">
+          <p
+            key={idx}
+            className={`m-0 ${isUser ? "text-white" : "text-slate-800"}`}
+          >
             {renderInline(line)}
           </p>
         );

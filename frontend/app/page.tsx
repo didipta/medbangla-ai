@@ -1112,7 +1112,7 @@ export default function HomePage() {
                             </div>
                           )}
                           <div
-                            className={`rounded-2xl p-2.5 text-[11px] max-w-[85%] leading-relaxed ${
+                            className={`rounded-2xl p-3 text-xs sm:text-[12.5px] max-w-[85%] leading-relaxed ${
                               msg.sender === "user"
                                 ? "bg-[#0F766E] text-white rounded-tr-xs"
                                 : "bg-white border border-slate-200 text-slate-800 rounded-tl-xs shadow-2xs"

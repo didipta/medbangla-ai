@@ -2257,7 +2257,7 @@ export const PrescriptionCareHub: React.FC = () => {
                         )}
 
                         <div
-                          className={`max-w-[85%] rounded-xl p-3.5 space-y-1 leading-relaxed whitespace-pre-line text-xs ${msg.role === "user"
+                          className={`max-w-[85%] rounded-xl p-3.5 space-y-1 leading-relaxed text-xs sm:text-[13px] ${msg.role === "user"
                               ? "bg-[#0F766E] text-white"
                               : "bg-[#FFFFFF] text-[#172B2A] border border-[#E2EAE7]"
                             }`}
