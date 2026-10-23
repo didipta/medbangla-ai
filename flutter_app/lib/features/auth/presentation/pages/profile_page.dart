@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/localization/language_provider.dart';
+import '../../../../services/app_control_service.dart';
+import '../../../../widgets/app_update_dialog.dart';
 import '../../domain/entities/user_entity.dart';
 import '../bloc/auth_bloc.dart';
 import '../bloc/auth_event.dart';
@@ -322,7 +324,6 @@ class ProfilePage extends StatelessWidget {
 
               Material(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(14),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(14),
                   side: const BorderSide(color: AppColors.border),
@@ -386,6 +387,59 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ),
                         );
+                      },
+                    ),
+                    const Divider(height: 1, color: AppColors.border),
+                    ListTile(
+                      leading: const Icon(
+                        Icons.system_update_rounded,
+                        color: AppColors.primary,
+                      ),
+                      title: Text(
+                        lang.t('অ্যাপের আপডেট পরীক্ষা করুন', 'Check for Updates'),
+                      ),
+                      subtitle: Text(
+                        lang.t(
+                          'বর্তমান সংস্করণ: v${AppControlService.currentVersionName}',
+                          'Current Version: v${AppControlService.currentVersionName}',
+                        ),
+                      ),
+                      trailing: const Icon(
+                        Icons.arrow_forward_ios_rounded,
+                        size: 14,
+                        color: AppColors.textMuted,
+                      ),
+                      onTap: () async {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              lang.t(
+                                'আপডেট অনুসন্ধান চলছে...',
+                                'Checking for latest updates...',
+                              ),
+                            ),
+                            duration: const Duration(seconds: 1),
+                          ),
+                        );
+
+                        final status = await AppControlService.checkStatus();
+                        if (!context.mounted) return;
+
+                        if (status.updateAvailable) {
+                          AppUpdateDialog.show(context, status: status);
+                        } else {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              backgroundColor: AppColors.emerald,
+                              content: Text(
+                                lang.t(
+                                  'আপনি মেডবাংলা এআই এর সর্বশেষ সংস্করণ ব্যবহার করছেন।',
+                                  'You are running the latest version of MedBangla AI.',
+                                ),
+                              ),
+                            ),
+                          );
+                        }
                       },
                     ),
                   ],

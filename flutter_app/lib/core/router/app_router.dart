@@ -6,6 +6,8 @@ import '../../features/dashboard/presentation/pages/main_shell_page.dart';
 import '../../features/drug_interactions/presentation/pages/interaction_page.dart';
 import '../../features/medicines/presentation/pages/medicines_page.dart';
 import '../../features/prescription_scanner/presentation/pages/scanner_page.dart';
+import '../../features/splash/presentation/pages/splash_page.dart';
+import '../../services/app_control_service.dart';
 
 final GlobalKey<NavigatorState> _rootNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -16,8 +18,15 @@ class AppRouter {
     routes: [
       GoRoute(
         path: '/',
-        name: 'root',
-        builder: (context, state) => const MainShellPage(),
+        name: 'splash',
+        builder: (context, state) => const SplashPage(),
+      ),
+      GoRoute(
+        path: '/home',
+        name: 'home',
+        builder: (context, state) => MainShellPage(
+          initialStatus: state.extra as AppLifecycleStatus?,
+        ),
       ),
       GoRoute(
         path: '/medicines',

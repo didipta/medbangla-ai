@@ -800,7 +800,24 @@ class AdminApiClient {
 
   // 10. App Control, Maintenance & Update Settings
   async getAppControl(): Promise<AppControlData> {
-    if (this.isDemoMode()) {
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+        headers: this.getHeaders(),
+      });
+      if (res.ok) {
+        const json = await res.json();
+        if (json.data) {
+          if (typeof window !== "undefined") {
+            localStorage.setItem("medbangla_demo_app_control", JSON.stringify(json.data));
+          }
+          return json.data;
+        }
+      }
+    } catch (err) {
+      console.warn("Backend error in getAppControl, falling back to local cache:", err);
+    }
+
+    if (typeof window !== "undefined") {
       const stored = localStorage.getItem("medbangla_demo_app_control");
       if (stored) {
         try {
@@ -809,53 +826,47 @@ class AdminApiClient {
           // ignore
         }
       }
-      return { ...DEFAULT_DEMO_APP_CONTROL };
     }
-
-    try {
-      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
-        headers: this.getHeaders(),
-      });
-      if (!res.ok) {
-        throw new Error("Failed to load app control settings");
-      }
-      const json = await res.json();
-      return json.data;
-    } catch (err) {
-      console.warn("Backend error, serving demo app control:", err);
-      return { ...DEFAULT_DEMO_APP_CONTROL };
-    }
+    return { ...DEFAULT_DEMO_APP_CONTROL };
   }
 
   async updateAppControl(payload: Partial<AppControlData>): Promise<AppControlData> {
-    if (this.isDemoMode()) {
-      const current = await this.getAppControl();
-      const updated: AppControlData = {
-        ...current,
-        ...payload,
-        updated_at: new Date().toISOString(),
-      };
-      if (payload.apk_google_drive_url) {
-        const driveMatch = payload.apk_google_drive_url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
-        if (driveMatch) {
-          updated.apk_direct_download_url = `https://drive.google.com/uc?export=download&id=${driveMatch[1]}`;
+    // 1. Always attempt live sync to backend so Flutter mobile apps receive the update
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+        method: "PUT",
+        headers: this.getHeaders(),
+        body: JSON.stringify(payload),
+      });
+
+      if (res.ok) {
+        const json = await res.json();
+        if (typeof window !== "undefined") {
+          localStorage.setItem("medbangla_demo_app_control", JSON.stringify(json.data));
         }
+        return json.data;
       }
-      localStorage.setItem("medbangla_demo_app_control", JSON.stringify(updated));
-      return updated;
+    } catch (err) {
+      console.warn("Backend unreachable during updateAppControl, updating local cache:", err);
     }
 
-    const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
-      method: "PUT",
-      headers: this.getHeaders(),
-      body: JSON.stringify(payload),
-    });
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      throw new Error(err.detail || "Failed to update app control settings");
+    // 2. Fallback to local persistence if backend is offline
+    const current = await this.getAppControl();
+    const updated: AppControlData = {
+      ...current,
+      ...payload,
+      updated_at: new Date().toISOString(),
+    };
+    if (payload.apk_google_drive_url) {
+      const driveMatch = payload.apk_google_drive_url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+      if (driveMatch) {
+        updated.apk_direct_download_url = `https://drive.google.com/uc?export=download&id=${driveMatch[1]}`;
+      }
     }
-    const json = await res.json();
-    return json.data;
+    if (typeof window !== "undefined") {
+      localStorage.setItem("medbangla_demo_app_control", JSON.stringify(updated));
+    }
+    return updated;
   }
 
   async testDriveLink(driveUrl: string): Promise<{ file_id: string | null; direct_download_url: string; is_google_drive: boolean }> {

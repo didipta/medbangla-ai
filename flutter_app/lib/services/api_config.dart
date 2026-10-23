@@ -2,9 +2,18 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 
 class ApiConfig {
+  static String? _customBaseUrl;
+
+  static void setBaseUrl(String url) {
+    _customBaseUrl = url.trim().replaceAll(RegExp(r'/+$'), '');
+  }
+
   /// Base API URL for FastAPI Backend
-  /// Android Emulator uses 10.0.2.2 to reach host machine; Web & iOS use localhost
+  /// Supports Android Emulator (10.0.2.2), physical Android devices on local network, and custom URLs
   static String get baseUrl {
+    if (_customBaseUrl != null && _customBaseUrl!.isNotEmpty) {
+      return _customBaseUrl!;
+    }
     if (kIsWeb) {
       return 'http://localhost:8000';
     }
@@ -13,6 +22,8 @@ class ApiConfig {
     }
     return 'http://localhost:8000';
   }
+
+  static const String lanFallbackBaseUrl = 'http://192.168.0.105:8000';
 
   static String get medicinesUrl => '$baseUrl/api/v1/medicines';
   static String get ocrAnalyzeUrl =>

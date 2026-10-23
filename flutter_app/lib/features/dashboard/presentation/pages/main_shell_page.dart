@@ -13,7 +13,8 @@ import '../../../prescription_scanner/presentation/pages/scanner_page.dart';
 import 'dashboard_page.dart';
 
 class MainShellPage extends StatefulWidget {
-  const MainShellPage({super.key});
+  final AppLifecycleStatus? initialStatus;
+  const MainShellPage({super.key, this.initialStatus});
 
   @override
   State<MainShellPage> createState() => _MainShellPageState();
@@ -28,7 +29,19 @@ class _MainShellPageState extends State<MainShellPage> {
   @override
   void initState() {
     super.initState();
-    _checkAppControl();
+    if (widget.initialStatus != null) {
+      _lifecycleStatus = widget.initialStatus;
+      if (widget.initialStatus!.updateAvailable && !widget.initialStatus!.isMaintenance) {
+        _hasCheckedUpdate = true;
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) {
+            AppUpdateDialog.show(context, status: widget.initialStatus!);
+          }
+        });
+      }
+    } else {
+      _checkAppControl();
+    }
   }
 
   Future<void> _checkAppControl() async {

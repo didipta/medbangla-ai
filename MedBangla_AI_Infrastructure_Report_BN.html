@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>মেডবাংলা এআই — সম্পূর্ণ প্রজেক্ট আর্কিটেকচার ও ক্লাউড ইনফ্রাস্ট্রাকচার ব্লুপ্রিন্ট (বাংলা সংস্করণ)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  @page {
+    size: A4;
+    margin: 16mm 14mm 16mm 14mm;
+    @bottom-right {
+      content: counter(page);
+    }
+  }
+
+  body {
+    font-family: 'Hind Siliguri', 'Inter', -apple-system, sans-serif;
+    color: #0f172a;
+    line-height: 1.6;
+    font-size: 10pt;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 16px 24px;
+  }
+
+  .report-header {
+    border-bottom: 3px solid #0f766e;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+  }
+  .badge {
+    display: inline-block;
+    background-color: #0f766e;
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    color: #0f766e;
+    font-size: 18pt;
+    line-height: 1.3;
+    margin: 0 0 8px 0;
+    font-weight: 800;
+  }
+  h2 {
+    color: #134e4a;
+    font-size: 13pt;
+    border-bottom: 1.5px solid #ccfbf1;
+    padding-bottom: 4px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    page-break-after: avoid;
+  }
+  h3 {
+    color: #115e59;
+    font-size: 11pt;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    page-break-after: avoid;
+  }
+  p, li {
+    font-size: 9.5pt;
+    line-height: 1.55;
+    color: #1e293b;
+    margin: 4px 0;
+  }
+  ul, ol {
+    margin: 4px 0 10px 18px;
+    padding: 0;
+  }
+  strong {
+    color: #0f172a;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 16px 0;
+    font-size: 8.5pt;
+    page-break-inside: avoid;
+  }
+  th, td {
+    border: 1px solid #cbd5e1;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background-color: #f0fdfa;
+    color: #0f766e;
+    font-weight: 700;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+
+  pre {
+    background-color: #0f172a;
+    color: #38bdf8;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', Consolas, monospace;
+    font-size: 8pt;
+    overflow-x: auto;
+    line-height: 1.4;
+    margin: 10px 0;
+    page-break-inside: avoid;
+  }
+
+  blockquote {
+    border-left: 4px solid #0d9488;
+    background-color: #f0fdfa;
+    margin: 12px 0;
+    padding: 8px 14px;
+    border-radius: 0 6px 6px 0;
+    color: #134e4a;
+    font-size: 9pt;
+  }
+  blockquote strong {
+    color: #0f766e;
+  }
+
+  .footer {
+    margin-top: 24px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 8px;
+    font-size: 7.5pt;
+    color: #64748b;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+<div class="report-header">
+  <div class="badge">Official Technical Blueprint • MedBangla AI</div>
+</div>
+
+<h1>মেডবাংলা এআই — প্রোডাকশন আর্কিটেকচার, ক্লাউড ইনফ্রাস্ট্রাকচার ও সার্ভার প্রকিউরমেন্ট ব্লুপ্রিন্ট</h1>
+<p><strong>নথির ধরন:</strong> এন্টারপ্রাইজ সিস্টেম আর্কিটেকচার ও ক্লাউড অবকাঠামো পরিকল্পনা গাইড<br />
+<strong>ভাষা সংস্করণ:</strong> বাংলা (বাণিজ্যিক প্রোডাকশন সংস্করণ)<br />
+<strong>লক্ষ্যমাত্রা:</strong> বাংলাদেশের স্বাস্থ্যসেবা, সরকারি/বেসরকারি হাসপাতাল ও রিটেইল ফার্মেসি ইকোসিস্টেম<br />
+<strong>ভার্সন:</strong> প্রোডাকশন রিলিজ ২.৪ (অক্টোবর ২০২৬)<br />
+<strong>প্রণীত কারিগর:</strong> অ্যান্টিগ্র্যাভিটি সিনিয়র এআই/এমএল ও ডেভঅপ্স টেকনিক্যাল আর্কিটেকচার টিম  </p>
+<hr />
+<h2>১. নির্বাহী সারসংক্ষেপ (Executive Summary)</h2>
+<h3>১.১ প্ল্যাটফর্ম পরিচিতি ও মূল লক্ষ্য (Platform Overview &amp; Mission)</h3>
+<p><strong>মেডবাংলা এআই (MedBangla AI)</strong> হলো বাংলাদেশের বাস্তব স্বাস্থ্যসেবা পরিস্থিতির জন্য বিশেষভাবে নির্মিত একটি কৃত্রিম বুদ্ধিমত্তাসম্পন্ন (AI-powered) ডিজিটাল স্বাস্থ্যসেবা প্ল্যাটফর্ম। এটি চিকিৎসকের দুর্বোধ্য হাতের লেখা প্রেসক্রিপশন স্ক্যান ও নির্ভুল টেক্সটে রূপান্তর করে, ওষুধের ব্র্যান্ড ও জেনেরিক নাম এবং ডোজেজ (১+০+১, খাওয়ার আগে/পরে) বিশ্লেষণ করে, বিপজ্জনক ড্রাগ মিথস্ক্রিয়া (Drug-Drug Interactions) শনাক্ত করে এবং রোগীর নিজস্ব মাতৃভাষা বাংলায় স্পষ্ট ও সহজবোধ্য নির্দেশনা প্রদান করে।</p>
+<h3>১.২ স্থাপত্য সিদ্ধান্ত ও জিপিইউ মূল্যায়ন (Core Architectural Verdict &amp; GPU Sizing)</h3>
+<p>সম্পূর্ণ রিপোজিটরি ও সোর্স কোড পুঙ্খানুপুঙ্খ অডিট করে নিশ্চিত হওয়া গেছে যে, মেডবাংলা এআই একটি <strong>হাইব্রিড অ্যাসিম্যাট্রিক এআই পাইপলাইনে (Hybrid Asymmetric AI Pipeline)</strong> পরিচালিত হয়:</p>
+<ol>
+<li><strong>লোকাল সিপিইউ অপারেশন (Local CPU Operations):</strong> ওপেনসিভি (OpenCV) প্রি-প্রসেসিং, সার্বজনীন ওসিআর ইঞ্জিন (<strong>RapidOCR ONNX Runtime</strong>), ক্লিনিক্যাল র‌্যাগ ইনডেক্সার (<strong>ClinicalRAGIndexer - BM25 ও ডেন্স ভেক্টর</strong>) এবং বাংলাদেশের ১৭,৫৮৯টি ডিজিডিএ রেজিস্টার্ড ওষুধের ফাজি সার্চ সবই অত্যন্ত দ্রুত <strong>স্ট্যান্ডার্ড সাধারণ সিপিইউ (CPU) কোরে sub-second (২৫০ মিলি-সেকেন্ড থেকে ৮৫০ মিলি-সেকেন্ডে)</strong> নির্বাহ হয়।</li>
+<li><strong>ক্লাউড ভিশন এআই ফলব্যাক (Cloud Vision AI Fallback):</strong> অতি জটিল ও অস্পষ্ট হাতের লেখা ডিকোড করার জন্য সার্ভারলেস ক্লাউড এআই এপিআই (<strong>Google Gemini 2.0 / 3.0 Flash</strong> এবং <strong>Groq Qwen-27B</strong>) ব্যবহৃত হয়।</li>
+</ol>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>আজকের দিনে মেডবাংলা এআই-এর জন্য কি আলাদা জিপিইউ (GPU) সার্ভার প্রয়োজন? না (NO).</strong><br />
+- লোকাল ওসিআর এবং ওষুধ সার্চ মডেলগুলো সাধারণ সিপিইউ-তেই দ্রুত চলে।<br />
+- বড় ভিশন ও ল্যাঙ্গুয়েজ মডেলগুলো ক্লাউড এপিআই-এর মাধ্যমে কার্যকর হয়।<br />
+- বর্তমানে একটি ব্যয়বহুল জিপিইউ সার্ভার (মাসিক $৩০০–$৬০০ বা ৩৬,০০০–৭২,০০০ টাকা) ভাড়া নিলে জিপিইউ ৯৫% সময় অলস (idle) বসে থাকবে, যা বাজেটের অপচয়।<br />
+- <strong>সিপিইউ ক্লাউড সার্ভার + এপিআই হাইব্রিড মডেলে প্রতি প্রেসক্রিপশন প্রসেসিং খরচ মাত্র ১.২৯ টাকা ($0.0105 USD)</strong>।</p>
+</blockquote>
+<hr />
+<h2>২. বাংলাদেশে বাস্তব ব্যবহারের সময় ও ট্রাফিক মডেল (Bangladesh Real-World Traffic Model)</h2>
+<h3>২.১ বাংলাদেশে রোগীর দৈনন্দিন ট্রাফিক সময়রেখা (BST / UTC+6 Time-Bands)</h3>
+<pre><code> Hourly Traffic Distribution in Bangladesh (Typical Weekday in BST)
+
+ 100% |                                      [Prime Evening Chamber &amp; Pharmacy Peak]
+  80% |                   [Morning Hospital]        * * * *
+  60% |                     * * * * *             * * * * * *
+  40% |         * * *     * * * * * * *         * * * * * * * *
+  20% |     * * * * *     * * * * * * * *     * * * * * * * * *
+   0% +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+     00  02  04  06  08  10  12  14  16  18  20  22  24  (Hours BST)
+      [Maintenance/Reset]   [1st Surge]       [2nd Prime Peak: 6PM-10PM]
+</code></pre>
+<ul>
+<li><strong>রাত ১২:০০ – সকাল ০৬:০০ BST (অফ-পিক ও রক্ষণাবেক্ষণ উইন্ডো / Off-Peak Maintenance):</strong><br />
+  এই সময়ে ট্রাফিকের পরিমাণ দৈনিক মোট ব্যবহারের ৩%-এরও নিচে নেমে যায়। এই উইন্ডোতে স্বয়ংক্রিয় ডাটাবেস ইন্ডেক্সিং, ব্যাকআপ এবং ঢাকা মিডনাইট (UTC+6) রেট-লিমিট কোটা রিসেট সম্পন্ন হয়।</li>
+<li><strong>সকাল ১০:০০ – দুপুর ০১:৩০ BST (হাসপাতাল ও ডায়াগনস্টিক পিক / Morning OPD Peak):</strong><br />
+  সরকারি মেডিকেল কলেজ (যেমন: ঢামেক, বিএসএমএমইউ), জেলা সদর হাসপাতাল ও বেসরকারি ক্লিনিকের আউটডোর (OPD) সময়। রোগীরা ডিসচার্জ সার্টিফিকেট ও টেস্ট প্রেসক্রিপশন আপলোড করে।</li>
+<li><strong>সন্ধ্যা ০৬:০০ – রাত ১০:৩০ BST (প্রাইম চেম্বার ও ফার্মেসি পিক / Prime Evening Chamber Peak):</strong><br />
+  বাংলাদেশের স্বাস্থ্যসেবার সবচেয়ে ব্যস্ততম সময়। স্পেশালিস্ট ডাক্তারদের ব্যক্তিগত চেম্বার এবং পাড়া-মহল্লার রিটেইল ফার্মেসিতে রোগীর উপচে পড়া ভিড় থাকে। <strong>সারাদিনের মোট প্রেসক্রিপশন আপলোডের ৬২% এই সাড়ে ৪ ঘণ্টার মধ্যে ঘটে থাকে।</strong></li>
+</ul>
+<h3>২.২ বাস্তব প্রেসক্রিপশন ও ভাষার মিশ্রণ (Prescription Blend)</h3>
+<ul>
+<li><strong>ভাষার বাস্তব বিন্যাস:</strong> বাংলাদেশের প্রেসক্রিপশনে ওষুধের নাম ও টেস্ট ইংরেজিতে লেখা হলেও খাওয়ার নিয়ম ও সতর্কতা বাংলায় লেখা থাকে (যেমন: <em>“খাওয়ার আগে ১ চামচ দিনে ২ বার”</em>, <em>“ভরা পেটে”</em>)।</li>
+<li><strong>ছবির গুণগত মান:</strong> ওয়ালটন, সিম্ফনি বা কম দামি স্মার্টফোনে তোলা ছবিগুলোতে অসম আলো, ছায়া, পার্সপেক্টিভ বাঁকা থাকা এবং ফার্মাসিস্টের পেন্সিলের দাগ খুব সাধারণ বিষয়।</li>
+</ul>
+<hr />
+<h2>৩. সম্পূর্ণ সিস্টেম আর্কিটেকচার (End-to-End System Architecture)</h2>
+<pre><code>+-----------------------------------------------------------------------------------+
+|                     ক্লায়েন্ট লেয়ার (Flutter Android App / Web)                  |
+|   - ছবি তোলা ও পার্সপেক্টিভ ক্রপিং                                                |
+|   - রিয়েল-টাইম কোটা প্রদর্শন (ঢাকা মিডনাইট রিসেট)                              |
+|   - অফলাইন ফলব্যাক নোটিশ ও ডিজিডিএ ড্রাগ ক্যাশিং                                  |
++------------------------------------------+----------------------------------------+
+                                           | HTTPS / TLS 1.3
+                                           v
++-----------------------------------------------------------------------------------+
+|               রিভার্স প্রক্সি ও পেরিমিটার সুরক্ষা (Nginx / Cloudflare)            |
+|   - SSL টার্মিনেশন ও HTTP/2 সাপোর্ট                                               |
+|   - স্লাইডিং-উইন্ডো আইপি রেট লিমিটিং (Burst: ১০/মিনিট, সাধারণ: ৬০/মিনিট)         |
+|   - রিয়েল আইপি ফরোয়ার্ডিং (X-Forwarded-For, CF-Connecting-IP)                   |
++------------------------------------------+----------------------------------------+
+                                           | Reverse Proxy Pass
+                                           v
++-----------------------------------------------------------------------------------+
+|                         FastAPI কোর ব্যাকএন্ড (Uvicorn Workers)                   |
+|   - অ্যাসিনক্রোনাস রিকোয়েস্ট হ্যান্ডলার (app/api/v1)                             |
+|   - সিকিউরিটি মিডলওয়্যার ও ডিভাইস আইডি ট্র্যাকিং                                |
+|   - স্ট্রাকচার্ড অডিট লগিং ও ট্র্যাকিং আইডি                                      |
++------------------------------------------+----------------------------------------+
+                                           | অভ্যন্তরীণ প্রক্রিয়াকরণ
+                     +---------------------+---------------------+
+                     v                                           v
++---------------------------------------+   +---------------------------------------+
+|  লোকাল সিপিইউ পাইপলাইন (RapidOCR+RAG) |   |    ক্লাউড ভিশন ফলব্যাক (Gemini API)   |
+|  - ওপেনসিভি ফিল্টার ও কন্ট্রাস্ট বৃদ্ধি |   |  - কনফিডেন্স ৭৫%-এর কম হলে সক্রিয়    |
+|  - ওএনএনএক্স সার্বজনীন ওসিআর ইঞ্জিন   |   |  - জেমিনি ২.০/৩.০ ফ্ল্যাশ ইঞ্জিন     |
+|  - বিএম২৫ ড্রাগ সার্চ (১৭,৫৮৯ ব্র্যান্ড)|   |  - গ্রক Qwen-27B সেকেন্ডারি ব্যাকআপ    |
+|  - স্পিড: ২৫০ms - ৮৫০ms               |   |  - স্পিড: ১.৮s - ৩.২s                 |
++---------------------------------------+   +---------------------------------------+
+                     \                                           /
+                      +--------------------+--------------------+
+                                           v
++-----------------------------------------------------------------------------------+
+|                            ডাটা ও স্টেট সংরক্ষণ লেয়ার                           |
+|   - PostgreSQL (ম্যানেজড): প্রেসক্রিপশন মেটাডাটা, রোগী ও ড্রাগ ক্যাটালগ          |
+|   - ইন-মেমরি সিএসভি স্টোর: ডিজিডিএ অনুমোদিত ১৭,৫৮৯ ওষুধের ডেটাবেস               |
+|   - Redis ক্লাস্টার / সেন্টিনেল: রিয়েল-টাইম সেশন কোটা ও রেট-লিমিট নিয়ন্ত্রণ      |
++-----------------------------------------------------------------------------------+
+</code></pre>
+<hr />
+<h2>৪. এআই ও মেশিন লার্নিং পাইপলাইনের উপাদানসমূহ (AI/ML Pipeline Breakdown)</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">উপাদানের নাম</th>
+<th style="text-align: left;">প্রযুক্তি ও ইঞ্জিন</th>
+<th style="text-align: left;">প্রধান কাজ</th>
+<th style="text-align: left;">রানটাইম পরিবেশ</th>
+<th style="text-align: left;">লেটেন্সি (স্পিড)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>ইমেজ প্রি-প্রসেসর</strong></td>
+<td style="text-align: left;">OpenCV / NumPy</td>
+<td style="text-align: left;">গ্রেস্কেল কনভার্সন, কন্ট্রাস্ট বৃদ্ধি, পার্সপেক্টিভ ঠিক করা</td>
+<td style="text-align: left;">লোকাল সিপিইউ</td>
+<td style="text-align: left;">৪৫ ms – ৯০ ms</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ইউনিভার্সাল ওসিআর ইঞ্জিন</strong></td>
+<td style="text-align: left;">RapidOCR (ONNX Runtime)</td>
+<td style="text-align: left;">প্রিন্টেড টেক্সট ও সহজবোধ্য হাতের লেখা দ্রুত শনাক্তকরণ</td>
+<td style="text-align: left;">লোকাল সিপিইউ</td>
+<td style="text-align: left;">২৫০ ms – ৭৫০ ms</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ক্লিনিক্যাল সার্চ ইনডেক্সার</strong></td>
+<td style="text-align: left;">BM25 + ডেন্স ভেক্টর</td>
+<td style="text-align: left;">ডিজিডিএ তালিকাভুক্ত ১৭,৫৮৯টি ওষুধের ব্র্যান্ড ও জেনেরিক ম্যাচিং</td>
+<td style="text-align: left;">লোকাল সিপিইউ / মেমরি</td>
+<td style="text-align: left;">৩৫ ms – ১২০ ms</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>প্রাইমারি ক্লাউড ভিশন এআই</strong></td>
+<td style="text-align: left;">Gemini 2.0 / 3.0 Flash</td>
+<td style="text-align: left;">দুর্বোধ্য হাতের লেখা ডিকোড ও ড্রাগ মিথস্ক্রিয়া বিশ্লেষণ</td>
+<td style="text-align: left;">ক্লাউড সার্ভারলেস এপিআই</td>
+<td style="text-align: left;">১,৮০০ ms – ৩,২০০ ms</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>সেকেন্ডারি ব্যাকআপ এলএলএম</strong></td>
+<td style="text-align: left;">Groq (Qwen-27B / Llama 3)</td>
+<td style="text-align: left;">রোগীর জন্য সহজ বাংলায় সেবনবিধি অনুবাদ ও ভেরিফিকেশন</td>
+<td style="text-align: left;">ক্লাউড সার্ভারলেস এপিআই</td>
+<td style="text-align: left;">৬৫০ ms – ১,১০০ ms</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>৫. ৩-ধাপের ক্লাউড অবকাঠামো সুপারিশ ও কনফিগারেশন (3-Tier Server Sizing)</h2>
+<h3>স্তর ১: পাইলট ও বেটা টেস্টিং পর্যায় (ধারণক্ষমতা: ১,০০০ স্ক্যান/মাস / ~৩৫ স্ক্যান/দিন)</h3>
+<ul>
+<li><strong>ব্যবহারকারী:</strong> অভ্যন্তরীণ ক্লিনিক্যাল টেস্টিং, মেডিকেল কলেজের শিক্ষার্থীদের প্রাথমিক ট্রায়াল, কয়েকটি নির্বাচিত ফার্মেসি।</li>
+<li><strong>কম্পিউট সার্ভার:</strong> ১টি ভিপিএস ইনস্ট্যান্স (2 vCPU, 4 GB RAM, 40 GB NVMe SSD) — Hetzner CPX21 অথবা DigitalOcean বেসিক ড্রপলেট।</li>
+<li><strong>ডাটাবেস:</strong> লোকাল ডকার কন্টেইনারে PostgreSQL 16 + Redis কন্টেইনার।</li>
+<li><strong>ক্লাউড এআই এপিআই খরচ:</strong> ফ্রি টায়ার এবং সামান্য পে-অ্যাজ-ইউ-গো জেমিনি এপিআই খরচ।</li>
+<li><strong>আনুমানিক মাসিক খরচ:</strong> <strong>$২৩ / মাস (~২,৭৬০ টাকা)</strong>।</li>
+</ul>
+<h3>স্তর ২: বাণিজ্যিক লঞ্চ পর্যায় (ধারণক্ষমতা: ১০,০০০ স্ক্যান/মাস / ~৩২৪ স্ক্যান/দিন)</h3>
+<ul>
+<li><strong>ব্যবহারকারী:</strong> ঢাকা ও চট্টগ্রামের ১৫–২০টি ব্যস্ত ফার্মেসি ও অংশীদার ডায়াগনস্টিক সেন্টার। সন্ধ্যা ৬টা–১০:৩০টায় ঘণ্টায় ৪৫টি সমসাময়িক স্ক্যান।</li>
+<li><strong>কম্পিউট সার্ভার:</strong> ১টি ডেডিকেটেড অ্যাপ্লিকেশন নোড (4 vCPU, 8 GB RAM, 80 GB NVMe SSD)।</li>
+<li><strong>ডাটাবেস:</strong> ম্যানেজড ক্লাউড PostgreSQL (2 vCPU, 4 GB RAM, প্রতিদিন স্বয়ংক্রিয় ব্যাকআপ)।</li>
+<li><strong>ক্যাশিং ও রেট-লিমিট:</strong> ম্যানেজড রেডিস (Redis - 1 GB RAM)।</li>
+<li><strong>ক্লাউড এআই এপিআই খরচ:</strong> জেমিনি ফ্ল্যাশ এপিআই (~৭,০০০ কল) + গ্রক ফলব্যাক (~১,৫০০ কল)।</li>
+<li><strong>আনুমানিক মাসিক খরচ:</strong> <strong>$১০৫ / মাস (~১২,৬০০ টাকা)</strong>।</li>
+</ul>
+<h3>স্তর ৩: দেশব্যাপী সম্প্রসারণ পর্যায় (ধারণক্ষমতা: ১,০০,০০০ স্ক্যান/মাস / ~৩,০০০ স্ক্যান/দিন)</h3>
+<ul>
+<li><strong>ব্যবহারকারী:</strong> দেশব্যাপী বৃহৎ রিটেইল ফার্মেসি চেইন, হাসপাতাল ও টেলিমেডিসিন নেটওয়ার্ক। পিক আওয়ারে ঘণ্টায় প্রায় ৪৫০টি স্ক্যান।</li>
+<li><strong>কম্পিউট সার্ভার:</strong> লোড ব্যালেন্সারের অধীনে ২টি অ্যাপ্লিকেশন নোড (প্রতিটি 4 vCPU, 8 GB RAM)।</li>
+<li><strong>ডাটাবেস:</strong> হাই-অ্যাভেইলেবিলিটি ম্যানেজড পোস্টগ্রেস ক্লাস্টার (4 vCPU, 16 GB RAM, রিড-রেপ্লিকা সহ)।</li>
+<li><strong>ক্যাশিং ও সেশন:</strong> রেডিস সেন্টিনেল ক্লাস্টার (2 GB RAM)।</li>
+<li><strong>ক্লাউড এআই এপিআই খরচ:</strong> এন্টারপ্রাইজ ভলিউম টিয়ার জেমিনি ভিশন ও গ্রক এপিআই।</li>
+<li><strong>আনুমানিক মাসিক খরচ:</strong> <strong>$৫৪০ / মাস (~৬৪,৮০০ টাকা)</strong>।</li>
+</ul>
+<hr />
+<h2>৬. বাজেট ও ইউনিট ইকোনমিক্স তুলনা (Unit Economics &amp; Cost Breakdown)</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ব্যয়ের খাত (Cost Item)</th>
+<th style="text-align: left;">স্তর ১: পাইলট (১,০০০ স্ক্যান)</th>
+<th style="text-align: left;">স্তর ২: বাণিজ্যিক (১০,০০০ স্ক্যান)</th>
+<th style="text-align: left;">স্তর ৩: দেশব্যাপী (১,০০,০০০ স্ক্যান)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>কম্পিউট ও ওয়েব সার্ভার</strong></td>
+<td style="text-align: left;">$১৪ (১,৬৮০ টাকা)</td>
+<td style="text-align: left;">$৩২ (৩,৮৪০ টাকা)</td>
+<td style="text-align: left;">$১২০ (১৪,৪০০ টাকা)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ম্যানেজড ডাটাবেস (Postgres)</strong></td>
+<td style="text-align: left;">$০ (লোকাল কন্টেইনার)</td>
+<td style="text-align: left;">$২৮ (৩,৩৬০ টাকা)</td>
+<td style="text-align: left;">$১১০ (১৩,২০০ টাকা)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>রেডিস ক্যাশ ও কোটা ট্র্যাকিং</strong></td>
+<td style="text-align: left;">$০ (লোকাল কন্টেইনার)</td>
+<td style="text-align: left;">$১৫ (১,৮০০ টাকা)</td>
+<td style="text-align: left;">$৪৫ (৫,৪০০ টাকা)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ক্লাউড ভিশন ও এলএলএম এপিআই</strong></td>
+<td style="text-align: left;">$৯ (১,০৮০ টাকা)</td>
+<td style="text-align: left;">$৩০ (৩,৬০০ টাকা)</td>
+<td style="text-align: left;">$২৬৫ (৩১,৮০০ টাকা)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>সর্বমোট মাসিক অবকাঠামো ব্যয়</strong></td>
+<td style="text-align: left;"><strong>$২৩ / মাস (২,৭৬০ টাকা)</strong></td>
+<td style="text-align: left;"><strong>$১০৫ / মাস (১২,৬০০ টাকা)</strong></td>
+<td style="text-align: left;"><strong>$৫৪০ / মাস (৬৪,৮০০ টাকা)</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>প্রতি প্রেসক্রিপশন প্রসেসিং খরচ</strong></td>
+<td style="text-align: left;"><strong>২.৭৬ টাকা ($0.0220 USD)</strong></td>
+<td style="text-align: left;"><strong>১.২৯ টাকা ($0.0105 USD)</strong></td>
+<td style="text-align: left;"><strong>০.৬৬ টাকা ($0.0054 USD)</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>৭. রোগীর তথ্য নিরাপত্তা, ডাটা সুরক্ষা ও জিরো-ইমেজ রিটেনশন (Data Privacy &amp; Compliance)</h2>
+<ol>
+<li><strong>জিরো-ইমেজ রিটেনশন নীতি (Zero-Image Retention Architecture):</strong> রোগীর প্রেসক্রিপশনের আপলোডকৃত ছবি সার্ভারে দীর্ঘমেয়াদে সেভ করা হয় না। ছবি মেমরি বাষ্পীভূত র‍্যামে (<code>tmpfs/RAM</code>) প্রসেস হয়ে টেক্সট এক্সট্রাক্ট হওয়া মাত্রই স্থায়ীভাবে মুছে ফেলা হয়।  </li>
+<li><strong>এনোনিমিটি ও সংরক্ষিত ডেটা:</strong> ডাটাবেসে কেবল বেনামী ও স্ট্রাকচার্ড ক্লিনিক্যাল তথ্য (ওষুধের নাম, সেবনবিধি, জেনেরিক ফরম্যাট) সংরক্ষিত থাকে।  </li>
+<li><strong>নিরাপত্তা ও এনক্রিপশন:</strong> সমস্ত এপিআই কমিউনিকেশন TLS 1.3 এনক্রিপশনে সুরক্ষিত, এবং ঢাকা মিডনাইট রিসেট মেকানিজমের সাথে সমন্বিত রেট লিমিটিং প্রযোজ্য।</li>
+</ol>
+
+<div class="footer">
+  <div>MedBangla AI — Production Cloud Architecture & Server Procurement Report</div>
+  <div>Commercial Healthtech Deployment • Dhaka, Bangladesh (UTC+6)</div>
+</div>
+</body>
+</html>

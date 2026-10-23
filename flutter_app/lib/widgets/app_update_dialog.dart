@@ -24,19 +24,55 @@ class AppUpdateDialog extends StatelessWidget {
     );
   }
 
-  Future<void> _launchDownload(BuildContext context) async {
-    final urlStr = status.downloadUrl;
-    if (urlStr.isEmpty) return;
+  Future<void> _launchDownload(BuildContext context, {String? customUrl}) async {
+    final targetUrl = customUrl ??
+        (status.downloadUrl.isNotEmpty
+            ? status.downloadUrl
+            : status.googleDriveUrl);
 
-    final uri = Uri.parse(urlStr);
-    try {
-      if (await canLaunchUrl(uri)) {
-        await launchUrl(uri, mode: LaunchMode.externalApplication);
-      } else {
-        await launchUrl(uri);
+    if (targetUrl.isEmpty) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('ডাউনলোড লিঙ্ক পাওয়া যায়নি। অনুগ্রহ করে সাপোর্ট টিমে যোগাযোগ করুন।'),
+            backgroundColor: Colors.red,
+          ),
+        );
       }
-    } catch (e) {
-      debugPrint('Could not launch APK URL: $e');
+      return;
+    }
+
+    final uri = Uri.parse(targetUrl);
+    bool opened = false;
+
+    try {
+      opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } catch (_) {}
+
+    if (!opened) {
+      try {
+        opened = await launchUrl(uri, mode: LaunchMode.platformDefault);
+      } catch (_) {}
+    }
+
+    // Secondary fallback: if direct link failed, try Google Drive view URL
+    if (!opened && status.googleDriveUrl.isNotEmpty && targetUrl != status.googleDriveUrl) {
+      try {
+        opened = await launchUrl(
+          Uri.parse(status.googleDriveUrl),
+          mode: LaunchMode.externalApplication,
+        );
+      } catch (_) {}
+    }
+
+    if (!opened && context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('ব্রাউজারে লিঙ্কটি খুলতে ব্যর্থ হয়েছে:\n$targetUrl'),
+          backgroundColor: Colors.red,
+          duration: const Duration(seconds: 5),
+        ),
+      );
     }
   }
 
@@ -221,6 +257,26 @@ class AppUpdateDialog extends StatelessWidget {
                   ),
                 ],
               ),
+
+              if (status.googleDriveUrl.isNotEmpty &&
+                  status.googleDriveUrl != status.downloadUrl) ...[
+                const SizedBox(height: 10),
+                TextButton.icon(
+                  onPressed: () => _launchDownload(
+                    context,
+                    customUrl: status.googleDriveUrl,
+                  ),
+                  icon: const Icon(Icons.open_in_browser_rounded, size: 16),
+                  label: const Text(
+                    'গুগল ড্রাইভে খুলুন / বিকল্প লিঙ্ক',
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.primary,
+                    ),
+                  ),
+                ),
+              ],
 
               if (status.isForceUpdate) ...[
                 const SizedBox(height: 8),

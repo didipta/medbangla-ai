@@ -336,16 +336,23 @@ def evaluate_client_status(
     update_available = False
     is_force_update = False
 
-    if client_version_code is not None:
-        if client_version_code < latest_code:
+    # 1. Compare by version code
+    if client_version_code is not None and client_version_code < latest_code:
+        update_available = True
+
+    # 2. Compare by version name string (e.g. "1.0.0" vs "1.1.0" or "2.0.0")
+    latest_ver_str = str(config.get("latest_version") or "").strip().lstrip("vV")
+    if client_version:
+        client_clean = str(client_version).strip().lstrip("vV")
+        if latest_ver_str and client_clean != latest_ver_str:
             update_available = True
-        if client_version_code < min_supported_code or (update_available and is_force_flag):
+
+    # 3. Determine if update is mandatory (forced)
+    if update_available:
+        if is_force_flag:
             is_force_update = True
-    elif client_version:
-        # Fallback comparison if version code is not supplied
-        if client_version != config.get("latest_version"):
-            update_available = True
-            is_force_update = is_force_flag
+        elif client_version_code is not None and client_version_code < min_supported_code:
+            is_force_update = True
 
     return {
         "status": "success",
