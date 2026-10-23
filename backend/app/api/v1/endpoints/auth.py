@@ -5,6 +5,7 @@ Professional Google OAuth authentication endpoint for real-world production stan
 First-time users are automatically registered and saved in Neon PostgreSQL.
 """
 
+import re
 import logging
 from typing import Optional, Dict, Any
 import requests
@@ -102,7 +103,6 @@ def update_auth_config(payload: SetAuthConfigRequest):
     try:
         env_path = settings.BACKEND_DIR / ".env"
         if env_path.exists():
-            import re
             content = env_path.read_text(encoding="utf-8")
             if "GOOGLE_CLIENT_ID=" in content:
                 new_content = re.sub(r"GOOGLE_CLIENT_ID=.*", f"GOOGLE_CLIENT_ID={client_id}", content)
@@ -182,7 +182,6 @@ def login_with_google(request: Request, payload: GoogleAuthRequest):
 
         # Try to persist user in DB if connection available
         try:
-            from app.services.user_service import upsert_google_user
             db_user, _ = upsert_google_user(
                 google_data={
                     "sub": user_record["google_id"],
