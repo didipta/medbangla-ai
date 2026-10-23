@@ -100,6 +100,7 @@ async def analyze_prescription_endpoint(
         use_vision_fallback=use_vision_fallback,
         request=request,
         current_user=current_user,
+        skip_rate_limit=True,
     )
 
     # Record analysis execution in logs to increment count & reduce remaining quota

@@ -49,7 +49,7 @@ POLICIES: Dict[str, RateLimitPolicy] = {
     "prescription_ocr": RateLimitPolicy(
         name="prescription_ocr",
         daily_limit=2,                 # Max 2 prescription analyses per day
-        burst_limit=1,                 # 1 request per 10s window (anti-spam)
+        burst_limit=2,                 # Allow burst of 2 prescription requests in 10s window
         burst_window_seconds=10,
         label_bn="প্রেসক্রিপশন এনালাইসিস",
         label_en="Prescription OCR Analysis",

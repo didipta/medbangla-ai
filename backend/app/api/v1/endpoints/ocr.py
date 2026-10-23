@@ -117,6 +117,7 @@ async def analyze_prescription(
     use_vision_fallback: bool = Query(True, description="Enable Vision AI fallback for handwritten doctor scripts"),
     request: Request = None,  # type: ignore
     current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional),
+    skip_rate_limit: bool = False,
 ):
     # Enforce mandatory authentication: Zero unauthenticated image processing allowed
     if not current_user or not current_user.get("id"):
@@ -133,8 +134,8 @@ async def analyze_prescription(
             detail="Demo accounts cannot upload custom images. Please sign in with your Google account to analyze your personal prescriptions.",
         )
 
-    # Enforce rate limit if request context is present
-    if request:
+    # Enforce rate limit if request context is present and not pre-checked upstream
+    if request and not skip_rate_limit:
         user_id = current_user.get("id")
         rate_limiter.check_and_consume("prescription_ocr", request, user_id=user_id, consume=False)
 
