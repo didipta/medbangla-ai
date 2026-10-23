@@ -116,14 +116,22 @@ def register_exception_handlers(app: FastAPI):
     @app.exception_handler(HTTPException)
     async def http_exception_handler(request: Request, exc: HTTPException):
         req_id = getattr(request.state, "request_id", "-")
-        logger.warning(
-            "HTTPException [%d] on %s %s: %s [req_id: %s]",
-            exc.status_code,
-            request.method,
-            request.url.path,
-            exc.detail,
-            req_id,
+        log_detail = (
+            exc.detail.get("message_en") or exc.detail.get("error_code")
+            if isinstance(exc.detail, dict)
+            else str(exc.detail)
         )
+        try:
+            logger.warning(
+                "HTTPException [%d] on %s %s: %s [req_id: %s]",
+                exc.status_code,
+                request.method,
+                request.url.path,
+                log_detail,
+                req_id,
+            )
+        except Exception:
+            pass
         msg = exc.detail if isinstance(exc.detail, str) else (exc.detail.get("message") if isinstance(exc.detail, dict) else str(exc.detail))
         details = exc.detail if isinstance(exc.detail, dict) else None
         return create_error_response(

@@ -54,7 +54,8 @@ export const Navbar: React.FC = () => {
 
   useEffect(() => {
     fetchHealth();
-    const interval = setInterval(fetchHealth, 10000);
+    // Poll system health once every 1 minute (60,000 ms)
+    const interval = setInterval(fetchHealth, 60000);
     return () => clearInterval(interval);
   }, []);
 
