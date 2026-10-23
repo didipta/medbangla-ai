@@ -48,10 +48,10 @@ register_exception_handlers(app)
 
 
 # =============================================================================
-# Root & Health Endpoints
+# Root & Health Endpoints (Supporting both GET and HEAD for Docker/Render Probers)
 # =============================================================================
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
     return {
         "app": settings.PROJECT_NAME,
@@ -62,8 +62,8 @@ def root():
     }
 
 
-@app.get("/health")
-@app.get("/api/v1/health")
+@app.api_route("/health", methods=["GET", "HEAD"])
+@app.api_route("/api/v1/health", methods=["GET", "HEAD"])
 def health_check(request: Request):
     from app.core.rate_limiter import rate_limiter
     from app.ai.rag.indexer import ClinicalRAGIndexer

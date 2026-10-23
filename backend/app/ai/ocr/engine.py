@@ -22,6 +22,9 @@ import cv2
 import numpy as np
 from rapidfuzz import process, fuzz
 
+# Silence ONNX Runtime telemetry warning in containers
+os.environ.setdefault("ORT_LOGGING_LEVEL", "3")
+
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
@@ -102,7 +105,15 @@ class PrescriptionOCREngine:
                 self.character_dict = []
 
     def _init_native_predictor(self):
-        """Initializes native Paddle Inference predictor if paddle is installed in environment."""
+        """
+        Native Paddle Inference is optional and disabled by default on memory-constrained (512MB)
+        cloud runtimes like Render to prevent OOM (Out Of Memory) container restarts.
+        RapidOCR ONNX universal engine handles all CPU OCR recognition with high efficiency.
+        """
+        if os.environ.get("ENABLE_PADDLE_INFERENCE", "false").lower() != "true":
+            self.predictor = None
+            return
+
         json_path = os.path.join(self.model_dir, "inference.json")
         pdiparams_path = os.path.join(self.model_dir, "inference.pdiparams")
 
