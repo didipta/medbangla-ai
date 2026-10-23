@@ -108,15 +108,23 @@ class PrescriptionOCREngine:
 
         if os.path.exists(json_path) and os.path.exists(pdiparams_path):
             try:
+                import warnings
+                # Suppress harmless ccache warning from paddle cpp_extension in Docker/Render
+                warnings.filterwarnings("ignore", message=".*No ccache found.*")
+                os.environ["GLOG_minloglevel"] = "3"
+                os.environ["FLAGS_print_ir"] = "0"
+
                 import paddle.inference as paddle_infer
 
                 config = paddle_infer.Config(json_path, pdiparams_path)
                 config.disable_gpu()
-                config.set_cpu_math_library_num_threads(4)
+                if hasattr(config, "disable_glog_info"):
+                    config.disable_glog_info()
+                config.set_cpu_math_library_num_threads(2)
                 self.predictor = paddle_infer.create_predictor(config)
                 logger.info("Native Paddle Inference predictor initialized successfully")
             except Exception as e:
-                logger.info("Native Paddle Inference unavailable in current runtime: %s", e)
+                logger.debug("Native Paddle Inference unavailable in current runtime: %s", e)
                 self.predictor = None
 
     # =========================================================================
