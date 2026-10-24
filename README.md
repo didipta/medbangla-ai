@@ -1,5 +1,5 @@
 # 🩺 MedBangla AI (মেডবাংলা এআই)
-### AI-Powered Bangla Prescription Understanding, Medication Safety & Clinical Decision Support System
+### AI-Powered Bilingual Prescription Digitization, Medication Safety Triage & Clinical Decision Support
 
 [![CI Pipeline](https://github.com/didipta/medbangla-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/didipta/medbangla-ai/actions/workflows/ci.yml)
 [![CD Pipeline](https://github.com/didipta/medbangla-ai/actions/workflows/cd.yml/badge.svg)](https://github.com/didipta/medbangla-ai/actions/workflows/cd.yml)
@@ -8,273 +8,306 @@
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.4-black.svg)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com/)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B.svg)](https://flutter.dev/)
+[![Neon Database](https://img.shields.io/badge/Neon-PostgreSQL_16-00E599.svg)](https://neon.tech/)
 
-> **Empowering patients and clinicians across Bangladesh** with bilingual prescription OCR, automatic drug-drug interaction alerts grounded in official DGDA clinical monographs, and accessible explanations in native Bengali.
+> **MedBangla AI** is a medical AI platform specifically engineered for Bangladesh's clinical ecosystem. It addresses the epidemic of illegible handwritten prescriptions, polypharmacy risks, and linguistic barriers by providing **hybrid CPU-first bilingual OCR (RapidOCR + Gemini Flash)**, **fuzzy entity matching across 17,589+ DGDA-approved medicines**, **instant pairwise Drug-Drug Interaction (DDI) safety checks**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
 
 ---
 
-## 🌐 Live Deployments & Capstone Deliverables
+## 🌐 Official Deployments & Quick Access Links
 
-| Resource | Access Link | Description |
+| Platform / Service | Live URL / Download Link | Description & Access Notes |
 | :--- | :--- | :--- |
-| 🚀 **Live Web Application** | [medbangla.vercel.app](https://medbangla.vercel.app) *(or your deployed Vercel domain)* | Interactive Next.js 16 web application with side-by-side verification canvas |
-| ⚡ **Live API Documentation** | [medbangla-backend.onrender.com/docs](https://medbangla-backend.onrender.com/docs) | Interactive Swagger UI for FastAPI backend endpoints |
-| 📑 **Capstone Final Report** | [CAPSTONE_FINAL_REPORT.md](CAPSTONE_FINAL_REPORT.md) | Comprehensive 5-page report (Problem, Architecture, AI Workflow, Evaluation & Conclusions) |
-| 🏗️ **Master Architecture Spec** | [PROJECT_PLAN.md](PROJECT_PLAN.md) | In-depth engineering specifications & database schema |
-| 📘 **Infrastructure & GPU Audit** | [MEDBANGLA_AI_SYSTEM_ARCHITECTURE_AND_INFRASTRUCTURE_REPORT.md](MEDBANGLA_AI_SYSTEM_ARCHITECTURE_AND_INFRASTRUCTURE_REPORT.md) | Detailed infrastructure, server sizing, and bilingual system blueprint |
-| 🔄 **CI/CD Deployment Guide** | [CI_CD_GUIDE.md](CI_CD_GUIDE.md) | GitHub Actions, GHCR images, Render, and zero-downtime deployment |
+| 💻 **Patient Web Application** | **[medbangla-ai-liart.vercel.app](https://medbangla-ai-liart.vercel.app/)** | Public patient portal: Interactive prescription upload, side-by-side verification canvas, interaction checker, and Bengali AI consultation. |
+| 🛡️ **Clinical Admin Command Portal** | **[medbangla-ai-liart.vercel.app/admin](https://medbangla-ai-liart.vercel.app/admin)** | Clinical dashboard: KPI telemetry, prescription audits, user accounts, medicine catalog CRUD, interaction matrix, and live app control. |
+| ⚡ **Production Backend REST API** | **[medbangla-ai.onrender.com](https://medbangla-ai.onrender.com/)** | High-performance FastAPI ASGI server deployed on Render with PostgreSQL connection pooling and CPU-optimized ONNX runtime. |
+| 📑 **Interactive Swagger API Docs** | **[medbangla-ai.onrender.com/docs](https://medbangla-ai.onrender.com/docs)** | Interactive OpenAPI Swagger UI for executing and testing all endpoints with JWT Bearer authentication. |
+| 📖 **ReDoc API Documentation** | **[medbangla-ai.onrender.com/redoc](https://medbangla-ai.onrender.com/redoc)** | Clean, hierarchical OpenAPI specifications and request/response schema explorer. |
+| 📱 **Android Mobile App (APK)** | **[Download APK (Google Drive)](https://drive.google.com/file/d/1psf4w3CSwTM8RRKBZ-gXISFbU9MF3vfi/view?usp=drive_link)** | Production Android package (`.apk` v1.0.0, ~24.8 MB) featuring hardware camera scanner, offline DGDA catalog, and live maintenance hooks. |
+
+### 🔑 Administrator Portal Credentials
+
+The Admin Portal supports dual authentication tiers:
+- **Real Admin Login (Full Control):**  
+  - Email: `admin@medbangla.ai`  
+  - Password: `MedBanglaAdmin2026!`  
+  - *Unlocks: Live App & Update Control, System Maintenance Mode toggling, production Google Drive APK distribution, and database mutation.*
+- **1-Click Instant Demo Login (Sandbox):**  
+  - Available directly on `/admin/login` via the **"⚡ এক ক্লিকে ডেমো অ্যাডমিন লগইন"** button.  
+  - Loads realistic simulated clinical audit logs and metrics while keeping live mobile app controls securely locked.
 
 ---
 
-## 🚨 Problem Statement & Solution
-
-### The Challenge
-- **Illegible Doctor Handwriting:** Over 70% of outpatient prescriptions in Bangladesh are handwritten in cursive, leading to misinterpretation, dispensing of incorrect strengths, and life-threatening medical errors.
-- **Polypharmacy & Drug Interactions:** Comorbid patients frequently take 5–10 concurrent drugs. Without automated screening, contraindicated drug pairs go unnoticed.
-- **Language Barrier:** Clinical monographs and package inserts are in English. Over 85% of citizens cannot decipher pharmacological instructions and forget verbal chamber advice.
-
-### The MedBangla AI Solution
-MedBangla AI creates a safety net by combining **OpenCV image preprocessing**, **RapidOCR (ONNX CPU)** with **Gemini Vision fallback**, **Levenshtein/Trigram fuzzy matching** across 17,589 DGDA-registered medicines, **pairwise Drug-Drug Interaction (DDI) screening**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
-
----
-
-## 📸 User Interface & Visual Walkthrough
-
-### 1. Interactive Prescription Verification & Side-by-Side Canvas
-Upload or photograph any medical prescription. The system extracts text lines, predicts medicine names, and provides an interactive side-by-side verification canvas where users can review candidates.
-
-![Prescription Verification Canvas](frontend/public/images/feature_rx_verification.jpg)
-
----
-
-### 2. Sourced Drug-Drug Interaction Screening
-Detected medications are instantly cross-referenced against our clinical interaction matrix. Interactions are triaged into **CONTRAINDICATED**, **MAJOR**, **MODERATE**, or **MINOR** with citations to pharmacological literature.
-
-![Drug-Drug Interaction Safety Alerts](frontend/public/images/feature_drug_safety.jpg)
-
----
-
-### 3. Culturally Fluent Bengali Clinical RAG Assistant
-Patients can ask questions about their prescribed medicines in plain Bengali. The assistant responds using official DGDA monographs, detailing indications, food interactions, and precautions without hallucinating diagnoses.
-
-![Bengali Clinical RAG Chat](frontend/public/images/feature_bangla_rag_chat.jpg)
-
----
-
-### 4. Cross-Platform Mobile Experience (Flutter App)
-Field-tested for rural healthcare workers and patients on low-cost Android smartphones with hardware camera acceleration and offline DGDA directory access.
-
-![Mobile App Experience](frontend/public/images/hero_mobile_prescription_mockup.jpg)
-
----
-
-## 🎯 Step-by-Step Usage Instructions
+## 🚨 The Healthcare Problem in Bangladesh
 
 ```
-[1. Upload Image] ──> [2. Review & Verify] ──> [3. Safety Triage] ──> [4. Bengali RAG Q&A]
+┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐
+│  70%+ Illegible Prescriptions        │     │  Polypharmacy & Drug Interactions    │     │  Language & Comprehension Barrier    │
+│  Handwritten cursive leads to        │ ──> │  Patients taking 5-10 concurrent     │ ──> │  Pharmacology inserts are in English │
+│  dispensing the wrong drug/strength  │     │  medications face fatal drug pairs   │     │  85%+ cannot decipher chamber advice │
+└──────────────────────────────────────┘     └──────────────────────────────────────┘     └──────────────────────────────────────┘
 ```
 
-1. **Step 1: Upload or Snap Prescription**
-   - Click **"প্রেসক্রিপশন আপলোড করুন" (Upload Prescription)** on the web portal or tap the camera button in the Flutter mobile app.
-   - Supported formats: `.jpg`, `.png`, `.webp`, `.pdf` up to 10MB.
-2. **Step 2: Interactive Verification (Human-in-the-Loop)**
-   - The AI identifies medicine names, dosage frequencies (e.g. `১+০+১`), and durations.
-   - High-confidence matches ($\ge 85\%$) are pre-selected. For low-confidence cursive crops, tap to select from top DGDA candidate suggestions or manually edit.
-3. **Step 3: Review Medication Safety & Interactions**
-   - Click **"ড্রাগ ইন্টারঅ্যাকশন চেক করুন" (Check Safety)**.
-   - If severe interactions exist (e.g., Ciprofloxacin + Antacid, or ACE inhibitor + Spironolactone), the system flags red warnings with clinical explanations and instructions to contact the prescribing doctor.
-4. **Step 4: Ask Questions in Plain Bengali**
-   - Use the embedded chat assistant: *"এই ওষুধটি খাওয়ার সঠিক নিয়ম কি?"* (What is the right way to take this?) or *"খাওয়ার আগে না পরে খাব?"* (Should I take this before or after meals?).
-   - Receive verified, grounded advice in plain Bengali.
+1. **Illegible Doctor Handwriting:** Over 70% of outpatient prescriptions in Bangladesh are handwritten in cursive. Pharmacists and patients frequently misread brand names, causing dispensing errors and adverse drug events.
+2. **Unscreened Polypharmacy:** Elderly and chronic-disease patients routinely take multiple prescription drugs simultaneously. Without automated screening, severe contraindicated combinations (e.g., Ciprofloxacin + Antacids, ACE Inhibitors + Potassium-sparing diuretics) go undetected.
+3. **Language & Monograph Gap:** All official DGDA pharmacology monographs and package inserts are written in English. Over 85% of citizens cannot decipher pharmacological instructions and forget verbal chamber advice.
 
 ---
 
-## 🧠 AI/ML Architecture & Methodology
+## 🖥️ Web Application Pages & Modules List (`frontend/app/`)
 
-```
-                               ┌────────────────────────────────────────┐
-                               │       Prescription Image Upload        │
-                               └──────────────────┬─────────────────────┘
-                                                  │
-                                                  ▼
-                               ┌────────────────────────────────────────┐
-                               │   Stage 1: OpenCV Image Preprocessing  │
-                               │   - Bilateral Denoising                │
-                               │   - CLAHE Adaptive Contrast            │
-                               │   - Deskew & Perspective Normalization │
-                               └──────────────────┬─────────────────────┘
-                                                  │
-                                                  ▼
-                               ┌────────────────────────────────────────┐
-                               │   Stage 2: Hybrid Bilingual OCR Hub    │
-                               │   - RapidOCR (ONNX CPU Runtime)        │
-                               │   - Confidence Evaluation (< 75%)      │
-                               │   - Multimodal Fallback (Gemini Flash) │
-                               └──────────────────┬─────────────────────┘
-                                                  │
-                                                  ▼
-                               ┌────────────────────────────────────────┐
-                               │   Stage 3: Normalization & Fuzzy Match │
-                               │   - Regex Dosage Extractor (1+0+1)     │
-                               │   - PostgreSQL pg_trgm Trigram Search  │
-                               │   - 17,589 DGDA Brand & Generic Catalog│
-                               └──────────────────┬─────────────────────┘
-                                                  │
-                                                  ▼
-                               ┌────────────────────────────────────────┐
-                               │   Stage 4: Pairwise Interaction Engine │
-                               │   - Severity Triage (CONTRAINDICATED)  │
-                               │   - Evidence-Grounded Pharmacovigilance│
-                               └──────────────────┬─────────────────────┘
-                                                  │
-                                                  ▼
-                               ┌────────────────────────────────────────┐
-                               │   Stage 5: Bengali Clinical RAG Engine │
-                               │   - Dense Semantic Retrieval (pgvector)│
-                               │   - Grounded LLM Context Synthesis     │
-                               │   - Strict Hallucination Guardrails    │
-                               └────────────────────────────────────────┘
-```
+The MedBangla AI web application is built on **Next.js 16 (App Router)** with **TypeScript**, **Tailwind CSS**, and **Lucide Icons**:
 
-### 1. Hybrid CPU-First Vision & OCR Hub
-- **RapidOCR with ONNX Runtime:** Runs locally on standard CPU in **sub-second latency (250–850ms)**, recognizing printed English and Bengali text.
-- **Multimodal Cloud Vision Fallback:** If confidence drops below 75% on handwritten cursive, the crop is routed to Google Gemini 2.0 Flash / Groq Qwen-27B Vision, keeping total processing cost at **1.29 BDT ($0.0105 USD)** per prescription.
-
-### 2. Lexical & Trigram Entity Matching
-- Custom regular expressions extract clinical dosing shorthand:
-  - Patterns: `1+0+1`, `0+1+0`, `1 tab daily`, `খাওয়ার আগে`, `ভরা পেটে`.
-- Postgres `pg_trgm` calculates trigram similarity against 17,589 DGDA brands and generics in $<18\text{ms}$:
-$$\text{Similarity}(S_1, S_2) = \frac{|\text{Trigrams}(S_1) \cap \text{Trigrams}(S_2)|}{|\text{Trigrams}(S_1) \cup \text{Trigrams}(S_2)|}$$
-
-### 3. Pairwise Drug-Drug Interaction (DDI) Matrix
-- Sourced from British National Formulary (BNF), Stockley’s Drug Interactions, and DGDA alerts.
-- Evaluates all pairs $O(n^2)$ instantly, flagging contraindications, adverse pharmacokinetic changes, and patient risk profiles.
-
-### 4. Bengali Clinical RAG Engine & Guardrails
-- **Chunked Vector Embeddings:** DGDA monographs indexed via `sentence-transformers` and stored in `pgvector`.
-- **Hallucination Blocker:** LLM responses are strictly bounded by retrieved monograph context. The assistant never diagnoses diseases or alters prescribed doses.
+| Route Path | Page Title / Module | Key Features & Functionality |
+| :--- | :--- | :--- |
+| **`/`** | **Home & Live Prescription Digitizer** | Interactive prescription image upload (drag-and-drop / file picker), OpenCV image preprocessing preview, side-by-side crop verification canvas, dosage frequency extraction (`১+০+১`), and candidate brand matching. |
+| **`/checker`** | **Drug-Drug Interaction Checker** | Multi-drug safety triage engine. Users can add multiple brands or generics to evaluate pairwise pharmacological safety, risk severity (Contraindicated, Major, Moderate, Minor), clinical mechanism, and DGDA citations. |
+| **`/medicines`** | **DGDA National Medicine Catalog** | Live searchable directory of 17,589+ DGDA-registered medicines. Filter by brand name, generic monograph, strength, dosage form (Tablet, Syrup, Injection), manufacturer, and government-regulated maximum retail price (MRP). |
+| **`/about`** | **Clinical Mission & Architecture** | Comprehensive overview of the project's background, clinical safety protocols, hybrid OCR methodology, optical validation architecture, and research team. |
+| **`/admin/login`** | **Admin Authentication Gateway** | Dual-tier access portal: 1-Click Instant Demo Login for evaluators and secure credential authentication (`admin@medbangla.ai`) with JWT session management. |
+| **`/admin`** | **Clinical Intelligence Dashboard** | Real-time administrative cockpit: Total prescriptions scanned, overall OCR accuracy rate (94.2%), critical interaction alerts, latency breakdown, timeline volume charts, and severity distribution. |
+| **`/admin/prescriptions`** | **Prescription Audit Ledger** | Detailed audit logs of all digitized prescriptions, patient identifiers, prescribing doctor metadata, OCR confidence scores, detected drug lists, and risk classifications. |
+| **`/admin/users`** | **User Accounts & Doctor Registry** | Directory of registered healthcare professionals and patients. Displays BMDC registration numbers, account verification statuses, prescription counts, and session activity. |
+| **`/admin/medicines`** | **Medicine Catalog CRUD Console** | Administrative management of the national medicine directory. Allows authorized staff to insert new pharmaceutical monographs, modify strengths/prices, and archive obsolete entries. |
+| **`/admin/interactions`** | **Drug Safety Matrix Editor** | Dynamic matrix for managing drug-drug interactions. Clinical directors can add, update, or adjust severity levels, clinical mechanisms, and cautionary Bengali recommendations. |
+| **`/admin/system`** | **Infrastructure & Telemetry Center** | Hardware and infrastructure telemetry: Live status of Neon Serverless PostgreSQL, RapidOCR ONNX runtime, vector indexing cache, AI API latencies, and cache purge triggers. |
+| **`/admin/app-control`** | **App & Update Control Center** *(Real Admin Only)* | **Exclusive to Real Login:** Master switch for live emergency mobile maintenance mode, maintenance title/ETA messages, force-update minimum version requirements, Google Drive APK link resolver, and direct download distribution. |
 
 ---
 
-## 💻 Tech Stack Matrix
+## 📱 Flutter Mobile Application Screens List (`flutter_app/lib/`)
+
+The MedBangla AI mobile app is engineered in **Flutter 3.x** for Android and iOS, optimized for low-end hardware in rural clinical environments:
+
+| Screen File | Screen Name | Description & Capabilities |
+| :--- | :--- | :--- |
+| **`home_screen.dart`** | **Mobile Command Dashboard** | Home screen featuring quick-action tiles (*Scan Prescription*, *Check Interactions*, *Search Catalog*), national emergency hotline buttons (`999`, `16263`, `333`), and daily clinical safety tips. |
+| **`scanner_screen.dart`** | **Camera & Gallery Scanner** | Hardware-accelerated camera view with real-time framing guide, flash toggle, gallery image selector, aspect ratio cropping, and asynchronous upload to the RapidOCR backend. |
+| **`medicines_screen.dart`** | **Offline/Online Drug Directory** | Fast, indexed search across 17,589+ DGDA medicines with fuzzy spelling tolerance, pricing, dosage forms, manufacturer details, and indications in Bengali. |
+| **`interaction_screen.dart`** | **Safety & Interaction Triage** | Multi-medicine selection drawer with instant pairwise screening. Displays color-coded risk alerts (Red = Contraindicated, Orange = Major, Yellow = Moderate) with BNF clinical evidence. |
+| **`chat_screen.dart`** | **Bengali Clinical RAG Assistant** | Conversational chat interface with markdown formatting, voice input readiness, contextual question chips, and strictly grounded drug advice (food timings, dosage safety, side effects). |
+| **`profile_screen.dart`** | **Patient Profile & Scan History** | Displays saved prescriptions, recent interaction checks, offline storage management, language toggles (Bengali/English), and support documentation. |
+| **`main_navigation_screen.dart`** | **Navigation Shell** | Persistent bottom navigation bar with smooth transitions between Home, Medicines, Scanner, Interactions, and AI Assistant. |
+| **`maintenance_screen.dart`** | **Emergency Maintenance Interceptor** | Full-screen barrier displayed automatically when Admin activates Maintenance Mode. Displays custom Bengali message, estimated resolution ETA, and emergency hotlines. |
+| **`app_update_dialog.dart`** | **In-App Update Engine** | Checks backend version on startup. Shows flexible or mandatory/forced update modal with changelog notes and direct APK download from Google Drive. |
+
+---
+
+## 🔌 Complete REST API Endpoints Reference
+
+All endpoints are hosted at `https://medbangla-ai.onrender.com/` under the `/api/v1` namespace. Interactive documentation is accessible at [`/docs`](https://medbangla-ai.onrender.com/docs).
+
+### 1. Prescription OCR & Image Intelligence (`/api/v1/ocr`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `POST` | `/api/v1/ocr/scan-prescription` | None | Upload prescription image (`multipart/form-data`). Performs OpenCV preprocessing, RapidOCR extraction with Gemini Vision fallback, dosage regex parsing, and trigram brand matching. |
+| `GET` | `/api/v1/ocr/status` | None | Checks OCR engine health, RapidOCR ONNX model initialization, and GPU/CPU inference readiness. |
+
+### 2. Drug-Drug Interaction Matrix (`/api/v1/interactions`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `POST` | `/api/v1/interactions/check-interactions` | None | Accepts a list of medicine names or brand IDs. Computes all $O(n^2)$ pairwise combinations and returns categorized risk severities, clinical mechanisms, and Bengali advice. |
+
+### 3. National Medicine Catalog (`/api/v1/medicines`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `GET` | `/api/v1/medicines` | None | Search DGDA medicines by brand name, generic name, manufacturer, or dosage form with pagination. |
+| `GET` | `/api/v1/medicines/{brand_id}` | None | Retrieve complete monograph details for a specific medicine (strength, packsize, price, indications). |
+
+### 4. Bengali Clinical RAG Chatbot (`/api/v1/chat`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `POST` | `/api/v1/chat/ask` | None | Asks a clinical question regarding prescribed medicines. Employs semantic vector retrieval over DGDA monographs and returns grounded Bengali advice. |
+| `POST` | `/api/v1/chat/conversation` | Bearer | Multi-turn clinical conversational session with persistent context for authenticated patients or clinicians. |
+| `GET` | `/api/v1/chat/history/{conv_id}` | Bearer | Retrieves historical Q&A exchanges for a given clinical conversation thread. |
+
+### 5. Prescription Lifecycle Management (`/api/v1/prescriptions`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `GET` | `/api/v1/prescriptions` | Bearer | Lists verified prescriptions associated with the authenticated user. |
+| `POST` | `/api/v1/prescriptions` | Bearer | Saves a digitized prescription record with extracted medicines and doctor metadata. |
+| `GET` | `/api/v1/prescriptions/{id}` | Bearer | Fetches detailed digitized prescription record by ID. |
+| `PUT` | `/api/v1/prescriptions/{id}` | Bearer | Updates or corrects medicine names, dosages, or notes on an existing prescription. |
+| `DELETE` | `/api/v1/prescriptions/{id}` | Bearer | Soft-deletes a prescription record from the patient's personal history. |
+
+### 6. System Telemetry & Mobile App Control (`/api/v1/system`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `GET` | `/api/v1/system/app-control` | None | Polled by Flutter mobile apps on launch. Returns maintenance mode state, custom messages, latest version code, force-update requirement, and direct APK download link. |
+| `GET` | `/api/v1/system/download-apk` | None | Automatically redirects download managers and mobile browsers directly to the active Google Drive APK download link. |
+
+### 7. User Authentication & Profile (`/api/v1/auth`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `POST` | `/api/v1/auth/login` | None | Authenticates user credentials (email & password) and issues an access JWT. |
+| `POST` | `/api/v1/auth/register` | None | Registers a new patient or doctor account with BMDC registration number. |
+| `GET` | `/api/v1/auth/me` | Bearer | Returns the profile of the currently authenticated user. |
+| `PUT` | `/api/v1/auth/me` | Bearer | Updates user profile details, BMDC credentials, or contact information. |
+
+### 8. Administrator Command Portal (`/api/v1/admin`)
+
+| Method | Endpoint | Auth | Description |
+| :---: | :--- | :---: | :--- |
+| `POST` | `/api/v1/admin/login` | None | Authenticates clinical administrator (`admin@medbangla.ai` or instant demo) and issues high-privilege Admin JWT. |
+| `GET` | `/api/v1/admin/me` | Admin | Validates active administrator session and returns profile information. |
+| `GET` | `/api/v1/admin/stats` | Admin | Returns clinical KPI summary, scan volume time series, severity breakdown, and AI engine latencies. |
+| `GET` | `/api/v1/admin/prescriptions` | Admin | Paginated audit log of all system prescriptions with OCR confidence and risk flags. |
+| `DELETE` | `/api/v1/admin/prescriptions/{id}` | Admin | Soft-deletes or archives an erroneous prescription audit record. |
+| `GET` | `/api/v1/admin/users` | Admin | Paginated list of registered users with BMDC registration verification status. |
+| `GET` | `/api/v1/admin/medicines` | Admin | Administrative search and catalog list of DGDA medicines. |
+| `POST` | `/api/v1/admin/medicines` | Admin | Inserts a new brand or generic monograph into the national catalog. |
+| `PUT` | `/api/v1/admin/medicines/{id}` | Admin | Updates an existing medicine's strength, formulation, pricing, or manufacturer. |
+| `DELETE` | `/api/v1/admin/medicines/{id}` | Admin | Removes or deprecates an unlisted drug from active clinical search. |
+| `GET` | `/api/v1/admin/interactions` | Admin | Lists all interaction rules in the clinical matrix. |
+| `POST` | `/api/v1/admin/interactions` | Admin | Adds a new drug interaction pair with severity level and Bengali clinical advice. |
+| `PUT` | `/api/v1/admin/interactions/{id}` | Admin | Updates interaction severity, pharmacological mechanism, or citations. |
+| `DELETE` | `/api/v1/admin/interactions/{id}` | Admin | Removes an interaction rule from the clinical safety matrix. |
+| `GET` | `/api/v1/admin/system/diagnostics` | Admin | Infrastructure telemetry: Database connectivity, memory usage, RapidOCR status, and chunk indices. |
+| `POST` | `/api/v1/admin/system/cache/clear` | Admin | Purges in-memory vector cache and reloads DGDA trigram indexes. |
+| `GET` | `/api/v1/admin/app-control` | **Real Admin** | **Real Login Only:** Retrieves live mobile app control settings, maintenance state, and APK URLs. |
+| `PUT` | `/api/v1/admin/app-control` | **Real Admin** | **Real Login Only:** Publishes new mobile maintenance status, force-update versions, and updates APK links. |
+| `POST` | `/api/v1/admin/app-control/test-drive-link` | **Real Admin** | **Real Login Only:** Validates a Google Drive share URL and converts it into a direct download URL. |
+
+---
+
+## 🧠 AI/ML Architecture & Pipeline Flow
+
+```
+                                ┌────────────────────────────────────────┐
+                                │       Prescription Image Upload        │
+                                └──────────────────┬─────────────────────┘
+                                                   │
+                                                   ▼
+                                ┌────────────────────────────────────────┐
+                                │   Stage 1: OpenCV Image Preprocessing  │
+                                │   - Bilateral Denoising                │
+                                │   - CLAHE Adaptive Contrast            │
+                                │   - Deskew & Perspective Normalization │
+                                └──────────────────┬─────────────────────┘
+                                                   │
+                                                   ▼
+                                ┌────────────────────────────────────────┐
+                                │   Stage 2: Hybrid Bilingual OCR Hub    │
+                                │   - RapidOCR (ONNX CPU Runtime)        │
+                                │   - Confidence Evaluation (< 75%)      │
+                                │   - Multimodal Fallback (Gemini Flash) │
+                                └──────────────────┬─────────────────────┘
+                                                   │
+                                                   ▼
+                                ┌────────────────────────────────────────┐
+                                │   Stage 3: Normalization & Fuzzy Match │
+                                │   - Regex Dosage Extractor (1+0+1)     │
+                                │   - PostgreSQL pg_trgm Trigram Search  │
+                                │   - 17,589 DGDA Brand & Generic Catalog│
+                                └──────────────────┬─────────────────────┘
+                                                   │
+                                                   ▼
+                                ┌────────────────────────────────────────┐
+                                │   Stage 4: Pairwise Interaction Engine │
+                                │   - Severity Triage (CONTRAINDICATED)  │
+                                │   - Evidence-Grounded Pharmacovigilance│
+                                └──────────────────┬─────────────────────┘
+                                                   │
+                                                   ▼
+                                ┌────────────────────────────────────────┐
+                                │   Stage 5: Bengali Clinical RAG Engine │
+                                │   - Dense Semantic Retrieval (pgvector)│
+                                │   - Grounded LLM Context Synthesis     │
+                                │   - Strict Hallucination Guardrails    │
+                                └────────────────────────────────────────┘
+```
+
+1. **CPU-First Hybrid Vision Pipeline:** RapidOCR runs on standard CPU with sub-second latency (250–850ms). When handwritten cursive confidence drops below 75%, crops are routed to Gemini Flash multimodal vision, keeping inference costs under **1.29 BDT ($0.0105 USD)** per prescription.
+2. **Entity Extraction & Trigram Similarity:** Regex parses Bengali dosage frequencies (`১+০+১`, `খাওয়ার আগে`). Postgres `pg_trgm` calculates trigram similarity against 17,589 DGDA monographs in $<18\text{ms}$.
+3. **Evidence-Grounded DDI Matrix:** Evaluates all $O(n^2)$ pairs against BNF and DGDA safety matrices, categorizing risk into Contraindicated, Major, Moderate, and Minor.
+4. **Bengali Clinical RAG & Guardrails:** DGDA monographs indexed in `pgvector`. LLM outputs are strictly bounded by retrieved context to prevent hallucinated medical diagnoses.
+
+---
+
+## 💻 Technology Stack
 
 | Layer | Technologies Used |
 | :--- | :--- |
-| **Web Frontend** | Next.js 16 (App Router), TypeScript, Tailwind CSS, Lucide React |
-| **Mobile Frontend** | Flutter 3.x, Dart, Material 3, Camera & Gallery integrations |
+| **Web Frontend** | Next.js 16 (App Router), TypeScript, Vanilla CSS / Tailwind CSS, Lucide React |
+| **Mobile Frontend** | Flutter 3.x, Dart, Material Design 3, Camera & Gallery integrations, Provider |
 | **Backend API** | FastAPI, Uvicorn, Pydantic v2, Python 3.11+, AsyncIO |
-| **Database & Search** | PostgreSQL 16 (Neon Serverless), `pgvector`, `pg_trgm`, Alembic |
-| **Computer Vision / OCR** | OpenCV (`opencv-python-headless`), RapidOCR (ONNX), PaddleOCR |
+| **Database & Search** | PostgreSQL 16 (Neon Serverless), `pgvector`, `pg_trgm`, Psycopg2 |
+| **Computer Vision / OCR** | OpenCV (`opencv-python-headless`), RapidOCR (ONNX CPU Runtime), PaddleOCR |
 | **AI / LLM Providers** | Google Gemini 2.0/3.0 Flash, Groq Qwen-27B, SentenceTransformers |
-| **DevOps & Containers** | Docker, Docker Compose, GitHub Actions (CI/CD), GHCR, Render, Vercel |
+| **DevOps & Hosting** | Vercel (Web), Render (FastAPI ASGI), Google Drive (APK Distribution), Docker |
 
 ---
 
-## 🛠️ Installation & Setup Instructions
+## 🛠️ Local Installation & Development Setup
 
-### Option 1: Quickstart with Docker Compose (Recommended)
+### Option 1: Quickstart with Docker Compose
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/didipta/medbangla-ai.git
 cd medbangla-ai
 
-# 2. Setup environment variables
+# 2. Configure environment variables
 cp .env.example .env
 
-# 3. Build and launch all services (Frontend, Backend, Database)
+# 3. Build and launch all services
 docker compose up --build -d
 ```
 
 - **Web Frontend:** [http://localhost:3000](http://localhost:3000)
 - **FastAPI Documentation:** [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Health Check Endpoint:** [http://localhost:8000/api/v1/health](http://localhost:8000/api/v1/health)
+- **Health Check Endpoint:** [http://localhost:8000/api/v1/system/app-control](http://localhost:8000/api/v1/system/app-control)
 
 ---
 
-### Option 2: Manual Local Development Setup
+### Option 2: Manual Local Setup
 
-#### Backend (FastAPI + Python 3.11)
+#### 1. Backend Service (FastAPI + Python 3.11)
 ```bash
 cd backend
 
 # Create and activate virtual environment
 python -m venv venv
-# On Windows:
+# Windows:
 .\venv\Scripts\activate
-# On Linux/macOS:
+# Linux/macOS:
 source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Configure environment
-cp .env.example .env
-
-# Run database migrations and seed DGDA medicine catalog
-python scripts/seed_database.py
-
 # Start FastAPI server
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-#### Frontend (Next.js 16)
+#### 2. Web Frontend (Next.js 16)
 ```bash
 cd frontend
 
-# Install Node dependencies
+# Install dependencies
 npm install
 
-# Start Next.js development server
+# Run development server
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-#### Mobile Application (Flutter)
+#### 3. Mobile Application (Flutter 3.x)
 ```bash
 cd flutter_app
 
-# Fetch Flutter dependencies
+# Fetch dependencies
 flutter pub get
 
-# Run on connected device or emulator
+# Run on connected Android device or emulator
 flutter run
-```
-
----
-
-## 📂 Repository Structure
-
-```
-medbangla-ai/
-├── CAPSTONE_FINAL_REPORT.md       # Academic Capstone Final Report (3-5 pages)
-├── PROJECT_PLAN.md                # System Architecture & Technical Master Plan
-├── CI_CD_GUIDE.md                 # Continuous Integration & Deployment Manual
-├── RENDER_DEPLOY_AND_KEEP_ALIVE.md# Cloud hosting & keep-alive configuration
-├── docker-compose.yml             # Root multi-container orchestration
-├── render.yaml                    # Automated cloud deployment blueprint
-│
-├── backend/                       # FastAPI Python 3.11 Backend
-│   ├── app/
-│   │   ├── ai/
-│   │   │   ├── ocr/               # RapidOCR ONNX, OpenCV deskewing, Vision AI
-│   │   │   └── rag/               # Vector indexing, DDI screening, Bengali RAG
-│   │   ├── api/v1/endpoints/      # REST routes (ocr, chat, interactions, rx, admin)
-│   │   ├── core/                  # Security, JWT, config, database sessions
-│   │   └── main.py                # ASGI application factory & middleware
-│   ├── data/raw/                  # 17,589 DGDA medicine catalogs & CSV records
-│   ├── Dockerfile                 # Production backend container definition
-│   └── requirements.txt           # Python dependencies
-│
-├── frontend/                      # Next.js 16 Web Application
-│   ├── app/                       # App router, pages, clinical components
-│   ├── public/images/             # UI screenshots, banners, and feature graphics
-│   ├── Dockerfile                 # Standalone production container definition
-│   └── package.json               # Frontend dependencies & scripts
-│
-└── flutter_app/                   # Cross-Platform Flutter Mobile Application
-    ├── lib/                       # Clean architecture (core, features, presentation)
-    └── pubspec.yaml               # Flutter package dependencies
 ```
 
 ---
@@ -290,5 +323,6 @@ medbangla-ai/
 ## 📜 License & Acknowledgments
 
 This project is open-source under the [MIT License](LICENSE).  
-- Pharmacological data provided by the **Directorate General of Drug Administration (DGDA), Bangladesh**.
-- Drug interaction taxonomy adapted from international clinical reference standards.
+- Pharmacological data provided by the **Directorate General of Drug Administration (DGDA), Bangladesh**.  
+- Drug interaction taxonomy adapted from international clinical reference standards (BNF, Stockley's).  
+- Developed by the **MedBangla AI Clinical & Engineering Team**.
