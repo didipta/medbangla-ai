@@ -46,10 +46,7 @@ For in-depth academic review, technical architecture, and implementation details
 | Document | File Link | Focus & Coverage |
 | :--- | :--- | :--- |
 | 📑 **Capstone Final Report** | **[CAPSTONE_FINAL_REPORT.md](CAPSTONE_FINAL_REPORT.md)** | Academic 5-page capstone report: Problem formulation, clinical background, AI model performance evaluation, and safety guardrails. |
-| 🏗️ **Master Architecture Plan** | **[PROJECT_PLAN.md](PROJECT_PLAN.md)** | Complete technical blueprint: Database schema design, REST microservice contracts, and bilingual OCR engineering specifications. |
 | 📘 **Infrastructure & GPU Audit** | **[SYSTEM_ARCHITECTURE_REPORT.md](MEDBANGLA_AI_SYSTEM_ARCHITECTURE_AND_INFRASTRUCTURE_REPORT.md)** | Detailed server sizing, RapidOCR ONNX inference latency benchmarks, cloud cost analysis, and bilingual processing architecture. |
-| 🔄 **CI/CD Deployment Guide** | **[CI_CD_GUIDE.md](CI_CD_GUIDE.md)** | Continuous integration & deployment manual: GitHub Actions workflows, GHCR Docker container registry, and Vercel/Render automations. |
-| ☁️ **Cloud Keep-Alive Manual** | **[RENDER_DEPLOY_AND_KEEP_ALIVE.md](RENDER_DEPLOY_AND_KEEP_ALIVE.md)** | Render web service orchestration, PostgreSQL connection pooling configuration, and automated uptime keep-alive jobs. |
 
 ---
 
