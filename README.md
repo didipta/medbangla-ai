@@ -46,6 +46,7 @@ For in-depth academic review, technical architecture, and implementation details
 | Document | File Link | Focus & Coverage |
 | :--- | :--- | :--- |
 | 📑 **Capstone Final Report** | **[CAPSTONE_FINAL_REPORT.md](CAPSTONE_FINAL_REPORT.md)** | Academic 5-page capstone report: Problem formulation, clinical background, AI model performance evaluation, and safety guardrails. |
+| 📄 **Infrastructure Report (English PDF)** | **[MedBangla_AI_Infrastructure_Report_EN.pdf](MedBangla_AI_Infrastructure_Report_EN.pdf)** | Publication-ready formal PDF report: Detailed system architecture, server sizing, RapidOCR ONNX latency benchmarks, and bilingual OCR pipeline ([বাংলা সংস্করণ PDF](MedBangla_AI_Infrastructure_Report_BN.pdf)). |
 | 📘 **Infrastructure & GPU Audit** | **[SYSTEM_ARCHITECTURE_REPORT.md](MEDBANGLA_AI_SYSTEM_ARCHITECTURE_AND_INFRASTRUCTURE_REPORT.md)** | Detailed server sizing, RapidOCR ONNX inference latency benchmarks, cloud cost analysis, and bilingual processing architecture. |
 
 ---

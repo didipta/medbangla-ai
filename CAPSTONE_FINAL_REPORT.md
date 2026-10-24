@@ -7,10 +7,14 @@
 | :--- | :--- |
 | **Project Title** | MedBangla AI (মেডবাংলা এআই) |
 | **Course / Track** | AI Engineering Capstone Project |
-| **Author / Candidate** | Didipta Ray & Antigravity Engineering Team |
+| **Author & Studio** | Didipta Ray & Studio Peppers |
 | **Repository URL** | [https://github.com/didipta/medbangla-ai](https://github.com/didipta/medbangla-ai) |
-| **Live Web App** | [https://medbangla.vercel.app](https://medbangla.vercel.app) *(or your deployed Vercel domain)* |
-| **Live Backend API** | [https://medbangla-backend.onrender.com/docs](https://medbangla-backend.onrender.com/docs) |
+| **Live Web App** | [https://medbangla-ai-liart.vercel.app](https://medbangla-ai-liart.vercel.app/) |
+| **Admin Portal** | [https://medbangla-ai-liart.vercel.app/admin](https://medbangla-ai-liart.vercel.app/admin) |
+| **Live Backend API** | [https://medbangla-ai.onrender.com/docs](https://medbangla-ai.onrender.com/docs) |
+| **Android Mobile APK** | [Google Drive APK Link](https://drive.google.com/file/d/1psf4w3CSwTM8RRKBZ-gXISFbU9MF3vfi/view?usp=drive_link) |
+| **Video Demonstration** | [Google Drive Demo Video](https://drive.google.com/file/d/1PxjW_kfoqDayLrT40KsaAx7vCWg__ObY/view?usp=sharing) |
+| **Companion Technical PDF** | [MedBangla_AI_Infrastructure_Report_EN.pdf](MedBangla_AI_Infrastructure_Report_EN.pdf) |
 | **Target Ecosystem** | Bangladesh Healthcare, Retail Pharmacies & Outpatient Clinics |
 | **Version** | 1.0 (Production & Academic Capstone Edition) |
 | **Date** | October 2026 |

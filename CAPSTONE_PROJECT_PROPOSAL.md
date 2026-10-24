@@ -7,10 +7,11 @@
 | :--- | :--- |
 | **Project Title** | MedBangla AI (মেডবাংলা এআই) |
 | **Track / Course** | AI Engineering Capstone Project |
-| **Student / Author** | Didipta Ray & Antigravity Team |
+| **Author & Studio** | Didipta Ray & Studio Peppers |
 | **Repository** | [https://github.com/didipta/medbangla-ai](https://github.com/didipta/medbangla-ai) |
-| **Live Web App** | [https://medbangla.vercel.app](https://medbangla.vercel.app) *(or your deployed Vercel domain)* |
-| **Live Backend API** | [https://medbangla-backend.onrender.com/docs](https://medbangla-backend.onrender.com/docs) |
+| **Live Web App** | [https://medbangla-ai-liart.vercel.app](https://medbangla-ai-liart.vercel.app/) |
+| **Admin Portal** | [https://medbangla-ai-liart.vercel.app/admin](https://medbangla-ai-liart.vercel.app/admin) |
+| **Live Backend API** | [https://medbangla-ai.onrender.com/docs](https://medbangla-ai.onrender.com/docs) |
 | **Target Sector** | Bangladesh Healthcare, Digital Healthtech & Outpatient Pharmacies |
 
 ---
