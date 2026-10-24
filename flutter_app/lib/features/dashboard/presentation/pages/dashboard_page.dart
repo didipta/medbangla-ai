@@ -23,12 +23,13 @@ class DashboardPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        titleSpacing: 16,
+        titleSpacing: 12,
         title: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Container(
-              height: 36,
-              width: 36,
+              height: 34,
+              width: 34,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(color: AppColors.primarySurface),
@@ -38,21 +39,25 @@ class DashboardPage extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(width: 10),
-            RichText(
-              text: const TextSpan(
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.textPrimary,
-                ),
-                children: [
-                  TextSpan(text: 'MedBangla '),
-                  TextSpan(
-                    text: 'AI',
-                    style: TextStyle(color: AppColors.primary),
+            const SizedBox(width: 8),
+            Flexible(
+              child: RichText(
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
+                text: const TextSpan(
+                  style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.w800,
+                    color: AppColors.textPrimary,
                   ),
-                ],
+                  children: [
+                    TextSpan(text: 'MedBangla '),
+                    TextSpan(
+                      text: 'AI',
+                      style: TextStyle(color: AppColors.primary),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],
@@ -87,37 +92,39 @@ class DashboardPage extends StatelessWidget {
               if (authState is AuthLoadingState) {
                 return Padding(
                   padding: const EdgeInsets.only(right: 6),
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 10,
-                      vertical: 5,
-                    ),
-                    decoration: BoxDecoration(
-                      color: AppColors.primaryLight,
-                      borderRadius: BorderRadius.circular(16),
-                      border: Border.all(color: AppColors.primarySurface),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        const SizedBox(
-                          width: 12,
-                          height: 12,
-                          child: CircularProgressIndicator(
-                            strokeWidth: 2,
-                            color: AppColors.primary,
+                  child: Center(
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 7,
+                        vertical: 3.5,
+                      ),
+                      decoration: BoxDecoration(
+                        color: AppColors.primaryLight,
+                        borderRadius: BorderRadius.circular(14),
+                        border: Border.all(color: AppColors.primarySurface),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const SizedBox(
+                            width: 10,
+                            height: 10,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 1.8,
+                              color: AppColors.primary,
+                            ),
                           ),
-                        ),
-                        const SizedBox(width: 6),
-                        Text(
-                          lang.t('লগইন হচ্ছে...', 'Signing in...'),
-                          style: const TextStyle(
-                            fontSize: 11,
-                            fontWeight: FontWeight.bold,
-                            color: AppColors.primary,
+                          const SizedBox(width: 4),
+                          Text(
+                            lang.t('লোড হচ্ছে...', 'Loading...'),
+                            style: const TextStyle(
+                              fontSize: 10,
+                              fontWeight: FontWeight.bold,
+                              color: AppColors.primary,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 );

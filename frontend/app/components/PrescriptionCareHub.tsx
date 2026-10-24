@@ -51,6 +51,7 @@ import {
   FileCode,
   Lock,
   LogIn,
+  RotateCcw,
 } from "lucide-react";
 import { FormattedChatMessage } from "./FormattedChatMessage";
 import { api } from "../services/api";
@@ -87,6 +88,7 @@ import {
   setLatency,
   setAnalyzing,
   resetAnalysisState,
+  clearUserSessionData,
   VerifiedMedicineItem,
 } from "../store/slices/prescriptionSlice";
 
@@ -234,10 +236,70 @@ export const PrescriptionCareHub: React.FC = () => {
     setSweetAlert({ isOpen: true, title, message, type });
   };
 
+  // User Session Isolation: Detect whenever login user changes or logs out to prevent showing previous user data
+  const lastUserSessionKeyRef = useRef<string | null>(null);
+  const currentSessionKey = currentUser
+    ? `${currentUser.id}:${isDemoUser ? "demo" : "google"}`
+    : "guest";
+
   useEffect(() => {
-    dispatch(fetchHistory());
-    dispatch(fetchDailyQuota());
-  }, [dispatch]);
+    if (lastUserSessionKeyRef.current !== null && lastUserSessionKeyRef.current !== currentSessionKey) {
+      // User switched account, logged in, or logged out: completely wipe previous user's workspace
+      setImagePreview(null);
+      setSelectedFile(null);
+      setEditingMedicine(null);
+      setNewDrugInput("");
+      setChatMessages([]);
+      setInputQuestion("");
+      setIsDemoModeActive(false);
+      setSaveToast(null);
+      setLightboxOpen(false);
+      setJsonModalOpen(false);
+      dispatch(clearUserSessionData());
+
+      if (isGoogleUser) {
+        dispatch(fetchHistory());
+        dispatch(fetchDailyQuota());
+      }
+    } else if (lastUserSessionKeyRef.current === null) {
+      // Initial mount: load data if authenticated Google user
+      if (isGoogleUser) {
+        dispatch(fetchHistory());
+        dispatch(fetchDailyQuota());
+      }
+    }
+    lastUserSessionKeyRef.current = currentSessionKey;
+  }, [currentSessionKey, isGoogleUser, dispatch]);
+
+  // Auto-load authentic demo data (Mahdi Hasan - Dr. Fazlul Hoque) and full clinical process for Demo User
+  useEffect(() => {
+    if (isDemoUser && !isGoogleUser && !isDemoModeActive && !result && !selectedFile) {
+      const targetPreset = DEMO_PRESCRIPTIONS["demo-fazlul-hoque"];
+      setSelectedDemoPreset("demo-fazlul-hoque");
+      setImagePreview(targetPreset.imagePath);
+      dispatch(setCurrentPrescriptionId(targetPreset.ocrResult.history_id || "demo-fazlul-hoque-01"));
+      dispatch(setResult(targetPreset.ocrResult));
+      dispatch(setMedicines(targetPreset.verifiedMedicines));
+      dispatch(setSafetyReport(targetPreset.safetyReport));
+      dispatch(setExplanation(targetPreset.explanation));
+      dispatch(setLatency(targetPreset.ocrResult.execution_time_ms));
+      setIsDemoModeActive(true);
+      setAllSections(true);
+
+      const drugListStr = targetPreset.verifiedMedicines.map((i) => i.brand).join(", ");
+      setChatMessages([
+        {
+          id: "demo-welcome",
+          role: "assistant",
+          text:
+            lang === "bn"
+              ? `স্বাগতম মাহদী হাসান! আপনার ডেমো প্রেসক্রিপশন (${targetPreset.doctor}) বিশ্লেষণ ও ওষুধের সম্পূর্ণ ফলাফল লোড করা হয়েছে। শনাক্তকৃত ওষুধসমূহ: **${drugListStr}**।\n\n⚠️ দ্রষ্টব্য: এটি ডেমো রোগী মাহদী হাসানের পূর্ব-সংরক্ষিত প্রেসক্রিপশন ডেটা। ডেমো অ্যাকাউন্টে নতুন কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়। আপনার নিজস্ব প্রেসক্রিপশন আপলোড ও লাইভ স্ক্যান করতে অনুগ্রহ করে আপনার নিজস্ব গুগল (Google) অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।`
+              : `Welcome Mahdi Hasan! Your demo prescription (${targetPreset.doctor}) and full clinical process are loaded. Identified medicines: **${drugListStr}**.\n\n⚠️ Note: This is pre-loaded demo data for patient Mahdi Hasan. Image upload and camera capture are not applicable for demo accounts. To upload and scan your personal prescriptions, please login with your own Google account so all processes work properly.`,
+          timestamp: "Just now",
+        },
+      ]);
+    }
+  }, [isDemoUser, isGoogleUser, isDemoModeActive, result, selectedFile, dispatch, lang]);
 
   // Clear demo data and images when user is logged in with Google
   useEffect(() => {
@@ -1239,7 +1301,7 @@ export const PrescriptionCareHub: React.FC = () => {
                           <RefreshCw className="w-5 h-5 animate-spin text-[#0F766E] mx-auto" />
                           <div className="text-xs font-bold text-[#172B2A]">
                             {isDemoScanning && demoStepProgress
-                              ? `${demoStepProgress.step} / ${demoStepProgress.total}: ${demoStepProgress.label_bn}`
+                              ? `${demoStepProgress.step} / ${demoStepProgress.totalSteps}: ${demoStepProgress.titleBn}`
                               : t("টেক্সট ও ওষুধ বিশ্লেষণ হচ্ছে...", "Analyzing text & medicines...")}
                           </div>
                           <p className="text-[11px] text-[#647575]">
@@ -1250,19 +1312,34 @@ export const PrescriptionCareHub: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="flex flex-col items-center justify-center gap-1 text-xs text-[#0F766E] font-medium">
+                  <div className="flex flex-col items-center justify-center gap-1.5 text-xs text-[#0F766E] font-medium w-full">
                     <div className="flex items-center gap-1.5">
                       <CheckCircle2 className="w-3.5 h-3.5 text-[#15803D]" />
-                      <span className="truncate max-w-[200px]">
+                      <span className="truncate max-w-[260px] font-bold text-slate-800">
                         {isDemoModeActive ? DEMO_PRESCRIPTIONS[selectedDemoPreset].patient : (selectedFile?.name || "Prescription Image")}
                       </span>
                     </div>
-                    {isDemoModeActive ? (
-                      <div className="inline-flex items-center gap-1 text-[11px] text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
-                        <Sparkles className="w-3 h-3 text-amber-600" />
-                        <span>{t("বাস্তব ডেমো প্রেসক্রিপশন সক্রিয় (অন্য ছবি আপলোডে গুগল সাইন-ইন আবশ্যক)", "Demo Preset Active (Google Sign-In required for other images)")}</span>
+                    {isDemoModeActive && (
+                      <div className="inline-flex items-center gap-1 text-[11px] text-teal-800 bg-teal-50 px-2.5 py-0.5 rounded-full border border-teal-200">
+                        <Sparkles className="w-3 h-3 text-teal-600" />
+                        <span>{t("বাস্তব ডেমো প্রেসক্রিপশন ডেটা সক্রিয়", "Verified Demo Prescription Active")}</span>
                       </div>
-                    ) : (
+                    )}
+                    {isDemoUser && (
+                      <div className="w-full mt-2 p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-950 text-left space-y-1.5 shadow-2xs">
+                        <div className="flex items-center gap-1.5 font-bold text-xs text-amber-900">
+                          <ShieldAlert className="w-4 h-4 text-amber-600 shrink-0" />
+                          <span>{t("মাহদী হাসান (ডেমো রোগী): ছবি আপলোড বা ক্যামেরা প্রযোজ্য নয়", "Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable")}</span>
+                        </div>
+                        <p className="text-[11px] leading-relaxed text-amber-800">
+                          {t(
+                            "মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; পূর্বের বাস্তব ডেমো ডাটা এবং সম্পূর্ণ প্রসেস সক্রিয় রয়েছে। নিজস্ব প্রেসক্রিপশন আপলোড, মোবাইল ক্যামেরা ব্যবহার ও লাইভ স্ক্যান চালাতে অনুগ্রহ করে আপনার নিজস্ব গুগল (Google) অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।",
+                            "Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Displaying authentic previous demo data and full process. Please login with your own Google account, then all processes will work properly."
+                          )}
+                        </p>
+                      </div>
+                    )}
+                    {!isDemoModeActive && (
                       <span className="text-[#647575]">
                         {t("(পরিবর্তন করতে ক্লিক করুন)", "(Click to change)")}
                       </span>
@@ -1277,15 +1354,15 @@ export const PrescriptionCareHub: React.FC = () => {
                   <div>
                     <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200 mb-1.5">
                       <ShieldAlert className="w-3.5 h-3.5 text-amber-600" />
-                      <span>{t("ডেমো মোড: কাস্টম আপলোড নিষ্ক্রিয়", "Demo Mode: Custom Upload Disabled")}</span>
+                      <span>{t("মাহদী হাসান (ডেমো রোগী): ছবি আপলোড বা ক্যামেরা প্রযোজ্য নয়", "Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable")}</span>
                     </div>
                     <p className="text-sm font-bold text-[#172B2A]">
-                      {t("অন্য ছবি আপলোড বা ক্যামেরা ব্যবহার করতে গুগল দিয়ে সাইন-ইন করুন", "Sign In with Google to Upload or Capture Custom Images")}
+                      {t("ডেমো ইউজারদের জন্য ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়", "Image Upload & Camera Capture are Not Applicable for Demo User")}
                     </p>
-                    <p className="text-xs text-[#647575] mt-1 leading-relaxed">
+                    <p className="text-xs text-[#647575] mt-1.5 leading-relaxed">
                       {t(
-                        "ডেমো লগইনে অন্য কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; শুধুমাত্র নির্ধারিত ২টি ডেমো প্রেসক্রিপশন কাজ করবে। নিজের প্রেসক্রিপশন স্ক্যান করতে অনুগ্রহ করে প্রথমে গুগল দিয়ে প্রবেশ করুন।",
-                        "Demo login only allows the 2 preset demo prescriptions. To upload other images or capture via camera, please sign in with your Google account first."
+                        "মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; পূর্বের বাস্তব ডেমো প্রেসক্রিপশন কার্যকর। নিজস্ব প্রেসক্রিপশন আপলোড ও স্ক্যান করতে অনুগ্রহ করে আপনার নিজস্ব গুগল (Google) অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।",
+                        "Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient); only the authentic demo prescription is available. Please login with your own Google account, then all processes will work properly."
                       )}
                     </p>
                   </div>
@@ -1300,22 +1377,22 @@ export const PrescriptionCareHub: React.FC = () => {
                       className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs shadow-md transition-all cursor-pointer"
                     >
                       <LogIn className="w-3.5 h-3.5" />
-                      <span>{t("গুগল (Gmail) সাইন-ইন করুন", "Sign In with Google (Gmail)")}</span>
+                      <span>{t("গুগল সাইন-ইন করুন (সব ফিচার সচল করতে)", "Sign In with Google (To Enable All Features)")}</span>
                     </button>
                     <button
                       type="button"
-                      onClick={() => handleRunDemoPrescription()}
+                      onClick={() => handleRunDemoPrescription("demo-fazlul-hoque")}
                       className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs transition-colors cursor-pointer"
                     >
                       <Play className="w-3 h-3 text-[#0F766E] fill-current" />
-                      <span>{t("ডেমো স্ক্যান চালান", "Run Demo Scan")}</span>
+                      <span>{t("ডেমো প্রেসক্রিপশন লোড করুন", "Load Demo Prescription")}</span>
                     </button>
                   </div>
 
                   <p className="text-[11px] text-[#647575] pt-0.5">
                     {t(
-                      "💡 উপরে ডাঃ ফজলুল হক বা ডাঃ সাজ্জাদ হোসেন ডেমো সিলেক্ট করে ফ্রি টেস্ট করুন।",
-                      "💡 Or select Dr. Fazlul Hoque or Dr. Sazzad Hossain demo above."
+                      "💡 নিজস্ব প্রেসক্রিপশন স্ক্যান ও ক্যামেরা ব্যবহার করতে অনুগ্রহ করে আপনার গুগল অ্যাকাউন্ট দিয়ে লগইন করুন।",
+                      "💡 Please sign in with your Google account to scan personal prescriptions and use camera."
                     )}
                   </p>
                 </div>
@@ -1443,44 +1520,90 @@ export const PrescriptionCareHub: React.FC = () => {
               </div>
             )}
 
-            {/* Run Analysis Action Button */}
-            <button
-              onClick={() => {
-                if (!isGoogleUser) {
-                  setPersonalUploadLoginModal(true);
-                  return;
-                }
-                handleAnalyzePrescription();
-              }}
-              disabled={analyzing || (Boolean(isGoogleUser) && (!selectedFile || !dailyQuota.can_analyze || dailyQuota.remaining <= 0))}
-              className={`w-full rounded-lg py-3 text-sm font-bold text-white shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer ${
-                isGoogleUser && dailyQuota.remaining <= 0
-                  ? "bg-rose-600/80 cursor-not-allowed opacity-80"
-                  : "bg-[#0F766E] hover:bg-[#115E59] disabled:opacity-50"
-              }`}
-            >
-              {analyzing ? (
-                <>
-                  <RefreshCw className="w-4 h-4 animate-spin" />
-                  <span>{t("ওষুধ শনাক্ত ও প্রসেসিং হচ্ছে...", "Detecting medicines & processing...")}</span>
-                </>
-              ) : isGoogleUser && dailyQuota.remaining <= 0 ? (
-                <>
-                  <ShieldAlert className="w-4 h-4" />
-                  <span>{t("আজকের কোটা শেষ (২/২ সম্পন্ন)", "Daily Limit Reached (2/2 Used)")}</span>
-                </>
-              ) : !isGoogleUser ? (
-                <>
-                  <LogIn className="w-4 h-4" />
-                  <span>{t("গুগল সাইন-ইন করে চালান", "Sign In with Google to Run Analysis")}</span>
-                </>
-              ) : (
-                <>
-                  <Scan className="w-4 h-4" />
-                  <span>{t("প্রেসক্রিপশন এনালাইসিস চালান", "Run Prescription Analysis")}</span>
-                </>
-              )}
-            </button>
+            {/* Prescription Check & Analysis Guidance Box for Mahdi Hasan Demo User */}
+            {isDemoUser && (
+              <div className="p-3.5 rounded-xl border border-amber-300 bg-amber-50/90 text-amber-950 space-y-2.5 text-xs shadow-xs">
+                <div className="flex items-start gap-2">
+                  <ShieldAlert className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <div className="space-y-1">
+                    <span className="font-bold text-xs block text-amber-900">
+                      {t("মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্ট নোটিশ", "Mahdi Hasan (Demo Patient) Notice")}
+                    </span>
+                    <p className="text-[11.5px] leading-relaxed text-amber-800">
+                      {t(
+                        "মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়। পূর্বের বাস্তব ডেমো ডাটা এবং সম্পূর্ণ প্রসেস (OCR, ওষুধ রিভিউ, ড্রাগ ইন্টারঅ্যাকশন ও চ্যাট) এখানে সরাসরি প্রদর্শিত হচ্ছে। আপনার নিজস্ব প্রেসক্রিপশন আপলোড এবং লাইভ এআই স্ক্যান চালাতে অনুগ্রহ করে আপনার নিজস্ব গুগল (Google) অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।",
+                        "Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Displaying authentic previous demo data and full clinical process. Please login with your own Google account, then all processes will work properly."
+                      )}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="pt-1 flex flex-col gap-2">
+                  <button
+                    type="button"
+                    onClick={() => openAuthModal("login")}
+                    className="w-full py-2.5 px-3 rounded-lg bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-xs cursor-pointer transition-all"
+                  >
+                    <LogIn className="w-3.5 h-3.5" />
+                    <span>
+                      {t(
+                        "গুগল দিয়ে লগইন করুন (সব প্রসেস সঠিকভাবে কাজ করবে)",
+                        "Please login with your own Google account — All processes work properly"
+                      )}
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => handleRunDemoPrescription("demo-fazlul-hoque")}
+                    className="w-full py-2 px-3 rounded-lg bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-colors"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5 text-[#0F766E]" />
+                    <span>{t("ডেমো প্রেসক্রিপশন প্রসেস পুনরায় চালান", "Re-run Demo Prescription Process")}</span>
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Run Analysis Action Button (for Google authenticated users) */}
+            {!isDemoUser && (
+              <button
+                onClick={() => {
+                  if (!isGoogleUser) {
+                    setPersonalUploadLoginModal(true);
+                    return;
+                  }
+                  handleAnalyzePrescription();
+                }}
+                disabled={analyzing || (Boolean(isGoogleUser) && (!selectedFile || !dailyQuota.can_analyze || dailyQuota.remaining <= 0))}
+                className={`w-full rounded-lg py-3 text-sm font-bold text-white shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer ${
+                  isGoogleUser && dailyQuota.remaining <= 0
+                    ? "bg-rose-600/80 cursor-not-allowed opacity-80"
+                    : "bg-[#0F766E] hover:bg-[#115E59] disabled:opacity-50"
+                }`}
+              >
+                {analyzing ? (
+                  <>
+                    <RefreshCw className="w-4 h-4 animate-spin" />
+                    <span>{t("ওষুধ শনাক্ত ও প্রসেসিং হচ্ছে...", "Detecting medicines & processing...")}</span>
+                  </>
+                ) : isGoogleUser && dailyQuota.remaining <= 0 ? (
+                  <>
+                    <ShieldAlert className="w-4 h-4" />
+                    <span>{t("আজকের কোটা শেষ (২/২ সম্পন্ন)", "Daily Limit Reached (2/2 Used)")}</span>
+                  </>
+                ) : !isGoogleUser ? (
+                  <>
+                    <LogIn className="w-4 h-4" />
+                    <span>{t("গুগল সাইন-ইন করে চালান", "Sign In with Google to Run Analysis")}</span>
+                  </>
+                ) : (
+                  <>
+                    <Scan className="w-4 h-4" />
+                    <span>{t("প্রেসক্রিপশন এনালাইসিস চালান", "Run Prescription Analysis")}</span>
+                  </>
+                )}
+              </button>
+            )}
 
             {/* Professional Study Note: Processing Speed & Accuracy Benchmark */}
             <div className="rounded-xl border border-teal-200/70 bg-teal-50/60 p-3 text-[11px] text-slate-600 space-y-1">
@@ -2059,7 +2182,7 @@ export const PrescriptionCareHub: React.FC = () => {
                           <div className="p-3 rounded bg-[#CCFBF1]/40 border border-[#CCFBF1] text-[#0F766E] space-y-0.5">
                             <strong className="font-bold block">{t("চিকিৎসকের করণীয় ও পরামর্শ:", "Physician & Caregiver Advice:")}</strong>
                             <p className="leading-relaxed text-[#172B2A]">
-                              {lang === "bn" ? item.recommendation_bn : (item.recommendation_en || item.recommendation_bn)}
+                              {lang === "bn" ? item.recommendation_bn : ((item as any).recommendation_en || item.recommendation_bn)}
                             </p>
                           </div>
                         </div>
@@ -2551,7 +2674,7 @@ export const PrescriptionCareHub: React.FC = () => {
                 <div className="flex items-center gap-1.5">
                   <button
                     type="button"
-                    onClick={fetchHistory}
+                    onClick={() => dispatch(fetchHistory())}
                     disabled={historyLoading}
                     title={t("রিফ্রেশ", "Refresh")}
                     className="p-1.5 rounded-lg border border-[#E2EAE7] bg-white hover:bg-slate-50 text-[#647575] hover:text-[#172B2A] transition-colors cursor-pointer"
@@ -3030,14 +3153,14 @@ export const PrescriptionCareHub: React.FC = () => {
               </div>
               <h3 className="text-base font-extrabold text-slate-900 pt-0.5">
                 {t(
-                  "কাস্টম প্রেসক্রিপশন আপলোডের জন্য গুগল সাইন-ইন করুন",
-                  "Sign In with Google to Upload Your Prescription"
+                  "মাহদী হাসান (ডেমো রোগী): ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়",
+                  "Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable"
                 )}
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 {t(
-                  "ডেমো অ্যাকাউন্টে অন্য কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; শুধুমাত্র নির্ধারিত ২টি ডেমো প্রেসক্রিপশন কাজ করবে। নিজের যেকোনো প্রেসক্রিপশন ছবি আপলোড বা ক্যামেরা ব্যবহার করতে অনুগ্রহ করে প্রথমে আপনার আসল গুগল অ্যাকাউন্ট দিয়ে লগইন করুন।",
-                  "Demo accounts cannot upload or capture other images; only the 2 authentic demo prescriptions are supported. To upload your personal prescriptions or snap photos with camera, please sign in with your Google account first."
+                  "মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; পূর্বের বাস্তব ডেমো প্রেসক্রিপশন ডাটা ও সম্পূর্ণ প্রসেস সক্রিয় রয়েছে। নিজস্ব প্রেসক্রিপশন ছবি আপলোড, মোবাইল ক্যামেরা ব্যবহার ও লাইভ স্ক্যান চালাতে অনুগ্রহ করে আপনার নিজস্ব গুগল (Google) অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।",
+                  "Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Displaying authentic previous demo data and full process. Please login with your own Google account, then all processes will work properly."
                 )}
               </p>
             </div>
@@ -3057,19 +3180,19 @@ export const PrescriptionCareHub: React.FC = () => {
                   <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
                   <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
                 </svg>
-                <span>{t("গুগল (Gmail) সাইন-ইন দিয়ে শুরু করুন", "Sign In with Google (Gmail) First")}</span>
+                <span>{t("গুগল দিয়ে লগইন করুন (সব প্রসেস সঠিকভাবে কাজ করবে)", "Sign In with Google (All processes will work properly)")}</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => {
                   setPersonalUploadLoginModal(false);
-                  handleRunDemoPrescription();
+                  handleRunDemoPrescription("demo-fazlul-hoque");
                 }}
                 className="w-full py-2.5 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
               >
                 <Play className="w-3.5 h-3.5 text-[#0F766E] fill-current" />
-                <span>{t("বাস্তব ডেমো প্রেসক্রিপশন চালিয়ে দেখুন (লগইন প্রয়োজন নেই)", "Try Authentic Demo Prescriptions (No Login Required)")}</span>
+                <span>{t("বাস্তব ডেমো প্রেসক্রিপশন লোড করুন", "Load Verified Demo Prescription")}</span>
               </button>
             </div>
           </div>

@@ -205,6 +205,22 @@ export const prescriptionSlice = createSlice({
       state.error = null;
       state.currentPrescriptionId = null;
     },
+    clearUserSessionData: (state) => {
+      state.result = null;
+      state.medicines = [];
+      state.safetyReport = null;
+      state.safetyLoading = false;
+      state.explanation = null;
+      state.explainLoading = false;
+      state.latency = null;
+      state.error = null;
+      state.currentPrescriptionId = null;
+      state.historyList = [];
+      state.historyLoading = false;
+      state.analyzing = false;
+      state.isPrescriptionLoading = false;
+      state.loadingHistoryId = null;
+    },
   },
   extraReducers: (builder) => {
     // Daily Quota
@@ -281,6 +297,8 @@ export const prescriptionSlice = createSlice({
             total_medicines_matched: item.total_medicines || (item.detected_medicines || []).length,
           },
           raw_text: item.raw_text || "",
+          lines: [],
+          execution_time_ms: 0,
           history_id: item.id,
         };
 
@@ -333,6 +351,7 @@ export const {
   setAnalyzing,
   setError,
   resetAnalysisState,
+  clearUserSessionData,
 } = prescriptionSlice.actions;
 
 export default prescriptionSlice.reducer;

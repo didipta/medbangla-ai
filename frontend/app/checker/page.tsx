@@ -20,98 +20,93 @@ import {
 import { ProtectedRoute } from "../components/ProtectedRoute";
 
 export default function CheckerPage() {
-  const { currentUser, isGoogleUser, openAuthModal, loginAsDemoUser } = useAuth();
+  const { currentUser, isGoogleUser, openAuthModal } = useAuth();
   const { t } = useLanguage();
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 space-y-8">
-      {/* Page Header */}
-      <div className="space-y-2 border-b border-slate-200 pb-6">
-        <div className="inline-flex items-center gap-1.5 rounded-full bg-teal-50 px-3 py-0.5 text-xs font-bold text-[#0F766E] border border-teal-200/60">
-          <Stethoscope className="w-3.5 h-3.5" />
-          <span>{t("প্রেসক্রিপশন এনালাইসিস সেন্টার", "Prescription Analysis Center")}</span>
+    <ProtectedRoute>
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 space-y-8">
+        {/* Page Header */}
+        <div className="space-y-2 border-b border-slate-200 pb-6">
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-teal-50 px-3 py-0.5 text-xs font-bold text-[#0F766E] border border-teal-200/60">
+            <Stethoscope className="w-3.5 h-3.5" />
+            <span>{t("প্রেসক্রিপশন এনালাইসিস সেন্টার", "Prescription Analysis Center")}</span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            {t("প্রেসক্রিপশন চেকার ও ডিজিটাল ড্রাগ হাব", "Prescription Checker & Drug Care Hub")}
+          </h1>
+          <p className="text-xs sm:text-sm text-slate-600 max-w-3xl leading-relaxed">
+            {t(
+              "প্রেসক্রিপশন আপলোড করে অস্পষ্ট লেখা রিভিউ করুন, ভেরিফিকেশন স্ট্যাটাস যাচাই করুন এবং ওষুধসমূহের ড্রাগ সেফটি রিপোর্ট ও বাংলায় নির্দেশনা দেখুন।",
+              "Upload your prescription to decode unclear text, review verified medicine matches, check pairwise drug safety, and access clinical instructions."
+            )}
+          </p>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          {t("প্রেসক্রিপশন চেকার ও ডিজিটাল ড্রাগ হাব", "Prescription Checker & Drug Care Hub")}
-        </h1>
-        <p className="text-xs sm:text-sm text-slate-600 max-w-3xl leading-relaxed">
-          {t(
-            "প্রেসক্রিপশন আপলোড করে অস্পষ্ট লেখা রিভিউ করুন, ভেরিফিকেশন স্ট্যাটাস যাচাই করুন এবং ওষুধসমূহের ড্রাগ সেফটি রিপোর্ট ও বাংলায় নির্দেশনা দেখুন।",
-            "Upload your prescription to decode unclear text, review verified medicine matches, check pairwise drug safety, and access clinical instructions."
-          )}
-        </p>
-      </div>
 
-      {/* Guest Mode Alert Notice if not logged in with Google */}
-      {!isGoogleUser ? (
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-teal-50/80 via-emerald-50/60 to-amber-50/70 border border-teal-200/90 text-xs shadow-xs">
-          <div className="flex items-start sm:items-center gap-3">
-            <div className="h-9 w-9 rounded-xl bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs shrink-0 mt-0.5 sm:mt-0">
-              <Sparkles className="w-4 h-4 text-amber-300" />
-            </div>
-            <div>
-              <div className="font-extrabold text-slate-900 text-sm flex items-center gap-2">
-                <span>{t("🌟 বাস্তব প্রেসক্রিপশন ডেমো ও গুগল সাইন-ইন নির্দেশিকা", "🌟 Authentic Prescription Demo & Google Sign-In Guide")}</span>
+        {/* Demo Mode Notice for Demo Logged In User */}
+        {!isGoogleUser ? (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-teal-50/80 via-emerald-50/60 to-amber-50/70 border border-teal-200/90 text-xs shadow-xs">
+            <div className="flex items-start sm:items-center gap-3">
+              <div className="h-9 w-9 rounded-xl bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs shrink-0 mt-0.5 sm:mt-0">
+                <Sparkles className="w-4 h-4 text-amber-300" />
               </div>
-              <div className="text-xs text-slate-600 mt-0.5 leading-relaxed">
-                {t(
-                  "নিচে প্রস্তুতকৃত বাস্তব প্রেসক্রিপশন (ডাঃ মোঃ ফজলুল হক ও ডাঃ মোঃ সাজ্জাদ হোসেন) ডেমো দিয়ে বিনামূল্যে সম্পূর্ণ এআই ফিচার পরীক্ষা করুন। আপনার নিজস্ব প্রেসক্রিপশন আপলোড করে লাইভ স্ক্যান করতে প্রথমে গুগল দিয়ে সাইন-ইন করুন।",
-                  "Test full AI features freely with the verified doctor presets below. To upload and scan your own personal prescriptions, please sign in with your Google account."
-                )}
+              <div>
+                <div className="font-extrabold text-slate-900 text-sm flex items-center gap-2">
+                  <span>{t("🌟 বাস্তব প্রেসক্রিপশন ডেমো মোড সক্রিয়", "🌟 Authentic Prescription Demo Mode Active")}</span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                    {currentUser?.name || "Demo User"}
+                  </span>
+                </div>
+                <div className="text-xs text-slate-600 mt-0.5 leading-relaxed">
+                  {t(
+                    "নিচে প্রস্তুতকৃত বাস্তব প্রেসক্রিপশন (ডাঃ মোঃ ফজলুল হক ও ডাঃ মোঃ সাজ্জাদ হোসেন) ডেমো দিয়ে সম্পূর্ণ এআই ফিচার পরীক্ষা করুন। ডেমো ইউজারদের জন্য কাস্টম ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; আপনার নিজস্ব প্রেসক্রিপশন আপলোড করে লাইভ স্ক্যান করতে আসল গুগল অ্যাকাউন্ট দিয়ে সাইন-ইন করুন।",
+                    "Test full AI features freely with verified doctor presets below. Custom upload and camera capture are not applicable for Demo User; to upload and scan your personal prescriptions, sign in with your Google account."
+                  )}
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="flex flex-wrap items-center gap-2 shrink-0 self-start sm:self-auto">
-            <button
-              type="button"
-              onClick={() => loginAsDemoUser("patient")}
-              className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-all shadow-xs cursor-pointer shrink-0"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-              <span>{t("⚡ ১-ক্লিক ডেমো লগইন", "⚡ 1-Click Demo Sign-In")}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => openAuthModal("login")}
-              className="inline-flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-xs border border-slate-300 hover:border-slate-400 transition-all shadow-xs cursor-pointer shrink-0 group"
-            >
-              <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24">
-                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
-                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
-                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
-                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
-              </svg>
-              <span className="group-hover:text-[#0F766E] transition-colors">{t("গুগল দিয়ে প্রবেশ করুন", "Sign in with Google")}</span>
-            </button>
-          </div>
-        </div>
-      ) : currentUser ? (
-        /* Authenticated Session Banner - Clean, zero demo mentions */
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-teal-50/70 border border-teal-200/80 text-xs">
-          <div className="flex items-center gap-2.5">
-            <div className="h-8 w-8 rounded-lg bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs">
-              <UserCheck className="w-4 h-4" />
-            </div>
-            <div>
-              <div className="font-bold text-slate-900">
-                {t(`স্বাগতম, ${currentUser.name}!`, `Welcome, ${currentUser.name}!`)}
-              </div>
-              <div className="text-[11px] text-slate-500">
-                {currentUser.role === "doctor"
-                  ? t(`চিকিৎসক সেশন সক্রিয় (BMDC: ${currentUser.bmdc_number || "ভেরিফাইড"})`, `Active Doctor Session (BMDC: ${currentUser.bmdc_number || "Verified"})`)
-                  : t("রোগী ও পরিবার কেয়ার সেশন সক্রিয়", "Patient & Family Care Session Active")}
-              </div>
+            <div className="flex flex-wrap items-center gap-2 shrink-0 self-start sm:self-auto">
+              <button
+                type="button"
+                onClick={() => openAuthModal("login")}
+                className="inline-flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-xs border border-slate-300 hover:border-slate-400 transition-all shadow-xs cursor-pointer shrink-0 group"
+              >
+                <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                </svg>
+                <span className="group-hover:text-[#0F766E] transition-colors">{t("কাস্টম আপলোডের জন্য গুগল সাইন-ইন", "Google Sign-In for Custom Upload")}</span>
+              </button>
             </div>
           </div>
+        ) : currentUser ? (
+          /* Authenticated Session Banner - Clean, zero demo mentions */
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-teal-50/70 border border-teal-200/80 text-xs">
+            <div className="flex items-center gap-2.5">
+              <div className="h-8 w-8 rounded-lg bg-[#0F766E] text-white flex items-center justify-center font-bold text-xs shadow-xs">
+                <UserCheck className="w-4 h-4" />
+              </div>
+              <div>
+                <div className="font-bold text-slate-900">
+                  {t(`স্বাগতম, ${currentUser.name}!`, `Welcome, ${currentUser.name}!`)}
+                </div>
+                <div className="text-[11px] text-slate-500">
+                  {currentUser.role === "doctor"
+                    ? t(`চিকিৎসক সেশন সক্রিয় (BMDC: ${currentUser.bmdc_number || "ভেরিফাইড"})`, `Active Doctor Session (BMDC: ${currentUser.bmdc_number || "Verified"})`)
+                    : t("রোগী ও পরিবার কেয়ার সেশন সক্রিয়", "Patient & Family Care Session Active")}
+                </div>
+              </div>
+            </div>
 
-          <div className="flex items-center gap-2 font-mono text-[11px] text-slate-600">
-            <ShieldCheck className="w-3.5 h-3.5 text-[#15803D]" />
-            <span>256-bit HIPAA Encrypted • Verified Account</span>
+            <div className="flex items-center gap-2 font-mono text-[11px] text-slate-600">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#15803D]" />
+              <span>256-bit HIPAA Encrypted • Verified Account</span>
+            </div>
           </div>
-        </div>
-      ) : null}
+        ) : null}
 
       {/* Main Prescription Care Hub: any analysis action triggers login modal if unauthenticated */}
       <PrescriptionCareHub />
@@ -208,5 +203,6 @@ export default function CheckerPage() {
         </div>
       </div>
     </div>
+  </ProtectedRoute>
   );
 }

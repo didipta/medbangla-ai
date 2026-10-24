@@ -10,6 +10,12 @@ import '../bloc/auth_bloc.dart';
 import '../bloc/auth_event.dart';
 import '../bloc/auth_state.dart';
 import '../widgets/auth_modal_sheet.dart';
+import '../../../prescription_scanner/presentation/bloc/scanner_bloc.dart';
+import '../../../prescription_scanner/presentation/bloc/scanner_event.dart';
+import '../../../clinical_chat/presentation/bloc/chat_bloc.dart';
+import '../../../clinical_chat/presentation/bloc/chat_event.dart';
+import '../../../drug_interactions/presentation/bloc/interaction_bloc.dart';
+import '../../../drug_interactions/presentation/bloc/interaction_event.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -249,8 +255,12 @@ class ProfilePage extends StatelessWidget {
                     const SizedBox(width: 10),
                     Expanded(
                       child: OutlinedButton.icon(
-                        onPressed: () =>
-                            context.read<AuthBloc>().add(LogoutEvent()),
+                        onPressed: () {
+                          context.read<ScannerBloc>().add(const ResetScannerEvent());
+                          context.read<ChatBloc>().add(ResetChatEvent());
+                          context.read<InteractionBloc>().add(const ClearInteractionsEvent());
+                          context.read<AuthBloc>().add(LogoutEvent());
+                        },
                         icon: const Icon(
                           Icons.logout_rounded,
                           size: 18,

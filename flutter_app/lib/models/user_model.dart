@@ -22,6 +22,7 @@ class UserModel {
   bool get isDoctor => role == 'doctor';
   bool get isAdmin => role == 'admin';
   bool get isGuest => role == 'guest';
+  bool get isDemo => id.startsWith('demo-') || token.startsWith('demo-') || email.contains('demo');
 
   factory UserModel.guest() {
     return UserModel(

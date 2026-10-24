@@ -12,6 +12,10 @@ class InteractionBloc extends Bloc<InteractionEvent, InteractionState> {
     on<CheckMedicinesInteractionEvent>(_onCheck);
     on<AddMedicineToInteractionEvent>(_onAddMedicine);
     on<RemoveMedicineFromInteractionEvent>(_onRemoveMedicine);
+    on<ClearInteractionsEvent>((event, emit) {
+      _medicines.clear();
+      emit(InteractionInitialState());
+    });
   }
 
   Future<void> _onCheck(

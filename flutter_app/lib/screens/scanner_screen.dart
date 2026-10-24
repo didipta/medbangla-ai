@@ -33,6 +33,45 @@ class _ScannerScreenState extends State<ScannerScreen> {
   }
 
   Future<void> _pickImage(ImageSource source) async {
+    final auth = Provider.of<AuthService>(context, listen: false);
+    final lang = Provider.of<LanguageProvider>(context, listen: false);
+
+    if (auth.currentUser.isDemo) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+          title: Row(
+            children: [
+              const Icon(Icons.lock_person_outlined, color: Color(0xFFD97706)),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  lang.t('মাহদী হাসান (ডেমো রোগী): আপলোড ও ক্যামেরা প্রযোজ্য নয়', 'Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable'),
+                  style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+          content: Text(
+            lang.t(
+              'মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; পূর্বের বাস্তব ডেমো প্রেসক্রিপশন কার্যকর। নিজস্ব প্রেসক্রিপশন ছবি আপলোড ও লাইভ স্ক্যান করতে অনুগ্রহ করে আপনার নিজস্ব গুগল অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।',
+              'Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Please sign in with your own Google account, then all processes will work properly.',
+            ),
+            style: const TextStyle(fontSize: 12),
+          ),
+          actions: [
+            ElevatedButton(
+              onPressed: () => Navigator.pop(ctx),
+              style: ElevatedButton.styleFrom(backgroundColor: AppColors.primary),
+              child: Text(lang.t('ঠিক আছে', 'OK')),
+            ),
+          ],
+        ),
+      );
+      return;
+    }
+
     try {
       final XFile? file = await _picker.pickImage(
         source: source,
@@ -48,7 +87,6 @@ class _ScannerScreenState extends State<ScannerScreen> {
         });
 
         if (!mounted) return;
-        final auth = Provider.of<AuthService>(context, listen: false);
         final result = await _ocrService.scanPrescriptionFile(
           file.path,
           token: auth.token,
@@ -230,7 +268,38 @@ class _ScannerScreenState extends State<ScannerScreen> {
               ),
             ],
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 12),
+          Consumer<AuthService>(
+            builder: (context, auth, _) {
+              if (auth.currentUser.isDemo) {
+                return Container(
+                  margin: const EdgeInsets.only(bottom: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFFFFBEB),
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: const Color(0xFFFDE68A)),
+                  ),
+                  child: Row(
+                    children: [
+                      const Icon(Icons.lock_person_outlined, size: 14, color: Color(0xFFD97706)),
+                      const SizedBox(width: 6),
+                      Expanded(
+                        child: Text(
+                          lang.t(
+                            'ডেমো মোড: ছবি আপলোড ও ক্যামেরা নিষ্ক্রিয় • নমুনা প্রেসক্রিপশন কার্যকর',
+                            'Demo Mode: Upload & Camera Not Applicable • Use Presets below',
+                          ),
+                          style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.bold, color: Color(0xFFB45309)),
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              }
+              return const SizedBox.shrink();
+            },
+          ),
           Row(
             children: [
               Expanded(

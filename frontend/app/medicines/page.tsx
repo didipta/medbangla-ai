@@ -19,7 +19,7 @@ import {
 import { ProtectedRoute } from "../components/ProtectedRoute";
 
 export default function MedicinesPage() {
-  const { currentUser } = useAuth();
+  const { currentUser, openAuthModal, loginAsDemoUser } = useAuth();
   const { t } = useLanguage();
 
   return (

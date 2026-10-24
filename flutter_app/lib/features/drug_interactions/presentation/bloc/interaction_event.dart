@@ -33,3 +33,7 @@ class RemoveMedicineFromInteractionEvent extends InteractionEvent {
   @override
   List<Object?> get props => [medicineName];
 }
+
+class ClearInteractionsEvent extends InteractionEvent {
+  const ClearInteractionsEvent();
+}

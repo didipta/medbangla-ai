@@ -55,6 +55,9 @@ class _InteractionPageState extends State<InteractionPage> {
       appBar: AppBar(
         title: Text(
           lang.t('ড্রাগ ইন্টারঅ্যাকশন ও সেফটি', 'Drug Interactions & Safety'),
+          style: const TextStyle(fontSize: 16),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
         ),
       ),
       body: BlocBuilder<InteractionBloc, InteractionState>(

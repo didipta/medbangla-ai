@@ -44,11 +44,14 @@ class _MedicinesPageState extends State<MedicinesPage> {
       appBar: AppBar(
         title: Text(
           lang.t('ওষুধের তালিকা (১৭,৫৮৯ ব্র্যান্ড)', 'BD Medicines Directory'),
+          style: const TextStyle(fontSize: 16),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
         ),
         bottom: PreferredSize(
-          preferredSize: const Size.fromHeight(60),
+          preferredSize: const Size.fromHeight(64),
           child: Padding(
-            padding: const EdgeInsets.only(left: 16, right: 16, bottom: 12),
+            padding: const EdgeInsets.only(left: 16, right: 16, bottom: 10),
             child: TextField(
               controller: _searchCtrl,
               onSubmitted: (val) {

@@ -24,7 +24,8 @@ import { api } from "../services/api";
 import { SystemHealth } from "../types/api";
 import { useAuth } from "../context/AuthContext";
 import { useLanguage } from "../context/LanguageContext";
-import { useAppSelector } from "../store";
+import { useAppDispatch, useAppSelector } from "../store";
+import { clearUserSessionData } from "../store/slices/prescriptionSlice";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -36,6 +37,7 @@ export const Navbar: React.FC = () => {
 
   const { currentUser, openAuthModal, logout } = useAuth();
   const { lang, setLang, t } = useLanguage();
+  const dispatch = useAppDispatch();
   const { dailyQuota } = useAppSelector((state) => state.prescription);
 
   const [health, setHealth] = useState<SystemHealth | null>(null);
@@ -315,6 +317,7 @@ export const Navbar: React.FC = () => {
                     <button
                       onClick={() => {
                         setShowUserMenu(false);
+                        dispatch(clearUserSessionData());
                         logout();
                       }}
                       className="w-full flex items-center gap-2 px-3 py-2 rounded-xl text-rose-600 hover:bg-rose-50 font-bold transition-colors cursor-pointer text-xs"
@@ -423,6 +426,7 @@ export const Navbar: React.FC = () => {
                   <button
                     onClick={() => {
                       setMobileMenuOpen(false);
+                      dispatch(clearUserSessionData());
                       logout();
                     }}
                     className="w-full flex items-center justify-center gap-2 py-2 rounded-xl text-rose-600 bg-rose-50 font-bold text-xs hover:bg-rose-100 transition-colors cursor-pointer border border-rose-100"

@@ -18,12 +18,13 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        titleSpacing: 16,
+        titleSpacing: 12,
         title: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Container(
-              height: 36,
-              width: 36,
+              height: 34,
+              width: 34,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(color: AppColors.primarySurface),
@@ -33,21 +34,25 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(width: 10),
-            RichText(
-              text: TextSpan(
-                style: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.textPrimary,
-                ),
-                children: [
-                  const TextSpan(text: 'MedBangla '),
-                  TextSpan(
-                    text: 'AI',
-                    style: const TextStyle(color: AppColors.primary),
+            const SizedBox(width: 8),
+            Flexible(
+              child: RichText(
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
+                text: TextSpan(
+                  style: const TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.w800,
+                    color: AppColors.textPrimary,
                   ),
-                ],
+                  children: [
+                    const TextSpan(text: 'MedBangla '),
+                    TextSpan(
+                      text: 'AI',
+                      style: const TextStyle(color: AppColors.primary),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],

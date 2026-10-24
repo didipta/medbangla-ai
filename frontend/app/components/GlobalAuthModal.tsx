@@ -5,13 +5,13 @@ import { AuthModal } from "./AuthModal";
 import { useAuth } from "../context/AuthContext";
 
 export const GlobalAuthModal: React.FC = () => {
-  const { isAuthModalOpen, closeAuthModal, login, authModalMode } = useAuth();
+  const { isAuthModalOpen, closeAuthModal, refreshUser, authModalMode } = useAuth();
 
   return (
     <AuthModal
       isOpen={isAuthModalOpen}
       onClose={closeAuthModal}
-      onLoginSuccess={login}
+      onLoginSuccess={() => refreshUser()}
       initialMode={authModalMode}
     />
   );

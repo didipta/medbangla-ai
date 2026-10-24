@@ -20,7 +20,11 @@ import '../../../auth/presentation/bloc/auth_event.dart';
 import '../../../auth/presentation/bloc/auth_state.dart';
 import '../../../auth/presentation/widgets/auth_modal_sheet.dart';
 import '../../../clinical_chat/domain/entities/chat_message_entity.dart';
+import '../../../clinical_chat/presentation/bloc/chat_bloc.dart';
+import '../../../clinical_chat/presentation/bloc/chat_event.dart';
 import '../../../drug_interactions/domain/entities/interaction_entity.dart';
+import '../../../drug_interactions/presentation/bloc/interaction_bloc.dart';
+import '../../../drug_interactions/presentation/bloc/interaction_event.dart';
 import '../../../../widgets/formatted_chat_text.dart';
 
 class ScannerPage extends StatefulWidget {
@@ -41,17 +45,22 @@ class _ScannerPageState extends State<ScannerPage>
   int? _activePresetIndex;
   String? _previewImagePath;
   bool _isCustomUploaded = false;
+  bool _hasAutoLoadedDemo = false;
+  String? _lastUserSessionKey;
 
   bool _isRealUser(AuthState authState) {
     if (authState is AuthenticatedState) {
-      return !authState.user.isGuest && !authState.user.id.startsWith('demo-');
+      return !authState.user.isGuest && !authState.user.isDemo && !authState.user.id.startsWith('demo-');
     }
     return false;
   }
 
   bool _isDemoLogin(AuthState authState) {
     if (authState is AuthenticatedState) {
-      return authState.user.id.startsWith('demo-');
+      return authState.user.isDemo ||
+          authState.user.id.startsWith('demo-') ||
+          authState.user.email.toLowerCase().contains('demo') ||
+          authState.user.name.contains('Mahdi Hasan');
     }
     return false;
   }
@@ -242,6 +251,11 @@ class _ScannerPageState extends State<ScannerPage>
       return;
     }
 
+    if (_isDemoLogin(authState)) {
+      _showDemoNotApplicableDialog(source);
+      return;
+    }
+
     await _proceedPickImage(source);
   }
 
@@ -265,6 +279,142 @@ class _ScannerPageState extends State<ScannerPage>
         );
       }
     }
+  }
+
+  void _showDemoNotApplicableDialog(ImageSource source) {
+    final lang = context.read<LanguageProvider>();
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (sheetCtx) => Container(
+        decoration: const BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 38,
+                height: 4,
+                margin: const EdgeInsets.only(bottom: 16),
+                decoration: BoxDecoration(
+                  color: AppColors.border,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFFEF3C7),
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: const Color(0xFFFDE68A)),
+                  ),
+                  child: const Icon(
+                    Icons.lock_person_outlined,
+                    color: Color(0xFFD97706),
+                    size: 20,
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    lang.t(
+                      'মাহদী হাসান (ডেমো রোগী): ছবি আপলোড ও ক্যামেরা প্রযোজ্য নয়',
+                      'Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable',
+                    ),
+                    style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: AppColors.textPrimary,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            Text(
+              lang.t(
+                'মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়; পূর্বের বাস্তব ডেমো প্রেসক্রিপশন কার্যকর। নিজস্ব প্রেসক্রিপশন ছবি আপলোড ও লাইভ স্ক্যান করতে অনুগ্রহ করে আপনার নিজস্ব গুগল অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।',
+                'Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Please sign in with your own Google account, then all processes will work properly.',
+              ),
+              style: const TextStyle(
+                fontSize: 12,
+                color: AppColors.textSecondary,
+                height: 1.4,
+              ),
+            ),
+            const SizedBox(height: 18),
+            Row(
+              children: [
+                Expanded(
+                  child: ElevatedButton.icon(
+                    onPressed: () {
+                      Navigator.pop(sheetCtx);
+                      AuthModalSheet.show(context);
+                    },
+                    icon: Image.network(
+                      'https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png',
+                      height: 18,
+                      width: 18,
+                      errorBuilder: (_, _, _) => const Icon(
+                        Icons.account_circle,
+                        size: 18,
+                        color: Colors.white,
+                      ),
+                    ),
+                    label: Text(
+                      lang.t('গুগল দিয়ে প্রবেশ করুন', 'Sign In with Google'),
+                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12.5),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.primary,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 8),
+                OutlinedButton(
+                  onPressed: () {
+                    Navigator.pop(sheetCtx);
+                    if (_activePresetIndex == null) {
+                      setState(() {
+                        _activePresetIndex = 0;
+                        _previewImagePath = 'assets/images/prescription_demo_dr_fazlul_hoque.jpg';
+                        _isCustomUploaded = false;
+                      });
+                      _runPrescriptionScan(presetIndex: 0);
+                    }
+                  },
+                  style: OutlinedButton.styleFrom(
+                    side: const BorderSide(color: AppColors.primary),
+                    padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 14),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                  ),
+                  child: Text(
+                    lang.t('ডেমো প্রিসেট চালান', 'Use Demo'),
+                    style: const TextStyle(
+                      color: AppColors.primary,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   void _showAuthRequiredDialog(ImageSource source) {
@@ -328,8 +478,8 @@ class _ScannerPageState extends State<ScannerPage>
             const SizedBox(height: 12),
             Text(
               lang.t(
-                'আপনার ব্যক্তিগত প্রেসক্রিপশনের স্বাস্থ্য সুরক্ষা ও ডাটাবেজে হিস্ট্রি সংরক্ষণের জন্য গুগল অথবা ১-ক্লিক ডেমো দিয়ে প্রবেশ করুন। অথবা নিচের তৈরি করা ডাক্তার প্রেসক্রিপশন দিয়ে পরীক্ষা করুন।',
-                'To secure your private medical records and save prescription history, please sign in with your Google account or 1-Click Demo.',
+                'আপনার ব্যক্তিগত প্রেসক্রিপশনের স্বাস্থ্য সুরক্ষা ও ডাটাবেজে হিস্ট্রি সংরক্ষণের জন্য গুগল অ্যাকাউন্ট দিয়ে প্রবেশ করুন। অথবা ১-ক্লিক ডেমো দিয়ে প্রস্তুতকৃত ডাক্তার প্রেসক্রিপশন পরীক্ষা করুন।',
+                'To secure your private medical records and save prescription history, please sign in with your Google account. Or test verified presets via 1-Click Demo.',
               ),
               style: const TextStyle(
                 fontSize: 12,
@@ -378,7 +528,12 @@ class _ScannerPageState extends State<ScannerPage>
                       context.read<AuthBloc>().add(
                         const LoginDemoEvent(role: 'patient'),
                       );
-                      _proceedPickImage(source);
+                      setState(() {
+                        _activePresetIndex = 0;
+                        _previewImagePath = 'assets/images/prescription_demo_dr_fazlul_hoque.jpg';
+                        _isCustomUploaded = false;
+                      });
+                      _runPrescriptionScan(presetIndex: 0);
                     },
                     icon: const Icon(
                       Icons.flash_on_rounded,
@@ -1250,6 +1405,34 @@ class _ScannerPageState extends State<ScannerPage>
     final isDemo = _isDemoLogin(authState);
     final isGuest = !isReal && !isDemo;
 
+    // Detect session changes to cleanly purge previous user's data
+    final currentSessionKey = authState is AuthenticatedState
+        ? (authState.user.isDemo || authState.user.id.startsWith('demo-')
+            ? 'demo-${authState.user.id}'
+            : 'user-${authState.user.id}')
+        : 'guest';
+
+    if (_lastUserSessionKey != null && _lastUserSessionKey != currentSessionKey) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!mounted) return;
+        setState(() {
+          _previewImagePath = null;
+          _activePresetIndex = null;
+          _isCustomUploaded = false;
+          _hasAutoLoadedDemo = false;
+          _interactions = [];
+          _guidanceText = null;
+          _chatMessages.clear();
+          _chatInputCtrl.clear();
+          _isScanning = false;
+        });
+        context.read<ScannerBloc>().add(const ResetScannerEvent());
+        context.read<ChatBloc>().add(ResetChatEvent());
+        context.read<InteractionBloc>().add(const ClearInteractionsEvent());
+      });
+    }
+    _lastUserSessionKey = currentSessionKey;
+
     if (authState is AuthLoadingState) {
       return Scaffold(
         appBar: AppBar(
@@ -1291,7 +1474,13 @@ class _ScannerPageState extends State<ScannerPage>
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(lang.t('প্রেসক্রিপশন এআই হাব', 'Prescription Care Hub')),
+        titleSpacing: 12,
+        title: Text(
+          lang.t('প্রেসক্রিপশন এআই হাব', 'Prescription Care Hub'),
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
+        ),
         actions: [
           // Daily Quota Quick Pill
           InkWell(
@@ -1299,18 +1488,19 @@ class _ScannerPageState extends State<ScannerPage>
             borderRadius: BorderRadius.circular(16),
             child: Container(
               margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
               decoration: BoxDecoration(
                 color: AppColors.primaryLight,
                 borderRadius: BorderRadius.circular(16),
                 border: Border.all(color: AppColors.primarySurface),
               ),
               child: Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [
-                  const Icon(Icons.history_edu_rounded, size: 15, color: AppColors.primary),
+                  const Icon(Icons.history_edu_rounded, size: 14, color: AppColors.primary),
                   const SizedBox(width: 4),
                   Text(
-                    lang.t('হিস্ট্রি ও কোটা', 'History'),
+                    lang.t('হিস্ট্রি', 'History'),
                     style: const TextStyle(fontSize: 11, fontWeight: FontWeight.bold, color: AppColors.primary),
                   ),
                 ],
@@ -1324,8 +1514,19 @@ class _ScannerPageState extends State<ScannerPage>
           BlocConsumer<ScannerBloc, ScannerState>(
             listener: (context, state) {
               // If real user is logged in, ensure no residual demo preset data is kept in loaded state
-              if (isReal && state is ScannerLoadedState && state.customImagePath == null) {
-                context.read<ScannerBloc>().add(const ResetScannerEvent());
+              if (isReal) {
+                _hasAutoLoadedDemo = false;
+                if (state is ScannerLoadedState && state.customImagePath == null) {
+                  context.read<ScannerBloc>().add(const ResetScannerEvent());
+                }
+              }
+              // If demo user (Mahdi Hasan) is logged in, automatically load authentic demo data (Preset 0)
+              if (isDemo && state is ScannerInitialState && !_isScanning && !_hasAutoLoadedDemo) {
+                _hasAutoLoadedDemo = true;
+                _activePresetIndex = 0;
+                _previewImagePath = 'assets/images/prescription_demo_dr_fazlul_hoque.jpg';
+                _isCustomUploaded = false;
+                context.read<ScannerBloc>().add(const LoadPresetEvent(0));
               }
             },
             builder: (context, state) {
@@ -2707,16 +2908,27 @@ class _ScannerPageState extends State<ScannerPage>
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 3),
                       decoration: BoxDecoration(
-                        color: AppColors.background,
+                        color: isDemoLogin ? const Color(0xFFFEF3C7) : AppColors.background,
                         borderRadius: BorderRadius.circular(6),
-                        border: Border.all(color: AppColors.border),
+                        border: Border.all(color: isDemoLogin ? const Color(0xFFFDE68A) : AppColors.border),
                       ),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          const Icon(Icons.camera_alt_outlined, size: 11, color: AppColors.primary),
+                          Icon(
+                            isDemoLogin ? Icons.lock_outline_rounded : Icons.camera_alt_outlined,
+                            size: 11,
+                            color: isDemoLogin ? const Color(0xFFD97706) : AppColors.primary,
+                          ),
                           const SizedBox(width: 2),
-                          Text(lang.t('ক্যামেরা', 'Camera'), style: const TextStyle(fontSize: 9, fontWeight: FontWeight.bold)),
+                          Text(
+                            lang.t('ক্যামেরা', 'Camera'),
+                            style: TextStyle(
+                              fontSize: 9,
+                              fontWeight: FontWeight.bold,
+                              color: isDemoLogin ? const Color(0xFFB45309) : AppColors.textPrimary,
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -2727,16 +2939,27 @@ class _ScannerPageState extends State<ScannerPage>
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 3),
                       decoration: BoxDecoration(
-                        color: AppColors.background,
+                        color: isDemoLogin ? const Color(0xFFFEF3C7) : AppColors.background,
                         borderRadius: BorderRadius.circular(6),
-                        border: Border.all(color: AppColors.border),
+                        border: Border.all(color: isDemoLogin ? const Color(0xFFFDE68A) : AppColors.border),
                       ),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          const Icon(Icons.photo_library_outlined, size: 11, color: AppColors.primary),
+                          Icon(
+                            isDemoLogin ? Icons.lock_outline_rounded : Icons.photo_library_outlined,
+                            size: 11,
+                            color: isDemoLogin ? const Color(0xFFD97706) : AppColors.primary,
+                          ),
                           const SizedBox(width: 2),
-                          Text(lang.t('গ্যালারি', 'Gallery'), style: const TextStyle(fontSize: 9, fontWeight: FontWeight.bold)),
+                          Text(
+                            lang.t('গ্যালারি', 'Gallery'),
+                            style: TextStyle(
+                              fontSize: 9,
+                              fontWeight: FontWeight.bold,
+                              color: isDemoLogin ? const Color(0xFFB45309) : AppColors.textPrimary,
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -2745,6 +2968,72 @@ class _ScannerPageState extends State<ScannerPage>
               ),
             ],
           ),
+
+          // Notice for Demo User: Upload & Camera Not Applicable
+          if (isDemoLogin) ...[
+            const SizedBox(height: 7),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFFBEB),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(color: const Color(0xFFFDE68A)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      const Icon(Icons.shield_outlined, size: 14, color: Color(0xFFD97706)),
+                      const SizedBox(width: 5),
+                      Expanded(
+                        child: Text(
+                          lang.t(
+                            'মাহদী হাসান (ডেমো রোগী): ছবি আপলোড বা ক্যামেরা প্রযোজ্য নয়',
+                            'Mahdi Hasan (Demo Patient): Upload & Camera Not Applicable',
+                          ),
+                          style: const TextStyle(fontSize: 10.5, color: Color(0xFF92400E), fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    lang.t(
+                      'পূর্বের বাস্তব ডেমো ডাটা এবং সম্পূর্ণ প্রসেস সক্রিয় রয়েছে। নিজস্ব প্রেসক্রিপশন আপলোড ও স্ক্যান করতে অনুগ্রহ করে আপনার গুগল অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।',
+                      'Displaying authentic previous demo data & full process. Please login with your own Google account, then all processes will work properly.',
+                    ),
+                    style: const TextStyle(fontSize: 9.5, color: Color(0xFFB45309), height: 1.3),
+                  ),
+                  const SizedBox(height: 6),
+                  InkWell(
+                    onTap: () => AuthModalSheet.show(context),
+                    borderRadius: BorderRadius.circular(6),
+                    child: Container(
+                      width: double.infinity,
+                      alignment: Alignment.center,
+                      padding: const EdgeInsets.symmetric(vertical: 6),
+                      decoration: BoxDecoration(
+                        color: AppColors.primary,
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(Icons.login_rounded, size: 12, color: Colors.white),
+                          const SizedBox(width: 4),
+                          Text(
+                            lang.t('গুগল দিয়ে লগইন করুন (সব প্রসেস সঠিকভাবে কাজ করবে)', 'Sign In with Google (To Enable All Processes)'),
+                            style: const TextStyle(fontSize: 9.5, fontWeight: FontWeight.bold, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
 
           // If Guest (not real user and not demo logged in), show 1-Click Demo & Google Sign-In Banner
           if (!isRealUser && !isDemoLogin) ...[
@@ -3289,6 +3578,68 @@ class _ScannerPageState extends State<ScannerPage>
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             ),
           ),
+        ),
+
+        // Mahdi Hasan (Demo Patient) Google Login Guidance Card
+        Builder(
+          builder: (ctx) {
+            final authState = ctx.watch<AuthBloc>().state;
+            final isDemo = _isDemoLogin(authState);
+            if (!isDemo) return const SizedBox.shrink();
+
+            return Container(
+              margin: const EdgeInsets.only(top: 14),
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFFBEB),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: const Color(0xFFFDE68A)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      const Icon(Icons.shield_outlined, size: 15, color: Color(0xFFD97706)),
+                      const SizedBox(width: 6),
+                      Expanded(
+                        child: Text(
+                          lang.t('মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্ট নোটিশ', 'Mahdi Hasan (Demo Patient) Notice'),
+                          style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.bold, color: Color(0xFF92400E)),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 5),
+                  Text(
+                    lang.t(
+                      'মাহদী হাসান (ডেমো রোগী) অ্যাকাউন্টে কোনো ছবি আপলোড বা ক্যামেরা ক্যাপচার প্রযোজ্য নয়। পূর্বের বাস্তব ডেমো ডাটা এবং সম্পূর্ণ প্রসেস এখানে প্রদর্শিত হচ্ছে। আপনার নিজস্ব প্রেসক্রিপশন আপলোড এবং লাইভ এআই স্ক্যান চালাতে অনুগ্রহ করে আপনার নিজস্ব গুগল অ্যাকাউন্ট দিয়ে লগইন করুন, তাহলে সব প্রসেস সঠিকভাবে কাজ করবে।',
+                      'Image upload and camera capture are not applicable for Mahdi Hasan (Demo Patient). Displaying authentic previous demo data and full process. Please login with your own Google account, then all processes will work properly.',
+                    ),
+                    style: const TextStyle(fontSize: 10.5, color: Color(0xFFB45309), height: 1.35),
+                  ),
+                  const SizedBox(height: 10),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      onPressed: () => AuthModalSheet.show(context),
+                      icon: const Icon(Icons.login_rounded, size: 14),
+                      label: Text(
+                        lang.t('গুগল দিয়ে লগইন করুন (সব প্রসেস সঠিকভাবে কাজ করবে)', 'Sign In with Google (To Enable All Processes)'),
+                        style: const TextStyle(fontSize: 11, fontWeight: FontWeight.bold),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppColors.primary,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
         ),
       ],
     );

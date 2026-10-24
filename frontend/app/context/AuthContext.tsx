@@ -2,6 +2,8 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import { api } from "../services/api";
+import { store } from "../store";
+import { clearUserSessionData } from "../store/slices/prescriptionSlice";
 
 export interface AuthUser {
   id: string;
@@ -125,6 +127,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     bmdc?: string
   ): Promise<{ success: boolean; is_new_user?: boolean; message?: string }> => {
     try {
+      store.dispatch(clearUserSessionData());
       const { data } = await api.loginWithGoogle(credential, role, bmdc);
       if (data?.access_token && data?.user) {
         setToken(data.access_token);
@@ -154,6 +157,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const logout = () => {
+    store.dispatch(clearUserSessionData());
     setCurrentUser(null);
     setToken(null);
     try {
@@ -205,6 +209,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const loginAsDemoUser = async (
     role: "patient" | "doctor" = "patient"
   ): Promise<{ success: boolean; message?: string }> => {
+    store.dispatch(clearUserSessionData());
     setIsLoading(true);
     try {
       try {
@@ -263,7 +268,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const isDemoUser = Boolean(
     (token && token.startsWith("demo-")) ||
     (currentUser?.id && currentUser.id.startsWith("demo-")) ||
-    (currentUser?.email && currentUser.email.toLowerCase().includes("demo"))
+    (currentUser?.email && currentUser.email.toLowerCase().includes("demo")) ||
+    (currentUser?.name && currentUser.name.toLowerCase().includes("demo")) ||
+    (currentUser?.name && currentUser.name.includes("Mahdi Hasan")) ||
+    (currentUser?.email === "mahdi.hasan@gmail.com")
   );
   const isGoogleUser = Boolean(currentUser && !isDemoUser);
 
