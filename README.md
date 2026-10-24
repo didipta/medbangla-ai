@@ -9,8 +9,9 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com/)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B.svg)](https://flutter.dev/)
 [![Neon Database](https://img.shields.io/badge/Neon-PostgreSQL_16-00E599.svg)](https://neon.tech/)
+[![Developed by Studio Peppers](https://img.shields.io/badge/Developed%20By-Studio%20Peppers-FF4B4B.svg)](https://github.com/didipta/medbangla-ai)
 
-> **MedBangla AI** is a medical AI platform specifically engineered for Bangladesh's clinical ecosystem. It addresses the epidemic of illegible handwritten prescriptions, polypharmacy risks, and linguistic barriers by providing **hybrid CPU-first bilingual OCR (RapidOCR + Gemini Flash)**, **fuzzy entity matching across 17,589+ DGDA-approved medicines**, **instant pairwise Drug-Drug Interaction (DDI) safety checks**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
+> **MedBangla AI** is an original proprietary healthcare technology project conceived, designed, and developed by **Studio Peppers**, specifically engineered for Bangladesh's clinical ecosystem. It addresses the epidemic of illegible handwritten prescriptions, polypharmacy risks, and linguistic barriers by providing **hybrid CPU-first bilingual OCR (RapidOCR + Gemini Flash)**, **fuzzy entity matching across 17,589+ DGDA-approved medicines**, **instant pairwise Drug-Drug Interaction (DDI) safety checks**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
 
 ---
 
@@ -18,6 +19,7 @@
 
 | Platform / Service | Live URL / Download Link | Description & Access Notes |
 | :--- | :--- | :--- |
+| 🎥 **Product Demo & Video Walkthrough** | **[Watch Demo Video (Google Drive)](https://drive.google.com/file/d/1PxjW_kfoqDayLrT40KsaAx7vCWg__ObY/view?usp=sharing)** | Complete end-to-end video demonstration showcasing prescription OCR, interactive verification, drug safety triage, and mobile app usage. |
 | 💻 **Patient Web Application** | **[medbangla-ai-liart.vercel.app](https://medbangla-ai-liart.vercel.app/)** | Public patient portal: Interactive prescription upload, side-by-side verification canvas, interaction checker, and Bengali AI consultation. |
 | 🛡️ **Clinical Admin Command Portal** | **[medbangla-ai-liart.vercel.app/admin](https://medbangla-ai-liart.vercel.app/admin)** | Clinical dashboard: KPI telemetry, prescription audits, user accounts, medicine catalog CRUD, interaction matrix, and live app control. |
 | ⚡ **Production Backend REST API** | **[medbangla-ai.onrender.com](https://medbangla-ai.onrender.com/)** | High-performance FastAPI ASGI server deployed on Render with PostgreSQL connection pooling and CPU-optimized ONNX runtime. |
@@ -320,9 +322,21 @@ flutter run
 
 ---
 
+## 👨‍💻 Project Authorship & Ownership
+
+> **MedBangla AI** is an original proprietary medical technology initiative proudly conceived, designed, and developed by **Studio Peppers**.
+> 
+> - **Lead Engineering Studio:** **Studio Peppers**
+> - **Project Creator & Lead Architect:** **Didipta** ([GitHub Profile](https://github.com/didipta))
+> - **Official Repository:** [github.com/didipta/medbangla-ai](https://github.com/didipta/medbangla-ai)
+> - **Inquiries & Technical Collaboration:** [contact@studiopeppers.com](mailto:contact@studiopeppers.com) / [support@medbangla.ai](mailto:support@medbangla.ai)
+
+---
+
 ## 📜 License & Acknowledgments
 
 This project is open-source under the [MIT License](LICENSE).  
+- Designed and developed by **Studio Peppers**.  
 - Pharmacological data provided by the **Directorate General of Drug Administration (DGDA), Bangladesh**.  
 - Drug interaction taxonomy adapted from international clinical reference standards (BNF, Stockley's).  
-- Developed by the **MedBangla AI Clinical & Engineering Team**.
+- Developed by the **Studio Peppers Clinical & Engineering Team**.
