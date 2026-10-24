@@ -29,16 +29,27 @@
 | 📖 **ReDoc API Documentation** | **[medbangla-ai.onrender.com/redoc](https://medbangla-ai.onrender.com/redoc)** | Clean, hierarchical OpenAPI specifications and request/response schema explorer. |
 | 📱 **Android Mobile App (APK)** | **[Download APK (Google Drive)](https://drive.google.com/file/d/1psf4w3CSwTM8RRKBZ-gXISFbU9MF3vfi/view?usp=drive_link)** | Production Android package (`.apk` v1.0.0, ~24.8 MB) featuring hardware camera scanner, offline DGDA catalog, and live maintenance hooks. |
 
-### 🔑 Administrator Portal Credentials
+### 🔑 Administrator Portal Access & Security Model
 
-The Admin Portal supports dual authentication tiers:
-- **Real Admin Login (Full Control):**  
-  - Email: `admin@medbangla.ai`  
-  - Password: `MedBanglaAdmin2026!`  
-  - *Unlocks: Live App & Update Control, System Maintenance Mode toggling, production Google Drive APK distribution, and database mutation.*
-- **1-Click Instant Demo Login (Sandbox):**  
-  - Available directly on `/admin/login` via the **"⚡ এক ক্লিকে ডেমো অ্যাডমিন লগইন"** button.  
-  - Loads realistic simulated clinical audit logs and metrics while keeping live mobile app controls securely locked.
+The Admin Portal implements a dual-tier security architecture:
+- **1-Click Instant Demo Access (Public Sandbox):**  
+  Public visitors, evaluators, and reviewers can access the complete administrative cockpit instantly on `/admin/login` using the **"⚡ এক ক্লিকে ডেমো অ্যাডমিন লগইন (1-Click Demo Login)"** button without needing credentials. It populates realistic simulated clinical audit records, KPI analytics, and infrastructure graphs.
+- **Production Administrative Access (Restricted):**  
+  Sensitive operational features — including live emergency mobile maintenance mode switching, force-update version requirements, and production Google Drive APK distribution — are **strictly restricted** to the verified project administrator. Production credentials are confidential and withheld from public repositories.
+
+---
+
+## 📑 Official Project Reports & Technical Documentation
+
+For in-depth academic review, technical architecture, and implementation details, refer to the official capstone documents in this repository:
+
+| Document | File Link | Focus & Coverage |
+| :--- | :--- | :--- |
+| 📑 **Capstone Final Report** | **[CAPSTONE_FINAL_REPORT.md](CAPSTONE_FINAL_REPORT.md)** | Academic 5-page capstone report: Problem formulation, clinical background, AI model performance evaluation, and safety guardrails. |
+| 🏗️ **Master Architecture Plan** | **[PROJECT_PLAN.md](PROJECT_PLAN.md)** | Complete technical blueprint: Database schema design, REST microservice contracts, and bilingual OCR engineering specifications. |
+| 📘 **Infrastructure & GPU Audit** | **[SYSTEM_ARCHITECTURE_REPORT.md](MEDBANGLA_AI_SYSTEM_ARCHITECTURE_AND_INFRASTRUCTURE_REPORT.md)** | Detailed server sizing, RapidOCR ONNX inference latency benchmarks, cloud cost analysis, and bilingual processing architecture. |
+| 🔄 **CI/CD Deployment Guide** | **[CI_CD_GUIDE.md](CI_CD_GUIDE.md)** | Continuous integration & deployment manual: GitHub Actions workflows, GHCR Docker container registry, and Vercel/Render automations. |
+| ☁️ **Cloud Keep-Alive Manual** | **[RENDER_DEPLOY_AND_KEEP_ALIVE.md](RENDER_DEPLOY_AND_KEEP_ALIVE.md)** | Render web service orchestration, PostgreSQL connection pooling configuration, and automated uptime keep-alive jobs. |
 
 ---
 
