@@ -25,7 +25,21 @@ class UserEntity extends Equatable {
 
   bool get isDoctor => role.toLowerCase() == 'doctor';
   bool get isPatient => !isDoctor;
-  bool get isDemo => id.startsWith('demo-') || (token != null && token!.startsWith('demo-')) || email.contains('demo');
+  bool get isDemo {
+    if (isGuest) return false;
+    final lowerId = id.toLowerCase();
+    final lowerEmail = email.toLowerCase();
+    final lowerName = name.toLowerCase();
+    final tokenVal = token?.toLowerCase() ?? '';
+    return lowerId.startsWith('demo-') ||
+        tokenVal.startsWith('demo-') ||
+        lowerEmail.contains('demo') ||
+        lowerEmail == 'mahdi.hasan@gmail.com' ||
+        lowerEmail == 'dr.fazlul.hoque@gmail.com' ||
+        lowerName.contains('demo') ||
+        name.contains('Mahdi Hasan') ||
+        name.contains('Fazlul Hoque');
+  }
 
   static const guest = UserEntity(
     id: 'guest',

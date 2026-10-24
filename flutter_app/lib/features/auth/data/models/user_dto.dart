@@ -64,6 +64,46 @@ class UserDto {
     };
   }
 
+  bool get isDemo {
+    if (isGuest) return false;
+    final lowerId = id.toLowerCase();
+    final lowerEmail = email.toLowerCase();
+    final lowerName = name.toLowerCase();
+    final tokenVal = token?.toLowerCase() ?? '';
+    return lowerId.startsWith('demo-') ||
+        tokenVal.startsWith('demo-') ||
+        lowerEmail.contains('demo') ||
+        lowerEmail == 'mahdi.hasan@gmail.com' ||
+        lowerEmail == 'dr.fazlul.hoque@gmail.com' ||
+        lowerName.contains('demo') ||
+        name.contains('Mahdi Hasan') ||
+        name.contains('Fazlul Hoque');
+  }
+
+  UserDto copyWith({
+    String? id,
+    String? email,
+    String? name,
+    String? picture,
+    String? role,
+    String? bmdcNumber,
+    String? title,
+    bool? isGuest,
+    String? token,
+  }) {
+    return UserDto(
+      id: id ?? this.id,
+      email: email ?? this.email,
+      name: name ?? this.name,
+      picture: picture ?? this.picture,
+      role: role ?? this.role,
+      bmdcNumber: bmdcNumber ?? this.bmdcNumber,
+      title: title ?? this.title,
+      isGuest: isGuest ?? this.isGuest,
+      token: token ?? this.token,
+    );
+  }
+
   UserEntity toEntity() {
     return UserEntity(
       id: id,

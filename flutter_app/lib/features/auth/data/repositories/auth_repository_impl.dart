@@ -41,7 +41,7 @@ class AuthRepositoryImpl implements AuthRepository {
   @override
   Future<UserEntity?> getCurrentUser() async {
     final token = await storageService.getToken();
-    if (token.isEmpty || token == 'demo-patient-token') {
+    if (token.isEmpty) {
       return null;
     }
     final dto = await remoteDataSource.getCurrentUser(token);

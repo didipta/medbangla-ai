@@ -28,6 +28,9 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   Future<UserDto> loginDemo({required String role}) async {
     final isDoc = role.toLowerCase() == 'doctor';
     final cred = isDoc ? 'demo-doctor-token' : 'demo-patient-token';
+    final fallbackId = isDoc ? 'demo-doc-01' : 'demo-pat-01';
+    final demoName = isDoc ? 'Prof. Dr. Md. Fazlul Hoque' : 'Mahdi Hasan (Demo Patient)';
+    final demoEmail = isDoc ? 'dr.fazlul.hoque@gmail.com' : 'mahdi.hasan@gmail.com';
 
     try {
       final response = await dioClient.dio.post(
@@ -43,7 +46,14 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
         final data = response.data as Map<String, dynamic>;
         final token = data['access_token']?.toString();
         final userData = data['user'] as Map<String, dynamic>? ?? {};
-        return UserDto.fromJson(userData, token: token);
+        final parsed = UserDto.fromJson(userData, token: token);
+        return parsed.copyWith(
+          id: fallbackId,
+          name: parsed.name.isNotEmpty ? parsed.name : demoName,
+          email: parsed.email.isNotEmpty ? parsed.email : demoEmail,
+          role: isDoc ? 'doctor' : 'patient',
+          token: token ?? cred,
+        );
       }
     } catch (_) {
       // Fallback gracefully for offline / sandbox mode
@@ -51,9 +61,9 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
 
     // Offline / Fallback Demo Sandbox
     return UserDto(
-      id: isDoc ? 'demo-doc-01' : 'demo-pat-01',
-      email: isDoc ? 'dr.fazlul.hoque@gmail.com' : 'mahdi.hasan@gmail.com',
-      name: isDoc ? 'Prof. Dr. Md. Fazlul Hoque' : 'Mahdi Hasan (Demo Patient)',
+      id: fallbackId,
+      email: demoEmail,
+      name: demoName,
       picture: isDoc
           ? 'https://api.dicebear.com/7.x/avataaars/png?seed=Fazlul'
           : 'https://api.dicebear.com/7.x/avataaars/png?seed=Mahdi',

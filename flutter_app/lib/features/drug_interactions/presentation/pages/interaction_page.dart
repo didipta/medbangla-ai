@@ -232,7 +232,64 @@ class _InteractionPageState extends State<InteractionPage> {
                       );
                     }
 
-                    return const SizedBox.shrink();
+                    return Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(24),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.all(14),
+                              decoration: BoxDecoration(
+                                color: AppColors.primaryLight,
+                                shape: BoxShape.circle,
+                              ),
+                              child: const Icon(
+                                Icons.shield_outlined,
+                                size: 38,
+                                color: AppColors.primary,
+                              ),
+                            ),
+                            const SizedBox(height: 14),
+                            Text(
+                              lang.t(
+                                'নির্বাচিত ওষুধগুলোর বিক্রিয়া ও নিরাপত্তা পরীক্ষা করুন',
+                                'Check interactions & safety for selected medicines',
+                              ),
+                              style: const TextStyle(
+                                fontSize: 13,
+                                fontWeight: FontWeight.bold,
+                                color: AppColors.textPrimary,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            const SizedBox(height: 14),
+                            ElevatedButton.icon(
+                              onPressed: () {
+                                context.read<InteractionBloc>().add(
+                                  CheckMedicinesInteractionEvent(currentMeds),
+                                );
+                              },
+                              icon: const Icon(Icons.security_rounded, size: 16),
+                              label: Text(
+                                lang.t('এখনই সেফটি চেক করুন', 'Run Safety Check Now'),
+                              ),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: AppColors.primary,
+                                foregroundColor: Colors.white,
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 18,
+                                  vertical: 10,
+                                ),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
                   },
                 ),
               ),

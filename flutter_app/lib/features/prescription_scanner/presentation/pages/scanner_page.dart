@@ -23,8 +23,6 @@ import '../../../clinical_chat/domain/entities/chat_message_entity.dart';
 import '../../../clinical_chat/presentation/bloc/chat_bloc.dart';
 import '../../../clinical_chat/presentation/bloc/chat_event.dart';
 import '../../../drug_interactions/domain/entities/interaction_entity.dart';
-import '../../../drug_interactions/presentation/bloc/interaction_bloc.dart';
-import '../../../drug_interactions/presentation/bloc/interaction_event.dart';
 import '../../../../widgets/formatted_chat_text.dart';
 
 class ScannerPage extends StatefulWidget {
@@ -50,17 +48,14 @@ class _ScannerPageState extends State<ScannerPage>
 
   bool _isRealUser(AuthState authState) {
     if (authState is AuthenticatedState) {
-      return !authState.user.isGuest && !authState.user.isDemo && !authState.user.id.startsWith('demo-');
+      return !authState.user.isGuest && !authState.user.isDemo;
     }
     return false;
   }
 
   bool _isDemoLogin(AuthState authState) {
     if (authState is AuthenticatedState) {
-      return authState.user.isDemo ||
-          authState.user.id.startsWith('demo-') ||
-          authState.user.email.toLowerCase().contains('demo') ||
-          authState.user.name.contains('Mahdi Hasan');
+      return authState.user.isDemo;
     }
     return false;
   }
@@ -1407,7 +1402,7 @@ class _ScannerPageState extends State<ScannerPage>
 
     // Detect session changes to cleanly purge previous user's data
     final currentSessionKey = authState is AuthenticatedState
-        ? (authState.user.isDemo || authState.user.id.startsWith('demo-')
+        ? (authState.user.isDemo
             ? 'demo-${authState.user.id}'
             : 'user-${authState.user.id}')
         : 'guest';
@@ -1428,7 +1423,6 @@ class _ScannerPageState extends State<ScannerPage>
         });
         context.read<ScannerBloc>().add(const ResetScannerEvent());
         context.read<ChatBloc>().add(ResetChatEvent());
-        context.read<InteractionBloc>().add(const ClearInteractionsEvent());
       });
     }
     _lastUserSessionKey = currentSessionKey;
@@ -1513,14 +1507,7 @@ class _ScannerPageState extends State<ScannerPage>
         children: [
           BlocConsumer<ScannerBloc, ScannerState>(
             listener: (context, state) {
-              // If real user is logged in, ensure no residual demo preset data is kept in loaded state
-              if (isReal) {
-                _hasAutoLoadedDemo = false;
-                if (state is ScannerLoadedState && state.customImagePath == null) {
-                  context.read<ScannerBloc>().add(const ResetScannerEvent());
-                }
-              }
-              // If demo user (Mahdi Hasan) is logged in, automatically load authentic demo data (Preset 0)
+              // If demo user is logged in, automatically load authentic demo data (Preset 0) once
               if (isDemo && state is ScannerInitialState && !_isScanning && !_hasAutoLoadedDemo) {
                 _hasAutoLoadedDemo = true;
                 _activePresetIndex = 0;
@@ -1538,7 +1525,7 @@ class _ScannerPageState extends State<ScannerPage>
                   retryText: lang.t('আবার চেষ্টা করুন', 'Retry'),
                   onRetry: () => _runPrescriptionScan(presetIndex: _activePresetIndex),
                 );
-              } else if (state is ScannerLoadedState && (!isReal || state.customImagePath != null)) {
+              } else if (state is ScannerLoadedState) {
                 // Extracted Data Available: Show 4-Part Clinical Workstation
                 final scan = state.result;
                 final medicineNames = scan.medicines.map((m) => m.matchedBrand).toList();
