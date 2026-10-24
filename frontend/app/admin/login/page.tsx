@@ -70,6 +70,11 @@ export default function AdminLoginPage() {
     }
   };
 
+  const handleAutofillRealAdmin = () => {
+    setEmail("admin@medbangla.ai");
+    setPassword("MedBanglaAdmin2026!");
+  };
+
   const handleAutofillDemo = () => {
     setEmail("demo@medbangla.ai");
     setPassword("demoadmin123");
@@ -152,18 +157,36 @@ export default function AdminLoginPage() {
 
         {/* Traditional Credentials Form Card */}
         <div className="bg-white border border-slate-200/80 rounded-2xl p-6 sm:p-7 shadow-xl shadow-slate-200/50">
-          <div className="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+          <div className="flex items-center justify-between mb-3 pb-3 border-b border-slate-100">
             <span className="text-xs font-bold text-slate-600 uppercase tracking-wider flex items-center gap-1.5">
               <KeyRound className="w-3.5 h-3.5 text-[#0F766E]" />
               Direct Credentials Login
             </span>
-            <button
-              type="button"
-              onClick={handleAutofillDemo}
-              className="text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
-            >
-              Fill Demo Credentials
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={handleAutofillRealAdmin}
+                className="text-[11px] font-bold text-[#0F766E] hover:underline cursor-pointer"
+                title="Fill Real Admin Credentials"
+              >
+                Fill Real Admin
+              </button>
+              <span className="text-slate-300">•</span>
+              <button
+                type="button"
+                onClick={handleAutofillDemo}
+                className="text-[11px] font-bold text-amber-700 hover:underline cursor-pointer"
+              >
+                Fill Demo
+              </button>
+            </div>
+          </div>
+
+          <div className="mb-4 p-2.5 rounded-lg bg-teal-50/70 border border-teal-200/80 text-[11px] text-[#0F766E] font-medium flex items-center gap-2">
+            <Sparkles className="w-3.5 h-3.5 text-[#0F766E] shrink-0" />
+            <span>
+              <strong>Real Login:</strong> &ldquo;App &amp; Update Control&rdquo; ফিচারটি শুধুমাত্র আসল অ্যাডমিন অ্যাকাউন্টে দৃশ্যমান ও কার্যকর।
+            </span>
           </div>
 
           {error && (

@@ -798,86 +798,52 @@ class AdminApiClient {
     return res.json();
   }
 
-  // 10. App Control, Maintenance & Update Settings
+  // 10. App Control, Maintenance & Update Settings (Real Login Only)
   async getAppControl(): Promise<AppControlData> {
-    try {
-      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
-        headers: this.getHeaders(),
-      });
-      if (res.ok) {
-        const json = await res.json();
-        if (json.data) {
-          if (typeof window !== "undefined") {
-            localStorage.setItem("medbangla_demo_app_control", JSON.stringify(json.data));
-          }
-          return json.data;
-        }
-      }
-    } catch (err) {
-      console.warn("Backend error in getAppControl, falling back to local cache:", err);
+    if (this.isDemoMode()) {
+      return { ...DEFAULT_DEMO_APP_CONTROL };
     }
 
-    if (typeof window !== "undefined") {
-      const stored = localStorage.getItem("medbangla_demo_app_control");
-      if (stored) {
-        try {
-          return JSON.parse(stored);
-        } catch {
-          // ignore
-        }
-      }
+    const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+      headers: this.getHeaders(),
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || `অ্যাপ কন্ট্রোল ডাটা লোড ব্যর্থ হয়েছে (Status: ${res.status})`);
     }
-    return { ...DEFAULT_DEMO_APP_CONTROL };
+
+    const json = await res.json();
+    return json.data;
   }
 
   async updateAppControl(payload: Partial<AppControlData>): Promise<AppControlData> {
-    // 1. Always attempt live sync to backend so Flutter mobile apps receive the update
-    try {
-      const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
-        method: "PUT",
-        headers: this.getHeaders(),
-        body: JSON.stringify(payload),
-      });
-
-      if (res.ok) {
-        const json = await res.json();
-        if (typeof window !== "undefined") {
-          localStorage.setItem("medbangla_demo_app_control", JSON.stringify(json.data));
-        }
-        return json.data;
-      }
-    } catch (err) {
-      console.warn("Backend unreachable during updateAppControl, updating local cache:", err);
+    if (this.isDemoMode()) {
+      throw new Error(
+        "অ্যাপ কন্ট্রোল সেটিংস ডেমো মোডে পরিবর্তন করা সম্ভব নয়। শুধুমাত্র আসল অ্যাডমিন লগইনে (Real Login) এটি কার্যকর।"
+      );
     }
 
-    // 2. Fallback to local persistence if backend is offline
-    const current = await this.getAppControl();
-    const updated: AppControlData = {
-      ...current,
-      ...payload,
-      updated_at: new Date().toISOString(),
-    };
-    if (payload.apk_google_drive_url) {
-      const driveMatch = payload.apk_google_drive_url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
-      if (driveMatch) {
-        updated.apk_direct_download_url = `https://drive.google.com/uc?export=download&id=${driveMatch[1]}`;
-      }
+    const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control`, {
+      method: "PUT",
+      headers: this.getHeaders(),
+      body: JSON.stringify(payload),
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || `সেটিংস সংরক্ষণ ব্যর্থ হয়েছে (Status: ${res.status})`);
     }
-    if (typeof window !== "undefined") {
-      localStorage.setItem("medbangla_demo_app_control", JSON.stringify(updated));
-    }
-    return updated;
+
+    const json = await res.json();
+    return json.data;
   }
 
   async testDriveLink(driveUrl: string): Promise<{ file_id: string | null; direct_download_url: string; is_google_drive: boolean }> {
     if (this.isDemoMode()) {
-      const match = driveUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/) || driveUrl.match(/[?&]id=([a-zA-Z0-9_-]+)/);
-      const fileId = match ? match[1] : "demo-drive-id-12345";
-      return {
-        file_id: fileId,
-        direct_download_url: `https://drive.google.com/uc?export=download&id=${fileId}`,
-        is_google_drive: true,
-      };
+      throw new Error(
+        "গুগল ড্রাইভ লিংক পরীক্ষা শুধুমাত্র আসল অ্যাডমিন লগইনে (Real Login) কার্যকর।"
+      );
     }
 
     const res = await fetch(`${API_BASE_URL}/api/v1/admin/app-control/test-drive-link`, {

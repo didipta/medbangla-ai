@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Smartphone,
   ChevronRight,
@@ -21,10 +22,13 @@ import {
   Download,
   Info,
   HelpCircle,
+  Lock,
+  KeyRound,
 } from "lucide-react";
 import { adminApi, AppControlData } from "../../services/adminApi";
 
 export default function AppControlPage() {
+  const router = useRouter();
   const [loading, setLoading] = useState<boolean>(true);
   const [saving, setSaving] = useState<boolean>(false);
   const [testingLink, setTestingLink] = useState<boolean>(false);
@@ -60,8 +64,13 @@ export default function AppControlPage() {
   >("maintenance");
 
   useEffect(() => {
-    setIsDemo(adminApi.isDemoMode());
-    loadData();
+    const demo = adminApi.isDemoMode();
+    setIsDemo(demo);
+    if (!demo) {
+      loadData();
+    } else {
+      setLoading(false);
+    }
   }, []);
 
   const showToast = (message: string, type: "success" | "error" = "success") => {
@@ -136,6 +145,45 @@ export default function AppControlPage() {
         <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
           Loading App Lifecycle Controls...
         </span>
+      </div>
+    );
+  }
+
+  // Demo Sandbox Protection: Hide and disable App Control in demo mode; show only in real login
+  if (isDemo) {
+    return (
+      <div className="min-h-[65vh] flex flex-col items-center justify-center p-6 text-center font-bangla animate-fadeIn">
+        <div className="w-20 h-20 rounded-3xl bg-amber-50 border-2 border-amber-200/90 flex items-center justify-center text-amber-700 mb-5 shadow-lg shadow-amber-500/10">
+          <Lock className="w-10 h-10 text-amber-600" />
+        </div>
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-xs font-black uppercase tracking-wider mb-3">
+          <ShieldAlert className="w-4 h-4 text-amber-700" />
+          <span>Real Admin Only (শুধুমাত্র আসল অ্যাডমিন)</span>
+        </div>
+        <h1 className="text-2xl sm:text-3xl font-black text-slate-900 mb-3 tracking-tight">
+          অ্যাপ কন্ট্রোল ও আপডেট ডেমো স্যান্ডবক্সে উপলব্ধ নয়
+        </h1>
+        <p className="max-w-xl text-xs sm:text-sm text-slate-600 mb-6 font-medium leading-relaxed">
+          মোবাইল অ্যাপের লাইভ মেইনটেন্যান্স সুইচ, গুগল ড্রাইভ APK রিলিজ লিংক এবং ফোর্স আপডেট সম্পূর্ণ প্রোডাকশন-লেভেলের সংবেদনশীল ফিচার। নিরাপত্তা ও সিস্টেম অখণ্ডতা বজায় রাখতে এটি ডেমো মোডে দেখানো বা পরিবর্তন করা হয় না। এই ফিচারটি ব্যবহার করতে অনুগ্রহ করে <strong>আসল অ্যাডমিন অ্যাকাউন্টে (Real Login)</strong> প্রবেশ করুন।
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <Link
+            href="/admin"
+            className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold transition-all shadow-2xs"
+          >
+            ← ড্যাশবোর্ডে ফিরে যান
+          </Link>
+          <button
+            onClick={() => {
+              adminApi.removeToken();
+              router.push("/admin/login");
+            }}
+            className="px-5 py-2.5 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white text-xs sm:text-sm font-black transition-all shadow-md shadow-teal-700/20 flex items-center gap-2 cursor-pointer"
+          >
+            <KeyRound className="w-4 h-4" />
+            <span>আসল অ্যাডমিনে লগইন করুন (Log In With Real Admin)</span>
+          </button>
+        </div>
       </div>
     );
   }

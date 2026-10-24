@@ -344,28 +344,30 @@ export default function AdminDashboardPage() {
             </div>
           </Link>
 
-          {/* Module 6: App Lifecycle, APK & Maintenance Control */}
-          <Link
-            href="/admin/app-control"
-            className="group bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-teal-300 transition-all block relative overflow-hidden"
-          >
-            <div className="w-10 h-10 rounded-xl bg-teal-50 border border-teal-200 text-[#0F766E] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-              <Smartphone className="w-5 h-5" />
-            </div>
-            <h4 className="text-base font-black text-slate-900 group-hover:text-[#0F766E] transition-colors flex items-center justify-between">
-              <span>App & Update Control</span>
-              <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-[#0F766E] group-hover:translate-x-1 transition-all" />
-            </h4>
-            <p className="text-xs text-slate-500 mt-2 font-medium leading-relaxed">
-              মোবাইল অ্যাপের লাইভ মেইনটেন্যান্স সুইচ, গুগল ড্রাইভ APK রিলিজ ডিরেক্ট লিংক এবং ফোর্স আপডেট ম্যানেজমেন্ট।
-            </p>
-            <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#0F766E]">
-              <span>Manage App Lifecycle</span>
-              <span className="font-mono bg-[#F0FDFA] px-2 py-0.5 rounded border border-teal-200">
-                Live Center
-              </span>
-            </div>
-          </Link>
+          {/* Module 6: App Lifecycle, APK & Maintenance Control (Real Admin Login Only) */}
+          {!isDemo && (
+            <Link
+              href="/admin/app-control"
+              className="group bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-teal-300 transition-all block relative overflow-hidden"
+            >
+              <div className="w-10 h-10 rounded-xl bg-teal-50 border border-teal-200 text-[#0F766E] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Smartphone className="w-5 h-5" />
+              </div>
+              <h4 className="text-base font-black text-slate-900 group-hover:text-[#0F766E] transition-colors flex items-center justify-between">
+                <span>App & Update Control</span>
+                <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-[#0F766E] group-hover:translate-x-1 transition-all" />
+              </h4>
+              <p className="text-xs text-slate-500 mt-2 font-medium leading-relaxed">
+                মোবাইল অ্যাপের লাইভ মেইনটেন্যান্স সুইচ, গুগল ড্রাইভ APK রিলিজ ডিরেক্ট লিংক এবং ফোর্স আপডেট ম্যানেজমেন্ট।
+              </p>
+              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#0F766E]">
+                <span>Manage App Lifecycle</span>
+                <span className="font-mono bg-[#F0FDFA] px-2 py-0.5 rounded border border-teal-200">
+                  Live Center
+                </span>
+              </div>
+            </Link>
+          )}
         </div>
       </div>
     </div>

@@ -106,7 +106,7 @@ export default function AdminLayout({
     return <>{children}</>;
   }
 
-  const navItems = [
+  const allNavItems = [
     {
       label: "Dashboard & Analytics",
       bengaliLabel: "ওভারভিউ ও অ্যানালিটিক্স",
@@ -155,8 +155,12 @@ export default function AdminLayout({
       href: "/admin/app-control",
       icon: Smartphone,
       active: pathname === "/admin/app-control",
+      realOnly: true, // Visible and operational ONLY in real login
     },
   ];
+
+  // In Demo Mode: App & Update Control is hidden (only available in Real Admin Login)
+  const navItems = isDemo ? allNavItems.filter((item) => !item.realOnly) : allNavItems;
 
   return (
     <div className="min-h-screen w-full bg-[#FAFDFB] text-[#0F172A] flex flex-col font-bangla antialiased selection:bg-[#0F766E] selection:text-white">

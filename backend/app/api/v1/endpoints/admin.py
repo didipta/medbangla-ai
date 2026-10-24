@@ -923,12 +923,23 @@ class TestDriveLinkRequest(BaseModel):
     drive_url: str
 
 
+def require_real_admin(current_admin: Dict[str, Any]):
+    email = (current_admin.get("email") or "").lower()
+    admin_id = current_admin.get("id") or ""
+    if email == "demo@medbangla.ai" or admin_id == "demo-admin-bd-01" or "demo" in email:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="App & Update Control is restricted to Real Admin. Demo accounts are not authorized.",
+        )
+
+
 @router.get(
     "/app-control",
     summary="Get App Control, Maintenance & Update Settings",
     description="Returns current configuration for maintenance mode, target app versions, force-update state, and APK links."
 )
 def get_admin_app_control(current_admin: Dict[str, Any] = Depends(get_current_admin)):
+    require_real_admin(current_admin)
     from app.services.app_control_service import get_app_control
     config = get_app_control()
     return {
@@ -946,6 +957,7 @@ def update_admin_app_control(
     payload: AppControlUpdateRequest,
     current_admin: Dict[str, Any] = Depends(get_current_admin),
 ):
+    require_real_admin(current_admin)
     from app.services.app_control_service import update_app_control
     data = payload.model_dump(exclude_unset=True)
     updated = update_app_control(data)
@@ -966,6 +978,7 @@ def test_admin_drive_link(
     payload: TestDriveLinkRequest,
     current_admin: Dict[str, Any] = Depends(get_current_admin),
 ):
+    require_real_admin(current_admin)
     from app.services.app_control_service import parse_google_drive_link
     file_id, direct_url = parse_google_drive_link(payload.drive_url)
     if not direct_url:
