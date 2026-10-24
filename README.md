@@ -10,8 +10,10 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B.svg)](https://flutter.dev/)
 [![Neon Database](https://img.shields.io/badge/Neon-PostgreSQL_16-00E599.svg)](https://neon.tech/)
 [![Developed by Studio Peppers](https://img.shields.io/badge/Developed%20By-Studio%20Peppers-FF4B4B.svg)](https://github.com/didipta/medbangla-ai)
+[![Project Purpose](https://img.shields.io/badge/Purpose-Study%20%26%20Research%20Capstone-blueviolet.svg)](https://github.com/didipta/medbangla-ai)
+[![Full-Stack AI Capstone](https://img.shields.io/badge/Domain-AI%20%7C%20Python%20%7C%20Next.js%20%7C%20Flutter-orange.svg)](https://github.com/didipta/medbangla-ai)
 
-> **MedBangla AI** is an original proprietary healthcare technology project conceived, designed, and developed by **Studio Peppers**, specifically engineered for Bangladesh's clinical ecosystem. It addresses the epidemic of illegible handwritten prescriptions, polypharmacy risks, and linguistic barriers by providing **hybrid CPU-first bilingual OCR (RapidOCR + Gemini Flash)**, **fuzzy entity matching across 17,589+ DGDA-approved medicines**, **instant pairwise Drug-Drug Interaction (DDI) safety checks**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
+> **MedBangla AI** is an advanced, end-to-end medical AI research and study capstone project conceived, architected, and built from scratch by **Studio Peppers (Didipta)**. It serves as a comprehensive demonstration of practical mastery across **Applied Artificial Intelligence (Computer Vision, ONNX & Clinical RAG)**, **Python Backend Architecture (FastAPI & PostgreSQL)**, **Next.js 16 Web Engineering**, and **Flutter Cross-Platform Mobile Development**. Engineered specifically for Bangladesh's clinical landscape, the platform provides a complete clinical safety net: **hybrid CPU-first bilingual OCR (RapidOCR + Gemini Flash)**, **fuzzy entity matching across 17,589+ DGDA-approved medicines**, **instant pairwise Drug-Drug Interaction (DDI) safety checks**, and a **Bengali Clinical RAG assistant** with strict medical guardrails.
 
 ---
 
@@ -37,6 +39,47 @@ The Admin Portal supports dual authentication tiers:
 - **1-Click Instant Demo Login (Sandbox):**  
   - Available directly on `/admin/login` via the **"⚡ এক ক্লিকে ডেমো অ্যাডমিন লগইন"** button.  
   - Loads realistic simulated clinical audit logs and metrics while keeping live mobile app controls securely locked.
+
+---
+
+## 🎓 Academic, Research & Study Purpose: Technical Mastery Matrix
+
+> **Core Research Objective:**  
+> This project was developed as a rigorous, self-directed **academic study and engineering capstone** to master and showcase the complete lifecycle of mission-critical healthcare AI software. It synthesizes theoretical knowledge and practical production engineering across four foundational pillars:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                       STUDY & TECHNICAL KNOWLEDGE ARCHITECTURE                                                │
+├────────────────────────────────┬────────────────────────────────┬───────────────────────────────┬──────────────────────────────┤
+│  🧠 Applied AI & Vision        │  🐍 Python Backend Systems     │  ⚛️ Next.js 16 Web Apps       │  📱 Flutter Mobile Apps      │
+├────────────────────────────────┼────────────────────────────────┼───────────────────────────────┼──────────────────────────────┤
+│ • Hybrid CPU RapidOCR (ONNX)   │ • FastAPI Asynchronous Engine  │ • App Router & RSC Streaming  │ • Dart & Material Design 3   │
+│ • Multimodal Gemini Fallback   │ • Pydantic v2 Schema Contracts │ • Side-by-Side Canvas Review  │ • Native Camera Acceleration │
+│ • pgvector Semantic RAG        │ • Neon PostgreSQL Poolers      │ • Real-time Admin Telemetry   │ • Offline SQLite DGDA Sync   │
+│ • Trigram Fuzzy Matching       │ • JWT Bearer Auth & Security   │ • Tailwind CSS & Lucide Icons │ • Dynamic App Maintenance    │
+│ • Medical Guardrails           │ • Dual-Tier DB/Cache Sync      │ • Zero-Layout-Shift UX        │ • Google Drive In-App Update │
+└────────────────────────────────┴────────────────────────────────┴───────────────────────────────┴──────────────────────────────┘
+```
+
+### 1. 🧠 Artificial Intelligence & Computer Vision Knowledge
+- **Hybrid OCR Strategy:** Implemented a CPU-first edge-ready OCR runtime with RapidOCR (ONNX) achieving sub-second latency (250–850ms) for high-frequency printed text, coupled with an automated confidence triage layer that seamlessly routes cursive handwriting to Google Gemini 2.0/3.0 Flash.
+- **Bilingual Bengali Clinical RAG:** Developed a Retrieval-Augmented Generation pipeline using `pgvector` semantic embeddings over DGDA drug monographs, with strict medical guardrails preventing clinical hallucination.
+- **Fuzzy Entity Resolution:** Leveraged PostgreSQL trigram indexing (`pg_trgm`) and custom regular expressions to parse idiosyncratic Bengali dosage formats (`১+০+১`, `খাওয়ার আগে`) in $<18\text{ms}$.
+
+### 2. 🐍 Python & Backend Systems Engineering Knowledge
+- **Asynchronous ASGI Architecture:** Built with FastAPI and Python 3.11+, providing non-blocking concurrent request handling, structured dependency injection, and automatic OpenAPI schema generation.
+- **Resilient Multi-Tier Persistence:** Engineered relational database schemas on Neon PostgreSQL with connection pooling, combined with local caching and offline fallback mechanisms for high-availability clinical triage.
+- **Security & RBAC:** Authored custom JWT Bearer authorization layers, differentiating regular patient/doctor access from high-privilege Clinical Admin sessions.
+
+### 3. ⚛️ Next.js 16 & Modern Web Engineering Knowledge
+- **Next.js 16 App Router & Turbopack:** Designed with React Server Components (RSC) and client-side hydration for near-instant first contentful paint (FCP).
+- **Interactive Verification Canvas:** Constructed a custom human-in-the-loop review interface featuring side-by-side image-to-text crop visualization, confidence badges, and live candidate editing.
+- **Enterprise Clinical Cockpit:** Implemented real-time KPI charting, prescription audit history, and exclusive real-admin app lifecycle controls.
+
+### 4. 📱 Flutter & Cross-Platform Mobile Engineering Knowledge
+- **Production Flutter 3.x Architecture:** Engineered a modular, clean-architecture mobile client supporting both Android and iOS with shared business logic.
+- **Hardware Integration & Camera Pipeline:** Integrated hardware-accelerated camera framing, aspect ratio cropping, image compression, and direct upload pipelines.
+- **Dynamic Remote App Lifecycle:** Built a remote maintenance interceptor that reacts in real-time to administrative switches, coupled with an in-app update dialog directly fetching Google Drive APK releases.
 
 ---
 
@@ -324,7 +367,9 @@ flutter run
 
 ## 👨‍💻 Project Authorship & Ownership
 
-> **MedBangla AI** is an original proprietary medical technology initiative proudly conceived, designed, and developed by **Studio Peppers**.
+> **MedBangla AI** is an original proprietary medical technology initiative proudly conceived, designed, and engineered by **Studio Peppers (Didipta)**.
+> 
+> It was developed as a comprehensive **academic study and portfolio capstone** to integrate and demonstrate advanced capabilities in **Applied AI & Computer Vision**, **Python Backend Architecture**, **Next.js 16 Web Engineering**, and **Flutter Cross-Platform Mobile Development**.
 > 
 > - **Lead Engineering Studio:** **Studio Peppers**
 > - **Project Creator & Lead Architect:** **Didipta** ([GitHub Profile](https://github.com/didipta))
