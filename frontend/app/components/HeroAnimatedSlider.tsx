@@ -20,6 +20,7 @@ import {
   Cpu,
   Layers,
   ArrowRight,
+  Loader2,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { useAuth } from "../context/AuthContext";
@@ -183,9 +184,10 @@ const HERO_SLIDES: HeroSlide[] = [
 
 export const HeroAnimatedSlider: React.FC = () => {
   const { lang, t } = useLanguage();
-  const { currentUser, openAuthModal } = useAuth();
+  const { currentUser, openAuthModal, loginAsDemoUser } = useAuth();
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isEnteringDemo, setIsEnteringDemo] = useState(false);
   const [isPlaying, setIsPlaying] = useState(true);
   const [laserActive, setLaserActive] = useState(true);
   const [modalImage, setModalImage] = useState<string | null>(null);
@@ -412,17 +414,39 @@ export const HeroAnimatedSlider: React.FC = () => {
         {/* CTA Button */}
         <button
           type="button"
-          onClick={() => {
+          onClick={async () => {
             if (!currentUser) {
+              if (activeSlide.ctaLink === "/checker") {
+                setIsEnteringDemo(true);
+                try {
+                  await loginAsDemoUser("patient");
+                } catch (err) {
+                  console.error("Demo login error:", err);
+                } finally {
+                  setIsEnteringDemo(false);
+                }
+                router.push(activeSlide.ctaLink);
+                return;
+              }
               openAuthModal("login");
               return;
             }
             router.push(activeSlide.ctaLink);
           }}
-          className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-slate-900 hover:bg-[#0F766E] text-white text-[11px] sm:text-xs font-bold shadow-xs transition-all cursor-pointer"
+          disabled={isEnteringDemo}
+          className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-slate-900 hover:bg-[#0F766E] text-white text-[11px] sm:text-xs font-bold shadow-xs transition-all cursor-pointer disabled:opacity-85"
         >
-          <span>{lang === "bn" ? activeSlide.ctaTextBn : activeSlide.ctaTextEn}</span>
-          <ArrowRight className="w-3 h-3" />
+          {isEnteringDemo ? (
+            <>
+              <Loader2 className="w-3 h-3 animate-spin text-white" />
+              <span>{t("ডেমো লোড হচ্ছে...", "Loading Demo...")}</span>
+            </>
+          ) : (
+            <>
+              <span>{lang === "bn" ? activeSlide.ctaTextBn : activeSlide.ctaTextEn}</span>
+              <ArrowRight className="w-3 h-3" />
+            </>
+          )}
         </button>
       </div>
 

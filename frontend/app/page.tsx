@@ -49,6 +49,7 @@ import {
   ZoomIn,
   Edit3,
   Plus,
+  Loader2,
 } from "lucide-react";
 import { useLanguage } from "./context/LanguageContext";
 import { useAuth } from "./context/AuthContext";
@@ -170,7 +171,8 @@ const HERO_CATEGORIES = [
 export default function HomePage() {
   const router = useRouter();
   const { lang, t } = useLanguage();
-  const { currentUser, openAuthModal } = useAuth();
+  const { currentUser, openAuthModal, loginAsDemoUser } = useAuth();
+  const [isEnteringDemo, setIsEnteringDemo] = useState<boolean>(false);
 
   // Unified Interactive Workstation Section Expand/Collapse State
   const [workstationSections, setWorkstationSections] = useState({
@@ -256,12 +258,38 @@ export default function HomePage() {
     }, 1300);
   };
 
-  // Navigate to checker or prompt login if not authenticated
-  const handleCheckerNavigation = (e?: React.MouseEvent) => {
+  // Handle Check Prescription & Try Demo button click
+  const handleCheckPrescriptionDemo = async (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    if (currentUser) {
+      router.push("/checker");
+      return;
+    }
+
+    setIsEnteringDemo(true);
+    try {
+      await loginAsDemoUser("patient");
+      router.push("/checker");
+    } catch (err) {
+      console.error("Demo login error:", err);
+      router.push("/checker");
+    } finally {
+      setIsEnteringDemo(false);
+    }
+  };
+
+  // Navigate to checker or enter demo if not authenticated
+  const handleCheckerNavigation = async (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
     if (!currentUser) {
-      openAuthModal("login");
-      return;
+      setIsEnteringDemo(true);
+      try {
+        await loginAsDemoUser("patient");
+      } catch (err) {
+        console.error("Demo login error:", err);
+      } finally {
+        setIsEnteringDemo(false);
+      }
     }
     router.push("/checker");
   };
@@ -368,12 +396,22 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
                 <button
                   type="button"
-                  onClick={() => router.push("/checker")}
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] px-7 py-3.5 text-xs sm:text-sm font-bold text-white shadow-xs transition-all cursor-pointer group"
+                  onClick={handleCheckPrescriptionDemo}
+                  disabled={isEnteringDemo}
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F766E] hover:bg-[#115E59] px-7 py-3.5 text-xs sm:text-sm font-bold text-white shadow-xs transition-all cursor-pointer group disabled:opacity-85"
                 >
-                  <Scan className="w-4 h-4" />
-                  <span>{t("প্রেসক্রিপশন ডেমো ও চেকার পরীক্ষা করুন", "Check Prescription & Try Demo")}</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                  {isEnteringDemo ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin text-white" />
+                      <span>{t("ডেমো সক্রিয় করা হচ্ছে...", "Activating Demo...")}</span>
+                    </>
+                  ) : (
+                    <>
+                      <Scan className="w-4 h-4" />
+                      <span>{t("প্রেসক্রিপশন ডেমো ও চেকার পরীক্ষা করুন", "Check Prescription & Try Demo")}</span>
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                    </>
+                  )}
                 </button>
 
                 <Link
